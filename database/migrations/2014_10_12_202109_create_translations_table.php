@@ -11,9 +11,10 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('categories', function (Blueprint $table) {
+        Schema::create('translations', function (Blueprint $table) {
             $table->uuid("id")->primary();
-            $table->string("name");
+            $table->foreignUuid("language_id")->references("id")->on("languages");
+            $table->longText("translation");
             $table->timestamps();
         });
     }
@@ -23,6 +24,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('categories');
+        Schema::dropIfExists('translations');
     }
 };
