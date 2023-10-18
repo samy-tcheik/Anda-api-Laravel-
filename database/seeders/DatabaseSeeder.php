@@ -19,6 +19,7 @@ class DatabaseSeeder extends Seeder
             UserSeeder::class,
             CategorySeeder::class,
             WilayaSeeder::class,
+            TownSeeder::class,
             TranslationSeeder::class,
             TranslatableSeeder::class
         ]);

@@ -18,8 +18,8 @@ return new class extends Migration
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->foreignUuid("language_id")->references("id")->on("languages");
-            $table->integer("lat");
-            $table->integer("long");
+            $table->double("latitude");
+            $table->double("longitude");
             $table->rememberToken();
             $table->timestamps();
         });

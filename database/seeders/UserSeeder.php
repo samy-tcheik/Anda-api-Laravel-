@@ -18,8 +18,8 @@ class UserSeeder extends Seeder
             'name' => 'Root',
             'email' => 'root@root.com',
             'language_id' => "871d73c9-c65d-476a-97f0-929fff2707c3",
-            'lat' => 36.76863235839,
-            'long' => 3.4969149588378334
+            'latitude' => 36.76863235839,
+            'longitude' => 3.4969149588378334
         ]);
     }
 }
