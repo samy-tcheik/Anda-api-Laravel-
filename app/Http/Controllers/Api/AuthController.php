@@ -28,6 +28,11 @@ class AuthController extends Controller
         $user->language()->associate($language)->save();
 
         $token = $user->createToken("API TOKEN")->plainTextToken;
+
+        VerificationController::sendPin($user);
+
+
+
         return response([
            "user" => $user,
            "bearer" => $token
