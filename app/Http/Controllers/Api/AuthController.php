@@ -27,15 +27,12 @@ class AuthController extends Controller
         $user = new User($validated);
         $user->language()->associate($language)->save();
 
-        $token = $user->createToken("API TOKEN")->plainTextToken;
+        //$token = $user->createToken("API TOKEN")->plainTextToken;
 
-        VerificationController::sendPin($user);
-
-
+        VerificationController::emailVerification($user);
 
         return response([
            "user" => $user,
-           "bearer" => $token
         ], 200);
     }
 
@@ -76,7 +73,6 @@ class AuthController extends Controller
 
         } catch (\Throwable $th) {
             return response()->json([
-                'status' => false,
                 'message' => $th->getMessage()
             ], 500);
         }
