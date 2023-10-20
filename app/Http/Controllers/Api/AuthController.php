@@ -3,8 +3,11 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
+use App\Http\Requests\Auth\RegisterRequest;
+use App\Models\Language;
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
@@ -14,49 +17,27 @@ class AuthController extends Controller
     /**
      * Create User
      * @param Request $request
-     * @return User
+     * @return Response
      */
-    public function register(Request $request)
+    public function register(RegisterRequest $request)
     {
-        try {
-            //Validated
-            $validateUser = Validator::make($request->all(),
-            [
-                'name' => 'required',
-                'email' => 'required|email|unique:users,email',
-                'password' => 'required'
-            ]);
+        $validated = $request->validated();
+        $language = Language::where("code", $validated["language"])->first();
 
-            if($validateUser->fails()){
-                return response()->json([
-                    'status' => false,
-                    'message' => 'validation error',
-                    'errors' => $validateUser->errors()
-                ], 401);
-            }
+        $user = new User($validated);
+        $user->language()->associate($language)->save();
 
-            $user = User::create([
-                'name' => $request->name,
-                'email' => $request->email,
-                'password' => Hash::make($request->password)
-            ]);
-
-            return response()->json([
-                'bearer' => $user->createToken("API TOKEN")->plainTextToken
-            ], 200);
-
-        } catch (\Throwable $th) {
-            return response()->json([
-                'status' => false,
-                'message' => $th->getMessage()
-            ], 500);
-        }
+        $token = $user->createToken("API TOKEN")->plainTextToken;
+        return response([
+           "user" => $user,
+           "bearer" => $token
+        ], 200);
     }
 
     /**
      * Login The User
      * @param Request $request
-     * @return User
+     * @return Response
      */
     public function login(Request $request)
     {
