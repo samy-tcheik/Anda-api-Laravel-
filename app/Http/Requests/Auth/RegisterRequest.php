@@ -26,8 +26,6 @@ class RegisterRequest extends FormRequest
             "email" => "required|email|unique:users,email",
             "password" => "required|min:8|confirmed",
             "language" => "required",
-            "latitude" => "required",
-            "longitude" => "required"
         ];
     }
 }
