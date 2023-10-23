@@ -22,12 +22,8 @@ class AuthController extends Controller
     public function register(RegisterRequest $request)
     {
         $validated = $request->validated();
-        $language = Language::where("code", $validated["language"])->first();
 
         $user = new User($validated);
-        $user->language()->associate($language)->save();
-
-        //$token = $user->createToken("API TOKEN")->plainTextToken;
 
         VerificationController::emailVerification($user);
 
