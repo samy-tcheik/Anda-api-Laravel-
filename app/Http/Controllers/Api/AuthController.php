@@ -22,8 +22,9 @@ class AuthController extends Controller
     public function register(RegisterRequest $request)
     {
         $validated = $request->validated();
-
+        $language = Language::where("code", $validated["language"])->first();
         $user = new User($validated);
+        $user->language()->associate($language);
 
         VerificationController::emailVerification($user);
 
