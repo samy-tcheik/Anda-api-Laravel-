@@ -5,7 +5,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\UserController;
 use App\Http\Controllers\Api\VerificationController;
-
+use App\Http\Controllers\Api\PlaceController;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -33,4 +33,6 @@ Route::middleware("auth:sanctum")->group(function () {
     Route::patch("/user/update", [UserController::class, "update"]);
     Route::get("/user", [UserController::class, "show"]);
     Route::post("/user/update-avatar", [UserController::class, "updateAvatar"]);
+    //places
+    Route::apiResource("places", PlaceController::class);
 });

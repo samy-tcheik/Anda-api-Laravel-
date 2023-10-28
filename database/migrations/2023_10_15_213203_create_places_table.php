@@ -16,6 +16,8 @@ return new class extends Migration
             $table->string("name");
             $table->double("latitude");
             $table->double("longitude");
+            $table->foreignUuid("town_id")->references("id")->on("towns");
+            $table->foreignUuid("category_id")->references("id")->on("categories");
             $table->timestamps();
         });
     }
