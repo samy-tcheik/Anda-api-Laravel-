@@ -33,6 +33,7 @@ Route::middleware("auth:sanctum")->group(function () {
     Route::patch("/user/update", [UserController::class, "update"]);
     Route::get("/user", [UserController::class, "show"]);
     Route::post("/user/update-avatar", [UserController::class, "updateAvatar"]);
+    Route::delete("/user", [UserController::class, "delete"]);
     //places
     Route::apiResource("places", PlaceController::class);
 });
