@@ -25,6 +25,35 @@ class TranslationSeeder extends Seeder
             ["id" => "deab2578-b912-4085-a0a1-30e37a753e2b", "translation" => "arabe", "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
             ["id" => "bf04844c-dc90-4673-bea0-f5a1b643c88c", "translation" => "عربي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
 
+            //Categories
+            ["id" => "a9d5d947-e38e-4eba-afe0-01a1c19b2f56", "translation" => "Entertainment", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "387f78a9-f7f9-441d-bd9f-6fcee8ae6d53", "translation" => "Divertissements" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0aef1675-010c-4a0b-9eb4-752166f296dd", "translation" => "ترفيه", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+
+            ["id" => "72bf5b7b-0596-4eb7-b929-9c3b76059c61", "translation" => "Art and Culture", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "143413e6-cb34-4334-9f18-1dd467549be7", "translation" => "Art et Culture " , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e0637990-0617-4316-9d0e-4a7b77d2a7a8", "translation" => "فن وثقافة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+
+            ["id" => "841a5bcb-d88d-4f31-80ec-adf49eb8de5e", "translation" => "Natural sites", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ff92549a-a139-4163-8a30-15ab03558173", "translation" => "Sites naturels " , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "48a309cd-0024-4a12-9558-ecfe7ed5fa20", "translation" => "مواقع طبيعية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+
+            ["id" => "a4b2c5de-b03b-43e5-88cf-51ab8bdfe274", "translation" => "Historical sites", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a8b69a98-4026-45bc-ab33-93d31a75e367", "translation" => "Sites historiques " , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c922f97d-268d-4180-9129-0347cc59ea10", "translation" => "مواقع تاريخية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+
+            ["id" => "f5d116de-936b-40ca-b34f-1c514b8bf557", "translation" => "Recreation and Relaxation", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1b6ac91e-970e-4565-bdd8-0762081fdb2c", "translation" => "Loisirs et Détente " , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b6327c46-21b0-4013-bf41-02572b8d7191", "translation" => "تسلية واستجمام", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+
+            ["id" => "b4728009-5572-4d75-bee9-d9eae66ebd3a", "translation" => "Coastal sites", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0fe1edfc-e048-4360-aeed-696a7f0845bf", "translation" => "Sites côtiers" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3486269e-26bd-436f-8f26-5daa99fe17ae", "translation" => "مواقع ساحلية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+
+            ["id" => "cac3802e-24aa-419d-ba0a-37ae50693142", "translation" => "Sacred and Religious sites", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "62b5d89e-15af-4a3b-87fa-a458c2085048", "translation" => "Sites sacrés et religieux " , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8fb2fd41-1266-4a1c-ad70-53c117b30d4c", "translation" => "مواقع مقدسة ودينية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+
             //Descriptions
             ["id" => "c5b8f531-5393-464c-93c7-16f3e5e91051", "translation" => "The Church of Saint-Cyprien in El Kala is a remarkable religious building and an architectural and spiritual testament to the history and cultural richness of the region.", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
             ["id" => "70de6341-675e-4025-bcb9-0912c6cfb278", "translation" => "L'église Saint-Cyprien d'El Kala est un édifice religieux remarquable. et un témoignage architectural et spirituel de l'histoire et de la richesse culturelle de la région", "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
