@@ -20,8 +20,10 @@ class DatabaseSeeder extends Seeder
             CategorySeeder::class,
             WilayaSeeder::class,
             TownSeeder::class,
+            PlaceSeeder::class,
+            DescriptionSeeder::class,
             TranslationSeeder::class,
-            TranslatableSeeder::class
+            TranslatableSeeder::class,
         ]);
     }
 }

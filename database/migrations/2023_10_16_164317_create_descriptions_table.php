@@ -11,13 +11,9 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('places', function (Blueprint $table) {
+        Schema::create('descriptions', function (Blueprint $table) {
             $table->uuid("id")->primary();
-            $table->string("name");
-            $table->double("latitude");
-            $table->double("longitude");
-            $table->foreignUuid("town_id")->references("id")->on("towns");
-            $table->foreignUuid("category_id")->references("id")->on("categories");
+            $table->foreignUuid("place_id")->references("id")->on("places");
             $table->timestamps();
         });
     }
@@ -27,6 +23,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('places');
+        Schema::dropIfExists('descriptions');
     }
 };

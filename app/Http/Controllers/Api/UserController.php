@@ -7,9 +7,9 @@ use App\Http\Requests\User\AvatarRequest;
 use App\Http\Requests\User\PositionRequest;
 use App\Http\Requests\User\UserRequest;
 use App\Http\Resources\User\UserResource;
-use App\Http\Responses\User\DeleteUserResponse;
 use App\Http\Responses\User\UpdatePositionResponse;
 use Illuminate\Support\Facades\Auth;
+use Intervention\Image\Facades\Image;
 
 class UserController extends Controller
 {

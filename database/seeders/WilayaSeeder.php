@@ -25,7 +25,7 @@ class WilayaSeeder extends Seeder
             ['id' => "46765e0f-b081-41af-9c6d-2b5554d2329b" ,'name' => 'bechar'],
             ['id' => "4ed6f315-0f80-499d-b396-94c0b1608825" ,'name' => 'blida'],
             ['id' => "832a45e9-ae04-494a-b1fe-0b32a04b306e" ,'name' => 'bouira'],
-            ['id' => "7cafdf16-738e-4ea7-bc2f-58692a82f304" ,'name' => 'Ttamanrasset'],
+            ['id' => "7cafdf16-738e-4ea7-bc2f-58692a82f304" ,'name' => 'tamanrasset'],
             ['id' => "7dd32725-aba2-4bdf-b046-ef848920f16b" ,'name' => 'tebessa'],
             ['id' => "cf031405-a5a4-47ff-90ab-1cf08c585059" ,'name' => 'tlemcen'],
             ['id' => "83ba7bd0-9f28-4766-b9d1-ad0574e549b2" ,'name' => 'tiaret'],
