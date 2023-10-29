@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\UserController;
 use App\Http\Controllers\Api\VerificationController;
 use App\Http\Controllers\Api\PlaceController;
+use App\Http\Controllers\Api\CategoryController;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -36,4 +37,6 @@ Route::middleware("auth:sanctum")->group(function () {
     Route::delete("/user", [UserController::class, "delete"]);
     //places
     Route::apiResource("places", PlaceController::class);
+    //categories
+    Route::apiResource("categories", CategoryController::class);
 });
