@@ -36,6 +36,7 @@ Route::middleware("auth:sanctum")->group(function () {
     Route::post("/user/update-avatar", [UserController::class, "updateAvatar"]);
     Route::delete("/user", [UserController::class, "delete"]);
     //places
+    Route::get("/places/nearby", [PlaceController::class, "nearby"]);
     Route::apiResource("places", PlaceController::class);
     //categories
     Route::apiResource("categories", CategoryController::class);
