@@ -7,6 +7,8 @@ use App\Http\Controllers\Api\UserController;
 use App\Http\Controllers\Api\VerificationController;
 use App\Http\Controllers\Api\PlaceController;
 use App\Http\Controllers\Api\CategoryController;
+use App\Http\Controllers\Api\WilayaController;
+use App\Http\Controllers\Api\TownController;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -35,8 +37,11 @@ Route::middleware("auth:sanctum")->group(function () {
     Route::get("/user", [UserController::class, "show"]);
     Route::post("/user/update-avatar", [UserController::class, "updateAvatar"]);
     Route::delete("/user", [UserController::class, "delete"]);
+    //wilayas
+    Route::apiResource("wilayas", WilayaController::class);
+    //towns
+    Route::get("towns/{wilaya}", [TownController::class, "wilaya_town"]);
     //places
-    Route::get("/places/nearby", [PlaceController::class, "nearby"]);
     Route::apiResource("places", PlaceController::class);
     //categories
     Route::apiResource("categories", CategoryController::class);

@@ -15,4 +15,8 @@ class Wilaya extends Model
     public function translations(): MorphToMany {
         return $this->morphToMany(Translation::class, "translatable");
     }
+
+    public function towns() {
+        return $this->hasMany(Town::class);
+    }
 }
