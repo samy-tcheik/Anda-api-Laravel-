@@ -19,6 +19,10 @@ class Place extends Model
         return $this->morphToMany(Translation::class, "translatable");
     }
 
+    public function town() {
+        return $this->belongsTo(Town::class);
+    }
+
     public function description(): HasOne {
         return $this->hasOne(Description::class,"place_id");
     }

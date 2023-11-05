@@ -16,7 +16,7 @@ class Town extends Model
         return $this->morphToMany(Translation::class, "translatable");
     }
 
-    public function wilayas() {
-        return $this->belongsTo(Wilaya::class, "wilaya_id");
+    public function wilaya() {
+        return $this->belongsTo(Wilaya::class, );
     }
 }

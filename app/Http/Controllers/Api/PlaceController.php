@@ -16,6 +16,7 @@ class PlaceController extends Controller
     public function index(Request $request): ResourceCollection {
         $places = QueryBuilder::for(Place::class)
             ->allowedFilters(["category_id", "town_id", AllowedFilter::custom("range", new RangeFilter)->ignore(null)])
+            ->with( 'town.wilaya' )
             ->take($request->get("count"))
             ->get();
         return PlaceResource::collection($places);
