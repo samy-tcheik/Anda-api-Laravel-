@@ -8,7 +8,7 @@ class RangeFilter implements Filter
     {
         public function __invoke(Builder $query, $value, string $property)
         {
-            if ($value["range"] !== null) {
+            if ($value["range"]) {
                 $query->withinDistanceOf($value["latitude"],$value["longitude"], $value["range"])->addDistanceFromField($value["latitude"],$value["longitude"]);
             }
         }
