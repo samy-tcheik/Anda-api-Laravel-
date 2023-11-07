@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use App\Http\Filters\RangeFilter;
+use App\Http\Resources\Place\PlaceDetailResource;
 use App\Http\Resources\Place\PlaceResource;
 use App\Models\Place;
 use Illuminate\Http\Request;
@@ -40,6 +41,14 @@ class PlaceController extends Controller
             ->take(5)
             ->paginate();
         return PlaceResource::collection($places);
-
     }
+
+    public function show(Request $request,string $place_id) {
+
+        $latitude = $request->get("filter")["range"]["latitude"];
+        $longitude = $request->get("filter")["range"]["longitude"];
+        $place = Place::addDistanceFromField($latitude,$longitude)->find($place_id);
+        return PlaceDetailResource::make($place);
+    }
+
 }
