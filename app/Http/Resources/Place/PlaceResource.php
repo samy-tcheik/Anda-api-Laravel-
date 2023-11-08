@@ -21,7 +21,8 @@ class PlaceResource extends JsonResource
             "name" => $this->name,
             "distance" => strval(round($this->distance)),
             "town" => TownResource::make($this->town),
-            "wilaya" => WilayaResource::make($this->town->wilaya)
+            "wilaya" => WilayaResource::make($this->town->wilaya),
+            "rating" => $this->getRating()
         ];
     }
 }

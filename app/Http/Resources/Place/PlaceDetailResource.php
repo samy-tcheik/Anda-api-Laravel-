@@ -17,13 +17,13 @@ class PlaceDetailResource extends JsonResource
     public function toArray(Request $request): array
     {
         $langaugeId = Language::where("code", $request->header("Accept-Language"))->first()->id;
-
         return [
             "id" => $this->id,
             "name" => $this->name,
             "description" => $this->description->getTranslation($langaugeId),
             "wilaya" => WilayaResource::make($this->town->wilaya),
-            "distance" => strval(round($this->distance))
+            "distance" => strval(round($this->distance)),
+            "rating" => $this->getRating()
         ];
     }
 }

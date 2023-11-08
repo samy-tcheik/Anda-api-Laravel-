@@ -4,11 +4,15 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use App\Http\Filters\RangeFilter;
+use App\Http\Requests\Place\RatingRequest;
 use App\Http\Resources\Place\PlaceDetailResource;
 use App\Http\Resources\Place\PlaceResource;
+use App\Http\Responses\Rating\RatingPlaceResponse;
 use App\Models\Place;
+use App\Models\Rating;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\ResourceCollection;
+use Illuminate\Support\Facades\Auth;
 use Spatie\QueryBuilder\AllowedFilter;
 use Spatie\QueryBuilder\QueryBuilder;
 
@@ -29,7 +33,6 @@ class PlaceController extends Controller
         $places = QueryBuilder::for(Place::class)
             ->allowedFilters(["category_id"])
             ->withinDistanceOf($latitude,$longitude, 30)->addDistanceFromField($latitude,$longitude)
-            ->with( 'town.wilaya' )
             ->take(5)->get();
             ;
         return PlaceResource::collection($places);
@@ -49,6 +52,19 @@ class PlaceController extends Controller
         $longitude = $request->get("filter")["range"]["longitude"];
         $place = Place::addDistanceFromField($latitude,$longitude)->find($place_id);
         return PlaceDetailResource::make($place);
+    }
+
+    public function updateRating(RatingRequest $request, Place $place) {
+        $user = Auth::user();
+        if (!$user->ratings()->where("place_id",$place->id)->exists()) {
+            $rating = new Rating($request->validated());
+            $rating->place()->associate($place);
+            $rating->user()->associate(Auth::user());
+            $rating->save();
+        } else {
+            $user->ratings()->where("place_id", $place->id)->update($request->validated());
+        }
+        return new RatingPlaceResponse();
     }
 
 }

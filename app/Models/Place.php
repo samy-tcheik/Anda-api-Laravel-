@@ -5,6 +5,8 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
 use Netsells\GeoScope\Traits\GeoScopeTrait;
@@ -19,7 +21,7 @@ class Place extends Model
         return $this->morphToMany(Translation::class, "translatable");
     }
 
-    public function town() {
+    public function town(): BelongsTo {
         return $this->belongsTo(Town::class);
     }
 
@@ -27,4 +29,11 @@ class Place extends Model
         return $this->hasOne(Description::class,"place_id");
     }
 
+    public function rating(): HasMany {
+        return $this->hasMany(Rating::class, "place_id");
+    }
+
+    public function getRating(): ?float {
+        return $this->rating->avg("rating");
+    }
 }
