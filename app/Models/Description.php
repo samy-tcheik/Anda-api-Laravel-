@@ -15,4 +15,12 @@ class Description extends Model
     public function translations(): MorphToMany {
         return $this->morphToMany(Translation::class,"translatable");
     }
+
+    /**
+     * Get description translation.
+     */
+
+    public function getTranslation(string $lang): string {
+        return $this->translations->where("language_id",$lang)->first()->translation;
+    }
 }

@@ -10,6 +10,8 @@ class RangeFilter implements Filter
         {
             if ($value["range"]) {
                 $query->withinDistanceOf($value["latitude"],$value["longitude"], $value["range"])->addDistanceFromField($value["latitude"],$value["longitude"]);
+            } else {
+                $query->addDistanceFromField($value["latitude"],$value["longitude"]);
             }
         }
 }
