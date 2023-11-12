@@ -51,7 +51,7 @@ class PlaceController extends Controller
         $latitude = $request->get("filter")["range"]["latitude"];
         $longitude = $request->get("filter")["range"]["longitude"];
         $place = Place::addDistanceFromField($latitude,$longitude)->find($place_id);
-        return PlaceDetailResource::make($place);
+        return PlaceResource::make($place);
     }
 
     public function updateRating(RatingRequest $request, Place $place) {
