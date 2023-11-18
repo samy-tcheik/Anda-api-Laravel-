@@ -7,7 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class Commentable extends Model
 {
-    use HasFactory;
 
-    protected $table = 'commentable';
 }
