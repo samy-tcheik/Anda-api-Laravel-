@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('commentable', function (Blueprint $table) {
+        Schema::create('commentables', function (Blueprint $table) {
             $table->foreignUuid("comment_id")->constrained();
             $table->uuidMorphs("commentable");
         });
@@ -22,6 +22,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('commentable');
+        Schema::dropIfExists('commentables');
     }
 };
