@@ -36,4 +36,8 @@ class Place extends Model
     public function getRating(): ?float {
         return $this->rating->avg("rating");
     }
+
+    public function comments(): MorphToMany {
+        return $this->morphToMany(Comment::class, "commentable");
+    }
 }
