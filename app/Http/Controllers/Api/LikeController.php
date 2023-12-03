@@ -12,10 +12,6 @@ use Illuminate\Support\Facades\Auth;
 
 class LikeController extends Controller
 {
-    public function index() {
-
-    }
-
     public function store($type, string $id) {
         $model = LikableType::fromName($type)->value;
         if ($model::find($id)->alreadyLiked()) {
