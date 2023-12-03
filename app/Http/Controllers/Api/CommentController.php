@@ -21,7 +21,6 @@ class CommentController extends Controller
 
     public function store(CommentRequest $request,$type, string $id): CommentResource
     {
-
         $model = CommentableType::fromName($type)->value;
 
         $validated = $request->validated();

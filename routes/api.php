@@ -3,6 +3,7 @@
 use App\Http\Controllers\Api\AuthController;
 use App\Http\Controllers\Api\CommentController;
 use App\Http\Controllers\Api\HistoryController;
+use App\Http\Controllers\Api\LikeController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\UserController;
@@ -56,6 +57,11 @@ Route::middleware("auth:sanctum")->group(function () {
     Route::get("comments/{comment}", [CommentController::class, "show"])->name("comments.show");
     Route::put("comments/{comment}", [CommentController::class, "update"])->name("comments.update");
     Route::delete("comments/{comment}", [CommentController::class, "delete"])->name("comments.delete");
+    //likes
+    Route::get("likes/{type}/{model}", [LikeController::class, "index"])->name("likes.index");
+    Route::post("likes/{type}/{model}", [LikeController::class, "store"])->name("likes.store");
+    Route::delete("likes/{type}/{model}", [LikeController::class, "delete"])->name("like.delete");
+
     //history
     Route::get("history", [HistoryController::class, "index"])->name("history.index");
     Route::post("history/{place}", [HistoryController::class, "store"])->name("history.store");
