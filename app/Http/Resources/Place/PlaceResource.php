@@ -20,7 +20,7 @@ class PlaceResource extends JsonResource
         $langaugeId = Language::where("code", $request->header("Accept-Language"))->first()->id;
         return [
             "id" => $this->id,
-            "name" => $this->getTranslation($langaugeId),
+            "name" => $this->name,
             "description" => $this->description->getTranslation($langaugeId),
             "distance" => strval(round($this->distance)),
             "town" => TownResource::make($this->town),

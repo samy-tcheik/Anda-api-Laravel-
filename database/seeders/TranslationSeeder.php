@@ -335,6 +335,886 @@ class TranslationSeeder extends Seeder
             ["id" => "84ecbe1c-fd95-47f4-b18a-ade0138a4c4f", "translation" => "Kotama museum", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
             ["id" => "a504a34f-fc9f-4935-a0b2-f2ccad650876", "translation" => "Musée Kotama" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
             ["id" => "b3cf9b04-fb49-41bc-a7e7-075056fb2686", "translation" => "متحف كتامة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //81
+            ["id" => "f7ebbedb-14e8-44ba-8669-1e90975f879e", "translation" => "Museum of the Mujahid", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ef4936d1-61f2-4045-9b2c-aedfc649889a", "translation" => "Musée du Moudjahid" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "98514788-a498-46f6-a73a-15e9fab69236", "translation" => "متحف المجاهد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //82
+            ["id" => "2e1f5b46-b83f-45b5-b205-724cf0e26ed8", "translation" => "Chamber of crafts and trades", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "14f6578f-9e5f-41af-9dfd-7633aba644e7", "translation" => "Chambre de l’artisanat et des métiers" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "93ace364-7e91-4d32-8978-d0d2980c7299", "translation" => "غرفة الصناعة والحرف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //83
+            ["id" => "86cdd3a1-1c79-4ef4-a5dc-de6963b6e2cc", "translation" => "The Beaumarchais wall", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7ef204a5-d871-4133-9bfd-045ca638f032", "translation" => "Le mur de Beaumarchais" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bdfea2b8-d5d3-4141-a443-b9d6583700cb", "translation" => "سور بومارشي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //84
+            ["id" => "3fbfb677-f4eb-47c6-8ecd-80d9e9e7af88", "translation" => "Punic necropolis", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6b4e1545-fa25-4f47-9be1-89b9e684d934", "translation" => "Nécropole Punique" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0a02d73b-2d2e-458a-a3df-e7d0e2cc28c1", "translation" => "المقبرة الفينيقية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //85
+            ["id" => "05947ff8-1a67-4614-9cdc-890e8e1dc6aa", "translation" => "The great mosque of jijel", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "172dd17b-6b41-4fff-98c8-87922b43867a", "translation" => "La grande mosquée de Jijel" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9c294247-5ab3-4e83-84ee-4870537e6660", "translation" => "المسجد الكبير", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //86
+            ["id" => "725f2be9-3987-46ce-811a-ce32619f44df", "translation" => "Achouat beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "71a83154-8a3b-48f2-8562-5d5b1c540faf", "translation" => "Plage Achouat" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c125896c-08e1-4e9c-922a-4e2afb22b898", "translation" => "شاطئ الأشواط", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //87
+            ["id" => "479eb9f8-083b-40b6-8ef7-7b178045b85d", "translation" => "Monument to the Martyrs", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "248161e3-e18e-4a77-976f-a402b360d8e8", "translation" => "Monument aux Martyrs" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "702b3df3-aa09-403f-b6a9-b89520ef3ee1", "translation" => "مقام الشهيد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //88
+            ["id" => "ced8a9bc-884e-434b-9c58-36f0e9bbeb4c", "translation" => "Monument to the Martyrs", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a44ee2b6-c064-40fb-b826-13bfbf938d14", "translation" => "Monument aux Martyrs" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f5aced16-f6ea-49c2-971b-7a8fff6902c2", "translation" => "مقام الشهيد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //89
+            ["id" => "ce14739b-af06-4b73-a52b-2bab7b6dada9", "translation" => "Beni Ferguene beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "14d4f832-4aab-44fb-9537-2f9729bd1581", "translation" => "Plage Beni Ferguene" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "497fea50-ff95-4e10-9f32-0725eec5e904", "translation" => "شاطئ بني فرقان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //90
+            ["id" => "09f4710f-b1fc-4784-ab4c-48a4187df09a", "translation" => "El Maa el Bared forest", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c4a7fb4c-8ef7-4f35-aac3-9a6ec24892df", "translation" => "Forêt el Maa el Bared" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3f8711ed-f90a-406b-98cb-3a2a5541743b", "translation" => "غابة الماء البارد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //91
+            ["id" => "f6147896-9071-4efd-9d60-9054a8ecb1e5", "translation" => "Statue of Mohamed Sedik Benyahia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "53ab5a4c-d8f0-464d-ac8c-5aa2fd80fe23", "translation" => "Statue de Mohamed Sedik Benyahia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "cccfb56c-fc9b-4d2c-9bbf-271f7c6051be", "translation" => "تمثال محمد الصديق بن يحيى", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //92
+            ["id" => "d8b95724-1a5f-4b0e-9a05-0331e641d204", "translation" => "The caves of Taza", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a9570439-31ee-4174-8520-9aa132767bac", "translation" => "Les grottes de Taza" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7a4874f3-5a08-47a2-830a-c6609e47e224", "translation" => "كهوف تازة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //93
+            ["id" => "1779017f-30c4-4c29-b2ce-fc4f41d1203b", "translation" => "Taza national park", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "22369784-0d7a-4b30-9c0b-d7185d89a2f3", "translation" => "Parc national de Taza" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d0b17086-30fd-427c-b039-88685a70dbeb", "translation" => "الحظيرة الوطنية لتازة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //94
+            ["id" => "19fea2ba-b5f1-4d5c-b91d-7930557e98da", "translation" => "Mozenkouk waterfall", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9a40b5f8-2d20-422c-819d-6f554fb87393", "translation" => "Chute d'eau Mozenkouk" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7fb64bbd-dfc3-4aab-bf4a-df4c48357f99", "translation" => "شلالات موزنقوق", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //95
+            ["id" => "007eb32a-64a7-404e-9bc5-7b2ec7caf51c", "translation" => "The red beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "fea6da0e-a1e5-4be5-af07-dc2c4eb615d3", "translation" => "La plage rouge" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "dabe2a73-9a47-4912-a7b3-7999e6e96ab1", "translation" => "الشاطئ الأحمر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //96
+            ["id" => "b619dda9-78dc-4bf3-b41e-4dd06ae8ffd8", "translation" => "Countryside house Chrea - Jijel", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ea7a0af6-0efe-4b85-b598-dcd9cb1f8b7c", "translation" => "Maison du terroir Chréa - Jijel" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "eff54f37-04a8-4a36-a5ca-7be1113e0168", "translation" => "دار الحرف التقليدية بمنطقة الشريعة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //97
+            ["id" => "4b0feb46-b1d7-4c31-a9d2-6a6319b4cf62", "translation" => "Ghar el ch'ta", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "05bbe866-508c-4a04-b05e-75229f100a39", "translation" => "Ghar el ch'ta" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "069b115e-3268-4851-bcd0-4dd93a29423e", "translation" => "غار الشتاء", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //98
+            ["id" => "1b9e01e5-58ef-4679-a9ec-bea93f05488c", "translation" => "Kissir animal park", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7b7970d7-925d-4a2c-a70c-2e79730fe38f", "translation" => "Parc animalier de Kissir" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "de19b3e0-d33e-417b-95d4-1a8e1c55df2b", "translation" => "حديقة الحيوانات كسير", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //99
+            ["id" => "395344b7-c478-4a59-b7f0-8b51f3d4c9c4", "translation" => "Ghar el baz cave", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "70615db1-2172-457f-b253-44c8df7d4810", "translation" => "Grotte ghar el baz" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "38484b51-660a-454f-a77a-f66eaaedee95", "translation" => "غار الباز", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //100
+            ["id" => "c494112f-3d77-4dbc-8b29-7435944a3c03", "translation" => "Ain Mchaki", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9821f91d-9be6-48fd-bead-f7811f5366e0", "translation" => "Ain Mchaki" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "24f65833-281d-4f48-aae4-c039ae787ae5", "translation" => "عين المشاكي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //101
+            ["id" => "1e984260-d931-464b-bf7c-dccf2b151032", "translation" => "Ruins of Choba Municipium", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "825e6999-6c53-485a-a78d-ab1ef86e42ac", "translation" => "Ruines de Choba Municipium" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "75b92cb8-dbff-4906-981a-4b3071300bd4", "translation" => "أثار شوبا مونيسيبيوم", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //102
+            ["id" => "a0774133-583c-4f3b-a6b8-b5b3d33179c3", "translation" => "Black lake", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e3c8fd31-dd40-43d1-86cc-956a99191d61", "translation" => "Le lac noir" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "72176746-04ec-4b17-81d3-67d4cc68bebd", "translation" => "البحيرة السوداء", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //103
+            ["id" => "72749882-758a-429c-8d96-393683566f22", "translation" => "Kasbah of Béjaïa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4bfdb2a0-bb78-49e1-8828-471e27aafbff", "translation" => "Casbah de Béjaïa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "834fcca3-0354-4fa7-b31c-a6de1738ab2a", "translation" => "قصبة بجاية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //104
+            ["id" => "7903ae55-8b71-4d1b-b6b4-e46ba17f26b2", "translation" => "Bust of Ibn Khaldun", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a9a5c577-d13a-45bf-aa0d-6727d54ce068", "translation" => "Buste d’Ibn Khaldoun" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7294ecd3-15e5-439f-b93b-d43259d47e6f", "translation" => "تمثال ابن خلدون", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //105
+            ["id" => "c4fd0820-2425-4f89-a0c2-a265883102b1", "translation" => "Mount Takoucht", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9ad374ad-c5d0-4fbc-8e7b-9bbe1be113d7", "translation" => "Mont Takoucht" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "97e43953-5f45-4a78-878c-7d25b9e5aefe", "translation" => "جبل تاكوشت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //106
+            ["id" => "bfc9d520-5b16-4179-a1b6-e85ce9c89426", "translation" => "Gouraya national park", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9bd86c45-1d15-463c-9633-5e6fc60dc49c", "translation" => "Le parc national de Gouraya" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "37831479-a140-4b24-b30c-9b018d159ce2", "translation" => "الحظيرة الوطنية قورايا", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //107
+            ["id" => "a642fd20-7169-4b71-9733-19b785292386", "translation" => "Yemma gouraya", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2ffb2705-5812-47c0-a18e-b56394ca2c59", "translation" => "Yemma gouraya" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d83839d0-2710-4d4c-83ea-2f979c1a29f3", "translation" => "يما قورايا", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //108
+            ["id" => "46c637bc-4d75-4fa7-98ea-837241f07619", "translation" => "The water museum", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2d91e268-0462-4699-b71b-d4f8edd9321a", "translation" => "Le musée de l'eau " , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "53b650e9-e4e1-41e9-89f6-af810a85f833", "translation" => "متحف الماء", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //109
+            ["id" => "f72b3442-fd05-4bf2-b885-838ead595886", "translation" => "Bordj Moussa museum", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "da862691-6be3-4f94-8dd1-030bc6573a22", "translation" => "Musée Bordj Moussa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8c4c2a42-16e6-4b16-bf9f-a889e25f1618", "translation" => "متحف برج موسى", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //110
+            ["id" => "ced35dcd-b13d-4b95-91c4-f64ad8c9fb1a", "translation" => "Museum of the mujahid", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "bc5178cc-5a08-4d6a-a482-ea0297e22d23", "translation" => "Musée du Moudjahid" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0b3e16b5-cd0c-4159-8752-91e98725d320", "translation" => "متحف المجاهد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //111
+            ["id" => "eb6f5eba-2d95-423e-99a5-6ab0d66be2a5", "translation" => "Geology museum", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e1d2e9a3-24b1-4b49-9e19-a050e5dc6201", "translation" => "Musée de géologie" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "04df489e-933e-4733-9469-cfdc70be8a0b", "translation" => "متحف الجيولوجيا", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //112
+            ["id" => "5145556d-5cc3-4a2f-8149-2062afe9e6d4", "translation" => "Environmental education center", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "49cd244a-354e-4b9e-8956-4d1c851f4106", "translation" => "Centre d’éducation à l'environnement" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "47fa86bd-b276-438d-9527-2b66a1867883", "translation" => "مركز التعليم البيئي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //113
+            ["id" => "88573882-7d6f-497e-9fe4-2d0e6c67cc31", "translation" => "Koubba Sidi Touati", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d32585cd-e174-4e58-bac7-ac59141afe8f", "translation" => "Koubba Sidi Touati" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0bb3ed92-57ab-478a-98b8-db5d39f62e4c", "translation" => "قبة سيدي تواتي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //114
+            ["id" => "f2d3be7c-18ba-4d1e-8ff8-83cc1050d07f", "translation" => "Sarrasine gate", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "13ffde4d-f386-4043-bbef-4ed96cfa211f", "translation" => "Porte Sarrasine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "47ce424f-58b5-4027-abc3-78afe0934041", "translation" => "باب البحر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //115
+            ["id" => "2adc3988-2195-44c0-8baf-7699b55ef470", "translation" => "Zawiyat Sheikh Belheddad", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "09af4471-20e9-4c60-b272-6bddc6870dbb", "translation" => "Zawiyat Cheikh Belheddad" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fa7ce34d-8e45-4d71-86e7-0c54dc44fbcf", "translation" => "زاوية الشيخ بلحداد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //116
+            ["id" => "6b040a98-6e45-44c0-8ff6-749aaaeb7226", "translation" => "Zawiyat Sidi Yahia el-Aidli", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c5de3fb2-64ea-4e69-a695-79d8c6f9595c", "translation" => "Zawiyat Sidi Yahia el-Aïdli" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a4718493-a2b5-4325-a635-25f92b1b19e6", "translation" => "زاوية سيدي يحيى العيدلي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //117
+            ["id" => "dab22a9f-cf9f-435b-a352-7a38a8283057", "translation" => "Congress of Soummam museum", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "96fe30b3-91eb-4000-aeaf-48b2fde71d68", "translation" => "Musée du congrès de la Soummam" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b9d005a2-671a-42f1-bc20-60078489201e", "translation" => "متحف مؤتمر الصومام", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //118
+            ["id" => "b78dceb5-eba2-4ae9-86f9-e5f0d06047b9", "translation" => "Bab el-fouka", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "444e5c21-ae83-4267-bdf8-93d6db1b3ab9", "translation" => "Bab el-fouka" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5cdbf7c0-6f4f-48df-b9e6-5665e15009a3", "translation" => "باب الفوقة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //119
+            ["id" => "65bfc804-1b75-4f0a-b7a2-c5864a53b596", "translation" => "Roman ruins of Tiklat", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6bf36bf9-ba77-4f45-b348-342f55ec1b3f", "translation" => "Ruines romaines de Tiklat" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "00d345b7-8ce3-4c58-a7cf-7f9a0229a10c", "translation" => "آثار تكلات الرومانية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //120
+            ["id" => "d56aff4e-7bed-4818-b4bd-7ee7f7baacc5", "translation" => "The roman ruins of Ifrene", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c678b082-08a1-4d91-b5f1-854f20934f65", "translation" => "Les ruines romaines d’Ifrene" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7aa05a4c-f189-435e-b011-2b8b9f542d2a", "translation" => "آثار إفران الرومانية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //121
+            ["id" => "73a2ffe8-c23c-4af8-a740-de1933083f71", "translation" => "Tamelaht lake", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b1aad246-36c6-4efa-b15c-11820e1b3772", "translation" => "Lac Tamelaht" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1a3bf39c-f3e2-4ba9-8a15-5d82bb7795a8", "translation" => "بحيرة تملاحت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //122
+            ["id" => "99f85f6a-a413-42b9-a454-8d3de18f8e8e", "translation" => "Kalaa of Beni Abbes", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "cb592a66-2df7-496e-a1e5-363c44aa76b4", "translation" => "Kalâa des Beni Abbès" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "598a78bb-20e7-40c7-a8d2-9eeee792bc0a", "translation" => "قلعة بني عباس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //123
+            ["id" => "fc1c12ab-16d9-43a3-a921-29bae3096ea2", "translation" => "Roman mausoleum of Akbou", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b2f36b05-deeb-4048-90aa-44e55f978b9a", "translation" => "Mausolée romain d'Akbou" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f7438d66-d730-43a0-a8e0-3e7399e24c21", "translation" => "الضريح الروماني أقبو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //124
+            ["id" => "37eea217-16ff-464a-b12c-f311e23610da", "translation" => "Cap Carbon", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "caf8c012-7ae1-4454-b1c5-648fcb915a06", "translation" => "Cap Carbon" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b5386c6f-f642-43e4-bb37-ad3eceb76126", "translation" => "كاب كاربون", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //125
+            ["id" => "b74ba3e9-956f-4cbb-8819-160ed6cd017a", "translation" => "Camp de la marine", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3e21c736-5d09-48c1-9e7d-63012fefebee", "translation" => "Camp de la marine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4cac134b-b4fc-4927-90fd-d6e66f241081", "translation" => "معسكر البحرية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //126
+            ["id" => "8e9f5cad-bbf5-4c98-8929-3aa68a643d40", "translation" => "The fort of sidi Abdelkader", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "252a8fa9-ae13-4d44-af3d-9bf588bfbc67", "translation" => "Le Fort de sidi Abdelkader" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d2d57f27-5c7d-45c5-bfcd-3684662cb44b", "translation" => "قلعة سيدي عبد القادر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //127
+            ["id" => "76411e1c-1792-4a23-86cd-3a7efe77713a", "translation" => "Theater of Bejaia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1f4ebcd5-fad5-4d47-b981-38d2b3f0a090", "translation" => "Théâtre de Béjaïa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fc1b779e-90ff-4b03-b6b5-c94f26d6cdc4", "translation" => "مسرح بجاية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //128
+            ["id" => "30f7f101-2bc8-4039-bd65-144a63475eda", "translation" => "The fortress of Temzizdekt", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "beef58e0-5ca2-4771-9974-2fc1b8d07a85", "translation" => "La forteresse de Temzizdekt" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "78ec2e06-c817-45d9-a6c4-c23b21e54e09", "translation" => "قلعة تمزيزدكت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //129
+            ["id" => "25a1dcd7-1a4e-41b8-9e68-b138eb1a32ee", "translation" => "The Aokas caves", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "02a2bc8d-e4ac-4daf-a0d4-8a4a7e466a8a", "translation" => "Les grottes d'Aokas" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5f2c3239-0a31-4d58-bbff-d3ffff55b078", "translation" => "كهوف أوقاس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //130
+            ["id" => "9da896b4-d3f3-4d2f-afa4-6e8ddfc09b6a", "translation" => "The Countess castle", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "cc77733a-08ca-4f01-903b-9e4e97e95a9e", "translation" => "Château de la Comtesse" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2d482b0a-d539-4280-bf6c-4763666afdbd", "translation" => "قصر الكونتيسة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //131
+            ["id" => "ffa58dde-85fc-4409-b2ac-3f2827487ef5", "translation" => "Tizi Nberber waterfalls", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3965ccdc-4d2b-41e2-87bd-4bbc8aa1e21c", "translation" => "Chutes de Tizi Nberber" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "68698fa3-42da-41a9-9eaf-6ea5efcbe11d", "translation" => "شلالات تيزي نبربر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //132
+            ["id" => "9cf43221-7177-486e-8068-ed058a190560", "translation" => "Tifernine waterfalls", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "455ed09c-a2d7-48ce-8cb2-291fc15ef0c3", "translation" => "Cascades de Tifernine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "13a3f5f5-ce11-4c01-b557-172e2751eab1", "translation" => "شلالات تيفرنين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //133
+            ["id" => "4d3c4770-a534-4521-b71d-e77d10a7ef5c", "translation" => "Kefrida waterfalls", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7c997712-0f69-4fea-bb66-a4c5d96ab458", "translation" => "Cascades de Kefrida" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "91cf876f-2e8e-4a2e-a2e1-f5dbdc9c693b", "translation" => "شلالات كفريدة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //134
+            ["id" => "e0737f05-87fc-4c79-a3b3-4aebcae21fb3", "translation" => "The gorges of Kherrata", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "19365351-0649-40e3-b891-dfc1722d2b58", "translation" => "Les gorges de Kherrata" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "55dcee44-5944-4486-bf78-4346f871fc07", "translation" => "مضائق خرّاطة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //135
+            ["id" => "757f349d-ec75-45be-89ac-cecee42bfe5f", "translation" => "Fort Lemercier", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e101ec7e-ed9c-44be-8a05-3ccd6e6c47e9", "translation" => "Le fort Lemercier" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1788cdd1-1837-4843-8205-072174546db8", "translation" => "حصن لومرسيي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //136
+            ["id" => "fa3d2580-8353-4e1d-a0d0-36b62f8661e3", "translation" => "Doriac tower", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7673209f-e5ae-4bba-a165-83e9d53a7823", "translation" => "La tour Doriac" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "15d9f40f-d33d-407d-b265-0dc1ffaccee3", "translation" => "برج دورياك", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //137
+            ["id" => "ce4b2e4f-05ec-4c9d-9934-5dbc1745f912", "translation" => "Craft gallery", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "29a96987-188e-45cb-9bb9-d8fad7692f6a", "translation" => "Galerie d’artisanat" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f35393ca-385b-4630-895a-0af738186ca5", "translation" => "مركز الحرف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //138
+            ["id" => "41573253-2ef5-4c22-8a26-4b00a3031cc8", "translation" => "Synthetic biological microsystems museum", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f0e209f8-3884-4703-ab1e-c84a20947f82", "translation" => "Musée des microsystèmes biologiques de synthèse" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "aa8e144a-bf9f-4c95-b807-e5b0df783a35", "translation" => "متحف الأنظمة البيولوجية الصناعية الصغيرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //139
+            ["id" => "37841a2f-76ee-45d4-a3c2-48ff5e9fa574", "translation" => "House of culture", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3adba860-b2be-41bd-bc57-022682a5f689", "translation" => "Maison de la culture " , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6ea04d9a-597d-4d21-bfa6-8f4c17da24dc", "translation" => "دار الثقافة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //140
+            ["id" => "d1f5567b-d206-42f5-84a9-1948ddfc8c69", "translation" => "Bir Esselam", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "07b786e1-6210-4ac1-a86d-f14f7b1ca563", "translation" => "Bir Esselam" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "226deded-4852-4fdd-a524-fb12ee2a9356", "translation" => "بير السلام", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //141
+            ["id" => "e4e80d89-70b2-4700-b635-18545ff93bc4", "translation" => "The pirates' cave", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "282b7421-7c5a-40a8-be93-75351c3c790d", "translation" => "La grotte des pirates" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e8003fc8-69db-4cc8-99b2-e1c4a615e96c", "translation" => "كهف القراصنة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //142
+            ["id" => "e8615712-04b1-4bfa-bd51-a457b040d865", "translation" => "The Thimelahine salt flats", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b1d403b0-9d63-444f-b189-be5f96c35362", "translation" => "Les salines « Thimelahine »" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3498f059-5fe4-4546-aeea-11d6d88d432c", "translation" => "ثيملاحين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //143
+            ["id" => "83b93188-7460-458c-800f-5e3af58c427b", "translation" => "Aiguades bay", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "712e46e9-fe38-49c0-bb57-c0d05a299b8e", "translation" => "Baie des Aiguades" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "61ba9d56-0a80-4931-a7fb-19acab392601", "translation" => "حوض زيقواد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //144
+            ["id" => "3f3c8661-9326-41bf-8fbc-b8a1720eb856", "translation" => "Boulimat beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "72f9c30a-eebb-4084-af3a-9796a8ab4f01", "translation" => "Plage de Boulimat" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bd88a409-abf5-4420-ba7d-1434979f9d32", "translation" => "شاطئ بوليماط", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //145
+            ["id" => "34c5438e-0808-4a5c-a7d3-7f58ad664739", "translation" => "Regional museum of the Mujahid", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "803add59-db8f-476a-9861-d23edc23bbc9", "translation" => "Musée régional du moudjahid" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "13fbb742-9870-4fba-b5c8-1a51172a8c06", "translation" => "المتحف الجهوي للمجاهد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //146
+            ["id" => "7f8cffa6-b396-4650-a370-528de98d4024", "translation" => "Sidi Belloua mausoleum", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "fd3879c9-3ee6-430c-97dc-dca8ce018e40", "translation" => "Mausolée de Sidi Belloua" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2e6f7c8f-fe45-45e5-a705-fb88f984d418", "translation" => "ضريح سيدي بلوى", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //147
+            ["id" => "40c046bb-c14f-41bf-9a00-8fca2ad42842", "translation" => "The craft house", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f1937747-8299-48aa-be46-925898722c96", "translation" => "La maison de l’artisanat" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "631a6082-1927-4fb8-9cbe-94769b355c22", "translation" => "دار الصناعة التقليدية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //148
+            ["id" => "67b0af98-c650-46b3-b28d-5c1656845cf6", "translation" => "The Bejaia cinematheque", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5618effa-552b-4ac1-84eb-8135cbe3318f", "translation" => "Cinémathèque de Bejaia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9244c819-2069-40f7-b622-20c092917d1a", "translation" => "سينماتيك بجاية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //149
+            ["id" => "04e082ef-e35c-4582-b448-d122a5a62e56", "translation" => "Gueydon square", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4d95e48f-e7f4-4c9e-9f40-06ad6b0d3aea", "translation" => "Place Gueydon" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c4e57aa5-54aa-4191-8f72-32d2802bc5ce", "translation" => "ساحة قيدون", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //150
+            ["id" => "8fa1aa13-378f-4264-83e0-53cde88dfb99", "translation" => "The Tizi Ouzou cinematheque", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "508d3aac-a3b2-4e30-8b2d-a1f1c15e8f8e", "translation" => "Cinémathèque de Tizi-Ouzou" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "04520df1-4726-41da-8d45-2f65b1e72ae0", "translation" => "سينماتيك تيزي وزو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //151
+            ["id" => "fdb6ff2c-57c6-4119-b6e7-3b46050f1042", "translation" => "The maccabees cave", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a7a1bac2-d719-4b6b-83a7-5cb769c39de5", "translation" => "Grotte du Macchabée" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d68a867e-ec3a-4d08-bfb4-5d9c246d58cc", "translation" => "مغارة مكابي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //152
+            ["id" => "ea59c657-3c7e-4bb8-975b-2ef3ea11fb35", "translation" => "Yakouren forest", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e60c3f7b-bc15-4400-9dcd-9199b0c3712d", "translation" => "Forêt de Yakouren" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "41e974d9-d6e6-4868-8ecd-1d6895408f0a", "translation" => "غابة إعكوران", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //153
+            ["id" => "5155471b-2c9e-4f64-8c28-04456d4bb9a2", "translation" => "The covered alleys of Ath Rhouna", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4bf8be6a-7b42-4408-903d-bb9e27a242af", "translation" => "Les allées couvertes d’Ath Rhouna" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "84f13876-81c8-4a48-9d0b-c0585e2f9d75", "translation" => "الممرات المغطاة أيت رهونة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //154
+            ["id" => "7d0e88ff-a815-4bb0-9b4b-2e2b6a04a27b", "translation" => "The Agoulmime lake", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b6f9d662-01e9-41d2-805a-3faed9e470ea", "translation" => "Lac Agoulmime" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b073bc40-26b9-40dc-8ef9-e178bd658eb1", "translation" => "بحيرة اغولميم", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //155
+            ["id" => "f3782c27-d1c2-4399-9849-d1b012d88730", "translation" => "Roman ruins of Tigzirt", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "80acbb9a-9707-4afa-8c05-1b1cbea90dc1", "translation" => "Ruines romaines de Tigzirt" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f8332e32-183f-489c-9904-e60f40b66b30", "translation" => "آثار تيقزيرت الرومانية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //156
+            ["id" => "79372ee8-31ff-4d98-b785-a4e5112b312b", "translation" => "Tala Guilef", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a73c57c5-d3e4-43a0-a497-96d41d0ef629", "translation" => "Tala Guilef" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "614b694a-6903-4cab-a736-f68b4b599f0f", "translation" => "تالا قيلف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //157
+            ["id" => "185e28c6-f152-4336-a51a-9b9d14230da0", "translation" => "Old Azzefoune", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "18401b64-6828-4327-b60f-fd9dd78b6893", "translation" => "Vieux Azzefoune" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1209b775-1655-48e7-af89-34f8701b11a4", "translation" => "أزفون القديمة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //158
+            ["id" => "9c704ab1-a17c-4fbf-9dfa-493b0baeb97e", "translation" => "Mouloud Mammeri house of culture", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3bdca4c5-a0c8-4fa1-8da3-72c7e73e7b23", "translation" => "Maison de la culture Mouloud Mammeri" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9734b0cd-8f89-4915-867a-539c79d3ce36", "translation" => "دار الثقافة مولود معمري", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //159
+            ["id" => "d9b6b360-a017-4e14-b031-2eeca9c09d3d", "translation" => "Djurdjura cinema", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c1c675cb-88de-486e-b230-1c8e738d5aa4", "translation" => "Cinéma Djurdjura" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "41578d9d-4b8f-492a-87cc-d10617e90d58", "translation" => "سينما جرجرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //160
+            ["id" => "7c41cd29-d9d7-469e-864e-dd386bac8ce3", "translation" => "The November 1, 1954 Square", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5cd8810b-e199-4c6b-82e2-5e014e007a21", "translation" => "Square 1er Novembre 1954" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ec95312c-36a8-48b7-b27a-ed61949bc6dc", "translation" => "ساحة أول نوفمبر 1954", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //161
+            ["id" => "9a176a55-ab76-4deb-a64b-3b7f009e33cc", "translation" => "Azrou Imedyazen", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "504cfe57-8959-49e9-9425-30ceecbb24af", "translation" => "Azrou Imedyazen" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8a18e42e-a610-47e3-a25d-cc22f228195c", "translation" => "أزرو إميديازن", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //162
+            ["id" => "016882c5-257e-4cc9-9759-8da84efc1bb8", "translation" => "Bodj Turk", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "33d2914f-3627-43fe-812e-0ca5205f3331", "translation" => "Bodj Turc" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6663d4b8-aad3-4ace-981f-621ef7ca7fc9", "translation" => "برج الترك", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //163
+            ["id" => "653336b9-2da6-4c53-85e8-c4a52099a156", "translation" => "The Abbane Ramdane museum", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8e1adf0c-0569-48f7-b629-7fad6a9bd73a", "translation" => "Musée Abbane Ramdane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b4e7ca2d-f038-4cfb-b429-0a566dc64035", "translation" => "متحف عبان رمضان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //164
+            ["id" => "821328ac-7835-435d-b46a-ce253d25eb86", "translation" => "Bengut lighthouse", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "571ea16d-1b64-4528-a7a1-4c029db85174", "translation" => "Phare Bengut" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8544545e-4266-4df8-8da6-09fe4e872990", "translation" => "منارة رأس بن غوت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //165
+            ["id" => "17cc1006-8608-4f41-b538-9b24c123eb93", "translation" => "Kasbah of Dellys", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "73ea04c6-4975-42aa-b83f-b4770d878626", "translation" => "Casbah de Dellys" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1dbbee34-ed38-49c0-a38d-4da30546e901", "translation" => "قصبة دلس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //166
+            ["id" => "8cddb315-8a3a-462b-8d44-0397939b6e91", "translation" => "Craft center", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4de243d4-f3f7-4fc6-8879-d6c9ed0ba355", "translation" => "Centre de l'artisanat" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1e2529f4-da1a-4f4d-979d-6d8e648a487a", "translation" => "مركز الصناعة التقليدية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //167
+            ["id" => "bd0516a1-5f4b-4e7b-9162-7b22bd557528", "translation" => "Sidi Soussane mausoleum", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f05af3d2-e5aa-439f-b204-5c82cd311e9d", "translation" => "Mausolée de Sidi Soussane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5bb27a4d-54e7-434e-a663-8a8847b9c155", "translation" => "قلعة سيدي سوسان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //168
+            ["id" => "ac4861cc-588c-4d0e-bfa6-c2a4a047981f", "translation" => "Ghar Lehmam", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c7cab859-b702-4e07-ba3f-ede443d8cce2", "translation" => "Ghar Lehmam" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d783bcdc-3cc4-47de-abce-3b6b7f99cd23", "translation" => "غار الحمام", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //169
+            ["id" => "0a89e22b-3671-4fbc-a95a-f2a7dbb0bd45", "translation" => "Ifri nteriel cave", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "60270cc8-a4c3-431c-bd53-3e2781b03faa", "translation" => "Grotte Ifri nteriel" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e3f35f6f-bcbd-4e5f-8be5-74393c975fbe", "translation" => "مغارة ايفري نتريل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //170
+            ["id" => "bb1ac0ef-ff6d-477f-96b7-423619b962ef", "translation" => "July 5th square", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "40c900a2-0e17-477d-b0e8-85a42970c5a4", "translation" => "Placette du 5 Juillet" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2dd07e27-f20e-4ea9-90f7-7405c09b9b7b", "translation" => "ساحة 5 جويلية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //171
+            ["id" => "93665753-506a-488b-97de-858d553eedb3", "translation" => "The craft house", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8cbe191d-5a1a-4575-80d0-ad1f4c0dab83", "translation" => "Maison de l’artisanat" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b24453bb-19b7-44d7-8a5b-8264784a481e", "translation" => "دار الصناعة التقليدية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //172
+            ["id" => "eb52850d-c3e0-4456-9d89-50392a4c8aca", "translation" => "Zemmouri racecourse", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "87ef3439-05da-4887-94c8-35b6461acefd", "translation" => "Hippodrome de Zemmouri" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "866c1b3b-515e-440a-8573-7f0210eb89e3", "translation" => "مضمار سباق زموري", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //173
+            ["id" => "4c6a3659-c343-4872-8dfd-cba5aef10c59", "translation" => "The gorges of Ammal", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2ad5e20b-469f-4ac6-abde-6c4794603e80", "translation" => "Les gorges de Ammal" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "937b7a1a-816d-448c-b417-7eadeedadadf", "translation" => "مضائق عمال", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //174
+            ["id" => "6f0c46b1-2409-4a70-8ccd-ef90175ff66c", "translation" => "El Hamiz dam", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e11ae9c4-603d-49c1-9ab1-dace91c71446", "translation" => "Barrage d’el Hamiz" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "eb12f681-2322-4676-929c-1f72a9bcde9f", "translation" => "سد الحميز", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //175
+            ["id" => "4b37f645-8acf-4224-9da3-8d63d72cbad6", "translation" => "The botanical garden", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e35da9b9-c853-4524-88f1-217ada187c46", "translation" => "Jardin d’essai" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e04dd306-87d1-4761-8a29-dcd472fbbff1", "translation" => "حديقة التجارب", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //176
+            ["id" => "86417370-96f0-48d8-a1c5-cdb763404c77", "translation" => "Ketchaoua mosque", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "184e0294-0908-415c-adb1-c15840ace151", "translation" => "Mosquée Ketchaoua" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c84504b2-ee9b-4d80-9a15-f11ed3e6a08f", "translation" => "مسجد كتشاوة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //177
+            ["id" => "3fa9dfe4-fe3f-4335-b7c7-4683872ab15f", "translation" => "The great mosque of Algiers", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e66c2a30-c3f0-41b7-bb58-471da50b7bc3", "translation" => "La grande mosquée d’Alger" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bc9272b7-4114-4fe6-851d-9389cb4454c4", "translation" => "جامع الجزائر الأعظم", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //178
+            ["id" => "bb9f0a11-b862-48d4-ae18-336f0c530f23", "translation" => "The great post", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "fc94d9b2-c596-42a6-bc43-376591166f64", "translation" => "La grande poste" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "76c620e5-c2cc-4906-afb0-b451866e9435", "translation" => "البريد المركزي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //179
+            ["id" => "a36088bb-5cb8-4ce9-9b7a-1262a601a3e8", "translation" => "The martyr's memorial", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "178b2a67-0f01-453c-954c-925002c2df28", "translation" => "Le mémorial du martyr" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "86fb2a07-6a85-4cf4-954d-09768a48466d", "translation" => "مقام الشهيد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //180
+            ["id" => "5bd758e5-322e-4dd1-be48-1f7e9d05ae72", "translation" => "Notre-Dame d’Afrique basilica", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "46753392-0011-4b99-af9c-4a095a05df7d", "translation" => "Basilique Notre-Dame d'Afrique" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ea4c6abe-8e7c-4cf2-97c8-64202264b711", "translation" => "السيدة الإفريقية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //181
+            ["id" => "f52e2d1c-c761-4eb6-8d91-601067e0b5fa", "translation" => "Kasbah of Algiers", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "bad72078-faf9-4b04-a704-0141ccd4f6fb", "translation" => "Casbah d’Alger" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5fa621c5-ac70-4e0f-83bf-c359c19e5f01", "translation" => "قصبة الجزائر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //182
+            ["id" => "a2036949-a47a-405f-8af0-a9d0e50c2bbc", "translation" => "National museum of fine arts", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b5b281a7-e3cb-4f66-9655-5c41d476dbfd", "translation" => "Musée national des beaux-arts" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "17016e95-c7da-4938-b656-2f1bf026f89d", "translation" => "المتحف الوطني للفنون الجميلة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //183
+            ["id" => "3e75f718-becb-43dc-96c5-19a154a0c9c3", "translation" => "The Bardo museum", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a83f78d1-d8b0-4c4d-8047-a5fcb03364c7", "translation" => "Le musée national du bardo" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c63465f9-8e89-4e51-bd93-660b90fd5bf7", "translation" => "المتحف الوطني باردو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //184
+            ["id" => "67519523-f285-4a1d-accc-2355a666f8be", "translation" => "National museum of modern and contemporary art", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b55b8cb9-61cd-4fca-88b0-3348dc594c43", "translation" => "Musée public national d’art moderne et contemporain" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "67d4e78f-3bfc-4a78-af68-80658216bf39", "translation" => "متحف الفنون المعاصرة والحديثة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //185
+            ["id" => "1d42c789-485b-42c7-b61c-fb453e230c4c", "translation" => "National people's army museum", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "bd6515b5-f977-40ba-a812-8764d1a081e9", "translation" => "Musée de l’armée nationale populaire" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "da89b6ac-034b-4c1b-b7c8-4b8ef995abd5", "translation" => "متحف الجيش الشعبي الوطني", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //186
+            ["id" => "12a4fba2-949a-4ec3-88a3-56fa7ce0c72c", "translation" => "National museum of antiquities and Islamic arts", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1cdebb9e-f2a5-4300-8c49-d83701fff42a", "translation" => "Musée national des antiquités et des arts islamiques" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2702ecd1-7dc4-42df-8d1b-83d2e6663349", "translation" => "المتحف الوطني للآثار القديمة والفنون الإسلامية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //187
+            ["id" => "0b64cb3e-a44c-4dba-ac87-5730d9b93f4e", "translation" => "The palace of the rais", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8b25fb43-6b42-46c0-b216-e797bb6b3534", "translation" => "Palais des raïs" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "161e1480-ff35-4204-ab25-db3863a9ce8b", "translation" => "قصر الرياس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //188
+            ["id" => "1309ecee-e07e-4252-942b-200416349106", "translation" => "The Hassan Pasha palace", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "42d05db4-63d0-47e5-8cd7-29e39527e49b", "translation" => "Palais Hassan Pacha" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8456af32-bb2c-4420-8e03-f2f360f232bb", "translation" => "قصر حسن باشا", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //189
+            ["id" => "0d9b27cf-b333-4dda-a7c8-67907eace703", "translation" => "Dar Mustapha Pasha", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a3708707-f2fd-4dbb-8ff9-00083574d9c7", "translation" => "Dar Mustapha Pacha" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f7f6f79f-ac77-477d-a401-9edb0b89a62d", "translation" => "دار مصطفى باشا", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //190
+            ["id" => "a94508d8-1f4f-4756-a049-c1102880acbd", "translation" => "The martyrs' square", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ee199ba1-4482-48ab-986f-a56a5458f09c", "translation" => "La place des martyrs" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0e4b6cb4-3e70-47c9-a1ae-f6cb8f530e29", "translation" => "ساحة الشهداء", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //191
+            ["id" => "fceb4915-f718-4209-8b4b-53c5a9de96e2", "translation" => "National museum of popular arts and Traditions", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b685de1f-a3ce-4879-93a9-dcfed7fb0290", "translation" => "Musée national des arts et traditions populaires" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6e7e6759-7e91-4d8d-b74e-ee432d50fd0b", "translation" => "المتحف الوطني للفنون والتقاليد الشعبية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //192
+            ["id" => "81ebba41-1fe8-4dea-af28-ed579c16749d", "translation" => "Sidi Ramadan mosque", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a4a6731b-f7dc-4d37-bae3-ce946d46ee39", "translation" => "Mosquée de Sidi Ramadan" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7b6282d5-cbde-4f68-bd78-1f90d9c5a998", "translation" => "مسجد سيدي رمضان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //193
+            ["id" => "f61bb196-dfd2-4a64-8cd2-8e108a293821", "translation" => "The child museum", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e6a7d578-90e7-439d-9f5d-a4a703604065", "translation" => "Musée de l’enfant" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e68a71c1-23f9-4ce3-9c24-efe8524cd914", "translation" => "متحف الطفل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //194
+            ["id" => "2af5570a-f5d6-4f56-8084-c50442e6d2e1", "translation" => "Algiers opera", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "accf6da9-fc93-41cb-8d60-5d8dd6118e6d", "translation" => "Opéra d’Alger" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "dba6cbdd-2de0-46d8-b57a-686914700c02", "translation" => "أوبرا الجزائر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //195
+            ["id" => "44bb9d72-b998-4cd4-8e54-08be7921fd60", "translation" => "Cervantes cave", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "78d943bc-d043-4f2b-a9f2-eb8cab51de3e", "translation" => "La grotte de Cervantes" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "88bea011-6834-4555-b2a6-ed8cc0228807", "translation" => "مغارة سرفانتاس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //196
+            ["id" => "2b6f85a7-db41-4ff1-851c-08e1437cfb37", "translation" => "Algerian national theater", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "493525db-6ad8-421f-a31c-b443c780be67", "translation" => "Théâtre national algérien" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b5a17c13-68c4-4b06-98ad-5821c0e68d47", "translation" => "المسرح الوطني الجزائري", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //197
+            ["id" => "d09b30bb-55e5-461e-83bc-c152969ebd6b", "translation" => "Ibn Khaldoun hall", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "24d1ce31-42a0-461a-b862-b8e2683a250c", "translation" => "Salle Ibn Khaldoun" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3739863f-c25b-4dec-abe2-1bf91e4eee79", "translation" => "قاعة ابن خلدون", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //198
+            ["id" => "dd313ba8-a342-49a0-a806-67fe114b5966", "translation" => "Algiers cathedral", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "dd06469f-d579-4d65-bf3d-815589c3398d", "translation" => "La cathédrale du sacré cœur" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "936bf163-5a93-4e9e-ad38-8c3b5cb03a6c", "translation" => "كاتدرائية القلب الأقدس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //199
+            ["id" => "9397c8f5-e6e6-450b-831f-e96cc35f3cca", "translation" => "Villa Abdellatif", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "20bcfe28-4893-4e2b-ba28-7d3a99ffc79b", "translation" => "Villa Abdellatif" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "71b9ab07-1a89-405a-b1ce-f58b9c8b19c2", "translation" => "دار عبد اللطيف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //200
+            ["id" => "a5a380ea-a606-4877-955a-86412acf1796", "translation" => "Tamentfoust museum", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "84e20fd1-4ac5-4734-9722-5aef68103fe0", "translation" => "Musée de Tamentfoust" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b00ef5bc-52b9-400b-b1d8-39d3f6f052b4", "translation" => "متحف تامنفوست", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //201
+            ["id" => "25592542-770f-4793-b16f-de05f81170ac", "translation" => "City wall of the kasbah", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9666efef-a933-4561-967f-45efa9090ead", "translation" => "Mur d'enceinte de la casbah" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4f0b8cb1-f125-475c-b9ec-772f3c6b1dd5", "translation" => "سور القصبة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //202
+            ["id" => "fb89939b-86e1-49db-a548-2ea049352015", "translation" => "Bab Djedid", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5aecc02f-cf7d-45d3-ac5c-7f7487358868", "translation" => "Bab Djedid" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "43a373db-a6bc-4b34-9fc0-8d1625e2d246", "translation" => "باب الجديد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //203
+            ["id" => "d963cbde-8a03-4a4b-b40a-0a56f7275773", "translation" => "Sablettes park", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "34382446-f127-4d37-81e3-e3801d9dd111", "translation" => "Parc des sablettes" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f96b33a3-cda0-42a8-beaf-79367693b3a9", "translation" => "حديقة صابلات", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //204
+            ["id" => "36c4f945-2501-4c54-ac43-c0c76ad63a20", "translation" => "Ben Aknoun park", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1551b670-ce0b-498f-817d-9ebca55f6c06", "translation" => "Parc de Ben Aknoun" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "cae633c9-435b-4f7c-a3c5-b1a28e298b8e", "translation" => "حديقة بن عكنون", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //205
+            ["id" => "c265b9de-d8cc-4fd2-bf76-56051cdc882d", "translation" => "The Dey palace", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7f2434f2-6add-4f6b-9ac8-bd3951df7d12", "translation" => "Palais de Dey" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "726e83df-4e1b-45e2-818c-5d80b093bb50", "translation" => "قصر الداي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //206
+            ["id" => "2c16d432-2f1f-4142-b2c0-49df8ed5a347", "translation" => "Prague garden", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f56d0dd4-cae4-4517-96ac-cff5b309a7a6", "translation" => "Jardin de Prague" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "80d413c9-563d-48f6-a769-070aa306e420", "translation" => "حديقة براغ", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //207
+            ["id" => "782c0b1b-3466-4691-8d88-b2dd5f55f925", "translation" => "The great mosque", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6c698e01-236c-4762-8cd6-bcbc09654627", "translation" => "La grande mosquée" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5d1642b2-9c54-468b-ada0-33b7c0156f30", "translation" => "الجامع الكبير", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //208
+            ["id" => "a416110b-1662-4c33-9dfe-adf1088b4406", "translation" => "Ali la pointe museum", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4c19be31-fef2-4e2a-a2cc-0cc6736a36c2", "translation" => "Musée Ali la pointe" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "944c6e5a-bbd9-4b02-aa31-510ebefe8f9b", "translation" => "متحف علي لابوانت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //209
+            ["id" => "98f6eeb8-5257-457c-a4d1-e9452e400712", "translation" => "Istanbul fort", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "14332da1-1f03-47a4-b236-8f00441e2351", "translation" => "Fort Istanbul" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ddc4e803-fb60-4c34-8bf9-83028ec24cf4", "translation" => "قلعة إسطنبول", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //210
+            ["id" => "cf54e76c-f304-4841-aef8-fbc9f1e478e7", "translation" => "National maritime museum", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "bba6dcf7-26af-4318-81c2-0aa52e497f82", "translation" => "Musée national maritime" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "50a5b059-42c4-4c5e-ac81-38af21549911", "translation" => "المتحف الوطني البحري", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //211
+            ["id" => "47203477-5e38-48ec-92bc-5876d89c1315", "translation" => "Casif open air theater", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a104e9a5-03bf-40d7-b971-5e0af07bd13b", "translation" => "Théâtre en plein air Casif" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2250c3e4-9170-4eb7-84e7-2ba678a9d219", "translation" => "مسرح الهواء الطلق الكازيف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //212
+            ["id" => "88cb9557-3dbc-499e-b820-5de6ad875478", "translation" => "Bouchaoui forest", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "07a4d82e-9855-446b-9eab-8bc8e61bea18", "translation" => "Forêt de Bouchaoui" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "239d1461-747b-4cb4-bf83-c6ea591bf77b", "translation" => "غابة بوشاوي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //213
+            ["id" => "e7d443f8-bfb5-4c52-b755-96de23f1d8dd", "translation" => "Reghaia lake", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9788e3ab-1f70-4474-b484-30f02e0f3538", "translation" => "Lac de Reghaia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e11e13eb-2cb7-42ee-8934-9acccf264f75", "translation" => "بحيرة رغاية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //214
+            ["id" => "ab19175b-e241-4fad-88d0-a301575316a4", "translation" => "Rouiba public garden", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f0eaf240-eedd-4437-9f83-0dc15538552e", "translation" => "Jardin public de Rouiba" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "54251798-22a5-4b03-b629-4d33fddd71dc", "translation" => "حديقة الرويبة العمومية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //215
+            ["id" => "f9b902fe-f177-418c-9786-e73ccd951bd2", "translation" => "The Algerian radio museum", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3be482f0-6349-4b3c-b79a-8290012dbb41", "translation" => "Musée de la radio algérienne" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "dc1d1c74-04f7-46b7-bcd6-c0821e4fc8f9", "translation" => "متحف الإذاعة الجزائرية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //216
+            ["id" => "995f2a8a-49c9-4225-9c41-856b3bb6c9a1", "translation" => "Africa cinema", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "38cc3fdd-c67d-40fd-b699-bed27d07a481", "translation" => "Salle de cinéma l’Afrique" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ba2d2338-9e5c-43d6-89ee-f8a6025059f5", "translation" => "قَاعَة أَفْرِيقْيَا", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //217
+            ["id" => "ebff7f62-3ce8-43e0-9d2a-12b940205eae", "translation" => "Blue lake", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "aa3f6633-9d40-41c4-a719-64403181bb00", "translation" => "Lac Bleu" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ef8b2464-805d-4556-9a84-bb6e811b1fd8", "translation" => "البحيرة الزرقاء", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //218
+            ["id" => "436fd8db-71d2-4d96-b739-e337a2763596", "translation" => "Essalam square", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ccc3febd-cf1b-46a8-837d-f9f84d794387", "translation" => "Place Essalam" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "00211e52-1e47-42a1-8c64-256e063243f4", "translation" => "ساحة السلام", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //219
+            ["id" => "ee1969fb-6696-451c-8794-30b5f6fc0c06", "translation" => "El Khayam cinema", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "98e4ac68-3105-407f-8c38-4cb83c8b003f", "translation" => "Cinéma el Khayam" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "851f29b5-a012-4c26-bcce-545894846e17", "translation" => "سينما الخيام", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //220
+            ["id" => "1d8b18d7-b88b-4c65-a268-e9c6dd4c482b", "translation" => "The Algeria hall", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "99d9c8c9-eadb-4b96-8924-59d788e76a2b", "translation" => "Salle l’Algeria" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b15972e9-120c-491e-a620-0066dc87e69b", "translation" => "قاعة الجزائرية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //221
+            ["id" => "e6c67cc2-2133-4c2a-bb83-62c1084c8a4b", "translation" => "El Atlas hall", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "27ee958b-0625-4dc1-b2ef-50454fa0843f", "translation" => "Salle el Atlas" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c9f73ecf-4653-4c7d-8dad-0e8f1ea0d3ea", "translation" => "قاعة الاطلس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //222
+            ["id" => "a0190770-6910-4a47-b14f-18f465c1989c", "translation" => "Algerian cinematheque", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f0f24036-1c93-4d82-a9c7-a5452320d70e", "translation" => "Cinémathèque algérienne" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d164bf3d-6544-4545-a562-1a2b77a551ec", "translation" => "سينماتيك الجزائر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //223
+            ["id" => "b04a7c9a-4c38-4f67-a0c9-d9d7c43c2d00", "translation" => "Theater of central Algiers", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "16d08354-6eb7-47e0-82b4-a65821d6cf45", "translation" => "Théâtre d'Alger centre" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "dc8b93dc-a63f-4e71-95c2-17f10229e5a0", "translation" => "مسرح الجزائر الوسطى", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //224
+            ["id" => "2a7b3a0f-34c8-4397-ad5c-6c82b49efa7c", "translation" => "Open air theatre", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8f14f88e-b7ba-4231-acec-b2c127e2d81e", "translation" => "Théâtre de verdure" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8d762198-262d-4108-bfcc-5c335ecd658a", "translation" => "مسرح الهواء الطلق", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //225
+            ["id" => "3f5b7c4a-20c6-4d36-a8ee-b5ed284a1a1e", "translation" => "Beyrouth park", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "737a6f14-1a0b-42c8-b641-bbf21aa7ee74", "translation" => "Parc Beyrouth" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e37d274b-a849-45b9-86cd-24735ddcc972", "translation" => "حديقة بيروت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //226
+            ["id" => "7f3fc28e-f5e8-480e-ab9c-c683685d495d", "translation" => "El Sahel cinema", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ee56ccc2-1ecd-42ca-b546-e7a2b25f84ab", "translation" => "Cinéma el Sahel" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1e990a92-9549-4f5b-b09e-e21d12856b22", "translation" => "سينما الساحل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //227
+            ["id" => "7b616df4-bf68-46d9-9022-dea82863a122", "translation" => "Cap Caxine lighthouse", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1756b3b0-a978-442b-91e0-aad2c3c47c07", "translation" => "Phare de Cap Caxine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "76c15ae3-1929-44f8-b755-32b8fb8d655d", "translation" => "منارة رأس كاكسين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //228
+            ["id" => "fd3224e2-71a1-43f9-8ff7-fa3928a532e1", "translation" => "Bordj mers el debene", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "27acc264-f382-4fce-ba3a-9c51b612fbd9", "translation" => "Bordj mers el debene" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "58f3f160-8513-423b-8923-68490c85d81e", "translation" => "برج مرسى الذبان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //229
+            ["id" => "5a2ed24c-ff67-47ec-a93c-8945bb12930b", "translation" => "Moufdi Zakaria culture palace", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "115b3f37-32fc-43fa-b483-c92c3f351303", "translation" => "Palais de la culture Moufdi Zakaria" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7f4da581-a3ce-4511-9bc1-bd97f31253b4", "translation" => "قصر الثقافة مفدي زكرياء", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //230
+            ["id" => "9adfc8b9-c537-4efc-a575-7cd128447324", "translation" => "Hang’Art gallery", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "abd626ae-f429-4346-822a-44ba8c0d9ad0", "translation" => "Galerie Hang’Art" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bd73498a-9fd5-46d7-9098-d21bac8fd89e", "translation" => "معرض فني", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //231
+            ["id" => "c1fac155-d420-4d9c-a037-59488869a190", "translation" => "Dounia park", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "eafa7c2f-37b8-4490-9e28-735ad0d76776", "translation" => "Dounia parc" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "be56ac4c-bd1f-499e-868f-363a8b7e15ac", "translation" => "دنيا بارك", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //232
+            ["id" => "d4f03187-5f9f-43f7-aaca-cb702ddd6314", "translation" => "The dolmens of Ain Benian", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b1d575c2-6609-4c54-9f8c-0c794ef17b74", "translation" => "Les dolmens de Ain Benian" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "32df4183-38fb-4659-ad19-02229f308dd7", "translation" => "دولمينات عين بنيان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //233
+            ["id" => "3c30a728-ffa6-47df-90e2-c7c3327e0fe6", "translation" => "Diwaniya Art Gallery", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f629c4be-c641-474f-83f2-c200d9e35ce1", "translation" => "Diwaniya Art Gallery" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ccfa0d4a-2222-4535-8c7d-877cc74bd197", "translation" => "معرض الفنون الديوانية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //234
+            ["id" => "369bd272-e581-4579-8a46-11097a430e52", "translation" => "Freedom park", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7bef8832-612b-493d-a97a-2126a807493d", "translation" => "Parc de la liberté" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bd873b8b-0750-4fd0-acbb-406a93558094", "translation" => "حديقة الحرية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //235
+            ["id" => "a4064222-fa29-47de-818f-2c270766ec0b", "translation" => "Halk el oued Battery", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0ffc9436-7bcf-4c18-90c6-1b8e36bf0bc1", "translation" => "Batterie Halk el oued" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4770f290-9ac3-41e7-b89b-50756b4ba7d2", "translation" => "بطارية حلق الواد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //236
+            ["id" => "7d27c541-3210-47b2-a75e-9db77637ebab", "translation" => "Ezzou’Art gallery", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "41e77234-3fae-447d-b3c7-dda4e59bd328", "translation" => "Galerie Ezzou’Art" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0095169e-1fe8-43ae-8d3f-e6502b33fc8f", "translation" => "معرض فني", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //237
+            ["id" => "e946fb80-7c2e-4071-bd96-ed47f544a0b6", "translation" => "Colors and heritage art gallery", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "cf0f0a91-e2e3-4f81-8c86-076acb1f81b2", "translation" => "Galerie d'art couleurs et patrimoine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "87cd1d37-78fb-4704-ba77-6c6e79f159a1", "translation" => "معرض الألوان والتراث الفني", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //238
+            ["id" => "2146bf5e-7050-4e06-aa56-16b359089a07", "translation" => "Bainem forest", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0e838dab-3fca-4fe7-9358-33952053771a", "translation" => "Forêt de Bainem" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "836216cd-419c-4c13-80b7-0dc6f626677e", "translation" => "غابة باينام", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //239
+            ["id" => "080ed96f-2268-495c-829f-cffbc5b43eab", "translation" => "National public museum", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "258c230f-6c76-40dd-8dd6-c802140eac7f", "translation" => "Musée public national" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0abf6c05-e591-463e-99c2-61605a04698e", "translation" => "المتحف العمومي الوطني", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //240
+            ["id" => "55afad5c-ce9b-4020-aca8-8baa707197cd", "translation" => "Roman ruins", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "19491a5e-7c69-4cff-9590-15270f807921", "translation" => "Ruines romaines" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "dde15718-ed5d-485f-ab86-01cec544a34b", "translation" => "آثار رومانية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //241
+            ["id" => "d4e91f78-a6bb-4c59-9680-9c13a90a79a6", "translation" => "Cherchell lighthouse", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7084bd20-ffe0-425c-8b2e-a3350a103064", "translation" => "Phare de Cherchell" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d246c142-17ac-47a9-96a2-ea15bff94670", "translation" => "منارة شرشال", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //242
+            ["id" => "a6e89b1e-04fb-4975-a999-0ff22e1af656", "translation" => "Numidia land", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "cb28af71-36b2-47dd-b12f-df98c1210172", "translation" => "Numidia land" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ccf99677-70fc-4e5f-b083-b0e94da5f4e3", "translation" => "نوميديا لاند", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //243
+            ["id" => "1c47bd3b-f96e-4ab5-9e63-c4d32835a861", "translation" => "The martyrs' square", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "86b3e463-18d1-470e-9830-7278f48e8a73", "translation" => "La place des martyrs" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7f8064f6-9690-4729-97b3-2bf605968411", "translation" => "ساحة الشهداء", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //244
+            ["id" => "791ee546-bbd5-4e8f-9c68-22b95475308a", "translation" => "Errahman mosque", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "938f5840-8e6e-48f4-a170-4124990d7220", "translation" => "Mosquée Errahman" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ae96a085-2c6d-472d-8697-f7ac58ac34f1", "translation" => "مسجد الرحمن", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //245
+            ["id" => "87751cdd-e62d-4e57-a75b-80d951e20c37", "translation" => "Roman theater", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c59e38bf-2771-449f-8012-d1770c6f1e36", "translation" => "Théâtre romain" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fb486344-0ff0-4535-aa87-cdeb81f8485f", "translation" => "المسرح الروماني", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //246
+            ["id" => "54579881-8b50-46fc-9f21-4b5d2cb84b41", "translation" => "New museum", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5f6e438f-1d1d-4a87-a08d-7ff4e3782670", "translation" => "Nouveau musée" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "792d507a-b862-4d27-b1e6-fd5ff27f4805", "translation" => "المتحف الجديد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //247
+            ["id" => "290db481-977f-414e-846d-a818282132fc", "translation" => "Tipasa museum", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c60d61ec-df0a-4e3e-92d7-f5a2bc4849a1", "translation" => "Musée de Tipasa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "106b74fd-121e-4156-8478-8485ba103ae1", "translation" => "متحف تيبازة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //248
+            ["id" => "1f953998-d4d9-441d-a354-d1116e187301", "translation" => "Tipasa historical site", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "49fc0ff2-7c04-4e02-8590-57d7199cbef3", "translation" => "Site historique de Tipasa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "91d0523f-1dea-4022-93fa-d0b2b3f4f640", "translation" => "موقع تيبازة التاريخي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //249
+            ["id" => "132e850c-1f29-45c4-8790-bf77b7ebfa3f", "translation" => "Royal mausoleum of Mauretania", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d9f081b3-bbd4-4282-aebf-71e928687b00", "translation" => "Mausolée royal de Maurétanie" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3a91f650-9c50-4054-b5ca-49f7b63e09d9", "translation" => "الضريح الملكي الموريتاني", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //250
+            ["id" => "b5b01d21-8455-46f6-a6d7-ef5f476fcf12", "translation" => "Site of the three islets", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7ac1c038-9dbb-4e4f-a870-38ae52d5ce69", "translation" => "Site des trois îlots" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "436c5054-df28-4167-86d7-b1c69441dcdc", "translation" => "موقع الجزر الثلاث", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //251
+            ["id" => "6806bfd2-afde-4ae5-b3d8-f4b561d444cd", "translation" => "Chenoua beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d05608b8-ade2-4ff2-847c-aee086bdf04a", "translation" => "Plage Chenoua" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "59026239-ca47-4bf1-bfcc-5abfb5e6d47c", "translation" => "شاطئ شنوة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //252
+            ["id" => "3d4b8d13-bd23-4570-ae8f-da73062de42b", "translation" => "Tipasa Horses", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "cf6dd27c-8339-433b-9443-2084d9533da9", "translation" => "Tipasa Horses" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e8a72fdc-8fd2-4711-8a0d-8a477e2edd52", "translation" => "خيول تيبازة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //253
+            ["id" => "577ef48b-d397-4288-82f5-5034dc27d826", "translation" => "Amusement park", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "dfbc7e77-acfa-4d62-85ac-c46a38a480fd", "translation" => "Parc d’attractions" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5b725184-4cca-4564-bfd5-8112a8ef7bc8", "translation" => "حديقة التسلية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //254
+            ["id" => "8e47fb98-aacd-4f3b-8630-8046a3ffb62b", "translation" => "The arab center for archaeology", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ba10dea2-10c3-4f93-862b-176d5c495ae2", "translation" => "Centre arabe d'archéologie" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9e98c2c2-b581-4af2-8f99-6977c5cb42d4", "translation" => "المركز العربي للآثار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //255
+            ["id" => "55ffed0d-0593-4238-85f9-cdaf338ccee4", "translation" => "The environment house", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "fa23714f-c5bb-43e8-a571-4e7e00461309", "translation" => "Maison de l’environnement" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "34af7b4e-d5df-4eeb-a272-72aa7bdc0465", "translation" => "دار البيئة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //256
+            ["id" => "42b208a1-ad8c-44ca-86b5-5252f9157602", "translation" => "Family park", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9b86fd30-38b9-44ba-a5c5-e6eaa2277695", "translation" => "Parc familial" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "51dc9138-9e7b-47b9-b6aa-20b1e71ddf48", "translation" => "حديقة عائلية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //257
+            ["id" => "cdd2740d-720a-4bdc-9091-03b192aaea44", "translation" => "Boukourdane dam", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "50638550-4867-43a7-9c48-2e674d3013ee", "translation" => "Barrage Boukourdane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bb769a50-04dc-4acf-a775-9fb999f88a41", "translation" => "سد بوكردان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //258
+            ["id" => "012e15c5-7089-4338-ba18-73f997601e14", "translation" => "The cove beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "af5f2bfa-7d8c-48df-bd3b-69a1eabbc415", "translation" => "Plage La crique" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2110b80f-fc3d-4b5f-8ab1-506e8baec45e", "translation" => "شاطئ الخليج", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //259
+            ["id" => "c14ef9bf-69c2-47de-8801-da746be56c0a", "translation" => "Tizirine beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a1cd1249-66f1-470c-adb7-594c8c546fa2", "translation" => "Plage Tizirine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "01588438-a847-4df7-8552-182cbfc7b8c3", "translation" => "شاطئ تيزيرين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //260
+            ["id" => "eb6c83a9-2463-41ec-9c48-5384c529ef72", "translation" => "Abdelmajid Meziane public national museum", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "31b46f97-7a46-4dde-969f-b4239494997d", "translation" => "Musée national public Abdelmajid Meziane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "86d22a16-1ea9-44d7-8b7b-749a12639d66", "translation" => "المتحف الوطني العمومي عبد المجيد مزيان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //261
+            ["id" => "84b1c45c-9caa-4940-8cd5-05abe8fd747d", "translation" => "House of culture", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6cab0284-040d-4af1-833b-854285748add", "translation" => "Maison de la culture" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "875f279f-53e4-4952-8f4c-108838c5715f", "translation" => "دار الثقافة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //262
+            ["id" => "1fe00157-d84e-40ea-abfd-1c3b7e2e61d9", "translation" => "Municipal museum", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4ae2c46d-74e5-479e-be75-063209b417d9", "translation" => "Musée municipal" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ecacba02-5231-4521-83ff-0a1d96d33b46", "translation" => "المتحف البلدي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //263
+            ["id" => "e8eff4f1-9bb6-40a3-be81-c77b8f33563c", "translation" => "Statue of the Virgin Mary", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "36a47e8b-aecc-4828-a16d-bbc218805f61", "translation" => "Statue de la Vierge Marie" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3283fcfe-476e-4de4-ae59-15abed451fcc", "translation" => "تمثال العذراء مريم", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //264
+            ["id" => "a09ef546-3a9c-4690-b9e2-876080d7ce3e", "translation" => "Sidi Merouane lighthouse", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d318dd2d-00eb-4c5b-be5c-f85a9b940ca9", "translation" => "Phare Sidi Merouane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "afb7cf85-9139-4c3c-906d-5e7085f2bd20", "translation" => "منارة سيدي مروان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //265
+            ["id" => "83244cd0-31f3-4d34-b695-689b50165492", "translation" => "Sidi Merouane beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "abdb2c5f-0bac-40b1-a46b-8ed6472af2c0", "translation" => "Plage Sidi Merouane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0595c14e-58a8-46a1-af79-726938d1ee76", "translation" => "شاطئ سيدي مروان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //266
+            ["id" => "cd281aaa-b924-4731-85b0-d99bbbc688cb", "translation" => "Public garden", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "841091eb-cde6-470f-bf36-c5b0173af3f1", "translation" => "Jardin public" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8dacd1fe-fef8-4fc0-b90b-57c8b48db969", "translation" => "حديقة عامة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //267
+            ["id" => "620ae765-2cd1-445c-b8e2-84f142fea77f", "translation" => "Bordj Tobana", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0e716c5c-afb1-471f-ad24-89e263957fac", "translation" => "Bordj Tobana" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "eb55b025-4e1a-488b-b415-a251f8df7f08", "translation" => "برج الطبانة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //268
+            ["id" => "ee979887-5ca1-47c4-8ef0-972564418177", "translation" => "Colombi lighthouse", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ed522a00-97a0-4a68-a8d8-5b6bed3f0316", "translation" => "Phare de Colombi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d496558e-2aae-46f0-8026-5b0fd0025641", "translation" => "منارة كولومبي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //269
+            ["id" => "de594064-eb72-4c4e-89ab-36877e9f418e", "translation" => "Mausoleum of Mama Binette", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0be8b5ee-f935-46f6-8e34-8c1ab16c2845", "translation" => "Mausolée de Mama Binette" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f7770f83-02c6-4d85-a936-4ba9d131dff8", "translation" => "ضريح ماما بينات", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //270
+            ["id" => "42fd8d9f-bad1-45e6-9d45-6a1774293ff0", "translation" => "The diver's house", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c78a2a62-33e7-4ded-bb88-d03c75289608", "translation" => "La maison du plongeur" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d5db5601-42f1-49a6-b136-b576b329a858", "translation" => "دار الغواص", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //271
+            ["id" => "29667790-3d5e-49d0-b37b-2784e472a373", "translation" => "Bordj el Ghoula", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9db4d14e-7ea8-4999-adb3-fca316c5bde7", "translation" => "Bordj el Ghoula" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "280c79e4-f87e-46b5-8e00-2a7c8bb3e2b0", "translation" => "برج الغولة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //272
+            ["id" => "60f7345f-db96-412b-802f-d02e874e572e", "translation" => "Chamber of crafts and trades", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "606069f4-8120-43b6-b283-58a55afa2068", "translation" => "Chambre de l'artisanat et des métiers" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5dadb359-7e71-4c6b-86c2-7403bb3649ff", "translation" => "غرفة الصناعة والحرف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //273
+            ["id" => "7dd0e317-e7ee-4378-9ecc-a4241daed2f2", "translation" => "Mostaland park", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "27fb6ac1-1b4d-4206-bb05-bab746aab065", "translation" => "Mostaland parc" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f6ed6f5b-8485-4c5d-a61c-9ae115689a70", "translation" => "حديقة موستالاند", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //274
+            ["id" => "6a02cdae-d58b-4185-a8ce-30dc0ee04352", "translation" => "Museum of the mujahid", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c6a4c192-0db4-4f18-9673-560a3474b175", "translation" => "Musée du Moudjahid" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c12e1a4a-6104-4ff9-80f4-f53f56215570", "translation" => "متحف المجاهد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //275
+            ["id" => "c97d9de0-dc41-4fa2-8b73-92abd2633fac", "translation" => "Bordj Ettork", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5b5cd88e-51ba-4027-be1e-7bdd113d11d7", "translation" => "Bordj Ettork" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b6c5e007-a8f8-475a-bc20-3cf8cefa79b3", "translation" => "برج الترك", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //276
+            ["id" => "7731d6ae-5d7b-46c3-8470-397cce6223bb", "translation" => "Mostaganem theater", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "83cfe614-457d-4e6c-b56f-45373c9f4ca1", "translation" => "Théâtre de Mostaganem" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "45592fe2-c769-4349-95dc-67963f26ec56", "translation" => "مسرح مستغانم", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //277
+            ["id" => "5e740309-22e5-46f8-9923-de49082faf5e", "translation" => "Chamber of crafts and trades", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "618fc0b6-a42c-4dbc-8088-ad459bdc493b", "translation" => "Chambre de l’artisanat et des métiers" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "09d3f863-58bb-45eb-8e77-9bd55c48720c", "translation" => "غرفة الصناعة والحرف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //278
+            ["id" => "9418741c-fa3e-41d3-b97d-ee2da2afe058", "translation" => "Cap Ivi lighthouse", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "477ca20c-2de0-4673-8970-dde0554a77dc", "translation" => "Phare de Cap Ivi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "229ca641-5463-4a6b-8ac5-647d4b16d4ce", "translation" => "منارة رأس إيفي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //279
+            ["id" => "afc80a66-6b2a-483f-9ba3-57a62bf7498f", "translation" => "Sayyida Khadija mosque", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "192b5cdc-310e-4dc5-89e2-65181fc58179", "translation" => "Mosquée sayyida Khadija" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0da49a9e-efb3-4ce5-a6e8-6f6518438b6d", "translation" => "مسجد السيدة خديجة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //280
+            ["id" => "399df5f2-11ba-41cb-9ebe-c84e756197f9", "translation" => "The november 1st 1954 garden", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "51e31f58-b5e2-4025-8867-6033e890f8bb", "translation" => "Jardin du 1er novembre 1954" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "715e4e4f-fe91-425f-8dbf-0cf9fc1aa683", "translation" => "حديقة أول نوفمبر 1954", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //281
+            ["id" => "9a258c05-a54a-42c3-8072-78eb9a0a4d58", "translation" => "Mohamed Habib Hachelaf cinema", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b498118e-7c6b-49bc-8fe3-890df20e820d", "translation" => "Cinéma Mohamed Habib Hachelaf" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "43602c8b-3a7d-4c47-9776-75e11f4133c1", "translation" => "سينما محمد حبيب حشلاف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //282
+            ["id" => "cfb186d1-c136-499f-bbc3-6c5b9c1193dd", "translation" => "The wall of Sour", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "96b5a816-f13c-46e0-b4d5-39a0f870aec0", "translation" => "Muraille de Sour" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "87bdcfa3-bffb-4edc-8196-218a61d0e1a9", "translation" => "سور الصور", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //283
+            ["id" => "a9a488f5-cab0-485f-bf9c-8b4ea2e7b11e", "translation" => "City hall", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "43a9c3ad-23d0-4586-be98-1ab1306b6c46", "translation" => "L’hôtel de ville" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "716c6f2a-d6d2-4aa9-b20f-6ac397c071c1", "translation" => "البلدية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //284
+            ["id" => "95f6b03e-c7bb-4de1-81d3-1486b440ef47", "translation" => "The Greenwich meridian", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3cf4d902-35fc-491b-a3b1-b6b47460077f", "translation" => "Méridien de Greenwich" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7caf8018-715d-4f74-9a83-a398d79ce060", "translation" => "مدار غرينتش", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //285
+            ["id" => "92e412cf-d0c6-47c3-9b80-33e87cf5d410", "translation" => "The Mazagran stele", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b1eb4512-1e2a-4baa-86e1-abddcc295ea2", "translation" => "Stèle de Mazagran" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9921ccd7-3063-4b33-880d-61ff310d78fd", "translation" => "المعلم الأثري مزغران", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //286
+            ["id" => "a7af4f63-7884-4d5a-b398-647b56f27cff", "translation" => "Bourahma recreational forest", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "400941db-fbea-41ab-8c40-da920883e455", "translation" => "Forêt récréative de Bourahma" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "444f308b-7fc4-47e0-8cda-ec2762bebcde", "translation" => "الغابة الترفيهية بورحمة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //287
+            ["id" => "490c2dd1-ecec-41fb-866a-ae1d4eb221da", "translation" => "Zabana national museum", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4eda1469-31dc-4af5-a3ff-1b5546cb8bc9", "translation" => "Musée national Zabana" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "73d8863c-0bdb-4e30-a1df-8dc5e290da97", "translation" => "المتحف الوطني أحمد زبانة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //288
+            ["id" => "5c28ba21-440d-4e40-87cc-518773d28fb5", "translation" => "The Murdjajo cinema", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ecd23c5f-0adc-4105-9bf6-5a7d16a76297", "translation" => "Cinéma le Murdjajo" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d5b15f30-756b-4ff8-b0cc-314166ce5341", "translation" => "سينما المرجاجو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //289
+            ["id" => "60f394b8-33ca-4ffe-a6b6-e8dc59406017", "translation" => "Es-Saada hall ", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e589a393-dba5-4e37-a80e-008ad2f14b0e", "translation" => "Salle Es-Saàda" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a76d77f8-ea02-4530-94bc-860e12f1a1de", "translation" => "قاعة السعادة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //290
+            ["id" => "d6d96f8b-5a8e-4d79-ab49-3c6a276243df", "translation" => "The Oran cinematheque", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "358fd73d-6a5a-46df-9d99-8d8fb6eb0090", "translation" => "Cinémathèque d’Oran" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7d59f733-b72b-4299-80a4-6b4350947061", "translation" => "سينماتيك وهران", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //291
+            ["id" => "a8d28d25-0977-438b-989d-24c681caf85b", "translation" => "Maghreb hall", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ce10da15-de13-4634-93b6-86ad065b8805", "translation" => "Salle Maghreb" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5f20d3d3-e6f5-4116-814e-d88091b5b287", "translation" => "قاعة المغرب", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //292
+            ["id" => "b725e257-317f-45f9-8f53-1ab967a76524", "translation" => "Cinegold Multiplex", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7a25a815-dd2d-43e2-b29d-a13cb73586a1", "translation" => "Cinegold Multiplex" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0fa246b3-7196-44e4-af00-a9f2252d4efe", "translation" => "سينيقولد وهران", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //293
+            ["id" => "973742f9-11fd-482b-a9ee-254131b55e7b", "translation" => "Santa Cruz fort", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "00a00e92-8908-4332-b3da-91812eaa9a9d", "translation" => "Fort de Santa Cruz" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "aa3ae40c-f4bc-4183-b85e-11109f0b236e", "translation" => "قلعة سانتا كروز", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //294
+            ["id" => "0df0e3a4-aa54-46d7-a9cd-ad40d6b63b20", "translation" => "Santa Cruz chapel", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b4f819fa-a067-4b19-ba5f-32174b8877db", "translation" => "Chapelle Santa Cruz" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3a867dcd-36fc-4288-b99c-68d2ffcf852f", "translation" => "كنيسة سانتا كروز", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //295
+            ["id" => "34aa4c9f-ed84-45ac-b539-ab6c9ab44067", "translation" => "Saint Louis church", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "fd18ffd1-487a-4c6a-a538-cb4ede66c9e1", "translation" => "L’église Saint Louis" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7ad3a44c-8ddf-41bb-a6cb-78e98655c5f3", "translation" => "كنيسة سان لويس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //296
+            ["id" => "7ad8d810-8128-4a89-9913-05008d501f9a", "translation" => "The Santon gate", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4100eb17-e96d-47ba-80f0-3348cd2b7214", "translation" => "La porte du Santon" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2a841792-1556-46aa-b5ba-ea06501b18c7", "translation" => "بوابة سانطون", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //297
+            ["id" => "a4f0d060-45ad-42fb-8456-f0582787da16", "translation" => "Santiago fort", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "70a05bfe-ef4d-4179-b80b-99ab17ea4f19", "translation" => "Fort Santiago" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "65c9bec8-8afc-4eb9-b884-38ae09a79695", "translation" => "قلعة سانتياغو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //298
+            ["id" => "60217341-5bd5-4104-9fb4-745390da5805", "translation" => "The gate of Spain", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8caba56e-4d8d-43ab-9976-8a112a377fcf", "translation" => "La porte d’Espagne" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e2b5e780-727c-4804-983f-faecbaa6793d", "translation" => "بوابة إسبانيا", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //299
+            ["id" => "3e200575-b6be-4587-880d-3f9872112660", "translation" => "San Jose drum", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "74a0adc3-c4a7-4ec4-87c3-04519bf29475", "translation" => "Tambour San José" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "14c632d1-a20d-44df-b651-2595b0b554f2", "translation" => "طبل سان خوسي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //300
+            ["id" => "9a9a156a-1f3f-4110-be3a-64a84c8ba046", "translation" => "The municipal library", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2145f1fb-ab74-4c08-b9b4-1a769c9ecc4d", "translation" => "La bibliothèque municipale" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2afe19c3-b2a6-459e-80cd-a2815166fe35", "translation" => "مكتبة البلدية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
 
 
 
