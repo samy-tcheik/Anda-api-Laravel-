@@ -57,7 +57,11 @@ class PlaceController extends Controller
 
     public function getRating(Place $place): RatingResource {
         $user = Auth::user();
-        $rating = $place->rating()->where("user_id", $user->id)->first();
+        $rating = new Rating();
+        if ($place->rating()->exists()) {
+            $rating = $place->rating()->where("user_id", $user->id)->first();
+        }
+        $rating->rating = "0";
         return RatingResource::make($rating);
     }
 
