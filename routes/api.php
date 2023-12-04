@@ -48,6 +48,7 @@ Route::middleware("auth:sanctum")->group(function () {
     Route::get("places/nearby", [PlaceController::class, "nearby"])->name("places.nearby");
     Route::get("places/discover", [PlaceController::class, "discover"])->name("places.discover");
     Route::post("places/{place}/rating", [PlaceController::class, "updateRating"])->name("place.rating-update");
+    Route::get("places/{place}/rating", [PlaceController::class, "getRating"])->name("place.get-rating");
     Route::apiResource("places", PlaceController::class);
     //categories
     Route::apiResource("categories", CategoryController::class);

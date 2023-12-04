@@ -7,6 +7,7 @@ use App\Http\Filters\RangeFilter;
 use App\Http\Requests\Place\RatingRequest;
 use App\Http\Resources\Place\PlaceDetailResource;
 use App\Http\Resources\Place\PlaceResource;
+use App\Http\Resources\Rating\RatingResource;
 use App\Http\Responses\Rating\RatingPlaceResponse;
 use App\Models\Place;
 use App\Models\Rating;
@@ -52,6 +53,12 @@ class PlaceController extends Controller
         $longitude = $request->get("filter")["range"]["longitude"];
         $place = Place::addDistanceFromField($latitude,$longitude)->find($place_id);
         return PlaceResource::make($place);
+    }
+
+    public function getRating(Place $place): RatingResource {
+        $user = Auth::user();
+        $rating = $place->rating()->where("user_id", $user->id)->first();
+        return RatingResource::make($rating);
     }
 
     public function updateRating(RatingRequest $request, Place $place) {
