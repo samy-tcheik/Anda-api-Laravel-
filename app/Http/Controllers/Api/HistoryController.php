@@ -3,22 +3,32 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
-use App\Http\Resources\Place\PlaceResource;
+use App\Http\Resources\History\HistoryResource;
 use App\Http\Responses\History\AddHistoryResponse;
 use App\Models\History;
 use App\Models\Place;
 use Carbon\Carbon;
+use Illuminate\Http\Request;
+use Illuminate\Http\Resources\Json\ResourceCollection;
 use Illuminate\Support\Facades\Auth;
 
 class HistoryController extends Controller
 {
-    public function index() {
+    public function index(Request $request): ResourceCollection
+    {
+        $latitude = $request->get("filter")["range"]["latitude"];
+        $longitude = $request->get("filter")["range"]["longitude"];
+
         $user = Auth::user();
-        $places = $user->history()->with("place")->get()->pluck("place");
-        return PlaceResource::collection($places);
+
+        $histories = $user->history()->with("place", function($query) use ($latitude, $longitude) {
+            $query->addDistanceFromField($latitude,$longitude);
+        })->latest()->paginate(10);
+
+        return HistoryResource::collection($histories);
     }
 
-    public function store(Place $place) {
+    static function store(Place $place) {
         $user = Auth::user();
         // Check if user already visited
         $history = History::where("user_id", $user->id)->where("place_id", $place->id)->first();

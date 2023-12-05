@@ -64,5 +64,4 @@ Route::middleware("auth:sanctum")->group(function () {
 
     //history
     Route::get("history", [HistoryController::class, "index"])->name("history.index");
-    Route::post("history/{place}", [HistoryController::class, "store"])->name("history.store");
 });
