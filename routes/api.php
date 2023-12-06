@@ -59,8 +59,8 @@ Route::middleware("auth:sanctum")->group(function () {
     Route::put("comments/{comment}", [CommentController::class, "update"])->name("comments.update");
     Route::delete("comments/{comment}", [CommentController::class, "delete"])->name("comments.delete");
     //likes
+    Route::get("likes", [LikeController::class, "index"])->name("like.index");
     Route::post("likes/{type}/{model}", [LikeController::class, "store"])->name("likes.store");
-    Route::delete("likes/{type}/{model}", [LikeController::class, "delete"])->name("like.delete");
 
     //history
     Route::get("history", [HistoryController::class, "index"])->name("history.index");

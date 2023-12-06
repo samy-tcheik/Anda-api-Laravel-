@@ -14,7 +14,7 @@ class Like extends Model
     use HasFactory;
     use HasUuids;
 
-    public function places(): MorphToMany {
+    public function place(): MorphToMany {
         return $this->morphedByMany(Place::class, "likable");
     }
 
