@@ -18,7 +18,7 @@ class LikeResource extends JsonResource
         return [
         "id" => $this->id,
         "create_at" => $this->create_at,
-        "place" => PlaceResource::make($this->place[0]),
+        "place" => PlaceResource::make($this->place),
     ];
     }
 }

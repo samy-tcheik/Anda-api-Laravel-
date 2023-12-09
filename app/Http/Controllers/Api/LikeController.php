@@ -44,7 +44,8 @@ class LikeController extends Controller
         $model = LikableType::fromName($type)->value;
         $user = Auth::user();
         $element = $model::find($id);
-        $element->likes()->where("user_id", $user->id)->first()->delete();
+        $like = $element->likes()->where("user_id", $user->id)->first();
+        $like->delete();
         return response(["message" => "like removed"]);
     }
 }
