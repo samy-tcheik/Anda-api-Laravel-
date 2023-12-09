@@ -39,8 +39,8 @@ class Place extends Model
         return $this->rating->avg("rating");
     }
 
-    public function comments(): MorphToMany {
-        return $this->morphToMany(Comment::class, "commentable");
+    public function comments(): morphMany {
+        return $this->morphMany(Comment::class, "commentable");
     }
 
     public function likes(): MorphMany {

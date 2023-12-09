@@ -15,6 +15,7 @@ return new class extends Migration
             $table->uuid("id")->primary();
             $table->longText("comment");
             $table->foreignUuid("user_id")->references("id")->on("users");
+            $table->uuidMorphs("commentable");
             $table->timestamps();
         });
     }
