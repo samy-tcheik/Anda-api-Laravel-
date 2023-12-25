@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
+use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
 use Illuminate\Support\Facades\Auth;
 use Netsells\GeoScope\Traits\GeoScopeTrait;
@@ -38,12 +39,12 @@ class Place extends Model
         return $this->rating->avg("rating");
     }
 
-    public function comments(): MorphToMany {
-        return $this->morphToMany(Comment::class, "commentable");
+    public function comments(): MorphMany {
+        return $this->morphMany(Comment::class, "commentable");
     }
 
-    public function likes(): MorphToMany {
-        return $this->morphToMany(Like::class, "likable");
+    public function likes(): MorphMany {
+        return $this->morphMany(Like::class, "likable");
     }
 
     public function getTranslation(string $lang): string {

@@ -6,30 +6,22 @@ use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Illuminate\Database\Eloquent\Relations\HasOne;
-use Illuminate\Database\Eloquent\Relations\MorphToMany;
+use Illuminate\Database\Eloquent\Relations\MorphTo;
 
 class Like extends Model
 {
     use HasFactory;
     use HasUuids;
 
-    public function place(): MorphToMany {
-        return $this->morphedByMany(Place::class, "likable");
+    public function place(): BelongsTo {
+        return $this->belongsTo(Place::class, "likable_id");
     }
 
-    public function likable(): HasOne {
-        return $this->hasOne(Likable::class, "like_id");
+    public function likable(): MorphTo {
+        return $this->morphTo();
     }
 
     public function user(): BelongsTo {
         return $this->belongsTo(User::class);
-    }
-
-    protected static function booted()
-    {
-        static::deleting(function(Like $like) {
-            $like->likable()->delete();
-        });
     }
 }

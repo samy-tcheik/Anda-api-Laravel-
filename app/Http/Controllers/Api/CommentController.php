@@ -15,7 +15,7 @@ class CommentController extends Controller
 {
     public function index($type, string $id): ResourceCollection {
         $model = CommentableType::fromName($type)->value;
-        $comments = $model::find($id)->first()->comments;
+        $comments = $model::find($id)->comments()->paginate();
         return CommentResource::collection($comments);
     }
 
@@ -26,8 +26,7 @@ class CommentController extends Controller
         $validated = $request->validated();
         $comment = new Comment($validated);
         $comment->user()->associate(Auth::user());
-
-        $model::find($id)->first()->comments()->save($comment);
+        $model::find($id)->comments()->save($comment);
         return CommentResource::make($comment);
     }
 

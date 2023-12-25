@@ -14,7 +14,6 @@ class TranslatableSeeder extends Seeder
     public function run(): void
     {
         $translatable = [
-            //=============TEST==============================
             //1
             ["translation_id" => "000c5d5b-1ee2-4c58-b95a-6f76f532317e", "translatable_type" => "App\Models\Place", "translatable_id" => "0bfd96db-ceb8-417f-998f-4818c58e3a8c"],
             ["translation_id" => "0012f4e4-50c4-442c-8332-a9f5ea13e9e1", "translatable_type" => "App\Models\Place", "translatable_id" => "0bfd96db-ceb8-417f-998f-4818c58e3a8c"],
@@ -4015,7 +4014,2006 @@ class TranslatableSeeder extends Seeder
             ["translation_id" => "a01c28a8-6680-4dc3-8c9e-c19575539ea3", "translatable_type" => "App\Models\Place", "translatable_id" => "786cb043-f873-40ea-ab26-39dc1c8b6de0"],
             ["translation_id" => "d5667ae9-28b2-4cef-a2b0-372b3f358b98", "translatable_type" => "App\Models\Place", "translatable_id" => "786cb043-f873-40ea-ab26-39dc1c8b6de0"],
             ["translation_id" => "65c51b41-1740-4e17-b4b3-4a5698872271", "translatable_type" => "App\Models\Place", "translatable_id" => "786cb043-f873-40ea-ab26-39dc1c8b6de0"],
-
+            //1001
+            ["translation_id" => "968d8450-a40d-481c-9ef5-ecbfe53afa51", "translatable_type" => "App\Models\Place", "translatable_id" => "ca16f89e-5c64-4dae-8790-3eb88a506d3d"],
+            ["translation_id" => "70e2776e-447d-4055-bac1-318e1f894f4e", "translatable_type" => "App\Models\Place", "translatable_id" => "ca16f89e-5c64-4dae-8790-3eb88a506d3d"],
+            ["translation_id" => "d20c3f8d-2ef0-4ddb-9b2a-9dd219932087", "translatable_type" => "App\Models\Place", "translatable_id" => "ca16f89e-5c64-4dae-8790-3eb88a506d3d"],
+            //1002
+            ["translation_id" => "5401968c-e9b6-47d2-bd76-52df2f28ccf0", "translatable_type" => "App\Models\Place", "translatable_id" => "7a8193d4-2209-4fb4-aa59-bc393d679284"],
+            ["translation_id" => "15ac95d4-3704-4ee1-b8f0-5366c30d859f", "translatable_type" => "App\Models\Place", "translatable_id" => "7a8193d4-2209-4fb4-aa59-bc393d679284"],
+            ["translation_id" => "0332e3e9-c9bb-44bb-a94a-2617b2ef442e", "translatable_type" => "App\Models\Place", "translatable_id" => "7a8193d4-2209-4fb4-aa59-bc393d679284"],
+            //1003
+            ["translation_id" => "e02f2ea0-ca0e-4e64-b7ee-92dfe80e2b9a", "translatable_type" => "App\Models\Place", "translatable_id" => "82c8e466-cfb0-4854-b7d6-cf0a458a56f7"],
+            ["translation_id" => "21a81c67-fbeb-4d0c-8c4f-5727f86309db", "translatable_type" => "App\Models\Place", "translatable_id" => "82c8e466-cfb0-4854-b7d6-cf0a458a56f7"],
+            ["translation_id" => "a8296b25-61ec-4991-b8b1-1e716d99e389", "translatable_type" => "App\Models\Place", "translatable_id" => "82c8e466-cfb0-4854-b7d6-cf0a458a56f7"],
+            //1004
+            ["translation_id" => "ffc01529-0c72-4a38-8dae-fd71a3dc6cc6", "translatable_type" => "App\Models\Place", "translatable_id" => "d1f0246c-a753-409e-82ae-b77694505974"],
+            ["translation_id" => "373ace8c-261f-465f-a439-9a9d6f05aa5f", "translatable_type" => "App\Models\Place", "translatable_id" => "d1f0246c-a753-409e-82ae-b77694505974"],
+            ["translation_id" => "614a4147-bc94-402a-acd4-b5df1ee86dff", "translatable_type" => "App\Models\Place", "translatable_id" => "d1f0246c-a753-409e-82ae-b77694505974"],
+            //1005
+            ["translation_id" => "f845ff47-7fc2-4703-94f5-ddfa5eb397a0", "translatable_type" => "App\Models\Place", "translatable_id" => "b1545da2-3407-4682-9a66-b95bb2e9ace0"],
+            ["translation_id" => "48faa02a-a8d6-43cd-b331-14c80543721e", "translatable_type" => "App\Models\Place", "translatable_id" => "b1545da2-3407-4682-9a66-b95bb2e9ace0"],
+            ["translation_id" => "e2c00503-592d-4039-8649-3b80d50db1ea", "translatable_type" => "App\Models\Place", "translatable_id" => "b1545da2-3407-4682-9a66-b95bb2e9ace0"],
+            //1006
+            ["translation_id" => "01551a86-8d7f-4dd5-b757-ab4ab6999b6d", "translatable_type" => "App\Models\Place", "translatable_id" => "b7933c77-db7b-4b18-9d2e-eb0643af81d7"],
+            ["translation_id" => "6190143c-72f8-4c20-a98c-db3868cb947d", "translatable_type" => "App\Models\Place", "translatable_id" => "b7933c77-db7b-4b18-9d2e-eb0643af81d7"],
+            ["translation_id" => "a6836632-8e74-46de-bf04-66662c78e201", "translatable_type" => "App\Models\Place", "translatable_id" => "b7933c77-db7b-4b18-9d2e-eb0643af81d7"],
+            //1007
+            ["translation_id" => "1b6a8bf3-2d1a-4e5b-8966-23bac85a8c4d", "translatable_type" => "App\Models\Place", "translatable_id" => "caad703b-6adf-4790-afc2-2a6137ac674b"],
+            ["translation_id" => "608253d0-a90c-41e7-b83b-c65cd884e026", "translatable_type" => "App\Models\Place", "translatable_id" => "caad703b-6adf-4790-afc2-2a6137ac674b"],
+            ["translation_id" => "86dae566-17bb-4516-8467-4135804e6690", "translatable_type" => "App\Models\Place", "translatable_id" => "caad703b-6adf-4790-afc2-2a6137ac674b"],
+            //1008
+            ["translation_id" => "8ced8e10-55d1-43d4-9844-470833ceea24", "translatable_type" => "App\Models\Place", "translatable_id" => "e7025dda-e784-4b80-9be0-6747cff94b9c"],
+            ["translation_id" => "de7a38e0-fab9-4cec-9b19-d946e804ca07", "translatable_type" => "App\Models\Place", "translatable_id" => "e7025dda-e784-4b80-9be0-6747cff94b9c"],
+            ["translation_id" => "6d3bb03e-81f4-463e-8221-8b1e91363fb0", "translatable_type" => "App\Models\Place", "translatable_id" => "e7025dda-e784-4b80-9be0-6747cff94b9c"],
+            //1009
+            ["translation_id" => "a3197fb1-5af0-4227-acf3-805286d7bf2a", "translatable_type" => "App\Models\Place", "translatable_id" => "791d3275-cd9c-40b2-ab08-575ace8083d9"],
+            ["translation_id" => "996c9a93-f3c2-40d0-ad70-46efe0b4a1c2", "translatable_type" => "App\Models\Place", "translatable_id" => "791d3275-cd9c-40b2-ab08-575ace8083d9"],
+            ["translation_id" => "a9a5a7f8-fd9d-4b4f-abfb-c8ae39bd1890", "translatable_type" => "App\Models\Place", "translatable_id" => "791d3275-cd9c-40b2-ab08-575ace8083d9"],
+            //1010
+            ["translation_id" => "547d326d-cbf8-47b9-b49c-cae26d57a480", "translatable_type" => "App\Models\Place", "translatable_id" => "9f5fe8ac-5c2b-4479-acd6-b6062ec5bb55"],
+            ["translation_id" => "3d5413de-295f-48aa-b116-754551fa4563", "translatable_type" => "App\Models\Place", "translatable_id" => "9f5fe8ac-5c2b-4479-acd6-b6062ec5bb55"],
+            ["translation_id" => "51a69a15-8bc2-4172-9ba8-4b5b5b693386", "translatable_type" => "App\Models\Place", "translatable_id" => "9f5fe8ac-5c2b-4479-acd6-b6062ec5bb55"],
+            //1011
+            ["translation_id" => "1d79a0cb-f062-4b58-8853-9e120b945001", "translatable_type" => "App\Models\Place", "translatable_id" => "54bc46dc-55ca-4f67-aa63-e42fef04513e"],
+            ["translation_id" => "dd82ac69-3180-4e96-9a39-709365c95f75", "translatable_type" => "App\Models\Place", "translatable_id" => "54bc46dc-55ca-4f67-aa63-e42fef04513e"],
+            ["translation_id" => "c0e536da-29b4-4462-a498-daf86d768e73", "translatable_type" => "App\Models\Place", "translatable_id" => "54bc46dc-55ca-4f67-aa63-e42fef04513e"],
+            //1012
+            ["translation_id" => "b6d131a3-ff5b-4db6-adb6-5b90991e7cd9", "translatable_type" => "App\Models\Place", "translatable_id" => "3826945d-3012-4161-8441-9195fc5a6bfc"],
+            ["translation_id" => "43e5590c-afab-4629-88e3-6fe15c2dbbd0", "translatable_type" => "App\Models\Place", "translatable_id" => "3826945d-3012-4161-8441-9195fc5a6bfc"],
+            ["translation_id" => "1a2776df-60d6-4d86-8704-17d21d0d0d07", "translatable_type" => "App\Models\Place", "translatable_id" => "3826945d-3012-4161-8441-9195fc5a6bfc"],
+            //1013
+            ["translation_id" => "3fa2db74-3de3-48ac-a3ce-0263617b4f4d", "translatable_type" => "App\Models\Place", "translatable_id" => "a815e23d-bd00-4872-a7d4-5f53690bbc95"],
+            ["translation_id" => "3da4fbfd-819f-4387-bac9-6e2350439b55", "translatable_type" => "App\Models\Place", "translatable_id" => "a815e23d-bd00-4872-a7d4-5f53690bbc95"],
+            ["translation_id" => "d64df15b-d1e7-41af-990f-f64be09d2b42", "translatable_type" => "App\Models\Place", "translatable_id" => "a815e23d-bd00-4872-a7d4-5f53690bbc95"],
+            //1014
+            ["translation_id" => "e4f0a58f-133b-4010-abad-09e4935cfd63", "translatable_type" => "App\Models\Place", "translatable_id" => "e7312df3-7667-4007-a5e5-889a3937090b"],
+            ["translation_id" => "fd54eb05-0683-468b-8f26-a24002ee7320", "translatable_type" => "App\Models\Place", "translatable_id" => "e7312df3-7667-4007-a5e5-889a3937090b"],
+            ["translation_id" => "8a48a57c-4389-42ce-a788-8e397f304890", "translatable_type" => "App\Models\Place", "translatable_id" => "e7312df3-7667-4007-a5e5-889a3937090b"],
+            //1015
+            ["translation_id" => "e2821963-4782-48ff-bcb8-989a076f2628", "translatable_type" => "App\Models\Place", "translatable_id" => "477cdd1a-655d-4bac-96ff-85ebcc702e85"],
+            ["translation_id" => "1ab894b9-a306-407a-a714-49dfff44351c", "translatable_type" => "App\Models\Place", "translatable_id" => "477cdd1a-655d-4bac-96ff-85ebcc702e85"],
+            ["translation_id" => "02a6460b-8424-42e7-9342-e9ea052fae36", "translatable_type" => "App\Models\Place", "translatable_id" => "477cdd1a-655d-4bac-96ff-85ebcc702e85"],
+            //1016
+            ["translation_id" => "82638142-ab19-4eb4-848a-5333c6486f1f", "translatable_type" => "App\Models\Place", "translatable_id" => "19b2b22e-21b5-4b20-b899-57a093f7fac2"],
+            ["translation_id" => "a9545719-495e-4a37-a153-f34111a5676d", "translatable_type" => "App\Models\Place", "translatable_id" => "19b2b22e-21b5-4b20-b899-57a093f7fac2"],
+            ["translation_id" => "177d57e9-f48a-4f07-a25b-79c497d920a5", "translatable_type" => "App\Models\Place", "translatable_id" => "19b2b22e-21b5-4b20-b899-57a093f7fac2"],
+            //1017
+            ["translation_id" => "a9684bc2-2e6f-4cb7-b23d-3d710641449d", "translatable_type" => "App\Models\Place", "translatable_id" => "ebf050de-39ed-4123-800c-d78f2545b9af"],
+            ["translation_id" => "4269a9d0-5e96-4f97-a35c-99f3a5f1bb37", "translatable_type" => "App\Models\Place", "translatable_id" => "ebf050de-39ed-4123-800c-d78f2545b9af"],
+            ["translation_id" => "9b2c693b-3963-4d8b-98a2-3468f341ad41", "translatable_type" => "App\Models\Place", "translatable_id" => "ebf050de-39ed-4123-800c-d78f2545b9af"],
+            //1018
+            ["translation_id" => "0e27ca65-a60d-4846-8309-c7cd8fb0e3da", "translatable_type" => "App\Models\Place", "translatable_id" => "063e2f68-7a01-4d3b-b6d1-fdaad7970a7c"],
+            ["translation_id" => "f81b971c-4883-4795-b365-7b5c661e5d11", "translatable_type" => "App\Models\Place", "translatable_id" => "063e2f68-7a01-4d3b-b6d1-fdaad7970a7c"],
+            ["translation_id" => "a7f14cd6-10bd-493a-83d7-2bd0953914b6", "translatable_type" => "App\Models\Place", "translatable_id" => "063e2f68-7a01-4d3b-b6d1-fdaad7970a7c"],
+            //1019
+            ["translation_id" => "30a7c304-f6d7-4e4f-953a-86cc0b163e6d", "translatable_type" => "App\Models\Place", "translatable_id" => "d57bd64a-df59-4d04-b385-d69d20b399b4"],
+            ["translation_id" => "e22d3035-b4df-41b5-826a-2ebfd7351a2b", "translatable_type" => "App\Models\Place", "translatable_id" => "d57bd64a-df59-4d04-b385-d69d20b399b4"],
+            ["translation_id" => "54c7d402-9108-4abd-a478-f3851f1df10a", "translatable_type" => "App\Models\Place", "translatable_id" => "d57bd64a-df59-4d04-b385-d69d20b399b4"],
+            //1020
+            ["translation_id" => "4345f922-0aaa-4207-8eb3-9edf5395f7aa", "translatable_type" => "App\Models\Place", "translatable_id" => "901282ea-456e-4f05-a4e9-625719809be8"],
+            ["translation_id" => "f09b6907-6309-4fc7-b732-f0f63341a613", "translatable_type" => "App\Models\Place", "translatable_id" => "901282ea-456e-4f05-a4e9-625719809be8"],
+            ["translation_id" => "77d5cc2f-a797-4692-a636-e765512f2f9c", "translatable_type" => "App\Models\Place", "translatable_id" => "901282ea-456e-4f05-a4e9-625719809be8"],
+            //1021
+            ["translation_id" => "609dd88f-8286-4442-9cd9-ec781e1920d1", "translatable_type" => "App\Models\Place", "translatable_id" => "b6e346d9-7bdc-4a29-b368-7556fad91aca"],
+            ["translation_id" => "282067f0-107f-4ceb-9bf0-add48273498b", "translatable_type" => "App\Models\Place", "translatable_id" => "b6e346d9-7bdc-4a29-b368-7556fad91aca"],
+            ["translation_id" => "8edbca50-7ed9-4858-86f2-0c8cc5cb4376", "translatable_type" => "App\Models\Place", "translatable_id" => "b6e346d9-7bdc-4a29-b368-7556fad91aca"],
+            //1022
+            ["translation_id" => "22443050-caec-429e-abb8-d408ece98ab5", "translatable_type" => "App\Models\Place", "translatable_id" => "49136e0b-a8b4-407f-a182-aa747655875f"],
+            ["translation_id" => "569a5396-840c-4621-9858-f9e067f9a115", "translatable_type" => "App\Models\Place", "translatable_id" => "49136e0b-a8b4-407f-a182-aa747655875f"],
+            ["translation_id" => "41ce4af2-f13e-4398-ae6b-233a40c82f4d", "translatable_type" => "App\Models\Place", "translatable_id" => "49136e0b-a8b4-407f-a182-aa747655875f"],
+            //1023
+            ["translation_id" => "451d3ec2-4b60-460a-869f-0fe5608a9213", "translatable_type" => "App\Models\Place", "translatable_id" => "5b64a91e-2894-488a-a818-c22ef0e80253"],
+            ["translation_id" => "9771326a-4e3e-4d2a-9a5e-4b3a702e2d03", "translatable_type" => "App\Models\Place", "translatable_id" => "5b64a91e-2894-488a-a818-c22ef0e80253"],
+            ["translation_id" => "3b0dbf6a-f6a9-4c1e-9831-d18c588fd636", "translatable_type" => "App\Models\Place", "translatable_id" => "5b64a91e-2894-488a-a818-c22ef0e80253"],
+            //1024
+            ["translation_id" => "c78a492a-8d21-49f1-8ef5-4a6915e686fd", "translatable_type" => "App\Models\Place", "translatable_id" => "92fac7a6-665d-4c5c-8c0c-0387356a665d"],
+            ["translation_id" => "b7470935-0edc-4212-9a57-25dfae4de2cb", "translatable_type" => "App\Models\Place", "translatable_id" => "92fac7a6-665d-4c5c-8c0c-0387356a665d"],
+            ["translation_id" => "91109a49-8e2e-47b3-8320-36bbe1ee2bfa", "translatable_type" => "App\Models\Place", "translatable_id" => "92fac7a6-665d-4c5c-8c0c-0387356a665d"],
+            //1025
+            ["translation_id" => "04daae57-7560-41e2-b4e2-9f0303a25d4f", "translatable_type" => "App\Models\Place", "translatable_id" => "388545bf-0cf3-4d98-963f-3e6de462489b"],
+            ["translation_id" => "119165ca-7e33-41d3-a461-8143f8928b6e", "translatable_type" => "App\Models\Place", "translatable_id" => "388545bf-0cf3-4d98-963f-3e6de462489b"],
+            ["translation_id" => "72172bbb-a48d-4d77-96a4-c6f5c024cd35", "translatable_type" => "App\Models\Place", "translatable_id" => "388545bf-0cf3-4d98-963f-3e6de462489b"],
+            //1026
+            ["translation_id" => "04ea2518-5f78-4cf5-864b-ea49401be423", "translatable_type" => "App\Models\Place", "translatable_id" => "3d2702c7-5d8d-4288-a35b-81fc6d490497"],
+            ["translation_id" => "1194213e-baed-4809-9f25-da4a0dafee7f", "translatable_type" => "App\Models\Place", "translatable_id" => "3d2702c7-5d8d-4288-a35b-81fc6d490497"],
+            ["translation_id" => "7d2ebd4c-50c3-4c97-996a-78debaa5cbbf", "translatable_type" => "App\Models\Place", "translatable_id" => "3d2702c7-5d8d-4288-a35b-81fc6d490497"],
+            //1027
+            ["translation_id" => "aa1a17ca-857a-4036-85f0-ace368eb4bc2", "translatable_type" => "App\Models\Place", "translatable_id" => "e5dd336f-1573-4e94-8c3f-b46b899652b7"],
+            ["translation_id" => "6c06b03b-f8a9-4e51-b74f-f759a2e1441a", "translatable_type" => "App\Models\Place", "translatable_id" => "e5dd336f-1573-4e94-8c3f-b46b899652b7"],
+            ["translation_id" => "9f1f00b3-3cf2-4413-a63f-ef2527304422", "translatable_type" => "App\Models\Place", "translatable_id" => "e5dd336f-1573-4e94-8c3f-b46b899652b7"],
+            //1028
+            ["translation_id" => "f1875a49-c5d3-48e1-9906-026442fcc28f", "translatable_type" => "App\Models\Place", "translatable_id" => "786c84c7-1e20-4f9f-b728-3028e2220927"],
+            ["translation_id" => "53859e63-a568-4aa9-9246-77b9980397b3", "translatable_type" => "App\Models\Place", "translatable_id" => "786c84c7-1e20-4f9f-b728-3028e2220927"],
+            ["translation_id" => "0423896d-2365-48a0-9f71-3b3359715917", "translatable_type" => "App\Models\Place", "translatable_id" => "786c84c7-1e20-4f9f-b728-3028e2220927"],
+            //1029
+            ["translation_id" => "b5126f94-23ec-4018-926b-62a070cc50bf", "translatable_type" => "App\Models\Place", "translatable_id" => "2fd181c8-80ef-4cb7-a857-ac2fe40661e0"],
+            ["translation_id" => "b73adddf-1793-4d96-b1e1-7be6a95cc19d", "translatable_type" => "App\Models\Place", "translatable_id" => "2fd181c8-80ef-4cb7-a857-ac2fe40661e0"],
+            ["translation_id" => "211de9e9-2363-4709-88a6-9f0ea0c9ff21", "translatable_type" => "App\Models\Place", "translatable_id" => "2fd181c8-80ef-4cb7-a857-ac2fe40661e0"],
+            //1030
+            ["translation_id" => "04c28ed9-b19d-4ea2-97ab-a5f7e4e87afd", "translatable_type" => "App\Models\Place", "translatable_id" => "905b70f5-60db-4ac7-b955-7b68e699cc7d"],
+            ["translation_id" => "71acc267-6388-44bf-81c0-da4aca665c68", "translatable_type" => "App\Models\Place", "translatable_id" => "905b70f5-60db-4ac7-b955-7b68e699cc7d"],
+            ["translation_id" => "db539e50-073e-49ee-b679-e2d2d4c53484", "translatable_type" => "App\Models\Place", "translatable_id" => "905b70f5-60db-4ac7-b955-7b68e699cc7d"],
+            //1031
+            ["translation_id" => "568e4d49-0d20-4a31-9720-f7f79bf59089", "translatable_type" => "App\Models\Place", "translatable_id" => "ba7b2f4a-bd54-4e41-9e06-b776fe7f8630"],
+            ["translation_id" => "ea0bfbf5-b7de-4507-9a39-01c3085bce1a", "translatable_type" => "App\Models\Place", "translatable_id" => "ba7b2f4a-bd54-4e41-9e06-b776fe7f8630"],
+            ["translation_id" => "fc059658-6431-4e0c-bc35-4592547e0b99", "translatable_type" => "App\Models\Place", "translatable_id" => "ba7b2f4a-bd54-4e41-9e06-b776fe7f8630"],
+            //1032
+            ["translation_id" => "6654f3e7-687b-46d6-bd2b-86fc6168fb9a", "translatable_type" => "App\Models\Place", "translatable_id" => "2ae6e779-5bfa-45a9-8d8b-3ce72e469c1b"],
+            ["translation_id" => "f24b8daa-f811-436f-8a22-0042475b8bab", "translatable_type" => "App\Models\Place", "translatable_id" => "2ae6e779-5bfa-45a9-8d8b-3ce72e469c1b"],
+            ["translation_id" => "669f4b55-e6aa-4a05-ac57-7df2871168d8", "translatable_type" => "App\Models\Place", "translatable_id" => "2ae6e779-5bfa-45a9-8d8b-3ce72e469c1b"],
+            //1033
+            ["translation_id" => "ce2b224e-2b5c-46a9-ba1b-82f7f53faab3", "translatable_type" => "App\Models\Place", "translatable_id" => "2d84df45-f366-4bab-b397-5ef44a86a8e7"],
+            ["translation_id" => "ed28845b-cdb2-405b-bcc5-d0f5966f8406", "translatable_type" => "App\Models\Place", "translatable_id" => "2d84df45-f366-4bab-b397-5ef44a86a8e7"],
+            ["translation_id" => "84bfc5b1-4bf8-4fba-9635-3f6488b58cad", "translatable_type" => "App\Models\Place", "translatable_id" => "2d84df45-f366-4bab-b397-5ef44a86a8e7"],
+            //1034
+            ["translation_id" => "16b26ce7-121e-433a-b14d-1e38243683df", "translatable_type" => "App\Models\Place", "translatable_id" => "4fca8693-ac80-45ba-b576-a07355437f26"],
+            ["translation_id" => "86ed4f6d-b655-49e5-9eb0-bb56ad36a950", "translatable_type" => "App\Models\Place", "translatable_id" => "4fca8693-ac80-45ba-b576-a07355437f26"],
+            ["translation_id" => "f040fbd9-dd26-46b9-a190-284e9125c135", "translatable_type" => "App\Models\Place", "translatable_id" => "4fca8693-ac80-45ba-b576-a07355437f26"],
+            //1035
+            ["translation_id" => "19d70da9-4ee1-4342-a76e-767f6324f08c", "translatable_type" => "App\Models\Place", "translatable_id" => "d35465cd-d39f-4c2d-8a7b-13c50e8909fd"],
+            ["translation_id" => "078d1586-f6a6-486b-a369-e1989ee071ea", "translatable_type" => "App\Models\Place", "translatable_id" => "d35465cd-d39f-4c2d-8a7b-13c50e8909fd"],
+            ["translation_id" => "2280c574-a2fe-4dfc-a5ff-ec09d7db644f", "translatable_type" => "App\Models\Place", "translatable_id" => "d35465cd-d39f-4c2d-8a7b-13c50e8909fd"],
+            //1036
+            ["translation_id" => "edf07fda-a694-4712-9b98-6819e4f6a377", "translatable_type" => "App\Models\Place", "translatable_id" => "d51f058c-4044-4d74-9cf1-6eec97f314f6"],
+            ["translation_id" => "1ea270a7-151c-4729-84de-77e8d61b97bb", "translatable_type" => "App\Models\Place", "translatable_id" => "d51f058c-4044-4d74-9cf1-6eec97f314f6"],
+            ["translation_id" => "12caaa67-4f58-4ff4-9071-cec7b1a0f5ad", "translatable_type" => "App\Models\Place", "translatable_id" => "d51f058c-4044-4d74-9cf1-6eec97f314f6"],
+            //1037
+            ["translation_id" => "f763ba24-b4d3-4fd1-80ff-9be3afb462d2", "translatable_type" => "App\Models\Place", "translatable_id" => "8172eb3e-f50d-4f98-85f4-9938f2971a1a"],
+            ["translation_id" => "31e35105-bf60-4b69-9a0f-0d90aaf7b9df", "translatable_type" => "App\Models\Place", "translatable_id" => "8172eb3e-f50d-4f98-85f4-9938f2971a1a"],
+            ["translation_id" => "7947a87f-4f68-4168-bc7a-917d20b42305", "translatable_type" => "App\Models\Place", "translatable_id" => "8172eb3e-f50d-4f98-85f4-9938f2971a1a"],
+            //1038
+            ["translation_id" => "1f0aea31-9dd0-47db-a0ba-4a60bf7792b4", "translatable_type" => "App\Models\Place", "translatable_id" => "a99af6a9-e956-45ff-a927-8807fe5be399"],
+            ["translation_id" => "a30ed874-f0e0-4879-8a20-00c1c33b3402", "translatable_type" => "App\Models\Place", "translatable_id" => "a99af6a9-e956-45ff-a927-8807fe5be399"],
+            ["translation_id" => "b3912713-f007-4b38-8911-e194fddd784a", "translatable_type" => "App\Models\Place", "translatable_id" => "a99af6a9-e956-45ff-a927-8807fe5be399"],
+            //1039
+            ["translation_id" => "14a6fb28-4765-492a-b508-a41f071a1192", "translatable_type" => "App\Models\Place", "translatable_id" => "6b186844-06ab-4098-8579-608c6958764b"],
+            ["translation_id" => "d83236f7-5892-4232-9be1-562422893a91", "translatable_type" => "App\Models\Place", "translatable_id" => "6b186844-06ab-4098-8579-608c6958764b"],
+            ["translation_id" => "c6dc5246-fa5f-45f4-bf3c-1ac261244d73", "translatable_type" => "App\Models\Place", "translatable_id" => "6b186844-06ab-4098-8579-608c6958764b"],
+            //1040
+            ["translation_id" => "91a7d89e-95e4-4428-a5e8-6bc735b20da1", "translatable_type" => "App\Models\Place", "translatable_id" => "3df5450d-6456-46c2-bb48-3471d4ed1e42"],
+            ["translation_id" => "160e95d5-10bf-4808-b4fe-a83b67797154", "translatable_type" => "App\Models\Place", "translatable_id" => "3df5450d-6456-46c2-bb48-3471d4ed1e42"],
+            ["translation_id" => "53f871e9-a832-4999-b12e-cde4f840e5aa", "translatable_type" => "App\Models\Place", "translatable_id" => "3df5450d-6456-46c2-bb48-3471d4ed1e42"],
+            //1041
+            ["translation_id" => "5d4f5e4c-5237-4232-966b-e57834812e91", "translatable_type" => "App\Models\Place", "translatable_id" => "29acbb9f-a3fd-48a1-8768-c16d04711f98"],
+            ["translation_id" => "990187c9-fc88-49e7-ac89-629db49fd52a", "translatable_type" => "App\Models\Place", "translatable_id" => "29acbb9f-a3fd-48a1-8768-c16d04711f98"],
+            ["translation_id" => "9b3ec700-780b-41e5-879a-7322a1bfb759", "translatable_type" => "App\Models\Place", "translatable_id" => "29acbb9f-a3fd-48a1-8768-c16d04711f98"],
+            //1042
+            ["translation_id" => "e22910ba-22bf-4326-9964-bfe92a6e92e8", "translatable_type" => "App\Models\Place", "translatable_id" => "a6c5c683-2758-4452-a9e1-fa8f8b3b1d7b"],
+            ["translation_id" => "aad9d60b-664b-4aea-bfb9-930e537d47d7", "translatable_type" => "App\Models\Place", "translatable_id" => "a6c5c683-2758-4452-a9e1-fa8f8b3b1d7b"],
+            ["translation_id" => "529f3f30-cefe-466a-a5df-3605549ea29d", "translatable_type" => "App\Models\Place", "translatable_id" => "a6c5c683-2758-4452-a9e1-fa8f8b3b1d7b"],
+            //1043
+            ["translation_id" => "603b27ae-6bbd-472f-ad74-1b5f6e2fc1dc", "translatable_type" => "App\Models\Place", "translatable_id" => "9ffb4748-8b68-408c-89db-21ab4b74d087"],
+            ["translation_id" => "ef72da26-a96a-4033-afa5-f4e090950105", "translatable_type" => "App\Models\Place", "translatable_id" => "9ffb4748-8b68-408c-89db-21ab4b74d087"],
+            ["translation_id" => "733e6ba2-aae4-463c-8890-b69bdb841a46", "translatable_type" => "App\Models\Place", "translatable_id" => "9ffb4748-8b68-408c-89db-21ab4b74d087"],
+            //1044
+            ["translation_id" => "6fa3b3fb-3dcf-47e7-9644-c86e3eff685f", "translatable_type" => "App\Models\Place", "translatable_id" => "81207d04-f56a-4837-be06-7a2089ad0088"],
+            ["translation_id" => "62216d12-227d-4fa2-b53d-8012e7357a12", "translatable_type" => "App\Models\Place", "translatable_id" => "81207d04-f56a-4837-be06-7a2089ad0088"],
+            ["translation_id" => "d13ed7d9-9617-4a86-b673-efbee89ba50d", "translatable_type" => "App\Models\Place", "translatable_id" => "81207d04-f56a-4837-be06-7a2089ad0088"],
+            //1045
+            ["translation_id" => "3f00f429-7391-44b4-8206-879738dce4b2", "translatable_type" => "App\Models\Place", "translatable_id" => "c2bdaf35-e4bc-4da2-831f-97f90d172e3d"],
+            ["translation_id" => "7f7a8758-1db0-4e08-9f17-504a458a2aa2", "translatable_type" => "App\Models\Place", "translatable_id" => "c2bdaf35-e4bc-4da2-831f-97f90d172e3d"],
+            ["translation_id" => "801695ab-b8b8-46c5-91dd-4682fea55f1b", "translatable_type" => "App\Models\Place", "translatable_id" => "c2bdaf35-e4bc-4da2-831f-97f90d172e3d"],
+            //1046
+            ["translation_id" => "724c9545-97c3-404f-8dbe-14431e82c8e7", "translatable_type" => "App\Models\Place", "translatable_id" => "7f4b89f3-664a-4c35-949f-158ae8a2050c"],
+            ["translation_id" => "6cb4d248-c3d8-4c00-aead-a0d1bd75e488", "translatable_type" => "App\Models\Place", "translatable_id" => "7f4b89f3-664a-4c35-949f-158ae8a2050c"],
+            ["translation_id" => "3bfa73ee-c60c-4ee7-8803-e20340809051", "translatable_type" => "App\Models\Place", "translatable_id" => "7f4b89f3-664a-4c35-949f-158ae8a2050c"],
+            //1047
+            ["translation_id" => "af21e5fc-fdce-4330-be41-0da43892f3ad", "translatable_type" => "App\Models\Place", "translatable_id" => "a49b8159-14bd-4196-9f59-9cd21fffbaef"],
+            ["translation_id" => "a170fcc2-8948-49c6-ae0a-15d026490646", "translatable_type" => "App\Models\Place", "translatable_id" => "a49b8159-14bd-4196-9f59-9cd21fffbaef"],
+            ["translation_id" => "4cd51e03-7b51-4777-b8d7-cd4b9cee36fd", "translatable_type" => "App\Models\Place", "translatable_id" => "a49b8159-14bd-4196-9f59-9cd21fffbaef"],
+            //1048
+            ["translation_id" => "ddea4b83-f36a-46cd-bdee-424ba8454467", "translatable_type" => "App\Models\Place", "translatable_id" => "3fece205-94af-4285-9e5d-86c6137c7ff8"],
+            ["translation_id" => "fc4650ab-04ec-44c5-858b-96a6c92639c8", "translatable_type" => "App\Models\Place", "translatable_id" => "3fece205-94af-4285-9e5d-86c6137c7ff8"],
+            ["translation_id" => "67eedf1a-375f-450a-ae85-7d7dc3303500", "translatable_type" => "App\Models\Place", "translatable_id" => "3fece205-94af-4285-9e5d-86c6137c7ff8"],
+            //1049
+            ["translation_id" => "ccafac25-748f-499f-9a84-b9a8dbfddb51", "translatable_type" => "App\Models\Place", "translatable_id" => "6797b3a8-a8e2-4300-8700-04b9d3dcdd0f"],
+            ["translation_id" => "d765b28a-8885-439b-ade5-0d4bb0fc47df", "translatable_type" => "App\Models\Place", "translatable_id" => "6797b3a8-a8e2-4300-8700-04b9d3dcdd0f"],
+            ["translation_id" => "55141d4e-8720-45cc-a18f-1f7f5278d08e", "translatable_type" => "App\Models\Place", "translatable_id" => "6797b3a8-a8e2-4300-8700-04b9d3dcdd0f"],
+            //1050
+            ["translation_id" => "1f25b9c8-98d4-4d7e-9932-0b0448e636ac", "translatable_type" => "App\Models\Place", "translatable_id" => "8ba85c9a-1bdd-4edc-9d61-7585545b2afd"],
+            ["translation_id" => "e2426f13-4ce6-46bd-a6b0-865693141b87", "translatable_type" => "App\Models\Place", "translatable_id" => "8ba85c9a-1bdd-4edc-9d61-7585545b2afd"],
+            ["translation_id" => "97410727-0d25-4c32-a41b-990dba4c8609", "translatable_type" => "App\Models\Place", "translatable_id" => "8ba85c9a-1bdd-4edc-9d61-7585545b2afd"],
+            //1051
+            ["translation_id" => "6add776b-02ec-40f4-9c70-43c166dd11d6", "translatable_type" => "App\Models\Place", "translatable_id" => "e4a5882a-c5e5-47e3-a826-b275e8760767"],
+            ["translation_id" => "715e9e08-20f0-4e4e-a33d-d424891eb68d", "translatable_type" => "App\Models\Place", "translatable_id" => "e4a5882a-c5e5-47e3-a826-b275e8760767"],
+            ["translation_id" => "4664c4b9-6741-4a11-814a-66e0e8f0c151", "translatable_type" => "App\Models\Place", "translatable_id" => "e4a5882a-c5e5-47e3-a826-b275e8760767"],
+            //1052
+            ["translation_id" => "58d756b3-1ab3-46e2-8058-ffb110e1817f", "translatable_type" => "App\Models\Place", "translatable_id" => "96bf6df4-e0fa-4f90-b73f-4c134c774ec2"],
+            ["translation_id" => "5d617088-8068-4635-9f53-0573e6395ef6", "translatable_type" => "App\Models\Place", "translatable_id" => "96bf6df4-e0fa-4f90-b73f-4c134c774ec2"],
+            ["translation_id" => "fad0a4cf-1ed2-4f16-a30c-8a0a28545f19", "translatable_type" => "App\Models\Place", "translatable_id" => "96bf6df4-e0fa-4f90-b73f-4c134c774ec2"],
+            //1053
+            ["translation_id" => "126683a6-83e5-4d63-a028-8e95d7e91fb2", "translatable_type" => "App\Models\Place", "translatable_id" => "b6301844-36ed-4c23-9671-dfe317000c45"],
+            ["translation_id" => "211cb06f-41fd-4936-8cfe-82880b2da201", "translatable_type" => "App\Models\Place", "translatable_id" => "b6301844-36ed-4c23-9671-dfe317000c45"],
+            ["translation_id" => "9aab78db-cc06-44c2-b00e-db11f0779d1c", "translatable_type" => "App\Models\Place", "translatable_id" => "b6301844-36ed-4c23-9671-dfe317000c45"],
+            //1054
+            ["translation_id" => "7ad07bc8-b1f9-444f-8929-449880d6c903", "translatable_type" => "App\Models\Place", "translatable_id" => "441718a4-a1fa-46da-920c-869414c32722"],
+            ["translation_id" => "2e56b67c-0091-4b27-9f37-4ae93fc6872e", "translatable_type" => "App\Models\Place", "translatable_id" => "441718a4-a1fa-46da-920c-869414c32722"],
+            ["translation_id" => "46878093-a467-4f9a-9939-3299f004993c", "translatable_type" => "App\Models\Place", "translatable_id" => "441718a4-a1fa-46da-920c-869414c32722"],
+            //1055
+            ["translation_id" => "998d0b26-4f29-487d-a17c-d8e6aacb32d7", "translatable_type" => "App\Models\Place", "translatable_id" => "8a02bc6c-6602-4c4d-99f8-aef75ad6ded5"],
+            ["translation_id" => "47cae1ce-41a5-4936-95d2-e5aabd881861", "translatable_type" => "App\Models\Place", "translatable_id" => "8a02bc6c-6602-4c4d-99f8-aef75ad6ded5"],
+            ["translation_id" => "bc770df6-9d07-4713-bcf3-96c17a602747", "translatable_type" => "App\Models\Place", "translatable_id" => "8a02bc6c-6602-4c4d-99f8-aef75ad6ded5"],
+            //1056
+            ["translation_id" => "df189ff2-2181-4513-b734-f5d80e328a82", "translatable_type" => "App\Models\Place", "translatable_id" => "a0b13fd8-ce1c-47b0-9b4b-ba1d8f4f3aea"],
+            ["translation_id" => "2055726d-c19b-4a5a-96d0-0817833a4fde", "translatable_type" => "App\Models\Place", "translatable_id" => "a0b13fd8-ce1c-47b0-9b4b-ba1d8f4f3aea"],
+            ["translation_id" => "e60b6cd4-affa-498b-a442-cf1d85278b7b", "translatable_type" => "App\Models\Place", "translatable_id" => "a0b13fd8-ce1c-47b0-9b4b-ba1d8f4f3aea"],
+            //1057
+            ["translation_id" => "459d8fd6-dcfa-4390-b20d-cec200a7f012", "translatable_type" => "App\Models\Place", "translatable_id" => "e6cbe16c-59f2-4c5f-af6a-2d9cc9e94ff4"],
+            ["translation_id" => "eab2a564-925a-4c8c-b9b3-0ed0941bdc55", "translatable_type" => "App\Models\Place", "translatable_id" => "e6cbe16c-59f2-4c5f-af6a-2d9cc9e94ff4"],
+            ["translation_id" => "e57829c0-8360-471f-bd4e-53b63c0c7175", "translatable_type" => "App\Models\Place", "translatable_id" => "e6cbe16c-59f2-4c5f-af6a-2d9cc9e94ff4"],
+            //1058
+            ["translation_id" => "42faa417-033e-4ef5-b8f3-967139730a6f", "translatable_type" => "App\Models\Place", "translatable_id" => "dfda21ce-65e5-4006-9b88-2b247520e7e0"],
+            ["translation_id" => "f1b73fd4-dfc2-48b8-a8f1-c727883de526", "translatable_type" => "App\Models\Place", "translatable_id" => "dfda21ce-65e5-4006-9b88-2b247520e7e0"],
+            ["translation_id" => "7fc94903-72c8-40ab-9d8d-2d2fbe84224b", "translatable_type" => "App\Models\Place", "translatable_id" => "dfda21ce-65e5-4006-9b88-2b247520e7e0"],
+            //1059
+            ["translation_id" => "2e647ab3-02c4-46ef-9327-36f6189fc1a7", "translatable_type" => "App\Models\Place", "translatable_id" => "a98662c9-bd4c-4c4c-ab6f-96999f6a9bd3"],
+            ["translation_id" => "98ae9538-652d-445b-9d5a-223fe1716e2f", "translatable_type" => "App\Models\Place", "translatable_id" => "a98662c9-bd4c-4c4c-ab6f-96999f6a9bd3"],
+            ["translation_id" => "a86e2f25-2482-4c87-bc1e-782e4feea4af", "translatable_type" => "App\Models\Place", "translatable_id" => "a98662c9-bd4c-4c4c-ab6f-96999f6a9bd3"],
+            //1060
+            ["translation_id" => "efba69e1-946d-4cf4-965d-682f0813d943", "translatable_type" => "App\Models\Place", "translatable_id" => "16342b97-9fd8-4df2-aa87-2dbde1734232"],
+            ["translation_id" => "2f2ed29a-1218-4eca-ba5c-97e0ae2b1f26", "translatable_type" => "App\Models\Place", "translatable_id" => "16342b97-9fd8-4df2-aa87-2dbde1734232"],
+            ["translation_id" => "27497a68-0d8e-47c1-a7c1-0b642c1fc42c", "translatable_type" => "App\Models\Place", "translatable_id" => "16342b97-9fd8-4df2-aa87-2dbde1734232"],
+            //1061
+            ["translation_id" => "08ee5e10-e5c7-4580-a252-6370e2434b41", "translatable_type" => "App\Models\Place", "translatable_id" => "347b7d37-ccd9-42a4-9275-5fb97d576984"],
+            ["translation_id" => "85443f45-b8f2-4428-938a-ebf04f2ad745", "translatable_type" => "App\Models\Place", "translatable_id" => "347b7d37-ccd9-42a4-9275-5fb97d576984"],
+            ["translation_id" => "f31d09e8-a094-4fba-a456-a7ce59b418b9", "translatable_type" => "App\Models\Place", "translatable_id" => "347b7d37-ccd9-42a4-9275-5fb97d576984"],
+            //1062
+            ["translation_id" => "5344a795-ce6e-4ae9-bb1e-23a3dfc51db1", "translatable_type" => "App\Models\Place", "translatable_id" => "6cecafb5-800e-47b0-8468-34966ad3419b"],
+            ["translation_id" => "215b94fb-a6bc-479a-a469-935e2a2410df", "translatable_type" => "App\Models\Place", "translatable_id" => "6cecafb5-800e-47b0-8468-34966ad3419b"],
+            ["translation_id" => "0ade750a-9368-48a0-a20e-50d11dd7e4e2", "translatable_type" => "App\Models\Place", "translatable_id" => "6cecafb5-800e-47b0-8468-34966ad3419b"],
+            //1063
+            ["translation_id" => "cb8df691-db50-4661-9f5e-f4e475fc8065", "translatable_type" => "App\Models\Place", "translatable_id" => "53f5b067-796a-44f1-aafc-7bcecdca1fe5"],
+            ["translation_id" => "7066e2f5-573a-42cd-a5ea-501db1bdf088", "translatable_type" => "App\Models\Place", "translatable_id" => "53f5b067-796a-44f1-aafc-7bcecdca1fe5"],
+            ["translation_id" => "4e9d9370-4f36-4416-b973-081f3c367072", "translatable_type" => "App\Models\Place", "translatable_id" => "53f5b067-796a-44f1-aafc-7bcecdca1fe5"],
+            //1064
+            ["translation_id" => "4a6f7c51-9cec-43f8-8f11-b840c6627cd6", "translatable_type" => "App\Models\Place", "translatable_id" => "4f33002e-633c-4095-87cc-9bccb2d90894"],
+            ["translation_id" => "4a1ad8c0-0c68-4eed-9194-ff0787a071ce", "translatable_type" => "App\Models\Place", "translatable_id" => "4f33002e-633c-4095-87cc-9bccb2d90894"],
+            ["translation_id" => "4e0adab7-bbfb-4e63-bb13-57693709909d", "translatable_type" => "App\Models\Place", "translatable_id" => "4f33002e-633c-4095-87cc-9bccb2d90894"],
+            //1065
+            ["translation_id" => "4f773313-5c58-4119-97ac-05c4538b49fa", "translatable_type" => "App\Models\Place", "translatable_id" => "cbb3c193-e5f5-40f0-9838-0c4b6d723315"],
+            ["translation_id" => "569ed590-eaf9-4272-abc8-4f91bcd0f7a6", "translatable_type" => "App\Models\Place", "translatable_id" => "cbb3c193-e5f5-40f0-9838-0c4b6d723315"],
+            ["translation_id" => "98f48e0d-e1d1-43db-b274-2f0a71683b80", "translatable_type" => "App\Models\Place", "translatable_id" => "cbb3c193-e5f5-40f0-9838-0c4b6d723315"],
+            //1066
+            ["translation_id" => "dda3a809-5a1f-42f3-a8d8-eefc2746e1ac", "translatable_type" => "App\Models\Place", "translatable_id" => "ad3481b5-7638-436c-94b0-e5b0a41b3e88"],
+            ["translation_id" => "38544ac2-7ff4-4e2d-913f-e8f04a5dd5ee", "translatable_type" => "App\Models\Place", "translatable_id" => "ad3481b5-7638-436c-94b0-e5b0a41b3e88"],
+            ["translation_id" => "b25bb5d0-d3f7-4d78-9bd1-d296a1c6bec5", "translatable_type" => "App\Models\Place", "translatable_id" => "ad3481b5-7638-436c-94b0-e5b0a41b3e88"],
+            //1067
+            ["translation_id" => "55df614a-c769-48d2-9f51-e05ab3b6029d", "translatable_type" => "App\Models\Place", "translatable_id" => "821bcedb-70b9-405a-9b39-22eedfa82449"],
+            ["translation_id" => "b9560418-8e07-4494-9065-8fd20d097d7c", "translatable_type" => "App\Models\Place", "translatable_id" => "821bcedb-70b9-405a-9b39-22eedfa82449"],
+            ["translation_id" => "4494dc23-3ac9-4e71-83d5-573cff43ca19", "translatable_type" => "App\Models\Place", "translatable_id" => "821bcedb-70b9-405a-9b39-22eedfa82449"],
+            //1068
+            ["translation_id" => "045988d8-1e7b-4486-9cc9-40afc9ddb3cc", "translatable_type" => "App\Models\Place", "translatable_id" => "3c6556c5-d1ee-4e4c-a690-bd41a506f8bb"],
+            ["translation_id" => "71977fed-a413-4270-addc-37dc6b356b25", "translatable_type" => "App\Models\Place", "translatable_id" => "3c6556c5-d1ee-4e4c-a690-bd41a506f8bb"],
+            ["translation_id" => "8a8ae712-f975-42d2-b64d-8c2700d9db5a", "translatable_type" => "App\Models\Place", "translatable_id" => "3c6556c5-d1ee-4e4c-a690-bd41a506f8bb"],
+            //1069
+            ["translation_id" => "7af4b1d4-bf5c-4c9e-be2f-f8f9c5b9d69f", "translatable_type" => "App\Models\Place", "translatable_id" => "009373b8-3ff5-4742-a32e-187825a8a9e0"],
+            ["translation_id" => "71aa8f09-4af3-4d9d-9467-8244d9ce40b2", "translatable_type" => "App\Models\Place", "translatable_id" => "009373b8-3ff5-4742-a32e-187825a8a9e0"],
+            ["translation_id" => "1e74dbff-c78c-497f-b32c-78357ea48b4f", "translatable_type" => "App\Models\Place", "translatable_id" => "009373b8-3ff5-4742-a32e-187825a8a9e0"],
+            //1070
+            ["translation_id" => "9c5efabe-f586-440e-b56e-fc437a3d4629", "translatable_type" => "App\Models\Place", "translatable_id" => "24e84f24-2cf4-49a3-b573-66857666052e"],
+            ["translation_id" => "4571a798-b6d3-48ec-9602-f92d799e723d", "translatable_type" => "App\Models\Place", "translatable_id" => "24e84f24-2cf4-49a3-b573-66857666052e"],
+            ["translation_id" => "ad7f838e-747b-4e77-b278-42b088e25344", "translatable_type" => "App\Models\Place", "translatable_id" => "24e84f24-2cf4-49a3-b573-66857666052e"],
+            //1071
+            ["translation_id" => "59ca267a-7e31-40eb-8934-28576f085759", "translatable_type" => "App\Models\Place", "translatable_id" => "ff15ae99-2e3b-4dba-ae13-736af9fdedad"],
+            ["translation_id" => "20c33289-9419-4a67-99f0-34513367ce44", "translatable_type" => "App\Models\Place", "translatable_id" => "ff15ae99-2e3b-4dba-ae13-736af9fdedad"],
+            ["translation_id" => "a68f7ee6-30f2-4abe-9d80-4278056655b5", "translatable_type" => "App\Models\Place", "translatable_id" => "ff15ae99-2e3b-4dba-ae13-736af9fdedad"],
+            //1072
+            ["translation_id" => "e5ea4ccc-d374-45d3-b59d-dd37f1ba4819", "translatable_type" => "App\Models\Place", "translatable_id" => "90dbd956-82c2-4f0c-aa9a-41565e635a46"],
+            ["translation_id" => "4a9c7c2d-19a6-4052-bf13-6a7d05bc9949", "translatable_type" => "App\Models\Place", "translatable_id" => "90dbd956-82c2-4f0c-aa9a-41565e635a46"],
+            ["translation_id" => "3c93fbc6-40dd-4d73-8554-90beeab4c348", "translatable_type" => "App\Models\Place", "translatable_id" => "90dbd956-82c2-4f0c-aa9a-41565e635a46"],
+            //1073
+            ["translation_id" => "5c895a62-970f-4d2e-b4b7-b8ee9116edfe", "translatable_type" => "App\Models\Place", "translatable_id" => "c91d11f2-9373-4057-9a4f-fc18cb975ea2"],
+            ["translation_id" => "1c4ce4ec-e7e1-4d0f-b370-b05ded4008dc", "translatable_type" => "App\Models\Place", "translatable_id" => "c91d11f2-9373-4057-9a4f-fc18cb975ea2"],
+            ["translation_id" => "a8f6c955-c927-4253-91fa-2f5565114c73", "translatable_type" => "App\Models\Place", "translatable_id" => "c91d11f2-9373-4057-9a4f-fc18cb975ea2"],
+            //1074
+            ["translation_id" => "30498086-06bf-49b9-975e-1c4f0861d3e5", "translatable_type" => "App\Models\Place", "translatable_id" => "8ba9aac0-f56c-4209-8077-c323f6533bbe"],
+            ["translation_id" => "7674fb64-40c6-4267-8357-a3980e0b7ae0", "translatable_type" => "App\Models\Place", "translatable_id" => "8ba9aac0-f56c-4209-8077-c323f6533bbe"],
+            ["translation_id" => "631927c7-d180-4d88-a565-00d9f6836e1b", "translatable_type" => "App\Models\Place", "translatable_id" => "8ba9aac0-f56c-4209-8077-c323f6533bbe"],
+            //1075
+            ["translation_id" => "d19ffd2e-b902-44d6-84a1-59e275a1b305", "translatable_type" => "App\Models\Place", "translatable_id" => "bb53c687-6b9f-4b2d-9930-a72bca7c580a"],
+            ["translation_id" => "fb7f35f9-aa05-44a9-94af-ec127779b346", "translatable_type" => "App\Models\Place", "translatable_id" => "bb53c687-6b9f-4b2d-9930-a72bca7c580a"],
+            ["translation_id" => "5ce2e038-48b1-49be-bcb5-485ecf8e0324", "translatable_type" => "App\Models\Place", "translatable_id" => "bb53c687-6b9f-4b2d-9930-a72bca7c580a"],
+            //1076
+            ["translation_id" => "982e0f2f-0bdb-4ebf-969d-ba250bda7c5c", "translatable_type" => "App\Models\Place", "translatable_id" => "b2e8e67f-e9ed-4c13-be57-2b8d5d6b3f93"],
+            ["translation_id" => "4824136a-f3c2-47b4-ac52-6b3fbac98e03", "translatable_type" => "App\Models\Place", "translatable_id" => "b2e8e67f-e9ed-4c13-be57-2b8d5d6b3f93"],
+            ["translation_id" => "fc958230-a11e-497e-8762-fd47fab5b25d", "translatable_type" => "App\Models\Place", "translatable_id" => "b2e8e67f-e9ed-4c13-be57-2b8d5d6b3f93"],
+            //1077
+            ["translation_id" => "daece300-a392-4694-9cc4-cf09fb3951be", "translatable_type" => "App\Models\Place", "translatable_id" => "630a4c06-af37-4125-a308-157b3f7b6556"],
+            ["translation_id" => "9720dc20-c679-485b-9173-e060babbf167", "translatable_type" => "App\Models\Place", "translatable_id" => "630a4c06-af37-4125-a308-157b3f7b6556"],
+            ["translation_id" => "10139d6b-af2b-42c8-bc6b-9d1dfdfbe77f", "translatable_type" => "App\Models\Place", "translatable_id" => "630a4c06-af37-4125-a308-157b3f7b6556"],
+            //1078
+            ["translation_id" => "368a4c43-97f1-4437-a0a7-cdc40d358fb9", "translatable_type" => "App\Models\Place", "translatable_id" => "fb5591ed-0b77-4585-9b5e-92e2f71c2a83"],
+            ["translation_id" => "9bc5e860-1135-41bc-ad17-d3abe00b2f26", "translatable_type" => "App\Models\Place", "translatable_id" => "fb5591ed-0b77-4585-9b5e-92e2f71c2a83"],
+            ["translation_id" => "33671c46-031c-4e1a-8c07-f7178ae9d7df", "translatable_type" => "App\Models\Place", "translatable_id" => "fb5591ed-0b77-4585-9b5e-92e2f71c2a83"],
+            //1079
+            ["translation_id" => "244d5ca1-44f4-4fc1-aba5-1a6bdac804f9", "translatable_type" => "App\Models\Place", "translatable_id" => "8ca48844-de5f-4841-acf2-554733b0b3f3"],
+            ["translation_id" => "22df4526-a11b-4927-9056-fce8a3ea662d", "translatable_type" => "App\Models\Place", "translatable_id" => "8ca48844-de5f-4841-acf2-554733b0b3f3"],
+            ["translation_id" => "db9e38b8-ab97-4efd-982f-f7ee80471729", "translatable_type" => "App\Models\Place", "translatable_id" => "8ca48844-de5f-4841-acf2-554733b0b3f3"],
+            //1080
+            ["translation_id" => "07e2f730-1789-4266-8a7c-d2d5f65baf17", "translatable_type" => "App\Models\Place", "translatable_id" => "edae2435-7a26-46d8-9408-36655ed2256d"],
+            ["translation_id" => "2347b186-d888-454a-963f-21441b75e5dc", "translatable_type" => "App\Models\Place", "translatable_id" => "edae2435-7a26-46d8-9408-36655ed2256d"],
+            ["translation_id" => "414ec342-2825-4e99-9d28-8a6f95d8c836", "translatable_type" => "App\Models\Place", "translatable_id" => "edae2435-7a26-46d8-9408-36655ed2256d"],
+            //1081
+            ["translation_id" => "c9645d87-3166-4c13-9b9a-645965c84cec", "translatable_type" => "App\Models\Place", "translatable_id" => "c02e730e-6e29-4e36-9dd9-7a7c167d2ea6"],
+            ["translation_id" => "66dc8c76-b9a8-475e-b9ae-532b99ed7b2c", "translatable_type" => "App\Models\Place", "translatable_id" => "c02e730e-6e29-4e36-9dd9-7a7c167d2ea6"],
+            ["translation_id" => "83d52110-1202-4bf5-b59b-7ddac7a664ee", "translatable_type" => "App\Models\Place", "translatable_id" => "c02e730e-6e29-4e36-9dd9-7a7c167d2ea6"],
+            //1082
+            ["translation_id" => "c43944d2-8967-485c-8d61-8d76148168de", "translatable_type" => "App\Models\Place", "translatable_id" => "b793fc0b-a165-4086-835d-b989978f8775"],
+            ["translation_id" => "857b2e62-1093-4fe5-adf6-5a63e57e499f", "translatable_type" => "App\Models\Place", "translatable_id" => "b793fc0b-a165-4086-835d-b989978f8775"],
+            ["translation_id" => "2fc6964e-6691-4bf6-bc5a-de8eaf7e6935", "translatable_type" => "App\Models\Place", "translatable_id" => "b793fc0b-a165-4086-835d-b989978f8775"],
+            //1083
+            ["translation_id" => "c7cd0a22-b518-4e31-8a7d-a086d3c5d667", "translatable_type" => "App\Models\Place", "translatable_id" => "c6d9cfb6-6bb3-458b-a8fa-4ed73edc80fa"],
+            ["translation_id" => "04a96bf0-2f06-4341-9568-7b34fd033a12", "translatable_type" => "App\Models\Place", "translatable_id" => "c6d9cfb6-6bb3-458b-a8fa-4ed73edc80fa"],
+            ["translation_id" => "9452ab6c-f3b0-48c8-a22b-c6d59fbf45b8", "translatable_type" => "App\Models\Place", "translatable_id" => "c6d9cfb6-6bb3-458b-a8fa-4ed73edc80fa"],
+            //1084
+            ["translation_id" => "828d0cb9-ea60-406e-b87b-f4fd1ee4731e", "translatable_type" => "App\Models\Place", "translatable_id" => "653a0c84-ddf2-46be-afea-f4111b589dfb"],
+            ["translation_id" => "bcf6a051-4e8d-4d12-a6c4-2539f3b85e8a", "translatable_type" => "App\Models\Place", "translatable_id" => "653a0c84-ddf2-46be-afea-f4111b589dfb"],
+            ["translation_id" => "91f8e634-052a-4e4f-9659-8170da4354f9", "translatable_type" => "App\Models\Place", "translatable_id" => "653a0c84-ddf2-46be-afea-f4111b589dfb"],
+            //1085
+            ["translation_id" => "765bd68b-d481-49c5-b333-7a3f198f66d9", "translatable_type" => "App\Models\Place", "translatable_id" => "afc25b97-7f04-4a63-9f38-970d07d40be8"],
+            ["translation_id" => "e55afe09-aca8-48bf-b3de-9f39cbb1ae39", "translatable_type" => "App\Models\Place", "translatable_id" => "afc25b97-7f04-4a63-9f38-970d07d40be8"],
+            ["translation_id" => "3077daf1-3ded-46c0-9888-8b5d442f89fa", "translatable_type" => "App\Models\Place", "translatable_id" => "afc25b97-7f04-4a63-9f38-970d07d40be8"],
+            //1086
+            ["translation_id" => "497c1c6c-22ca-43cf-b704-c3d47aa1bc64", "translatable_type" => "App\Models\Place", "translatable_id" => "9ff75aa7-9673-43e7-8acb-9879f8bd0e02"],
+            ["translation_id" => "3eab68e0-3a58-4ba7-94f2-c2c9bbc2feeb", "translatable_type" => "App\Models\Place", "translatable_id" => "9ff75aa7-9673-43e7-8acb-9879f8bd0e02"],
+            ["translation_id" => "a9660385-31a0-446e-8f6a-8e71cc9163ec", "translatable_type" => "App\Models\Place", "translatable_id" => "9ff75aa7-9673-43e7-8acb-9879f8bd0e02"],
+            //1087
+            ["translation_id" => "5b606d8c-3fcc-4739-bbb5-4b3c17dd6f8c", "translatable_type" => "App\Models\Place", "translatable_id" => "f895f540-6e4f-4bbd-8a4a-b8bb9a6ed83e"],
+            ["translation_id" => "e22cace6-5d27-4f9d-879c-b0d6968bc72a", "translatable_type" => "App\Models\Place", "translatable_id" => "f895f540-6e4f-4bbd-8a4a-b8bb9a6ed83e"],
+            ["translation_id" => "2978eaf2-0564-4a4b-9bce-3bed3780ff1b", "translatable_type" => "App\Models\Place", "translatable_id" => "f895f540-6e4f-4bbd-8a4a-b8bb9a6ed83e"],
+            //1088
+            ["translation_id" => "543760e3-9bc8-44d7-867c-02b8d2178b94", "translatable_type" => "App\Models\Place", "translatable_id" => "c757e9e9-ffe6-4523-849d-26cda304025c"],
+            ["translation_id" => "95f7d198-12f6-4a2f-ac8a-cc97dfd71572", "translatable_type" => "App\Models\Place", "translatable_id" => "c757e9e9-ffe6-4523-849d-26cda304025c"],
+            ["translation_id" => "e6d3bec6-81d3-4128-a0a5-430f7c4a083e", "translatable_type" => "App\Models\Place", "translatable_id" => "c757e9e9-ffe6-4523-849d-26cda304025c"],
+            //1089
+            ["translation_id" => "a1b953c1-e8a7-457b-a275-fcc4762722bb", "translatable_type" => "App\Models\Place", "translatable_id" => "23e235d8-264d-4e59-8a66-e2929977d151"],
+            ["translation_id" => "d8364da8-e7b3-4ee5-b664-5d8588928af4", "translatable_type" => "App\Models\Place", "translatable_id" => "23e235d8-264d-4e59-8a66-e2929977d151"],
+            ["translation_id" => "efcdf03f-5b18-4040-846e-3b57c484c5d2", "translatable_type" => "App\Models\Place", "translatable_id" => "23e235d8-264d-4e59-8a66-e2929977d151"],
+            //1090
+            ["translation_id" => "ff47afac-fe54-46ce-8340-86e30c09f23a", "translatable_type" => "App\Models\Place", "translatable_id" => "c8245d4c-3512-41e2-8deb-35daeb2ab56c"],
+            ["translation_id" => "88257a09-2a83-411e-93c3-cc22024b37bd", "translatable_type" => "App\Models\Place", "translatable_id" => "c8245d4c-3512-41e2-8deb-35daeb2ab56c"],
+            ["translation_id" => "3ce5fd8a-d6c1-4631-8ca5-113701051839", "translatable_type" => "App\Models\Place", "translatable_id" => "c8245d4c-3512-41e2-8deb-35daeb2ab56c"],
+            //1091
+            ["translation_id" => "f1823565-649a-42ae-bf60-540ede38eb38", "translatable_type" => "App\Models\Place", "translatable_id" => "456c6d28-3f02-4815-9550-8650927c8093"],
+            ["translation_id" => "60e4cee8-f9be-40cc-98af-2eb9b35f1676", "translatable_type" => "App\Models\Place", "translatable_id" => "456c6d28-3f02-4815-9550-8650927c8093"],
+            ["translation_id" => "693d0fee-76c4-4bfd-823f-d82f3b476a00", "translatable_type" => "App\Models\Place", "translatable_id" => "456c6d28-3f02-4815-9550-8650927c8093"],
+            //1092
+            ["translation_id" => "327c95a1-504d-453f-9a52-89498044ab37", "translatable_type" => "App\Models\Place", "translatable_id" => "d9a80608-9615-4d8b-9db8-490a0d999048"],
+            ["translation_id" => "99e210b0-7de8-463f-aeea-adda605711d5", "translatable_type" => "App\Models\Place", "translatable_id" => "d9a80608-9615-4d8b-9db8-490a0d999048"],
+            ["translation_id" => "3dcc5791-68c3-41ad-ab36-540a66d95d64", "translatable_type" => "App\Models\Place", "translatable_id" => "d9a80608-9615-4d8b-9db8-490a0d999048"],
+            //1093
+            ["translation_id" => "8849f60a-ccfc-48d3-b775-774a8ffd070b", "translatable_type" => "App\Models\Place", "translatable_id" => "0d2d2dc2-344f-4438-9a4b-055f41f166d7"],
+            ["translation_id" => "126318b5-5d2e-480b-b0a4-fc3ca6d5a964", "translatable_type" => "App\Models\Place", "translatable_id" => "0d2d2dc2-344f-4438-9a4b-055f41f166d7"],
+            ["translation_id" => "52b6c129-e4ea-4471-a7bf-e3b1775d4f5a", "translatable_type" => "App\Models\Place", "translatable_id" => "0d2d2dc2-344f-4438-9a4b-055f41f166d7"],
+            //1094
+            ["translation_id" => "089519c8-259e-4817-af9b-2ae31b11d30a", "translatable_type" => "App\Models\Place", "translatable_id" => "32b8dc64-827f-4704-9042-7fc42ee86d79"],
+            ["translation_id" => "dfab21c3-c6c3-4d45-821b-ae68e3a45611", "translatable_type" => "App\Models\Place", "translatable_id" => "32b8dc64-827f-4704-9042-7fc42ee86d79"],
+            ["translation_id" => "737bdb87-ad11-499b-ad4a-889364dec96c", "translatable_type" => "App\Models\Place", "translatable_id" => "32b8dc64-827f-4704-9042-7fc42ee86d79"],
+            //1095
+            ["translation_id" => "9027bcc7-060a-43ad-9327-706c166fd992", "translatable_type" => "App\Models\Place", "translatable_id" => "dea93e12-4006-488c-add7-6b40904f844a"],
+            ["translation_id" => "710c9527-a08f-4991-8338-81f93b147908", "translatable_type" => "App\Models\Place", "translatable_id" => "dea93e12-4006-488c-add7-6b40904f844a"],
+            ["translation_id" => "a3797be9-e71e-4b6e-b158-cb0e7de912a3", "translatable_type" => "App\Models\Place", "translatable_id" => "dea93e12-4006-488c-add7-6b40904f844a"],
+            //1096
+            ["translation_id" => "82bc9d1b-8b8b-4ab7-81d5-38b01f257e94", "translatable_type" => "App\Models\Place", "translatable_id" => "caf5ac10-70f7-42f6-ba0a-2c64f436f57c"],
+            ["translation_id" => "8cde9288-c8a0-45a0-9aaa-46035ad8a90e", "translatable_type" => "App\Models\Place", "translatable_id" => "caf5ac10-70f7-42f6-ba0a-2c64f436f57c"],
+            ["translation_id" => "c048340a-5f84-409b-bc91-6d79d9862d6c", "translatable_type" => "App\Models\Place", "translatable_id" => "caf5ac10-70f7-42f6-ba0a-2c64f436f57c"],
+            //1097
+            ["translation_id" => "3dec2da7-3feb-4cba-b059-455e410a6306", "translatable_type" => "App\Models\Place", "translatable_id" => "d0b3b18b-760e-4307-bac3-737d98991903"],
+            ["translation_id" => "8b42488c-bab6-4d80-b45c-274678d8c9b2", "translatable_type" => "App\Models\Place", "translatable_id" => "d0b3b18b-760e-4307-bac3-737d98991903"],
+            ["translation_id" => "ad605036-7ebc-4919-b06b-2143b437ede6", "translatable_type" => "App\Models\Place", "translatable_id" => "d0b3b18b-760e-4307-bac3-737d98991903"],
+            //1098
+            ["translation_id" => "9b98987d-7488-423e-a292-bc88ac1f2553", "translatable_type" => "App\Models\Place", "translatable_id" => "9602b819-d9b6-4355-bda6-77feec18ecef"],
+            ["translation_id" => "391f2ad0-7edb-49c1-a2d2-590c07e0645b", "translatable_type" => "App\Models\Place", "translatable_id" => "9602b819-d9b6-4355-bda6-77feec18ecef"],
+            ["translation_id" => "b6028f73-be06-4c1b-8ea9-f289667a10ba", "translatable_type" => "App\Models\Place", "translatable_id" => "9602b819-d9b6-4355-bda6-77feec18ecef"],
+            //1099
+            ["translation_id" => "619c2a87-09fd-4729-97a1-5e4eb2b3c747", "translatable_type" => "App\Models\Place", "translatable_id" => "f55022e1-9c06-4351-95f5-8d663dc9b609"],
+            ["translation_id" => "b98c1810-ffce-4817-b8d6-669187a970f2", "translatable_type" => "App\Models\Place", "translatable_id" => "f55022e1-9c06-4351-95f5-8d663dc9b609"],
+            ["translation_id" => "892c62a8-b37c-44dc-941b-e864628defc2", "translatable_type" => "App\Models\Place", "translatable_id" => "f55022e1-9c06-4351-95f5-8d663dc9b609"],
+            //1100
+            ["translation_id" => "15f53c68-eb62-4233-b991-9733669d2e8d", "translatable_type" => "App\Models\Place", "translatable_id" => "90134dde-59c8-4ef3-97b0-ea2f5d9a3adf"],
+            ["translation_id" => "f1767426-1c9a-48e7-80b9-6209f9678883", "translatable_type" => "App\Models\Place", "translatable_id" => "90134dde-59c8-4ef3-97b0-ea2f5d9a3adf"],
+            ["translation_id" => "943824b3-baf9-4558-8a30-5e93bfcc5e03", "translatable_type" => "App\Models\Place", "translatable_id" => "90134dde-59c8-4ef3-97b0-ea2f5d9a3adf"],
+            //1101
+            ["translation_id" => "bc69e6cf-45b1-49e9-87e6-fd8cab3a2079", "translatable_type" => "App\Models\Place", "translatable_id" => "4a30fc8c-cda2-4bc2-89c3-8d726cffeaf7"],
+            ["translation_id" => "89b90be4-6020-417e-96cc-cc854d4a17dd", "translatable_type" => "App\Models\Place", "translatable_id" => "4a30fc8c-cda2-4bc2-89c3-8d726cffeaf7"],
+            ["translation_id" => "3dfff7ba-79a3-4b8e-8128-c7dcf3a9c31a", "translatable_type" => "App\Models\Place", "translatable_id" => "4a30fc8c-cda2-4bc2-89c3-8d726cffeaf7"],
+            //1102
+            ["translation_id" => "1036d95a-bb4a-4700-b8b1-d99ba01b8b3e", "translatable_type" => "App\Models\Place", "translatable_id" => "86cc8e4d-e557-4ac0-ba75-f3db361779b5"],
+            ["translation_id" => "71905bde-a009-431f-8fd4-0d36b11e85ba", "translatable_type" => "App\Models\Place", "translatable_id" => "86cc8e4d-e557-4ac0-ba75-f3db361779b5"],
+            ["translation_id" => "36f4f2e4-8965-488a-bee9-3bd912c50277", "translatable_type" => "App\Models\Place", "translatable_id" => "86cc8e4d-e557-4ac0-ba75-f3db361779b5"],
+            //1103
+            ["translation_id" => "c956e35d-081b-4474-8ae1-a7999a3527aa", "translatable_type" => "App\Models\Place", "translatable_id" => "0328b861-a092-488b-b0c7-84fd93f4d4bc"],
+            ["translation_id" => "0555a3c1-6c77-4d38-966e-f6cba1bcb8be", "translatable_type" => "App\Models\Place", "translatable_id" => "0328b861-a092-488b-b0c7-84fd93f4d4bc"],
+            ["translation_id" => "7010cc70-339f-4244-98d1-ddc3220ad2f5", "translatable_type" => "App\Models\Place", "translatable_id" => "0328b861-a092-488b-b0c7-84fd93f4d4bc"],
+            //1104
+            ["translation_id" => "a5a50f1f-38dd-4eea-b06d-de6376932526", "translatable_type" => "App\Models\Place", "translatable_id" => "f41a99a1-1448-4d4c-a9d8-f7589f0ed8bd"],
+            ["translation_id" => "3202cb0f-ad12-4c57-8b23-41f1de9af39f", "translatable_type" => "App\Models\Place", "translatable_id" => "f41a99a1-1448-4d4c-a9d8-f7589f0ed8bd"],
+            ["translation_id" => "0b0c8938-d77c-488b-b844-9c76e5b51066", "translatable_type" => "App\Models\Place", "translatable_id" => "f41a99a1-1448-4d4c-a9d8-f7589f0ed8bd"],
+            //1105
+            ["translation_id" => "713b1c22-a2ba-486f-97d1-2be7d7e0c918", "translatable_type" => "App\Models\Place", "translatable_id" => "3d6fa66d-63d3-4392-bb39-3d69a8f9fdce"],
+            ["translation_id" => "25e55e62-b5d9-4905-ba82-f069cf85b7c1", "translatable_type" => "App\Models\Place", "translatable_id" => "3d6fa66d-63d3-4392-bb39-3d69a8f9fdce"],
+            ["translation_id" => "0a7fe28d-ae23-4d89-9363-da853fa2d799", "translatable_type" => "App\Models\Place", "translatable_id" => "3d6fa66d-63d3-4392-bb39-3d69a8f9fdce"],
+            //1106
+            ["translation_id" => "9acfa04c-2d79-47ed-99d5-6aebb9aa8771", "translatable_type" => "App\Models\Place", "translatable_id" => "3b6f703f-60ab-4302-801b-3e4cf5cdb74b"],
+            ["translation_id" => "f411c6cd-a258-457d-9471-e47c31c5487e", "translatable_type" => "App\Models\Place", "translatable_id" => "3b6f703f-60ab-4302-801b-3e4cf5cdb74b"],
+            ["translation_id" => "d7b54918-4275-4239-9b8d-3028f88e5788", "translatable_type" => "App\Models\Place", "translatable_id" => "3b6f703f-60ab-4302-801b-3e4cf5cdb74b"],
+            //1107
+            ["translation_id" => "b4cd2d71-89ef-46bc-9dd1-aad7eddb8006", "translatable_type" => "App\Models\Place", "translatable_id" => "4970fec7-a6d3-436b-8a73-73965bedfbc8"],
+            ["translation_id" => "5c9d863c-7398-4f60-ab2e-3f894a6d4f93", "translatable_type" => "App\Models\Place", "translatable_id" => "4970fec7-a6d3-436b-8a73-73965bedfbc8"],
+            ["translation_id" => "d11d1533-04c5-4acf-84a2-fcd4cff19c75", "translatable_type" => "App\Models\Place", "translatable_id" => "4970fec7-a6d3-436b-8a73-73965bedfbc8"],
+            //1108
+            ["translation_id" => "1b4162f2-bdf9-4bc4-9692-281382c2fb92", "translatable_type" => "App\Models\Place", "translatable_id" => "847ec521-2ea8-4971-9696-c9e237131932"],
+            ["translation_id" => "e91a5a50-ed76-4997-a39d-4bee5d048d01", "translatable_type" => "App\Models\Place", "translatable_id" => "847ec521-2ea8-4971-9696-c9e237131932"],
+            ["translation_id" => "ddfbd273-cc5b-4669-9da7-37f1d91c4486", "translatable_type" => "App\Models\Place", "translatable_id" => "847ec521-2ea8-4971-9696-c9e237131932"],
+            //1109
+            ["translation_id" => "9c480d9a-d31d-413c-9f9b-069caadf671b", "translatable_type" => "App\Models\Place", "translatable_id" => "c4c5fe61-4d9c-47a3-a600-0636d29983cf"],
+            ["translation_id" => "65660cc4-a62a-493e-889e-f06e280a5569", "translatable_type" => "App\Models\Place", "translatable_id" => "c4c5fe61-4d9c-47a3-a600-0636d29983cf"],
+            ["translation_id" => "0c2bedd0-71ac-4a02-ad6b-d24dbe0ac8d9", "translatable_type" => "App\Models\Place", "translatable_id" => "c4c5fe61-4d9c-47a3-a600-0636d29983cf"],
+            //1110
+            ["translation_id" => "94bf4e6f-859a-42e7-a3d8-210b0c4a79d6", "translatable_type" => "App\Models\Place", "translatable_id" => "5ee8d6ab-9785-4baa-88aa-e632f5b38243"],
+            ["translation_id" => "ce94a9ed-fcdf-473e-a894-62c457727cfe", "translatable_type" => "App\Models\Place", "translatable_id" => "5ee8d6ab-9785-4baa-88aa-e632f5b38243"],
+            ["translation_id" => "165351f0-84f6-4c46-bbcd-bb404369b491", "translatable_type" => "App\Models\Place", "translatable_id" => "5ee8d6ab-9785-4baa-88aa-e632f5b38243"],
+            //1111
+            ["translation_id" => "c51c60e1-5f94-47df-abe9-7d4486f27484", "translatable_type" => "App\Models\Place", "translatable_id" => "8fc15e91-1509-4165-9ea1-d18363df790a"],
+            ["translation_id" => "63a9fee3-8e36-42eb-ac9e-ece07be632fd", "translatable_type" => "App\Models\Place", "translatable_id" => "8fc15e91-1509-4165-9ea1-d18363df790a"],
+            ["translation_id" => "4289ff40-65f8-4a80-9478-aaf6b8fa1401", "translatable_type" => "App\Models\Place", "translatable_id" => "8fc15e91-1509-4165-9ea1-d18363df790a"],
+            //1112
+            ["translation_id" => "44fd4d36-e1a8-4458-bbfa-83df0ac64055", "translatable_type" => "App\Models\Place", "translatable_id" => "bd6247c8-f961-4aae-adc6-39433df04017"],
+            ["translation_id" => "a9e9d01c-4868-487b-95c1-7f21ba213b36", "translatable_type" => "App\Models\Place", "translatable_id" => "bd6247c8-f961-4aae-adc6-39433df04017"],
+            ["translation_id" => "d27b926b-c82a-41d5-887e-7f542b6f18c2", "translatable_type" => "App\Models\Place", "translatable_id" => "bd6247c8-f961-4aae-adc6-39433df04017"],
+            //1113
+            ["translation_id" => "55df1f4b-1a89-4620-b1c9-b59d52e8c27e", "translatable_type" => "App\Models\Place", "translatable_id" => "555a077d-cd39-41c1-84c8-9ba767bc5df0"],
+            ["translation_id" => "001091b7-58a7-426f-8ea7-65dc034a8813", "translatable_type" => "App\Models\Place", "translatable_id" => "555a077d-cd39-41c1-84c8-9ba767bc5df0"],
+            ["translation_id" => "3993720b-7701-4fa7-ac3f-0d4b2d07731f", "translatable_type" => "App\Models\Place", "translatable_id" => "555a077d-cd39-41c1-84c8-9ba767bc5df0"],
+            //1114
+            ["translation_id" => "72391d23-e19e-4afe-95f7-0aacc9e4c880", "translatable_type" => "App\Models\Place", "translatable_id" => "cd9164fd-c5d1-44da-b10e-f157307192b9"],
+            ["translation_id" => "d304ba94-4da3-43fd-9ff1-1e695e16ba5f", "translatable_type" => "App\Models\Place", "translatable_id" => "cd9164fd-c5d1-44da-b10e-f157307192b9"],
+            ["translation_id" => "78739615-1eda-418a-90a3-be7cbaeaaf69", "translatable_type" => "App\Models\Place", "translatable_id" => "cd9164fd-c5d1-44da-b10e-f157307192b9"],
+            //1115
+            ["translation_id" => "a0b63d3e-9164-470e-9341-2e8035d2f232", "translatable_type" => "App\Models\Place", "translatable_id" => "1cd5efce-a148-4ec7-b8b3-eece0d4be961"],
+            ["translation_id" => "a31e245d-b681-4510-9c8d-2bf1feb42b36", "translatable_type" => "App\Models\Place", "translatable_id" => "1cd5efce-a148-4ec7-b8b3-eece0d4be961"],
+            ["translation_id" => "9904152d-7c7f-4847-9b99-d5e18daca01f", "translatable_type" => "App\Models\Place", "translatable_id" => "1cd5efce-a148-4ec7-b8b3-eece0d4be961"],
+            //1116
+            ["translation_id" => "04535b41-bb54-4245-a488-dccf65225861", "translatable_type" => "App\Models\Place", "translatable_id" => "5e2c7f6b-3f61-41a2-b16c-cbd73bc653b4"],
+            ["translation_id" => "afb7243d-58e3-4eae-83c1-f57dbf25e767", "translatable_type" => "App\Models\Place", "translatable_id" => "5e2c7f6b-3f61-41a2-b16c-cbd73bc653b4"],
+            ["translation_id" => "9cd421cd-2a18-48ec-9df3-72e07969683b", "translatable_type" => "App\Models\Place", "translatable_id" => "5e2c7f6b-3f61-41a2-b16c-cbd73bc653b4"],
+            //1117
+            ["translation_id" => "e4d1f504-b5e4-4f70-b359-e70ea03fc089", "translatable_type" => "App\Models\Place", "translatable_id" => "1311c45b-6e15-4f5a-ad08-fa0be0899bf5"],
+            ["translation_id" => "00de791a-1f67-488f-9e28-497da1956e50", "translatable_type" => "App\Models\Place", "translatable_id" => "1311c45b-6e15-4f5a-ad08-fa0be0899bf5"],
+            ["translation_id" => "b845eabb-c139-4fc6-8243-f087cec27c3d", "translatable_type" => "App\Models\Place", "translatable_id" => "1311c45b-6e15-4f5a-ad08-fa0be0899bf5"],
+            //1118
+            ["translation_id" => "7b093c42-b2f9-4257-8f19-151b4df429ca", "translatable_type" => "App\Models\Place", "translatable_id" => "a567504b-1b71-4d10-8b1a-f78bca81eaca"],
+            ["translation_id" => "25d99d2f-6234-4a12-9c0f-250212b6c7e6", "translatable_type" => "App\Models\Place", "translatable_id" => "a567504b-1b71-4d10-8b1a-f78bca81eaca"],
+            ["translation_id" => "bcf78e17-5dc3-428c-ad68-1857be7529e2", "translatable_type" => "App\Models\Place", "translatable_id" => "a567504b-1b71-4d10-8b1a-f78bca81eaca"],
+            //1119
+            ["translation_id" => "ae37165b-585a-4b06-9107-18f3499e1d6e", "translatable_type" => "App\Models\Place", "translatable_id" => "9f75fc1f-7ccb-49cb-91d7-e531febeea3a"],
+            ["translation_id" => "9f3ef1ef-43e5-4421-a369-eafd568c6a13", "translatable_type" => "App\Models\Place", "translatable_id" => "9f75fc1f-7ccb-49cb-91d7-e531febeea3a"],
+            ["translation_id" => "50768f6f-c6fd-46a6-99e9-e8a9d09bb6cd", "translatable_type" => "App\Models\Place", "translatable_id" => "9f75fc1f-7ccb-49cb-91d7-e531febeea3a"],
+            //1120
+            ["translation_id" => "11a000a5-a40b-4485-9274-4a85e231a669", "translatable_type" => "App\Models\Place", "translatable_id" => "3104e652-44d1-4aad-8b51-3258ace25866"],
+            ["translation_id" => "2c9847c3-bcf0-4cba-b37e-fef89c37f324", "translatable_type" => "App\Models\Place", "translatable_id" => "3104e652-44d1-4aad-8b51-3258ace25866"],
+            ["translation_id" => "acd5b6e8-ed9b-4291-b8bc-219e69135026", "translatable_type" => "App\Models\Place", "translatable_id" => "3104e652-44d1-4aad-8b51-3258ace25866"],
+            //1121
+            ["translation_id" => "41c517bd-0f16-42bd-afeb-2f64e46d2e4a", "translatable_type" => "App\Models\Place", "translatable_id" => "c591e2ef-7471-4e97-953d-9ff20e087823"],
+            ["translation_id" => "1f492b91-92df-4af3-860a-84d508f2a911", "translatable_type" => "App\Models\Place", "translatable_id" => "c591e2ef-7471-4e97-953d-9ff20e087823"],
+            ["translation_id" => "f1c6f72d-6445-4a59-822e-206831192788", "translatable_type" => "App\Models\Place", "translatable_id" => "c591e2ef-7471-4e97-953d-9ff20e087823"],
+            //1122
+            ["translation_id" => "81fe76ac-edc0-4171-93e1-848fcff9cd98", "translatable_type" => "App\Models\Place", "translatable_id" => "212f9518-4482-435b-97f0-6b8716adc03d"],
+            ["translation_id" => "0fcadb6d-58b4-4038-a1eb-9542e311bab8", "translatable_type" => "App\Models\Place", "translatable_id" => "212f9518-4482-435b-97f0-6b8716adc03d"],
+            ["translation_id" => "386e6b18-f3a3-4e7b-b1b8-af30091c276a", "translatable_type" => "App\Models\Place", "translatable_id" => "212f9518-4482-435b-97f0-6b8716adc03d"],
+            //1123
+            ["translation_id" => "3483dc6a-7ed9-4d84-ad2f-9dd47b5dad68", "translatable_type" => "App\Models\Place", "translatable_id" => "a4aa9c49-d6ec-45cd-bb52-f2495d09a646"],
+            ["translation_id" => "664f5571-29e1-4266-8b8e-4ad3b2a114da", "translatable_type" => "App\Models\Place", "translatable_id" => "a4aa9c49-d6ec-45cd-bb52-f2495d09a646"],
+            ["translation_id" => "ef4fccdc-8dc4-4caa-9c91-8fbe51041646", "translatable_type" => "App\Models\Place", "translatable_id" => "a4aa9c49-d6ec-45cd-bb52-f2495d09a646"],
+            //1124
+            ["translation_id" => "5ac72a58-3da9-4403-b8c9-613589646e21", "translatable_type" => "App\Models\Place", "translatable_id" => "a01163b8-4489-483f-8cef-f80f145dfd84"],
+            ["translation_id" => "1b8193a3-dbf9-4749-95a8-eaa446f6ea86", "translatable_type" => "App\Models\Place", "translatable_id" => "a01163b8-4489-483f-8cef-f80f145dfd84"],
+            ["translation_id" => "133c5a6a-b693-4f12-9ee9-0d7139bec4af", "translatable_type" => "App\Models\Place", "translatable_id" => "a01163b8-4489-483f-8cef-f80f145dfd84"],
+            //1125
+            ["translation_id" => "8a23d4bc-5bb9-41f2-ac27-85b3a6cfbc9d", "translatable_type" => "App\Models\Place", "translatable_id" => "c24e3f70-4c7d-4e0f-a0b0-7147d8b98a92"],
+            ["translation_id" => "e689b3e2-6a0e-442e-9893-fcb344a79c12", "translatable_type" => "App\Models\Place", "translatable_id" => "c24e3f70-4c7d-4e0f-a0b0-7147d8b98a92"],
+            ["translation_id" => "a2b1898d-ec6d-4774-b1e5-f8eb554ec99c", "translatable_type" => "App\Models\Place", "translatable_id" => "c24e3f70-4c7d-4e0f-a0b0-7147d8b98a92"],
+            //1126
+            ["translation_id" => "577eb8fa-95d7-417a-9843-7cbae85bfe6a", "translatable_type" => "App\Models\Place", "translatable_id" => "97ae320b-7815-4826-9b32-1533b3d6b23e"],
+            ["translation_id" => "9037227a-9d5c-48b7-a451-237958c04b46", "translatable_type" => "App\Models\Place", "translatable_id" => "97ae320b-7815-4826-9b32-1533b3d6b23e"],
+            ["translation_id" => "28b0df35-1b0d-4bfd-9a51-034b382cfe90", "translatable_type" => "App\Models\Place", "translatable_id" => "97ae320b-7815-4826-9b32-1533b3d6b23e"],
+            //1127
+            ["translation_id" => "36b67087-1df3-4ede-87c8-b393e3c3d53f", "translatable_type" => "App\Models\Place", "translatable_id" => "0204a5bb-1cfd-410c-b61c-52694403ada4"],
+            ["translation_id" => "a7cc49ec-d0e2-44a3-a8f4-a4dca27af2c8", "translatable_type" => "App\Models\Place", "translatable_id" => "0204a5bb-1cfd-410c-b61c-52694403ada4"],
+            ["translation_id" => "99fbb839-273c-4a60-8344-0f4bca7c292b", "translatable_type" => "App\Models\Place", "translatable_id" => "0204a5bb-1cfd-410c-b61c-52694403ada4"],
+            //1128
+            ["translation_id" => "a7ba33c3-ac47-44b0-93cc-17ba5748b185", "translatable_type" => "App\Models\Place", "translatable_id" => "2eac20a3-ba3f-44f5-bbd1-2a8f56e059b0"],
+            ["translation_id" => "e0c77567-f265-46fe-9f75-156ccae4cff4", "translatable_type" => "App\Models\Place", "translatable_id" => "2eac20a3-ba3f-44f5-bbd1-2a8f56e059b0"],
+            ["translation_id" => "d2b3ce89-3c29-4d7e-bcca-4c66dc3126b6", "translatable_type" => "App\Models\Place", "translatable_id" => "2eac20a3-ba3f-44f5-bbd1-2a8f56e059b0"],
+            //1129
+            ["translation_id" => "462d94eb-f87e-4bdb-bfcc-4c9e581e0bdb", "translatable_type" => "App\Models\Place", "translatable_id" => "80deb133-da5e-4e15-b890-c95062fdce30"],
+            ["translation_id" => "c5eac81f-5b3c-4d04-a9fa-a4cef96ed134", "translatable_type" => "App\Models\Place", "translatable_id" => "80deb133-da5e-4e15-b890-c95062fdce30"],
+            ["translation_id" => "3d2f1a81-1df6-497e-bd05-3c55e202ac99", "translatable_type" => "App\Models\Place", "translatable_id" => "80deb133-da5e-4e15-b890-c95062fdce30"],
+            //1130
+            ["translation_id" => "058c9342-5d49-4a6e-94db-b03a16d1e191", "translatable_type" => "App\Models\Place", "translatable_id" => "c0d226e7-ae21-437f-a29f-6aba6340dd6c"],
+            ["translation_id" => "57f1c152-c4ef-4d50-9bc9-80416736d4b1", "translatable_type" => "App\Models\Place", "translatable_id" => "c0d226e7-ae21-437f-a29f-6aba6340dd6c"],
+            ["translation_id" => "4bc62680-6ae5-476f-a01f-ad4b026e3cbf", "translatable_type" => "App\Models\Place", "translatable_id" => "c0d226e7-ae21-437f-a29f-6aba6340dd6c"],
+            //1131
+            ["translation_id" => "d9e9b70a-ac4b-4bbd-b27b-cb5529882718", "translatable_type" => "App\Models\Place", "translatable_id" => "c08e2b8e-1d9e-4c0f-b683-bafa34e3c811"],
+            ["translation_id" => "f758854b-0d1a-43f4-a9d2-432a6bf30a2a", "translatable_type" => "App\Models\Place", "translatable_id" => "c08e2b8e-1d9e-4c0f-b683-bafa34e3c811"],
+            ["translation_id" => "3982e611-ebc8-4058-a102-3480e7d13020", "translatable_type" => "App\Models\Place", "translatable_id" => "c08e2b8e-1d9e-4c0f-b683-bafa34e3c811"],
+            //1132
+            ["translation_id" => "2eaea89e-e7ee-446f-8363-d56f8f91101a", "translatable_type" => "App\Models\Place", "translatable_id" => "e6e7ed77-ea03-47a2-a487-ba60412ec192"],
+            ["translation_id" => "d55f47fd-f30d-4bac-83dc-f5a2f2fe9ec3", "translatable_type" => "App\Models\Place", "translatable_id" => "e6e7ed77-ea03-47a2-a487-ba60412ec192"],
+            ["translation_id" => "e00f7c47-a0e1-4883-aef8-47c12d477d1c", "translatable_type" => "App\Models\Place", "translatable_id" => "e6e7ed77-ea03-47a2-a487-ba60412ec192"],
+            //1133
+            ["translation_id" => "c7bc5d17-ec10-4c2b-8eb9-9cfea7e8c27c", "translatable_type" => "App\Models\Place", "translatable_id" => "c98c7430-b5a0-4e9f-bde7-68e764cf3cda"],
+            ["translation_id" => "12f5cff9-5960-4177-b2eb-feae2748f150", "translatable_type" => "App\Models\Place", "translatable_id" => "c98c7430-b5a0-4e9f-bde7-68e764cf3cda"],
+            ["translation_id" => "9e6c0ea0-15e9-4920-9c02-3948c1942514", "translatable_type" => "App\Models\Place", "translatable_id" => "c98c7430-b5a0-4e9f-bde7-68e764cf3cda"],
+            //1134
+            ["translation_id" => "ce4ee887-36a5-4dd7-b67d-666efd33e0d1", "translatable_type" => "App\Models\Place", "translatable_id" => "0db5c05c-f3e0-410b-8337-abe2280653c8"],
+            ["translation_id" => "d7847320-d90c-44b9-bf27-b0a08704d801", "translatable_type" => "App\Models\Place", "translatable_id" => "0db5c05c-f3e0-410b-8337-abe2280653c8"],
+            ["translation_id" => "cd498024-b294-41dd-b484-5770cc6ead8a", "translatable_type" => "App\Models\Place", "translatable_id" => "0db5c05c-f3e0-410b-8337-abe2280653c8"],
+            //1135
+            ["translation_id" => "024db9e5-c3d0-4f6f-b297-fc4a7f5eb902", "translatable_type" => "App\Models\Place", "translatable_id" => "36c252cd-5b8e-4e63-b64f-5052ed151f66"],
+            ["translation_id" => "846dfa98-5fd8-4839-ab3b-9a26d70572c7", "translatable_type" => "App\Models\Place", "translatable_id" => "36c252cd-5b8e-4e63-b64f-5052ed151f66"],
+            ["translation_id" => "a45bbb23-670d-4800-8bf5-2f1cee6b0617", "translatable_type" => "App\Models\Place", "translatable_id" => "36c252cd-5b8e-4e63-b64f-5052ed151f66"],
+            //1136
+            ["translation_id" => "f54454cb-4b22-4864-97e6-d2e48a04bd9d", "translatable_type" => "App\Models\Place", "translatable_id" => "b215b600-f2b1-4589-a2f7-b184ca4d37a7"],
+            ["translation_id" => "28c904ea-06c2-4442-91c1-d6196146e63f", "translatable_type" => "App\Models\Place", "translatable_id" => "b215b600-f2b1-4589-a2f7-b184ca4d37a7"],
+            ["translation_id" => "ae3ec3a8-a99d-426b-a0be-8d2c851d5025", "translatable_type" => "App\Models\Place", "translatable_id" => "b215b600-f2b1-4589-a2f7-b184ca4d37a7"],
+            //1137
+            ["translation_id" => "faf75bae-7abc-445f-a97e-c781d5a63f92", "translatable_type" => "App\Models\Place", "translatable_id" => "7b59e1fa-55d2-48d9-bbf6-7094fe1e7d88"],
+            ["translation_id" => "c29de6b5-5877-4d04-b79c-42fbc88f4ac3", "translatable_type" => "App\Models\Place", "translatable_id" => "7b59e1fa-55d2-48d9-bbf6-7094fe1e7d88"],
+            ["translation_id" => "3adeb812-e774-47ff-a182-67ac869e5905", "translatable_type" => "App\Models\Place", "translatable_id" => "7b59e1fa-55d2-48d9-bbf6-7094fe1e7d88"],
+            //1138
+            ["translation_id" => "acabe54c-0f14-4d0e-bb15-80800a107a70", "translatable_type" => "App\Models\Place", "translatable_id" => "1ce88de4-c7d6-4d35-ac9d-ef5455e4bacf"],
+            ["translation_id" => "63ea1473-5823-4931-a897-8b368e96f2bc", "translatable_type" => "App\Models\Place", "translatable_id" => "1ce88de4-c7d6-4d35-ac9d-ef5455e4bacf"],
+            ["translation_id" => "c38e1635-2925-4645-967f-4663946c0dae", "translatable_type" => "App\Models\Place", "translatable_id" => "1ce88de4-c7d6-4d35-ac9d-ef5455e4bacf"],
+            //1139
+            ["translation_id" => "aec292f7-fd91-40d1-800c-5c80b59cead9", "translatable_type" => "App\Models\Place", "translatable_id" => "b7767a60-e587-44fe-a7d0-00a6ab332359"],
+            ["translation_id" => "c1875c68-8ac4-4ee5-a0d6-f98c489e9444", "translatable_type" => "App\Models\Place", "translatable_id" => "b7767a60-e587-44fe-a7d0-00a6ab332359"],
+            ["translation_id" => "4bacb65a-fcb2-497c-b57c-0446ca9e814d", "translatable_type" => "App\Models\Place", "translatable_id" => "b7767a60-e587-44fe-a7d0-00a6ab332359"],
+            //1140
+            ["translation_id" => "f562ca85-d648-499e-b119-e02fc0cf7ae6", "translatable_type" => "App\Models\Place", "translatable_id" => "1455e4da-c9ca-4efe-898c-a3ca01ef8206"],
+            ["translation_id" => "56b6e118-eca5-4ea9-b045-39b954fab017", "translatable_type" => "App\Models\Place", "translatable_id" => "1455e4da-c9ca-4efe-898c-a3ca01ef8206"],
+            ["translation_id" => "a02a1abc-f8b0-44e8-8771-dce3eeabc511", "translatable_type" => "App\Models\Place", "translatable_id" => "1455e4da-c9ca-4efe-898c-a3ca01ef8206"],
+            //1141
+            ["translation_id" => "8a5a0e4f-1a1d-4d1f-a4e4-9a2e6e4963bf", "translatable_type" => "App\Models\Place", "translatable_id" => "f7a7f077-c81b-4a82-845d-19198b6714e1"],
+            ["translation_id" => "028ad6d0-310c-4201-89ae-14d3c3775918", "translatable_type" => "App\Models\Place", "translatable_id" => "f7a7f077-c81b-4a82-845d-19198b6714e1"],
+            ["translation_id" => "326a01ca-c08d-4fd7-852b-762678ae4c9e", "translatable_type" => "App\Models\Place", "translatable_id" => "f7a7f077-c81b-4a82-845d-19198b6714e1"],
+            //1142
+            ["translation_id" => "533b76c4-1cf6-449a-bbb9-ecfe5adf1426", "translatable_type" => "App\Models\Place", "translatable_id" => "45073309-d309-4ff7-8989-a7efbea9509f"],
+            ["translation_id" => "461f7690-97cd-4c56-a883-e2c9934309ac", "translatable_type" => "App\Models\Place", "translatable_id" => "45073309-d309-4ff7-8989-a7efbea9509f"],
+            ["translation_id" => "8679a363-b24d-4905-82c5-1c49c246ab13", "translatable_type" => "App\Models\Place", "translatable_id" => "45073309-d309-4ff7-8989-a7efbea9509f"],
+            //1143
+            ["translation_id" => "88831cc3-ac74-41f9-84b3-f749b8ffa2d7", "translatable_type" => "App\Models\Place", "translatable_id" => "c536ec7c-c2c1-4e00-bd42-2e10d23f314b"],
+            ["translation_id" => "4c127179-3c3b-4db1-bbb4-ffe03c78a1fc", "translatable_type" => "App\Models\Place", "translatable_id" => "c536ec7c-c2c1-4e00-bd42-2e10d23f314b"],
+            ["translation_id" => "b2956c0b-f9f6-4701-bc3c-fbb7e972b263", "translatable_type" => "App\Models\Place", "translatable_id" => "c536ec7c-c2c1-4e00-bd42-2e10d23f314b"],
+            //1144
+            ["translation_id" => "7a04e324-d18f-4ce1-914a-5c880cfd170d", "translatable_type" => "App\Models\Place", "translatable_id" => "878c4c56-5e64-4dbc-a81a-ae1d975d8dcb"],
+            ["translation_id" => "76db3eda-d87c-4886-b9dc-e802f72d0dd5", "translatable_type" => "App\Models\Place", "translatable_id" => "878c4c56-5e64-4dbc-a81a-ae1d975d8dcb"],
+            ["translation_id" => "1a8bdac8-d189-44b0-bc11-d8a9423ba249", "translatable_type" => "App\Models\Place", "translatable_id" => "878c4c56-5e64-4dbc-a81a-ae1d975d8dcb"],
+            //1145
+            ["translation_id" => "eecf173f-7cbf-444d-8c10-d82730b46416", "translatable_type" => "App\Models\Place", "translatable_id" => "b466f01e-5a06-41fb-a010-0bd338ea351e"],
+            ["translation_id" => "52e4ab1b-b6fd-4abb-8835-46c206c796c8", "translatable_type" => "App\Models\Place", "translatable_id" => "b466f01e-5a06-41fb-a010-0bd338ea351e"],
+            ["translation_id" => "3cd1f6df-4be4-43d8-a146-ce849f05428f", "translatable_type" => "App\Models\Place", "translatable_id" => "b466f01e-5a06-41fb-a010-0bd338ea351e"],
+            //1146
+            ["translation_id" => "242c7ca5-0295-4a81-b563-af4ce02599fc", "translatable_type" => "App\Models\Place", "translatable_id" => "39a656a5-8755-41d2-b304-3106cb010b85"],
+            ["translation_id" => "62779662-c5ce-4d9b-9d2f-71a0b2f4c88c", "translatable_type" => "App\Models\Place", "translatable_id" => "39a656a5-8755-41d2-b304-3106cb010b85"],
+            ["translation_id" => "6d9f1e65-7cbf-47ea-ab90-4386925c96ca", "translatable_type" => "App\Models\Place", "translatable_id" => "39a656a5-8755-41d2-b304-3106cb010b85"],
+            //1147
+            ["translation_id" => "7be0e485-72f5-4b97-b2d7-fe8b475cd6be", "translatable_type" => "App\Models\Place", "translatable_id" => "05b87b97-e1f4-42b3-af84-2d31e750b195"],
+            ["translation_id" => "d9b3ff7a-f400-4314-acc0-5a80dbbcee81", "translatable_type" => "App\Models\Place", "translatable_id" => "05b87b97-e1f4-42b3-af84-2d31e750b195"],
+            ["translation_id" => "5391b324-56f2-4798-b859-fc4325d231dd", "translatable_type" => "App\Models\Place", "translatable_id" => "05b87b97-e1f4-42b3-af84-2d31e750b195"],
+            //1148
+            ["translation_id" => "80ed9874-d618-49e3-9256-6f219e24b644", "translatable_type" => "App\Models\Place", "translatable_id" => "c3f9f143-504b-4eca-ba7a-d9142076cccb"],
+            ["translation_id" => "0ee62977-4470-48b5-81a0-5c263a3d5272", "translatable_type" => "App\Models\Place", "translatable_id" => "c3f9f143-504b-4eca-ba7a-d9142076cccb"],
+            ["translation_id" => "b7360154-4213-4e96-a2b7-137b975f5eec", "translatable_type" => "App\Models\Place", "translatable_id" => "c3f9f143-504b-4eca-ba7a-d9142076cccb"],
+            //1149
+            ["translation_id" => "9756c0bf-86ca-4d26-a252-53ec386f27c5", "translatable_type" => "App\Models\Place", "translatable_id" => "e25143cf-4ccc-4c65-8a9f-d08ef56bfae9"],
+            ["translation_id" => "6dd6c608-bda4-4d01-a0f2-1930097c3c0a", "translatable_type" => "App\Models\Place", "translatable_id" => "e25143cf-4ccc-4c65-8a9f-d08ef56bfae9"],
+            ["translation_id" => "ddd46f81-3fa6-48db-bcfb-b543f1871a00", "translatable_type" => "App\Models\Place", "translatable_id" => "e25143cf-4ccc-4c65-8a9f-d08ef56bfae9"],
+            //1150
+            ["translation_id" => "8499b8bd-cebf-4582-b7c7-65e9371b3b65", "translatable_type" => "App\Models\Place", "translatable_id" => "556414cd-7713-421c-a645-3cf48d782e78"],
+            ["translation_id" => "65bea4f5-dfa3-47f4-a0b9-5d24c52248c5", "translatable_type" => "App\Models\Place", "translatable_id" => "556414cd-7713-421c-a645-3cf48d782e78"],
+            ["translation_id" => "4daba1ac-5aa9-4b98-b2c3-26eb8a8fa25f", "translatable_type" => "App\Models\Place", "translatable_id" => "556414cd-7713-421c-a645-3cf48d782e78"],
+            //1151
+            ["translation_id" => "dd608016-f22c-4c57-bc6a-d8d51540bfce", "translatable_type" => "App\Models\Place", "translatable_id" => "a7e1dd43-2e44-44c5-9c77-63ed05e1a146"],
+            ["translation_id" => "58e02969-32ab-4f6d-b31b-668a8b825ec5", "translatable_type" => "App\Models\Place", "translatable_id" => "a7e1dd43-2e44-44c5-9c77-63ed05e1a146"],
+            ["translation_id" => "8b226ad5-a63b-4a01-8769-591d41148e67", "translatable_type" => "App\Models\Place", "translatable_id" => "a7e1dd43-2e44-44c5-9c77-63ed05e1a146"],
+            //1152
+            ["translation_id" => "6c83ae3f-b619-46a8-8749-af32a4a78561", "translatable_type" => "App\Models\Place", "translatable_id" => "dd3134c1-4e97-44f6-8d3e-3c68715774fd"],
+            ["translation_id" => "ca4b19b4-84c7-4ac0-a27e-c7a2e0821a15", "translatable_type" => "App\Models\Place", "translatable_id" => "dd3134c1-4e97-44f6-8d3e-3c68715774fd"],
+            ["translation_id" => "672e3dab-a9e7-4d6a-b188-92b01c7a674b", "translatable_type" => "App\Models\Place", "translatable_id" => "dd3134c1-4e97-44f6-8d3e-3c68715774fd"],
+            //1153
+            ["translation_id" => "c3f2b986-e63a-429f-87ee-4357aefc726b", "translatable_type" => "App\Models\Place", "translatable_id" => "156cfb30-5f6d-48a5-8bee-40403a2e9f73"],
+            ["translation_id" => "4fd2be47-e7fe-495c-ac95-2a4f23364d28", "translatable_type" => "App\Models\Place", "translatable_id" => "156cfb30-5f6d-48a5-8bee-40403a2e9f73"],
+            ["translation_id" => "d3844f4e-f752-4f34-a30d-99fa6484b294", "translatable_type" => "App\Models\Place", "translatable_id" => "156cfb30-5f6d-48a5-8bee-40403a2e9f73"],
+            //1154
+            ["translation_id" => "2a4b15a9-6a92-4ece-aa0a-0e3e718f24de", "translatable_type" => "App\Models\Place", "translatable_id" => "7201a14a-aecb-40a3-a950-158368e4b779"],
+            ["translation_id" => "aa56d2c3-1f83-4fbf-8b4e-c2609740d870", "translatable_type" => "App\Models\Place", "translatable_id" => "7201a14a-aecb-40a3-a950-158368e4b779"],
+            ["translation_id" => "049deb26-9591-4e2f-a198-1ed8e0fb9c51", "translatable_type" => "App\Models\Place", "translatable_id" => "7201a14a-aecb-40a3-a950-158368e4b779"],
+            //1155
+            ["translation_id" => "0b10d834-bdf4-4684-b359-df5f66c74e44", "translatable_type" => "App\Models\Place", "translatable_id" => "d7b4a4c5-3825-4d99-8087-f9981bdb5357"],
+            ["translation_id" => "2944c127-7254-4b63-9d37-edbd37d82198", "translatable_type" => "App\Models\Place", "translatable_id" => "d7b4a4c5-3825-4d99-8087-f9981bdb5357"],
+            ["translation_id" => "60cb7a63-1e28-41fa-960d-b6cdd2389ffa", "translatable_type" => "App\Models\Place", "translatable_id" => "d7b4a4c5-3825-4d99-8087-f9981bdb5357"],
+            //1156
+            ["translation_id" => "dc5f667d-d1b9-48c4-bfab-f86fc45cbce6", "translatable_type" => "App\Models\Place", "translatable_id" => "06aa52ef-1be1-4d1b-89b3-5c8d723e4a8a"],
+            ["translation_id" => "ca9c60f5-275a-49a6-a3fe-5d545a2ed966", "translatable_type" => "App\Models\Place", "translatable_id" => "06aa52ef-1be1-4d1b-89b3-5c8d723e4a8a"],
+            ["translation_id" => "e7e350cf-81a4-4d46-b7b6-e34de6cba19d", "translatable_type" => "App\Models\Place", "translatable_id" => "06aa52ef-1be1-4d1b-89b3-5c8d723e4a8a"],
+            //1157
+            ["translation_id" => "c38fae04-f032-4205-ab84-94eabdaa0fa9", "translatable_type" => "App\Models\Place", "translatable_id" => "36a36571-e4cb-479f-b662-266f131cc03e"],
+            ["translation_id" => "958d7557-ee5f-4258-b04f-ebc4d3b6c860", "translatable_type" => "App\Models\Place", "translatable_id" => "36a36571-e4cb-479f-b662-266f131cc03e"],
+            ["translation_id" => "410395c0-9190-43bf-bbc7-4bb4510710fc", "translatable_type" => "App\Models\Place", "translatable_id" => "36a36571-e4cb-479f-b662-266f131cc03e"],
+            //1158
+            ["translation_id" => "57ad151e-f3d9-4787-9381-76a3f873aabb", "translatable_type" => "App\Models\Place", "translatable_id" => "53495b93-33b0-4df2-a83b-16e144b99601"],
+            ["translation_id" => "809c384e-4b3d-44d8-99d3-c1241ec4246b", "translatable_type" => "App\Models\Place", "translatable_id" => "53495b93-33b0-4df2-a83b-16e144b99601"],
+            ["translation_id" => "fd04c030-d415-463f-93e8-d8d8403c294e", "translatable_type" => "App\Models\Place", "translatable_id" => "53495b93-33b0-4df2-a83b-16e144b99601"],
+            //1159
+            ["translation_id" => "c2ce54e2-8590-4be1-ac57-96dfb3e6be71", "translatable_type" => "App\Models\Place", "translatable_id" => "7680739a-c9f2-4154-bdce-a734a6f27521"],
+            ["translation_id" => "5ce62c3e-c872-415b-be60-5eb9212c96bc", "translatable_type" => "App\Models\Place", "translatable_id" => "7680739a-c9f2-4154-bdce-a734a6f27521"],
+            ["translation_id" => "3d561f5d-eac1-46c3-a602-5d47ad937c5a", "translatable_type" => "App\Models\Place", "translatable_id" => "7680739a-c9f2-4154-bdce-a734a6f27521"],
+            //1160
+            ["translation_id" => "2301e6be-5908-4d6b-a7e8-bd9b05f25255", "translatable_type" => "App\Models\Place", "translatable_id" => "bc7e3df0-6367-4c11-9ca6-fb3e83bb376c"],
+            ["translation_id" => "6fa9bb70-6ce6-436c-89fe-36e797fd83c9", "translatable_type" => "App\Models\Place", "translatable_id" => "bc7e3df0-6367-4c11-9ca6-fb3e83bb376c"],
+            ["translation_id" => "5616de5e-fb1c-4cb5-ac7c-758ea8a63f1f", "translatable_type" => "App\Models\Place", "translatable_id" => "bc7e3df0-6367-4c11-9ca6-fb3e83bb376c"],
+            //1161
+            ["translation_id" => "3ba23501-acf2-4624-9717-d782cac578c3", "translatable_type" => "App\Models\Place", "translatable_id" => "b00a0666-693b-4651-a93d-aca9acd37327"],
+            ["translation_id" => "416900bc-6120-42cb-8e89-1a4c0d0aa7d4", "translatable_type" => "App\Models\Place", "translatable_id" => "b00a0666-693b-4651-a93d-aca9acd37327"],
+            ["translation_id" => "bc32e229-c160-44ec-9c1c-c328f2f93995", "translatable_type" => "App\Models\Place", "translatable_id" => "b00a0666-693b-4651-a93d-aca9acd37327"],
+            //1162
+            ["translation_id" => "277c62b2-f330-4cf4-9f0a-4c4d21317a0d", "translatable_type" => "App\Models\Place", "translatable_id" => "c80b0593-196a-4124-aede-3c2d3be700e6"],
+            ["translation_id" => "edbde4f0-4e1c-43c1-a5da-333a97398b08", "translatable_type" => "App\Models\Place", "translatable_id" => "c80b0593-196a-4124-aede-3c2d3be700e6"],
+            ["translation_id" => "889141a2-81df-4222-93c3-93a7da2c31f8", "translatable_type" => "App\Models\Place", "translatable_id" => "c80b0593-196a-4124-aede-3c2d3be700e6"],
+            //1163
+            ["translation_id" => "d3937eac-7a57-49ca-bb23-13bdd76a380b", "translatable_type" => "App\Models\Place", "translatable_id" => "eb95ffbf-33cd-4e47-b23e-7380f6e807e3"],
+            ["translation_id" => "e212590e-7ae0-4320-a0d0-ffac1ec8e322", "translatable_type" => "App\Models\Place", "translatable_id" => "eb95ffbf-33cd-4e47-b23e-7380f6e807e3"],
+            ["translation_id" => "54e6309b-133e-4e63-a626-d7a112c69a04", "translatable_type" => "App\Models\Place", "translatable_id" => "eb95ffbf-33cd-4e47-b23e-7380f6e807e3"],
+            //1164
+            ["translation_id" => "05d10f88-47ff-4f37-b304-1466985cd33f", "translatable_type" => "App\Models\Place", "translatable_id" => "e045f68f-da17-4177-83a9-641aaf0da0e7"],
+            ["translation_id" => "e459fa8b-ccdd-4da9-a2c3-e6045f0afd99", "translatable_type" => "App\Models\Place", "translatable_id" => "e045f68f-da17-4177-83a9-641aaf0da0e7"],
+            ["translation_id" => "f01e6b64-61d2-496c-8d66-1155c6c809cf", "translatable_type" => "App\Models\Place", "translatable_id" => "e045f68f-da17-4177-83a9-641aaf0da0e7"],
+            //1165
+            ["translation_id" => "29ea7541-902a-41b9-ad15-1b1ba8223535", "translatable_type" => "App\Models\Place", "translatable_id" => "9f507464-7c36-44af-ab4a-72cc144e6447"],
+            ["translation_id" => "5a309aa6-61d5-4b5b-8d8b-90f33ee109fe", "translatable_type" => "App\Models\Place", "translatable_id" => "9f507464-7c36-44af-ab4a-72cc144e6447"],
+            ["translation_id" => "f4f64c5f-a649-4866-a598-caaa6c20f3b4", "translatable_type" => "App\Models\Place", "translatable_id" => "9f507464-7c36-44af-ab4a-72cc144e6447"],
+            //1166
+            ["translation_id" => "cf977933-6a0f-458f-b77d-60ec6c87124c", "translatable_type" => "App\Models\Place", "translatable_id" => "ed9b6fba-556b-41a4-95a8-b316e826a894"],
+            ["translation_id" => "085464bf-f5c4-4b10-97cc-5ed96f5b44ac", "translatable_type" => "App\Models\Place", "translatable_id" => "ed9b6fba-556b-41a4-95a8-b316e826a894"],
+            ["translation_id" => "7fbe3362-7ae5-4ca3-97e0-33f7ae3f12f9", "translatable_type" => "App\Models\Place", "translatable_id" => "ed9b6fba-556b-41a4-95a8-b316e826a894"],
+            //1167
+            ["translation_id" => "e59e57e9-f444-40ce-86b1-2a14e35fb066", "translatable_type" => "App\Models\Place", "translatable_id" => "a9d03d48-546a-4444-8faa-1bd91c1ad90c"],
+            ["translation_id" => "cd4bf985-d8fa-40ad-b37a-8a08b186d9b3", "translatable_type" => "App\Models\Place", "translatable_id" => "a9d03d48-546a-4444-8faa-1bd91c1ad90c"],
+            ["translation_id" => "502407e3-53d2-4bbc-96b8-31f22844d778", "translatable_type" => "App\Models\Place", "translatable_id" => "a9d03d48-546a-4444-8faa-1bd91c1ad90c"],
+            //1168
+            ["translation_id" => "f80c15cc-2e8f-4dd7-b4bd-4cb7f5e00f1e", "translatable_type" => "App\Models\Place", "translatable_id" => "1cd3fe0b-caa2-4e4c-998c-fbfa65a8b193"],
+            ["translation_id" => "3ade070f-197e-43bf-ba8e-3ed8c498e476", "translatable_type" => "App\Models\Place", "translatable_id" => "1cd3fe0b-caa2-4e4c-998c-fbfa65a8b193"],
+            ["translation_id" => "07dc35e2-c37c-47c9-9a4b-1181eb4d2aa7", "translatable_type" => "App\Models\Place", "translatable_id" => "1cd3fe0b-caa2-4e4c-998c-fbfa65a8b193"],
+            //1169
+            ["translation_id" => "f1c7d688-59ca-4fb6-a339-05466a1ac028", "translatable_type" => "App\Models\Place", "translatable_id" => "a62e7678-2791-41aa-92c7-e8d1a2edb61e"],
+            ["translation_id" => "da328e18-5ddb-4cfd-8aa0-b5d3ef0efa9f", "translatable_type" => "App\Models\Place", "translatable_id" => "a62e7678-2791-41aa-92c7-e8d1a2edb61e"],
+            ["translation_id" => "3753ed5c-be52-4a40-9404-deab76dfe8b8", "translatable_type" => "App\Models\Place", "translatable_id" => "a62e7678-2791-41aa-92c7-e8d1a2edb61e"],
+            //1170
+            ["translation_id" => "8d1e7166-91a1-4e2a-94c8-edbb2f1f107e", "translatable_type" => "App\Models\Place", "translatable_id" => "2fa7e578-0817-40b4-990d-969b1a836434"],
+            ["translation_id" => "fa514dc0-6453-4d3d-8d50-da90ca02dc8e", "translatable_type" => "App\Models\Place", "translatable_id" => "2fa7e578-0817-40b4-990d-969b1a836434"],
+            ["translation_id" => "fb966384-3e6e-436b-8da6-135ae2968ac6", "translatable_type" => "App\Models\Place", "translatable_id" => "2fa7e578-0817-40b4-990d-969b1a836434"],
+            //1171
+            ["translation_id" => "81b26e2c-8a07-45f9-8e73-8ca10acf635f", "translatable_type" => "App\Models\Place", "translatable_id" => "6cd27023-bddd-412f-9ab9-c3378d1e682a"],
+            ["translation_id" => "4b1ed144-0f77-4119-9cd5-f4d852bc6f7f", "translatable_type" => "App\Models\Place", "translatable_id" => "6cd27023-bddd-412f-9ab9-c3378d1e682a"],
+            ["translation_id" => "706adfa0-9cd9-46fb-bd03-4037f197d4e3", "translatable_type" => "App\Models\Place", "translatable_id" => "6cd27023-bddd-412f-9ab9-c3378d1e682a"],
+            //1172
+            ["translation_id" => "55dee200-95f2-402c-bc21-48eb753a95cc", "translatable_type" => "App\Models\Place", "translatable_id" => "9f297122-75ba-4524-924d-fd7410ee7b0f"],
+            ["translation_id" => "1c0e59d4-0af4-4a5e-8a18-5ac679977c9d", "translatable_type" => "App\Models\Place", "translatable_id" => "9f297122-75ba-4524-924d-fd7410ee7b0f"],
+            ["translation_id" => "47a18b13-c3e5-463b-93cd-6b8073173841", "translatable_type" => "App\Models\Place", "translatable_id" => "9f297122-75ba-4524-924d-fd7410ee7b0f"],
+            //1173
+            ["translation_id" => "913cf015-a6a1-4900-a235-1920cfb46242", "translatable_type" => "App\Models\Place", "translatable_id" => "d71edf20-3ed8-442f-ab2a-667c1810730d"],
+            ["translation_id" => "631673e8-c92f-4d3a-900b-252cce2723a8", "translatable_type" => "App\Models\Place", "translatable_id" => "d71edf20-3ed8-442f-ab2a-667c1810730d"],
+            ["translation_id" => "88c5a39d-3921-4878-80bd-2e23c797dea1", "translatable_type" => "App\Models\Place", "translatable_id" => "d71edf20-3ed8-442f-ab2a-667c1810730d"],
+            //1174
+            ["translation_id" => "43ac557a-951a-456d-886a-b5d78878a6ec", "translatable_type" => "App\Models\Place", "translatable_id" => "30a32fec-48d1-40b1-a2cc-f2645307c7e3"],
+            ["translation_id" => "2a1b1555-a4eb-40e4-8d8d-1c6d38001c2b", "translatable_type" => "App\Models\Place", "translatable_id" => "30a32fec-48d1-40b1-a2cc-f2645307c7e3"],
+            ["translation_id" => "cafe0013-5645-4db9-a863-ddd167393d1a", "translatable_type" => "App\Models\Place", "translatable_id" => "30a32fec-48d1-40b1-a2cc-f2645307c7e3"],
+            //1175
+            ["translation_id" => "7b7f33be-fd59-4a95-91b1-0a49979fb3a0", "translatable_type" => "App\Models\Place", "translatable_id" => "2dab8872-b25e-4996-8804-7628aed0bbc1"],
+            ["translation_id" => "4c506371-8d21-4690-9cee-e5d39d07a607", "translatable_type" => "App\Models\Place", "translatable_id" => "2dab8872-b25e-4996-8804-7628aed0bbc1"],
+            ["translation_id" => "6980ab8c-b2bd-4e47-ab8d-e4e7cd9a60d6", "translatable_type" => "App\Models\Place", "translatable_id" => "2dab8872-b25e-4996-8804-7628aed0bbc1"],
+            //1176
+            ["translation_id" => "789cf407-e001-4c38-9c4d-ddb89681a20d", "translatable_type" => "App\Models\Place", "translatable_id" => "438e066e-57d4-4d61-a24d-0cffb90cfac7"],
+            ["translation_id" => "a69a7114-6ff9-4dc5-81ac-91eb9a027d95", "translatable_type" => "App\Models\Place", "translatable_id" => "438e066e-57d4-4d61-a24d-0cffb90cfac7"],
+            ["translation_id" => "a3e3c7c4-f8df-4186-afbd-49ccab4fe912", "translatable_type" => "App\Models\Place", "translatable_id" => "438e066e-57d4-4d61-a24d-0cffb90cfac7"],
+            //1177
+            ["translation_id" => "f5e6d986-f865-4803-95ec-50b1d70c7d15", "translatable_type" => "App\Models\Place", "translatable_id" => "c7c90c94-3280-45c7-9fd5-189f8e509009"],
+            ["translation_id" => "d7c6c4df-3eb7-4a86-a546-59ce4619a963", "translatable_type" => "App\Models\Place", "translatable_id" => "c7c90c94-3280-45c7-9fd5-189f8e509009"],
+            ["translation_id" => "d8c128e6-df82-4cd6-ad70-051245eec2b9", "translatable_type" => "App\Models\Place", "translatable_id" => "c7c90c94-3280-45c7-9fd5-189f8e509009"],
+            //1178
+            ["translation_id" => "b6e0209f-ba0d-4c29-a5a4-ee61fdf56b34", "translatable_type" => "App\Models\Place", "translatable_id" => "dcf77c11-5dd1-4c5e-9ce5-23ea9722efd1"],
+            ["translation_id" => "33217f47-bb23-4482-a380-e68a78132edc", "translatable_type" => "App\Models\Place", "translatable_id" => "dcf77c11-5dd1-4c5e-9ce5-23ea9722efd1"],
+            ["translation_id" => "58c16162-88d7-40a4-aabe-007d2b7778c9", "translatable_type" => "App\Models\Place", "translatable_id" => "dcf77c11-5dd1-4c5e-9ce5-23ea9722efd1"],
+            //1179
+            ["translation_id" => "45a2d93e-6517-4526-80f8-f557c96bfb30", "translatable_type" => "App\Models\Place", "translatable_id" => "b4ba27de-58a9-4eae-a134-9427c408f948"],
+            ["translation_id" => "1899f809-64a3-4513-82ed-f8c91ecfaada", "translatable_type" => "App\Models\Place", "translatable_id" => "b4ba27de-58a9-4eae-a134-9427c408f948"],
+            ["translation_id" => "942b86c4-89d6-4090-9dd4-13eea7eb9909", "translatable_type" => "App\Models\Place", "translatable_id" => "b4ba27de-58a9-4eae-a134-9427c408f948"],
+            //1180
+            ["translation_id" => "8f11ac47-447d-4516-8a96-51d0c2d84c48", "translatable_type" => "App\Models\Place", "translatable_id" => "3874f04c-ea9b-4c25-8680-a0debf9c6053"],
+            ["translation_id" => "c3d7299d-8500-4b65-9423-20ae2041c60f", "translatable_type" => "App\Models\Place", "translatable_id" => "3874f04c-ea9b-4c25-8680-a0debf9c6053"],
+            ["translation_id" => "7f4589cd-816e-4a98-9407-bb717c80eef1", "translatable_type" => "App\Models\Place", "translatable_id" => "3874f04c-ea9b-4c25-8680-a0debf9c6053"],
+            //1181
+            ["translation_id" => "d6440d6f-a1c3-4b75-b9c5-b1ff4f072fd1", "translatable_type" => "App\Models\Place", "translatable_id" => "9f7ec23e-37a2-48c9-85d8-eb3b364553a7"],
+            ["translation_id" => "75d18855-10c7-4c27-8b08-2614d283d023", "translatable_type" => "App\Models\Place", "translatable_id" => "9f7ec23e-37a2-48c9-85d8-eb3b364553a7"],
+            ["translation_id" => "882bf411-89dd-4308-af16-635380c15284", "translatable_type" => "App\Models\Place", "translatable_id" => "9f7ec23e-37a2-48c9-85d8-eb3b364553a7"],
+            //1182
+            ["translation_id" => "249d9edd-637a-4ab9-ae38-51c34ecb6a2f", "translatable_type" => "App\Models\Place", "translatable_id" => "68d1a4d7-775b-4e80-b96d-13baecb6c60b"],
+            ["translation_id" => "bd4f3300-1e13-46c7-a719-4e767845b679", "translatable_type" => "App\Models\Place", "translatable_id" => "68d1a4d7-775b-4e80-b96d-13baecb6c60b"],
+            ["translation_id" => "b3d17039-582b-4c49-82a6-a5fec4b2abda", "translatable_type" => "App\Models\Place", "translatable_id" => "68d1a4d7-775b-4e80-b96d-13baecb6c60b"],
+            //1183
+            ["translation_id" => "d4d252a1-c77c-4845-ba7d-947e4696fdeb", "translatable_type" => "App\Models\Place", "translatable_id" => "9188eb76-23e4-45da-b197-477e45ad7879"],
+            ["translation_id" => "c7f000b2-b578-45dc-bb40-e14b886ab165", "translatable_type" => "App\Models\Place", "translatable_id" => "9188eb76-23e4-45da-b197-477e45ad7879"],
+            ["translation_id" => "7f1eda81-9a3d-43d6-8777-867998afd6cf", "translatable_type" => "App\Models\Place", "translatable_id" => "9188eb76-23e4-45da-b197-477e45ad7879"],
+            //1184
+            ["translation_id" => "f0912269-f0b0-40e0-a58c-90dc7fc8be2b", "translatable_type" => "App\Models\Place", "translatable_id" => "2d409b66-5e67-46b6-9424-9ff59f014035"],
+            ["translation_id" => "36c89b3d-def7-4df4-a4cd-044d81a7fe57", "translatable_type" => "App\Models\Place", "translatable_id" => "2d409b66-5e67-46b6-9424-9ff59f014035"],
+            ["translation_id" => "5343bda5-19aa-4792-a665-dcb7b1c4a99f", "translatable_type" => "App\Models\Place", "translatable_id" => "2d409b66-5e67-46b6-9424-9ff59f014035"],
+            //1185
+            ["translation_id" => "5020a17e-2232-42a8-b06c-58b5febfbc08", "translatable_type" => "App\Models\Place", "translatable_id" => "1a920d47-a55b-403c-baa4-ecbc7397a607"],
+            ["translation_id" => "3e84ea92-e997-4a09-9f21-92f36ada2d86", "translatable_type" => "App\Models\Place", "translatable_id" => "1a920d47-a55b-403c-baa4-ecbc7397a607"],
+            ["translation_id" => "d7934fe3-bc9d-4091-bda9-077fce193bd7", "translatable_type" => "App\Models\Place", "translatable_id" => "1a920d47-a55b-403c-baa4-ecbc7397a607"],
+            //1186
+            ["translation_id" => "bd988c3b-0d8f-42a7-8317-a7ca52006d51", "translatable_type" => "App\Models\Place", "translatable_id" => "39b1b775-e2b0-4bfd-83fe-b2e5e52d84fe"],
+            ["translation_id" => "a3906f3c-1b89-4ae8-a921-55db69b65692", "translatable_type" => "App\Models\Place", "translatable_id" => "39b1b775-e2b0-4bfd-83fe-b2e5e52d84fe"],
+            ["translation_id" => "55da7b7c-5b99-49fe-b6bc-4f9310b489c2", "translatable_type" => "App\Models\Place", "translatable_id" => "39b1b775-e2b0-4bfd-83fe-b2e5e52d84fe"],
+            //1187
+            ["translation_id" => "5e05e009-f9f7-45b3-8385-1a69ea1fdc42", "translatable_type" => "App\Models\Place", "translatable_id" => "474588ab-a36f-4404-b466-00380a134abd"],
+            ["translation_id" => "27f02b14-e410-4a2e-9e00-41ea47aec9d6", "translatable_type" => "App\Models\Place", "translatable_id" => "474588ab-a36f-4404-b466-00380a134abd"],
+            ["translation_id" => "bb40eeda-ceb0-4ae9-bd67-15b788cc236c", "translatable_type" => "App\Models\Place", "translatable_id" => "474588ab-a36f-4404-b466-00380a134abd"],
+            //1188
+            ["translation_id" => "80a9193f-60b7-4901-84b6-95d272fa370c", "translatable_type" => "App\Models\Place", "translatable_id" => "cd664eb1-34f8-413f-81b8-2519e3ccc569"],
+            ["translation_id" => "9fd8d57f-29db-4773-b839-416e38de52a4", "translatable_type" => "App\Models\Place", "translatable_id" => "cd664eb1-34f8-413f-81b8-2519e3ccc569"],
+            ["translation_id" => "39221996-c62b-4efe-af8f-6017aeae8ccd", "translatable_type" => "App\Models\Place", "translatable_id" => "cd664eb1-34f8-413f-81b8-2519e3ccc569"],
+            //1189
+            ["translation_id" => "22285a7d-1e57-49de-a3ba-2b3b6d282283", "translatable_type" => "App\Models\Place", "translatable_id" => "cde81397-0a49-460d-b770-323950db313c"],
+            ["translation_id" => "c33cb9d4-4e9e-46ed-ad6d-fcd21a18ae42", "translatable_type" => "App\Models\Place", "translatable_id" => "cde81397-0a49-460d-b770-323950db313c"],
+            ["translation_id" => "1a33a212-95b1-4c14-8bdf-454ac8d3ed5e", "translatable_type" => "App\Models\Place", "translatable_id" => "cde81397-0a49-460d-b770-323950db313c"],
+            //1190
+            ["translation_id" => "1b951060-8624-4a3b-b41b-d26c87d01fee", "translatable_type" => "App\Models\Place", "translatable_id" => "2821a2c1-906b-49cb-a359-d24783cd9c1a"],
+            ["translation_id" => "888cc23b-c080-40a2-9b9f-607a125ac44b", "translatable_type" => "App\Models\Place", "translatable_id" => "2821a2c1-906b-49cb-a359-d24783cd9c1a"],
+            ["translation_id" => "7266451e-5c23-486d-9f18-8d3cb06fd9f3", "translatable_type" => "App\Models\Place", "translatable_id" => "2821a2c1-906b-49cb-a359-d24783cd9c1a"],
+            //1191
+            ["translation_id" => "3f8f19cf-71c3-4234-850d-0ca710cd5a46", "translatable_type" => "App\Models\Place", "translatable_id" => "5af7a894-9113-458f-a816-4a8932dc9364"],
+            ["translation_id" => "ab02ffff-dae9-4d4b-b60f-a6920c06e9fa", "translatable_type" => "App\Models\Place", "translatable_id" => "5af7a894-9113-458f-a816-4a8932dc9364"],
+            ["translation_id" => "530d373e-ac0d-428a-8858-3fc9c79fb79e", "translatable_type" => "App\Models\Place", "translatable_id" => "5af7a894-9113-458f-a816-4a8932dc9364"],
+            //1192
+            ["translation_id" => "9140b9a2-cc48-4706-a309-1f967b348a57", "translatable_type" => "App\Models\Place", "translatable_id" => "4c32e284-c007-4132-8429-5f773b541b85"],
+            ["translation_id" => "79462ff6-a2a6-4939-ac18-234f301b5804", "translatable_type" => "App\Models\Place", "translatable_id" => "4c32e284-c007-4132-8429-5f773b541b85"],
+            ["translation_id" => "69a7d389-ea98-45ec-9177-8f14fb962346", "translatable_type" => "App\Models\Place", "translatable_id" => "4c32e284-c007-4132-8429-5f773b541b85"],
+            //1193
+            ["translation_id" => "9b2bf1c6-2e18-4407-91b9-fb2b49aa2eb6", "translatable_type" => "App\Models\Place", "translatable_id" => "c14b87b4-74fb-4c97-b7e5-ae5c200eb04d"],
+            ["translation_id" => "71f1a5b1-5a49-4a6d-9aec-e079383e7b3c", "translatable_type" => "App\Models\Place", "translatable_id" => "c14b87b4-74fb-4c97-b7e5-ae5c200eb04d"],
+            ["translation_id" => "1f9ef9a2-7d32-41c8-a804-eba40d652161", "translatable_type" => "App\Models\Place", "translatable_id" => "c14b87b4-74fb-4c97-b7e5-ae5c200eb04d"],
+            //1194
+            ["translation_id" => "e1a4f92b-5444-4433-8aa7-300f963ced4d", "translatable_type" => "App\Models\Place", "translatable_id" => "4130ab53-d641-4d48-b456-aea321211a87"],
+            ["translation_id" => "9cd1a81a-becb-4c36-9417-761842e42041", "translatable_type" => "App\Models\Place", "translatable_id" => "4130ab53-d641-4d48-b456-aea321211a87"],
+            ["translation_id" => "801325d2-68be-4fe6-9f34-2d741b71c425", "translatable_type" => "App\Models\Place", "translatable_id" => "4130ab53-d641-4d48-b456-aea321211a87"],
+            //1195
+            ["translation_id" => "bc986338-68bf-4ecf-b8f7-04d3a841ba03", "translatable_type" => "App\Models\Place", "translatable_id" => "66ecd72c-7f6d-47fb-8a12-b216792503a7"],
+            ["translation_id" => "8e1efb2c-a295-4949-bf36-2fbaa70749ef", "translatable_type" => "App\Models\Place", "translatable_id" => "66ecd72c-7f6d-47fb-8a12-b216792503a7"],
+            ["translation_id" => "ffeba9c8-0219-4261-9c2f-efcd61d0e321", "translatable_type" => "App\Models\Place", "translatable_id" => "66ecd72c-7f6d-47fb-8a12-b216792503a7"],
+            //1196
+            ["translation_id" => "7ee58959-39c0-429f-a12e-60635a2c3218", "translatable_type" => "App\Models\Place", "translatable_id" => "6429dc7a-aefa-4149-b27b-751ed196bc64"],
+            ["translation_id" => "bc45995b-ec1a-4cb7-95a7-e7e3bd5dd57c", "translatable_type" => "App\Models\Place", "translatable_id" => "6429dc7a-aefa-4149-b27b-751ed196bc64"],
+            ["translation_id" => "c9cab1e7-8182-4ee8-9f57-5cf2605a10b2", "translatable_type" => "App\Models\Place", "translatable_id" => "6429dc7a-aefa-4149-b27b-751ed196bc64"],
+            //1197
+            ["translation_id" => "1fd809bf-fc86-4e7c-8ef6-563ee969191d", "translatable_type" => "App\Models\Place", "translatable_id" => "f64f4cae-11fc-4a4f-8505-4892c71038d4"],
+            ["translation_id" => "63a85b1b-3972-4f28-8461-1773ffee8d51", "translatable_type" => "App\Models\Place", "translatable_id" => "f64f4cae-11fc-4a4f-8505-4892c71038d4"],
+            ["translation_id" => "29940d27-352a-4739-8f2a-639fd75e4e13", "translatable_type" => "App\Models\Place", "translatable_id" => "f64f4cae-11fc-4a4f-8505-4892c71038d4"],
+            //1198
+            ["translation_id" => "766e9eda-b6d5-46a4-8728-368f79759caa", "translatable_type" => "App\Models\Place", "translatable_id" => "aa58a18b-8922-415c-bc68-b9a830aad536"],
+            ["translation_id" => "5590622a-ae70-476e-8bb6-60b57f8bab07", "translatable_type" => "App\Models\Place", "translatable_id" => "aa58a18b-8922-415c-bc68-b9a830aad536"],
+            ["translation_id" => "70de1793-838c-41fd-a8d1-7af88ab204a6", "translatable_type" => "App\Models\Place", "translatable_id" => "aa58a18b-8922-415c-bc68-b9a830aad536"],
+            //1199
+            ["translation_id" => "2e78bb6a-6907-4831-bf18-d7ee7e69a151", "translatable_type" => "App\Models\Place", "translatable_id" => "66bc3337-3787-466d-832d-e914003b2cc9"],
+            ["translation_id" => "a01416ed-5fbc-41ad-8c46-55393c1778cb", "translatable_type" => "App\Models\Place", "translatable_id" => "66bc3337-3787-466d-832d-e914003b2cc9"],
+            ["translation_id" => "25c6480b-8f3f-4aff-afb0-88d4c7d98f7a", "translatable_type" => "App\Models\Place", "translatable_id" => "66bc3337-3787-466d-832d-e914003b2cc9"],
+            //1200
+            ["translation_id" => "f5898caf-5c92-4af8-b563-2cc8882370ed", "translatable_type" => "App\Models\Place", "translatable_id" => "b9e07df5-9863-4f84-b58a-ba8fbae856cf"],
+            ["translation_id" => "c75d6bc2-89ee-45a6-a870-3305da00ac29", "translatable_type" => "App\Models\Place", "translatable_id" => "b9e07df5-9863-4f84-b58a-ba8fbae856cf"],
+            ["translation_id" => "a8348050-b226-460e-b057-7f81859ed873", "translatable_type" => "App\Models\Place", "translatable_id" => "b9e07df5-9863-4f84-b58a-ba8fbae856cf"],
+            //1201
+            ["translation_id" => "f859fec7-b6e2-49ee-9e1c-0aacb7950a6e", "translatable_type" => "App\Models\Place", "translatable_id" => "8d68184d-510c-4693-87a0-e095f6862716"],
+            ["translation_id" => "cbadfce2-8624-42f0-92e7-4da63d265460", "translatable_type" => "App\Models\Place", "translatable_id" => "8d68184d-510c-4693-87a0-e095f6862716"],
+            ["translation_id" => "ddd7e719-a9cc-4742-bfe6-8d2828376d04", "translatable_type" => "App\Models\Place", "translatable_id" => "8d68184d-510c-4693-87a0-e095f6862716"],
+            //1202
+            ["translation_id" => "95d9f384-6428-4ca4-bbf5-9347cdab317f", "translatable_type" => "App\Models\Place", "translatable_id" => "f863567d-2bbb-4755-99df-4e69f0fddf17"],
+            ["translation_id" => "0df4b07c-8e54-4c15-bb25-c11da2a7347f", "translatable_type" => "App\Models\Place", "translatable_id" => "f863567d-2bbb-4755-99df-4e69f0fddf17"],
+            ["translation_id" => "3dbcdd1d-6e15-4f5e-a454-9c9b90be306b", "translatable_type" => "App\Models\Place", "translatable_id" => "f863567d-2bbb-4755-99df-4e69f0fddf17"],
+            //1203
+            ["translation_id" => "4f494cb6-9dd2-4fae-8cf2-cde1766e562a", "translatable_type" => "App\Models\Place", "translatable_id" => "600655dc-4c10-4ef5-892b-906aef7c40c5"],
+            ["translation_id" => "142919b3-2437-4eab-b5fb-79e58f1d94e0", "translatable_type" => "App\Models\Place", "translatable_id" => "600655dc-4c10-4ef5-892b-906aef7c40c5"],
+            ["translation_id" => "34aa754e-fd61-4f68-9d4d-766d962873e9", "translatable_type" => "App\Models\Place", "translatable_id" => "600655dc-4c10-4ef5-892b-906aef7c40c5"],
+            //1204
+            ["translation_id" => "7360026f-4c55-404c-9134-518728187927", "translatable_type" => "App\Models\Place", "translatable_id" => "a0aed033-113f-42c0-a06b-c0e5aa2c45eb"],
+            ["translation_id" => "5af8c856-6b47-400c-b12e-bef77909426c", "translatable_type" => "App\Models\Place", "translatable_id" => "a0aed033-113f-42c0-a06b-c0e5aa2c45eb"],
+            ["translation_id" => "c3a4215a-8a29-4a69-b741-0c46389f2093", "translatable_type" => "App\Models\Place", "translatable_id" => "a0aed033-113f-42c0-a06b-c0e5aa2c45eb"],
+            //1205
+            ["translation_id" => "4be60d54-8dd9-4b71-b222-e0bbfea09a75", "translatable_type" => "App\Models\Place", "translatable_id" => "11ebc29c-0c87-4fd7-836b-caffd374ef26"],
+            ["translation_id" => "1439feee-0473-40f9-b32c-db89604e8db0", "translatable_type" => "App\Models\Place", "translatable_id" => "11ebc29c-0c87-4fd7-836b-caffd374ef26"],
+            ["translation_id" => "b80810b0-6d51-4cc4-ac31-00d1448e5b6b", "translatable_type" => "App\Models\Place", "translatable_id" => "11ebc29c-0c87-4fd7-836b-caffd374ef26"],
+            //1206
+            ["translation_id" => "bfd4df16-03db-43d1-a87d-a6aec1f61218", "translatable_type" => "App\Models\Place", "translatable_id" => "020c0ade-3300-4564-9787-7d4525cd927e"],
+            ["translation_id" => "8902287c-ff80-4cfb-af39-8bd62cc67636", "translatable_type" => "App\Models\Place", "translatable_id" => "020c0ade-3300-4564-9787-7d4525cd927e"],
+            ["translation_id" => "60c87e9b-b71a-432b-9f87-26027bde52a5", "translatable_type" => "App\Models\Place", "translatable_id" => "020c0ade-3300-4564-9787-7d4525cd927e"],
+            //1207
+            ["translation_id" => "231717fb-8ceb-4c57-95ed-7f3f9ccc9fe2", "translatable_type" => "App\Models\Place", "translatable_id" => "8cc14f5d-184c-4b2c-a108-2be1246e0bb4"],
+            ["translation_id" => "be507099-a1bb-4a71-ae14-414e81d8044d", "translatable_type" => "App\Models\Place", "translatable_id" => "8cc14f5d-184c-4b2c-a108-2be1246e0bb4"],
+            ["translation_id" => "f154d8ce-d530-4f5c-ade5-a1f9a9e8b02d", "translatable_type" => "App\Models\Place", "translatable_id" => "8cc14f5d-184c-4b2c-a108-2be1246e0bb4"],
+            //1208
+            ["translation_id" => "580baba3-1623-4171-9623-a0f61ecd5718", "translatable_type" => "App\Models\Place", "translatable_id" => "12d51adc-b8f6-4ab4-a722-709acb916bf1"],
+            ["translation_id" => "5dc8eabd-c5db-40d1-9843-54f94f7fea27", "translatable_type" => "App\Models\Place", "translatable_id" => "12d51adc-b8f6-4ab4-a722-709acb916bf1"],
+            ["translation_id" => "b5fe6406-35b2-48f9-9d47-040b7398a7c9", "translatable_type" => "App\Models\Place", "translatable_id" => "12d51adc-b8f6-4ab4-a722-709acb916bf1"],
+            //1209
+            ["translation_id" => "e6f4e910-f1ce-476f-adbf-d30f2a25362e", "translatable_type" => "App\Models\Place", "translatable_id" => "97ebd6a7-a3c2-4da7-b20c-d41cba2cbbe0"],
+            ["translation_id" => "26f9fe9e-0143-403c-8120-a72b290606c7", "translatable_type" => "App\Models\Place", "translatable_id" => "97ebd6a7-a3c2-4da7-b20c-d41cba2cbbe0"],
+            ["translation_id" => "281a7372-f4e6-4664-af0f-20a0a2e7a814", "translatable_type" => "App\Models\Place", "translatable_id" => "97ebd6a7-a3c2-4da7-b20c-d41cba2cbbe0"],
+            //1210
+            ["translation_id" => "080a1f6c-55b2-41a7-9e7b-4bcfd43aba1a", "translatable_type" => "App\Models\Place", "translatable_id" => "04994e3c-5715-4881-b604-2020dc93a028"],
+            ["translation_id" => "a15ae71e-5a17-4d36-a819-fb0d84870ad3", "translatable_type" => "App\Models\Place", "translatable_id" => "04994e3c-5715-4881-b604-2020dc93a028"],
+            ["translation_id" => "f6045c85-e8cc-44b8-b82b-2be9a88d3c6f", "translatable_type" => "App\Models\Place", "translatable_id" => "04994e3c-5715-4881-b604-2020dc93a028"],
+            //1211
+            ["translation_id" => "25181ee7-a292-4ee2-883e-d702935deebb", "translatable_type" => "App\Models\Place", "translatable_id" => "4c8c47fa-4129-48d9-b443-e2bcaab3c888"],
+            ["translation_id" => "8ce88768-d68d-449e-aa7e-bf7110245507", "translatable_type" => "App\Models\Place", "translatable_id" => "4c8c47fa-4129-48d9-b443-e2bcaab3c888"],
+            ["translation_id" => "28a4c876-7f50-4e52-b07f-a6023746701b", "translatable_type" => "App\Models\Place", "translatable_id" => "4c8c47fa-4129-48d9-b443-e2bcaab3c888"],
+            //1212
+            ["translation_id" => "bc5848c2-d71e-490a-b4c8-86345ba01e3e", "translatable_type" => "App\Models\Place", "translatable_id" => "a0ffd746-b5e1-420d-8dc8-c8e600aedfec"],
+            ["translation_id" => "04f745b0-2f60-4b00-83ab-b60b24f16854", "translatable_type" => "App\Models\Place", "translatable_id" => "a0ffd746-b5e1-420d-8dc8-c8e600aedfec"],
+            ["translation_id" => "23e62fa1-a205-4758-a07b-c6ebe9f475a9", "translatable_type" => "App\Models\Place", "translatable_id" => "a0ffd746-b5e1-420d-8dc8-c8e600aedfec"],
+            //1213
+            ["translation_id" => "7e9b4619-23a5-4cbc-97d7-b70acfd3f87b", "translatable_type" => "App\Models\Place", "translatable_id" => "404cf7a6-2669-4fc6-bc68-db4f104e117c"],
+            ["translation_id" => "ce2afec8-78fc-4e52-9b84-7642f82bebd9", "translatable_type" => "App\Models\Place", "translatable_id" => "404cf7a6-2669-4fc6-bc68-db4f104e117c"],
+            ["translation_id" => "c7586680-0ac8-4a51-acbc-7433573bbd95", "translatable_type" => "App\Models\Place", "translatable_id" => "404cf7a6-2669-4fc6-bc68-db4f104e117c"],
+            //1214
+            ["translation_id" => "7aa8ec0a-170f-44c7-b9f9-5fe5d63a3659", "translatable_type" => "App\Models\Place", "translatable_id" => "8c8c153c-53da-4dc7-bd08-51bf582f81d6"],
+            ["translation_id" => "45df1211-0d55-469d-a163-833707a1fafa", "translatable_type" => "App\Models\Place", "translatable_id" => "8c8c153c-53da-4dc7-bd08-51bf582f81d6"],
+            ["translation_id" => "dcdb1960-bc19-4a0b-9888-0827f6071941", "translatable_type" => "App\Models\Place", "translatable_id" => "8c8c153c-53da-4dc7-bd08-51bf582f81d6"],
+            //1215
+            ["translation_id" => "738df4a0-6fb2-4e55-a998-cb8f8f82380e", "translatable_type" => "App\Models\Place", "translatable_id" => "d735cefe-ca4f-471c-87dc-d280960887c8"],
+            ["translation_id" => "0ec0d0cb-3847-430a-b94c-00e0e1d93dc8", "translatable_type" => "App\Models\Place", "translatable_id" => "d735cefe-ca4f-471c-87dc-d280960887c8"],
+            ["translation_id" => "488bf650-1781-4009-a0f9-6b6858e6aeae", "translatable_type" => "App\Models\Place", "translatable_id" => "d735cefe-ca4f-471c-87dc-d280960887c8"],
+            //1216
+            ["translation_id" => "3c477623-b7d3-4bc5-8886-71cf113abe13", "translatable_type" => "App\Models\Place", "translatable_id" => "371b77cf-0e5f-48f6-bbeb-fa38e2ea6e6a"],
+            ["translation_id" => "c93c16de-0865-4b21-b7e0-5352193eab75", "translatable_type" => "App\Models\Place", "translatable_id" => "371b77cf-0e5f-48f6-bbeb-fa38e2ea6e6a"],
+            ["translation_id" => "db660fae-6e45-4b63-9fac-8ab86813d11d", "translatable_type" => "App\Models\Place", "translatable_id" => "371b77cf-0e5f-48f6-bbeb-fa38e2ea6e6a"],
+            //1217
+            ["translation_id" => "bcae1ecb-f3fe-4845-8817-485d91a19202", "translatable_type" => "App\Models\Place", "translatable_id" => "f1bf8508-87ad-4e0a-9ce3-2644e8305048"],
+            ["translation_id" => "8b404b8f-1217-4938-97b7-db5d930339ce", "translatable_type" => "App\Models\Place", "translatable_id" => "f1bf8508-87ad-4e0a-9ce3-2644e8305048"],
+            ["translation_id" => "799a39d6-93cd-496f-b9e8-b32795986e4d", "translatable_type" => "App\Models\Place", "translatable_id" => "f1bf8508-87ad-4e0a-9ce3-2644e8305048"],
+            //1218
+            ["translation_id" => "029010b7-f546-4a41-af93-9c1615cf7ec4", "translatable_type" => "App\Models\Place", "translatable_id" => "d264e5d7-7d8a-42a8-a675-0567b9f5dda9"],
+            ["translation_id" => "ad7d870e-d3ad-40e7-b4f2-51bda0787142", "translatable_type" => "App\Models\Place", "translatable_id" => "d264e5d7-7d8a-42a8-a675-0567b9f5dda9"],
+            ["translation_id" => "1f3387dd-8150-41bc-aa75-fdb828a53cb9", "translatable_type" => "App\Models\Place", "translatable_id" => "d264e5d7-7d8a-42a8-a675-0567b9f5dda9"],
+            //1219
+            ["translation_id" => "edcaec70-d571-4351-ae5c-b79abad3d682", "translatable_type" => "App\Models\Place", "translatable_id" => "9ae342c1-b4ca-4917-9fc7-15666b055233"],
+            ["translation_id" => "3f726008-7a80-4908-a0a7-22f5326fecc6", "translatable_type" => "App\Models\Place", "translatable_id" => "9ae342c1-b4ca-4917-9fc7-15666b055233"],
+            ["translation_id" => "68c6c558-084c-407e-9a9c-3552ce2ea437", "translatable_type" => "App\Models\Place", "translatable_id" => "9ae342c1-b4ca-4917-9fc7-15666b055233"],
+            //1220
+            ["translation_id" => "cb3fe417-ee3b-41f3-9306-6cab7454c6f8", "translatable_type" => "App\Models\Place", "translatable_id" => "4bde4a61-de93-42f6-9a99-27a913b73a39"],
+            ["translation_id" => "a14096f1-1f1e-45c7-9bbd-48d4c74195e8", "translatable_type" => "App\Models\Place", "translatable_id" => "4bde4a61-de93-42f6-9a99-27a913b73a39"],
+            ["translation_id" => "2db4cf0e-3fe3-4500-ac1c-a477fa0cbb94", "translatable_type" => "App\Models\Place", "translatable_id" => "4bde4a61-de93-42f6-9a99-27a913b73a39"],
+            //1221
+            ["translation_id" => "7f04ecd8-b497-4457-98e8-5ce53ca92c59", "translatable_type" => "App\Models\Place", "translatable_id" => "9ac1468d-7955-457b-8b36-ceb3edcde575"],
+            ["translation_id" => "b9b2b8ef-b9d5-4bba-a9c3-52de92bf84d3", "translatable_type" => "App\Models\Place", "translatable_id" => "9ac1468d-7955-457b-8b36-ceb3edcde575"],
+            ["translation_id" => "33569b3f-c8f3-4ed3-b8e1-1da75ebe1a03", "translatable_type" => "App\Models\Place", "translatable_id" => "9ac1468d-7955-457b-8b36-ceb3edcde575"],
+            //1222
+            ["translation_id" => "b26bb8d3-7da2-46c5-9ba4-50c68f6e9401", "translatable_type" => "App\Models\Place", "translatable_id" => "d4aca899-715d-40e0-a1a0-325ad7d14faa"],
+            ["translation_id" => "28b5bcbc-b967-40dd-93b9-48c4154cc36d", "translatable_type" => "App\Models\Place", "translatable_id" => "d4aca899-715d-40e0-a1a0-325ad7d14faa"],
+            ["translation_id" => "73ec1db4-0aef-4c2c-ba14-d0e03133d974", "translatable_type" => "App\Models\Place", "translatable_id" => "d4aca899-715d-40e0-a1a0-325ad7d14faa"],
+            //1223
+            ["translation_id" => "e51c341b-8d65-40c9-aa6c-9c228e208026", "translatable_type" => "App\Models\Place", "translatable_id" => "3fa25545-685c-474c-96aa-f72ede1cf4d6"],
+            ["translation_id" => "928572b4-391a-483e-99ce-757f372e5f99", "translatable_type" => "App\Models\Place", "translatable_id" => "3fa25545-685c-474c-96aa-f72ede1cf4d6"],
+            ["translation_id" => "9d023cbb-e638-4e37-a55a-c48f4dce82e3", "translatable_type" => "App\Models\Place", "translatable_id" => "3fa25545-685c-474c-96aa-f72ede1cf4d6"],
+            //1224
+            ["translation_id" => "2205aab6-55b1-427c-91cc-e8d014d44d5d", "translatable_type" => "App\Models\Place", "translatable_id" => "7fe8b358-585f-4366-a22f-3de33964718c"],
+            ["translation_id" => "e7de3f94-39f9-4323-ad39-1e6cee8f66aa", "translatable_type" => "App\Models\Place", "translatable_id" => "7fe8b358-585f-4366-a22f-3de33964718c"],
+            ["translation_id" => "0a63bb23-a71a-4abd-b69b-32b8d8566ab1", "translatable_type" => "App\Models\Place", "translatable_id" => "7fe8b358-585f-4366-a22f-3de33964718c"],
+            //1225
+            ["translation_id" => "87730ba4-675d-48ae-a8a1-b32a9a685f70", "translatable_type" => "App\Models\Place", "translatable_id" => "a04eae9c-a6f0-4bd2-836a-1fdbaca092e2"],
+            ["translation_id" => "d087784e-6112-4da7-b838-480ab9ece6ce", "translatable_type" => "App\Models\Place", "translatable_id" => "a04eae9c-a6f0-4bd2-836a-1fdbaca092e2"],
+            ["translation_id" => "e5f96c3c-2520-41f1-9e72-3eccb248be7b", "translatable_type" => "App\Models\Place", "translatable_id" => "a04eae9c-a6f0-4bd2-836a-1fdbaca092e2"],
+            //1226
+            ["translation_id" => "2705c1ed-45a2-4217-a1e5-5c35aa7c929c", "translatable_type" => "App\Models\Place", "translatable_id" => "491bebed-e628-4ef8-b37d-fad973208f07"],
+            ["translation_id" => "2f1e4a88-948d-41af-8efe-dfb3b773d934", "translatable_type" => "App\Models\Place", "translatable_id" => "491bebed-e628-4ef8-b37d-fad973208f07"],
+            ["translation_id" => "7739a01a-cac5-414b-8be1-58c33dbea956", "translatable_type" => "App\Models\Place", "translatable_id" => "491bebed-e628-4ef8-b37d-fad973208f07"],
+            //1227
+            ["translation_id" => "bf393adb-4559-45d3-92df-93f97372282e", "translatable_type" => "App\Models\Place", "translatable_id" => "cd4beae7-c9fe-44f6-8fba-039fb4e9c598"],
+            ["translation_id" => "b6436c90-f3e9-40ac-8750-26066106dc69", "translatable_type" => "App\Models\Place", "translatable_id" => "cd4beae7-c9fe-44f6-8fba-039fb4e9c598"],
+            ["translation_id" => "1f22e5a4-d799-48f1-9db8-fe754812bc71", "translatable_type" => "App\Models\Place", "translatable_id" => "cd4beae7-c9fe-44f6-8fba-039fb4e9c598"],
+            //1228
+            ["translation_id" => "1d8a13c8-bab2-4f89-9e3c-6cfa51cf6193", "translatable_type" => "App\Models\Place", "translatable_id" => "e68a092a-a8e8-4208-91f9-517c2caa197d"],
+            ["translation_id" => "65972db4-e1e7-47ce-b48f-9dd18b2fb9f0", "translatable_type" => "App\Models\Place", "translatable_id" => "e68a092a-a8e8-4208-91f9-517c2caa197d"],
+            ["translation_id" => "91a9650a-0b02-47d8-9282-aa2eb02f609e", "translatable_type" => "App\Models\Place", "translatable_id" => "e68a092a-a8e8-4208-91f9-517c2caa197d"],
+            //1229
+            ["translation_id" => "113c4b4d-76e2-4e00-8e9d-71d7d8b19b20", "translatable_type" => "App\Models\Place", "translatable_id" => "ff2c0e72-aa81-44bf-a7b3-d2c90d08f737"],
+            ["translation_id" => "bb98be0f-79c6-4e80-9582-82e5c0e24b5e", "translatable_type" => "App\Models\Place", "translatable_id" => "ff2c0e72-aa81-44bf-a7b3-d2c90d08f737"],
+            ["translation_id" => "b7ee82b5-ae69-4386-815e-4edff99face1", "translatable_type" => "App\Models\Place", "translatable_id" => "ff2c0e72-aa81-44bf-a7b3-d2c90d08f737"],
+            //1230
+            ["translation_id" => "23b720c9-cdc0-459b-8d9b-556c8869a14c", "translatable_type" => "App\Models\Place", "translatable_id" => "1e78d21f-5774-45bb-a5db-54693a592073"],
+            ["translation_id" => "ea3443d4-88af-42f4-8052-400c56bb2e92", "translatable_type" => "App\Models\Place", "translatable_id" => "1e78d21f-5774-45bb-a5db-54693a592073"],
+            ["translation_id" => "e61aa3cd-9d32-43ff-a8e3-6f8617e4c4e7", "translatable_type" => "App\Models\Place", "translatable_id" => "1e78d21f-5774-45bb-a5db-54693a592073"],
+            //1231
+            ["translation_id" => "f106c230-179e-4440-8556-85ec934baebd", "translatable_type" => "App\Models\Place", "translatable_id" => "de6f5912-d0cf-439a-abce-54761634cdcf"],
+            ["translation_id" => "d8d02912-5777-4924-a5c9-0509d984f841", "translatable_type" => "App\Models\Place", "translatable_id" => "de6f5912-d0cf-439a-abce-54761634cdcf"],
+            ["translation_id" => "92d16de7-f001-42f2-bddc-74a1e0ff4bb8", "translatable_type" => "App\Models\Place", "translatable_id" => "de6f5912-d0cf-439a-abce-54761634cdcf"],
+            //1232
+            ["translation_id" => "94831f34-db1e-4aee-8f3d-4880128823a4", "translatable_type" => "App\Models\Place", "translatable_id" => "b1b2d3c4-4aee-4b24-9a21-be17ebafc71d"],
+            ["translation_id" => "dc226c5d-fc3f-4dc7-9beb-9b15bfc742f8", "translatable_type" => "App\Models\Place", "translatable_id" => "b1b2d3c4-4aee-4b24-9a21-be17ebafc71d"],
+            ["translation_id" => "0abae9f3-3806-430f-99c4-54493fdf8560", "translatable_type" => "App\Models\Place", "translatable_id" => "b1b2d3c4-4aee-4b24-9a21-be17ebafc71d"],
+            //1233
+            ["translation_id" => "24bee277-0aca-4375-8d3c-3763035fd40f", "translatable_type" => "App\Models\Place", "translatable_id" => "8eed36dd-f356-413b-ac74-c9885c6c840f"],
+            ["translation_id" => "8c44e4ae-d389-4804-9e6c-e9c4df99f7ac", "translatable_type" => "App\Models\Place", "translatable_id" => "8eed36dd-f356-413b-ac74-c9885c6c840f"],
+            ["translation_id" => "864aa436-5f7e-4e12-adff-71c7fb190266", "translatable_type" => "App\Models\Place", "translatable_id" => "8eed36dd-f356-413b-ac74-c9885c6c840f"],
+            //1234
+            ["translation_id" => "088dbb1c-acc5-4350-bf38-e38052035a93", "translatable_type" => "App\Models\Place", "translatable_id" => "3643b2e0-0fb4-49ea-91aa-9fdc8aa2bbac"],
+            ["translation_id" => "0670ac38-1a6e-4913-afa7-3b2283ac576b", "translatable_type" => "App\Models\Place", "translatable_id" => "3643b2e0-0fb4-49ea-91aa-9fdc8aa2bbac"],
+            ["translation_id" => "726fa1fb-c5e0-42c8-9ada-6ecf1ff99622", "translatable_type" => "App\Models\Place", "translatable_id" => "3643b2e0-0fb4-49ea-91aa-9fdc8aa2bbac"],
+            //1235
+            ["translation_id" => "8ef3b717-a59a-45de-ae1c-446c6df5e0ed", "translatable_type" => "App\Models\Place", "translatable_id" => "5da1e481-62c9-4679-8abf-9b1f0f14658e"],
+            ["translation_id" => "d338dc52-67c5-4273-93e0-5ceaf7008063", "translatable_type" => "App\Models\Place", "translatable_id" => "5da1e481-62c9-4679-8abf-9b1f0f14658e"],
+            ["translation_id" => "c31f1724-e0dc-4c8b-9e80-d9f5f2221ace", "translatable_type" => "App\Models\Place", "translatable_id" => "5da1e481-62c9-4679-8abf-9b1f0f14658e"],
+            //1236
+            ["translation_id" => "609cb7c1-e8f1-4af5-bc8c-fcfc89425dfa", "translatable_type" => "App\Models\Place", "translatable_id" => "c323d46c-f849-4755-80c1-ead35439f542"],
+            ["translation_id" => "0286680f-0d82-4df2-83ea-bc7a5763df4e", "translatable_type" => "App\Models\Place", "translatable_id" => "c323d46c-f849-4755-80c1-ead35439f542"],
+            ["translation_id" => "ca24711e-fb5c-4a67-b1fb-b6f823f433e6", "translatable_type" => "App\Models\Place", "translatable_id" => "c323d46c-f849-4755-80c1-ead35439f542"],
+            //1237
+            ["translation_id" => "5668b179-8e39-45da-bf3c-0fa02be6dd5f", "translatable_type" => "App\Models\Place", "translatable_id" => "889fd087-0774-465c-9c76-b0808ba89b30"],
+            ["translation_id" => "65714795-2118-4ff5-924c-6efa19d871aa", "translatable_type" => "App\Models\Place", "translatable_id" => "889fd087-0774-465c-9c76-b0808ba89b30"],
+            ["translation_id" => "285bd8d0-91dd-4118-8af4-c8205e2b5803", "translatable_type" => "App\Models\Place", "translatable_id" => "889fd087-0774-465c-9c76-b0808ba89b30"],
+            //1238
+            ["translation_id" => "6c970fbf-0db8-46d0-b767-bf3c3663b324", "translatable_type" => "App\Models\Place", "translatable_id" => "928b327b-44a7-4ba6-ad57-23d3be3faca9"],
+            ["translation_id" => "4dd6cf27-58e3-401f-8afe-bc5d4b56b42f", "translatable_type" => "App\Models\Place", "translatable_id" => "928b327b-44a7-4ba6-ad57-23d3be3faca9"],
+            ["translation_id" => "ac2b85f1-75e8-44eb-9b12-c707455fe5fc", "translatable_type" => "App\Models\Place", "translatable_id" => "928b327b-44a7-4ba6-ad57-23d3be3faca9"],
+            //1239
+            ["translation_id" => "4d866d42-1f03-4365-ae52-4a532d7db9ea", "translatable_type" => "App\Models\Place", "translatable_id" => "8422ffe2-40f2-44b7-9f09-e25ab4dcfd76"],
+            ["translation_id" => "aae9627a-d84d-497f-8683-c82dff20224f", "translatable_type" => "App\Models\Place", "translatable_id" => "8422ffe2-40f2-44b7-9f09-e25ab4dcfd76"],
+            ["translation_id" => "c057c4d8-30bc-4ae3-b6e3-1dc224caaa01", "translatable_type" => "App\Models\Place", "translatable_id" => "8422ffe2-40f2-44b7-9f09-e25ab4dcfd76"],
+            //1240
+            ["translation_id" => "9ecac295-c54b-4323-8e9c-5e3aecae940f", "translatable_type" => "App\Models\Place", "translatable_id" => "69a432ff-d568-4bdd-89fa-f712f5a595f3"],
+            ["translation_id" => "f9509217-3372-4bbd-80ec-9344f62f7ef5", "translatable_type" => "App\Models\Place", "translatable_id" => "69a432ff-d568-4bdd-89fa-f712f5a595f3"],
+            ["translation_id" => "9583c0b0-e37c-458f-8ee9-4881a5fd0821", "translatable_type" => "App\Models\Place", "translatable_id" => "69a432ff-d568-4bdd-89fa-f712f5a595f3"],
+            //1241
+            ["translation_id" => "2ba35d9f-068e-424b-aaf3-1b7c563d647e", "translatable_type" => "App\Models\Place", "translatable_id" => "f0f37df6-ad78-4a2b-a5f6-7057119f97ef"],
+            ["translation_id" => "ba270972-f4d6-4c96-9b51-b7c65d0d2472", "translatable_type" => "App\Models\Place", "translatable_id" => "f0f37df6-ad78-4a2b-a5f6-7057119f97ef"],
+            ["translation_id" => "072786c6-9e5f-4461-a6cd-2c89d1afc4ca", "translatable_type" => "App\Models\Place", "translatable_id" => "f0f37df6-ad78-4a2b-a5f6-7057119f97ef"],
+            //1242
+            ["translation_id" => "9791fcfe-c433-4b77-b9b1-ec6ef82815ee", "translatable_type" => "App\Models\Place", "translatable_id" => "6808f70a-2798-4f2f-82e0-d9acc01c82a4"],
+            ["translation_id" => "b95af0e6-f661-44f6-86b9-020038bbe2e2", "translatable_type" => "App\Models\Place", "translatable_id" => "6808f70a-2798-4f2f-82e0-d9acc01c82a4"],
+            ["translation_id" => "782b602b-c7e8-4438-8985-44c1e42314ab", "translatable_type" => "App\Models\Place", "translatable_id" => "6808f70a-2798-4f2f-82e0-d9acc01c82a4"],
+            //1243
+            ["translation_id" => "4396c054-0f30-4907-9105-8683f682252f", "translatable_type" => "App\Models\Place", "translatable_id" => "55370d79-b3e3-431d-80aa-a3fa1de5400b"],
+            ["translation_id" => "26103f89-1884-49f0-9db7-a262e4419cf6", "translatable_type" => "App\Models\Place", "translatable_id" => "55370d79-b3e3-431d-80aa-a3fa1de5400b"],
+            ["translation_id" => "507d7cbf-f896-45e5-afa1-fb323fc5df00", "translatable_type" => "App\Models\Place", "translatable_id" => "55370d79-b3e3-431d-80aa-a3fa1de5400b"],
+            //1244
+            ["translation_id" => "755a45ae-230f-4ae2-8fce-a25f30475669", "translatable_type" => "App\Models\Place", "translatable_id" => "8651c3b5-2015-47e9-907f-f8d1a2f1a7f6"],
+            ["translation_id" => "6e3ecccc-f980-4794-b720-03335a9ad877", "translatable_type" => "App\Models\Place", "translatable_id" => "8651c3b5-2015-47e9-907f-f8d1a2f1a7f6"],
+            ["translation_id" => "c254a9b1-815f-48cf-97e8-461fae7b50d2", "translatable_type" => "App\Models\Place", "translatable_id" => "8651c3b5-2015-47e9-907f-f8d1a2f1a7f6"],
+            //1245
+            ["translation_id" => "6419a05b-6fca-4b98-8b90-4a8d8946d271", "translatable_type" => "App\Models\Place", "translatable_id" => "d60108c1-1622-438f-a59a-8be707cff7ab"],
+            ["translation_id" => "9eee5012-605d-4d9f-b3e8-3c499a0814a6", "translatable_type" => "App\Models\Place", "translatable_id" => "d60108c1-1622-438f-a59a-8be707cff7ab"],
+            ["translation_id" => "0fd250ad-e42e-403f-8ac9-bca4e0e6c038", "translatable_type" => "App\Models\Place", "translatable_id" => "d60108c1-1622-438f-a59a-8be707cff7ab"],
+            //1246
+            ["translation_id" => "1d61cc31-24dd-45ca-957f-c1e015f9f056", "translatable_type" => "App\Models\Place", "translatable_id" => "e65dd384-e9de-4f0f-8a68-182942eb2941"],
+            ["translation_id" => "94ae59f0-8aea-4d75-bf14-e47a544e4b47", "translatable_type" => "App\Models\Place", "translatable_id" => "e65dd384-e9de-4f0f-8a68-182942eb2941"],
+            ["translation_id" => "ec20f3e3-a67c-4f66-83ad-acc76f4549de", "translatable_type" => "App\Models\Place", "translatable_id" => "e65dd384-e9de-4f0f-8a68-182942eb2941"],
+            //1247
+            ["translation_id" => "33cf170a-6f3e-4acb-8eb0-f8aa2ba8b73b", "translatable_type" => "App\Models\Place", "translatable_id" => "c9a7e2ee-7d82-409b-a916-925be0870ccb"],
+            ["translation_id" => "cb5d00f8-e586-4cf4-b7a5-01ee3f009d30", "translatable_type" => "App\Models\Place", "translatable_id" => "c9a7e2ee-7d82-409b-a916-925be0870ccb"],
+            ["translation_id" => "a32d8604-dd6e-4f9b-a7d6-671ab9e83f97", "translatable_type" => "App\Models\Place", "translatable_id" => "c9a7e2ee-7d82-409b-a916-925be0870ccb"],
+            //1248
+            ["translation_id" => "092ba7e3-3be2-4b94-a1c6-c5a8945e8e7e", "translatable_type" => "App\Models\Place", "translatable_id" => "c085f58f-90f2-4de0-85e2-9feb23122b11"],
+            ["translation_id" => "fbe60f68-a02a-4575-bc8b-56220eecb641", "translatable_type" => "App\Models\Place", "translatable_id" => "c085f58f-90f2-4de0-85e2-9feb23122b11"],
+            ["translation_id" => "1d295aef-b0d2-4e52-adfe-529ebd6fc0e1", "translatable_type" => "App\Models\Place", "translatable_id" => "c085f58f-90f2-4de0-85e2-9feb23122b11"],
+            //1249
+            ["translation_id" => "78de22ba-68ff-406d-95c8-644b62fe6eb6", "translatable_type" => "App\Models\Place", "translatable_id" => "748914bc-86dc-4f24-af34-81bce207f648"],
+            ["translation_id" => "91f130af-209d-44fc-b892-088c7933074f", "translatable_type" => "App\Models\Place", "translatable_id" => "748914bc-86dc-4f24-af34-81bce207f648"],
+            ["translation_id" => "77e1cc77-ddb7-4084-a3a9-46dfb9b6cf72", "translatable_type" => "App\Models\Place", "translatable_id" => "748914bc-86dc-4f24-af34-81bce207f648"],
+            //1250
+            ["translation_id" => "282be053-a931-43ed-9541-eaeb23f6afc2", "translatable_type" => "App\Models\Place", "translatable_id" => "f5138d4a-ccc3-43f6-ad1e-0b54717dd3b8"],
+            ["translation_id" => "3b7b7b04-88f5-49be-b9a8-0c04e464095e", "translatable_type" => "App\Models\Place", "translatable_id" => "f5138d4a-ccc3-43f6-ad1e-0b54717dd3b8"],
+            ["translation_id" => "b32b2967-e837-4914-8348-30eaa54d8c4d", "translatable_type" => "App\Models\Place", "translatable_id" => "f5138d4a-ccc3-43f6-ad1e-0b54717dd3b8"],
+            //1251
+            ["translation_id" => "3bd38cd7-55b6-4f91-8d50-0905e8e8d7b8", "translatable_type" => "App\Models\Place", "translatable_id" => "885cedc9-a469-43aa-bbb6-854256d8788a"],
+            ["translation_id" => "2ed58083-c42f-43cd-8490-13b771fa174f", "translatable_type" => "App\Models\Place", "translatable_id" => "885cedc9-a469-43aa-bbb6-854256d8788a"],
+            ["translation_id" => "80ad1a27-0e02-4b29-b83b-0aee212e79f0", "translatable_type" => "App\Models\Place", "translatable_id" => "885cedc9-a469-43aa-bbb6-854256d8788a"],
+            //1252
+            ["translation_id" => "1e9bded9-db1e-4f72-afcf-9e0914129687", "translatable_type" => "App\Models\Place", "translatable_id" => "6fe3d88b-b92b-4c60-a74b-a98b5ac44ec0"],
+            ["translation_id" => "f359ce7f-9c1d-4ae3-932e-945741e6863b", "translatable_type" => "App\Models\Place", "translatable_id" => "6fe3d88b-b92b-4c60-a74b-a98b5ac44ec0"],
+            ["translation_id" => "fbfd165e-15f1-4c8f-8658-5c60cf024833", "translatable_type" => "App\Models\Place", "translatable_id" => "6fe3d88b-b92b-4c60-a74b-a98b5ac44ec0"],
+            //1253
+            ["translation_id" => "fffa3c44-0564-4017-92b0-709ff4740637", "translatable_type" => "App\Models\Place", "translatable_id" => "043dbfc6-bb60-43c4-b574-fcbb424e10ec"],
+            ["translation_id" => "880622f4-5ee6-4c16-a385-1d9c616a111d", "translatable_type" => "App\Models\Place", "translatable_id" => "043dbfc6-bb60-43c4-b574-fcbb424e10ec"],
+            ["translation_id" => "98a413fc-595f-4726-96ec-f3252a69b78b", "translatable_type" => "App\Models\Place", "translatable_id" => "043dbfc6-bb60-43c4-b574-fcbb424e10ec"],
+            //1254
+            ["translation_id" => "09fc960d-bda9-4762-8351-fa726927b15e", "translatable_type" => "App\Models\Place", "translatable_id" => "f678e196-1e40-4ac1-bd8f-023ff759e1d8"],
+            ["translation_id" => "f8e671d4-3afc-4667-90c3-25ac09a3103c", "translatable_type" => "App\Models\Place", "translatable_id" => "f678e196-1e40-4ac1-bd8f-023ff759e1d8"],
+            ["translation_id" => "e8929f9b-d5ed-49b1-82cf-2a9c2d9675c1", "translatable_type" => "App\Models\Place", "translatable_id" => "f678e196-1e40-4ac1-bd8f-023ff759e1d8"],
+            //1255
+            ["translation_id" => "d76562ae-ecbd-474f-87d5-c96ffea01825", "translatable_type" => "App\Models\Place", "translatable_id" => "ef559c32-4e31-4db4-a809-59f8c3a9da11"],
+            ["translation_id" => "b577b78a-d587-4a7c-bb64-c3b0d17517d6", "translatable_type" => "App\Models\Place", "translatable_id" => "ef559c32-4e31-4db4-a809-59f8c3a9da11"],
+            ["translation_id" => "87f8bcaa-eeae-4040-b07d-ae6e812b5eaa", "translatable_type" => "App\Models\Place", "translatable_id" => "ef559c32-4e31-4db4-a809-59f8c3a9da11"],
+            //1256
+            ["translation_id" => "ff614ed7-0419-4145-a55f-388ca0315eef", "translatable_type" => "App\Models\Place", "translatable_id" => "e0eb0c6b-969d-4f05-be42-e50f7516c3b1"],
+            ["translation_id" => "18bde53e-c178-474f-b8cd-ddc0b88f8195", "translatable_type" => "App\Models\Place", "translatable_id" => "e0eb0c6b-969d-4f05-be42-e50f7516c3b1"],
+            ["translation_id" => "25e2d319-6749-4c0e-969c-126777baaaf3", "translatable_type" => "App\Models\Place", "translatable_id" => "e0eb0c6b-969d-4f05-be42-e50f7516c3b1"],
+            //1257
+            ["translation_id" => "a7624589-b285-4c47-936c-6d4ed43f3518", "translatable_type" => "App\Models\Place", "translatable_id" => "a34dac24-60d1-493f-9b23-f1c80b582cf5"],
+            ["translation_id" => "ee201e37-5511-48b1-80c9-ba4e85d34e3f", "translatable_type" => "App\Models\Place", "translatable_id" => "a34dac24-60d1-493f-9b23-f1c80b582cf5"],
+            ["translation_id" => "b48be98f-159a-436f-96f4-3621824d8ac5", "translatable_type" => "App\Models\Place", "translatable_id" => "a34dac24-60d1-493f-9b23-f1c80b582cf5"],
+            //1258
+            ["translation_id" => "edc78d90-f610-4795-a653-2378e6031af5", "translatable_type" => "App\Models\Place", "translatable_id" => "0fcc22e6-1439-44d6-aa7f-c3bd00327d3e"],
+            ["translation_id" => "ae100d10-0b68-449f-bc41-27497af5e2cd", "translatable_type" => "App\Models\Place", "translatable_id" => "0fcc22e6-1439-44d6-aa7f-c3bd00327d3e"],
+            ["translation_id" => "27b8c33c-c25c-4ae9-aea1-b8090dcf6daa", "translatable_type" => "App\Models\Place", "translatable_id" => "0fcc22e6-1439-44d6-aa7f-c3bd00327d3e"],
+            //1259
+            ["translation_id" => "b62afa3e-e8a4-4e2d-82b4-fdd6ea471ab4", "translatable_type" => "App\Models\Place", "translatable_id" => "616acc8e-cc24-493b-8fc3-edc3b07ab81a"],
+            ["translation_id" => "f2b20a63-f87c-46e6-b487-ca297ae046ea", "translatable_type" => "App\Models\Place", "translatable_id" => "616acc8e-cc24-493b-8fc3-edc3b07ab81a"],
+            ["translation_id" => "75384c61-865f-496c-bf50-55d02f0813a0", "translatable_type" => "App\Models\Place", "translatable_id" => "616acc8e-cc24-493b-8fc3-edc3b07ab81a"],
+            //1260
+            ["translation_id" => "53153eff-cfe2-4d4f-9ca3-a84960c354ad", "translatable_type" => "App\Models\Place", "translatable_id" => "f39582a5-3646-441d-8f8b-5638634e34bd"],
+            ["translation_id" => "1d57a3b2-772c-4194-9111-8bfd7cb61876", "translatable_type" => "App\Models\Place", "translatable_id" => "f39582a5-3646-441d-8f8b-5638634e34bd"],
+            ["translation_id" => "cd5fcc1a-87e0-4bf4-97e2-24b80583cb71", "translatable_type" => "App\Models\Place", "translatable_id" => "f39582a5-3646-441d-8f8b-5638634e34bd"],
+            //1261
+            ["translation_id" => "3cfbbed2-0c4c-4d31-ad04-5824784e382b", "translatable_type" => "App\Models\Place", "translatable_id" => "9055fd55-4c0f-4e85-b439-06baa48f68e6"],
+            ["translation_id" => "0b80928d-7638-434b-a92f-5d07988cb0e3", "translatable_type" => "App\Models\Place", "translatable_id" => "9055fd55-4c0f-4e85-b439-06baa48f68e6"],
+            ["translation_id" => "1cb58c70-625b-4d25-a076-04275bb6e5e9", "translatable_type" => "App\Models\Place", "translatable_id" => "9055fd55-4c0f-4e85-b439-06baa48f68e6"],
+            //1262
+            ["translation_id" => "21359f0c-d13b-4cc5-843a-b3ee3c3c697c", "translatable_type" => "App\Models\Place", "translatable_id" => "68e1da8d-8ceb-453c-a58a-b842fa203aa0"],
+            ["translation_id" => "1acd96d8-324e-4664-8b4c-a0a21572356d", "translatable_type" => "App\Models\Place", "translatable_id" => "68e1da8d-8ceb-453c-a58a-b842fa203aa0"],
+            ["translation_id" => "d90a0537-aed5-475d-98c6-c52c084e7dcd", "translatable_type" => "App\Models\Place", "translatable_id" => "68e1da8d-8ceb-453c-a58a-b842fa203aa0"],
+            //1263
+            ["translation_id" => "c1a649a9-adac-4f7f-98d4-98db02ffaaab", "translatable_type" => "App\Models\Place", "translatable_id" => "172323a1-ed03-4d04-9126-6653ff70c27e"],
+            ["translation_id" => "0c0ec419-e5c4-415b-a7c7-d9812b07ec0a", "translatable_type" => "App\Models\Place", "translatable_id" => "172323a1-ed03-4d04-9126-6653ff70c27e"],
+            ["translation_id" => "fb3b7b97-42da-4a73-bcf6-9fb25608e669", "translatable_type" => "App\Models\Place", "translatable_id" => "172323a1-ed03-4d04-9126-6653ff70c27e"],
+            //1264
+            ["translation_id" => "4bc7fe35-192b-47f6-b86a-afc7fbe88077", "translatable_type" => "App\Models\Place", "translatable_id" => "279af018-e9d4-4779-a9bb-443058a0f6da"],
+            ["translation_id" => "8b082ad2-eaa9-484a-81f6-abf76bec498b", "translatable_type" => "App\Models\Place", "translatable_id" => "279af018-e9d4-4779-a9bb-443058a0f6da"],
+            ["translation_id" => "ee78d876-eb71-445a-8eff-a263906f4580", "translatable_type" => "App\Models\Place", "translatable_id" => "279af018-e9d4-4779-a9bb-443058a0f6da"],
+            //1265
+            ["translation_id" => "1598cb50-8e4e-48c7-985c-bf50611c5d91", "translatable_type" => "App\Models\Place", "translatable_id" => "74b22deb-ce15-4da9-8c5a-5a114d2d7f72"],
+            ["translation_id" => "478228bf-82b2-40cb-8a33-4b2fbd09c972", "translatable_type" => "App\Models\Place", "translatable_id" => "74b22deb-ce15-4da9-8c5a-5a114d2d7f72"],
+            ["translation_id" => "5537ae21-868b-4967-807b-3290805862f8", "translatable_type" => "App\Models\Place", "translatable_id" => "74b22deb-ce15-4da9-8c5a-5a114d2d7f72"],
+            //1266
+            ["translation_id" => "d2e75324-13e5-4092-8fdc-08caa9cb2973", "translatable_type" => "App\Models\Place", "translatable_id" => "f0685ebd-ba96-4a4d-85e5-0d1d401bf279"],
+            ["translation_id" => "32430632-1a58-4307-b682-2ab62fee88aa", "translatable_type" => "App\Models\Place", "translatable_id" => "f0685ebd-ba96-4a4d-85e5-0d1d401bf279"],
+            ["translation_id" => "e83977ea-0d0f-46df-9684-884381e46348", "translatable_type" => "App\Models\Place", "translatable_id" => "f0685ebd-ba96-4a4d-85e5-0d1d401bf279"],
+            //1267
+            ["translation_id" => "bee61610-6b4b-440b-a078-fef8f37a1e97", "translatable_type" => "App\Models\Place", "translatable_id" => "8d3aa93f-6ccb-4a4d-a426-69c4deb2198e"],
+            ["translation_id" => "5f74d427-70c1-42e0-979e-5e370949d7b7", "translatable_type" => "App\Models\Place", "translatable_id" => "8d3aa93f-6ccb-4a4d-a426-69c4deb2198e"],
+            ["translation_id" => "912eeeba-9e19-4cc6-8691-98edb939b686", "translatable_type" => "App\Models\Place", "translatable_id" => "8d3aa93f-6ccb-4a4d-a426-69c4deb2198e"],
+            //1268
+            ["translation_id" => "471e0c00-c784-4285-b779-742b172610c7", "translatable_type" => "App\Models\Place", "translatable_id" => "82fc4b68-aba4-4747-860b-99f332b74d44"],
+            ["translation_id" => "4df1c10b-fb1c-4f38-ab73-f1f420e5baee", "translatable_type" => "App\Models\Place", "translatable_id" => "82fc4b68-aba4-4747-860b-99f332b74d44"],
+            ["translation_id" => "e59b1b12-c77b-4951-8aa1-3c7ecc7a9d2d", "translatable_type" => "App\Models\Place", "translatable_id" => "82fc4b68-aba4-4747-860b-99f332b74d44"],
+            //1269
+            ["translation_id" => "ca8286b1-61d8-45c9-ba08-c9876b2b4ab4", "translatable_type" => "App\Models\Place", "translatable_id" => "2e84f05a-c6ee-4ee4-8e4f-1706a3ec2fb6"],
+            ["translation_id" => "6856f652-2691-4043-a174-e7ccf9d246b7", "translatable_type" => "App\Models\Place", "translatable_id" => "2e84f05a-c6ee-4ee4-8e4f-1706a3ec2fb6"],
+            ["translation_id" => "13642ee8-e6e3-4760-a927-822d33ca9771", "translatable_type" => "App\Models\Place", "translatable_id" => "2e84f05a-c6ee-4ee4-8e4f-1706a3ec2fb6"],
+            //1270
+            ["translation_id" => "23ae4a67-553f-4b41-ba2c-74108b083106", "translatable_type" => "App\Models\Place", "translatable_id" => "c1575094-aaf6-4798-a894-85d1e4261301"],
+            ["translation_id" => "27a760e6-a952-45f9-8f0c-6e01e1ab1dbc", "translatable_type" => "App\Models\Place", "translatable_id" => "c1575094-aaf6-4798-a894-85d1e4261301"],
+            ["translation_id" => "8a71dce5-a132-4108-be25-2147c17fe702", "translatable_type" => "App\Models\Place", "translatable_id" => "c1575094-aaf6-4798-a894-85d1e4261301"],
+            //1271
+            ["translation_id" => "b6d94d29-3f92-4335-8029-84a72bf84151", "translatable_type" => "App\Models\Place", "translatable_id" => "806bb1c2-005a-46f4-90d2-4fa23eef0c54"],
+            ["translation_id" => "6f8279fb-8ec9-47fa-a84f-9c4aeec99e2b", "translatable_type" => "App\Models\Place", "translatable_id" => "806bb1c2-005a-46f4-90d2-4fa23eef0c54"],
+            ["translation_id" => "58a9e1b7-e119-4705-ab09-8f6d1bf0079f", "translatable_type" => "App\Models\Place", "translatable_id" => "806bb1c2-005a-46f4-90d2-4fa23eef0c54"],
+            //1272
+            ["translation_id" => "0e6149f5-ac1f-47b1-8344-99508dc06c25", "translatable_type" => "App\Models\Place", "translatable_id" => "871ce10d-9d49-45bd-84c9-96880bee7fba"],
+            ["translation_id" => "9a9ded46-fd67-47be-b0f0-d2160d8de427", "translatable_type" => "App\Models\Place", "translatable_id" => "871ce10d-9d49-45bd-84c9-96880bee7fba"],
+            ["translation_id" => "5a05d9b5-381e-46f0-8adc-a091ad973a25", "translatable_type" => "App\Models\Place", "translatable_id" => "871ce10d-9d49-45bd-84c9-96880bee7fba"],
+            //1273
+            ["translation_id" => "d1228369-8cf6-4a1c-b1b4-5a9a52471eaf", "translatable_type" => "App\Models\Place", "translatable_id" => "cf36f13a-ed17-499e-87c2-b57f23f6d6cb"],
+            ["translation_id" => "141030fa-c960-4cb3-a08e-993282e56b61", "translatable_type" => "App\Models\Place", "translatable_id" => "cf36f13a-ed17-499e-87c2-b57f23f6d6cb"],
+            ["translation_id" => "455511f8-85b2-478e-941b-0614a41b3acb", "translatable_type" => "App\Models\Place", "translatable_id" => "cf36f13a-ed17-499e-87c2-b57f23f6d6cb"],
+            //1274
+            ["translation_id" => "831d0eb5-a656-4ecf-bbde-37f1cd2624a9", "translatable_type" => "App\Models\Place", "translatable_id" => "e14d692c-01d1-4146-8674-de9e48353a0f"],
+            ["translation_id" => "a38fa4b7-5807-4292-8a2f-09d7b0bf7e3c", "translatable_type" => "App\Models\Place", "translatable_id" => "e14d692c-01d1-4146-8674-de9e48353a0f"],
+            ["translation_id" => "adcb9a4e-c481-483f-9eab-383b7dee956f", "translatable_type" => "App\Models\Place", "translatable_id" => "e14d692c-01d1-4146-8674-de9e48353a0f"],
+            //1275
+            ["translation_id" => "45be9529-006a-4615-b51e-39bfc69185ac", "translatable_type" => "App\Models\Place", "translatable_id" => "3934ca70-2732-4290-9985-4a8de4e42185"],
+            ["translation_id" => "4d3cad5a-7f17-470a-85d0-19edbec2cd4a", "translatable_type" => "App\Models\Place", "translatable_id" => "3934ca70-2732-4290-9985-4a8de4e42185"],
+            ["translation_id" => "fd8541e5-4880-4ea6-b821-da56ea700139", "translatable_type" => "App\Models\Place", "translatable_id" => "3934ca70-2732-4290-9985-4a8de4e42185"],
+            //1276
+            ["translation_id" => "d357f1eb-a4b3-4ea0-b2f2-1d22dfc3d2c2", "translatable_type" => "App\Models\Place", "translatable_id" => "f4d8d46d-1b7f-4c89-a037-d8523b5bcea8"],
+            ["translation_id" => "37aa3698-b09d-4cb6-acb8-da472fc57b20", "translatable_type" => "App\Models\Place", "translatable_id" => "f4d8d46d-1b7f-4c89-a037-d8523b5bcea8"],
+            ["translation_id" => "17c9d7ba-8b7e-44a5-9cb4-6ab72bbc2b89", "translatable_type" => "App\Models\Place", "translatable_id" => "f4d8d46d-1b7f-4c89-a037-d8523b5bcea8"],
+            //1277
+            ["translation_id" => "cf887e0d-d2c6-48dc-b98b-f5314f07b3de", "translatable_type" => "App\Models\Place", "translatable_id" => "ce6a7840-6027-4385-897c-4468e77e855e"],
+            ["translation_id" => "50a0b652-1a58-4584-b502-a0df60feead5", "translatable_type" => "App\Models\Place", "translatable_id" => "ce6a7840-6027-4385-897c-4468e77e855e"],
+            ["translation_id" => "c4eb11e8-bcf7-4f8e-ae09-9100551c8625", "translatable_type" => "App\Models\Place", "translatable_id" => "ce6a7840-6027-4385-897c-4468e77e855e"],
+            //1278
+            ["translation_id" => "2cbdf331-ead7-436e-a41a-91cf66311266", "translatable_type" => "App\Models\Place", "translatable_id" => "737ba332-5329-4695-a2cd-aaff1df440d1"],
+            ["translation_id" => "31f782c5-952c-4349-991e-4abc8f92a602", "translatable_type" => "App\Models\Place", "translatable_id" => "737ba332-5329-4695-a2cd-aaff1df440d1"],
+            ["translation_id" => "4344a757-2fa2-41e1-9a67-8402624ca881", "translatable_type" => "App\Models\Place", "translatable_id" => "737ba332-5329-4695-a2cd-aaff1df440d1"],
+            //1279
+            ["translation_id" => "c0059be4-f1c8-4071-a93b-4b14d10fe8db", "translatable_type" => "App\Models\Place", "translatable_id" => "57d22937-6585-4d1e-b27f-88237b42babd"],
+            ["translation_id" => "c323811c-1421-4001-a332-b0761db28881", "translatable_type" => "App\Models\Place", "translatable_id" => "57d22937-6585-4d1e-b27f-88237b42babd"],
+            ["translation_id" => "49903694-8494-48fd-a8b1-e4a1497c1bb1", "translatable_type" => "App\Models\Place", "translatable_id" => "57d22937-6585-4d1e-b27f-88237b42babd"],
+            //1280
+            ["translation_id" => "c7cd7733-07f4-40de-ae4f-fb8ae60bcd80", "translatable_type" => "App\Models\Place", "translatable_id" => "c58ec6bf-e61d-41a5-b90d-7d50c73425c6"],
+            ["translation_id" => "cdc74a53-e121-460b-bead-75b7387ef687", "translatable_type" => "App\Models\Place", "translatable_id" => "c58ec6bf-e61d-41a5-b90d-7d50c73425c6"],
+            ["translation_id" => "f66b00bc-009f-41b1-a583-4743ba28b7a8", "translatable_type" => "App\Models\Place", "translatable_id" => "c58ec6bf-e61d-41a5-b90d-7d50c73425c6"],
+            //1281
+            ["translation_id" => "eda208ea-f24d-4ade-94fb-2d586a1ca63f", "translatable_type" => "App\Models\Place", "translatable_id" => "5819cdb4-7603-4761-aecc-1f4f632e230d"],
+            ["translation_id" => "6a63629c-5d52-4bdc-ad0a-bb65bc62ecc6", "translatable_type" => "App\Models\Place", "translatable_id" => "5819cdb4-7603-4761-aecc-1f4f632e230d"],
+            ["translation_id" => "8aa3e38c-4333-41c7-8a9a-fa99c0626b11", "translatable_type" => "App\Models\Place", "translatable_id" => "5819cdb4-7603-4761-aecc-1f4f632e230d"],
+            //1282
+            ["translation_id" => "473ae5a3-9188-4bd2-bf3e-e13eb44ee9e0", "translatable_type" => "App\Models\Place", "translatable_id" => "987be2fb-6051-4760-9a8c-e15784faf48b"],
+            ["translation_id" => "c13e2288-c5ee-4a6e-883a-3a1d5b87ab99", "translatable_type" => "App\Models\Place", "translatable_id" => "987be2fb-6051-4760-9a8c-e15784faf48b"],
+            ["translation_id" => "b05c9536-0119-4f4c-86e9-85d01548476f", "translatable_type" => "App\Models\Place", "translatable_id" => "987be2fb-6051-4760-9a8c-e15784faf48b"],
+            //1283
+            ["translation_id" => "6649ad0d-0e40-4c55-8c78-60d8adba4a76", "translatable_type" => "App\Models\Place", "translatable_id" => "3c962796-d971-4b5e-b1cd-c3187238988a"],
+            ["translation_id" => "690267e9-edb5-4f0b-b116-5301542d2631", "translatable_type" => "App\Models\Place", "translatable_id" => "3c962796-d971-4b5e-b1cd-c3187238988a"],
+            ["translation_id" => "91596cc1-f7d9-4e5c-8d1b-5a3484625399", "translatable_type" => "App\Models\Place", "translatable_id" => "3c962796-d971-4b5e-b1cd-c3187238988a"],
+            //1284
+            ["translation_id" => "f1c29325-774d-46f8-9df5-b4223b5597bb", "translatable_type" => "App\Models\Place", "translatable_id" => "fec4f601-6ffa-4323-8e40-a2799070a15f"],
+            ["translation_id" => "f0da8338-e9b1-4fa5-94dd-5fdda0c210d2", "translatable_type" => "App\Models\Place", "translatable_id" => "fec4f601-6ffa-4323-8e40-a2799070a15f"],
+            ["translation_id" => "54411c6e-a1b1-41dd-b39a-9b90bd0cfd5b", "translatable_type" => "App\Models\Place", "translatable_id" => "fec4f601-6ffa-4323-8e40-a2799070a15f"],
+            //1285
+            ["translation_id" => "bd4a937c-4879-44c9-9cdc-3e2f5ebebdbd", "translatable_type" => "App\Models\Place", "translatable_id" => "105b3ac4-e243-4f96-b4ac-5b8380e01ba7"],
+            ["translation_id" => "e1162c11-b92b-40f5-ba5d-eb8a9e8b6bc9", "translatable_type" => "App\Models\Place", "translatable_id" => "105b3ac4-e243-4f96-b4ac-5b8380e01ba7"],
+            ["translation_id" => "6f9e31f9-be98-4386-bb1a-f48cca3c1ce5", "translatable_type" => "App\Models\Place", "translatable_id" => "105b3ac4-e243-4f96-b4ac-5b8380e01ba7"],
+            //1286
+            ["translation_id" => "795ed9ce-0010-4e6c-9499-07b3947cf387", "translatable_type" => "App\Models\Place", "translatable_id" => "a780adff-c89d-4bed-9e38-735d5a073239"],
+            ["translation_id" => "0e38dec9-dd68-46f9-8b69-7b6aa75e5fad", "translatable_type" => "App\Models\Place", "translatable_id" => "a780adff-c89d-4bed-9e38-735d5a073239"],
+            ["translation_id" => "51519749-7da5-46bd-ad6a-62a97dadcc12", "translatable_type" => "App\Models\Place", "translatable_id" => "a780adff-c89d-4bed-9e38-735d5a073239"],
+            //1287
+            ["translation_id" => "eb7ca927-ee92-4556-a5cb-2ed5ec4668cb", "translatable_type" => "App\Models\Place", "translatable_id" => "cef057cf-0407-4d57-95e2-36399aca29f5"],
+            ["translation_id" => "a4f60e61-34cb-4b4b-aae1-027455dc90e7", "translatable_type" => "App\Models\Place", "translatable_id" => "cef057cf-0407-4d57-95e2-36399aca29f5"],
+            ["translation_id" => "6536e903-2451-4db8-b4c3-fdca1e212e6e", "translatable_type" => "App\Models\Place", "translatable_id" => "cef057cf-0407-4d57-95e2-36399aca29f5"],
+            //1288
+            ["translation_id" => "e848f36a-4c2f-4720-8e06-4bd703fd5f8f", "translatable_type" => "App\Models\Place", "translatable_id" => "1f011944-5a0b-4a6f-867c-93d5776e828c"],
+            ["translation_id" => "510a1bd3-f33e-4590-8e35-69342e671c0f", "translatable_type" => "App\Models\Place", "translatable_id" => "1f011944-5a0b-4a6f-867c-93d5776e828c"],
+            ["translation_id" => "3f9f0652-d5f1-4395-8329-9c831982ba89", "translatable_type" => "App\Models\Place", "translatable_id" => "1f011944-5a0b-4a6f-867c-93d5776e828c"],
+            //1289
+            ["translation_id" => "a82894f8-3c4f-41a7-8774-ddea1c604421", "translatable_type" => "App\Models\Place", "translatable_id" => "5254246f-8159-45f6-8cb7-87eb4c6a36c7"],
+            ["translation_id" => "ea39df5d-a769-446a-83f1-5e7213b47b13", "translatable_type" => "App\Models\Place", "translatable_id" => "5254246f-8159-45f6-8cb7-87eb4c6a36c7"],
+            ["translation_id" => "95c96c70-5dbc-4c4e-a042-4fd218a66262", "translatable_type" => "App\Models\Place", "translatable_id" => "5254246f-8159-45f6-8cb7-87eb4c6a36c7"],
+            //1290
+            ["translation_id" => "98733525-8609-4727-bd87-05b7dc3ffbaf", "translatable_type" => "App\Models\Place", "translatable_id" => "d4b1276d-f514-44c0-afdc-2e9a741df9c9"],
+            ["translation_id" => "62fa5e1d-4083-4be5-b81d-87ba0c709036", "translatable_type" => "App\Models\Place", "translatable_id" => "d4b1276d-f514-44c0-afdc-2e9a741df9c9"],
+            ["translation_id" => "e23e9331-8b7d-4d60-bdbc-8b10f96e4335", "translatable_type" => "App\Models\Place", "translatable_id" => "d4b1276d-f514-44c0-afdc-2e9a741df9c9"],
+            //1291
+            ["translation_id" => "0432dcf5-cf08-4b5a-8697-b6fda79b7973", "translatable_type" => "App\Models\Place", "translatable_id" => "68cd057a-2ba4-4c21-960a-decd15b05433"],
+            ["translation_id" => "ae73c83b-7e36-4a19-8cca-9db29fe692af", "translatable_type" => "App\Models\Place", "translatable_id" => "68cd057a-2ba4-4c21-960a-decd15b05433"],
+            ["translation_id" => "228f47a3-f340-46ea-94b0-e9f9d8dce571", "translatable_type" => "App\Models\Place", "translatable_id" => "68cd057a-2ba4-4c21-960a-decd15b05433"],
+            //1292
+            ["translation_id" => "2de05172-f1cf-4f38-9b78-5e2051b8cbed", "translatable_type" => "App\Models\Place", "translatable_id" => "ad458c46-a33c-4839-b650-349fbb024fcf"],
+            ["translation_id" => "89cb69ac-78d2-4489-8154-191e3a5acc4d", "translatable_type" => "App\Models\Place", "translatable_id" => "ad458c46-a33c-4839-b650-349fbb024fcf"],
+            ["translation_id" => "2fc0cc77-6201-410a-bfbd-28484f90d125", "translatable_type" => "App\Models\Place", "translatable_id" => "ad458c46-a33c-4839-b650-349fbb024fcf"],
+            //1293
+            ["translation_id" => "cce409eb-2444-414c-b865-08d041fda363", "translatable_type" => "App\Models\Place", "translatable_id" => "83cea74c-7354-47ca-a364-2ffffe8d1337"],
+            ["translation_id" => "d7e4ac04-a523-4d78-a6d8-af0a6c76d3e3", "translatable_type" => "App\Models\Place", "translatable_id" => "83cea74c-7354-47ca-a364-2ffffe8d1337"],
+            ["translation_id" => "987109bb-9616-461c-ad0f-af3853b81d79", "translatable_type" => "App\Models\Place", "translatable_id" => "83cea74c-7354-47ca-a364-2ffffe8d1337"],
+            //1294
+            ["translation_id" => "f6b60fc1-0476-43bc-8fc7-947558a46ed0", "translatable_type" => "App\Models\Place", "translatable_id" => "7aa123cc-373f-47da-aff6-563fbfe4bd97"],
+            ["translation_id" => "8d009404-ca96-449a-9edd-8d15234edc81", "translatable_type" => "App\Models\Place", "translatable_id" => "7aa123cc-373f-47da-aff6-563fbfe4bd97"],
+            ["translation_id" => "d9cf7588-ba63-4676-a4a6-3060ef6c3b34", "translatable_type" => "App\Models\Place", "translatable_id" => "7aa123cc-373f-47da-aff6-563fbfe4bd97"],
+            //1295
+            ["translation_id" => "ee8ac5cf-4813-4d7e-98ed-02ced47a9ac7", "translatable_type" => "App\Models\Place", "translatable_id" => "9d84f1a1-2aff-4629-b5e1-97317b052cca"],
+            ["translation_id" => "a6415058-d781-4faf-9995-481afda9605e", "translatable_type" => "App\Models\Place", "translatable_id" => "9d84f1a1-2aff-4629-b5e1-97317b052cca"],
+            ["translation_id" => "cf402313-e3a3-4e34-aeca-e20b40d56e4f", "translatable_type" => "App\Models\Place", "translatable_id" => "9d84f1a1-2aff-4629-b5e1-97317b052cca"],
+            //1296
+            ["translation_id" => "972e750f-da28-4bd6-a72a-f9bab28e2a62", "translatable_type" => "App\Models\Place", "translatable_id" => "9d9d2669-1c0a-4d68-8bd3-ee3caaf3943b"],
+            ["translation_id" => "36d4e875-3add-4249-9f3b-cdf4d0c9b994", "translatable_type" => "App\Models\Place", "translatable_id" => "9d9d2669-1c0a-4d68-8bd3-ee3caaf3943b"],
+            ["translation_id" => "c9809048-23d1-43c7-a520-794ccf351b5d", "translatable_type" => "App\Models\Place", "translatable_id" => "9d9d2669-1c0a-4d68-8bd3-ee3caaf3943b"],
+            //1297
+            ["translation_id" => "3c2c347d-81f7-4d98-bd78-862b49dd9e3b", "translatable_type" => "App\Models\Place", "translatable_id" => "13c9c66d-43f1-405e-9678-95926ad415b7"],
+            ["translation_id" => "23c5dc47-31d0-4c30-b9c8-0bb3784cf7a1", "translatable_type" => "App\Models\Place", "translatable_id" => "13c9c66d-43f1-405e-9678-95926ad415b7"],
+            ["translation_id" => "690b3edb-5da7-4f07-937e-151244691534", "translatable_type" => "App\Models\Place", "translatable_id" => "13c9c66d-43f1-405e-9678-95926ad415b7"],
+            //1298
+            ["translation_id" => "cea0c52e-5fc4-4c7d-bd99-1a6d689b89c4", "translatable_type" => "App\Models\Place", "translatable_id" => "8745be3f-53a2-4c93-9675-9da2f25106bc"],
+            ["translation_id" => "5627b5e0-4434-4165-9e62-26606edb56e4", "translatable_type" => "App\Models\Place", "translatable_id" => "8745be3f-53a2-4c93-9675-9da2f25106bc"],
+            ["translation_id" => "afae4583-bdc0-4019-b704-a327a2e66919", "translatable_type" => "App\Models\Place", "translatable_id" => "8745be3f-53a2-4c93-9675-9da2f25106bc"],
+            //1299
+            ["translation_id" => "0091f0d3-b4e9-45e3-a694-e239749d9879", "translatable_type" => "App\Models\Place", "translatable_id" => "cdf8e205-e869-410c-8c02-211ae2ca8bb7"],
+            ["translation_id" => "324a12e4-134f-4518-b746-12888011749a", "translatable_type" => "App\Models\Place", "translatable_id" => "cdf8e205-e869-410c-8c02-211ae2ca8bb7"],
+            ["translation_id" => "63a88d70-46bf-44f4-9095-8e0c3a02ad8a", "translatable_type" => "App\Models\Place", "translatable_id" => "cdf8e205-e869-410c-8c02-211ae2ca8bb7"],
+            //1300
+            ["translation_id" => "7f2e9a1f-5077-4f67-b6e5-57dabef25e53", "translatable_type" => "App\Models\Place", "translatable_id" => "2669203e-0824-4fba-8662-e8dfb22da1b9"],
+            ["translation_id" => "3c9872ec-fcd8-4db2-8654-283953a59d7c", "translatable_type" => "App\Models\Place", "translatable_id" => "2669203e-0824-4fba-8662-e8dfb22da1b9"],
+            ["translation_id" => "fb76c0d0-88cb-4f2c-b9d0-8187de4f90f4", "translatable_type" => "App\Models\Place", "translatable_id" => "2669203e-0824-4fba-8662-e8dfb22da1b9"],
+            //1301
+            ["translation_id" => "502b3947-984c-49cc-99db-ace5f5092141", "translatable_type" => "App\Models\Place", "translatable_id" => "be368e59-abad-4f2d-bf24-d2481fa78fd7"],
+            ["translation_id" => "9f5dfd40-eb8b-4cd9-9265-8183fca77637", "translatable_type" => "App\Models\Place", "translatable_id" => "be368e59-abad-4f2d-bf24-d2481fa78fd7"],
+            ["translation_id" => "675d7392-10dc-41f7-96a1-2da10173da0c", "translatable_type" => "App\Models\Place", "translatable_id" => "be368e59-abad-4f2d-bf24-d2481fa78fd7"],
+            //1302
+            ["translation_id" => "0066e33c-beba-40da-b64a-5433047b86af", "translatable_type" => "App\Models\Place", "translatable_id" => "d56377b4-0434-4874-a3d7-9cb6a6cdf4d3"],
+            ["translation_id" => "6e9fe3e5-9845-4557-bdd4-09c412edb945", "translatable_type" => "App\Models\Place", "translatable_id" => "d56377b4-0434-4874-a3d7-9cb6a6cdf4d3"],
+            ["translation_id" => "962d66f9-39f7-4ed3-bed0-d517f7140064", "translatable_type" => "App\Models\Place", "translatable_id" => "d56377b4-0434-4874-a3d7-9cb6a6cdf4d3"],
+            //1303
+            ["translation_id" => "e60fc7dd-a3d7-4f1c-9368-43c6916cbbe4", "translatable_type" => "App\Models\Place", "translatable_id" => "650dc478-670a-4905-a325-81a3f2db387d"],
+            ["translation_id" => "8c383c98-234e-4176-b850-a41b7f1c6dfa", "translatable_type" => "App\Models\Place", "translatable_id" => "650dc478-670a-4905-a325-81a3f2db387d"],
+            ["translation_id" => "2c70eb02-a39c-4759-9b63-46299d3fb77d", "translatable_type" => "App\Models\Place", "translatable_id" => "650dc478-670a-4905-a325-81a3f2db387d"],
+            //1304
+            ["translation_id" => "f13ed5d4-275f-48a1-8918-6d236778060a", "translatable_type" => "App\Models\Place", "translatable_id" => "3785baf7-9e23-4b46-a298-88cf5f1e8c71"],
+            ["translation_id" => "b67e13f4-ea28-41a9-b75c-2eb35ad5c3b4", "translatable_type" => "App\Models\Place", "translatable_id" => "3785baf7-9e23-4b46-a298-88cf5f1e8c71"],
+            ["translation_id" => "a89f69e6-5229-4b20-b3cf-a178e11d51b3", "translatable_type" => "App\Models\Place", "translatable_id" => "3785baf7-9e23-4b46-a298-88cf5f1e8c71"],
+            //1305
+            ["translation_id" => "26e879e8-4f47-4d37-bd39-e0e781218a61", "translatable_type" => "App\Models\Place", "translatable_id" => "fc68b3f6-1941-42b2-a411-c2d27579e913"],
+            ["translation_id" => "ab6e4319-dd1b-4897-8531-d3c8882c3687", "translatable_type" => "App\Models\Place", "translatable_id" => "fc68b3f6-1941-42b2-a411-c2d27579e913"],
+            ["translation_id" => "a39ab7fb-4070-40a0-bdc6-bb0ff9671b0b", "translatable_type" => "App\Models\Place", "translatable_id" => "fc68b3f6-1941-42b2-a411-c2d27579e913"],
+            //1306
+            ["translation_id" => "4237974d-d97d-4e73-879f-f1b1825c7c49", "translatable_type" => "App\Models\Place", "translatable_id" => "e4e17519-d7a8-436d-8557-b82296e60bf3"],
+            ["translation_id" => "05adea4d-d491-441c-a7f1-3ae251debd7f", "translatable_type" => "App\Models\Place", "translatable_id" => "e4e17519-d7a8-436d-8557-b82296e60bf3"],
+            ["translation_id" => "9d9e956c-588d-4c16-a4f9-b64713a4e87b", "translatable_type" => "App\Models\Place", "translatable_id" => "e4e17519-d7a8-436d-8557-b82296e60bf3"],
+            //1307
+            ["translation_id" => "7d70808c-e054-437e-9067-a965a366d093", "translatable_type" => "App\Models\Place", "translatable_id" => "a79bdd3b-d533-4963-af5f-ab0cd461271b"],
+            ["translation_id" => "b628fc8f-3336-489a-9733-e6546bc3379b", "translatable_type" => "App\Models\Place", "translatable_id" => "a79bdd3b-d533-4963-af5f-ab0cd461271b"],
+            ["translation_id" => "58c31211-1dfa-47cb-a149-f93115b8158d", "translatable_type" => "App\Models\Place", "translatable_id" => "a79bdd3b-d533-4963-af5f-ab0cd461271b"],
+            //1308
+            ["translation_id" => "d0890409-902e-45ab-96df-3654de748e62", "translatable_type" => "App\Models\Place", "translatable_id" => "8a6be70b-b793-40cb-932d-bb7c00303b1c"],
+            ["translation_id" => "55a8e64d-85c0-4468-8eeb-5c6fb1703cd7", "translatable_type" => "App\Models\Place", "translatable_id" => "8a6be70b-b793-40cb-932d-bb7c00303b1c"],
+            ["translation_id" => "2dc811ab-7930-4183-ac88-a01312ab5ac5", "translatable_type" => "App\Models\Place", "translatable_id" => "8a6be70b-b793-40cb-932d-bb7c00303b1c"],
+            //1309
+            ["translation_id" => "fd4febf9-6015-4470-9372-63973bf53242", "translatable_type" => "App\Models\Place", "translatable_id" => "e5c076ca-ccdf-49ed-be4c-0eebadd483d9"],
+            ["translation_id" => "c8763bbc-3f22-43cb-aac8-b7a3cefeeba0", "translatable_type" => "App\Models\Place", "translatable_id" => "e5c076ca-ccdf-49ed-be4c-0eebadd483d9"],
+            ["translation_id" => "9b384b14-0eea-40b9-b4a1-f9f9c0456e7a", "translatable_type" => "App\Models\Place", "translatable_id" => "e5c076ca-ccdf-49ed-be4c-0eebadd483d9"],
+            //1310
+            ["translation_id" => "cdf6f671-7d93-4a15-b9fd-bbfd435a7103", "translatable_type" => "App\Models\Place", "translatable_id" => "80eaa59a-b713-4304-9a33-a52f89fab0d1"],
+            ["translation_id" => "5c855fb1-fa10-4125-b2a8-a215661da659", "translatable_type" => "App\Models\Place", "translatable_id" => "80eaa59a-b713-4304-9a33-a52f89fab0d1"],
+            ["translation_id" => "7ea606ed-11b2-4d58-a24e-334f5e62c010", "translatable_type" => "App\Models\Place", "translatable_id" => "80eaa59a-b713-4304-9a33-a52f89fab0d1"],
+            //1311
+            ["translation_id" => "283df8cf-3a0d-463e-bdfe-32b9bac5ae53", "translatable_type" => "App\Models\Place", "translatable_id" => "7a2b2473-682a-4bf4-938e-fb35c32897d2"],
+            ["translation_id" => "1786e88d-e07d-4e2b-8e4c-a5b50d517421", "translatable_type" => "App\Models\Place", "translatable_id" => "7a2b2473-682a-4bf4-938e-fb35c32897d2"],
+            ["translation_id" => "80f857aa-6039-424f-b9fc-e422914d1f61", "translatable_type" => "App\Models\Place", "translatable_id" => "7a2b2473-682a-4bf4-938e-fb35c32897d2"],
+            //1312
+            ["translation_id" => "a1f00101-f61a-4bfb-a2a4-f328debc16b7", "translatable_type" => "App\Models\Place", "translatable_id" => "71273602-9e49-4d7c-a68c-a0c29440f0c9"],
+            ["translation_id" => "fac8e9c8-f3ab-40c7-8243-b92fc6d152c7", "translatable_type" => "App\Models\Place", "translatable_id" => "71273602-9e49-4d7c-a68c-a0c29440f0c9"],
+            ["translation_id" => "4eee8a7d-0b94-4a6e-9682-16905e927d72", "translatable_type" => "App\Models\Place", "translatable_id" => "71273602-9e49-4d7c-a68c-a0c29440f0c9"],
+            //1313
+            ["translation_id" => "4cb9b4fa-d793-43ce-9f96-bb612827480e", "translatable_type" => "App\Models\Place", "translatable_id" => "b629d3db-0e82-4621-b3f9-b8d46c5da970"],
+            ["translation_id" => "727774e4-8dca-473f-940e-855bffb8c77a", "translatable_type" => "App\Models\Place", "translatable_id" => "b629d3db-0e82-4621-b3f9-b8d46c5da970"],
+            ["translation_id" => "48bad637-85e9-4f4e-a959-ca25e3296030", "translatable_type" => "App\Models\Place", "translatable_id" => "b629d3db-0e82-4621-b3f9-b8d46c5da970"],
+            //1314
+            ["translation_id" => "cdeb9413-c132-41b8-be2c-c1bd314c0caf", "translatable_type" => "App\Models\Place", "translatable_id" => "785884f7-7192-49cf-8019-3595d3ffe084"],
+            ["translation_id" => "8fd8094a-6c23-4d1a-ad43-9525510bb4f2", "translatable_type" => "App\Models\Place", "translatable_id" => "785884f7-7192-49cf-8019-3595d3ffe084"],
+            ["translation_id" => "3b7d26fa-6807-4c73-9588-606dedd8c230", "translatable_type" => "App\Models\Place", "translatable_id" => "785884f7-7192-49cf-8019-3595d3ffe084"],
+            //1315
+            ["translation_id" => "62ba9792-649c-4cee-b16e-31e7caae39ee", "translatable_type" => "App\Models\Place", "translatable_id" => "c8c1b3bb-7a2d-40bb-971c-d7c0e47b69ba"],
+            ["translation_id" => "0037c333-ff54-4dba-8281-e778cd2f40c1", "translatable_type" => "App\Models\Place", "translatable_id" => "c8c1b3bb-7a2d-40bb-971c-d7c0e47b69ba"],
+            ["translation_id" => "a149bcf9-09d0-4fa8-95fb-83fc32265f48", "translatable_type" => "App\Models\Place", "translatable_id" => "c8c1b3bb-7a2d-40bb-971c-d7c0e47b69ba"],
+            //1316
+            ["translation_id" => "2a18abf9-3187-4e8a-9948-5fc9e9fe5088", "translatable_type" => "App\Models\Place", "translatable_id" => "e65acc10-39d1-45de-8f95-b3629b40e01d"],
+            ["translation_id" => "90c992ac-85a1-41e6-acf2-5f2b2cfe0702", "translatable_type" => "App\Models\Place", "translatable_id" => "e65acc10-39d1-45de-8f95-b3629b40e01d"],
+            ["translation_id" => "48df9e07-0db8-443e-a316-bcb9a99f2f18", "translatable_type" => "App\Models\Place", "translatable_id" => "e65acc10-39d1-45de-8f95-b3629b40e01d"],
+            //1317
+            ["translation_id" => "604949f2-f6cd-44db-b99f-d80e01e84817", "translatable_type" => "App\Models\Place", "translatable_id" => "602caa94-9f42-4a84-b49f-e2a41f8f25fe"],
+            ["translation_id" => "7ea6c873-9e31-4cc1-9603-df9b0ffea61b", "translatable_type" => "App\Models\Place", "translatable_id" => "602caa94-9f42-4a84-b49f-e2a41f8f25fe"],
+            ["translation_id" => "985dde22-66bf-4076-a801-6c966c326aaa", "translatable_type" => "App\Models\Place", "translatable_id" => "602caa94-9f42-4a84-b49f-e2a41f8f25fe"],
+            //1318
+            ["translation_id" => "a832970f-3cd4-4a03-943b-552ba4d10c7c", "translatable_type" => "App\Models\Place", "translatable_id" => "637c064c-371f-46bd-8be9-b720e1b1fe3e"],
+            ["translation_id" => "dca2a005-6c93-44d8-9d57-d26e03b62924", "translatable_type" => "App\Models\Place", "translatable_id" => "637c064c-371f-46bd-8be9-b720e1b1fe3e"],
+            ["translation_id" => "8b0a7876-9517-4769-a9a9-909d5113fd43", "translatable_type" => "App\Models\Place", "translatable_id" => "637c064c-371f-46bd-8be9-b720e1b1fe3e"],
+            //1319
+            ["translation_id" => "2dafe19b-c227-46a0-b238-2d7651217073", "translatable_type" => "App\Models\Place", "translatable_id" => "2634ab7b-60ad-49db-9b4e-79fd3dcd8ea0"],
+            ["translation_id" => "c096e72c-f582-46bb-b05a-ad6aed8dc01d", "translatable_type" => "App\Models\Place", "translatable_id" => "2634ab7b-60ad-49db-9b4e-79fd3dcd8ea0"],
+            ["translation_id" => "0db3605b-e5dc-4302-a122-7aa7bc6acda3", "translatable_type" => "App\Models\Place", "translatable_id" => "2634ab7b-60ad-49db-9b4e-79fd3dcd8ea0"],
+            //1320
+            ["translation_id" => "ffa3c2de-d317-4e9d-a764-9fed0ae95028", "translatable_type" => "App\Models\Place", "translatable_id" => "b34a1336-8709-4f2d-b43a-4dcff5961dd4"],
+            ["translation_id" => "98f915f1-23e3-4597-af8c-91d112a46e29", "translatable_type" => "App\Models\Place", "translatable_id" => "b34a1336-8709-4f2d-b43a-4dcff5961dd4"],
+            ["translation_id" => "ff9cecaf-9cbd-481d-9f3f-3560b9354022", "translatable_type" => "App\Models\Place", "translatable_id" => "b34a1336-8709-4f2d-b43a-4dcff5961dd4"],
+            //1321
+            ["translation_id" => "1e8b78bd-5d99-4524-af5e-529e7136972e", "translatable_type" => "App\Models\Place", "translatable_id" => "541ce759-8242-4ca6-a19c-5a89133d2b57"],
+            ["translation_id" => "f0a7b5c0-082e-4de0-9852-46ab32653a97", "translatable_type" => "App\Models\Place", "translatable_id" => "541ce759-8242-4ca6-a19c-5a89133d2b57"],
+            ["translation_id" => "9afd68ce-9d00-4ecd-8239-45288801717b", "translatable_type" => "App\Models\Place", "translatable_id" => "541ce759-8242-4ca6-a19c-5a89133d2b57"],
+            //1322
+            ["translation_id" => "877766e0-de9e-4a9e-ab66-3deee55230a0", "translatable_type" => "App\Models\Place", "translatable_id" => "d56bace7-0e33-46f2-bf38-4b9bdcb7363b"],
+            ["translation_id" => "1d3e7fbd-d98f-4acc-be33-75af72463a59", "translatable_type" => "App\Models\Place", "translatable_id" => "d56bace7-0e33-46f2-bf38-4b9bdcb7363b"],
+            ["translation_id" => "27fef8ae-406e-404c-be6b-deff8c004b5d", "translatable_type" => "App\Models\Place", "translatable_id" => "d56bace7-0e33-46f2-bf38-4b9bdcb7363b"],
+            //1323
+            ["translation_id" => "05d689c8-865b-4614-96d6-f20c5c0a42f0", "translatable_type" => "App\Models\Place", "translatable_id" => "01d8effe-ab38-476f-806b-c2a95e662c2e"],
+            ["translation_id" => "97ec0f74-dfbd-4753-90ea-25676f1e77e6", "translatable_type" => "App\Models\Place", "translatable_id" => "01d8effe-ab38-476f-806b-c2a95e662c2e"],
+            ["translation_id" => "e526785c-4086-41c4-847f-6ea6471c3a9b", "translatable_type" => "App\Models\Place", "translatable_id" => "01d8effe-ab38-476f-806b-c2a95e662c2e"],
+            //1324
+            ["translation_id" => "613879e0-05c7-4f53-b203-7816a832cc25", "translatable_type" => "App\Models\Place", "translatable_id" => "8968e5fc-985b-4a50-b7cb-c27963baf328"],
+            ["translation_id" => "481b3237-2232-4452-b6c4-c84ecaa4492f", "translatable_type" => "App\Models\Place", "translatable_id" => "8968e5fc-985b-4a50-b7cb-c27963baf328"],
+            ["translation_id" => "724229fc-e732-4ef0-9857-07a0404f1d78", "translatable_type" => "App\Models\Place", "translatable_id" => "8968e5fc-985b-4a50-b7cb-c27963baf328"],
+            //1325
+            ["translation_id" => "e0791ac8-561c-49ee-a787-f5169693c013", "translatable_type" => "App\Models\Place", "translatable_id" => "4490ac5e-c29c-4c3f-8774-30d5567dcf12"],
+            ["translation_id" => "07efeb5f-94be-48ca-a9f6-449cc03fb74d", "translatable_type" => "App\Models\Place", "translatable_id" => "4490ac5e-c29c-4c3f-8774-30d5567dcf12"],
+            ["translation_id" => "97a3d472-cff7-4f4c-a78a-3d3f834fb731", "translatable_type" => "App\Models\Place", "translatable_id" => "4490ac5e-c29c-4c3f-8774-30d5567dcf12"],
+            //1326
+            ["translation_id" => "fdcbb2c0-4ad8-4caa-8875-a3b998f9af34", "translatable_type" => "App\Models\Place", "translatable_id" => "be7a3bbb-5fb7-488f-8919-6a22708e8756"],
+            ["translation_id" => "5e64a7e2-2693-4e86-b641-3505110491dc", "translatable_type" => "App\Models\Place", "translatable_id" => "be7a3bbb-5fb7-488f-8919-6a22708e8756"],
+            ["translation_id" => "68efd16b-5528-4f53-a6b8-1d9a3914538f", "translatable_type" => "App\Models\Place", "translatable_id" => "be7a3bbb-5fb7-488f-8919-6a22708e8756"],
+            //1327
+            ["translation_id" => "bf75e649-3810-4631-9ef2-6fce360f2ca8", "translatable_type" => "App\Models\Place", "translatable_id" => "3129b5a7-34ae-4c24-a90a-b4d36abb5021"],
+            ["translation_id" => "af919753-80bc-470e-a839-5acc661063e8", "translatable_type" => "App\Models\Place", "translatable_id" => "3129b5a7-34ae-4c24-a90a-b4d36abb5021"],
+            ["translation_id" => "7304a2e3-5b07-4df3-b7b2-5f6734b722c2", "translatable_type" => "App\Models\Place", "translatable_id" => "3129b5a7-34ae-4c24-a90a-b4d36abb5021"],
+            //1328
+            ["translation_id" => "61e22dea-9a66-421a-a9a9-58ba8e82d40c", "translatable_type" => "App\Models\Place", "translatable_id" => "8e907d38-899d-411b-adf5-b51ff1fbd940"],
+            ["translation_id" => "95a63fa0-85b8-4911-839c-db50a5fc1978", "translatable_type" => "App\Models\Place", "translatable_id" => "8e907d38-899d-411b-adf5-b51ff1fbd940"],
+            ["translation_id" => "2eb99271-4d39-4371-ad62-d407948401f9", "translatable_type" => "App\Models\Place", "translatable_id" => "8e907d38-899d-411b-adf5-b51ff1fbd940"],
+            //1329
+            ["translation_id" => "692eb2dc-b66c-4a3e-863f-a25df7b78b38", "translatable_type" => "App\Models\Place", "translatable_id" => "b722783c-21c3-4af9-afe7-54bdf46a46c9"],
+            ["translation_id" => "c03ecec8-9d69-4d56-b2c6-7ef404a3d197", "translatable_type" => "App\Models\Place", "translatable_id" => "b722783c-21c3-4af9-afe7-54bdf46a46c9"],
+            ["translation_id" => "f1cb4be9-2067-4513-a00f-c28ecfa31a69", "translatable_type" => "App\Models\Place", "translatable_id" => "b722783c-21c3-4af9-afe7-54bdf46a46c9"],
+            //1330
+            ["translation_id" => "5e9c07de-1292-4c53-af85-57d80e2964aa", "translatable_type" => "App\Models\Place", "translatable_id" => "def2cf7d-98b1-4443-876a-90782bb07ab8"],
+            ["translation_id" => "0f7665c1-bc07-4041-8d95-d5e4d3b85e3f", "translatable_type" => "App\Models\Place", "translatable_id" => "def2cf7d-98b1-4443-876a-90782bb07ab8"],
+            ["translation_id" => "0e852385-cd59-4718-b675-f666bf144634", "translatable_type" => "App\Models\Place", "translatable_id" => "def2cf7d-98b1-4443-876a-90782bb07ab8"],
+            //1331
+            ["translation_id" => "4274dedd-f3f8-4001-addd-5df014a22188", "translatable_type" => "App\Models\Place", "translatable_id" => "c975e192-4173-4c5b-9e3c-d9ade93adada"],
+            ["translation_id" => "3cc41aa4-4762-46aa-af8b-7c194f3bc35c", "translatable_type" => "App\Models\Place", "translatable_id" => "c975e192-4173-4c5b-9e3c-d9ade93adada"],
+            ["translation_id" => "bcf9213e-9528-4052-a3fa-b1ae7c84ecb9", "translatable_type" => "App\Models\Place", "translatable_id" => "c975e192-4173-4c5b-9e3c-d9ade93adada"],
+            //1332
+            ["translation_id" => "0a6847a4-7cae-4924-8a8e-11806e26c882", "translatable_type" => "App\Models\Place", "translatable_id" => "87c497c7-1561-422d-925a-699024660008"],
+            ["translation_id" => "4c7e2308-eab2-406d-8c17-e7b16667d1bf", "translatable_type" => "App\Models\Place", "translatable_id" => "87c497c7-1561-422d-925a-699024660008"],
+            ["translation_id" => "17ce57ae-309e-425e-b315-628416232377", "translatable_type" => "App\Models\Place", "translatable_id" => "87c497c7-1561-422d-925a-699024660008"],
+            //1333
+            ["translation_id" => "da8a5560-19e1-48e2-a806-28ea39380708", "translatable_type" => "App\Models\Place", "translatable_id" => "dbbf51f0-d30b-4c7e-95ea-6a7fe2f8701d"],
+            ["translation_id" => "1c0c70bf-03da-4303-83de-5967c94e929e", "translatable_type" => "App\Models\Place", "translatable_id" => "dbbf51f0-d30b-4c7e-95ea-6a7fe2f8701d"],
+            ["translation_id" => "e2639195-58be-415a-8c33-4b3665f9e934", "translatable_type" => "App\Models\Place", "translatable_id" => "dbbf51f0-d30b-4c7e-95ea-6a7fe2f8701d"],
+            //1334
+            ["translation_id" => "48123ee1-ec48-4090-8b98-b31b24c1ab55", "translatable_type" => "App\Models\Place", "translatable_id" => "b5323d52-3bf8-47ea-8663-d968f3856573"],
+            ["translation_id" => "87420524-069d-41ef-94ce-2e12f5f2088e", "translatable_type" => "App\Models\Place", "translatable_id" => "b5323d52-3bf8-47ea-8663-d968f3856573"],
+            ["translation_id" => "d06d8dae-0bdd-4d29-aaac-6cf7be45332d", "translatable_type" => "App\Models\Place", "translatable_id" => "b5323d52-3bf8-47ea-8663-d968f3856573"],
+            //1335
+            ["translation_id" => "af87ca35-c25d-499b-98fd-1d9021b712bf", "translatable_type" => "App\Models\Place", "translatable_id" => "ade60ca8-1587-4672-b1a1-cdbe715e1c4f"],
+            ["translation_id" => "b831ad36-d4c3-45df-a0e0-366967e010de", "translatable_type" => "App\Models\Place", "translatable_id" => "ade60ca8-1587-4672-b1a1-cdbe715e1c4f"],
+            ["translation_id" => "8855a78a-d229-4117-9898-2573bbb39422", "translatable_type" => "App\Models\Place", "translatable_id" => "ade60ca8-1587-4672-b1a1-cdbe715e1c4f"],
+            //1336
+            ["translation_id" => "f6887979-ccad-4e2b-b221-a92494137420", "translatable_type" => "App\Models\Place", "translatable_id" => "fb7110ef-3c3c-4e40-b0fc-cac9c68020a8"],
+            ["translation_id" => "f970eedb-dc54-4586-baca-074009b87d63", "translatable_type" => "App\Models\Place", "translatable_id" => "fb7110ef-3c3c-4e40-b0fc-cac9c68020a8"],
+            ["translation_id" => "fca42ed3-93af-49d5-ab7f-aa3f3814829c", "translatable_type" => "App\Models\Place", "translatable_id" => "fb7110ef-3c3c-4e40-b0fc-cac9c68020a8"],
+            //1337
+            ["translation_id" => "fe935e5b-80ea-49f5-9a62-57691fbdc986", "translatable_type" => "App\Models\Place", "translatable_id" => "dd450f3c-8ccd-4bb0-a92b-49701b181ed2"],
+            ["translation_id" => "137b2efd-ce64-4770-a9dc-6ab3fac2e57a", "translatable_type" => "App\Models\Place", "translatable_id" => "dd450f3c-8ccd-4bb0-a92b-49701b181ed2"],
+            ["translation_id" => "0ba7cb39-024f-4203-87d6-def1a8de5a64", "translatable_type" => "App\Models\Place", "translatable_id" => "dd450f3c-8ccd-4bb0-a92b-49701b181ed2"],
+            //1338
+            ["translation_id" => "0ca34289-6488-4444-9788-99dd6533c4ba", "translatable_type" => "App\Models\Place", "translatable_id" => "1d0f37c1-7295-4792-b4c4-7e6c58462cb6"],
+            ["translation_id" => "ec38c019-2025-41b1-97c5-1b677b141d0a", "translatable_type" => "App\Models\Place", "translatable_id" => "1d0f37c1-7295-4792-b4c4-7e6c58462cb6"],
+            ["translation_id" => "19e5ae61-180e-44de-8f10-e2e404f4acb9", "translatable_type" => "App\Models\Place", "translatable_id" => "1d0f37c1-7295-4792-b4c4-7e6c58462cb6"],
+            //1339
+            ["translation_id" => "8dda006c-7373-4a12-9e12-4df1805e5521", "translatable_type" => "App\Models\Place", "translatable_id" => "cde69741-e4bc-47c5-87e4-01a2d42a1571"],
+            ["translation_id" => "0117fa03-dfd0-40e5-b516-b7a80e77becd", "translatable_type" => "App\Models\Place", "translatable_id" => "cde69741-e4bc-47c5-87e4-01a2d42a1571"],
+            ["translation_id" => "d13f3f22-1e2e-4147-a862-2c33d33f2dcc", "translatable_type" => "App\Models\Place", "translatable_id" => "cde69741-e4bc-47c5-87e4-01a2d42a1571"],
+            //1340
+            ["translation_id" => "1f198e53-6aa7-4b1c-a3b7-ef29d6605531", "translatable_type" => "App\Models\Place", "translatable_id" => "416e0b9e-b348-4b96-b3a8-2bfadac1fc25"],
+            ["translation_id" => "e68e254c-8bd8-4b60-8924-85f46a0e83b4", "translatable_type" => "App\Models\Place", "translatable_id" => "416e0b9e-b348-4b96-b3a8-2bfadac1fc25"],
+            ["translation_id" => "46e7ae27-91ee-436b-b436-e736f414f51b", "translatable_type" => "App\Models\Place", "translatable_id" => "416e0b9e-b348-4b96-b3a8-2bfadac1fc25"],
+            //1341
+            ["translation_id" => "4a687963-d5c5-4d94-8a52-d68dba182c19", "translatable_type" => "App\Models\Place", "translatable_id" => "d1931365-6ffe-4307-a1f4-4193137548b9"],
+            ["translation_id" => "1728f227-1668-4dd2-b178-e1b010cff914", "translatable_type" => "App\Models\Place", "translatable_id" => "d1931365-6ffe-4307-a1f4-4193137548b9"],
+            ["translation_id" => "0811fb02-2661-4ef8-bdfc-ee01d79152df", "translatable_type" => "App\Models\Place", "translatable_id" => "d1931365-6ffe-4307-a1f4-4193137548b9"],
+            //1342
+            ["translation_id" => "89ad2335-34b1-453f-a8cb-f8b600727c9e", "translatable_type" => "App\Models\Place", "translatable_id" => "2a6c6088-b7df-4605-9c10-de1c29891fc2"],
+            ["translation_id" => "d1bc3af1-63f8-46fe-9242-48f09c317949", "translatable_type" => "App\Models\Place", "translatable_id" => "2a6c6088-b7df-4605-9c10-de1c29891fc2"],
+            ["translation_id" => "7f095d64-ba2a-438b-b3be-03c7b83c5868", "translatable_type" => "App\Models\Place", "translatable_id" => "2a6c6088-b7df-4605-9c10-de1c29891fc2"],
+            //1343
+            ["translation_id" => "a51e72be-67a4-406c-9b7a-92821f688d80", "translatable_type" => "App\Models\Place", "translatable_id" => "fa3e1a7d-d3d8-4056-bca2-d199387699e7"],
+            ["translation_id" => "f5de984e-4b61-4561-9115-c66d418f5629", "translatable_type" => "App\Models\Place", "translatable_id" => "fa3e1a7d-d3d8-4056-bca2-d199387699e7"],
+            ["translation_id" => "cdb13f11-8dd0-4691-8e24-70d90fc90e1d", "translatable_type" => "App\Models\Place", "translatable_id" => "fa3e1a7d-d3d8-4056-bca2-d199387699e7"],
+            //1344
+            ["translation_id" => "3ecc57ed-878c-4074-8850-ed17faffa1b6", "translatable_type" => "App\Models\Place", "translatable_id" => "d0a21f33-c9a8-4f11-87fb-7137751f752e"],
+            ["translation_id" => "93470815-bf16-457d-beca-632376b05d34", "translatable_type" => "App\Models\Place", "translatable_id" => "d0a21f33-c9a8-4f11-87fb-7137751f752e"],
+            ["translation_id" => "0b422c38-33b9-4714-b224-4e413fa8fee6", "translatable_type" => "App\Models\Place", "translatable_id" => "d0a21f33-c9a8-4f11-87fb-7137751f752e"],
+            //1345
+            ["translation_id" => "06e7e97f-50a0-4ee5-a59e-ace9105d6dbf", "translatable_type" => "App\Models\Place", "translatable_id" => "d357e6de-c874-4809-beff-3a04be055cef"],
+            ["translation_id" => "ca3a6f52-b999-4aad-adb4-250ba0590ca6", "translatable_type" => "App\Models\Place", "translatable_id" => "d357e6de-c874-4809-beff-3a04be055cef"],
+            ["translation_id" => "2f50bf37-685d-455f-a299-05979e94a669", "translatable_type" => "App\Models\Place", "translatable_id" => "d357e6de-c874-4809-beff-3a04be055cef"],
+            //1346
+            ["translation_id" => "f633b71b-0f02-4bd8-9673-f5b6ae44f55c", "translatable_type" => "App\Models\Place", "translatable_id" => "b636881b-c387-4c06-afb0-7112943c8a25"],
+            ["translation_id" => "86c5d169-6d6c-482b-858e-84f86c00d223", "translatable_type" => "App\Models\Place", "translatable_id" => "b636881b-c387-4c06-afb0-7112943c8a25"],
+            ["translation_id" => "5ae58aa8-02f6-4df1-b5dc-8ae501deb4e8", "translatable_type" => "App\Models\Place", "translatable_id" => "b636881b-c387-4c06-afb0-7112943c8a25"],
+            //1347
+            ["translation_id" => "913f3b06-c2cd-486e-983a-ae53154c9557", "translatable_type" => "App\Models\Place", "translatable_id" => "1b5e7b29-5518-4bcf-b271-0a5929d9d4bb"],
+            ["translation_id" => "85ad32a4-f134-4c3c-a481-0dfd5b4a1686", "translatable_type" => "App\Models\Place", "translatable_id" => "1b5e7b29-5518-4bcf-b271-0a5929d9d4bb"],
+            ["translation_id" => "7ac7f7ad-3035-4fe3-a8f1-d5814567662b", "translatable_type" => "App\Models\Place", "translatable_id" => "1b5e7b29-5518-4bcf-b271-0a5929d9d4bb"],
+            //1348
+            ["translation_id" => "2fa35d71-a140-4c94-953c-ee3ad699e59a", "translatable_type" => "App\Models\Place", "translatable_id" => "e80d7383-f78f-4740-abb4-39f8bf00be8a"],
+            ["translation_id" => "349e6785-2574-4b44-aca5-786a20358b9d", "translatable_type" => "App\Models\Place", "translatable_id" => "e80d7383-f78f-4740-abb4-39f8bf00be8a"],
+            ["translation_id" => "40691f29-69d9-4350-ad8f-9e7073aee91d", "translatable_type" => "App\Models\Place", "translatable_id" => "e80d7383-f78f-4740-abb4-39f8bf00be8a"],
+            //1349
+            ["translation_id" => "b2dc3574-d54b-4483-a29c-293e4999e45e", "translatable_type" => "App\Models\Place", "translatable_id" => "c11bde56-805b-496c-b632-0d5fcdf94b61"],
+            ["translation_id" => "2463bfbc-960d-43d8-b3f4-171bcffa406f", "translatable_type" => "App\Models\Place", "translatable_id" => "c11bde56-805b-496c-b632-0d5fcdf94b61"],
+            ["translation_id" => "a4db717f-ec55-4236-9a71-e72253cfdb40", "translatable_type" => "App\Models\Place", "translatable_id" => "c11bde56-805b-496c-b632-0d5fcdf94b61"],
+            //1350
+            ["translation_id" => "b27587ad-20a3-4c77-925a-87e6478033d3", "translatable_type" => "App\Models\Place", "translatable_id" => "d1f5083b-875d-404b-b690-65aa3c17ff56"],
+            ["translation_id" => "a1201810-1a03-4a9f-8ce5-574ce6a34b91", "translatable_type" => "App\Models\Place", "translatable_id" => "d1f5083b-875d-404b-b690-65aa3c17ff56"],
+            ["translation_id" => "8b7efc6d-38db-4e65-9892-a79ba1794c57", "translatable_type" => "App\Models\Place", "translatable_id" => "d1f5083b-875d-404b-b690-65aa3c17ff56"],
+            //1351
+            ["translation_id" => "de240770-67b2-4fe5-a5e1-8d8299ed554e", "translatable_type" => "App\Models\Place", "translatable_id" => "bced8b2a-0859-426d-b9a8-d4a8f21a62ec"],
+            ["translation_id" => "c168a457-174b-4094-9bc2-db4405d5c1ca", "translatable_type" => "App\Models\Place", "translatable_id" => "bced8b2a-0859-426d-b9a8-d4a8f21a62ec"],
+            ["translation_id" => "51a50c3f-411a-4ca1-86f6-1d18c4ec3d92", "translatable_type" => "App\Models\Place", "translatable_id" => "bced8b2a-0859-426d-b9a8-d4a8f21a62ec"],
+            //1352
+            ["translation_id" => "57eb8449-0592-42e0-a654-9877d928259f", "translatable_type" => "App\Models\Place", "translatable_id" => "4bc9e50f-103b-4a17-b5c4-004d8f9ba002"],
+            ["translation_id" => "6311fc7e-5dee-4fb3-963c-a4e769206608", "translatable_type" => "App\Models\Place", "translatable_id" => "4bc9e50f-103b-4a17-b5c4-004d8f9ba002"],
+            ["translation_id" => "7dbdf083-37af-4b2b-9fc8-8595f8b06c4b", "translatable_type" => "App\Models\Place", "translatable_id" => "4bc9e50f-103b-4a17-b5c4-004d8f9ba002"],
+            //1353
+            ["translation_id" => "3d673a44-b715-4500-9fdc-fb49e5f7bf69", "translatable_type" => "App\Models\Place", "translatable_id" => "f2651e5c-fd71-44db-b611-5d87edfc9d59"],
+            ["translation_id" => "27001552-60d3-4dbc-ac9d-80e4e2bbf03a", "translatable_type" => "App\Models\Place", "translatable_id" => "f2651e5c-fd71-44db-b611-5d87edfc9d59"],
+            ["translation_id" => "81dd53f6-ce8c-4d0e-813f-5f39ae9f1fd5", "translatable_type" => "App\Models\Place", "translatable_id" => "f2651e5c-fd71-44db-b611-5d87edfc9d59"],
+            //1354
+            ["translation_id" => "69c09c8a-ddd9-49ec-b44a-daa08746df4a", "translatable_type" => "App\Models\Place", "translatable_id" => "b0f50df9-dcbd-447d-b604-8e2da8ff92a7"],
+            ["translation_id" => "4dcb5baa-648b-441e-b655-56918db7c1d8", "translatable_type" => "App\Models\Place", "translatable_id" => "b0f50df9-dcbd-447d-b604-8e2da8ff92a7"],
+            ["translation_id" => "1099d43a-378a-4797-904c-ae16a8a6f8dd", "translatable_type" => "App\Models\Place", "translatable_id" => "b0f50df9-dcbd-447d-b604-8e2da8ff92a7"],
+            //1355
+            ["translation_id" => "39cd1a69-7c05-4e9b-a64e-a51fe415e4d3", "translatable_type" => "App\Models\Place", "translatable_id" => "caf79622-f469-4a1c-ae89-53a0ee5ff914"],
+            ["translation_id" => "b4762a31-4fdb-48ed-af10-cafe12227017", "translatable_type" => "App\Models\Place", "translatable_id" => "caf79622-f469-4a1c-ae89-53a0ee5ff914"],
+            ["translation_id" => "15dd098e-3255-432f-b1ec-1ad3891cdd39", "translatable_type" => "App\Models\Place", "translatable_id" => "caf79622-f469-4a1c-ae89-53a0ee5ff914"],
+            //1356
+            ["translation_id" => "f49d41d7-5abd-4258-a060-ca32cc650076", "translatable_type" => "App\Models\Place", "translatable_id" => "96d13e5e-ca79-4b86-9022-4421b97744e5"],
+            ["translation_id" => "e3239e90-dd9e-4b28-b553-e47bfeca9bd5", "translatable_type" => "App\Models\Place", "translatable_id" => "96d13e5e-ca79-4b86-9022-4421b97744e5"],
+            ["translation_id" => "e2769bd8-ba25-4513-841d-cc7760fc9a0b", "translatable_type" => "App\Models\Place", "translatable_id" => "96d13e5e-ca79-4b86-9022-4421b97744e5"],
+            //1357
+            ["translation_id" => "93305b3b-b51b-4978-a99b-11f949c21cfb", "translatable_type" => "App\Models\Place", "translatable_id" => "fded8969-e99b-4f79-b6b4-4ee36c3bec83"],
+            ["translation_id" => "82a3aeaa-a993-4c07-8030-ec9d85890620", "translatable_type" => "App\Models\Place", "translatable_id" => "fded8969-e99b-4f79-b6b4-4ee36c3bec83"],
+            ["translation_id" => "678f9982-7a80-4b39-b2e0-e7c0a5e252b4", "translatable_type" => "App\Models\Place", "translatable_id" => "fded8969-e99b-4f79-b6b4-4ee36c3bec83"],
+            //1358
+            ["translation_id" => "37313b8b-b8fe-461c-b883-64273bfc4f4e", "translatable_type" => "App\Models\Place", "translatable_id" => "e9f118c7-f3c2-4015-9175-b115143bc5ba"],
+            ["translation_id" => "067b16e8-657b-46e8-9dba-aba6002e1e93", "translatable_type" => "App\Models\Place", "translatable_id" => "e9f118c7-f3c2-4015-9175-b115143bc5ba"],
+            ["translation_id" => "685bc3b7-7d60-4e87-8e28-0021872ff604", "translatable_type" => "App\Models\Place", "translatable_id" => "e9f118c7-f3c2-4015-9175-b115143bc5ba"],
+            //1359
+            ["translation_id" => "409b625b-7f62-4385-9864-85af7b039796", "translatable_type" => "App\Models\Place", "translatable_id" => "0875b552-ae1e-459f-8c18-1f632b89d8db"],
+            ["translation_id" => "78c9f358-57df-4000-9624-ff7c58da0e91", "translatable_type" => "App\Models\Place", "translatable_id" => "0875b552-ae1e-459f-8c18-1f632b89d8db"],
+            ["translation_id" => "9a3d7f88-2f4f-45e1-ad92-733c47506fa9", "translatable_type" => "App\Models\Place", "translatable_id" => "0875b552-ae1e-459f-8c18-1f632b89d8db"],
+            //1360
+            ["translation_id" => "3cc856e0-aebf-4096-99b9-251878c90fc6", "translatable_type" => "App\Models\Place", "translatable_id" => "22de1862-81c3-47d8-b360-06d043049b3f"],
+            ["translation_id" => "c32c5b6c-a0b4-4a30-b754-8214cdab4d1b", "translatable_type" => "App\Models\Place", "translatable_id" => "22de1862-81c3-47d8-b360-06d043049b3f"],
+            ["translation_id" => "92fb2e23-8bd9-4956-83a7-22bcd075eee6", "translatable_type" => "App\Models\Place", "translatable_id" => "22de1862-81c3-47d8-b360-06d043049b3f"],
+            //1361
+            ["translation_id" => "54056fef-64df-4fb1-a258-291a266f6db6", "translatable_type" => "App\Models\Place", "translatable_id" => "44d7d1a6-7e07-4783-aa90-03700d939561"],
+            ["translation_id" => "1207b30c-081c-46ea-a766-592d62811e64", "translatable_type" => "App\Models\Place", "translatable_id" => "44d7d1a6-7e07-4783-aa90-03700d939561"],
+            ["translation_id" => "7a805225-7eca-4914-884a-00b2d6f909e8", "translatable_type" => "App\Models\Place", "translatable_id" => "44d7d1a6-7e07-4783-aa90-03700d939561"],
+            //1362
+            ["translation_id" => "012f1252-150a-47d6-a9b6-fbea443ac036", "translatable_type" => "App\Models\Place", "translatable_id" => "8d5423ae-e278-4239-8f43-c2d8c5dc7491"],
+            ["translation_id" => "251ec0e7-3d9e-45a3-bdd3-7e02a4a78b2e", "translatable_type" => "App\Models\Place", "translatable_id" => "8d5423ae-e278-4239-8f43-c2d8c5dc7491"],
+            ["translation_id" => "cb8e394c-8331-4340-8f65-bb83e582f817", "translatable_type" => "App\Models\Place", "translatable_id" => "8d5423ae-e278-4239-8f43-c2d8c5dc7491"],
+            //1363
+            ["translation_id" => "6ae23a03-34d2-4195-8723-6945d7b0244a", "translatable_type" => "App\Models\Place", "translatable_id" => "d7f63db0-0ef4-4d41-9407-8b5ffcab036f"],
+            ["translation_id" => "ab41b0f8-62ee-4b8b-9e78-5714ee0394e1", "translatable_type" => "App\Models\Place", "translatable_id" => "d7f63db0-0ef4-4d41-9407-8b5ffcab036f"],
+            ["translation_id" => "0a36992b-6752-4f86-bb4d-a3d32495b1ff", "translatable_type" => "App\Models\Place", "translatable_id" => "d7f63db0-0ef4-4d41-9407-8b5ffcab036f"],
+            //1364
+            ["translation_id" => "25448d66-6887-43ec-ad86-f96f32987c78", "translatable_type" => "App\Models\Place", "translatable_id" => "98d60613-f05c-4af4-904b-18508e2165f3"],
+            ["translation_id" => "dfbbc626-0edb-46f4-91d2-f7c6b5c8cf9e", "translatable_type" => "App\Models\Place", "translatable_id" => "98d60613-f05c-4af4-904b-18508e2165f3"],
+            ["translation_id" => "f544eccc-ceca-4e0a-b4a4-190ca600078a", "translatable_type" => "App\Models\Place", "translatable_id" => "98d60613-f05c-4af4-904b-18508e2165f3"],
+            //1365
+            ["translation_id" => "c1d93b75-61ef-4445-ab46-0c4b04ab1015", "translatable_type" => "App\Models\Place", "translatable_id" => "f28cf291-a946-4534-b2f2-76f5bb1ae8d3"],
+            ["translation_id" => "7063242b-d372-4e00-acde-3f212a1264c4", "translatable_type" => "App\Models\Place", "translatable_id" => "f28cf291-a946-4534-b2f2-76f5bb1ae8d3"],
+            ["translation_id" => "fda126e3-6500-4f32-9562-4ce970c3dfe5", "translatable_type" => "App\Models\Place", "translatable_id" => "f28cf291-a946-4534-b2f2-76f5bb1ae8d3"],
+            //1366
+            ["translation_id" => "dc1e5017-0c96-48d1-9f81-58436ef37c69", "translatable_type" => "App\Models\Place", "translatable_id" => "09a49c34-c3eb-4f2d-9146-8ab1d4a67246"],
+            ["translation_id" => "2e5ea559-be95-4f44-ae67-a9addf4bcfa2", "translatable_type" => "App\Models\Place", "translatable_id" => "09a49c34-c3eb-4f2d-9146-8ab1d4a67246"],
+            ["translation_id" => "6f588c13-9400-4f5a-8882-0c50a1f1c5ca", "translatable_type" => "App\Models\Place", "translatable_id" => "09a49c34-c3eb-4f2d-9146-8ab1d4a67246"],
+            //1367
+            ["translation_id" => "1ff2b316-5586-490e-8a92-0cac5a132d7e", "translatable_type" => "App\Models\Place", "translatable_id" => "2eedcd21-fa94-4ef4-a25b-98bf6b070bb7"],
+            ["translation_id" => "6a19908a-b404-40f2-b771-a0758c1f700b", "translatable_type" => "App\Models\Place", "translatable_id" => "2eedcd21-fa94-4ef4-a25b-98bf6b070bb7"],
+            ["translation_id" => "28ecd31f-678d-42b2-8ac5-e61ecf7f96d8", "translatable_type" => "App\Models\Place", "translatable_id" => "2eedcd21-fa94-4ef4-a25b-98bf6b070bb7"],
+            //1368
+            ["translation_id" => "0f3206c3-dcf1-478a-a1c3-6a77d42827af", "translatable_type" => "App\Models\Place", "translatable_id" => "73ce1590-f86d-4475-b19a-70cec52fabf3"],
+            ["translation_id" => "42287c39-aee8-4d00-9d55-49ee573dc866", "translatable_type" => "App\Models\Place", "translatable_id" => "73ce1590-f86d-4475-b19a-70cec52fabf3"],
+            ["translation_id" => "52e497ee-5cbf-40cc-b056-aef1376a9f50", "translatable_type" => "App\Models\Place", "translatable_id" => "73ce1590-f86d-4475-b19a-70cec52fabf3"],
+            //1369
+            ["translation_id" => "86cf94d1-1f71-4dc6-99db-c1bd7943de1f", "translatable_type" => "App\Models\Place", "translatable_id" => "03d2fadb-c9c6-4cbb-951d-4dcac0012ee7"],
+            ["translation_id" => "904e448b-bb69-4511-854e-b1d194267258", "translatable_type" => "App\Models\Place", "translatable_id" => "03d2fadb-c9c6-4cbb-951d-4dcac0012ee7"],
+            ["translation_id" => "9daabf64-2134-4ddc-9465-65b489369545", "translatable_type" => "App\Models\Place", "translatable_id" => "03d2fadb-c9c6-4cbb-951d-4dcac0012ee7"],
+            //1370
+            ["translation_id" => "e1912964-3d35-4dac-8466-087d5231f96f", "translatable_type" => "App\Models\Place", "translatable_id" => "f055c011-9f15-4592-9850-791cf1d2f8f0"],
+            ["translation_id" => "619e8baa-7391-4ba3-9893-8a6ebba5919a", "translatable_type" => "App\Models\Place", "translatable_id" => "f055c011-9f15-4592-9850-791cf1d2f8f0"],
+            ["translation_id" => "922ad281-dc11-4fe9-85ad-e6f4741f64c4", "translatable_type" => "App\Models\Place", "translatable_id" => "f055c011-9f15-4592-9850-791cf1d2f8f0"],
+            //1371
+            ["translation_id" => "aad99800-ef25-468d-9cfe-82edb37efd0a", "translatable_type" => "App\Models\Place", "translatable_id" => "fac8f6d2-6100-4339-8c1f-0e0b2bc3f0fb"],
+            ["translation_id" => "1f265e78-5b99-4775-8f70-0fca7d1a2074", "translatable_type" => "App\Models\Place", "translatable_id" => "fac8f6d2-6100-4339-8c1f-0e0b2bc3f0fb"],
+            ["translation_id" => "02825618-572b-4849-a3fa-556401e79aca", "translatable_type" => "App\Models\Place", "translatable_id" => "fac8f6d2-6100-4339-8c1f-0e0b2bc3f0fb"],
+            //1372
+            ["translation_id" => "0e4d6573-b052-4492-b238-3a874a5d889a", "translatable_type" => "App\Models\Place", "translatable_id" => "6063ceea-102e-4f99-ae8e-4b1b9af484c0"],
+            ["translation_id" => "6817a02d-e6a4-402e-929b-9a23ea6492b9", "translatable_type" => "App\Models\Place", "translatable_id" => "6063ceea-102e-4f99-ae8e-4b1b9af484c0"],
+            ["translation_id" => "da99389a-9bc4-4d6f-b477-2959aea0b739", "translatable_type" => "App\Models\Place", "translatable_id" => "6063ceea-102e-4f99-ae8e-4b1b9af484c0"],
+            //1373
+            ["translation_id" => "c06623a6-15b0-45b1-9bff-6620a479b01d", "translatable_type" => "App\Models\Place", "translatable_id" => "79c2ca64-716e-440a-993c-b209a7753601"],
+            ["translation_id" => "3465594a-ee4d-4c01-8726-f673005e9b46", "translatable_type" => "App\Models\Place", "translatable_id" => "79c2ca64-716e-440a-993c-b209a7753601"],
+            ["translation_id" => "7ca2a0e8-2ef4-412a-92ee-657ec6c93ed2", "translatable_type" => "App\Models\Place", "translatable_id" => "79c2ca64-716e-440a-993c-b209a7753601"],
+            //1374
+            ["translation_id" => "359da3de-7493-4d85-a4ee-6a16adf65d01", "translatable_type" => "App\Models\Place", "translatable_id" => "ef255499-0b61-4aa3-8f26-00b975de363d"],
+            ["translation_id" => "19c3a97a-26e4-44e7-9dcc-556ee9d8f682", "translatable_type" => "App\Models\Place", "translatable_id" => "ef255499-0b61-4aa3-8f26-00b975de363d"],
+            ["translation_id" => "c9794912-2590-4979-8dd9-472b3570108d", "translatable_type" => "App\Models\Place", "translatable_id" => "ef255499-0b61-4aa3-8f26-00b975de363d"],
+            //1375
+            ["translation_id" => "be0532e6-8c00-4839-a15b-25acca62593b", "translatable_type" => "App\Models\Place", "translatable_id" => "82c407bc-b1b8-4260-8f0f-f4bbfd18961c"],
+            ["translation_id" => "52d63eb6-86c7-47db-b2b5-8730e6955456", "translatable_type" => "App\Models\Place", "translatable_id" => "82c407bc-b1b8-4260-8f0f-f4bbfd18961c"],
+            ["translation_id" => "169aed6d-d3df-483b-8287-7e3ac5421406", "translatable_type" => "App\Models\Place", "translatable_id" => "82c407bc-b1b8-4260-8f0f-f4bbfd18961c"],
+            //1376
+            ["translation_id" => "53bcf391-41eb-4eb9-b2cb-d02cb2e8a7bc", "translatable_type" => "App\Models\Place", "translatable_id" => "338388fd-8e88-4b42-a210-cf6d8d95cd04"],
+            ["translation_id" => "ef7a0e93-b053-47c8-9c9b-12401e99e901", "translatable_type" => "App\Models\Place", "translatable_id" => "338388fd-8e88-4b42-a210-cf6d8d95cd04"],
+            ["translation_id" => "80706244-9aa5-4a9b-90df-fec5046d5071", "translatable_type" => "App\Models\Place", "translatable_id" => "338388fd-8e88-4b42-a210-cf6d8d95cd04"],
+            //1377
+            ["translation_id" => "7d7b6c68-a7b5-4a5e-ba62-390558aa89e0", "translatable_type" => "App\Models\Place", "translatable_id" => "12d73ec1-577b-44f3-b58b-27ec0ac91523"],
+            ["translation_id" => "c9ea14b6-1851-4a6a-bba0-82f2a493d205", "translatable_type" => "App\Models\Place", "translatable_id" => "12d73ec1-577b-44f3-b58b-27ec0ac91523"],
+            ["translation_id" => "06bde8ab-6877-4380-9e8b-4d5fc4df42ba", "translatable_type" => "App\Models\Place", "translatable_id" => "12d73ec1-577b-44f3-b58b-27ec0ac91523"],
+            //1378
+            ["translation_id" => "0a893072-0a7b-409d-b7eb-0ae97b200391", "translatable_type" => "App\Models\Place", "translatable_id" => "331bd49a-10a1-4f5a-9769-3534965670b4"],
+            ["translation_id" => "c6bfa813-66eb-4b13-ae40-f9c9a617904e", "translatable_type" => "App\Models\Place", "translatable_id" => "331bd49a-10a1-4f5a-9769-3534965670b4"],
+            ["translation_id" => "3a744d61-88f4-4ab7-b4ed-b7ab66886c0a", "translatable_type" => "App\Models\Place", "translatable_id" => "331bd49a-10a1-4f5a-9769-3534965670b4"],
+            //1379
+            ["translation_id" => "5d127bc8-b299-4d33-873b-dfd1b561b002", "translatable_type" => "App\Models\Place", "translatable_id" => "baa4c016-ee1a-47c9-bcfc-587c6fe68a53"],
+            ["translation_id" => "6006d9a4-26e3-42aa-8857-e33d3952e14b", "translatable_type" => "App\Models\Place", "translatable_id" => "baa4c016-ee1a-47c9-bcfc-587c6fe68a53"],
+            ["translation_id" => "4fe9349b-eb79-47dc-9f7c-0a547894754a", "translatable_type" => "App\Models\Place", "translatable_id" => "baa4c016-ee1a-47c9-bcfc-587c6fe68a53"],
+            //1380
+            ["translation_id" => "4bc7e912-b7d0-449d-ac46-8d46db065207", "translatable_type" => "App\Models\Place", "translatable_id" => "8b516fb0-7d24-422e-971d-bed5ff493b4e"],
+            ["translation_id" => "9ee09fcd-3f8c-49a0-82b2-a2545f5a9334", "translatable_type" => "App\Models\Place", "translatable_id" => "8b516fb0-7d24-422e-971d-bed5ff493b4e"],
+            ["translation_id" => "d71aec25-fa75-4481-b014-0d09624df218", "translatable_type" => "App\Models\Place", "translatable_id" => "8b516fb0-7d24-422e-971d-bed5ff493b4e"],
+            //1381
+            ["translation_id" => "ca3d073c-19f3-43f8-b91e-c7910c263860", "translatable_type" => "App\Models\Place", "translatable_id" => "21c33818-0962-4354-8f9b-324d4f2a8bac"],
+            ["translation_id" => "f5bc688d-8391-4055-b715-fb272492d828", "translatable_type" => "App\Models\Place", "translatable_id" => "21c33818-0962-4354-8f9b-324d4f2a8bac"],
+            ["translation_id" => "5ce60f69-22a7-4627-a51d-1b51a99ddc7f", "translatable_type" => "App\Models\Place", "translatable_id" => "21c33818-0962-4354-8f9b-324d4f2a8bac"],
+            //1382
+            ["translation_id" => "1a5ebc5d-7bc1-494c-a3ff-b38ec9bd3147", "translatable_type" => "App\Models\Place", "translatable_id" => "93241961-4169-4ca0-befb-6268daa18aa8"],
+            ["translation_id" => "9bca0bea-39e5-4144-9fa2-34787f8311fc", "translatable_type" => "App\Models\Place", "translatable_id" => "93241961-4169-4ca0-befb-6268daa18aa8"],
+            ["translation_id" => "3b6d6d75-aec3-40b9-b476-b6db8dbd3a3c", "translatable_type" => "App\Models\Place", "translatable_id" => "93241961-4169-4ca0-befb-6268daa18aa8"],
+            //1383
+            ["translation_id" => "70833ae6-91bf-4a09-84ba-8e40febc1c83", "translatable_type" => "App\Models\Place", "translatable_id" => "dca4c906-d9bf-4c52-a9de-e95f92285995"],
+            ["translation_id" => "4011172f-008a-4cb9-b29a-1b515f036491", "translatable_type" => "App\Models\Place", "translatable_id" => "dca4c906-d9bf-4c52-a9de-e95f92285995"],
+            ["translation_id" => "1cbc0e47-febb-4edf-8113-c516ce66e9c8", "translatable_type" => "App\Models\Place", "translatable_id" => "dca4c906-d9bf-4c52-a9de-e95f92285995"],
+            //1384
+            ["translation_id" => "f16ea7d4-1477-4274-a646-b7cad5217e89", "translatable_type" => "App\Models\Place", "translatable_id" => "6f02a256-6e38-47ae-85bc-e06b948484fd"],
+            ["translation_id" => "6b91af7d-382d-4497-91a1-1d12232ca24e", "translatable_type" => "App\Models\Place", "translatable_id" => "6f02a256-6e38-47ae-85bc-e06b948484fd"],
+            ["translation_id" => "0f0aab3d-c112-486e-ae8f-8aaef1c53504", "translatable_type" => "App\Models\Place", "translatable_id" => "6f02a256-6e38-47ae-85bc-e06b948484fd"],
+            //1385
+            ["translation_id" => "23b9b73b-c1b0-4398-9758-88984981bfde", "translatable_type" => "App\Models\Place", "translatable_id" => "3137207d-200a-4c9e-bf4f-95347fd546ac"],
+            ["translation_id" => "d18c5234-58c4-42ee-901b-759add8fa80c", "translatable_type" => "App\Models\Place", "translatable_id" => "3137207d-200a-4c9e-bf4f-95347fd546ac"],
+            ["translation_id" => "af042c2d-03a4-4381-ae19-4d7bcc138ee0", "translatable_type" => "App\Models\Place", "translatable_id" => "3137207d-200a-4c9e-bf4f-95347fd546ac"],
+            //1386
+            ["translation_id" => "2de39de8-6948-4b3b-a56a-336e398c8cc1", "translatable_type" => "App\Models\Place", "translatable_id" => "17d70fc1-b88d-47df-8362-073574f6de1a"],
+            ["translation_id" => "28689759-773c-4f5e-8b48-bab4fc164429", "translatable_type" => "App\Models\Place", "translatable_id" => "17d70fc1-b88d-47df-8362-073574f6de1a"],
+            ["translation_id" => "9afc32fd-be3a-4178-88c5-7fa306dc93af", "translatable_type" => "App\Models\Place", "translatable_id" => "17d70fc1-b88d-47df-8362-073574f6de1a"],
+            //1387
+            ["translation_id" => "34c12644-af5c-45e8-b979-a8ca6876a23b", "translatable_type" => "App\Models\Place", "translatable_id" => "bca7942c-e501-4e06-8866-95e8c55f99a0"],
+            ["translation_id" => "b9834d70-b0a2-4045-a5e5-ba472f84041c", "translatable_type" => "App\Models\Place", "translatable_id" => "bca7942c-e501-4e06-8866-95e8c55f99a0"],
+            ["translation_id" => "33df5137-7ab5-47b1-a916-73b777326c15", "translatable_type" => "App\Models\Place", "translatable_id" => "bca7942c-e501-4e06-8866-95e8c55f99a0"],
+            //1388
+            ["translation_id" => "cd8843ef-4ee6-4701-8710-50c44a079f28", "translatable_type" => "App\Models\Place", "translatable_id" => "306edb14-1c0b-48db-8743-0d590cf0b4c3"],
+            ["translation_id" => "4a34234f-4e3c-42cd-9e11-30f3557e9ccc", "translatable_type" => "App\Models\Place", "translatable_id" => "306edb14-1c0b-48db-8743-0d590cf0b4c3"],
+            ["translation_id" => "a958e8c4-79b0-48c0-976a-5d8f8c67761e", "translatable_type" => "App\Models\Place", "translatable_id" => "306edb14-1c0b-48db-8743-0d590cf0b4c3"],
+            //1389
+            ["translation_id" => "531cfc57-a082-4e88-80ba-686d25ec8d06", "translatable_type" => "App\Models\Place", "translatable_id" => "e2b70dbd-e941-4b77-8db6-4a4c1e9f6d03"],
+            ["translation_id" => "8862bca6-5b12-4cdf-b081-87c8174f6292", "translatable_type" => "App\Models\Place", "translatable_id" => "e2b70dbd-e941-4b77-8db6-4a4c1e9f6d03"],
+            ["translation_id" => "bcfba875-c73c-4a8a-b9e0-9978ddcd263b", "translatable_type" => "App\Models\Place", "translatable_id" => "e2b70dbd-e941-4b77-8db6-4a4c1e9f6d03"],
+            //1390
+            ["translation_id" => "2bc67e7f-80c6-4731-8a46-4708ead34770", "translatable_type" => "App\Models\Place", "translatable_id" => "cb152580-43cb-45d0-a65a-9d970a92823a"],
+            ["translation_id" => "6b8af00a-9419-446e-b8f2-2b32fe01fb49", "translatable_type" => "App\Models\Place", "translatable_id" => "cb152580-43cb-45d0-a65a-9d970a92823a"],
+            ["translation_id" => "2576ec9f-3d84-43a8-904b-d55024262a91", "translatable_type" => "App\Models\Place", "translatable_id" => "cb152580-43cb-45d0-a65a-9d970a92823a"],
+            //1391
+            ["translation_id" => "707e5e37-4770-4baf-a02c-55047be5bd53", "translatable_type" => "App\Models\Place", "translatable_id" => "210e4365-1a8b-4ed1-ad5b-0ecd20cf24a5"],
+            ["translation_id" => "160b463e-9ee4-4e07-a7b0-0522e1345f5c", "translatable_type" => "App\Models\Place", "translatable_id" => "210e4365-1a8b-4ed1-ad5b-0ecd20cf24a5"],
+            ["translation_id" => "6de7cc69-2835-492b-bb82-e044827dd952", "translatable_type" => "App\Models\Place", "translatable_id" => "210e4365-1a8b-4ed1-ad5b-0ecd20cf24a5"],
+            //1392
+            ["translation_id" => "de42549e-7e30-492c-af33-4e2c8a4867e7", "translatable_type" => "App\Models\Place", "translatable_id" => "bc76a6c1-10a2-4ddf-90f8-520237daf20b"],
+            ["translation_id" => "d6ed4f74-a3ed-47ec-8591-3f5bb53c41bc", "translatable_type" => "App\Models\Place", "translatable_id" => "bc76a6c1-10a2-4ddf-90f8-520237daf20b"],
+            ["translation_id" => "70cb1ba9-4db9-4498-bb58-75fd9f17cc7f", "translatable_type" => "App\Models\Place", "translatable_id" => "bc76a6c1-10a2-4ddf-90f8-520237daf20b"],
+            //1393
+            ["translation_id" => "b0cd5385-b913-4ba9-ab95-69d185f9fee5", "translatable_type" => "App\Models\Place", "translatable_id" => "b34a9090-e08c-425f-b670-210075c78e0e"],
+            ["translation_id" => "5603468c-e346-48cc-b6f7-bd0ff6d0045d", "translatable_type" => "App\Models\Place", "translatable_id" => "b34a9090-e08c-425f-b670-210075c78e0e"],
+            ["translation_id" => "055de603-d793-499c-b196-8f79a523a91c", "translatable_type" => "App\Models\Place", "translatable_id" => "b34a9090-e08c-425f-b670-210075c78e0e"],
+            //1394
+            ["translation_id" => "aa01f753-93cf-46b7-a276-407c8939e134", "translatable_type" => "App\Models\Place", "translatable_id" => "22079f41-a4d3-40cd-b986-b2235bdae59d"],
+            ["translation_id" => "3ebe0da7-e4fa-464a-bcd3-3d8a7337762f", "translatable_type" => "App\Models\Place", "translatable_id" => "22079f41-a4d3-40cd-b986-b2235bdae59d"],
+            ["translation_id" => "5aa87b9e-5b3c-4f1b-9f31-b130e76429ef", "translatable_type" => "App\Models\Place", "translatable_id" => "22079f41-a4d3-40cd-b986-b2235bdae59d"],
+            //1395
+            ["translation_id" => "6b5f57da-1366-4975-a831-23d8446a2c2f", "translatable_type" => "App\Models\Place", "translatable_id" => "8df1a2e7-20a9-4a42-b4d1-794b07b5c0b3"],
+            ["translation_id" => "e5a1ee87-2021-4268-bcd3-48dc572958be", "translatable_type" => "App\Models\Place", "translatable_id" => "8df1a2e7-20a9-4a42-b4d1-794b07b5c0b3"],
+            ["translation_id" => "0b099d19-0757-4db2-917e-a3ee9a323336", "translatable_type" => "App\Models\Place", "translatable_id" => "8df1a2e7-20a9-4a42-b4d1-794b07b5c0b3"],
+            //1396
+            ["translation_id" => "d5abc451-7fe9-4f41-9e61-8936df0f0563", "translatable_type" => "App\Models\Place", "translatable_id" => "4be54045-dcad-408e-978c-9549d9955c9b"],
+            ["translation_id" => "406f728f-52df-423a-a272-0de89235ebbe", "translatable_type" => "App\Models\Place", "translatable_id" => "4be54045-dcad-408e-978c-9549d9955c9b"],
+            ["translation_id" => "44a05a0b-18da-4093-afad-bc9bed8e0963", "translatable_type" => "App\Models\Place", "translatable_id" => "4be54045-dcad-408e-978c-9549d9955c9b"],
+            //1397
+            ["translation_id" => "b882265f-a671-45bf-b040-1146130c1a5f", "translatable_type" => "App\Models\Place", "translatable_id" => "6247babc-ddd8-4139-a39a-d096b1634f18"],
+            ["translation_id" => "2bf52ca9-cadd-4102-b9ce-39d3c0e8e215", "translatable_type" => "App\Models\Place", "translatable_id" => "6247babc-ddd8-4139-a39a-d096b1634f18"],
+            ["translation_id" => "ab150d20-6e98-422f-98e6-6a3b6f042b63", "translatable_type" => "App\Models\Place", "translatable_id" => "6247babc-ddd8-4139-a39a-d096b1634f18"],
+            //1398
+            ["translation_id" => "93029670-3ae3-4fdc-80bb-1489b2420f51", "translatable_type" => "App\Models\Place", "translatable_id" => "9126b5a0-00d4-4049-b7c8-7d50c4e9c3ec"],
+            ["translation_id" => "de717b04-8eed-430d-925f-90b73e684dac", "translatable_type" => "App\Models\Place", "translatable_id" => "9126b5a0-00d4-4049-b7c8-7d50c4e9c3ec"],
+            ["translation_id" => "98f54031-c590-4bea-bcf2-a2a472637383", "translatable_type" => "App\Models\Place", "translatable_id" => "9126b5a0-00d4-4049-b7c8-7d50c4e9c3ec"],
+            //1399
+            ["translation_id" => "642e8737-e84a-406e-9bd4-16525d032cc3", "translatable_type" => "App\Models\Place", "translatable_id" => "3a2de49e-4994-4be0-b04e-1cad91267e5c"],
+            ["translation_id" => "6fe69d05-5e0c-4a74-a757-3bf0838194d2", "translatable_type" => "App\Models\Place", "translatable_id" => "3a2de49e-4994-4be0-b04e-1cad91267e5c"],
+            ["translation_id" => "406c9bf4-3424-4201-aafd-38565d9067e0", "translatable_type" => "App\Models\Place", "translatable_id" => "3a2de49e-4994-4be0-b04e-1cad91267e5c"],
+            //1400
+            ["translation_id" => "128d383d-f1b0-40da-9635-524f93937c49", "translatable_type" => "App\Models\Place", "translatable_id" => "9cabded7-ae2e-43b1-afb7-0bef53eba13d"],
+            ["translation_id" => "51be5f50-9a79-41a6-bc33-b788d240a0ad", "translatable_type" => "App\Models\Place", "translatable_id" => "9cabded7-ae2e-43b1-afb7-0bef53eba13d"],
+            ["translation_id" => "0966ecdc-8a3a-4e8e-86c0-4f5419028a28", "translatable_type" => "App\Models\Place", "translatable_id" => "9cabded7-ae2e-43b1-afb7-0bef53eba13d"],
+            //1401
+            ["translation_id" => "dbe347c8-fc46-400c-a350-b5d2ccdd157f", "translatable_type" => "App\Models\Place", "translatable_id" => "620695ba-0cff-4d85-acd0-3cc067d9e3eb"],
+            ["translation_id" => "e3558336-3960-4024-8980-d8cf71ee7806", "translatable_type" => "App\Models\Place", "translatable_id" => "620695ba-0cff-4d85-acd0-3cc067d9e3eb"],
+            ["translation_id" => "395085cc-2982-4374-be72-87b56a197bfb", "translatable_type" => "App\Models\Place", "translatable_id" => "620695ba-0cff-4d85-acd0-3cc067d9e3eb"],
+            //1402
+            ["translation_id" => "baac1ec9-1a30-4b1d-9177-e470d35c319a", "translatable_type" => "App\Models\Place", "translatable_id" => "b3d48a26-0da3-42b1-8ef6-de38c037e318"],
+            ["translation_id" => "73f76982-fb96-4608-8add-24980159cf4f", "translatable_type" => "App\Models\Place", "translatable_id" => "b3d48a26-0da3-42b1-8ef6-de38c037e318"],
+            ["translation_id" => "1808389f-c0be-490c-9c47-4123a8b0d4d8", "translatable_type" => "App\Models\Place", "translatable_id" => "b3d48a26-0da3-42b1-8ef6-de38c037e318"],
+            //1403
+            ["translation_id" => "c726d574-48e8-414b-87cd-e6b3da279262", "translatable_type" => "App\Models\Place", "translatable_id" => "5b1d87b1-2d88-4474-9717-c94603f7279b"],
+            ["translation_id" => "3c1f36d5-1a30-40c2-8e7b-f0d68b123d89", "translatable_type" => "App\Models\Place", "translatable_id" => "5b1d87b1-2d88-4474-9717-c94603f7279b"],
+            ["translation_id" => "8817f7f0-f1af-4966-acf6-84cce219fdaf", "translatable_type" => "App\Models\Place", "translatable_id" => "5b1d87b1-2d88-4474-9717-c94603f7279b"],
+            //1404
+            ["translation_id" => "09dec48f-d327-42a6-8dcb-08794cbc3234", "translatable_type" => "App\Models\Place", "translatable_id" => "f020191d-7a34-4952-8ec9-eab46943a0c9"],
+            ["translation_id" => "bd7de754-a8b5-4641-820a-e2861e648f11", "translatable_type" => "App\Models\Place", "translatable_id" => "f020191d-7a34-4952-8ec9-eab46943a0c9"],
+            ["translation_id" => "f89c9294-a21d-4310-b2b3-92dc2fb41c25", "translatable_type" => "App\Models\Place", "translatable_id" => "f020191d-7a34-4952-8ec9-eab46943a0c9"],
+            //1405
+            ["translation_id" => "c7e72f43-b728-44ba-a821-5d5b832b7d49", "translatable_type" => "App\Models\Place", "translatable_id" => "c9156a4b-4bd6-4bf1-81ee-f970b39a72f9"],
+            ["translation_id" => "4fbd9948-836a-485c-b36a-35e341b0269c", "translatable_type" => "App\Models\Place", "translatable_id" => "c9156a4b-4bd6-4bf1-81ee-f970b39a72f9"],
+            ["translation_id" => "b5c746f5-19c2-4656-b2c4-792fe92a1f3c", "translatable_type" => "App\Models\Place", "translatable_id" => "c9156a4b-4bd6-4bf1-81ee-f970b39a72f9"],
+            //1406
+            ["translation_id" => "8b983642-c922-40ef-ba3f-9ed77bdde43b", "translatable_type" => "App\Models\Place", "translatable_id" => "b6e15687-32d1-4868-a4fa-1830f0bdf6e1"],
+            ["translation_id" => "a1e9402a-8778-48f8-a3b2-1917e8def200", "translatable_type" => "App\Models\Place", "translatable_id" => "b6e15687-32d1-4868-a4fa-1830f0bdf6e1"],
+            ["translation_id" => "a2e808bc-b669-4ae5-8717-9e277fe565d8", "translatable_type" => "App\Models\Place", "translatable_id" => "b6e15687-32d1-4868-a4fa-1830f0bdf6e1"],
+            //1407
+            ["translation_id" => "e886cf31-be96-49e9-8b36-ae9f4444148d", "translatable_type" => "App\Models\Place", "translatable_id" => "9bbaf592-3fc9-4004-830d-65aee1adb72e"],
+            ["translation_id" => "05e21485-a323-41ed-bc6a-76f31c26f835", "translatable_type" => "App\Models\Place", "translatable_id" => "9bbaf592-3fc9-4004-830d-65aee1adb72e"],
+            ["translation_id" => "d6e7fc67-3be9-49cd-b0da-959c98c41689", "translatable_type" => "App\Models\Place", "translatable_id" => "9bbaf592-3fc9-4004-830d-65aee1adb72e"],
+            //1408
+            ["translation_id" => "58f9c512-5102-49d0-89fa-6b211a081812", "translatable_type" => "App\Models\Place", "translatable_id" => "4ab2b18e-5e76-4bf6-b3f6-31867deec676"],
+            ["translation_id" => "7d42628e-f75c-4ebc-9ad7-4e1096137cdd", "translatable_type" => "App\Models\Place", "translatable_id" => "4ab2b18e-5e76-4bf6-b3f6-31867deec676"],
+            ["translation_id" => "6721d47c-c521-4888-a3cb-ab99470f31a9", "translatable_type" => "App\Models\Place", "translatable_id" => "4ab2b18e-5e76-4bf6-b3f6-31867deec676"],
+            //1409
+            ["translation_id" => "d5dff5e7-1641-46eb-a729-e3d73959adf6", "translatable_type" => "App\Models\Place", "translatable_id" => "7bf59adb-68e5-4515-b33b-be46de9f3fee"],
+            ["translation_id" => "dc253c66-9066-4a87-88f1-e1828d36f7e1", "translatable_type" => "App\Models\Place", "translatable_id" => "7bf59adb-68e5-4515-b33b-be46de9f3fee"],
+            ["translation_id" => "8e0ecf40-a6c7-4e92-8ec5-d1d214c62661", "translatable_type" => "App\Models\Place", "translatable_id" => "7bf59adb-68e5-4515-b33b-be46de9f3fee"],
+            //1410
+            ["translation_id" => "98f447f7-50a4-463b-83ca-dc6461f7211d", "translatable_type" => "App\Models\Place", "translatable_id" => "eb2f428f-db65-4957-976d-95035703b5c1"],
+            ["translation_id" => "aa84ce60-a1ff-43ba-a129-5dc3a37eaa96", "translatable_type" => "App\Models\Place", "translatable_id" => "eb2f428f-db65-4957-976d-95035703b5c1"],
+            ["translation_id" => "b54df9ac-e606-41ed-889e-95c58847f594", "translatable_type" => "App\Models\Place", "translatable_id" => "eb2f428f-db65-4957-976d-95035703b5c1"],
+            //1411
+            ["translation_id" => "660514ee-7224-4316-be8b-16636682d7ba", "translatable_type" => "App\Models\Place", "translatable_id" => "c56d02ed-c10a-4459-b3b6-ecb45416c6ae"],
+            ["translation_id" => "20410acc-d2f5-4a7d-8f7a-7aead4f59cdb", "translatable_type" => "App\Models\Place", "translatable_id" => "c56d02ed-c10a-4459-b3b6-ecb45416c6ae"],
+            ["translation_id" => "a7554aff-061d-494e-aa37-ff3da7e4a8a3", "translatable_type" => "App\Models\Place", "translatable_id" => "c56d02ed-c10a-4459-b3b6-ecb45416c6ae"],
+            //1412
+            ["translation_id" => "b9f03794-ace6-441b-8614-8802aa3bdb15", "translatable_type" => "App\Models\Place", "translatable_id" => "191bf122-980b-4928-9026-aea35153aa3a"],
+            ["translation_id" => "0879727f-b960-4169-9bd9-bd4ba7473e14", "translatable_type" => "App\Models\Place", "translatable_id" => "191bf122-980b-4928-9026-aea35153aa3a"],
+            ["translation_id" => "ee3954be-7170-4801-9104-ae218ae87ddc", "translatable_type" => "App\Models\Place", "translatable_id" => "191bf122-980b-4928-9026-aea35153aa3a"],
+            //1413
+            ["translation_id" => "682d4320-f568-4925-b999-5db7c3a7d6e2", "translatable_type" => "App\Models\Place", "translatable_id" => "2d4091a1-cb5b-4f13-bf34-285f70b5bbd2"],
+            ["translation_id" => "22059b06-8173-445b-be3f-5321ea0c43cb", "translatable_type" => "App\Models\Place", "translatable_id" => "2d4091a1-cb5b-4f13-bf34-285f70b5bbd2"],
+            ["translation_id" => "05171153-77e6-4c9d-9de4-6c9b363cb158", "translatable_type" => "App\Models\Place", "translatable_id" => "2d4091a1-cb5b-4f13-bf34-285f70b5bbd2"],
+            //1414
+            ["translation_id" => "8f902c28-3962-4af1-96ad-0e691d37a79c", "translatable_type" => "App\Models\Place", "translatable_id" => "47298ecd-c70b-4532-9e73-d962e91d6f71"],
+            ["translation_id" => "4079fc2a-7546-4814-b5c7-15c3ddbcc489", "translatable_type" => "App\Models\Place", "translatable_id" => "47298ecd-c70b-4532-9e73-d962e91d6f71"],
+            ["translation_id" => "78d19f92-ddce-4bc5-b1e8-f7362b3fad3c", "translatable_type" => "App\Models\Place", "translatable_id" => "47298ecd-c70b-4532-9e73-d962e91d6f71"],
+            //1415
+            ["translation_id" => "a4be88c8-470a-4f03-8abf-d8baa1a60d16", "translatable_type" => "App\Models\Place", "translatable_id" => "7082e225-0e5b-4d90-be87-73c33304a92c"],
+            ["translation_id" => "efd95c27-1c7e-48bf-9a50-742d8457e9b2", "translatable_type" => "App\Models\Place", "translatable_id" => "7082e225-0e5b-4d90-be87-73c33304a92c"],
+            ["translation_id" => "33ac90a7-aa9e-4f39-8af5-bbec441cbf8e", "translatable_type" => "App\Models\Place", "translatable_id" => "7082e225-0e5b-4d90-be87-73c33304a92c"],
+            //1416
+            ["translation_id" => "c5fe1d81-7c28-48d2-99dc-55121d77e7cd", "translatable_type" => "App\Models\Place", "translatable_id" => "a9bcf4e7-0670-4de5-af39-0b71baabe613"],
+            ["translation_id" => "11d8da8f-ad6d-4db0-b9e0-4bbaf14f3806", "translatable_type" => "App\Models\Place", "translatable_id" => "a9bcf4e7-0670-4de5-af39-0b71baabe613"],
+            ["translation_id" => "679fc260-0240-4980-866d-5584ccb712c1", "translatable_type" => "App\Models\Place", "translatable_id" => "a9bcf4e7-0670-4de5-af39-0b71baabe613"],
+            //1417
+            ["translation_id" => "6ee045f5-ac78-444a-97f7-383e7864158f", "translatable_type" => "App\Models\Place", "translatable_id" => "0059b222-f3e4-4820-9a81-c17858b44fc9"],
+            ["translation_id" => "14b54e45-41b2-4415-a676-71347522986c", "translatable_type" => "App\Models\Place", "translatable_id" => "0059b222-f3e4-4820-9a81-c17858b44fc9"],
+            ["translation_id" => "32d4ee29-defd-47b4-9050-8faba8d1838b", "translatable_type" => "App\Models\Place", "translatable_id" => "0059b222-f3e4-4820-9a81-c17858b44fc9"],
+            //1418
+            ["translation_id" => "a5af44b4-3515-4aa1-9e0f-45f41740e338", "translatable_type" => "App\Models\Place", "translatable_id" => "b8512135-298e-4fff-9a6e-03258935e87b"],
+            ["translation_id" => "b8d034f7-d649-44e9-9334-438660a892cc", "translatable_type" => "App\Models\Place", "translatable_id" => "b8512135-298e-4fff-9a6e-03258935e87b"],
+            ["translation_id" => "2f623225-5db7-4bf7-b53d-1eb0e87f0db0", "translatable_type" => "App\Models\Place", "translatable_id" => "b8512135-298e-4fff-9a6e-03258935e87b"],
+            //1419
+            ["translation_id" => "33ea8b2c-b8dc-4367-8c01-f5b217c2d664", "translatable_type" => "App\Models\Place", "translatable_id" => "b349d42b-0566-4598-b419-9f5921981c9f"],
+            ["translation_id" => "89f80c21-aa71-497c-9d6c-c1fe818878c8", "translatable_type" => "App\Models\Place", "translatable_id" => "b349d42b-0566-4598-b419-9f5921981c9f"],
+            ["translation_id" => "8cbf3e4f-d841-474c-bec8-110d0560be63", "translatable_type" => "App\Models\Place", "translatable_id" => "b349d42b-0566-4598-b419-9f5921981c9f"],
+            //1420
+            ["translation_id" => "85cf7922-0c65-46f5-8dcd-d534dc029027", "translatable_type" => "App\Models\Place", "translatable_id" => "8a18539d-0434-4418-a083-1e85490b3b5d"],
+            ["translation_id" => "727c7489-4fa4-4c4e-96af-c56d8fabc64c", "translatable_type" => "App\Models\Place", "translatable_id" => "8a18539d-0434-4418-a083-1e85490b3b5d"],
+            ["translation_id" => "3faf2091-f4ae-4aa1-9232-93be45d8e3e2", "translatable_type" => "App\Models\Place", "translatable_id" => "8a18539d-0434-4418-a083-1e85490b3b5d"],
+            //1421
+            ["translation_id" => "c9964d32-0f52-467f-a01c-6a06535eacf3", "translatable_type" => "App\Models\Place", "translatable_id" => "ac0ecd8e-53da-48a9-a522-b21a047c9f7e"],
+            ["translation_id" => "e19dbade-8e05-4824-b69b-7f36041e2226", "translatable_type" => "App\Models\Place", "translatable_id" => "ac0ecd8e-53da-48a9-a522-b21a047c9f7e"],
+            ["translation_id" => "9e9dece7-2147-4029-a2da-7fa5a644c3b9", "translatable_type" => "App\Models\Place", "translatable_id" => "ac0ecd8e-53da-48a9-a522-b21a047c9f7e"],
+            //1422
+            ["translation_id" => "61bc7e08-1777-4d20-847d-c0e450d95fd1", "translatable_type" => "App\Models\Place", "translatable_id" => "9e97406a-75d1-492e-8086-8668ae3a6098"],
+            ["translation_id" => "b7273805-9ca9-4e22-9f13-418f57d293c9", "translatable_type" => "App\Models\Place", "translatable_id" => "9e97406a-75d1-492e-8086-8668ae3a6098"],
+            ["translation_id" => "dbab47f1-5df4-4c86-b6e8-ce21e8aab309", "translatable_type" => "App\Models\Place", "translatable_id" => "9e97406a-75d1-492e-8086-8668ae3a6098"],
+            //1423
+            ["translation_id" => "018a4337-6bbc-4ea7-974d-cecdd47acc1b", "translatable_type" => "App\Models\Place", "translatable_id" => "d041d553-0ba2-4988-853c-99345bdc764c"],
+            ["translation_id" => "13a64d98-c964-432c-aea5-5b2c414566fb", "translatable_type" => "App\Models\Place", "translatable_id" => "d041d553-0ba2-4988-853c-99345bdc764c"],
+            ["translation_id" => "60a4a81e-d37e-4085-b620-ff65e8388838", "translatable_type" => "App\Models\Place", "translatable_id" => "d041d553-0ba2-4988-853c-99345bdc764c"],
+            //1424
+            ["translation_id" => "05df69a0-0c13-4dfa-a0a2-e3f5ced54bde", "translatable_type" => "App\Models\Place", "translatable_id" => "dd713f1f-f375-479e-b1cf-0c77e8401902"],
+            ["translation_id" => "8824b3a3-8254-43ad-8e58-902f7253dd43", "translatable_type" => "App\Models\Place", "translatable_id" => "dd713f1f-f375-479e-b1cf-0c77e8401902"],
+            ["translation_id" => "75b06848-460e-4cb8-bdc6-717b2b7efb67", "translatable_type" => "App\Models\Place", "translatable_id" => "dd713f1f-f375-479e-b1cf-0c77e8401902"],
+            //1425
+            ["translation_id" => "3e8c2361-0c70-4e0a-88fd-50547adb2260", "translatable_type" => "App\Models\Place", "translatable_id" => "f3553d05-1e43-4ab3-9eea-c799b6e9cc5d"],
+            ["translation_id" => "f3ae2810-812b-4929-85fd-1e8d6d87ad96", "translatable_type" => "App\Models\Place", "translatable_id" => "f3553d05-1e43-4ab3-9eea-c799b6e9cc5d"],
+            ["translation_id" => "2fed8499-1e2a-40a6-8770-2c1ba3d46000", "translatable_type" => "App\Models\Place", "translatable_id" => "f3553d05-1e43-4ab3-9eea-c799b6e9cc5d"],
+            //1426
+            ["translation_id" => "09c48c96-6aa4-467e-9877-883ce3d4100a", "translatable_type" => "App\Models\Place", "translatable_id" => "6022454c-c43c-4236-9449-a45057e1d9ee"],
+            ["translation_id" => "e215ef93-e36b-4d26-9cf6-a34d0357df56", "translatable_type" => "App\Models\Place", "translatable_id" => "6022454c-c43c-4236-9449-a45057e1d9ee"],
+            ["translation_id" => "5d613133-2172-4b18-83ad-59ea08ce545d", "translatable_type" => "App\Models\Place", "translatable_id" => "6022454c-c43c-4236-9449-a45057e1d9ee"],
+            //1427
+            ["translation_id" => "44f51e27-9d5b-49ff-a4e3-062a5f954b6a", "translatable_type" => "App\Models\Place", "translatable_id" => "c677fce7-dff2-4883-b4b4-65e77058a7c8"],
+            ["translation_id" => "ebb0e055-10b7-4c5f-b74e-20e73db8c457", "translatable_type" => "App\Models\Place", "translatable_id" => "c677fce7-dff2-4883-b4b4-65e77058a7c8"],
+            ["translation_id" => "e6022726-8fac-4c7e-98a8-8b1293577829", "translatable_type" => "App\Models\Place", "translatable_id" => "c677fce7-dff2-4883-b4b4-65e77058a7c8"],
+            //1428
+            ["translation_id" => "cab661d6-83d4-4fff-ad4f-5ae29c7f018b", "translatable_type" => "App\Models\Place", "translatable_id" => "618684e1-7f8a-4fd6-8949-089ee4d671d9"],
+            ["translation_id" => "9a095a69-2e18-4d36-93d4-cc62f1cf0341", "translatable_type" => "App\Models\Place", "translatable_id" => "618684e1-7f8a-4fd6-8949-089ee4d671d9"],
+            ["translation_id" => "f6da900e-b19e-4d9d-aa40-4d9a1cdc1c4b", "translatable_type" => "App\Models\Place", "translatable_id" => "618684e1-7f8a-4fd6-8949-089ee4d671d9"],
+            //1429
+            ["translation_id" => "758b49ab-9b17-4937-bce1-95f2c55b0960", "translatable_type" => "App\Models\Place", "translatable_id" => "4bc197a6-ba93-430d-b5a1-efb56c1c5cc4"],
+            ["translation_id" => "a4194b60-0b34-4148-9bf4-dd3916115688", "translatable_type" => "App\Models\Place", "translatable_id" => "4bc197a6-ba93-430d-b5a1-efb56c1c5cc4"],
+            ["translation_id" => "dfa474f4-de18-49e9-b2cf-e570011eb2de", "translatable_type" => "App\Models\Place", "translatable_id" => "4bc197a6-ba93-430d-b5a1-efb56c1c5cc4"],
+            //1430
+            ["translation_id" => "f9dfec1c-e730-466c-9254-07340fad5b98", "translatable_type" => "App\Models\Place", "translatable_id" => "89cd28ea-2cf8-4bac-883d-3aa33f777e0c"],
+            ["translation_id" => "e68064e7-eb03-4218-985c-d8babe8ce010", "translatable_type" => "App\Models\Place", "translatable_id" => "89cd28ea-2cf8-4bac-883d-3aa33f777e0c"],
+            ["translation_id" => "7d3e4ee5-5cc6-4ccc-85d6-2a42a218cda1", "translatable_type" => "App\Models\Place", "translatable_id" => "89cd28ea-2cf8-4bac-883d-3aa33f777e0c"],
+            //1431
+            ["translation_id" => "5737b9bc-76d7-4687-bbcc-52dca239291e", "translatable_type" => "App\Models\Place", "translatable_id" => "c57e56a4-a0df-41ce-b8b7-1970192a48c7"],
+            ["translation_id" => "6ae8e85a-1120-4b8c-910e-d57aa5ab9ec5", "translatable_type" => "App\Models\Place", "translatable_id" => "c57e56a4-a0df-41ce-b8b7-1970192a48c7"],
+            ["translation_id" => "6ef8a669-ca75-45d6-90eb-fcff2ff925de", "translatable_type" => "App\Models\Place", "translatable_id" => "c57e56a4-a0df-41ce-b8b7-1970192a48c7"],
+            //1432
+            ["translation_id" => "b21b19c0-b642-4a70-94a4-a13ec043f787", "translatable_type" => "App\Models\Place", "translatable_id" => "0c1e9d5b-ce9c-4447-b59e-ff9e8a2c3adc"],
+            ["translation_id" => "893f197b-217c-41fe-8412-51aa570aab06", "translatable_type" => "App\Models\Place", "translatable_id" => "0c1e9d5b-ce9c-4447-b59e-ff9e8a2c3adc"],
+            ["translation_id" => "6860d018-56ed-44c1-b376-8c15acac6e2c", "translatable_type" => "App\Models\Place", "translatable_id" => "0c1e9d5b-ce9c-4447-b59e-ff9e8a2c3adc"],
+            //1433
+            ["translation_id" => "c50b3260-327a-4c8d-b3e6-ab310098fccb", "translatable_type" => "App\Models\Place", "translatable_id" => "5dbcae50-b5df-44a4-8302-17fd3fd472ed"],
+            ["translation_id" => "447055f8-5fd2-4967-893a-efd259f7f9b1", "translatable_type" => "App\Models\Place", "translatable_id" => "5dbcae50-b5df-44a4-8302-17fd3fd472ed"],
+            ["translation_id" => "2a8b7bc5-566b-4ac5-a9ae-d8cd4f7e7921", "translatable_type" => "App\Models\Place", "translatable_id" => "5dbcae50-b5df-44a4-8302-17fd3fd472ed"],
+            //1434
+            ["translation_id" => "f84510a4-a8f9-4738-a784-5481abc2fbe1", "translatable_type" => "App\Models\Place", "translatable_id" => "c4612ce0-6cb8-4abd-b2be-7bae2802c291"],
+            ["translation_id" => "d106e103-8d2d-4834-8348-2884b96b9bbb", "translatable_type" => "App\Models\Place", "translatable_id" => "c4612ce0-6cb8-4abd-b2be-7bae2802c291"],
+            ["translation_id" => "47dd3feb-ce8a-4b36-89c9-a10493a374f0", "translatable_type" => "App\Models\Place", "translatable_id" => "c4612ce0-6cb8-4abd-b2be-7bae2802c291"],
+            //1435
+            ["translation_id" => "bf189176-2d23-48cf-96f2-300581797292", "translatable_type" => "App\Models\Place", "translatable_id" => "187c8150-4e1b-45f1-af14-aafec174c4fe"],
+            ["translation_id" => "01c6bd7e-99d3-43a8-bff5-143939bed919", "translatable_type" => "App\Models\Place", "translatable_id" => "187c8150-4e1b-45f1-af14-aafec174c4fe"],
+            ["translation_id" => "4e545fac-91c6-444d-8ed9-0053d0ab550e", "translatable_type" => "App\Models\Place", "translatable_id" => "187c8150-4e1b-45f1-af14-aafec174c4fe"],
+            //1436
+            ["translation_id" => "94b6c1f5-d78c-445d-8613-6abe90da5d4d", "translatable_type" => "App\Models\Place", "translatable_id" => "a67fa730-dfab-466a-96fd-6f1747c42918"],
+            ["translation_id" => "076443aa-55b6-4bd5-952a-f68a062c366e", "translatable_type" => "App\Models\Place", "translatable_id" => "a67fa730-dfab-466a-96fd-6f1747c42918"],
+            ["translation_id" => "533e6670-a88d-4580-8230-f9a45486d3c5", "translatable_type" => "App\Models\Place", "translatable_id" => "a67fa730-dfab-466a-96fd-6f1747c42918"],
+            //1437
+            ["translation_id" => "234a9649-cfcd-4ae0-85bc-020cc6882f41", "translatable_type" => "App\Models\Place", "translatable_id" => "b41b8bb5-3f00-4ed3-852f-e0b2da38e173"],
+            ["translation_id" => "97bebc67-94d6-4d34-a1bd-870b71101bd6", "translatable_type" => "App\Models\Place", "translatable_id" => "b41b8bb5-3f00-4ed3-852f-e0b2da38e173"],
+            ["translation_id" => "7f42b2f0-9a42-4bec-b28b-5318a3ab63f6", "translatable_type" => "App\Models\Place", "translatable_id" => "b41b8bb5-3f00-4ed3-852f-e0b2da38e173"],
+            //1438
+            ["translation_id" => "5b2c237c-eb9e-436a-883d-ceba54a74059", "translatable_type" => "App\Models\Place", "translatable_id" => "86f06861-6e28-4689-b29a-2a19b2059540"],
+            ["translation_id" => "22cff5a9-7fea-4d1e-8b2a-593b5034002f", "translatable_type" => "App\Models\Place", "translatable_id" => "86f06861-6e28-4689-b29a-2a19b2059540"],
+            ["translation_id" => "702fdf0e-023b-4e9a-98bd-8250ff00bf92", "translatable_type" => "App\Models\Place", "translatable_id" => "86f06861-6e28-4689-b29a-2a19b2059540"],
+            //1439
+            ["translation_id" => "d16c9b07-4caf-4c8b-9a69-099a41fed269", "translatable_type" => "App\Models\Place", "translatable_id" => "f682764a-99b2-4fda-94ef-0e329856beed"],
+            ["translation_id" => "15b53196-e589-42aa-954a-ffe185de2b84", "translatable_type" => "App\Models\Place", "translatable_id" => "f682764a-99b2-4fda-94ef-0e329856beed"],
+            ["translation_id" => "c9864e9b-2ea8-47e6-a251-87f684dbacd0", "translatable_type" => "App\Models\Place", "translatable_id" => "f682764a-99b2-4fda-94ef-0e329856beed"],
+            //1440
+            ["translation_id" => "be09620d-1824-4bb5-83ef-b9a440c9f0ea", "translatable_type" => "App\Models\Place", "translatable_id" => "7afb416a-66f7-456b-bc1d-dd7ce0f57554"],
+            ["translation_id" => "bc2989f3-da5e-4311-9155-e89f98723e0f", "translatable_type" => "App\Models\Place", "translatable_id" => "7afb416a-66f7-456b-bc1d-dd7ce0f57554"],
+            ["translation_id" => "ec244343-3bbf-42a2-bdf7-da4705e118c7", "translatable_type" => "App\Models\Place", "translatable_id" => "7afb416a-66f7-456b-bc1d-dd7ce0f57554"],
+            //1441
+            ["translation_id" => "ed0c4de4-5312-4609-ac2d-07eeb4a94a4b", "translatable_type" => "App\Models\Place", "translatable_id" => "467505ad-4496-4136-92ef-05412ba303ef"],
+            ["translation_id" => "60447de0-9b28-4961-982f-09e381d93b77", "translatable_type" => "App\Models\Place", "translatable_id" => "467505ad-4496-4136-92ef-05412ba303ef"],
+            ["translation_id" => "02ad3e4f-ce05-4fe8-b655-0ed3a539b9f3", "translatable_type" => "App\Models\Place", "translatable_id" => "467505ad-4496-4136-92ef-05412ba303ef"],
+            //1442
+            ["translation_id" => "97d3046f-7a0c-412f-ae1d-1a21d6b2c995", "translatable_type" => "App\Models\Place", "translatable_id" => "a7bc4eca-20a5-4d87-b487-6e7788659c68"],
+            ["translation_id" => "d97e9166-3073-4fa7-bd59-ac8a93b91a7f", "translatable_type" => "App\Models\Place", "translatable_id" => "a7bc4eca-20a5-4d87-b487-6e7788659c68"],
+            ["translation_id" => "94b9b032-6e28-4381-81e5-6a5f1c9adc48", "translatable_type" => "App\Models\Place", "translatable_id" => "a7bc4eca-20a5-4d87-b487-6e7788659c68"],
+            //1443
+            ["translation_id" => "a0e232b0-4cf0-469d-8e83-fc9b130739de", "translatable_type" => "App\Models\Place", "translatable_id" => "5b20431d-a993-4da1-a20b-7a28719a7ef7"],
+            ["translation_id" => "8053b2ff-3c92-481b-b325-89a266a2adeb", "translatable_type" => "App\Models\Place", "translatable_id" => "5b20431d-a993-4da1-a20b-7a28719a7ef7"],
+            ["translation_id" => "3ea09329-4002-47b1-9fdf-921339e1f006", "translatable_type" => "App\Models\Place", "translatable_id" => "5b20431d-a993-4da1-a20b-7a28719a7ef7"],
+            //1444
+            ["translation_id" => "5d47e374-b9a7-4e3e-8485-85b72b09431d", "translatable_type" => "App\Models\Place", "translatable_id" => "9fd896ed-575d-4f6a-b633-0ffeb655e2b2"],
+            ["translation_id" => "90d4e138-61d5-4c58-9523-86a8d370963b", "translatable_type" => "App\Models\Place", "translatable_id" => "9fd896ed-575d-4f6a-b633-0ffeb655e2b2"],
+            ["translation_id" => "4f354a1d-a327-4771-acb5-101024196f06", "translatable_type" => "App\Models\Place", "translatable_id" => "9fd896ed-575d-4f6a-b633-0ffeb655e2b2"],
+            //1445
+            ["translation_id" => "b2b95eed-758b-4d1e-917b-ede346a9bec8", "translatable_type" => "App\Models\Place", "translatable_id" => "7f5d5b5e-b396-4cc4-9765-ebbe26a370aa"],
+            ["translation_id" => "2a5e95bd-feed-4552-b38b-4c233cc91359", "translatable_type" => "App\Models\Place", "translatable_id" => "7f5d5b5e-b396-4cc4-9765-ebbe26a370aa"],
+            ["translation_id" => "eacc0d5c-eb10-4877-8630-9aa2bd7bd166", "translatable_type" => "App\Models\Place", "translatable_id" => "7f5d5b5e-b396-4cc4-9765-ebbe26a370aa"],
+            //1446
+            ["translation_id" => "653ff166-6e0d-49c8-bb9c-e64ed845e15d", "translatable_type" => "App\Models\Place", "translatable_id" => "e990c004-a3f9-4141-965d-9568a38e953e"],
+            ["translation_id" => "da127ba7-7859-49cf-8024-ba76d3c848e7", "translatable_type" => "App\Models\Place", "translatable_id" => "e990c004-a3f9-4141-965d-9568a38e953e"],
+            ["translation_id" => "226f99c9-6ff4-4c2e-b14d-6684837b0d48", "translatable_type" => "App\Models\Place", "translatable_id" => "e990c004-a3f9-4141-965d-9568a38e953e"],
+            //1447
+            ["translation_id" => "023c9092-1100-44a3-9fdd-685d571c45e4", "translatable_type" => "App\Models\Place", "translatable_id" => "29bc1e56-e2e7-47d2-8c97-40ddadb3bfe7"],
+            ["translation_id" => "e2aa1c16-8e2d-4da8-99d5-8a37962d0b04", "translatable_type" => "App\Models\Place", "translatable_id" => "29bc1e56-e2e7-47d2-8c97-40ddadb3bfe7"],
+            ["translation_id" => "eec7c533-55b6-449f-9ebc-d8e8193ef9bb", "translatable_type" => "App\Models\Place", "translatable_id" => "29bc1e56-e2e7-47d2-8c97-40ddadb3bfe7"],
+            //1448
+            ["translation_id" => "78a3dccc-564a-4564-9ee6-6f4900f99fa6", "translatable_type" => "App\Models\Place", "translatable_id" => "d33644af-49ae-4fa6-b487-c09bc10076a3"],
+            ["translation_id" => "30cc72e8-3939-4786-a77a-95b8763797a9", "translatable_type" => "App\Models\Place", "translatable_id" => "d33644af-49ae-4fa6-b487-c09bc10076a3"],
+            ["translation_id" => "dfa15154-1c3a-4470-951d-5a0aab10e479", "translatable_type" => "App\Models\Place", "translatable_id" => "d33644af-49ae-4fa6-b487-c09bc10076a3"],
+            //1449
+            ["translation_id" => "6a5e2b1a-c44f-46cd-9a5e-85b1ee1475c2", "translatable_type" => "App\Models\Place", "translatable_id" => "18d8e2f4-5a6b-4b41-8399-12805c276cf7"],
+            ["translation_id" => "a8c245fb-f232-450f-a6e4-23454715852e", "translatable_type" => "App\Models\Place", "translatable_id" => "18d8e2f4-5a6b-4b41-8399-12805c276cf7"],
+            ["translation_id" => "b8692e82-ae50-426d-afd1-764e14031122", "translatable_type" => "App\Models\Place", "translatable_id" => "18d8e2f4-5a6b-4b41-8399-12805c276cf7"],
+            //1450
+            ["translation_id" => "e99776d3-016b-4abc-95f8-b87ec86839a4", "translatable_type" => "App\Models\Place", "translatable_id" => "6cacaefb-d729-41f4-8d0c-3136c2cf0a1c"],
+            ["translation_id" => "2d11f29d-2262-461c-b05a-9d624dc897f4", "translatable_type" => "App\Models\Place", "translatable_id" => "6cacaefb-d729-41f4-8d0c-3136c2cf0a1c"],
+            ["translation_id" => "bb248633-d5b1-471e-9413-2b3fea1b0597", "translatable_type" => "App\Models\Place", "translatable_id" => "6cacaefb-d729-41f4-8d0c-3136c2cf0a1c"],
+            //1451
+            ["translation_id" => "625ab75e-1751-43f4-96fc-b265ccef66d0", "translatable_type" => "App\Models\Place", "translatable_id" => "4e572725-93ba-48ce-b8ea-5d5894c3754e"],
+            ["translation_id" => "eb147d11-e598-446a-bd68-087759a644c3", "translatable_type" => "App\Models\Place", "translatable_id" => "4e572725-93ba-48ce-b8ea-5d5894c3754e"],
+            ["translation_id" => "6c73404a-3845-4ec3-96e7-1e2bfda05c01", "translatable_type" => "App\Models\Place", "translatable_id" => "4e572725-93ba-48ce-b8ea-5d5894c3754e"],
+            //1452
+            ["translation_id" => "96575d9d-eae0-4487-ae07-1a2bbbcf1cc1", "translatable_type" => "App\Models\Place", "translatable_id" => "53f6796d-f465-492b-9a86-e8bfe965ba7d"],
+            ["translation_id" => "82b45d8e-805a-46eb-a4ce-99d0eb0c1a05", "translatable_type" => "App\Models\Place", "translatable_id" => "53f6796d-f465-492b-9a86-e8bfe965ba7d"],
+            ["translation_id" => "b24a7675-804a-4b6a-a92d-c9d64ccdead7", "translatable_type" => "App\Models\Place", "translatable_id" => "53f6796d-f465-492b-9a86-e8bfe965ba7d"],
+            //1453
+            ["translation_id" => "e8a19e12-81c8-4655-94e4-70ebb346317f", "translatable_type" => "App\Models\Place", "translatable_id" => "d8c18ce3-cd39-41a3-b25d-b3d202f32dd7"],
+            ["translation_id" => "606be096-3967-418b-9349-36d52a4aa321", "translatable_type" => "App\Models\Place", "translatable_id" => "d8c18ce3-cd39-41a3-b25d-b3d202f32dd7"],
+            ["translation_id" => "fec7be9d-4cc8-47b6-9bb0-18b0524830cf", "translatable_type" => "App\Models\Place", "translatable_id" => "d8c18ce3-cd39-41a3-b25d-b3d202f32dd7"],
+            //1454
+            ["translation_id" => "ec0b2a31-ce70-444f-8734-584a357f1de1", "translatable_type" => "App\Models\Place", "translatable_id" => "9fd6e253-3643-493b-a168-ceb92a84c65c"],
+            ["translation_id" => "d2d41cc9-6650-4e41-9c93-2f238e1b4d2c", "translatable_type" => "App\Models\Place", "translatable_id" => "9fd6e253-3643-493b-a168-ceb92a84c65c"],
+            ["translation_id" => "afe47943-47e9-469f-b4bc-ba480bb21c4b", "translatable_type" => "App\Models\Place", "translatable_id" => "9fd6e253-3643-493b-a168-ceb92a84c65c"],
+            //1455
+            ["translation_id" => "4384ed5b-411f-4fc8-8353-cd0917e11a32", "translatable_type" => "App\Models\Place", "translatable_id" => "e8cad084-d993-4d36-ac47-4d12d5a384c0"],
+            ["translation_id" => "41d7be58-5600-41fb-9087-233114d5e99c", "translatable_type" => "App\Models\Place", "translatable_id" => "e8cad084-d993-4d36-ac47-4d12d5a384c0"],
+            ["translation_id" => "1a010207-27c8-4703-9e31-56f9a21689ab", "translatable_type" => "App\Models\Place", "translatable_id" => "e8cad084-d993-4d36-ac47-4d12d5a384c0"],
+            //1456
+            ["translation_id" => "3215bc72-3498-4497-9519-9767c6fa0dc3", "translatable_type" => "App\Models\Place", "translatable_id" => "aa65f9ea-a0a1-4649-aee9-f58404e29270"],
+            ["translation_id" => "ec5ab305-6dce-4b38-b52c-6ccad4d9ad74", "translatable_type" => "App\Models\Place", "translatable_id" => "aa65f9ea-a0a1-4649-aee9-f58404e29270"],
+            ["translation_id" => "a0d22fc8-3571-4c7c-9f6a-fd6d3f8fbae8", "translatable_type" => "App\Models\Place", "translatable_id" => "aa65f9ea-a0a1-4649-aee9-f58404e29270"],
+            //1457
+            ["translation_id" => "e4c93621-389f-4143-9f53-3e617181d67d", "translatable_type" => "App\Models\Place", "translatable_id" => "69c76497-078c-4057-ac79-51fa2450104f"],
+            ["translation_id" => "ab5196be-2316-4030-bc20-ab7add5a8f1d", "translatable_type" => "App\Models\Place", "translatable_id" => "69c76497-078c-4057-ac79-51fa2450104f"],
+            ["translation_id" => "cd6a3daa-4ba7-4126-a152-a23399e1a7e0", "translatable_type" => "App\Models\Place", "translatable_id" => "69c76497-078c-4057-ac79-51fa2450104f"],
+            //1458
+            ["translation_id" => "46da2946-718a-4ab6-8bf8-05bc3382596d", "translatable_type" => "App\Models\Place", "translatable_id" => "6ae28872-c6dc-4a9d-bd38-1e14da476392"],
+            ["translation_id" => "c2ab3022-4ba1-4b55-b54d-8b3f90fcc673", "translatable_type" => "App\Models\Place", "translatable_id" => "6ae28872-c6dc-4a9d-bd38-1e14da476392"],
+            ["translation_id" => "7b34b969-6022-47a3-a4df-7fa78a520e32", "translatable_type" => "App\Models\Place", "translatable_id" => "6ae28872-c6dc-4a9d-bd38-1e14da476392"],
+            //1459
+            ["translation_id" => "a1cd0e73-54b5-4d58-82ad-89e1eceb1275", "translatable_type" => "App\Models\Place", "translatable_id" => "75b2431c-edd9-4221-b238-0c6b3f195b59"],
+            ["translation_id" => "3dd8b341-b7f9-4206-a34e-772245cb4ea9", "translatable_type" => "App\Models\Place", "translatable_id" => "75b2431c-edd9-4221-b238-0c6b3f195b59"],
+            ["translation_id" => "0bfa17bb-30ef-4d2b-9f64-15fdd8d300aa", "translatable_type" => "App\Models\Place", "translatable_id" => "75b2431c-edd9-4221-b238-0c6b3f195b59"],
+            //1460
+            ["translation_id" => "f8d1e0be-c8d5-4ff7-8403-ca7988eecd7d", "translatable_type" => "App\Models\Place", "translatable_id" => "d1cacb8a-910d-47cc-bc6f-89167527a231"],
+            ["translation_id" => "7ea90ad1-5b90-4ecf-b950-66ce1e718448", "translatable_type" => "App\Models\Place", "translatable_id" => "d1cacb8a-910d-47cc-bc6f-89167527a231"],
+            ["translation_id" => "692dda4b-aa2c-42ba-9f4d-ba423debc213", "translatable_type" => "App\Models\Place", "translatable_id" => "d1cacb8a-910d-47cc-bc6f-89167527a231"],
+            //1461
+            ["translation_id" => "c6d977f7-6f64-404c-8cd4-2377c22b197a", "translatable_type" => "App\Models\Place", "translatable_id" => "277a125e-6e99-49fe-88a2-e4f601c63e9e"],
+            ["translation_id" => "2aa2f125-1ab9-4d8f-9db7-82aa0019524a", "translatable_type" => "App\Models\Place", "translatable_id" => "277a125e-6e99-49fe-88a2-e4f601c63e9e"],
+            ["translation_id" => "9f6a82da-c730-465b-9d0b-76849bee5f7a", "translatable_type" => "App\Models\Place", "translatable_id" => "277a125e-6e99-49fe-88a2-e4f601c63e9e"],
+            //1462
+            ["translation_id" => "b602e41a-841b-4393-bfe2-997cc91c74df", "translatable_type" => "App\Models\Place", "translatable_id" => "95d32643-dd13-49df-a5eb-9dfcc3022b98"],
+            ["translation_id" => "719c81d6-490e-4556-a4f5-16616b448f8e", "translatable_type" => "App\Models\Place", "translatable_id" => "95d32643-dd13-49df-a5eb-9dfcc3022b98"],
+            ["translation_id" => "8f845f0d-83b0-483b-83dc-3cfed665082e", "translatable_type" => "App\Models\Place", "translatable_id" => "95d32643-dd13-49df-a5eb-9dfcc3022b98"],
+            //1463
+            ["translation_id" => "a9b658fa-4f8d-4da1-b43f-d40957a5f211", "translatable_type" => "App\Models\Place", "translatable_id" => "40514a79-9007-4634-b442-c35e09fcaa87"],
+            ["translation_id" => "83247df8-84df-4650-8d2a-291d06205dd6", "translatable_type" => "App\Models\Place", "translatable_id" => "40514a79-9007-4634-b442-c35e09fcaa87"],
+            ["translation_id" => "d63712c2-b06e-4f90-a640-fda9fc4dd3ad", "translatable_type" => "App\Models\Place", "translatable_id" => "40514a79-9007-4634-b442-c35e09fcaa87"],
+            //1464
+            ["translation_id" => "feb3fadd-a7a8-42d4-912e-6d6f201be94f", "translatable_type" => "App\Models\Place", "translatable_id" => "20e4cd7c-f915-4f07-b575-33a99b33dbbd"],
+            ["translation_id" => "69d3dd46-1784-49b6-abb2-4e54e5ef3eed", "translatable_type" => "App\Models\Place", "translatable_id" => "20e4cd7c-f915-4f07-b575-33a99b33dbbd"],
+            ["translation_id" => "e7f84952-a01d-469c-9d3d-9c30e0a8a990", "translatable_type" => "App\Models\Place", "translatable_id" => "20e4cd7c-f915-4f07-b575-33a99b33dbbd"],
+            //1465
+            ["translation_id" => "0b58a18b-fbf5-4bd7-a37f-7ebab7ae4eaf", "translatable_type" => "App\Models\Place", "translatable_id" => "fb1834ec-74b4-495a-ae8b-1925540d139f"],
+            ["translation_id" => "857d758d-ee91-4aa0-ad40-bb1990c08fc0", "translatable_type" => "App\Models\Place", "translatable_id" => "fb1834ec-74b4-495a-ae8b-1925540d139f"],
+            ["translation_id" => "93cd68bc-a188-4980-b4a3-7bcf856918c1", "translatable_type" => "App\Models\Place", "translatable_id" => "fb1834ec-74b4-495a-ae8b-1925540d139f"],
+            //1466
+            ["translation_id" => "42fb6398-c990-45b3-8b76-69c7fab30951", "translatable_type" => "App\Models\Place", "translatable_id" => "45841042-8077-42e9-ac80-66237414e8cc"],
+            ["translation_id" => "f5dad65d-6643-4716-9c1d-1b4b21d67c33", "translatable_type" => "App\Models\Place", "translatable_id" => "45841042-8077-42e9-ac80-66237414e8cc"],
+            ["translation_id" => "4635dc46-5438-48fc-b461-63e91760f52e", "translatable_type" => "App\Models\Place", "translatable_id" => "45841042-8077-42e9-ac80-66237414e8cc"],
+            //1467
+            ["translation_id" => "fd44ed26-233a-4ace-81d9-a2fff0821f17", "translatable_type" => "App\Models\Place", "translatable_id" => "f6e31b7f-9d46-4662-81dd-ec38e4afc4ac"],
+            ["translation_id" => "6b101596-355c-4900-b743-327ca9df6a4e", "translatable_type" => "App\Models\Place", "translatable_id" => "f6e31b7f-9d46-4662-81dd-ec38e4afc4ac"],
+            ["translation_id" => "ed109efe-cfb5-488c-8091-2461d31eb5d4", "translatable_type" => "App\Models\Place", "translatable_id" => "f6e31b7f-9d46-4662-81dd-ec38e4afc4ac"],
+            //1468
+            ["translation_id" => "955b673d-3d11-4779-af3d-0562883e1fc0", "translatable_type" => "App\Models\Place", "translatable_id" => "e2668a9b-7e1f-443b-8fff-98e25db3d5f4"],
+            ["translation_id" => "32d2540a-ee2c-42d6-bfab-79552ff52410", "translatable_type" => "App\Models\Place", "translatable_id" => "e2668a9b-7e1f-443b-8fff-98e25db3d5f4"],
+            ["translation_id" => "9af63721-4005-4e7a-a33d-4910a808e5d4", "translatable_type" => "App\Models\Place", "translatable_id" => "e2668a9b-7e1f-443b-8fff-98e25db3d5f4"],
+            //1469
+            ["translation_id" => "c8b1cda9-5be0-415c-9ba4-4486a6899038", "translatable_type" => "App\Models\Place", "translatable_id" => "61343489-9046-4e7b-980c-be61e3d5b7c2"],
+            ["translation_id" => "b5139202-19a4-4459-a618-257afd830a75", "translatable_type" => "App\Models\Place", "translatable_id" => "61343489-9046-4e7b-980c-be61e3d5b7c2"],
+            ["translation_id" => "c6460e98-d3c7-4525-b1eb-228ddbcefa28", "translatable_type" => "App\Models\Place", "translatable_id" => "61343489-9046-4e7b-980c-be61e3d5b7c2"],
+            //1470
+            ["translation_id" => "30fa079c-208e-4dd4-a56a-041b0cefad66", "translatable_type" => "App\Models\Place", "translatable_id" => "e579538c-8cee-4d08-b79a-f6b01d224039"],
+            ["translation_id" => "495a514f-a3c2-4969-8f2c-e90015381439", "translatable_type" => "App\Models\Place", "translatable_id" => "e579538c-8cee-4d08-b79a-f6b01d224039"],
+            ["translation_id" => "21e81bd1-8aa0-4716-aab3-92841c22f2bf", "translatable_type" => "App\Models\Place", "translatable_id" => "e579538c-8cee-4d08-b79a-f6b01d224039"],
+            //1471
+            ["translation_id" => "bf53f4c6-f599-4bf2-bc9d-00c8db86670e", "translatable_type" => "App\Models\Place", "translatable_id" => "4235f012-90e7-42b4-94ea-528ab33505f9"],
+            ["translation_id" => "5a2f8aff-2297-4a9e-82ca-9a697cead7f7", "translatable_type" => "App\Models\Place", "translatable_id" => "4235f012-90e7-42b4-94ea-528ab33505f9"],
+            ["translation_id" => "e8940811-42fe-42b2-8644-bb115cf93df7", "translatable_type" => "App\Models\Place", "translatable_id" => "4235f012-90e7-42b4-94ea-528ab33505f9"],
+            //1472
+            ["translation_id" => "6b82da9c-8d4d-49c0-8d4b-fa3850b8f17f", "translatable_type" => "App\Models\Place", "translatable_id" => "152aec52-59c6-4ad6-a51d-a3630a6e9cb8"],
+            ["translation_id" => "2ef1736e-cdbf-4d01-82f7-f8d3113757fa", "translatable_type" => "App\Models\Place", "translatable_id" => "152aec52-59c6-4ad6-a51d-a3630a6e9cb8"],
+            ["translation_id" => "82abf1ef-3f6a-4df9-8d4f-6550592b71f4", "translatable_type" => "App\Models\Place", "translatable_id" => "152aec52-59c6-4ad6-a51d-a3630a6e9cb8"],
+            //1473
+            ["translation_id" => "c4493979-5db2-4c4b-b950-75c1dab0ae61", "translatable_type" => "App\Models\Place", "translatable_id" => "9b685306-16d8-43ac-a29b-a039a5f3b310"],
+            ["translation_id" => "06cf3951-e3fa-40e1-aafd-8e5f44e05115", "translatable_type" => "App\Models\Place", "translatable_id" => "9b685306-16d8-43ac-a29b-a039a5f3b310"],
+            ["translation_id" => "3b6138c1-145e-449b-8b31-4b0b017e38c2", "translatable_type" => "App\Models\Place", "translatable_id" => "9b685306-16d8-43ac-a29b-a039a5f3b310"],
+            //1474
+            ["translation_id" => "e7974ff4-4f4a-402e-8ad2-959337552b8c", "translatable_type" => "App\Models\Place", "translatable_id" => "1b8d8fc9-60fc-4529-b888-f3de165b9dd7"],
+            ["translation_id" => "b0ad9a14-8478-4da8-ade6-90a5b42d07a0", "translatable_type" => "App\Models\Place", "translatable_id" => "1b8d8fc9-60fc-4529-b888-f3de165b9dd7"],
+            ["translation_id" => "48cc5c82-944d-4550-89ee-26defe1aecef", "translatable_type" => "App\Models\Place", "translatable_id" => "1b8d8fc9-60fc-4529-b888-f3de165b9dd7"],
+            //1475
+            ["translation_id" => "5e7eff7d-1c55-4923-8052-7eca544c3d75", "translatable_type" => "App\Models\Place", "translatable_id" => "a2e490eb-d94f-42f5-9525-1c546826dd77"],
+            ["translation_id" => "2d633761-8b59-49f0-9358-527140d812b2", "translatable_type" => "App\Models\Place", "translatable_id" => "a2e490eb-d94f-42f5-9525-1c546826dd77"],
+            ["translation_id" => "db1c482b-8a62-42a1-bb5c-98c341dcc437", "translatable_type" => "App\Models\Place", "translatable_id" => "a2e490eb-d94f-42f5-9525-1c546826dd77"],
+            //1476
+            ["translation_id" => "ad6bd15a-4a47-4917-ad5f-8d1fbdc0ce19", "translatable_type" => "App\Models\Place", "translatable_id" => "86a3c195-d6a4-441e-9df1-30b7ac13bb35"],
+            ["translation_id" => "d65a1aa8-15c9-49bf-8f6a-c567d3a1f742", "translatable_type" => "App\Models\Place", "translatable_id" => "86a3c195-d6a4-441e-9df1-30b7ac13bb35"],
+            ["translation_id" => "eeb14be2-4781-4441-beea-2377c778577f", "translatable_type" => "App\Models\Place", "translatable_id" => "86a3c195-d6a4-441e-9df1-30b7ac13bb35"],
+            //1477
+            ["translation_id" => "05f4e733-bbf0-4093-8985-59ff33f29f94", "translatable_type" => "App\Models\Place", "translatable_id" => "863726e9-06b3-4478-8a15-1f87f9479edb"],
+            ["translation_id" => "14339c95-7b83-42c1-b1d0-eac8310b483e", "translatable_type" => "App\Models\Place", "translatable_id" => "863726e9-06b3-4478-8a15-1f87f9479edb"],
+            ["translation_id" => "f3a1a338-9dc3-42b1-bb63-79154f45196f", "translatable_type" => "App\Models\Place", "translatable_id" => "863726e9-06b3-4478-8a15-1f87f9479edb"],
+            //1478
+            ["translation_id" => "9e2cd965-ec9d-47c3-a0db-dfe4b2ce0896", "translatable_type" => "App\Models\Place", "translatable_id" => "6e8dd610-2ee0-444d-a543-73eee0523d24"],
+            ["translation_id" => "db1bb6c0-93bc-48d3-a02d-cb9690a0bc29", "translatable_type" => "App\Models\Place", "translatable_id" => "6e8dd610-2ee0-444d-a543-73eee0523d24"],
+            ["translation_id" => "1736c425-6fec-4047-8e13-0d6d85d5ea71", "translatable_type" => "App\Models\Place", "translatable_id" => "6e8dd610-2ee0-444d-a543-73eee0523d24"],
+            //1479
+            ["translation_id" => "41985910-213d-4401-a2a0-56b094c59a7e", "translatable_type" => "App\Models\Place", "translatable_id" => "3684d4da-ab1c-4b0a-975b-9117f8465a79"],
+            ["translation_id" => "a4b1525a-a173-483c-9d09-1a922b7065b1", "translatable_type" => "App\Models\Place", "translatable_id" => "3684d4da-ab1c-4b0a-975b-9117f8465a79"],
+            ["translation_id" => "a1d78d5b-693a-41bb-85d2-a633c32f162d", "translatable_type" => "App\Models\Place", "translatable_id" => "3684d4da-ab1c-4b0a-975b-9117f8465a79"],
+            //1480
+            ["translation_id" => "7122518e-e777-4a10-87f6-21dcb2831de7", "translatable_type" => "App\Models\Place", "translatable_id" => "57d1182a-850b-4711-a7e6-3e4adb497f06"],
+            ["translation_id" => "23ce0ac2-316d-4f71-9b19-a95ac830a7d1", "translatable_type" => "App\Models\Place", "translatable_id" => "57d1182a-850b-4711-a7e6-3e4adb497f06"],
+            ["translation_id" => "41e58a58-4a82-449d-92b6-62cfe1621c55", "translatable_type" => "App\Models\Place", "translatable_id" => "57d1182a-850b-4711-a7e6-3e4adb497f06"],
+            //1481
+            ["translation_id" => "f18dad80-8c83-49d1-876e-f5cae85f44dc", "translatable_type" => "App\Models\Place", "translatable_id" => "4259b115-9518-4148-b1d1-b45a35941380"],
+            ["translation_id" => "efff6276-f921-4ef3-9fab-a856246995b8", "translatable_type" => "App\Models\Place", "translatable_id" => "4259b115-9518-4148-b1d1-b45a35941380"],
+            ["translation_id" => "a7259b22-43c1-4405-9a89-f675b4ea2c9d", "translatable_type" => "App\Models\Place", "translatable_id" => "4259b115-9518-4148-b1d1-b45a35941380"],
+            //1482
+            ["translation_id" => "e39c7b79-32f7-422b-88e5-9dcb571bb04b", "translatable_type" => "App\Models\Place", "translatable_id" => "a0b53d2e-fef9-4e9d-a2b8-430e4ad81076"],
+            ["translation_id" => "334d94f9-d00a-47ee-811a-dd24720c06c4", "translatable_type" => "App\Models\Place", "translatable_id" => "a0b53d2e-fef9-4e9d-a2b8-430e4ad81076"],
+            ["translation_id" => "3aecea1f-222a-469d-86d9-9e156f82e45a", "translatable_type" => "App\Models\Place", "translatable_id" => "a0b53d2e-fef9-4e9d-a2b8-430e4ad81076"],
+            //1483
+            ["translation_id" => "8483709d-d2eb-4957-b203-e6def2d2a83c", "translatable_type" => "App\Models\Place", "translatable_id" => "dd5e74fe-1406-48a8-957a-beea48f92a6c"],
+            ["translation_id" => "053ca292-006f-4fce-930e-3f1822ab8be2", "translatable_type" => "App\Models\Place", "translatable_id" => "dd5e74fe-1406-48a8-957a-beea48f92a6c"],
+            ["translation_id" => "dc2ec55b-ccf4-4e1c-939c-69ba5eaccb68", "translatable_type" => "App\Models\Place", "translatable_id" => "dd5e74fe-1406-48a8-957a-beea48f92a6c"],
+            //1484
+            ["translation_id" => "c63e45fe-511c-4647-b74e-74b856e7415e", "translatable_type" => "App\Models\Place", "translatable_id" => "cd33648d-3a0b-4372-952f-e37b5cccfbb3"],
+            ["translation_id" => "1010aaf2-7609-471a-9eb0-ddad288d98a4", "translatable_type" => "App\Models\Place", "translatable_id" => "cd33648d-3a0b-4372-952f-e37b5cccfbb3"],
+            ["translation_id" => "63b6acdc-c9cf-4e98-806d-021f72b836df", "translatable_type" => "App\Models\Place", "translatable_id" => "cd33648d-3a0b-4372-952f-e37b5cccfbb3"],
+            //1485
+            ["translation_id" => "6007873d-d343-48d5-b415-8f88e914e42b", "translatable_type" => "App\Models\Place", "translatable_id" => "61a97901-4c4f-49ee-a7d5-49931218b59d"],
+            ["translation_id" => "0df530e2-7da1-47ce-bf86-83a1dea0087a", "translatable_type" => "App\Models\Place", "translatable_id" => "61a97901-4c4f-49ee-a7d5-49931218b59d"],
+            ["translation_id" => "d437a808-29e5-4ae4-8c83-d293a12f7c3b", "translatable_type" => "App\Models\Place", "translatable_id" => "61a97901-4c4f-49ee-a7d5-49931218b59d"],
+            //1486
+            ["translation_id" => "30d49f4f-e231-4a20-9c03-4df182556588", "translatable_type" => "App\Models\Place", "translatable_id" => "2d3a0ce9-2a7b-43ef-b113-a0aeb540dd36"],
+            ["translation_id" => "757d3bbc-b638-4eb2-aa36-5058c0452402", "translatable_type" => "App\Models\Place", "translatable_id" => "2d3a0ce9-2a7b-43ef-b113-a0aeb540dd36"],
+            ["translation_id" => "37a15e0d-c74d-4987-bc31-33cf47fc6c3e", "translatable_type" => "App\Models\Place", "translatable_id" => "2d3a0ce9-2a7b-43ef-b113-a0aeb540dd36"],
+            //1487
+            ["translation_id" => "dfd499d7-be4e-4c59-8a43-1dcff0450ad1", "translatable_type" => "App\Models\Place", "translatable_id" => "11e4bff7-e089-49c7-b535-379c8cc0ac20"],
+            ["translation_id" => "da5295e1-dac2-4351-8034-966a8a41e287", "translatable_type" => "App\Models\Place", "translatable_id" => "11e4bff7-e089-49c7-b535-379c8cc0ac20"],
+            ["translation_id" => "7522efb2-082d-4bde-9923-2006c4430cda", "translatable_type" => "App\Models\Place", "translatable_id" => "11e4bff7-e089-49c7-b535-379c8cc0ac20"],
+            //1488
+            ["translation_id" => "b0d8d6e9-eebe-4b2c-a432-a5e877a2f77a", "translatable_type" => "App\Models\Place", "translatable_id" => "4d3364d6-8ed6-4edc-ab60-e196be53c452"],
+            ["translation_id" => "d7421995-2f87-41c0-9756-3486bbaa1ce6", "translatable_type" => "App\Models\Place", "translatable_id" => "4d3364d6-8ed6-4edc-ab60-e196be53c452"],
+            ["translation_id" => "7f70f9cf-57d4-4047-b4d0-f499626e270f", "translatable_type" => "App\Models\Place", "translatable_id" => "4d3364d6-8ed6-4edc-ab60-e196be53c452"],
+            //1489
+            ["translation_id" => "ce8f92a4-0b2f-4615-a9be-52ebd1ed3c1f", "translatable_type" => "App\Models\Place", "translatable_id" => "0d7fd834-4c1e-4529-9172-0b21d693cd0b"],
+            ["translation_id" => "8f8f700b-5a67-45ac-8bd8-ed31c5759dc7", "translatable_type" => "App\Models\Place", "translatable_id" => "0d7fd834-4c1e-4529-9172-0b21d693cd0b"],
+            ["translation_id" => "293bd042-01f6-4937-8427-fed2fd4eb039", "translatable_type" => "App\Models\Place", "translatable_id" => "0d7fd834-4c1e-4529-9172-0b21d693cd0b"],
+            //1490
+            ["translation_id" => "c7fd6ed3-4ef6-4908-9005-8557d089cad9", "translatable_type" => "App\Models\Place", "translatable_id" => "5aabcc2b-c519-41bf-97fc-8ac78f8e9340"],
+            ["translation_id" => "d781cdb7-bcb9-4267-acf7-02e5a243822b", "translatable_type" => "App\Models\Place", "translatable_id" => "5aabcc2b-c519-41bf-97fc-8ac78f8e9340"],
+            ["translation_id" => "0f7747eb-748c-4106-8be7-122ed35e84c1", "translatable_type" => "App\Models\Place", "translatable_id" => "5aabcc2b-c519-41bf-97fc-8ac78f8e9340"],
+            //1491
+            ["translation_id" => "3c45fe3f-c2b6-401f-b9c5-bbc2c1387870", "translatable_type" => "App\Models\Place", "translatable_id" => "b3f150f8-f727-44e1-a73e-597be6cb9a13"],
+            ["translation_id" => "31b9077d-01e3-4fd1-92a9-a165e3ca8728", "translatable_type" => "App\Models\Place", "translatable_id" => "b3f150f8-f727-44e1-a73e-597be6cb9a13"],
+            ["translation_id" => "2405468b-49ec-4ac2-9437-f2e7de2acd3f", "translatable_type" => "App\Models\Place", "translatable_id" => "b3f150f8-f727-44e1-a73e-597be6cb9a13"],
+            //1492
+            ["translation_id" => "b550d082-9a21-4a86-adae-7aba20d8b476", "translatable_type" => "App\Models\Place", "translatable_id" => "1aeed78a-7362-466e-a0dc-663d1fb5443e"],
+            ["translation_id" => "02bf8d21-9c00-4482-9e6c-bb30ca3bd85e", "translatable_type" => "App\Models\Place", "translatable_id" => "1aeed78a-7362-466e-a0dc-663d1fb5443e"],
+            ["translation_id" => "1d76c58c-a744-4237-b50d-bf0eb0d15765", "translatable_type" => "App\Models\Place", "translatable_id" => "1aeed78a-7362-466e-a0dc-663d1fb5443e"],
+            //1493
+            ["translation_id" => "42b9ac71-9564-452c-9444-3de075e7af74", "translatable_type" => "App\Models\Place", "translatable_id" => "59cbb09a-ea27-41d4-a7e3-f5fe73b15ad9"],
+            ["translation_id" => "829afb54-ca90-4d3b-a7b8-a4dd52f578bc", "translatable_type" => "App\Models\Place", "translatable_id" => "59cbb09a-ea27-41d4-a7e3-f5fe73b15ad9"],
+            ["translation_id" => "25e3006f-4484-40a0-a388-fe2e3c60dabb", "translatable_type" => "App\Models\Place", "translatable_id" => "59cbb09a-ea27-41d4-a7e3-f5fe73b15ad9"],
+            //1494
+            ["translation_id" => "d1df6487-6cb4-40ae-9aa5-c88b55486ea9", "translatable_type" => "App\Models\Place", "translatable_id" => "fe4720fc-5140-495d-bdc6-6b45f1f13304"],
+            ["translation_id" => "f544b3d9-51a6-4033-b40c-8203c7d382e9", "translatable_type" => "App\Models\Place", "translatable_id" => "fe4720fc-5140-495d-bdc6-6b45f1f13304"],
+            ["translation_id" => "7ca67c79-57d9-4ac2-95f5-19e0a041f5d1", "translatable_type" => "App\Models\Place", "translatable_id" => "fe4720fc-5140-495d-bdc6-6b45f1f13304"],
+            //1495
+            ["translation_id" => "9bc286bd-62ef-408b-a6dd-698d0a0d4227", "translatable_type" => "App\Models\Place", "translatable_id" => "0d7a9b2e-1b62-4182-a12c-1151f993b4ba"],
+            ["translation_id" => "e05ef772-ca78-4c3b-9156-d59d3cec6925", "translatable_type" => "App\Models\Place", "translatable_id" => "0d7a9b2e-1b62-4182-a12c-1151f993b4ba"],
+            ["translation_id" => "2bb6fa18-d430-4482-860e-92952b1a97a5", "translatable_type" => "App\Models\Place", "translatable_id" => "0d7a9b2e-1b62-4182-a12c-1151f993b4ba"],
+            //1496
+            ["translation_id" => "ce311234-34cc-4d74-bf45-d492585bfce2", "translatable_type" => "App\Models\Place", "translatable_id" => "43b1b1bd-9ef9-44e7-96f9-f9158c59ee7b"],
+            ["translation_id" => "fa9d2605-a533-4ee1-beae-ff19858233ca", "translatable_type" => "App\Models\Place", "translatable_id" => "43b1b1bd-9ef9-44e7-96f9-f9158c59ee7b"],
+            ["translation_id" => "434d76f1-0d91-48a2-9db5-a51f0cee3e4a", "translatable_type" => "App\Models\Place", "translatable_id" => "43b1b1bd-9ef9-44e7-96f9-f9158c59ee7b"],
+            //1497
+            ["translation_id" => "3c239ac0-581a-4581-95b4-6ad33e9075f3", "translatable_type" => "App\Models\Place", "translatable_id" => "b23fbbec-c307-43a3-80c5-1401ed495b3f"],
+            ["translation_id" => "3511fe60-9530-4a90-8d6a-dbd054364740", "translatable_type" => "App\Models\Place", "translatable_id" => "b23fbbec-c307-43a3-80c5-1401ed495b3f"],
+            ["translation_id" => "da273786-1770-4b2b-8ff3-863870ba915c", "translatable_type" => "App\Models\Place", "translatable_id" => "b23fbbec-c307-43a3-80c5-1401ed495b3f"],
+            //1498
+            ["translation_id" => "2fb628e6-0e77-4c95-a6c9-42d5b11d3f5d", "translatable_type" => "App\Models\Place", "translatable_id" => "bbeb3bc5-7bab-4075-b17f-0b6144912046"],
+            ["translation_id" => "f3bc99a4-0e11-4b12-851f-0a2737406643", "translatable_type" => "App\Models\Place", "translatable_id" => "bbeb3bc5-7bab-4075-b17f-0b6144912046"],
+            ["translation_id" => "ccb1e94a-3188-4263-9156-0dea33756a8e", "translatable_type" => "App\Models\Place", "translatable_id" => "bbeb3bc5-7bab-4075-b17f-0b6144912046"],
+            //1499
+            ["translation_id" => "2f9a3a44-5ce9-4d1d-abd1-c5345ef51daa", "translatable_type" => "App\Models\Place", "translatable_id" => "2899e02e-d91f-4905-88be-8c7993f8bed9"],
+            ["translation_id" => "859bc190-51e3-4edc-8990-39de712c7cee", "translatable_type" => "App\Models\Place", "translatable_id" => "2899e02e-d91f-4905-88be-8c7993f8bed9"],
+            ["translation_id" => "c60b3802-e54c-49fb-bf37-25d8af0310ef", "translatable_type" => "App\Models\Place", "translatable_id" => "2899e02e-d91f-4905-88be-8c7993f8bed9"],
+            //1500
+            ["translation_id" => "89933156-bf64-4299-a3e5-2e09d477fb47", "translatable_type" => "App\Models\Place", "translatable_id" => "59dfce6b-3d20-4d01-af90-f22b9123e0f9"],
+            ["translation_id" => "c9823980-25ef-4e1c-bd17-408d52e5795a", "translatable_type" => "App\Models\Place", "translatable_id" => "59dfce6b-3d20-4d01-af90-f22b9123e0f9"],
+            ["translation_id" => "2ab97644-8ce2-42a3-b3ec-152f75dc649c", "translatable_type" => "App\Models\Place", "translatable_id" => "59dfce6b-3d20-4d01-af90-f22b9123e0f9"],
 
             //Languages
             //English
@@ -8060,7 +10058,3008 @@ class TranslatableSeeder extends Seeder
             ["translation_id" => "6f67d75b-7ffa-43df-afda-1a06a77d7962", "translatable_type" => "App\Models\Description", "translatable_id" => "44da8a6d-533a-47e6-8d20-d83468ef956f"],
             ["translation_id" => "970639d0-3bc8-4599-b5ca-d35fc9b60a5c", "translatable_type" => "App\Models\Description", "translatable_id" => "44da8a6d-533a-47e6-8d20-d83468ef956f"],
             ["translation_id" => "f9ee614c-77d7-4d96-b30c-f0b8463aab8e", "translatable_type" => "App\Models\Description", "translatable_id" => "44da8a6d-533a-47e6-8d20-d83468ef956f"],
-            ];
+            //1001
+            ["translation_id" => "a2fff22e-2b4a-402f-95e0-ba66849ba01d", "translatable_type" => "App\Models\Description", "translatable_id" => "8ed1760a-b996-4617-a2fd-c69a05bdce93"],
+            ["translation_id" => "c3e799a9-cf40-404f-995c-50c71ce23f49", "translatable_type" => "App\Models\Description", "translatable_id" => "8ed1760a-b996-4617-a2fd-c69a05bdce93"],
+            ["translation_id" => "60845631-9758-44b8-9db8-fb6f22c0764a", "translatable_type" => "App\Models\Description", "translatable_id" => "8ed1760a-b996-4617-a2fd-c69a05bdce93"],
+            //1002
+            ["translation_id" => "a117d056-9617-4389-9048-9aca65f93824", "translatable_type" => "App\Models\Description", "translatable_id" => "32dc5940-24a6-4ebd-bee6-ed4568e73411"],
+            ["translation_id" => "b97829a7-f2c3-47ea-b74f-fb44e4a5fc9d", "translatable_type" => "App\Models\Description", "translatable_id" => "32dc5940-24a6-4ebd-bee6-ed4568e73411"],
+            ["translation_id" => "ce0200f6-82ed-4e1a-be3f-fdf424c0013e", "translatable_type" => "App\Models\Description", "translatable_id" => "32dc5940-24a6-4ebd-bee6-ed4568e73411"],
+            //1003
+            ["translation_id" => "63e1d8b2-f34e-4118-9e9d-4b26a47cbcdb", "translatable_type" => "App\Models\Description", "translatable_id" => "43e1487a-ca94-43bc-9609-4dbde97ef9c6"],
+            ["translation_id" => "6fed73c6-40af-4941-8604-3e8932690ebd", "translatable_type" => "App\Models\Description", "translatable_id" => "43e1487a-ca94-43bc-9609-4dbde97ef9c6"],
+            ["translation_id" => "42fdc79f-e298-44a6-bf03-25b20402fd01", "translatable_type" => "App\Models\Description", "translatable_id" => "43e1487a-ca94-43bc-9609-4dbde97ef9c6"],
+            //1004
+            ["translation_id" => "75cff807-961f-4ad9-bd46-3eae3a293fde", "translatable_type" => "App\Models\Description", "translatable_id" => "8bf67598-8566-4c3f-b0d6-d9e25a722e60"],
+            ["translation_id" => "9aec28d1-0575-402a-bc81-d5ef112565d3", "translatable_type" => "App\Models\Description", "translatable_id" => "8bf67598-8566-4c3f-b0d6-d9e25a722e60"],
+            ["translation_id" => "77ac3462-ba90-4309-a898-7531ac2f6f50", "translatable_type" => "App\Models\Description", "translatable_id" => "8bf67598-8566-4c3f-b0d6-d9e25a722e60"],
+            //1005
+            ["translation_id" => "1969330e-345f-4cef-94fd-1886ffa7ebde", "translatable_type" => "App\Models\Description", "translatable_id" => "ca3f6628-5be5-4f06-81f6-2d1090821b1a"],
+            ["translation_id" => "03e5cb24-8491-48b6-be06-9f6a8df7cc64", "translatable_type" => "App\Models\Description", "translatable_id" => "ca3f6628-5be5-4f06-81f6-2d1090821b1a"],
+            ["translation_id" => "7e2ea5e8-d3bb-4fd7-92f7-ed1b96d5e1a6", "translatable_type" => "App\Models\Description", "translatable_id" => "ca3f6628-5be5-4f06-81f6-2d1090821b1a"],
+            //1006
+            ["translation_id" => "5675233f-f270-4ea0-9412-ab53dd51a228", "translatable_type" => "App\Models\Description", "translatable_id" => "56740ab7-e84f-4782-bbae-64f2e8536625"],
+            ["translation_id" => "f7284e4d-5733-4ec7-bcf1-5b13ad8090e6", "translatable_type" => "App\Models\Description", "translatable_id" => "56740ab7-e84f-4782-bbae-64f2e8536625"],
+            ["translation_id" => "e6543b5c-5455-47b9-8be9-375350de7f01", "translatable_type" => "App\Models\Description", "translatable_id" => "56740ab7-e84f-4782-bbae-64f2e8536625"],
+            //1007
+            ["translation_id" => "833abe77-57a2-4b85-9f34-25fda1052fa4", "translatable_type" => "App\Models\Description", "translatable_id" => "bf273dcb-ca2e-4b8b-9ff5-8191be57b8fa"],
+            ["translation_id" => "e91453dc-6e14-4e3e-ac39-8374063305b0", "translatable_type" => "App\Models\Description", "translatable_id" => "bf273dcb-ca2e-4b8b-9ff5-8191be57b8fa"],
+            ["translation_id" => "abb5cbf1-2fbf-4ea1-9d2b-8118601451be", "translatable_type" => "App\Models\Description", "translatable_id" => "bf273dcb-ca2e-4b8b-9ff5-8191be57b8fa"],
+            //1008
+            ["translation_id" => "bff36e63-13fa-4b61-b2df-1812d9580069", "translatable_type" => "App\Models\Description", "translatable_id" => "2050a80e-eca8-4e15-8a0a-045473096cab"],
+            ["translation_id" => "20ed8359-f81e-4f13-ba09-664ee95c1816", "translatable_type" => "App\Models\Description", "translatable_id" => "2050a80e-eca8-4e15-8a0a-045473096cab"],
+            ["translation_id" => "225d0c46-64f3-42f7-9b63-1e2372846834", "translatable_type" => "App\Models\Description", "translatable_id" => "2050a80e-eca8-4e15-8a0a-045473096cab"],
+            //1009
+            ["translation_id" => "6110e009-4b94-4119-965a-1fbb67d31d47", "translatable_type" => "App\Models\Description", "translatable_id" => "ebd5f514-7d45-43ae-8048-bbbb1d98b726"],
+            ["translation_id" => "d729fe5a-e9a6-4d5a-9021-b3bf0bd43e7a", "translatable_type" => "App\Models\Description", "translatable_id" => "ebd5f514-7d45-43ae-8048-bbbb1d98b726"],
+            ["translation_id" => "f7f5c6e4-1a2a-4684-98df-68dac7f522c7", "translatable_type" => "App\Models\Description", "translatable_id" => "ebd5f514-7d45-43ae-8048-bbbb1d98b726"],
+            //1010
+            ["translation_id" => "ca211313-55a5-4551-85ac-2ccd31e2ce7a", "translatable_type" => "App\Models\Description", "translatable_id" => "21b98ae4-c343-41b9-a7ac-0be4c8c06010"],
+            ["translation_id" => "e8302a87-3da7-4b62-a266-3a7237fc4845", "translatable_type" => "App\Models\Description", "translatable_id" => "21b98ae4-c343-41b9-a7ac-0be4c8c06010"],
+            ["translation_id" => "8bc5cb99-1b8c-46ff-88de-ed175d359c30", "translatable_type" => "App\Models\Description", "translatable_id" => "21b98ae4-c343-41b9-a7ac-0be4c8c06010"],
+            //1011
+            ["translation_id" => "3c7b1f5d-4ef9-462d-81c4-c1920ab7e9ba", "translatable_type" => "App\Models\Description", "translatable_id" => "b84fe56f-da17-4aa9-b515-ab9c94ea89d8"],
+            ["translation_id" => "34d54b1b-1186-4abb-aa34-a8257c7fa853", "translatable_type" => "App\Models\Description", "translatable_id" => "b84fe56f-da17-4aa9-b515-ab9c94ea89d8"],
+            ["translation_id" => "91220f13-3860-4c84-8b23-cfd3ec7d15c5", "translatable_type" => "App\Models\Description", "translatable_id" => "b84fe56f-da17-4aa9-b515-ab9c94ea89d8"],
+            //1012
+            ["translation_id" => "db499e64-b9b2-43f0-8818-0e17e540e2de", "translatable_type" => "App\Models\Description", "translatable_id" => "bd5908a9-67fb-495e-b5fb-c35d22bc56fa"],
+            ["translation_id" => "30efa9d3-1b23-4999-9278-d676889103d5", "translatable_type" => "App\Models\Description", "translatable_id" => "bd5908a9-67fb-495e-b5fb-c35d22bc56fa"],
+            ["translation_id" => "b3433499-0695-424d-98cc-43035e3d869e", "translatable_type" => "App\Models\Description", "translatable_id" => "bd5908a9-67fb-495e-b5fb-c35d22bc56fa"],
+            //1013
+            ["translation_id" => "6d6d71b5-a452-4934-9b3f-beeaeb917399", "translatable_type" => "App\Models\Description", "translatable_id" => "bea74d75-37da-4926-9dbd-d9a64313b67e"],
+            ["translation_id" => "9fa11ba8-81d0-4f9f-b5a5-30e1a2780c19", "translatable_type" => "App\Models\Description", "translatable_id" => "bea74d75-37da-4926-9dbd-d9a64313b67e"],
+            ["translation_id" => "4eb128d9-3ab4-4ceb-aacf-ac1b4f4a7397", "translatable_type" => "App\Models\Description", "translatable_id" => "bea74d75-37da-4926-9dbd-d9a64313b67e"],
+            //1014
+            ["translation_id" => "4bb9e737-5a36-4abf-8912-92e4579976e3", "translatable_type" => "App\Models\Description", "translatable_id" => "b3fba4f0-e911-4989-9e99-36391ec83b49"],
+            ["translation_id" => "ef65c0f9-cd2a-48cb-b750-d8ab80b63fdb", "translatable_type" => "App\Models\Description", "translatable_id" => "b3fba4f0-e911-4989-9e99-36391ec83b49"],
+            ["translation_id" => "60b75751-53f5-4f4d-9679-239fb27e7a9d", "translatable_type" => "App\Models\Description", "translatable_id" => "b3fba4f0-e911-4989-9e99-36391ec83b49"],
+            //1015
+            ["translation_id" => "fbca0b63-7d24-4e80-b16f-f567e9dd0431", "translatable_type" => "App\Models\Description", "translatable_id" => "1cc35912-2582-4fd1-93ca-af379f296d27"],
+            ["translation_id" => "7fe11f5a-d2eb-4e28-b9b0-3027e446cd6d", "translatable_type" => "App\Models\Description", "translatable_id" => "1cc35912-2582-4fd1-93ca-af379f296d27"],
+            ["translation_id" => "c2667477-ae3f-4e58-a725-c52283f0b656", "translatable_type" => "App\Models\Description", "translatable_id" => "1cc35912-2582-4fd1-93ca-af379f296d27"],
+            //1016
+            ["translation_id" => "99a01cb7-7753-44a9-8976-f292d09f6bc9", "translatable_type" => "App\Models\Description", "translatable_id" => "d61d7ee3-5fc7-4bab-8c18-b80b68abbc0b"],
+            ["translation_id" => "1d4ac05e-1773-453f-90cc-67b0bbfa9fb7", "translatable_type" => "App\Models\Description", "translatable_id" => "d61d7ee3-5fc7-4bab-8c18-b80b68abbc0b"],
+            ["translation_id" => "088d5cf6-bde5-4547-94bf-4a5ad8e907ef", "translatable_type" => "App\Models\Description", "translatable_id" => "d61d7ee3-5fc7-4bab-8c18-b80b68abbc0b"],
+            //1017
+            ["translation_id" => "438a4ee6-008b-42e9-b87e-9a34a8c33d41", "translatable_type" => "App\Models\Description", "translatable_id" => "669231f7-b0db-42a9-a200-7887575bce87"],
+            ["translation_id" => "ad4950ba-743e-4430-b1bb-81479340fc82", "translatable_type" => "App\Models\Description", "translatable_id" => "669231f7-b0db-42a9-a200-7887575bce87"],
+            ["translation_id" => "95326906-8f34-442f-9b23-724a344402aa", "translatable_type" => "App\Models\Description", "translatable_id" => "669231f7-b0db-42a9-a200-7887575bce87"],
+            //1018
+            ["translation_id" => "b1048065-defb-443b-affa-67cab25d5926", "translatable_type" => "App\Models\Description", "translatable_id" => "65b265e8-e253-44f2-b220-b285aeac0eb2"],
+            ["translation_id" => "504f617f-d55e-4f90-8a1d-50ba6de4d1da", "translatable_type" => "App\Models\Description", "translatable_id" => "65b265e8-e253-44f2-b220-b285aeac0eb2"],
+            ["translation_id" => "f5884560-5164-413d-b4de-b9427d7a2a69", "translatable_type" => "App\Models\Description", "translatable_id" => "65b265e8-e253-44f2-b220-b285aeac0eb2"],
+            //1019
+            ["translation_id" => "23b946d8-3f42-4253-87f7-03d16dff45d3", "translatable_type" => "App\Models\Description", "translatable_id" => "d2f97848-55bc-43e3-a76d-baa058fa3658"],
+            ["translation_id" => "5028ec8b-24af-4980-8ada-0a99b93fa3ed", "translatable_type" => "App\Models\Description", "translatable_id" => "d2f97848-55bc-43e3-a76d-baa058fa3658"],
+            ["translation_id" => "db9082ee-a92b-48a2-83b7-187031a43d40", "translatable_type" => "App\Models\Description", "translatable_id" => "d2f97848-55bc-43e3-a76d-baa058fa3658"],
+            //1020
+            ["translation_id" => "ebaa743a-4b9c-4d45-a066-765c129ac89a", "translatable_type" => "App\Models\Description", "translatable_id" => "3d6b1eef-6111-4bd0-9948-f7d929778e45"],
+            ["translation_id" => "d351c352-f538-47e0-b176-e6af87dc7d94", "translatable_type" => "App\Models\Description", "translatable_id" => "3d6b1eef-6111-4bd0-9948-f7d929778e45"],
+            ["translation_id" => "34913058-7e0e-4e5f-9617-7993c68e2bec", "translatable_type" => "App\Models\Description", "translatable_id" => "3d6b1eef-6111-4bd0-9948-f7d929778e45"],
+            //1021
+            ["translation_id" => "206e4ab9-452a-4360-9a16-4ee6cc818012", "translatable_type" => "App\Models\Description", "translatable_id" => "54109561-92f9-4a1c-a583-88107e7ff5a4"],
+            ["translation_id" => "efd68036-3dc4-4d53-ba16-154180e5d552", "translatable_type" => "App\Models\Description", "translatable_id" => "54109561-92f9-4a1c-a583-88107e7ff5a4"],
+            ["translation_id" => "b1175e41-34b2-4ce7-bc80-2b31a51e1b02", "translatable_type" => "App\Models\Description", "translatable_id" => "54109561-92f9-4a1c-a583-88107e7ff5a4"],
+            //1022
+            ["translation_id" => "535f9d24-aae9-4cc9-af7e-a962feba080e", "translatable_type" => "App\Models\Description", "translatable_id" => "8e090745-6075-41b1-8926-397e3ba50d9f"],
+            ["translation_id" => "03a9c022-b4c5-4ae2-a5a9-72f83a8b145d", "translatable_type" => "App\Models\Description", "translatable_id" => "8e090745-6075-41b1-8926-397e3ba50d9f"],
+            ["translation_id" => "9e85271d-c14f-4e72-a17e-d122643ba8c6", "translatable_type" => "App\Models\Description", "translatable_id" => "8e090745-6075-41b1-8926-397e3ba50d9f"],
+            //1023
+            ["translation_id" => "85fb357c-56c0-4b24-b3bb-f4c58bc16940", "translatable_type" => "App\Models\Description", "translatable_id" => "09509922-d202-405b-a4cc-9d9b3f2719c4"],
+            ["translation_id" => "a36aec45-55b4-46e9-8a10-c6268a038fc8", "translatable_type" => "App\Models\Description", "translatable_id" => "09509922-d202-405b-a4cc-9d9b3f2719c4"],
+            ["translation_id" => "9980ecce-13e9-4cb2-b5c5-5682da4507d1", "translatable_type" => "App\Models\Description", "translatable_id" => "09509922-d202-405b-a4cc-9d9b3f2719c4"],
+            //1024
+            ["translation_id" => "c2162080-d6e5-45ce-a308-8b187b184918", "translatable_type" => "App\Models\Description", "translatable_id" => "015d3785-5522-447c-8c20-a4c6e5bd503a"],
+            ["translation_id" => "2845c014-905b-4466-90d1-1b3978faec84", "translatable_type" => "App\Models\Description", "translatable_id" => "015d3785-5522-447c-8c20-a4c6e5bd503a"],
+            ["translation_id" => "58883810-39d9-470b-8e4e-efbddcff7f5e", "translatable_type" => "App\Models\Description", "translatable_id" => "015d3785-5522-447c-8c20-a4c6e5bd503a"],
+            //1025
+            ["translation_id" => "eeab70f6-20cc-4f5b-858f-323d50d0ecc7", "translatable_type" => "App\Models\Description", "translatable_id" => "7834cd80-dcc5-4499-b850-398b7f2232f0"],
+            ["translation_id" => "5e5d5229-6f16-4a4d-90a2-96ec19077219", "translatable_type" => "App\Models\Description", "translatable_id" => "7834cd80-dcc5-4499-b850-398b7f2232f0"],
+            ["translation_id" => "3092a6ce-7186-4058-9399-43feb51e8ad3", "translatable_type" => "App\Models\Description", "translatable_id" => "7834cd80-dcc5-4499-b850-398b7f2232f0"],
+            //1026
+            ["translation_id" => "639d0e21-5d8d-4b2e-b108-4ad7008deb36", "translatable_type" => "App\Models\Description", "translatable_id" => "2fb4f486-8d60-4fed-9b07-825beffd66ba"],
+            ["translation_id" => "a7de4582-0536-4c08-a9ee-8c37379eda61", "translatable_type" => "App\Models\Description", "translatable_id" => "2fb4f486-8d60-4fed-9b07-825beffd66ba"],
+            ["translation_id" => "78f6d6b3-3b68-444e-8095-568b6600678c", "translatable_type" => "App\Models\Description", "translatable_id" => "2fb4f486-8d60-4fed-9b07-825beffd66ba"],
+            //1027
+            ["translation_id" => "5a6e5c92-a872-4d9f-8581-5e73806a4ef7", "translatable_type" => "App\Models\Description", "translatable_id" => "a12719f3-cba9-443d-8c24-da13a2689efe"],
+            ["translation_id" => "a293f9f1-34b3-4534-a8f2-1dea4b99c4fd", "translatable_type" => "App\Models\Description", "translatable_id" => "a12719f3-cba9-443d-8c24-da13a2689efe"],
+            ["translation_id" => "bf8b9643-1480-45c6-bb57-aeea2db21aed", "translatable_type" => "App\Models\Description", "translatable_id" => "a12719f3-cba9-443d-8c24-da13a2689efe"],
+            //1028
+            ["translation_id" => "f00a184e-414f-4f05-bdae-09ac9c42971e", "translatable_type" => "App\Models\Description", "translatable_id" => "8ea80b90-3b18-42f3-b799-9c8c44ccbea3"],
+            ["translation_id" => "e66fb768-4f25-4b30-912d-f2c35c6340b2", "translatable_type" => "App\Models\Description", "translatable_id" => "8ea80b90-3b18-42f3-b799-9c8c44ccbea3"],
+            ["translation_id" => "6e109dd5-a793-4d3a-9341-6fbf301ec1d8", "translatable_type" => "App\Models\Description", "translatable_id" => "8ea80b90-3b18-42f3-b799-9c8c44ccbea3"],
+            //1029
+            ["translation_id" => "6a6fb4f3-fbcb-49e9-9ff6-1885d460d623", "translatable_type" => "App\Models\Description", "translatable_id" => "8c30dca3-ed6b-4a16-9175-9d67a4e2e5a8"],
+            ["translation_id" => "fe3468f3-b626-476c-b314-cf7f9c0941e6", "translatable_type" => "App\Models\Description", "translatable_id" => "8c30dca3-ed6b-4a16-9175-9d67a4e2e5a8"],
+            ["translation_id" => "f4335248-2b69-452a-a0c4-800557e75a40", "translatable_type" => "App\Models\Description", "translatable_id" => "8c30dca3-ed6b-4a16-9175-9d67a4e2e5a8"],
+            //1030
+            ["translation_id" => "b7a65e2a-2bb9-4e70-8fe3-86d128dfca90", "translatable_type" => "App\Models\Description", "translatable_id" => "3041deb0-8fee-433e-a66c-dd01d0e194c3"],
+            ["translation_id" => "85ff9d89-be70-45f0-ac01-24e92f29f16c", "translatable_type" => "App\Models\Description", "translatable_id" => "3041deb0-8fee-433e-a66c-dd01d0e194c3"],
+            ["translation_id" => "67dfe422-4a59-4965-9c39-f521d488abe5", "translatable_type" => "App\Models\Description", "translatable_id" => "3041deb0-8fee-433e-a66c-dd01d0e194c3"],
+            //1031
+            ["translation_id" => "d9e60a1d-7c79-4d46-a756-016621ad19d5", "translatable_type" => "App\Models\Description", "translatable_id" => "51c0c5f2-0b39-414e-a4f6-622dc9c70e1e"],
+            ["translation_id" => "caff4676-3b91-461d-9d15-595805801e80", "translatable_type" => "App\Models\Description", "translatable_id" => "51c0c5f2-0b39-414e-a4f6-622dc9c70e1e"],
+            ["translation_id" => "69c0e1ff-3c44-4471-b78a-0c0aa2d70609", "translatable_type" => "App\Models\Description", "translatable_id" => "51c0c5f2-0b39-414e-a4f6-622dc9c70e1e"],
+            //1032
+            ["translation_id" => "c24aad36-195c-4485-afa4-a8bda7b55064", "translatable_type" => "App\Models\Description", "translatable_id" => "2ec9b8c3-0257-4052-937c-8ea39d0fd7f8"],
+            ["translation_id" => "7eaa144d-477c-41d1-9764-d216af75e237", "translatable_type" => "App\Models\Description", "translatable_id" => "2ec9b8c3-0257-4052-937c-8ea39d0fd7f8"],
+            ["translation_id" => "e424be96-f48f-4f02-8e19-f2178a63e5f4", "translatable_type" => "App\Models\Description", "translatable_id" => "2ec9b8c3-0257-4052-937c-8ea39d0fd7f8"],
+            //1033
+            ["translation_id" => "df82fe6d-e6ab-4281-be4b-4174662a3cad", "translatable_type" => "App\Models\Description", "translatable_id" => "4ca7ab94-b192-4ccf-a486-0e68b06920d0"],
+            ["translation_id" => "8f65a259-eeae-47bd-97a8-70e430fec9ad", "translatable_type" => "App\Models\Description", "translatable_id" => "4ca7ab94-b192-4ccf-a486-0e68b06920d0"],
+            ["translation_id" => "c41b23e1-6e2a-4b88-8099-d850dbab8ae4", "translatable_type" => "App\Models\Description", "translatable_id" => "4ca7ab94-b192-4ccf-a486-0e68b06920d0"],
+            //1034
+            ["translation_id" => "68da138b-a9b6-480c-8540-7102fff9d149", "translatable_type" => "App\Models\Description", "translatable_id" => "cba11ea3-10a6-452a-be8b-9b51749466f8"],
+            ["translation_id" => "ab213ec1-a26a-4098-83fb-a67885efb580", "translatable_type" => "App\Models\Description", "translatable_id" => "cba11ea3-10a6-452a-be8b-9b51749466f8"],
+            ["translation_id" => "15007b27-90b9-4ad4-ba3e-8f6a51cb90f1", "translatable_type" => "App\Models\Description", "translatable_id" => "cba11ea3-10a6-452a-be8b-9b51749466f8"],
+            //1035
+            ["translation_id" => "4b839b25-4324-45e5-9084-5869bed47f18", "translatable_type" => "App\Models\Description", "translatable_id" => "5032f005-9e99-4c83-b185-95adae7221b5"],
+            ["translation_id" => "5442428d-35a4-426a-a158-d1ad71a09a42", "translatable_type" => "App\Models\Description", "translatable_id" => "5032f005-9e99-4c83-b185-95adae7221b5"],
+            ["translation_id" => "5412cd1a-2451-4f93-adf7-c30bd8e6c237", "translatable_type" => "App\Models\Description", "translatable_id" => "5032f005-9e99-4c83-b185-95adae7221b5"],
+            //1036
+            ["translation_id" => "8b304499-c4f3-4fea-9350-f97a129e44c1", "translatable_type" => "App\Models\Description", "translatable_id" => "f0c94543-30d0-46f8-b7d0-7c02cd8b3f1e"],
+            ["translation_id" => "90b95108-c09d-465f-ab7a-05bac29182fe", "translatable_type" => "App\Models\Description", "translatable_id" => "f0c94543-30d0-46f8-b7d0-7c02cd8b3f1e"],
+            ["translation_id" => "0e3aa9bb-fcdc-4bf4-afc4-5c2555bd8365", "translatable_type" => "App\Models\Description", "translatable_id" => "f0c94543-30d0-46f8-b7d0-7c02cd8b3f1e"],
+            //1037
+            ["translation_id" => "fee45bad-58af-422c-990e-de25e52f7a8d", "translatable_type" => "App\Models\Description", "translatable_id" => "56365b0e-2142-4925-ae96-e968adc173a6"],
+            ["translation_id" => "7eb7992e-6167-446f-864d-28adf72d189f", "translatable_type" => "App\Models\Description", "translatable_id" => "56365b0e-2142-4925-ae96-e968adc173a6"],
+            ["translation_id" => "f93ccedb-6ad0-460b-8216-8607110ced64", "translatable_type" => "App\Models\Description", "translatable_id" => "56365b0e-2142-4925-ae96-e968adc173a6"],
+            //1038
+            ["translation_id" => "55c715f5-812c-4d57-a7f0-3a7f79b620af", "translatable_type" => "App\Models\Description", "translatable_id" => "d4f73994-1085-4c40-b8f3-c71667b3ddc0"],
+            ["translation_id" => "44baab58-d5e6-471c-b5bc-f55b64378443", "translatable_type" => "App\Models\Description", "translatable_id" => "d4f73994-1085-4c40-b8f3-c71667b3ddc0"],
+            ["translation_id" => "18f933e4-fcb9-4ccc-9227-b900a1196e03", "translatable_type" => "App\Models\Description", "translatable_id" => "d4f73994-1085-4c40-b8f3-c71667b3ddc0"],
+            //1039
+            ["translation_id" => "95b6a452-7a2b-4594-8b6a-f62ea9e1f49e", "translatable_type" => "App\Models\Description", "translatable_id" => "3064b23f-4378-4ce1-b1fe-fad861dee9cf"],
+            ["translation_id" => "d3113f4b-26a3-4654-b6dc-1e707ca73ba3", "translatable_type" => "App\Models\Description", "translatable_id" => "3064b23f-4378-4ce1-b1fe-fad861dee9cf"],
+            ["translation_id" => "fa085bb0-6d85-4cef-bb2e-744eddf6462f", "translatable_type" => "App\Models\Description", "translatable_id" => "3064b23f-4378-4ce1-b1fe-fad861dee9cf"],
+            //1040
+            ["translation_id" => "e3778986-8711-4392-ba2e-71da8a9f77f9", "translatable_type" => "App\Models\Description", "translatable_id" => "1e82a262-db58-4ead-8865-3796215a8084"],
+            ["translation_id" => "40775f0f-f735-407d-9a80-1fdf6b092271", "translatable_type" => "App\Models\Description", "translatable_id" => "1e82a262-db58-4ead-8865-3796215a8084"],
+            ["translation_id" => "2f0e79b7-c766-4463-9a6f-ae19f222840e", "translatable_type" => "App\Models\Description", "translatable_id" => "1e82a262-db58-4ead-8865-3796215a8084"],
+            //1041
+            ["translation_id" => "15e346bd-e720-4998-a4af-1aa0a5183dae", "translatable_type" => "App\Models\Description", "translatable_id" => "a199af99-27cb-4890-9ab7-6aaea083fdfe"],
+            ["translation_id" => "86d6757c-0a65-4b0e-9c8b-0d0576943eff", "translatable_type" => "App\Models\Description", "translatable_id" => "a199af99-27cb-4890-9ab7-6aaea083fdfe"],
+            ["translation_id" => "21d817ae-6174-4b5a-8393-f40f24cb813b", "translatable_type" => "App\Models\Description", "translatable_id" => "a199af99-27cb-4890-9ab7-6aaea083fdfe"],
+            //1042
+            ["translation_id" => "673bc4b8-4f8c-4917-a79b-a97949618aba", "translatable_type" => "App\Models\Description", "translatable_id" => "ea033aa0-bbb6-4b4d-a153-b3012f3f3ef4"],
+            ["translation_id" => "dfda8a2f-9d64-4202-b564-21b31e7aa1ee", "translatable_type" => "App\Models\Description", "translatable_id" => "ea033aa0-bbb6-4b4d-a153-b3012f3f3ef4"],
+            ["translation_id" => "d738b140-7c0e-43f1-8080-5ae7ebc5acb2", "translatable_type" => "App\Models\Description", "translatable_id" => "ea033aa0-bbb6-4b4d-a153-b3012f3f3ef4"],
+            //1043
+            ["translation_id" => "b49f9980-0bfc-4546-948c-f435c2fb97d8", "translatable_type" => "App\Models\Description", "translatable_id" => "ce4d0067-2dce-4b9d-b3ca-bb23f2cc7a2a"],
+            ["translation_id" => "dc05bad9-0022-4ca1-b62b-ba3ef0fca06d", "translatable_type" => "App\Models\Description", "translatable_id" => "ce4d0067-2dce-4b9d-b3ca-bb23f2cc7a2a"],
+            ["translation_id" => "6496d373-2d75-49e1-9c7f-e7374bceec04", "translatable_type" => "App\Models\Description", "translatable_id" => "ce4d0067-2dce-4b9d-b3ca-bb23f2cc7a2a"],
+            //1044
+            ["translation_id" => "23d9fe26-5b36-48e6-842f-095fb4f0d1bf", "translatable_type" => "App\Models\Description", "translatable_id" => "70b7b16e-bb48-4b51-98b6-1b52da289c18"],
+            ["translation_id" => "9ca70842-51ac-4bb4-82c9-25f52542671d", "translatable_type" => "App\Models\Description", "translatable_id" => "70b7b16e-bb48-4b51-98b6-1b52da289c18"],
+            ["translation_id" => "1280ef0f-a3ff-41a1-ab73-7f0391b809ed", "translatable_type" => "App\Models\Description", "translatable_id" => "70b7b16e-bb48-4b51-98b6-1b52da289c18"],
+            //1045
+            ["translation_id" => "ae01b214-b518-48b9-a17d-3375d97af031", "translatable_type" => "App\Models\Description", "translatable_id" => "9d2271e0-4062-4303-a0db-9f40d8a2ab86"],
+            ["translation_id" => "d6e9b19e-7b08-45d5-8326-5a618999eea2", "translatable_type" => "App\Models\Description", "translatable_id" => "9d2271e0-4062-4303-a0db-9f40d8a2ab86"],
+            ["translation_id" => "4b51c5b6-6da6-4a1a-bbd0-261d40a82973", "translatable_type" => "App\Models\Description", "translatable_id" => "9d2271e0-4062-4303-a0db-9f40d8a2ab86"],
+            //1046
+            ["translation_id" => "03547caa-b888-4112-ad1a-15e21c030233", "translatable_type" => "App\Models\Description", "translatable_id" => "257f528a-1c20-4906-8996-7071d279da02"],
+            ["translation_id" => "eea7bdd3-cba6-4cd4-90f4-81a7d43b6be2", "translatable_type" => "App\Models\Description", "translatable_id" => "257f528a-1c20-4906-8996-7071d279da02"],
+            ["translation_id" => "fd73defd-2cec-426b-a587-02a5a93da1be", "translatable_type" => "App\Models\Description", "translatable_id" => "257f528a-1c20-4906-8996-7071d279da02"],
+            //1047
+            ["translation_id" => "db933f65-56a9-4eac-a500-898823904988", "translatable_type" => "App\Models\Description", "translatable_id" => "6f11253e-fdf9-4774-af39-798acb51a680"],
+            ["translation_id" => "8ee7986e-2320-498d-9afd-900701f8aa14", "translatable_type" => "App\Models\Description", "translatable_id" => "6f11253e-fdf9-4774-af39-798acb51a680"],
+            ["translation_id" => "df30881d-fdd4-4a6e-bc1e-b11aa91a04dd", "translatable_type" => "App\Models\Description", "translatable_id" => "6f11253e-fdf9-4774-af39-798acb51a680"],
+            //1048
+            ["translation_id" => "cb1e0673-a087-464c-ba78-84a1ee6f839d", "translatable_type" => "App\Models\Description", "translatable_id" => "a289eb97-b785-45ac-8078-511986f6f9da"],
+            ["translation_id" => "19fb55a4-80f1-42ae-8c85-4b0dbba7d6ec", "translatable_type" => "App\Models\Description", "translatable_id" => "a289eb97-b785-45ac-8078-511986f6f9da"],
+            ["translation_id" => "88592264-77cc-4803-8c94-e3c4b6fe8b18", "translatable_type" => "App\Models\Description", "translatable_id" => "a289eb97-b785-45ac-8078-511986f6f9da"],
+            //1049
+            ["translation_id" => "22f48361-a0f3-4056-9c7f-a7e9517ff55a", "translatable_type" => "App\Models\Description", "translatable_id" => "fad30fe4-85d5-4d9e-ae3a-c2e90b8242c1"],
+            ["translation_id" => "602e9772-d850-4c2e-95e0-83e31ee7f812", "translatable_type" => "App\Models\Description", "translatable_id" => "fad30fe4-85d5-4d9e-ae3a-c2e90b8242c1"],
+            ["translation_id" => "f689068c-cf9a-4f44-8f2f-763bef3e199c", "translatable_type" => "App\Models\Description", "translatable_id" => "fad30fe4-85d5-4d9e-ae3a-c2e90b8242c1"],
+            //1050
+            ["translation_id" => "8247cc26-8ec6-4af5-898f-7495c56643eb", "translatable_type" => "App\Models\Description", "translatable_id" => "80a50061-46af-447d-aa73-8845c5afaa7f"],
+            ["translation_id" => "5d01e48d-a68c-40b2-b9ba-f6debe0bbcbb", "translatable_type" => "App\Models\Description", "translatable_id" => "80a50061-46af-447d-aa73-8845c5afaa7f"],
+            ["translation_id" => "23a3dfcd-d6f6-45e0-bfb9-a0847cda64d1", "translatable_type" => "App\Models\Description", "translatable_id" => "80a50061-46af-447d-aa73-8845c5afaa7f"],
+            //1051
+            ["translation_id" => "805a86dd-d7ac-4881-aa3a-b0e04c38132e", "translatable_type" => "App\Models\Description", "translatable_id" => "05fd6158-f10c-4288-98a6-b44d74c54905"],
+            ["translation_id" => "6d4cd04e-840c-449d-89dd-231f061ae4b0", "translatable_type" => "App\Models\Description", "translatable_id" => "05fd6158-f10c-4288-98a6-b44d74c54905"],
+            ["translation_id" => "d004e764-db1b-4ba9-ae83-f64bf82ecca7", "translatable_type" => "App\Models\Description", "translatable_id" => "05fd6158-f10c-4288-98a6-b44d74c54905"],
+            //1052
+            ["translation_id" => "458b27ad-727f-4426-aa27-25a2e2c37775", "translatable_type" => "App\Models\Description", "translatable_id" => "3010563f-8fab-4ed6-a2fa-ecbf79b098fa"],
+            ["translation_id" => "637428fc-95f1-44a2-8032-8d6828da9f84", "translatable_type" => "App\Models\Description", "translatable_id" => "3010563f-8fab-4ed6-a2fa-ecbf79b098fa"],
+            ["translation_id" => "d90d5822-6e19-4f79-9127-3ab82e2022d1", "translatable_type" => "App\Models\Description", "translatable_id" => "3010563f-8fab-4ed6-a2fa-ecbf79b098fa"],
+            //1053
+            ["translation_id" => "3371853f-5f42-47e3-b37c-2ac1b369390a", "translatable_type" => "App\Models\Description", "translatable_id" => "048e25b9-66e8-49a9-a9d3-829576d0a189"],
+            ["translation_id" => "ffc5f0ad-f0ae-48d0-95a2-af66fc5f83da", "translatable_type" => "App\Models\Description", "translatable_id" => "048e25b9-66e8-49a9-a9d3-829576d0a189"],
+            ["translation_id" => "6f467b9a-e2ce-405e-8720-00b33f06254f", "translatable_type" => "App\Models\Description", "translatable_id" => "048e25b9-66e8-49a9-a9d3-829576d0a189"],
+            //1054
+            ["translation_id" => "5d3871d0-b506-42c0-b1c8-04eb3f8aa99b", "translatable_type" => "App\Models\Description", "translatable_id" => "c388261d-3438-4d5f-958d-268aa9f6d8bd"],
+            ["translation_id" => "3166033e-76ce-4d57-8eaa-ce6ea758fde3", "translatable_type" => "App\Models\Description", "translatable_id" => "c388261d-3438-4d5f-958d-268aa9f6d8bd"],
+            ["translation_id" => "123773dd-3ccd-4747-ab20-35c8ae418440", "translatable_type" => "App\Models\Description", "translatable_id" => "c388261d-3438-4d5f-958d-268aa9f6d8bd"],
+            //1055
+            ["translation_id" => "8a66991e-00c4-4773-9ca9-9347310137e1", "translatable_type" => "App\Models\Description", "translatable_id" => "b70578f0-a97d-4e33-ab9b-749f548d54eb"],
+            ["translation_id" => "2cb8f249-a002-4838-8318-18b939fbc322", "translatable_type" => "App\Models\Description", "translatable_id" => "b70578f0-a97d-4e33-ab9b-749f548d54eb"],
+            ["translation_id" => "33cebfeb-bf8c-4b53-a55d-5df0aaa094e1", "translatable_type" => "App\Models\Description", "translatable_id" => "b70578f0-a97d-4e33-ab9b-749f548d54eb"],
+            //1056
+            ["translation_id" => "1a1f0f1a-a269-465e-9fbd-0412eb73a48e", "translatable_type" => "App\Models\Description", "translatable_id" => "e2eaf0ff-6d43-41b8-a93a-048e8b469190"],
+            ["translation_id" => "0519a1b3-a0ad-4137-aedf-2bdcb1fc4545", "translatable_type" => "App\Models\Description", "translatable_id" => "e2eaf0ff-6d43-41b8-a93a-048e8b469190"],
+            ["translation_id" => "7e9b32a5-7991-4f80-943a-766b11f9c5f6", "translatable_type" => "App\Models\Description", "translatable_id" => "e2eaf0ff-6d43-41b8-a93a-048e8b469190"],
+            //1057
+            ["translation_id" => "e029d764-2e46-463d-b776-25c124c0d148", "translatable_type" => "App\Models\Description", "translatable_id" => "21a7044a-3a75-4467-b050-533eda4eb152"],
+            ["translation_id" => "02f21971-baca-4bb4-bdeb-9c6e8eb5eab6", "translatable_type" => "App\Models\Description", "translatable_id" => "21a7044a-3a75-4467-b050-533eda4eb152"],
+            ["translation_id" => "cffe9d44-1277-4972-b125-f3f0baf4d558", "translatable_type" => "App\Models\Description", "translatable_id" => "21a7044a-3a75-4467-b050-533eda4eb152"],
+            //1058
+            ["translation_id" => "33c53957-5ba5-4795-9c6e-be869011963c", "translatable_type" => "App\Models\Description", "translatable_id" => "1d2155f1-cecb-42cc-ade9-9af669744b1d"],
+            ["translation_id" => "11eea1ec-9222-47f5-b9b3-58147b811c1d", "translatable_type" => "App\Models\Description", "translatable_id" => "1d2155f1-cecb-42cc-ade9-9af669744b1d"],
+            ["translation_id" => "c213ff97-da76-4e35-b6ed-ba281b1ac8ea", "translatable_type" => "App\Models\Description", "translatable_id" => "1d2155f1-cecb-42cc-ade9-9af669744b1d"],
+            //1059
+            ["translation_id" => "b51bae58-05a3-403c-9b79-adeef2063bbc", "translatable_type" => "App\Models\Description", "translatable_id" => "83b75824-2734-425a-8c2a-828fc331a80a"],
+            ["translation_id" => "2b461852-c59d-4af4-8d1d-53c7d4da31d9", "translatable_type" => "App\Models\Description", "translatable_id" => "83b75824-2734-425a-8c2a-828fc331a80a"],
+            ["translation_id" => "631e3c29-b853-45ce-9259-75a41b3f5a0c", "translatable_type" => "App\Models\Description", "translatable_id" => "83b75824-2734-425a-8c2a-828fc331a80a"],
+            //1060
+            ["translation_id" => "5fbf6979-a67e-4807-a07e-290ce26d833a", "translatable_type" => "App\Models\Description", "translatable_id" => "9993b701-b0ae-4907-a9e4-9c47acca92ec"],
+            ["translation_id" => "b96680fb-be85-4557-b93e-7a613212d620", "translatable_type" => "App\Models\Description", "translatable_id" => "9993b701-b0ae-4907-a9e4-9c47acca92ec"],
+            ["translation_id" => "ea7d8900-71a7-47f2-be70-76444c1be140", "translatable_type" => "App\Models\Description", "translatable_id" => "9993b701-b0ae-4907-a9e4-9c47acca92ec"],
+            //1061
+            ["translation_id" => "9dceaaa4-b734-45b6-87a7-9ca925b8fd2b", "translatable_type" => "App\Models\Description", "translatable_id" => "7a9f3718-6698-4425-9f97-d5de08070b27"],
+            ["translation_id" => "dd959486-fcc1-4fee-96cc-9db32790e858", "translatable_type" => "App\Models\Description", "translatable_id" => "7a9f3718-6698-4425-9f97-d5de08070b27"],
+            ["translation_id" => "3380d7df-18d9-4fa4-bc4c-07f14b6d1f5a", "translatable_type" => "App\Models\Description", "translatable_id" => "7a9f3718-6698-4425-9f97-d5de08070b27"],
+            //1062
+            ["translation_id" => "8cfb35fb-c7fd-4042-a39f-3139a71bd57c", "translatable_type" => "App\Models\Description", "translatable_id" => "5d445f99-a03c-46f3-aafc-ca14f25be22d"],
+            ["translation_id" => "30a0263c-ea60-4243-b377-47267fd3ab55", "translatable_type" => "App\Models\Description", "translatable_id" => "5d445f99-a03c-46f3-aafc-ca14f25be22d"],
+            ["translation_id" => "06991eaf-ed16-4247-8181-bbcdf047c134", "translatable_type" => "App\Models\Description", "translatable_id" => "5d445f99-a03c-46f3-aafc-ca14f25be22d"],
+            //1063
+            ["translation_id" => "046ae0c0-12b4-4aad-877a-444a2939c121", "translatable_type" => "App\Models\Description", "translatable_id" => "70eabd4c-01fe-47de-9047-6f05ee76ba4d"],
+            ["translation_id" => "3e40c0fc-1452-4ddd-8867-0b1b95e71813", "translatable_type" => "App\Models\Description", "translatable_id" => "70eabd4c-01fe-47de-9047-6f05ee76ba4d"],
+            ["translation_id" => "3c150785-0079-4da6-8e42-26c5430793ed", "translatable_type" => "App\Models\Description", "translatable_id" => "70eabd4c-01fe-47de-9047-6f05ee76ba4d"],
+            //1064
+            ["translation_id" => "a588b675-b325-4874-889a-f2adfe9e5519", "translatable_type" => "App\Models\Description", "translatable_id" => "56bcb283-a6fb-4850-8ee5-d17569fd1190"],
+            ["translation_id" => "61c89423-b645-4de1-9aa5-444590cfaafb", "translatable_type" => "App\Models\Description", "translatable_id" => "56bcb283-a6fb-4850-8ee5-d17569fd1190"],
+            ["translation_id" => "aec00dd5-32c6-44e5-aa75-ed18af596060", "translatable_type" => "App\Models\Description", "translatable_id" => "56bcb283-a6fb-4850-8ee5-d17569fd1190"],
+            //1065
+            ["translation_id" => "b939b6f3-4127-4bd9-8eb1-8b9fa50a252c", "translatable_type" => "App\Models\Description", "translatable_id" => "63acd2e7-0f52-4265-9a11-255cb923d3bf"],
+            ["translation_id" => "93bf99ac-7504-4945-8b01-f070f1b62ae9", "translatable_type" => "App\Models\Description", "translatable_id" => "63acd2e7-0f52-4265-9a11-255cb923d3bf"],
+            ["translation_id" => "6f429f63-37ff-4cb5-bf17-0c79d65501ad", "translatable_type" => "App\Models\Description", "translatable_id" => "63acd2e7-0f52-4265-9a11-255cb923d3bf"],
+            //1066
+            ["translation_id" => "f67e4f2f-d8ed-44c5-8791-279cd8fb5f9e", "translatable_type" => "App\Models\Description", "translatable_id" => "2dbc1dfa-5790-4749-9d96-f869e19e9e95"],
+            ["translation_id" => "33715227-d9a4-408f-91e5-cc7c2f83b0f4", "translatable_type" => "App\Models\Description", "translatable_id" => "2dbc1dfa-5790-4749-9d96-f869e19e9e95"],
+            ["translation_id" => "b4aadb84-787e-456a-83dd-e7356c92c0ef", "translatable_type" => "App\Models\Description", "translatable_id" => "2dbc1dfa-5790-4749-9d96-f869e19e9e95"],
+            //1067
+            ["translation_id" => "dc07d360-d94d-460f-90f9-4a508fedbb43", "translatable_type" => "App\Models\Description", "translatable_id" => "8bbd2bc1-07b3-4199-a58b-94ce49031902"],
+            ["translation_id" => "421739ed-54a1-416d-8dca-7aaa32a63c2e", "translatable_type" => "App\Models\Description", "translatable_id" => "8bbd2bc1-07b3-4199-a58b-94ce49031902"],
+            ["translation_id" => "77a3e999-5c53-414b-9593-3aac3ada24fb", "translatable_type" => "App\Models\Description", "translatable_id" => "8bbd2bc1-07b3-4199-a58b-94ce49031902"],
+            //1068
+            ["translation_id" => "a6ee05af-6a8c-4837-8b59-d355751c0754", "translatable_type" => "App\Models\Description", "translatable_id" => "dcd69676-6c41-4138-90a1-2715c10bb54b"],
+            ["translation_id" => "a0bd3813-c1c0-477b-a559-cf5e53d65d83", "translatable_type" => "App\Models\Description", "translatable_id" => "dcd69676-6c41-4138-90a1-2715c10bb54b"],
+            ["translation_id" => "749283c1-cac4-4476-b916-914d801eafed", "translatable_type" => "App\Models\Description", "translatable_id" => "dcd69676-6c41-4138-90a1-2715c10bb54b"],
+            //1069
+            ["translation_id" => "0f097370-898c-43e8-90d3-475d80c6d6ea", "translatable_type" => "App\Models\Description", "translatable_id" => "76a40c5e-6784-4ee5-b719-7dbd75d8c171"],
+            ["translation_id" => "aa3ede1c-64f5-4a45-b906-945cff0d5d1a", "translatable_type" => "App\Models\Description", "translatable_id" => "76a40c5e-6784-4ee5-b719-7dbd75d8c171"],
+            ["translation_id" => "37f1c40f-5ebb-4bc7-b556-1004ef5474f7", "translatable_type" => "App\Models\Description", "translatable_id" => "76a40c5e-6784-4ee5-b719-7dbd75d8c171"],
+            //1070
+            ["translation_id" => "b7ce8726-aa94-4653-bda2-d6b45bfdde39", "translatable_type" => "App\Models\Description", "translatable_id" => "3bdbc557-fd58-4534-9340-44fd9f0ec40c"],
+            ["translation_id" => "acda7c46-021a-47c8-8ef4-040602412628", "translatable_type" => "App\Models\Description", "translatable_id" => "3bdbc557-fd58-4534-9340-44fd9f0ec40c"],
+            ["translation_id" => "096debb4-b9fd-4711-956d-dea1db9e5cdc", "translatable_type" => "App\Models\Description", "translatable_id" => "3bdbc557-fd58-4534-9340-44fd9f0ec40c"],
+            //1071
+            ["translation_id" => "80e80282-a187-4cba-881b-8c5d983c752a", "translatable_type" => "App\Models\Description", "translatable_id" => "32ecee62-4465-407a-bcf3-37dc0b181a08"],
+            ["translation_id" => "d69d3399-d514-47a7-99a8-926bf9d4aec2", "translatable_type" => "App\Models\Description", "translatable_id" => "32ecee62-4465-407a-bcf3-37dc0b181a08"],
+            ["translation_id" => "2a39507e-2c7f-4cd8-865a-c20859607cc7", "translatable_type" => "App\Models\Description", "translatable_id" => "32ecee62-4465-407a-bcf3-37dc0b181a08"],
+            //1072
+            ["translation_id" => "912f421b-0e39-4e69-ae70-73082a5fcc8c", "translatable_type" => "App\Models\Description", "translatable_id" => "1800db26-4c34-43ba-b19b-b5fd26cadfa6"],
+            ["translation_id" => "6e394fe3-316c-4714-8166-6d2838daf63d", "translatable_type" => "App\Models\Description", "translatable_id" => "1800db26-4c34-43ba-b19b-b5fd26cadfa6"],
+            ["translation_id" => "ea6ad957-3b74-467d-8bcd-0a0b005a203a", "translatable_type" => "App\Models\Description", "translatable_id" => "1800db26-4c34-43ba-b19b-b5fd26cadfa6"],
+            //1073
+            ["translation_id" => "e3793639-b059-4f84-9c9e-230391a492f5", "translatable_type" => "App\Models\Description", "translatable_id" => "ad6e8fad-d38f-424f-b4a3-447c2c949d41"],
+            ["translation_id" => "151b11d0-f4cc-46c1-bb11-d9ff85bccb30", "translatable_type" => "App\Models\Description", "translatable_id" => "ad6e8fad-d38f-424f-b4a3-447c2c949d41"],
+            ["translation_id" => "eee6de40-87f9-4ea6-8c6c-5b7f6af50c33", "translatable_type" => "App\Models\Description", "translatable_id" => "ad6e8fad-d38f-424f-b4a3-447c2c949d41"],
+            //1074
+            ["translation_id" => "181c6037-d3ba-42b2-8ea1-b36cb13f0107", "translatable_type" => "App\Models\Description", "translatable_id" => "bedfbd36-75c4-4c27-90ef-7f3d0f8f833b"],
+            ["translation_id" => "622a3565-8132-4303-b155-e9dc465ea0db", "translatable_type" => "App\Models\Description", "translatable_id" => "bedfbd36-75c4-4c27-90ef-7f3d0f8f833b"],
+            ["translation_id" => "6b438a59-b78a-44b3-b7f4-923d4c08ba40", "translatable_type" => "App\Models\Description", "translatable_id" => "bedfbd36-75c4-4c27-90ef-7f3d0f8f833b"],
+            //1075
+            ["translation_id" => "4541c7fe-c942-4ef5-88f8-63734812c743", "translatable_type" => "App\Models\Description", "translatable_id" => "f239794d-19d8-4dcd-bfd8-f50efd44f88a"],
+            ["translation_id" => "cb3a8520-c431-478b-a81e-fd830d35011b", "translatable_type" => "App\Models\Description", "translatable_id" => "f239794d-19d8-4dcd-bfd8-f50efd44f88a"],
+            ["translation_id" => "3ebb8f59-d2fa-478d-9eed-1a7e78dee27e", "translatable_type" => "App\Models\Description", "translatable_id" => "f239794d-19d8-4dcd-bfd8-f50efd44f88a"],
+            //1076
+            ["translation_id" => "959117e2-ad59-4f34-8c23-78119836885a", "translatable_type" => "App\Models\Description", "translatable_id" => "865f9023-d8fc-45d2-be49-dbc16c757bcb"],
+            ["translation_id" => "466fee83-e771-4c52-96d3-e91e456e00f9", "translatable_type" => "App\Models\Description", "translatable_id" => "865f9023-d8fc-45d2-be49-dbc16c757bcb"],
+            ["translation_id" => "53989336-5e71-4e15-9b9c-a97d9484aa5b", "translatable_type" => "App\Models\Description", "translatable_id" => "865f9023-d8fc-45d2-be49-dbc16c757bcb"],
+            //1077
+            ["translation_id" => "96a99ac5-38ea-4b83-962c-5f90c5836b26", "translatable_type" => "App\Models\Description", "translatable_id" => "79634437-fc5d-4eea-9d6c-c6600f22bfef"],
+            ["translation_id" => "46089d2f-4c16-4188-b57b-634db140e950", "translatable_type" => "App\Models\Description", "translatable_id" => "79634437-fc5d-4eea-9d6c-c6600f22bfef"],
+            ["translation_id" => "d209ee46-0509-4878-ab4a-73c0c7c38f1a", "translatable_type" => "App\Models\Description", "translatable_id" => "79634437-fc5d-4eea-9d6c-c6600f22bfef"],
+            //1078
+            ["translation_id" => "ad6481b5-98c6-423b-a9ca-bee540b8e4e0", "translatable_type" => "App\Models\Description", "translatable_id" => "1ad17cdc-d3be-44f7-b2fd-7b7783340cd9"],
+            ["translation_id" => "2e48235b-6c05-4bf5-a7f1-c36c7517743f", "translatable_type" => "App\Models\Description", "translatable_id" => "1ad17cdc-d3be-44f7-b2fd-7b7783340cd9"],
+            ["translation_id" => "4e251e2d-79d1-43ee-959d-fab5f12f8857", "translatable_type" => "App\Models\Description", "translatable_id" => "1ad17cdc-d3be-44f7-b2fd-7b7783340cd9"],
+            //1079
+            ["translation_id" => "9dc8f2f1-e17c-4aa9-a11c-92890d9810bf", "translatable_type" => "App\Models\Description", "translatable_id" => "ce7fe99a-eee6-4df1-8385-86a52ff12591"],
+            ["translation_id" => "10e8ed9b-682a-48ca-92ef-178b9ebd911a", "translatable_type" => "App\Models\Description", "translatable_id" => "ce7fe99a-eee6-4df1-8385-86a52ff12591"],
+            ["translation_id" => "2cba17ce-2b1e-4d26-b7cf-7bbd1d67ebcc", "translatable_type" => "App\Models\Description", "translatable_id" => "ce7fe99a-eee6-4df1-8385-86a52ff12591"],
+            //1080
+            ["translation_id" => "06658aea-343f-488f-9e75-4692fd0e8b9f", "translatable_type" => "App\Models\Description", "translatable_id" => "90d8b799-0578-42a0-9cb1-12eefb15c72a"],
+            ["translation_id" => "83caa4af-6b86-49fa-a95d-696e5f8193b8", "translatable_type" => "App\Models\Description", "translatable_id" => "90d8b799-0578-42a0-9cb1-12eefb15c72a"],
+            ["translation_id" => "49837054-665a-4d1e-99fe-ebba99cbda9c", "translatable_type" => "App\Models\Description", "translatable_id" => "90d8b799-0578-42a0-9cb1-12eefb15c72a"],
+            //1081
+            ["translation_id" => "f8e47315-3fda-4860-944b-bcbd9b61c313", "translatable_type" => "App\Models\Description", "translatable_id" => "6ae1ebdd-981f-482a-9743-06faad9dcf47"],
+            ["translation_id" => "93dbf56d-e64e-4a8f-864b-56625b8a46e2", "translatable_type" => "App\Models\Description", "translatable_id" => "6ae1ebdd-981f-482a-9743-06faad9dcf47"],
+            ["translation_id" => "f872a643-3c99-46cb-962a-cd1ad2d8206f", "translatable_type" => "App\Models\Description", "translatable_id" => "6ae1ebdd-981f-482a-9743-06faad9dcf47"],
+            //1082
+            ["translation_id" => "a5deec8f-701d-4d2f-a3ce-f9ae723d7e1f", "translatable_type" => "App\Models\Description", "translatable_id" => "0ddbac85-7abf-420e-b7a2-5be330aff675"],
+            ["translation_id" => "1c7d08d7-a71a-4ae7-80e1-05d7ccfae815", "translatable_type" => "App\Models\Description", "translatable_id" => "0ddbac85-7abf-420e-b7a2-5be330aff675"],
+            ["translation_id" => "d8588808-3292-42aa-b1f5-082d4e84fc92", "translatable_type" => "App\Models\Description", "translatable_id" => "0ddbac85-7abf-420e-b7a2-5be330aff675"],
+            //1083
+            ["translation_id" => "9795af10-bdff-445b-8efe-0e611f722deb", "translatable_type" => "App\Models\Description", "translatable_id" => "62a8719b-e3a4-48f3-9684-755e4c19cfec"],
+            ["translation_id" => "18655dae-664f-48f4-b43a-93b90035f5fa", "translatable_type" => "App\Models\Description", "translatable_id" => "62a8719b-e3a4-48f3-9684-755e4c19cfec"],
+            ["translation_id" => "76b76b5d-3c40-48b4-a067-eac2eccdeedb", "translatable_type" => "App\Models\Description", "translatable_id" => "62a8719b-e3a4-48f3-9684-755e4c19cfec"],
+            //1084
+            ["translation_id" => "df04c536-19d1-445b-9248-a7157f70e077", "translatable_type" => "App\Models\Description", "translatable_id" => "f144e7bf-9fd0-4a9e-873b-8ac2abc14979"],
+            ["translation_id" => "b951bdf3-01f6-4292-aecd-2309c3cca1db", "translatable_type" => "App\Models\Description", "translatable_id" => "f144e7bf-9fd0-4a9e-873b-8ac2abc14979"],
+            ["translation_id" => "46b96bff-c21c-4ba9-9446-9172cd276dc4", "translatable_type" => "App\Models\Description", "translatable_id" => "f144e7bf-9fd0-4a9e-873b-8ac2abc14979"],
+            //1085
+            ["translation_id" => "14b603ee-7b74-48e3-8be9-9b850cc4a30f", "translatable_type" => "App\Models\Description", "translatable_id" => "07b76567-cd7d-4d29-915b-402fcb7657f0"],
+            ["translation_id" => "e45b5992-20f7-49c5-aac1-c12e757aa2c3", "translatable_type" => "App\Models\Description", "translatable_id" => "07b76567-cd7d-4d29-915b-402fcb7657f0"],
+            ["translation_id" => "78e8d203-e555-42cf-8516-8bc1558584d8", "translatable_type" => "App\Models\Description", "translatable_id" => "07b76567-cd7d-4d29-915b-402fcb7657f0"],
+            //1086
+            ["translation_id" => "894bdafc-9268-4166-825a-829b6f54cc1e", "translatable_type" => "App\Models\Description", "translatable_id" => "fe94cf83-9961-4515-8f8b-773a3ce95bc8"],
+            ["translation_id" => "32346137-ebb3-439e-8e6c-20db84e181ee", "translatable_type" => "App\Models\Description", "translatable_id" => "fe94cf83-9961-4515-8f8b-773a3ce95bc8"],
+            ["translation_id" => "73f07d0b-eec4-4d02-a707-1cbf0d12c19f", "translatable_type" => "App\Models\Description", "translatable_id" => "fe94cf83-9961-4515-8f8b-773a3ce95bc8"],
+            //1087
+            ["translation_id" => "5072e0ec-aef1-4bae-bbff-9de94ee8675c", "translatable_type" => "App\Models\Description", "translatable_id" => "3479f9f0-b342-492a-8286-4c4e75bd2b33"],
+            ["translation_id" => "21d9535f-571e-41b2-97e7-39093472381d", "translatable_type" => "App\Models\Description", "translatable_id" => "3479f9f0-b342-492a-8286-4c4e75bd2b33"],
+            ["translation_id" => "1aeab721-578d-4e03-b082-3a65a9ed604d", "translatable_type" => "App\Models\Description", "translatable_id" => "3479f9f0-b342-492a-8286-4c4e75bd2b33"],
+            //1088
+            ["translation_id" => "a6d25f4a-3836-49d3-8227-8e8e01f310b6", "translatable_type" => "App\Models\Description", "translatable_id" => "26cfdfb3-d97e-4757-bf28-7ddca7340535"],
+            ["translation_id" => "c96c3eb6-6eff-4544-9393-5a8e50abeacc", "translatable_type" => "App\Models\Description", "translatable_id" => "26cfdfb3-d97e-4757-bf28-7ddca7340535"],
+            ["translation_id" => "af0c4aeb-ab12-4135-9425-f034987bafc2", "translatable_type" => "App\Models\Description", "translatable_id" => "26cfdfb3-d97e-4757-bf28-7ddca7340535"],
+            //1089
+            ["translation_id" => "30a198b2-2e66-4e60-b7ac-878380426b17", "translatable_type" => "App\Models\Description", "translatable_id" => "8a452d8e-5d3b-4d01-8292-edf28d1faa00"],
+            ["translation_id" => "2cb3fe57-d1a2-494a-b31e-401ea7bc291e", "translatable_type" => "App\Models\Description", "translatable_id" => "8a452d8e-5d3b-4d01-8292-edf28d1faa00"],
+            ["translation_id" => "62a89066-48c8-4e34-b112-cbe1dd471833", "translatable_type" => "App\Models\Description", "translatable_id" => "8a452d8e-5d3b-4d01-8292-edf28d1faa00"],
+            //1090
+            ["translation_id" => "977a6611-a21f-42d4-8feb-c91b427aebd2", "translatable_type" => "App\Models\Description", "translatable_id" => "e3683eca-de99-48ad-98c4-67293a3fbdcd"],
+            ["translation_id" => "aea0748c-a7c8-4e24-ac63-aed166c88b0a", "translatable_type" => "App\Models\Description", "translatable_id" => "e3683eca-de99-48ad-98c4-67293a3fbdcd"],
+            ["translation_id" => "d707a624-ff63-49e2-bbed-bf132639406e", "translatable_type" => "App\Models\Description", "translatable_id" => "e3683eca-de99-48ad-98c4-67293a3fbdcd"],
+            //1091
+            ["translation_id" => "70b04b72-bbde-4efa-8bde-cfe5eeb08ae6", "translatable_type" => "App\Models\Description", "translatable_id" => "0c6e0ea9-1913-487f-b643-896f19ffc30b"],
+            ["translation_id" => "321a9ff0-c2b4-4c13-badb-977afebb1c77", "translatable_type" => "App\Models\Description", "translatable_id" => "0c6e0ea9-1913-487f-b643-896f19ffc30b"],
+            ["translation_id" => "48a651e7-3804-47d6-84de-b8ee5e6f4d8d", "translatable_type" => "App\Models\Description", "translatable_id" => "0c6e0ea9-1913-487f-b643-896f19ffc30b"],
+            //1092
+            ["translation_id" => "e43c8cba-d632-420d-acec-9f7d1fb6571b", "translatable_type" => "App\Models\Description", "translatable_id" => "7f1fd410-643e-497e-8cc4-8698d7206df2"],
+            ["translation_id" => "b96755d1-2639-4bfd-9008-b41924b524a0", "translatable_type" => "App\Models\Description", "translatable_id" => "7f1fd410-643e-497e-8cc4-8698d7206df2"],
+            ["translation_id" => "e9f3d49f-cfc1-459a-85b8-b8aa312beb1c", "translatable_type" => "App\Models\Description", "translatable_id" => "7f1fd410-643e-497e-8cc4-8698d7206df2"],
+            //1093
+            ["translation_id" => "87fcd1b7-a5b2-4aba-a6c7-5890a7839769", "translatable_type" => "App\Models\Description", "translatable_id" => "5db83d43-08b0-47c0-a06f-9b279d83e360"],
+            ["translation_id" => "23460b32-45d4-4185-a93b-fae4371dc0b5", "translatable_type" => "App\Models\Description", "translatable_id" => "5db83d43-08b0-47c0-a06f-9b279d83e360"],
+            ["translation_id" => "a5f2fd24-5d6b-48d1-ac71-13413ead61e3", "translatable_type" => "App\Models\Description", "translatable_id" => "5db83d43-08b0-47c0-a06f-9b279d83e360"],
+            //1094
+            ["translation_id" => "7432386b-1c4c-4fd0-8ee6-b46c692bea03", "translatable_type" => "App\Models\Description", "translatable_id" => "cb06f662-7756-490c-9d40-bb7fdc43009e"],
+            ["translation_id" => "8b276af2-6bc9-4733-a3a6-a1a9e11ff77b", "translatable_type" => "App\Models\Description", "translatable_id" => "cb06f662-7756-490c-9d40-bb7fdc43009e"],
+            ["translation_id" => "c6901121-5e3a-4793-9444-8b751d83c275", "translatable_type" => "App\Models\Description", "translatable_id" => "cb06f662-7756-490c-9d40-bb7fdc43009e"],
+            //1095
+            ["translation_id" => "f048b451-8ae0-4a8d-b584-49badbcc0850", "translatable_type" => "App\Models\Description", "translatable_id" => "d5185099-f59a-4991-9623-2e687a126f6a"],
+            ["translation_id" => "995bbe1b-3481-471a-ad7a-9d8386e6e673", "translatable_type" => "App\Models\Description", "translatable_id" => "d5185099-f59a-4991-9623-2e687a126f6a"],
+            ["translation_id" => "590a4de3-eb07-4413-af8e-9d8ab10ae09c", "translatable_type" => "App\Models\Description", "translatable_id" => "d5185099-f59a-4991-9623-2e687a126f6a"],
+            //1096
+            ["translation_id" => "ad1db3d4-825b-4cbf-a384-b0af17cdd99a", "translatable_type" => "App\Models\Description", "translatable_id" => "efd89e67-ab1e-4770-9367-2eb738bc7324"],
+            ["translation_id" => "d95fe83f-c4bc-4372-8452-74fb3c136e66", "translatable_type" => "App\Models\Description", "translatable_id" => "efd89e67-ab1e-4770-9367-2eb738bc7324"],
+            ["translation_id" => "e9249dfc-a6df-4589-8c63-ed4d80ffe6e7", "translatable_type" => "App\Models\Description", "translatable_id" => "efd89e67-ab1e-4770-9367-2eb738bc7324"],
+            //1097
+            ["translation_id" => "b9f1909b-9b53-4cee-a68b-cbb9418668c2", "translatable_type" => "App\Models\Description", "translatable_id" => "982de96f-394f-4508-9897-f73918c485ed"],
+            ["translation_id" => "a8a40cfc-19e9-4dbb-9a6c-a8761fae0374", "translatable_type" => "App\Models\Description", "translatable_id" => "982de96f-394f-4508-9897-f73918c485ed"],
+            ["translation_id" => "4c223b73-59e4-4695-97a0-3afb204384f8", "translatable_type" => "App\Models\Description", "translatable_id" => "982de96f-394f-4508-9897-f73918c485ed"],
+            //1098
+            ["translation_id" => "d0f3d0a7-edb4-431e-8216-e4e1e84732f9", "translatable_type" => "App\Models\Description", "translatable_id" => "ee628d0d-6d32-4db7-9d27-ff8bac4c9b74"],
+            ["translation_id" => "250fa0a8-10ff-4567-bf97-21b2679c5ae7", "translatable_type" => "App\Models\Description", "translatable_id" => "ee628d0d-6d32-4db7-9d27-ff8bac4c9b74"],
+            ["translation_id" => "6d04a8ae-cdd7-4bd0-9760-f2edd30402f3", "translatable_type" => "App\Models\Description", "translatable_id" => "ee628d0d-6d32-4db7-9d27-ff8bac4c9b74"],
+            //1099
+            ["translation_id" => "e8fa4a2a-9859-4f96-993f-8188f9587756", "translatable_type" => "App\Models\Description", "translatable_id" => "211d58ab-414e-489a-8647-ff900d657009"],
+            ["translation_id" => "81556632-f0b3-424b-83fc-7307f23813ab", "translatable_type" => "App\Models\Description", "translatable_id" => "211d58ab-414e-489a-8647-ff900d657009"],
+            ["translation_id" => "5aeab023-94f6-4146-b2f0-919e7d3aa310", "translatable_type" => "App\Models\Description", "translatable_id" => "211d58ab-414e-489a-8647-ff900d657009"],
+            //1100
+            ["translation_id" => "3c11849a-b51a-4ad1-b8b5-75f366b9430b", "translatable_type" => "App\Models\Description", "translatable_id" => "37e499b4-4521-4706-87c2-40ddf1170447"],
+            ["translation_id" => "e5498a31-403b-4ca0-b65b-2da691d4c2a5", "translatable_type" => "App\Models\Description", "translatable_id" => "37e499b4-4521-4706-87c2-40ddf1170447"],
+            ["translation_id" => "91113f6b-d83c-4510-8114-abb261a9dfa5", "translatable_type" => "App\Models\Description", "translatable_id" => "37e499b4-4521-4706-87c2-40ddf1170447"],
+            //1101
+            ["translation_id" => "d2cb4b4b-35a1-4487-8a7c-a78416b36003", "translatable_type" => "App\Models\Description", "translatable_id" => "befa64c3-48d8-4d37-9891-708b7aa81919"],
+            ["translation_id" => "f17b8693-5619-4ab0-964a-e1d22c6c098c", "translatable_type" => "App\Models\Description", "translatable_id" => "befa64c3-48d8-4d37-9891-708b7aa81919"],
+            ["translation_id" => "1c27d7b7-2244-4cad-a188-fda30b457f85", "translatable_type" => "App\Models\Description", "translatable_id" => "befa64c3-48d8-4d37-9891-708b7aa81919"],
+            //1102
+            ["translation_id" => "ae75b799-f56b-45ab-b550-5df6d72d64a3", "translatable_type" => "App\Models\Description", "translatable_id" => "e46a83d2-2d7e-4763-9ea2-ca88953c5942"],
+            ["translation_id" => "b94cc020-d94a-45aa-b696-af693a2eb7e2", "translatable_type" => "App\Models\Description", "translatable_id" => "e46a83d2-2d7e-4763-9ea2-ca88953c5942"],
+            ["translation_id" => "b52fb01a-b44a-4395-bac2-1e08811c84fc", "translatable_type" => "App\Models\Description", "translatable_id" => "e46a83d2-2d7e-4763-9ea2-ca88953c5942"],
+            //1103
+            ["translation_id" => "cfb85697-ebac-4dd1-bc7c-0d2aa9e7e9b9", "translatable_type" => "App\Models\Description", "translatable_id" => "1a054cff-f102-496d-9d54-901120476939"],
+            ["translation_id" => "d19110c8-4f40-4298-9157-b322e841c9e1", "translatable_type" => "App\Models\Description", "translatable_id" => "1a054cff-f102-496d-9d54-901120476939"],
+            ["translation_id" => "e316a088-6508-4f44-b073-aa785801749c", "translatable_type" => "App\Models\Description", "translatable_id" => "1a054cff-f102-496d-9d54-901120476939"],
+            //1104
+            ["translation_id" => "dac0921f-83ab-412e-977f-9de132a6d151", "translatable_type" => "App\Models\Description", "translatable_id" => "30f0a972-cb1e-4e47-85bd-e75617490084"],
+            ["translation_id" => "4c69e848-89a8-4449-8571-c51cb83cd26f", "translatable_type" => "App\Models\Description", "translatable_id" => "30f0a972-cb1e-4e47-85bd-e75617490084"],
+            ["translation_id" => "51e5b2d8-8825-4444-a5c2-a78da4514eea", "translatable_type" => "App\Models\Description", "translatable_id" => "30f0a972-cb1e-4e47-85bd-e75617490084"],
+            //1105
+            ["translation_id" => "3b16efc9-fe4c-4587-ac8c-cae68f7a71fe", "translatable_type" => "App\Models\Description", "translatable_id" => "c05e9017-6882-476b-8f75-5bce230ef509"],
+            ["translation_id" => "af8ac54f-0686-433c-8511-e5b47ca4bec6", "translatable_type" => "App\Models\Description", "translatable_id" => "c05e9017-6882-476b-8f75-5bce230ef509"],
+            ["translation_id" => "fedb425d-9e40-4ca6-ac6e-2b714d4c04a3", "translatable_type" => "App\Models\Description", "translatable_id" => "c05e9017-6882-476b-8f75-5bce230ef509"],
+            //1106
+            ["translation_id" => "4be5b954-9f6c-4ff5-b0ba-5bf5f36599d6", "translatable_type" => "App\Models\Description", "translatable_id" => "1f0c0c58-f8d0-4a4c-8df2-eb58e04c7df3"],
+            ["translation_id" => "580b4755-f3cb-4322-80d1-722eeef704f7", "translatable_type" => "App\Models\Description", "translatable_id" => "1f0c0c58-f8d0-4a4c-8df2-eb58e04c7df3"],
+            ["translation_id" => "750942f0-f058-4914-9f84-86df45615b10", "translatable_type" => "App\Models\Description", "translatable_id" => "1f0c0c58-f8d0-4a4c-8df2-eb58e04c7df3"],
+            //1107
+            ["translation_id" => "94cba871-206d-4deb-9dca-327b73bcd6e7", "translatable_type" => "App\Models\Description", "translatable_id" => "8cb0052e-a531-48aa-9963-a99aaae19a6b"],
+            ["translation_id" => "2dcbaff1-5f00-47f6-acf9-61c86c3b6760", "translatable_type" => "App\Models\Description", "translatable_id" => "8cb0052e-a531-48aa-9963-a99aaae19a6b"],
+            ["translation_id" => "0f9d9881-04f3-45b3-bee1-9f10cf6f9452", "translatable_type" => "App\Models\Description", "translatable_id" => "8cb0052e-a531-48aa-9963-a99aaae19a6b"],
+            //1108
+            ["translation_id" => "cd2fae2b-202e-4f4c-a98d-070584eaa06a", "translatable_type" => "App\Models\Description", "translatable_id" => "c4d3c562-d7f8-4f82-8be2-98e1f4915106"],
+            ["translation_id" => "dd5bdd34-a23d-4164-b8c1-110568f95ec5", "translatable_type" => "App\Models\Description", "translatable_id" => "c4d3c562-d7f8-4f82-8be2-98e1f4915106"],
+            ["translation_id" => "01d5e1db-409c-4f11-97c2-da0268920880", "translatable_type" => "App\Models\Description", "translatable_id" => "c4d3c562-d7f8-4f82-8be2-98e1f4915106"],
+            //1109
+            ["translation_id" => "1ebf2983-3093-4c1b-9323-e6fd3ab14940", "translatable_type" => "App\Models\Description", "translatable_id" => "607f8f7f-dae9-4cb4-88fd-7cf335c97586"],
+            ["translation_id" => "0dc04e67-bca5-4f76-bd1a-6a4094dd9822", "translatable_type" => "App\Models\Description", "translatable_id" => "607f8f7f-dae9-4cb4-88fd-7cf335c97586"],
+            ["translation_id" => "98a998d1-f826-4872-899f-03a494aeb8d0", "translatable_type" => "App\Models\Description", "translatable_id" => "607f8f7f-dae9-4cb4-88fd-7cf335c97586"],
+            //1110
+            ["translation_id" => "9a791e9f-babd-4171-99bb-6be6dd9e7d61", "translatable_type" => "App\Models\Description", "translatable_id" => "57b3cb29-044b-4dd4-a62b-abbe0ca5e192"],
+            ["translation_id" => "0d1a6e3a-23f4-4c51-ba38-bb4da82bc947", "translatable_type" => "App\Models\Description", "translatable_id" => "57b3cb29-044b-4dd4-a62b-abbe0ca5e192"],
+            ["translation_id" => "6af5f8ad-fc8f-4baa-a35b-c1f41131b3ac", "translatable_type" => "App\Models\Description", "translatable_id" => "57b3cb29-044b-4dd4-a62b-abbe0ca5e192"],
+            //1111
+            ["translation_id" => "c50ae798-6dd9-4c2a-a651-4211b53ce5af", "translatable_type" => "App\Models\Description", "translatable_id" => "d37a0ce9-d144-4789-a2f7-73180ec1d1cb"],
+            ["translation_id" => "149c7fd7-dfa4-49ad-b98d-6341e1af6d72", "translatable_type" => "App\Models\Description", "translatable_id" => "d37a0ce9-d144-4789-a2f7-73180ec1d1cb"],
+            ["translation_id" => "af88eda1-6a49-4eb0-a01d-4616529c773a", "translatable_type" => "App\Models\Description", "translatable_id" => "d37a0ce9-d144-4789-a2f7-73180ec1d1cb"],
+            //1112
+            ["translation_id" => "5f14b1a1-18ae-49d9-ab84-2a8ec15df85b", "translatable_type" => "App\Models\Description", "translatable_id" => "85956b53-81a0-4181-b0ba-01b995fc03e7"],
+            ["translation_id" => "3caf15b0-9024-4cad-a47b-99d0153a09af", "translatable_type" => "App\Models\Description", "translatable_id" => "85956b53-81a0-4181-b0ba-01b995fc03e7"],
+            ["translation_id" => "6a80dcca-ef98-4180-8cfe-28745af9690f", "translatable_type" => "App\Models\Description", "translatable_id" => "85956b53-81a0-4181-b0ba-01b995fc03e7"],
+            //1113
+            ["translation_id" => "ca63721f-728a-42ba-aa5d-f0ff1c906dd0", "translatable_type" => "App\Models\Description", "translatable_id" => "93baa7be-8dc5-4e5c-b0fb-5e641c4ab732"],
+            ["translation_id" => "eaaddf92-401c-40c3-a8ae-994924a3b6c7", "translatable_type" => "App\Models\Description", "translatable_id" => "93baa7be-8dc5-4e5c-b0fb-5e641c4ab732"],
+            ["translation_id" => "3fc6a189-5ae9-4115-81f1-287efff568a6", "translatable_type" => "App\Models\Description", "translatable_id" => "93baa7be-8dc5-4e5c-b0fb-5e641c4ab732"],
+            //1114
+            ["translation_id" => "8e09fa43-194b-4243-902d-fd03197a8ffe", "translatable_type" => "App\Models\Description", "translatable_id" => "a99f53b2-cbe3-4fe8-94c1-013501b4c320"],
+            ["translation_id" => "e4fe8a3e-26c8-4393-a94f-0ab5b2d0dd5f", "translatable_type" => "App\Models\Description", "translatable_id" => "a99f53b2-cbe3-4fe8-94c1-013501b4c320"],
+            ["translation_id" => "c78a9768-7c25-4245-be09-5d6a93975661", "translatable_type" => "App\Models\Description", "translatable_id" => "a99f53b2-cbe3-4fe8-94c1-013501b4c320"],
+            //1115
+            ["translation_id" => "7d7b52b2-92b1-4fc2-a049-63b3ac22fe5d", "translatable_type" => "App\Models\Description", "translatable_id" => "e68d8ec5-5cb0-449f-bdf3-23ebf184e27e"],
+            ["translation_id" => "40893ff5-f993-446f-8247-d29092807df4", "translatable_type" => "App\Models\Description", "translatable_id" => "e68d8ec5-5cb0-449f-bdf3-23ebf184e27e"],
+            ["translation_id" => "068eaa1a-77fd-4435-9068-229d2ccdc760", "translatable_type" => "App\Models\Description", "translatable_id" => "e68d8ec5-5cb0-449f-bdf3-23ebf184e27e"],
+            //1116
+            ["translation_id" => "087cc818-fe2a-49fa-b741-0c6c82d14ba6", "translatable_type" => "App\Models\Description", "translatable_id" => "fc3d4582-747b-4ae4-9611-f6666736236f"],
+            ["translation_id" => "deabbce4-69a7-498e-837e-9275991ef6f6", "translatable_type" => "App\Models\Description", "translatable_id" => "fc3d4582-747b-4ae4-9611-f6666736236f"],
+            ["translation_id" => "2870e4e2-4354-41cc-b68b-e56d4c20432a", "translatable_type" => "App\Models\Description", "translatable_id" => "fc3d4582-747b-4ae4-9611-f6666736236f"],
+            //1117
+            ["translation_id" => "a548e344-70cb-4153-b02b-f078646e80d9", "translatable_type" => "App\Models\Description", "translatable_id" => "77dcfca8-20bb-4a40-b67d-8f4a2b4a0ea9"],
+            ["translation_id" => "1a11fa70-2d5a-4851-b011-870dfc32a7b4", "translatable_type" => "App\Models\Description", "translatable_id" => "77dcfca8-20bb-4a40-b67d-8f4a2b4a0ea9"],
+            ["translation_id" => "b28547e3-fb40-464f-bfbf-bed162b73564", "translatable_type" => "App\Models\Description", "translatable_id" => "77dcfca8-20bb-4a40-b67d-8f4a2b4a0ea9"],
+            //1118
+            ["translation_id" => "64253cf5-c6b8-46af-8f93-3de8b9110724", "translatable_type" => "App\Models\Description", "translatable_id" => "e6b06006-95e8-4621-b14e-49dfed9f9e51"],
+            ["translation_id" => "d07247d5-0d19-4a53-8f5c-5e8bba92943e", "translatable_type" => "App\Models\Description", "translatable_id" => "e6b06006-95e8-4621-b14e-49dfed9f9e51"],
+            ["translation_id" => "8fab0bdc-d9e8-4602-8c1b-86edb512f459", "translatable_type" => "App\Models\Description", "translatable_id" => "e6b06006-95e8-4621-b14e-49dfed9f9e51"],
+            //1119
+            ["translation_id" => "47fc6636-c5b1-49de-b913-74f723627454", "translatable_type" => "App\Models\Description", "translatable_id" => "39bf3aef-7606-4450-905e-b8232ccb7c6f"],
+            ["translation_id" => "75c2c2ce-55a2-442d-92a7-98913a8e0d6d", "translatable_type" => "App\Models\Description", "translatable_id" => "39bf3aef-7606-4450-905e-b8232ccb7c6f"],
+            ["translation_id" => "1767c743-73fa-4d90-a0be-644fc89254db", "translatable_type" => "App\Models\Description", "translatable_id" => "39bf3aef-7606-4450-905e-b8232ccb7c6f"],
+            //1120
+            ["translation_id" => "e6669ae3-69a8-49f3-8b81-3acd993bf84d", "translatable_type" => "App\Models\Description", "translatable_id" => "f5ad0ba5-75a6-4dd4-9266-bc397fae892b"],
+            ["translation_id" => "5ddc9d84-418d-4b99-85b2-cf37b4984aca", "translatable_type" => "App\Models\Description", "translatable_id" => "f5ad0ba5-75a6-4dd4-9266-bc397fae892b"],
+            ["translation_id" => "8e01c894-b294-434b-a0d6-fe8713348347", "translatable_type" => "App\Models\Description", "translatable_id" => "f5ad0ba5-75a6-4dd4-9266-bc397fae892b"],
+            //1121
+            ["translation_id" => "8a3f4852-47a8-4dad-b6b4-e32075554c8e", "translatable_type" => "App\Models\Description", "translatable_id" => "91047ca2-6e70-4ddd-be3d-3aa8b406f6e7"],
+            ["translation_id" => "754d37ff-bd99-4ce6-83b8-cdd262a49ff7", "translatable_type" => "App\Models\Description", "translatable_id" => "91047ca2-6e70-4ddd-be3d-3aa8b406f6e7"],
+            ["translation_id" => "3be75b57-f81d-4110-9266-70c4d443ddeb", "translatable_type" => "App\Models\Description", "translatable_id" => "91047ca2-6e70-4ddd-be3d-3aa8b406f6e7"],
+            //1122
+            ["translation_id" => "ef766522-cc78-44fa-8d08-988326d89d8b", "translatable_type" => "App\Models\Description", "translatable_id" => "57f929c2-e3ac-4e14-b5af-5178dda209bc"],
+            ["translation_id" => "236d7df0-7d33-4edc-8be6-5276951568a9", "translatable_type" => "App\Models\Description", "translatable_id" => "57f929c2-e3ac-4e14-b5af-5178dda209bc"],
+            ["translation_id" => "54aee8eb-441d-46a7-9ce6-fd722b2cce1d", "translatable_type" => "App\Models\Description", "translatable_id" => "57f929c2-e3ac-4e14-b5af-5178dda209bc"],
+            //1123
+            ["translation_id" => "425d0b55-7263-4c07-80a4-603a3e090d6d", "translatable_type" => "App\Models\Description", "translatable_id" => "f7f075ee-0dfa-43d3-8480-47216cc27e60"],
+            ["translation_id" => "c2f56c4d-89df-4fdb-ab27-f68c30954c2a", "translatable_type" => "App\Models\Description", "translatable_id" => "f7f075ee-0dfa-43d3-8480-47216cc27e60"],
+            ["translation_id" => "3e08e7c0-6c13-4d0d-9da1-f28ce288af87", "translatable_type" => "App\Models\Description", "translatable_id" => "f7f075ee-0dfa-43d3-8480-47216cc27e60"],
+            //1124
+            ["translation_id" => "495397f1-689c-4818-aefe-556efa309d0e", "translatable_type" => "App\Models\Description", "translatable_id" => "692cd7c6-e04f-4224-8ba9-9aa3c1547d7e"],
+            ["translation_id" => "24751a6d-307a-4103-976f-067eb56f5455", "translatable_type" => "App\Models\Description", "translatable_id" => "692cd7c6-e04f-4224-8ba9-9aa3c1547d7e"],
+            ["translation_id" => "733c1318-78bc-48ee-947b-acf4937d7adb", "translatable_type" => "App\Models\Description", "translatable_id" => "692cd7c6-e04f-4224-8ba9-9aa3c1547d7e"],
+            //1125
+            ["translation_id" => "153e8c87-b6b6-48f8-924a-1b0f47c22ea7", "translatable_type" => "App\Models\Description", "translatable_id" => "ca48a2e5-82e8-4d08-8e3e-3d24abb7227c"],
+            ["translation_id" => "fcec4ea1-2b0c-4185-89d3-bdd4b8b17deb", "translatable_type" => "App\Models\Description", "translatable_id" => "ca48a2e5-82e8-4d08-8e3e-3d24abb7227c"],
+            ["translation_id" => "0465f51d-8b61-4693-9ea5-db6a4af2a412", "translatable_type" => "App\Models\Description", "translatable_id" => "ca48a2e5-82e8-4d08-8e3e-3d24abb7227c"],
+            //1126
+            ["translation_id" => "36f051fb-80af-4305-ad3b-efa26bb2e4cc", "translatable_type" => "App\Models\Description", "translatable_id" => "fddde80c-8e03-49a1-8036-f80591ccb2c3"],
+            ["translation_id" => "2a01fcfa-ac9e-49aa-897f-efec8a51aba6", "translatable_type" => "App\Models\Description", "translatable_id" => "fddde80c-8e03-49a1-8036-f80591ccb2c3"],
+            ["translation_id" => "ef748d09-49ca-4ee7-8a03-437711f3258a", "translatable_type" => "App\Models\Description", "translatable_id" => "fddde80c-8e03-49a1-8036-f80591ccb2c3"],
+            //1127
+            ["translation_id" => "1cd22ba9-7182-4e1c-a88d-b2e6df343773", "translatable_type" => "App\Models\Description", "translatable_id" => "b75eb206-b5d3-4d11-ae47-fd6a3523ccd5"],
+            ["translation_id" => "fe504d9a-e41f-4245-a3c2-2f8845f2b3de", "translatable_type" => "App\Models\Description", "translatable_id" => "b75eb206-b5d3-4d11-ae47-fd6a3523ccd5"],
+            ["translation_id" => "729b9ce8-a58e-485f-8774-17ffbf49c45d", "translatable_type" => "App\Models\Description", "translatable_id" => "b75eb206-b5d3-4d11-ae47-fd6a3523ccd5"],
+            //1128
+            ["translation_id" => "67c04716-22c8-48c0-bd64-ebc989e9aa3b", "translatable_type" => "App\Models\Description", "translatable_id" => "ed41c2fb-8233-409f-a48e-fa65c9a49088"],
+            ["translation_id" => "4da2d7a1-126c-4cce-b8a6-a50e2ede2b03", "translatable_type" => "App\Models\Description", "translatable_id" => "ed41c2fb-8233-409f-a48e-fa65c9a49088"],
+            ["translation_id" => "e4f06bcf-1358-4d29-8f7b-7d8ce43c0e22", "translatable_type" => "App\Models\Description", "translatable_id" => "ed41c2fb-8233-409f-a48e-fa65c9a49088"],
+            //1129
+            ["translation_id" => "355f31eb-ba5b-4541-b94f-f45d3af1261a", "translatable_type" => "App\Models\Description", "translatable_id" => "ec2d4d7b-d0c3-4b4c-b1ab-3f808e65e5b3"],
+            ["translation_id" => "2558518e-bc61-4b40-902e-6a63e5bec5b2", "translatable_type" => "App\Models\Description", "translatable_id" => "ec2d4d7b-d0c3-4b4c-b1ab-3f808e65e5b3"],
+            ["translation_id" => "73f03f57-3f75-4993-8ac8-68e96e34903f", "translatable_type" => "App\Models\Description", "translatable_id" => "ec2d4d7b-d0c3-4b4c-b1ab-3f808e65e5b3"],
+            //1130
+            ["translation_id" => "0e6474bf-0d10-4820-a831-d8888ada8bad", "translatable_type" => "App\Models\Description", "translatable_id" => "6b406fc7-5f7a-4f38-8ad4-7fbb22b05645"],
+            ["translation_id" => "02209086-5b4c-4170-bdbd-bd9009206b41", "translatable_type" => "App\Models\Description", "translatable_id" => "6b406fc7-5f7a-4f38-8ad4-7fbb22b05645"],
+            ["translation_id" => "174c34e1-0095-47e0-9b5a-3e0663cee144", "translatable_type" => "App\Models\Description", "translatable_id" => "6b406fc7-5f7a-4f38-8ad4-7fbb22b05645"],
+            //1131
+            ["translation_id" => "10e29fa2-7dca-4fb3-bd09-6da3890d8f64", "translatable_type" => "App\Models\Description", "translatable_id" => "6221811b-00a2-4b11-a2ee-e44736f9877d"],
+            ["translation_id" => "784f9eec-a931-4ec2-a994-ed2f76f2a1f2", "translatable_type" => "App\Models\Description", "translatable_id" => "6221811b-00a2-4b11-a2ee-e44736f9877d"],
+            ["translation_id" => "7df74978-7934-4651-b9dd-d178c4187c53", "translatable_type" => "App\Models\Description", "translatable_id" => "6221811b-00a2-4b11-a2ee-e44736f9877d"],
+            //1132
+            ["translation_id" => "e0540495-fd77-49b9-973d-24eef5108342", "translatable_type" => "App\Models\Description", "translatable_id" => "bedc733d-43ef-4080-909d-85fed87736aa"],
+            ["translation_id" => "14211026-6632-48ff-b8c8-ed7006f07e83", "translatable_type" => "App\Models\Description", "translatable_id" => "bedc733d-43ef-4080-909d-85fed87736aa"],
+            ["translation_id" => "1b394a2f-bbe8-427d-b7a9-7c7f20047c2b", "translatable_type" => "App\Models\Description", "translatable_id" => "bedc733d-43ef-4080-909d-85fed87736aa"],
+            //1133
+            ["translation_id" => "7cd16931-570e-4951-8d38-97cf975bb8c8", "translatable_type" => "App\Models\Description", "translatable_id" => "2eaa206e-ee82-49cd-84a9-16ce956d982f"],
+            ["translation_id" => "9acb15b2-c087-4c0a-8b6e-bfc7cb78a022", "translatable_type" => "App\Models\Description", "translatable_id" => "2eaa206e-ee82-49cd-84a9-16ce956d982f"],
+            ["translation_id" => "c82d0348-c13a-4215-ba8b-f466a16e2690", "translatable_type" => "App\Models\Description", "translatable_id" => "2eaa206e-ee82-49cd-84a9-16ce956d982f"],
+            //1134
+            ["translation_id" => "ed4266a5-81cf-43ce-8191-6a939b7cda58", "translatable_type" => "App\Models\Description", "translatable_id" => "ae4246be-aba9-4671-92b5-1ce3849d1b23"],
+            ["translation_id" => "3062c9f3-a046-4dbf-a39b-9eb1fc326200", "translatable_type" => "App\Models\Description", "translatable_id" => "ae4246be-aba9-4671-92b5-1ce3849d1b23"],
+            ["translation_id" => "5895cfe9-f358-4124-99d7-18f1dc804cf8", "translatable_type" => "App\Models\Description", "translatable_id" => "ae4246be-aba9-4671-92b5-1ce3849d1b23"],
+            //1135
+            ["translation_id" => "cf746fa4-d7a7-49d2-9630-fc3d8953a9d2", "translatable_type" => "App\Models\Description", "translatable_id" => "2501559e-1dc8-4374-90d3-a6882fd192da"],
+            ["translation_id" => "8528f99b-32ad-41f6-8dad-1e7d01d33383", "translatable_type" => "App\Models\Description", "translatable_id" => "2501559e-1dc8-4374-90d3-a6882fd192da"],
+            ["translation_id" => "3b51e623-2c6c-4cd0-949d-eb6156cf7f1c", "translatable_type" => "App\Models\Description", "translatable_id" => "2501559e-1dc8-4374-90d3-a6882fd192da"],
+            //1136
+            ["translation_id" => "2688a9a3-99af-4f18-898d-0373adb95d27", "translatable_type" => "App\Models\Description", "translatable_id" => "dd3d0abe-acb3-4b89-9fc1-f7e3992a9bbb"],
+            ["translation_id" => "c7b9bc8d-deb1-45b8-96cd-c93b4854f138", "translatable_type" => "App\Models\Description", "translatable_id" => "dd3d0abe-acb3-4b89-9fc1-f7e3992a9bbb"],
+            ["translation_id" => "6bfddda2-b71f-4412-bfe2-ca359d48f4a9", "translatable_type" => "App\Models\Description", "translatable_id" => "dd3d0abe-acb3-4b89-9fc1-f7e3992a9bbb"],
+            //1137
+            ["translation_id" => "35c67f23-aeb4-4ed0-a6f6-26f0d6919501", "translatable_type" => "App\Models\Description", "translatable_id" => "ba350b12-a2c5-4d27-8f03-7782acecb589"],
+            ["translation_id" => "eb1bb44f-7fcd-4f8e-b9e7-f15fd329a469", "translatable_type" => "App\Models\Description", "translatable_id" => "ba350b12-a2c5-4d27-8f03-7782acecb589"],
+            ["translation_id" => "120946e5-3637-4db4-be3d-a77770873576", "translatable_type" => "App\Models\Description", "translatable_id" => "ba350b12-a2c5-4d27-8f03-7782acecb589"],
+            //1138
+            ["translation_id" => "6cc6f3a1-899f-4db4-9855-09e8a989b5d8", "translatable_type" => "App\Models\Description", "translatable_id" => "1083d2c6-bea7-49fb-b982-902ecb4441a5"],
+            ["translation_id" => "857e5a0f-0146-49a1-b96d-62f8e09c03d2", "translatable_type" => "App\Models\Description", "translatable_id" => "1083d2c6-bea7-49fb-b982-902ecb4441a5"],
+            ["translation_id" => "38c00566-1587-4e06-9014-028f997825fb", "translatable_type" => "App\Models\Description", "translatable_id" => "1083d2c6-bea7-49fb-b982-902ecb4441a5"],
+            //1139
+            ["translation_id" => "f9e51099-6bc3-4cd2-8c82-497a1059bb79", "translatable_type" => "App\Models\Description", "translatable_id" => "2c85228e-ce04-483f-8543-ccaf32b67dbb"],
+            ["translation_id" => "b2a22fd4-c062-42c6-bb21-effaa441e884", "translatable_type" => "App\Models\Description", "translatable_id" => "2c85228e-ce04-483f-8543-ccaf32b67dbb"],
+            ["translation_id" => "4ccd8dbd-c470-4564-bd28-2796e58aefe6", "translatable_type" => "App\Models\Description", "translatable_id" => "2c85228e-ce04-483f-8543-ccaf32b67dbb"],
+            //1140
+            ["translation_id" => "fd874295-9f0b-4c97-86b9-dbe4bfe57a65", "translatable_type" => "App\Models\Description", "translatable_id" => "ec3d3e23-96ed-4abb-a511-24853e31e7eb"],
+            ["translation_id" => "9c3f45a3-5c6d-4fb8-8dc7-4c1339d41cf1", "translatable_type" => "App\Models\Description", "translatable_id" => "ec3d3e23-96ed-4abb-a511-24853e31e7eb"],
+            ["translation_id" => "2994d9fb-b077-41d4-9c32-69e478499465", "translatable_type" => "App\Models\Description", "translatable_id" => "ec3d3e23-96ed-4abb-a511-24853e31e7eb"],
+            //1141
+            ["translation_id" => "9ab777df-e08d-46bd-8b13-7910d70cefdc", "translatable_type" => "App\Models\Description", "translatable_id" => "e24a16f2-f0db-46f8-81ad-8d447bf6badd"],
+            ["translation_id" => "ceca172e-b707-4efa-ba5d-36ca30f821b9", "translatable_type" => "App\Models\Description", "translatable_id" => "e24a16f2-f0db-46f8-81ad-8d447bf6badd"],
+            ["translation_id" => "a141d427-5777-4461-8e2f-6ef81f8f488d", "translatable_type" => "App\Models\Description", "translatable_id" => "e24a16f2-f0db-46f8-81ad-8d447bf6badd"],
+            //1142
+            ["translation_id" => "b240dae7-78ac-4083-bb76-64999ad11ab2", "translatable_type" => "App\Models\Description", "translatable_id" => "a5b4ef51-4f0d-411f-be27-fd8e60eb6dc4"],
+            ["translation_id" => "5de8869e-6676-4e82-865e-f38e4f43137f", "translatable_type" => "App\Models\Description", "translatable_id" => "a5b4ef51-4f0d-411f-be27-fd8e60eb6dc4"],
+            ["translation_id" => "43063cbc-bb01-4dba-9f8b-d0a9b75d8231", "translatable_type" => "App\Models\Description", "translatable_id" => "a5b4ef51-4f0d-411f-be27-fd8e60eb6dc4"],
+            //1143
+            ["translation_id" => "0af4ed41-408c-407a-9010-e185dd9ce96f", "translatable_type" => "App\Models\Description", "translatable_id" => "cb46e8de-a580-4fef-9597-130020ce26d4"],
+            ["translation_id" => "cc99ab56-8632-4e6e-b186-b122110631ef", "translatable_type" => "App\Models\Description", "translatable_id" => "cb46e8de-a580-4fef-9597-130020ce26d4"],
+            ["translation_id" => "d81ca0e0-02a5-4799-89ae-65f31ca9ec72", "translatable_type" => "App\Models\Description", "translatable_id" => "cb46e8de-a580-4fef-9597-130020ce26d4"],
+            //1144
+            ["translation_id" => "aaf08427-3679-487f-acf9-7460b29e1f1a", "translatable_type" => "App\Models\Description", "translatable_id" => "e53bb656-44ac-4bd3-9111-ebd52406294e"],
+            ["translation_id" => "b661e3c1-77de-4f57-9fc5-6f14dc7e65e7", "translatable_type" => "App\Models\Description", "translatable_id" => "e53bb656-44ac-4bd3-9111-ebd52406294e"],
+            ["translation_id" => "bcd620df-8ba0-4d68-9ab2-0139041dc3fd", "translatable_type" => "App\Models\Description", "translatable_id" => "e53bb656-44ac-4bd3-9111-ebd52406294e"],
+            //1145
+            ["translation_id" => "10dca8fd-51b4-415d-a312-a36bf432714f", "translatable_type" => "App\Models\Description", "translatable_id" => "974d8746-f790-4b26-8075-2422649ac89a"],
+            ["translation_id" => "befff8f4-e6c3-4b60-8592-7031b5a2f502", "translatable_type" => "App\Models\Description", "translatable_id" => "974d8746-f790-4b26-8075-2422649ac89a"],
+            ["translation_id" => "485d7c27-3bde-465d-b699-815ae3b0d582", "translatable_type" => "App\Models\Description", "translatable_id" => "974d8746-f790-4b26-8075-2422649ac89a"],
+            //1146
+            ["translation_id" => "9ca42c7d-fa08-4d28-82bc-f7ee044aee09", "translatable_type" => "App\Models\Description", "translatable_id" => "1aaacd14-c37f-4125-80a8-49df337d9e48"],
+            ["translation_id" => "31ca37f9-26f0-4bd2-834d-d08547df53b9", "translatable_type" => "App\Models\Description", "translatable_id" => "1aaacd14-c37f-4125-80a8-49df337d9e48"],
+            ["translation_id" => "d09ef456-7fe2-4718-b1da-c7e3299312d5", "translatable_type" => "App\Models\Description", "translatable_id" => "1aaacd14-c37f-4125-80a8-49df337d9e48"],
+            //1147
+            ["translation_id" => "986b6ece-55f4-4043-a37b-2b37d253f928", "translatable_type" => "App\Models\Description", "translatable_id" => "bb78dcee-054d-48e8-98ff-a0a613f68268"],
+            ["translation_id" => "735c308c-7c4b-4c8d-a900-30a395ff4479", "translatable_type" => "App\Models\Description", "translatable_id" => "bb78dcee-054d-48e8-98ff-a0a613f68268"],
+            ["translation_id" => "19321516-f3ea-43c7-b07d-057d6e8a25b5", "translatable_type" => "App\Models\Description", "translatable_id" => "bb78dcee-054d-48e8-98ff-a0a613f68268"],
+            //1148
+            ["translation_id" => "e009b1bb-426c-4552-96d1-35c0b3b8de90", "translatable_type" => "App\Models\Description", "translatable_id" => "7dc150ee-df4b-470e-a9ad-2719eea40fe6"],
+            ["translation_id" => "ba08c72e-5e88-4e47-9250-da812d52f9e8", "translatable_type" => "App\Models\Description", "translatable_id" => "7dc150ee-df4b-470e-a9ad-2719eea40fe6"],
+            ["translation_id" => "cb9399bf-9624-42bb-80e4-17c01d84fc7c", "translatable_type" => "App\Models\Description", "translatable_id" => "7dc150ee-df4b-470e-a9ad-2719eea40fe6"],
+            //1149
+            ["translation_id" => "c7e007ec-3e90-48c0-ae43-08e6ba0fcbac", "translatable_type" => "App\Models\Description", "translatable_id" => "ef94a4a3-1a0c-4474-9420-d8eda0925500"],
+            ["translation_id" => "be30c157-a273-4ece-a017-3d26ddb617f7", "translatable_type" => "App\Models\Description", "translatable_id" => "ef94a4a3-1a0c-4474-9420-d8eda0925500"],
+            ["translation_id" => "2bdeb6ac-e0d4-4935-a17e-b30b2e1b5e69", "translatable_type" => "App\Models\Description", "translatable_id" => "ef94a4a3-1a0c-4474-9420-d8eda0925500"],
+            //1150
+            ["translation_id" => "bf287de5-ce2b-4a54-b6a4-a14e5ce4be49", "translatable_type" => "App\Models\Description", "translatable_id" => "7229eb0c-33d5-4168-8658-ecb263ea8dbb"],
+            ["translation_id" => "c9847e5f-1876-46ac-b1bb-e5b579d4635b", "translatable_type" => "App\Models\Description", "translatable_id" => "7229eb0c-33d5-4168-8658-ecb263ea8dbb"],
+            ["translation_id" => "5cccd21d-fc7f-4aa6-898c-f65d39365089", "translatable_type" => "App\Models\Description", "translatable_id" => "7229eb0c-33d5-4168-8658-ecb263ea8dbb"],
+            //1151
+            ["translation_id" => "2a9f2766-eb92-4599-9ba8-ad2d2e5be422", "translatable_type" => "App\Models\Description", "translatable_id" => "a054f397-4a12-4cfb-8323-7ae8defdbd6e"],
+            ["translation_id" => "b0ea77bc-900a-4903-8000-5653c109fa27", "translatable_type" => "App\Models\Description", "translatable_id" => "a054f397-4a12-4cfb-8323-7ae8defdbd6e"],
+            ["translation_id" => "8a41d5f7-d9da-4087-94f2-50a4b746775c", "translatable_type" => "App\Models\Description", "translatable_id" => "a054f397-4a12-4cfb-8323-7ae8defdbd6e"],
+            //1152
+            ["translation_id" => "6e770fe1-4856-4cc7-80ec-e9f048e0759a", "translatable_type" => "App\Models\Description", "translatable_id" => "4cab04d1-8690-4404-aca5-e2ee9ad4b19d"],
+            ["translation_id" => "e4402f6f-4705-4973-b3c5-2f0eea9effdf", "translatable_type" => "App\Models\Description", "translatable_id" => "4cab04d1-8690-4404-aca5-e2ee9ad4b19d"],
+            ["translation_id" => "06e046bc-f3f4-40e2-89ab-2a867bd64c4f", "translatable_type" => "App\Models\Description", "translatable_id" => "4cab04d1-8690-4404-aca5-e2ee9ad4b19d"],
+            //1153
+            ["translation_id" => "b76d6c01-b222-4a11-b267-22102937314e", "translatable_type" => "App\Models\Description", "translatable_id" => "bb7a25d5-1f52-4267-a85e-b4838b59dee4"],
+            ["translation_id" => "a54b2c14-ae8c-4b4a-af75-3037e9fb9e4e", "translatable_type" => "App\Models\Description", "translatable_id" => "bb7a25d5-1f52-4267-a85e-b4838b59dee4"],
+            ["translation_id" => "aa34afa9-2d31-47f7-968b-1fb373807662", "translatable_type" => "App\Models\Description", "translatable_id" => "bb7a25d5-1f52-4267-a85e-b4838b59dee4"],
+            //1154
+            ["translation_id" => "7271ff7f-4ecc-4200-8a9f-f7b052bb6066", "translatable_type" => "App\Models\Description", "translatable_id" => "ace63fe3-249e-4cc2-ad65-f367a2b67b87"],
+            ["translation_id" => "15a2d374-0d36-4930-b847-d71b0fde8b94", "translatable_type" => "App\Models\Description", "translatable_id" => "ace63fe3-249e-4cc2-ad65-f367a2b67b87"],
+            ["translation_id" => "54443ed4-969d-4788-b590-3ffa70c4cf4a", "translatable_type" => "App\Models\Description", "translatable_id" => "ace63fe3-249e-4cc2-ad65-f367a2b67b87"],
+            //1155
+            ["translation_id" => "10e28a28-669a-4e2a-aa8b-6ae4275039e0", "translatable_type" => "App\Models\Description", "translatable_id" => "bc2cb640-4489-458b-b088-a4cf96165f99"],
+            ["translation_id" => "9d32e467-c498-433b-bf80-d4abef5d06b2", "translatable_type" => "App\Models\Description", "translatable_id" => "bc2cb640-4489-458b-b088-a4cf96165f99"],
+            ["translation_id" => "5229180e-0a18-4964-83b3-82db2b48315d", "translatable_type" => "App\Models\Description", "translatable_id" => "bc2cb640-4489-458b-b088-a4cf96165f99"],
+            //1156
+            ["translation_id" => "87b6e936-7eb7-460a-9024-d2d7c83ba956", "translatable_type" => "App\Models\Description", "translatable_id" => "7e88399e-81cb-4a72-99b1-272b0c2866b0"],
+            ["translation_id" => "535cacd1-76dd-46f3-8f2f-1eb3998249fb", "translatable_type" => "App\Models\Description", "translatable_id" => "7e88399e-81cb-4a72-99b1-272b0c2866b0"],
+            ["translation_id" => "7e7bd63e-afa8-49f8-89cf-fe4f0516b1dd", "translatable_type" => "App\Models\Description", "translatable_id" => "7e88399e-81cb-4a72-99b1-272b0c2866b0"],
+            //1157
+            ["translation_id" => "0e091776-f319-404f-8137-551360d3666c", "translatable_type" => "App\Models\Description", "translatable_id" => "78b0f2a2-cb5b-414f-9fe6-3a75d6a4855c"],
+            ["translation_id" => "d6dd9cc7-c8f7-4f1f-9caf-787d1d25731d", "translatable_type" => "App\Models\Description", "translatable_id" => "78b0f2a2-cb5b-414f-9fe6-3a75d6a4855c"],
+            ["translation_id" => "77b0be40-d51d-42c2-8c22-919d776c9672", "translatable_type" => "App\Models\Description", "translatable_id" => "78b0f2a2-cb5b-414f-9fe6-3a75d6a4855c"],
+            //1158
+            ["translation_id" => "2dfd6aa9-a2d3-4158-a913-0a78d544d82a", "translatable_type" => "App\Models\Description", "translatable_id" => "9cea46bf-8e7c-4164-a2d9-0223add15437"],
+            ["translation_id" => "45c38367-26be-4ed6-8091-7b428572303f", "translatable_type" => "App\Models\Description", "translatable_id" => "9cea46bf-8e7c-4164-a2d9-0223add15437"],
+            ["translation_id" => "31fbdc5f-b782-4ccc-b0c4-08a6e9fb778d", "translatable_type" => "App\Models\Description", "translatable_id" => "9cea46bf-8e7c-4164-a2d9-0223add15437"],
+            //1159
+            ["translation_id" => "8ad782ee-a1fd-4d58-8377-6b7f5950506b", "translatable_type" => "App\Models\Description", "translatable_id" => "c364a543-463f-4f9f-8888-6909ab73d68b"],
+            ["translation_id" => "4130e688-f6db-48f1-af2c-3f860bf180b1", "translatable_type" => "App\Models\Description", "translatable_id" => "c364a543-463f-4f9f-8888-6909ab73d68b"],
+            ["translation_id" => "7cca11e6-6779-4450-b5fe-b33ea3c6ed17", "translatable_type" => "App\Models\Description", "translatable_id" => "c364a543-463f-4f9f-8888-6909ab73d68b"],
+            //1160
+            ["translation_id" => "4dcbe08e-7979-42ef-bb5a-a7f22f294ad6", "translatable_type" => "App\Models\Description", "translatable_id" => "ffc84f52-a269-4dfb-9747-beef9120e72b"],
+            ["translation_id" => "8bde1dbf-a2e0-41c1-823a-4292ca6a94e1", "translatable_type" => "App\Models\Description", "translatable_id" => "ffc84f52-a269-4dfb-9747-beef9120e72b"],
+            ["translation_id" => "ba08e76f-2230-45f6-9ac2-f612396a5256", "translatable_type" => "App\Models\Description", "translatable_id" => "ffc84f52-a269-4dfb-9747-beef9120e72b"],
+            //1161
+            ["translation_id" => "19d182aa-e11a-410a-917c-1421e3085b92", "translatable_type" => "App\Models\Description", "translatable_id" => "fe04712a-821e-43be-ab8d-6b6ea9d65f14"],
+            ["translation_id" => "67e00bb8-fffa-4055-8f52-ba9535b031e6", "translatable_type" => "App\Models\Description", "translatable_id" => "fe04712a-821e-43be-ab8d-6b6ea9d65f14"],
+            ["translation_id" => "c7f30e1f-c1bc-437b-b2d6-c3dd57cdba40", "translatable_type" => "App\Models\Description", "translatable_id" => "fe04712a-821e-43be-ab8d-6b6ea9d65f14"],
+            //1162
+            ["translation_id" => "db515406-73ad-48a7-a68b-9d063c8fbffc", "translatable_type" => "App\Models\Description", "translatable_id" => "b1289c95-b975-4f88-b416-9cfcdc2db783"],
+            ["translation_id" => "b899b69c-487d-4feb-b86d-560f833db0dd", "translatable_type" => "App\Models\Description", "translatable_id" => "b1289c95-b975-4f88-b416-9cfcdc2db783"],
+            ["translation_id" => "f67f4bb6-3834-4c35-907e-f9cf98240418", "translatable_type" => "App\Models\Description", "translatable_id" => "b1289c95-b975-4f88-b416-9cfcdc2db783"],
+            //1163
+            ["translation_id" => "c8623f9b-88a9-4043-8f03-7425277600b3", "translatable_type" => "App\Models\Description", "translatable_id" => "0998ee08-042d-47d9-8e8f-eb4a94b7a903"],
+            ["translation_id" => "89b30fe8-1509-49a0-8fb8-e7b697d6ddfa", "translatable_type" => "App\Models\Description", "translatable_id" => "0998ee08-042d-47d9-8e8f-eb4a94b7a903"],
+            ["translation_id" => "9a5b3bc9-2354-4981-a68d-cce3bed8e786", "translatable_type" => "App\Models\Description", "translatable_id" => "0998ee08-042d-47d9-8e8f-eb4a94b7a903"],
+            //1164
+            ["translation_id" => "23ca4bbb-4b36-48b4-812d-bbd730b2c67c", "translatable_type" => "App\Models\Description", "translatable_id" => "680c5d6e-2647-4130-a8fa-e6666b3bbc37"],
+            ["translation_id" => "36da3978-3119-404d-9741-c03e186a7697", "translatable_type" => "App\Models\Description", "translatable_id" => "680c5d6e-2647-4130-a8fa-e6666b3bbc37"],
+            ["translation_id" => "05c405a2-556b-4a57-bf0e-ccc544966deb", "translatable_type" => "App\Models\Description", "translatable_id" => "680c5d6e-2647-4130-a8fa-e6666b3bbc37"],
+            //1165
+            ["translation_id" => "fb9b40ca-ede8-416e-96bf-96bfbab8f726", "translatable_type" => "App\Models\Description", "translatable_id" => "8473d390-ac10-4bc8-aafb-91f446ddfbb6"],
+            ["translation_id" => "89aa9f78-7a9e-4677-bd56-0f9b723894a8", "translatable_type" => "App\Models\Description", "translatable_id" => "8473d390-ac10-4bc8-aafb-91f446ddfbb6"],
+            ["translation_id" => "676710e5-21fc-437d-baca-8c485e9f2eb1", "translatable_type" => "App\Models\Description", "translatable_id" => "8473d390-ac10-4bc8-aafb-91f446ddfbb6"],
+            //1166
+            ["translation_id" => "7a710451-ae20-4c74-bddc-0ea492dc5bfa", "translatable_type" => "App\Models\Description", "translatable_id" => "62c37c36-1cac-4226-b580-a244b9a19e06"],
+            ["translation_id" => "03935831-b288-4088-89db-0da5e29e6edd", "translatable_type" => "App\Models\Description", "translatable_id" => "62c37c36-1cac-4226-b580-a244b9a19e06"],
+            ["translation_id" => "ebe56b11-d5e2-498f-95ba-6ca7639021e9", "translatable_type" => "App\Models\Description", "translatable_id" => "62c37c36-1cac-4226-b580-a244b9a19e06"],
+            //1167
+            ["translation_id" => "919cb5f2-b220-4b5a-80ff-45429698cd90", "translatable_type" => "App\Models\Description", "translatable_id" => "d42b7b56-1d9e-45a5-abba-39c7828196e7"],
+            ["translation_id" => "69f0fc79-88c3-419f-aa57-db3f3c97465e", "translatable_type" => "App\Models\Description", "translatable_id" => "d42b7b56-1d9e-45a5-abba-39c7828196e7"],
+            ["translation_id" => "e90a4aa4-02b1-4b12-b68a-2f2a1abdcdff", "translatable_type" => "App\Models\Description", "translatable_id" => "d42b7b56-1d9e-45a5-abba-39c7828196e7"],
+            //1168
+            ["translation_id" => "f93510ca-5870-400e-bed1-778e5b62dd36", "translatable_type" => "App\Models\Description", "translatable_id" => "1a320291-f471-4074-8306-30a12fee13ea"],
+            ["translation_id" => "5922b26f-f5a1-4df6-9bba-92c032a85871", "translatable_type" => "App\Models\Description", "translatable_id" => "1a320291-f471-4074-8306-30a12fee13ea"],
+            ["translation_id" => "3468d5c7-b543-476d-8f38-d9d7e0631b0f", "translatable_type" => "App\Models\Description", "translatable_id" => "1a320291-f471-4074-8306-30a12fee13ea"],
+            //1169
+            ["translation_id" => "176b1735-3c01-4ef1-ae58-542ec08dcba4", "translatable_type" => "App\Models\Description", "translatable_id" => "8959a954-0b72-45c9-b7bc-883079927127"],
+            ["translation_id" => "8d712154-54a6-457a-8155-ca322c276ff6", "translatable_type" => "App\Models\Description", "translatable_id" => "8959a954-0b72-45c9-b7bc-883079927127"],
+            ["translation_id" => "1292a07e-bab9-4ed4-a7a8-56913d00ad41", "translatable_type" => "App\Models\Description", "translatable_id" => "8959a954-0b72-45c9-b7bc-883079927127"],
+            //1170
+            ["translation_id" => "0f0c917e-a3ca-4dbe-86cd-39d0fdbfbd00", "translatable_type" => "App\Models\Description", "translatable_id" => "a84b4881-ca9f-4be9-8652-755d764d307e"],
+            ["translation_id" => "21bfcfa6-edc7-4904-a754-4f679d720eec", "translatable_type" => "App\Models\Description", "translatable_id" => "a84b4881-ca9f-4be9-8652-755d764d307e"],
+            ["translation_id" => "d6f2b661-5b3a-485f-a07d-b5a533512195", "translatable_type" => "App\Models\Description", "translatable_id" => "a84b4881-ca9f-4be9-8652-755d764d307e"],
+            //1171
+            ["translation_id" => "e75d06ea-5a90-49da-9d81-57d121f402d2", "translatable_type" => "App\Models\Description", "translatable_id" => "7be47101-2fb3-4fdd-8555-65b6f05b8a5e"],
+            ["translation_id" => "79e5acf0-afad-4354-9f71-e33a93c30b3e", "translatable_type" => "App\Models\Description", "translatable_id" => "7be47101-2fb3-4fdd-8555-65b6f05b8a5e"],
+            ["translation_id" => "08332c51-8147-4777-aec6-e5eea00e0bf4", "translatable_type" => "App\Models\Description", "translatable_id" => "7be47101-2fb3-4fdd-8555-65b6f05b8a5e"],
+            //1172
+            ["translation_id" => "e23f3e48-9beb-46a7-8d21-65f589047759", "translatable_type" => "App\Models\Description", "translatable_id" => "cab61d63-ee07-4a26-bf6a-dcba6dc65509"],
+            ["translation_id" => "0530754f-5887-4d19-a38d-ea10dbe04bc8", "translatable_type" => "App\Models\Description", "translatable_id" => "cab61d63-ee07-4a26-bf6a-dcba6dc65509"],
+            ["translation_id" => "20e9bdce-420b-47fe-9e45-003ed56a0fbe", "translatable_type" => "App\Models\Description", "translatable_id" => "cab61d63-ee07-4a26-bf6a-dcba6dc65509"],
+            //1173
+            ["translation_id" => "b63c600d-3828-4b96-9c8d-b070fbb4cbea", "translatable_type" => "App\Models\Description", "translatable_id" => "65dd1175-c855-449d-b764-94bb79cb9a05"],
+            ["translation_id" => "51095069-6b88-458e-a73f-fbf67aaf9fc3", "translatable_type" => "App\Models\Description", "translatable_id" => "65dd1175-c855-449d-b764-94bb79cb9a05"],
+            ["translation_id" => "9e0f1e4c-58f8-4054-aeeb-314fd0646546", "translatable_type" => "App\Models\Description", "translatable_id" => "65dd1175-c855-449d-b764-94bb79cb9a05"],
+            //1174
+            ["translation_id" => "0c43616b-5dc1-4871-889a-4845af7aae28", "translatable_type" => "App\Models\Description", "translatable_id" => "1cc698f2-79b3-454d-a734-0a3c2d54065f"],
+            ["translation_id" => "fe03314e-47eb-4f6e-814a-41a3205cf14d", "translatable_type" => "App\Models\Description", "translatable_id" => "1cc698f2-79b3-454d-a734-0a3c2d54065f"],
+            ["translation_id" => "ee5311d1-ba6c-4786-ac94-d89319057436", "translatable_type" => "App\Models\Description", "translatable_id" => "1cc698f2-79b3-454d-a734-0a3c2d54065f"],
+            //1175
+            ["translation_id" => "e2c64727-d96c-46d4-8854-1f821f7772a1", "translatable_type" => "App\Models\Description", "translatable_id" => "0517dacf-6868-4aee-9961-e6649f07015c"],
+            ["translation_id" => "abc45793-7752-4f69-a15c-fa2342705677", "translatable_type" => "App\Models\Description", "translatable_id" => "0517dacf-6868-4aee-9961-e6649f07015c"],
+            ["translation_id" => "238eb9cd-595b-4dde-9116-edbdf79633aa", "translatable_type" => "App\Models\Description", "translatable_id" => "0517dacf-6868-4aee-9961-e6649f07015c"],
+            //1176
+            ["translation_id" => "f114bf54-3390-45ea-89b4-0674a69f5fe2", "translatable_type" => "App\Models\Description", "translatable_id" => "2ec6edd5-4c81-405d-a3b6-e6e9ff4011d0"],
+            ["translation_id" => "0ae6e929-e1f6-47a9-8744-4f795c798527", "translatable_type" => "App\Models\Description", "translatable_id" => "2ec6edd5-4c81-405d-a3b6-e6e9ff4011d0"],
+            ["translation_id" => "d0baf2aa-b746-4759-bc04-ffb2195e93bc", "translatable_type" => "App\Models\Description", "translatable_id" => "2ec6edd5-4c81-405d-a3b6-e6e9ff4011d0"],
+            //1177
+            ["translation_id" => "3936ef11-9ae9-4c7b-937c-f11755d68769", "translatable_type" => "App\Models\Description", "translatable_id" => "6ed6d9ea-5e55-470f-b494-22a27cc278ba"],
+            ["translation_id" => "6d5de61a-d190-4935-b345-f0d073fd818a", "translatable_type" => "App\Models\Description", "translatable_id" => "6ed6d9ea-5e55-470f-b494-22a27cc278ba"],
+            ["translation_id" => "da6d1d27-a923-4b8b-a44a-532a51a2bffd", "translatable_type" => "App\Models\Description", "translatable_id" => "6ed6d9ea-5e55-470f-b494-22a27cc278ba"],
+            //1178
+            ["translation_id" => "ffd89677-bdb5-433f-b800-a35b0534942b", "translatable_type" => "App\Models\Description", "translatable_id" => "3d077e07-06e7-4fe8-a05b-0307d22354ad"],
+            ["translation_id" => "669e315c-aca3-4064-b7a4-768c506b1f50", "translatable_type" => "App\Models\Description", "translatable_id" => "3d077e07-06e7-4fe8-a05b-0307d22354ad"],
+            ["translation_id" => "9916ecce-914b-4575-8313-ebf58883bb18", "translatable_type" => "App\Models\Description", "translatable_id" => "3d077e07-06e7-4fe8-a05b-0307d22354ad"],
+            //1179
+            ["translation_id" => "31ebfd77-71c8-4b54-a3c2-94002cb576d8", "translatable_type" => "App\Models\Description", "translatable_id" => "8f95b23a-4626-4e01-ae7a-fe8311fedc6d"],
+            ["translation_id" => "ecfe7640-4c39-4280-89e0-102e61746a32", "translatable_type" => "App\Models\Description", "translatable_id" => "8f95b23a-4626-4e01-ae7a-fe8311fedc6d"],
+            ["translation_id" => "855e8bd6-499c-4d49-b7a2-4c9f9a5354e6", "translatable_type" => "App\Models\Description", "translatable_id" => "8f95b23a-4626-4e01-ae7a-fe8311fedc6d"],
+            //1180
+            ["translation_id" => "b8e17705-4d12-447f-be36-d5b453be12c6", "translatable_type" => "App\Models\Description", "translatable_id" => "9fab29cc-0ef4-4402-92aa-237af1df4023"],
+            ["translation_id" => "3b5d32f9-cad7-4b3e-b886-1cd219ee9cc9", "translatable_type" => "App\Models\Description", "translatable_id" => "9fab29cc-0ef4-4402-92aa-237af1df4023"],
+            ["translation_id" => "02ffd1db-6db8-403a-afd2-3dbd2174ed79", "translatable_type" => "App\Models\Description", "translatable_id" => "9fab29cc-0ef4-4402-92aa-237af1df4023"],
+            //1181
+            ["translation_id" => "ddebc376-0c28-4245-9ab4-32fb99a232ba", "translatable_type" => "App\Models\Description", "translatable_id" => "0e32f826-0525-4770-9ed6-7f31d2f523b0"],
+            ["translation_id" => "1307ba2a-9609-453e-9a96-2afbe6ff4a22", "translatable_type" => "App\Models\Description", "translatable_id" => "0e32f826-0525-4770-9ed6-7f31d2f523b0"],
+            ["translation_id" => "f7255f9f-011d-4680-87bd-44e0c01ee13e", "translatable_type" => "App\Models\Description", "translatable_id" => "0e32f826-0525-4770-9ed6-7f31d2f523b0"],
+            //1182
+            ["translation_id" => "e23a29bb-d0c0-4fd1-9543-073a32f2ccee", "translatable_type" => "App\Models\Description", "translatable_id" => "b143e334-2d06-4ed9-baf4-6ddc0729b6c1"],
+            ["translation_id" => "7daf42e1-a10f-4895-b296-3ac654d582f6", "translatable_type" => "App\Models\Description", "translatable_id" => "b143e334-2d06-4ed9-baf4-6ddc0729b6c1"],
+            ["translation_id" => "7a784114-7231-40f8-93ce-f0b6fdb9948e", "translatable_type" => "App\Models\Description", "translatable_id" => "b143e334-2d06-4ed9-baf4-6ddc0729b6c1"],
+            //1183
+            ["translation_id" => "487b7257-fe6f-4cc1-8d18-c212e49444ca", "translatable_type" => "App\Models\Description", "translatable_id" => "417b9a81-80f0-4626-8e82-766a33d4b6a8"],
+            ["translation_id" => "a74c39cc-d9ad-4026-ade0-45ecaf640a2d", "translatable_type" => "App\Models\Description", "translatable_id" => "417b9a81-80f0-4626-8e82-766a33d4b6a8"],
+            ["translation_id" => "5173dd4b-e38d-42c6-a6b8-feda4d76557e", "translatable_type" => "App\Models\Description", "translatable_id" => "417b9a81-80f0-4626-8e82-766a33d4b6a8"],
+            //1184
+            ["translation_id" => "9684961f-1890-46e4-9300-bb2566220ddb", "translatable_type" => "App\Models\Description", "translatable_id" => "07355e8c-5d4d-49c8-846c-c6000603b4dc"],
+            ["translation_id" => "724a5199-c666-4299-95bd-77471ab56c44", "translatable_type" => "App\Models\Description", "translatable_id" => "07355e8c-5d4d-49c8-846c-c6000603b4dc"],
+            ["translation_id" => "ae17aeae-6c83-49c0-89bf-660134c97929", "translatable_type" => "App\Models\Description", "translatable_id" => "07355e8c-5d4d-49c8-846c-c6000603b4dc"],
+            //1185
+            ["translation_id" => "0c12841c-c665-418a-b7c2-d064012d6aff", "translatable_type" => "App\Models\Description", "translatable_id" => "1083135f-5147-404b-b83d-6a8613dbb963"],
+            ["translation_id" => "1c3fc748-109a-4187-9ead-22e36e8de361", "translatable_type" => "App\Models\Description", "translatable_id" => "1083135f-5147-404b-b83d-6a8613dbb963"],
+            ["translation_id" => "4a1f6292-b4d4-4bb0-84f4-bac602b14ce5", "translatable_type" => "App\Models\Description", "translatable_id" => "1083135f-5147-404b-b83d-6a8613dbb963"],
+            //1186
+            ["translation_id" => "7e8ab421-d8d3-47f9-be3f-610c745ba44f", "translatable_type" => "App\Models\Description", "translatable_id" => "ad7d6005-e2a1-4b06-96a0-1b3342e3e28d"],
+            ["translation_id" => "ebb2a202-1934-474c-85cf-96bc73fa6c22", "translatable_type" => "App\Models\Description", "translatable_id" => "ad7d6005-e2a1-4b06-96a0-1b3342e3e28d"],
+            ["translation_id" => "2d9239a0-29d3-43bb-9b9b-de8db11289be", "translatable_type" => "App\Models\Description", "translatable_id" => "ad7d6005-e2a1-4b06-96a0-1b3342e3e28d"],
+            //1187
+            ["translation_id" => "4edf387c-b097-4517-8406-72f912018526", "translatable_type" => "App\Models\Description", "translatable_id" => "e0c01290-d6b4-4603-8905-7f6eab8418ed"],
+            ["translation_id" => "cd9dbd8d-26b7-4656-bbef-c45379b51a63", "translatable_type" => "App\Models\Description", "translatable_id" => "e0c01290-d6b4-4603-8905-7f6eab8418ed"],
+            ["translation_id" => "a1e17415-cb45-447b-8f24-35682b1e7ea4", "translatable_type" => "App\Models\Description", "translatable_id" => "e0c01290-d6b4-4603-8905-7f6eab8418ed"],
+            //1188
+            ["translation_id" => "08247bc6-401a-43d4-9309-7842a1df9ceb", "translatable_type" => "App\Models\Description", "translatable_id" => "bdb6db7f-82b5-43fe-8ad4-34e4ab4acd4c"],
+            ["translation_id" => "301f0896-bf2c-48a1-8e71-c0a3c60cc017", "translatable_type" => "App\Models\Description", "translatable_id" => "bdb6db7f-82b5-43fe-8ad4-34e4ab4acd4c"],
+            ["translation_id" => "945cd7ea-0f26-40b4-b0db-dd06137a7dd8", "translatable_type" => "App\Models\Description", "translatable_id" => "bdb6db7f-82b5-43fe-8ad4-34e4ab4acd4c"],
+            //1189
+            ["translation_id" => "6adcda17-5ec8-4f35-b17c-a2b441ad7412", "translatable_type" => "App\Models\Description", "translatable_id" => "9b675fda-b41b-4f58-bcd8-66a4cb0569eb"],
+            ["translation_id" => "bb50b3b9-28b4-4f1d-b350-bff31ae430b2", "translatable_type" => "App\Models\Description", "translatable_id" => "9b675fda-b41b-4f58-bcd8-66a4cb0569eb"],
+            ["translation_id" => "0d0f6686-31c8-4fa3-82ec-2e1f5b251cef", "translatable_type" => "App\Models\Description", "translatable_id" => "9b675fda-b41b-4f58-bcd8-66a4cb0569eb"],
+            //1190
+            ["translation_id" => "461ee9d0-47b5-41a5-a30a-9e91c3181b76", "translatable_type" => "App\Models\Description", "translatable_id" => "f82f3dbc-0d8c-4052-84e3-66ef562055c1"],
+            ["translation_id" => "d627a7e7-a05a-4353-83d5-fb85ab643b84", "translatable_type" => "App\Models\Description", "translatable_id" => "f82f3dbc-0d8c-4052-84e3-66ef562055c1"],
+            ["translation_id" => "53f666b5-ab5f-4dd8-867f-280133b96360", "translatable_type" => "App\Models\Description", "translatable_id" => "f82f3dbc-0d8c-4052-84e3-66ef562055c1"],
+            //1191
+            ["translation_id" => "081b128c-fd9d-4a50-b8a9-65c1a8c43ddf", "translatable_type" => "App\Models\Description", "translatable_id" => "028c5b6f-e702-426c-9a3d-95926454c1c7"],
+            ["translation_id" => "de18199f-5f07-423a-a5a7-381742fd53f0", "translatable_type" => "App\Models\Description", "translatable_id" => "028c5b6f-e702-426c-9a3d-95926454c1c7"],
+            ["translation_id" => "55e67501-7bc7-4e9e-b6ce-3e21f582900b", "translatable_type" => "App\Models\Description", "translatable_id" => "028c5b6f-e702-426c-9a3d-95926454c1c7"],
+            //1192
+            ["translation_id" => "5a0721fb-fe0a-4d44-b35f-d6d8907c25c3", "translatable_type" => "App\Models\Description", "translatable_id" => "7e75c40d-1d22-4e5c-ae97-e68ea096c7d2"],
+            ["translation_id" => "82acf6e2-4860-4f49-972f-ac75ef0f9b7a", "translatable_type" => "App\Models\Description", "translatable_id" => "7e75c40d-1d22-4e5c-ae97-e68ea096c7d2"],
+            ["translation_id" => "4775d2af-21b6-4fe8-b13a-c89f8ac6c5a7", "translatable_type" => "App\Models\Description", "translatable_id" => "7e75c40d-1d22-4e5c-ae97-e68ea096c7d2"],
+            //1193
+            ["translation_id" => "4cd568cc-f117-4cfb-aeb3-8181b39949d4", "translatable_type" => "App\Models\Description", "translatable_id" => "3e715e1b-353c-4bb7-b1af-4f570fa946cb"],
+            ["translation_id" => "d5877b87-d505-4a9f-85e8-ec4ab89a1780", "translatable_type" => "App\Models\Description", "translatable_id" => "3e715e1b-353c-4bb7-b1af-4f570fa946cb"],
+            ["translation_id" => "74a7b998-2701-40f2-820b-3f45d24ed4cd", "translatable_type" => "App\Models\Description", "translatable_id" => "3e715e1b-353c-4bb7-b1af-4f570fa946cb"],
+            //1194
+            ["translation_id" => "d26bd7cf-d34c-4542-83fd-8a7a3fc33048", "translatable_type" => "App\Models\Description", "translatable_id" => "30078e54-9a18-46f2-aba9-f0e570176dad"],
+            ["translation_id" => "6aca6c37-abf9-4b0d-8c01-ddab1406cbb6", "translatable_type" => "App\Models\Description", "translatable_id" => "30078e54-9a18-46f2-aba9-f0e570176dad"],
+            ["translation_id" => "84f4d03b-e643-4d85-9439-e7af46513b70", "translatable_type" => "App\Models\Description", "translatable_id" => "30078e54-9a18-46f2-aba9-f0e570176dad"],
+            //1195
+            ["translation_id" => "a7a6a09a-629d-46ec-a7d5-904c7d15ffe4", "translatable_type" => "App\Models\Description", "translatable_id" => "232d4cd1-9972-47b7-adf9-fa87a13f1469"],
+            ["translation_id" => "c5004526-e423-4589-b1e9-f221645e564b", "translatable_type" => "App\Models\Description", "translatable_id" => "232d4cd1-9972-47b7-adf9-fa87a13f1469"],
+            ["translation_id" => "9aba2501-1277-4213-9a8f-9a476b499a9b", "translatable_type" => "App\Models\Description", "translatable_id" => "232d4cd1-9972-47b7-adf9-fa87a13f1469"],
+            //1196
+            ["translation_id" => "f3ff8d62-2fdf-40a5-bf94-edb35d0e7306", "translatable_type" => "App\Models\Description", "translatable_id" => "072b9a50-0b3e-409c-a35c-13409008e4ac"],
+            ["translation_id" => "336958ba-cc30-4936-a13b-76084ab57f56", "translatable_type" => "App\Models\Description", "translatable_id" => "072b9a50-0b3e-409c-a35c-13409008e4ac"],
+            ["translation_id" => "f113f6d3-f1a8-49b6-b1ea-ef923ec2125f", "translatable_type" => "App\Models\Description", "translatable_id" => "072b9a50-0b3e-409c-a35c-13409008e4ac"],
+            //1197
+            ["translation_id" => "95a5e40f-70f6-445a-ba8c-7b4afbed418d", "translatable_type" => "App\Models\Description", "translatable_id" => "3b828e60-deff-49dd-87e2-17aba97b4c7b"],
+            ["translation_id" => "9b0dd028-0a88-4da4-8364-a655d1542d46", "translatable_type" => "App\Models\Description", "translatable_id" => "3b828e60-deff-49dd-87e2-17aba97b4c7b"],
+            ["translation_id" => "b7f4ca40-54ac-4157-a6b1-40d64be6ed72", "translatable_type" => "App\Models\Description", "translatable_id" => "3b828e60-deff-49dd-87e2-17aba97b4c7b"],
+            //1198
+            ["translation_id" => "55d9accf-9175-4d72-8755-463d5ab91cdd", "translatable_type" => "App\Models\Description", "translatable_id" => "9d0dc972-1160-4533-95cc-2e05c1b8950a"],
+            ["translation_id" => "c5a97fad-7d17-416f-abb7-fae12a43000a", "translatable_type" => "App\Models\Description", "translatable_id" => "9d0dc972-1160-4533-95cc-2e05c1b8950a"],
+            ["translation_id" => "2e687c85-dc0c-4779-9389-462e831f9077", "translatable_type" => "App\Models\Description", "translatable_id" => "9d0dc972-1160-4533-95cc-2e05c1b8950a"],
+            //1199
+            ["translation_id" => "e0a7a7b7-3081-4bcd-9622-c40f81f8435a", "translatable_type" => "App\Models\Description", "translatable_id" => "409d4ec5-2dc2-4df9-ad3c-6f63f76c6aa6"],
+            ["translation_id" => "d2f75bad-9c56-4d12-acdd-044bfee586ca", "translatable_type" => "App\Models\Description", "translatable_id" => "409d4ec5-2dc2-4df9-ad3c-6f63f76c6aa6"],
+            ["translation_id" => "f0eb6be8-6feb-46aa-924d-6f8584186445", "translatable_type" => "App\Models\Description", "translatable_id" => "409d4ec5-2dc2-4df9-ad3c-6f63f76c6aa6"],
+            //1200
+            ["translation_id" => "045ec81e-1e49-471a-9b41-a2736830b6f6", "translatable_type" => "App\Models\Description", "translatable_id" => "ac99ced9-8011-4833-99bd-58b6c4e8077b"],
+            ["translation_id" => "587e8449-adf1-42db-961a-1a1ea4e80472", "translatable_type" => "App\Models\Description", "translatable_id" => "ac99ced9-8011-4833-99bd-58b6c4e8077b"],
+            ["translation_id" => "431d0345-e0af-4638-959c-6dc7dff33b96", "translatable_type" => "App\Models\Description", "translatable_id" => "ac99ced9-8011-4833-99bd-58b6c4e8077b"],
+            //1201
+            ["translation_id" => "9d11838e-7bd7-493d-8445-87e48350e008", "translatable_type" => "App\Models\Description", "translatable_id" => "021ad2de-a2d9-4167-a4b1-25d8021bab9b"],
+            ["translation_id" => "d640248e-c0aa-4856-9f89-e79ec20b6fef", "translatable_type" => "App\Models\Description", "translatable_id" => "021ad2de-a2d9-4167-a4b1-25d8021bab9b"],
+            ["translation_id" => "635d6a2f-305b-4032-a11d-b821fab5e5a4", "translatable_type" => "App\Models\Description", "translatable_id" => "021ad2de-a2d9-4167-a4b1-25d8021bab9b"],
+            //1202
+            ["translation_id" => "5ef45b86-23b3-4fc1-b9a7-7bbec5788a28", "translatable_type" => "App\Models\Description", "translatable_id" => "ece93c1f-5772-46f1-afc9-baedc1be7b97"],
+            ["translation_id" => "37703bd0-e608-4de6-aa2e-e5d9cdeb712f", "translatable_type" => "App\Models\Description", "translatable_id" => "ece93c1f-5772-46f1-afc9-baedc1be7b97"],
+            ["translation_id" => "c8ee0fe9-3744-4cea-8a3f-841212efce66", "translatable_type" => "App\Models\Description", "translatable_id" => "ece93c1f-5772-46f1-afc9-baedc1be7b97"],
+            //1203
+            ["translation_id" => "90de63ca-a6b6-468f-b76c-4d8b970d000e", "translatable_type" => "App\Models\Description", "translatable_id" => "e2c2fc25-feff-4d9d-aff5-bee78986d27a"],
+            ["translation_id" => "3f0047e3-4e5f-4a27-a6f9-17151d20a109", "translatable_type" => "App\Models\Description", "translatable_id" => "e2c2fc25-feff-4d9d-aff5-bee78986d27a"],
+            ["translation_id" => "6ee05a49-4657-4dd0-8c16-f8b0b9340eee", "translatable_type" => "App\Models\Description", "translatable_id" => "e2c2fc25-feff-4d9d-aff5-bee78986d27a"],
+            //1204
+            ["translation_id" => "8ae74e74-1eea-4798-9249-177c05889ad8", "translatable_type" => "App\Models\Description", "translatable_id" => "41dc399f-71b3-4733-b055-b9d0ffdfd675"],
+            ["translation_id" => "01ee860f-cf0f-456d-a74d-77d101a8429c", "translatable_type" => "App\Models\Description", "translatable_id" => "41dc399f-71b3-4733-b055-b9d0ffdfd675"],
+            ["translation_id" => "9cd41375-7d8e-474e-ae65-c6febafba2c4", "translatable_type" => "App\Models\Description", "translatable_id" => "41dc399f-71b3-4733-b055-b9d0ffdfd675"],
+            //1205
+            ["translation_id" => "e07dd4db-fb79-4bbe-9598-629de1df5215", "translatable_type" => "App\Models\Description", "translatable_id" => "fce6a4ad-0f82-4a60-b5a8-47652136690b"],
+            ["translation_id" => "08b8718f-2c5e-49a9-8169-9a235ed9f64b", "translatable_type" => "App\Models\Description", "translatable_id" => "fce6a4ad-0f82-4a60-b5a8-47652136690b"],
+            ["translation_id" => "8524d297-b377-4efd-9a72-69ec081bb86a", "translatable_type" => "App\Models\Description", "translatable_id" => "fce6a4ad-0f82-4a60-b5a8-47652136690b"],
+            //1206
+            ["translation_id" => "503324b9-6638-4c4d-9548-065bc5a82da5", "translatable_type" => "App\Models\Description", "translatable_id" => "d2d1b8fe-5327-4374-9b3d-f10bb1753001"],
+            ["translation_id" => "f97bbbf3-bd8d-4380-98bc-0a09581aca51", "translatable_type" => "App\Models\Description", "translatable_id" => "d2d1b8fe-5327-4374-9b3d-f10bb1753001"],
+            ["translation_id" => "b6eaeb71-3235-486f-801c-0234dfbf6dca", "translatable_type" => "App\Models\Description", "translatable_id" => "d2d1b8fe-5327-4374-9b3d-f10bb1753001"],
+            //1207
+            ["translation_id" => "84558f78-8fe3-4975-b750-8f56286ee83a", "translatable_type" => "App\Models\Description", "translatable_id" => "501c938b-c8a2-4362-9a1e-f42b66ed2901"],
+            ["translation_id" => "ab87dd77-dea8-4a1f-be2d-d06ae1b36f3c", "translatable_type" => "App\Models\Description", "translatable_id" => "501c938b-c8a2-4362-9a1e-f42b66ed2901"],
+            ["translation_id" => "38ea1377-dc80-40c2-8142-b5ca9b3185d0", "translatable_type" => "App\Models\Description", "translatable_id" => "501c938b-c8a2-4362-9a1e-f42b66ed2901"],
+            //1208
+            ["translation_id" => "5a30fa24-ff74-4ee1-97f9-45ec35975cfe", "translatable_type" => "App\Models\Description", "translatable_id" => "d6335fd8-0b88-4657-9f1e-d73c12825864"],
+            ["translation_id" => "aa8ecea9-482c-416d-a074-ccc5eaf41d2c", "translatable_type" => "App\Models\Description", "translatable_id" => "d6335fd8-0b88-4657-9f1e-d73c12825864"],
+            ["translation_id" => "7f947fcc-6562-4169-af47-3af7c82eb11e", "translatable_type" => "App\Models\Description", "translatable_id" => "d6335fd8-0b88-4657-9f1e-d73c12825864"],
+            //1209
+            ["translation_id" => "2bc1f8c5-079a-4e53-85c3-37537b437fc3", "translatable_type" => "App\Models\Description", "translatable_id" => "a7df5615-a72b-4f96-aa40-c76b025aa015"],
+            ["translation_id" => "37995def-13d5-4091-b4b4-ebd9fb220e3e", "translatable_type" => "App\Models\Description", "translatable_id" => "a7df5615-a72b-4f96-aa40-c76b025aa015"],
+            ["translation_id" => "4b1ed41a-cd85-40b8-b85c-deffd1e45349", "translatable_type" => "App\Models\Description", "translatable_id" => "a7df5615-a72b-4f96-aa40-c76b025aa015"],
+            //1210
+            ["translation_id" => "52a2c2a3-2c07-4b34-b72e-8f17a2ee9730", "translatable_type" => "App\Models\Description", "translatable_id" => "a8ae4c13-73b4-4fa3-bc51-3276955eaf90"],
+            ["translation_id" => "038f4c44-9de0-4e52-b19a-2032f1b882c0", "translatable_type" => "App\Models\Description", "translatable_id" => "a8ae4c13-73b4-4fa3-bc51-3276955eaf90"],
+            ["translation_id" => "ea004626-290f-4eaa-8843-13dc222a593d", "translatable_type" => "App\Models\Description", "translatable_id" => "a8ae4c13-73b4-4fa3-bc51-3276955eaf90"],
+            //1211
+            ["translation_id" => "02b6d3eb-d1b2-4f3f-b442-fcad388fdca5", "translatable_type" => "App\Models\Description", "translatable_id" => "6d342141-0541-4d97-9c61-ec7bbd26762f"],
+            ["translation_id" => "8a33d879-4850-45a7-b3f9-ff1e450598ac", "translatable_type" => "App\Models\Description", "translatable_id" => "6d342141-0541-4d97-9c61-ec7bbd26762f"],
+            ["translation_id" => "5f61121b-86df-4533-b177-0d7babb03d8b", "translatable_type" => "App\Models\Description", "translatable_id" => "6d342141-0541-4d97-9c61-ec7bbd26762f"],
+            //1212
+            ["translation_id" => "7dc86ad6-f9bf-42f2-9712-5a84c432a876", "translatable_type" => "App\Models\Description", "translatable_id" => "223d73e1-4c02-4ffb-8f94-45dff82dca0e"],
+            ["translation_id" => "2e03be78-2c57-44cb-9644-4782b1c29d5b", "translatable_type" => "App\Models\Description", "translatable_id" => "223d73e1-4c02-4ffb-8f94-45dff82dca0e"],
+            ["translation_id" => "73f8e6a6-7e74-41ba-9d87-195af095cabb", "translatable_type" => "App\Models\Description", "translatable_id" => "223d73e1-4c02-4ffb-8f94-45dff82dca0e"],
+            //1213
+            ["translation_id" => "6d455613-5306-423f-bdcc-a95a86709226", "translatable_type" => "App\Models\Description", "translatable_id" => "f84c5f20-99f5-4d95-83f9-734c4012072f"],
+            ["translation_id" => "b80c7ee1-9742-4fc8-b5a3-3c426ee82ed5", "translatable_type" => "App\Models\Description", "translatable_id" => "f84c5f20-99f5-4d95-83f9-734c4012072f"],
+            ["translation_id" => "684a6dfa-a583-4b5b-9c89-becd5a48ae88", "translatable_type" => "App\Models\Description", "translatable_id" => "f84c5f20-99f5-4d95-83f9-734c4012072f"],
+            //1214
+            ["translation_id" => "d1c2c099-b95a-428c-a1ec-7285a8ac734c", "translatable_type" => "App\Models\Description", "translatable_id" => "68a7ea0c-af5d-481b-8173-0bbdb5330cdf"],
+            ["translation_id" => "ec7edb76-f819-4666-a8c3-4f0cfccddf8b", "translatable_type" => "App\Models\Description", "translatable_id" => "68a7ea0c-af5d-481b-8173-0bbdb5330cdf"],
+            ["translation_id" => "b18cae10-315b-42e3-b0d1-a983beac306f", "translatable_type" => "App\Models\Description", "translatable_id" => "68a7ea0c-af5d-481b-8173-0bbdb5330cdf"],
+            //1215
+            ["translation_id" => "a4bf6f99-3cf3-4a0b-948c-2914f777115a", "translatable_type" => "App\Models\Description", "translatable_id" => "0abb0f79-248e-4799-bba8-5251bf360cc3"],
+            ["translation_id" => "4cfca6e3-2dd4-43a8-8824-d5fcb2b4cca5", "translatable_type" => "App\Models\Description", "translatable_id" => "0abb0f79-248e-4799-bba8-5251bf360cc3"],
+            ["translation_id" => "45c0bb31-d21f-4583-80fa-6dc96cde290e", "translatable_type" => "App\Models\Description", "translatable_id" => "0abb0f79-248e-4799-bba8-5251bf360cc3"],
+            //1216
+            ["translation_id" => "09ef4a4d-2356-4922-b828-6fdb0e1218d1", "translatable_type" => "App\Models\Description", "translatable_id" => "033cc5e6-6be2-4dd4-bc19-f8bc8d327421"],
+            ["translation_id" => "555e38d4-e7cd-4cd4-8d61-60d307c63c89", "translatable_type" => "App\Models\Description", "translatable_id" => "033cc5e6-6be2-4dd4-bc19-f8bc8d327421"],
+            ["translation_id" => "8a7da6cf-2ab3-4b92-95c5-a7f626f88c32", "translatable_type" => "App\Models\Description", "translatable_id" => "033cc5e6-6be2-4dd4-bc19-f8bc8d327421"],
+            //1217
+            ["translation_id" => "80ad2abf-9d6c-43f9-a5aa-55d7485266db", "translatable_type" => "App\Models\Description", "translatable_id" => "56a798f4-272c-4d13-b67e-18fb3d7b01d3"],
+            ["translation_id" => "04b0179b-bd3e-4f97-ab9a-b30c5a491587", "translatable_type" => "App\Models\Description", "translatable_id" => "56a798f4-272c-4d13-b67e-18fb3d7b01d3"],
+            ["translation_id" => "b6d0c5ee-0476-417d-a9d2-56b4555977e6", "translatable_type" => "App\Models\Description", "translatable_id" => "56a798f4-272c-4d13-b67e-18fb3d7b01d3"],
+            //1218
+            ["translation_id" => "bac3c87a-25eb-4d7d-b5ae-f41b11885fbd", "translatable_type" => "App\Models\Description", "translatable_id" => "125435b1-62b0-4eb5-83d6-c562a241502f"],
+            ["translation_id" => "b1db072c-bb07-44b8-a0d2-c5aebf37a0da", "translatable_type" => "App\Models\Description", "translatable_id" => "125435b1-62b0-4eb5-83d6-c562a241502f"],
+            ["translation_id" => "e15f3532-de15-4ea3-86f9-d2d85f673433", "translatable_type" => "App\Models\Description", "translatable_id" => "125435b1-62b0-4eb5-83d6-c562a241502f"],
+            //1219
+            ["translation_id" => "176bb4c7-a92d-4f07-8819-71115669382a", "translatable_type" => "App\Models\Description", "translatable_id" => "c6e695d0-7a83-4d6b-873a-96f838792a60"],
+            ["translation_id" => "8a54782b-50b4-4966-8ad5-5b4aef1e161b", "translatable_type" => "App\Models\Description", "translatable_id" => "c6e695d0-7a83-4d6b-873a-96f838792a60"],
+            ["translation_id" => "c7ab7011-2f1e-4102-938f-61787bf0ca63", "translatable_type" => "App\Models\Description", "translatable_id" => "c6e695d0-7a83-4d6b-873a-96f838792a60"],
+            //1220
+            ["translation_id" => "cf152d11-4a32-474c-84e4-79aafadf7af6", "translatable_type" => "App\Models\Description", "translatable_id" => "55d03745-f5db-445c-a164-3e231fbe1252"],
+            ["translation_id" => "b44d3d3c-4bd5-43f1-bc97-d6aec6459d5c", "translatable_type" => "App\Models\Description", "translatable_id" => "55d03745-f5db-445c-a164-3e231fbe1252"],
+            ["translation_id" => "2cc16765-7061-411e-8d7f-41767b9f524a", "translatable_type" => "App\Models\Description", "translatable_id" => "55d03745-f5db-445c-a164-3e231fbe1252"],
+            //1221
+            ["translation_id" => "1e790a1b-76ed-46ff-a19b-dac30b4080bf", "translatable_type" => "App\Models\Description", "translatable_id" => "a4cfcc74-ea6d-4b62-842e-0de0880358df"],
+            ["translation_id" => "2f79abb2-f0e9-4bb4-bdcd-8c0209c7b072", "translatable_type" => "App\Models\Description", "translatable_id" => "a4cfcc74-ea6d-4b62-842e-0de0880358df"],
+            ["translation_id" => "48add902-cb0e-4103-9259-407380980636", "translatable_type" => "App\Models\Description", "translatable_id" => "a4cfcc74-ea6d-4b62-842e-0de0880358df"],
+            //1222
+            ["translation_id" => "1c215487-fdb4-414b-9eb2-a2cb051bc2ff", "translatable_type" => "App\Models\Description", "translatable_id" => "bdc449b3-082d-47c1-b22b-fa0b710dd266"],
+            ["translation_id" => "d388285b-320c-42ee-8f99-2d1432aa8a18", "translatable_type" => "App\Models\Description", "translatable_id" => "bdc449b3-082d-47c1-b22b-fa0b710dd266"],
+            ["translation_id" => "68627585-b7e1-4eac-bd25-8916fc490d42", "translatable_type" => "App\Models\Description", "translatable_id" => "bdc449b3-082d-47c1-b22b-fa0b710dd266"],
+            //1223
+            ["translation_id" => "1fe7d6b5-e03d-419a-b21c-d5ace564d709", "translatable_type" => "App\Models\Description", "translatable_id" => "777c81a8-b954-4a9a-9e16-bbfedb5d6e3f"],
+            ["translation_id" => "6ffe4fe3-0068-4ea3-ac54-bb4d2385eb85", "translatable_type" => "App\Models\Description", "translatable_id" => "777c81a8-b954-4a9a-9e16-bbfedb5d6e3f"],
+            ["translation_id" => "1af14572-d758-40dc-aff0-5f532bafcc61", "translatable_type" => "App\Models\Description", "translatable_id" => "777c81a8-b954-4a9a-9e16-bbfedb5d6e3f"],
+            //1224
+            ["translation_id" => "e2f93755-b6ef-4d6c-85d5-c5f4c449856a", "translatable_type" => "App\Models\Description", "translatable_id" => "f3d22619-a76c-4b99-9cdf-575780ec0682"],
+            ["translation_id" => "dc967d6a-1aa0-448c-93e2-16eb54b7112c", "translatable_type" => "App\Models\Description", "translatable_id" => "f3d22619-a76c-4b99-9cdf-575780ec0682"],
+            ["translation_id" => "3223e231-c869-4ca5-8b15-9d730fb89397", "translatable_type" => "App\Models\Description", "translatable_id" => "f3d22619-a76c-4b99-9cdf-575780ec0682"],
+            //1225
+            ["translation_id" => "7f96f335-d339-4cad-bc82-2e317d5af90b", "translatable_type" => "App\Models\Description", "translatable_id" => "4333fd65-036b-4a8b-892f-36bb2cdcf0b8"],
+            ["translation_id" => "c5832ad8-5abe-4516-92c8-c797ecac8d9f", "translatable_type" => "App\Models\Description", "translatable_id" => "4333fd65-036b-4a8b-892f-36bb2cdcf0b8"],
+            ["translation_id" => "9ba08890-7d27-4b75-b7c2-87bc559f5c15", "translatable_type" => "App\Models\Description", "translatable_id" => "4333fd65-036b-4a8b-892f-36bb2cdcf0b8"],
+            //1226
+            ["translation_id" => "8daf9188-3e6c-404e-b881-d02900c6a31e", "translatable_type" => "App\Models\Description", "translatable_id" => "48e88f2b-cfed-47a4-8103-4f1fa4a59207"],
+            ["translation_id" => "1200a1e5-8693-4365-8d72-806bc1ce2a80", "translatable_type" => "App\Models\Description", "translatable_id" => "48e88f2b-cfed-47a4-8103-4f1fa4a59207"],
+            ["translation_id" => "e6a3ba42-7099-45fa-8798-76cd7229fa28", "translatable_type" => "App\Models\Description", "translatable_id" => "48e88f2b-cfed-47a4-8103-4f1fa4a59207"],
+            //1227
+            ["translation_id" => "7bdefb96-5a54-4eba-ab20-24455970c3ef", "translatable_type" => "App\Models\Description", "translatable_id" => "35cddd3b-9509-4e41-bf44-126aefa255ef"],
+            ["translation_id" => "d3a680cd-1dbb-4207-8e5f-445c23e249a7", "translatable_type" => "App\Models\Description", "translatable_id" => "35cddd3b-9509-4e41-bf44-126aefa255ef"],
+            ["translation_id" => "60c876f2-feff-4127-890e-e8a2e8008dc7", "translatable_type" => "App\Models\Description", "translatable_id" => "35cddd3b-9509-4e41-bf44-126aefa255ef"],
+            //1228
+            ["translation_id" => "d1b04b00-e6ef-481b-a56b-db29e2e1492f", "translatable_type" => "App\Models\Description", "translatable_id" => "6b4b03c3-86fe-4e5f-8d0f-dbabf62e81b7"],
+            ["translation_id" => "e01b3c97-2e4d-48d0-a4c4-1e9c0745a6c5", "translatable_type" => "App\Models\Description", "translatable_id" => "6b4b03c3-86fe-4e5f-8d0f-dbabf62e81b7"],
+            ["translation_id" => "2f42d367-6b58-4d15-ab12-c57de46a5be8", "translatable_type" => "App\Models\Description", "translatable_id" => "6b4b03c3-86fe-4e5f-8d0f-dbabf62e81b7"],
+            //1229
+            ["translation_id" => "036f5215-75ad-418f-8445-e55dbada6479", "translatable_type" => "App\Models\Description", "translatable_id" => "d8e3deae-6990-40fd-9c43-fb4971382961"],
+            ["translation_id" => "75ff3d2f-f03a-4cbd-aa02-fa2b9d07fb22", "translatable_type" => "App\Models\Description", "translatable_id" => "d8e3deae-6990-40fd-9c43-fb4971382961"],
+            ["translation_id" => "502e67b5-941b-4513-bf88-e4aa44302cbe", "translatable_type" => "App\Models\Description", "translatable_id" => "d8e3deae-6990-40fd-9c43-fb4971382961"],
+            //1230
+            ["translation_id" => "fb0f8fa3-06b2-4316-a70e-5df0a55b088c", "translatable_type" => "App\Models\Description", "translatable_id" => "e8b6c645-c315-40be-940d-c7290a6fa2d7"],
+            ["translation_id" => "f499583d-c02f-4d35-839c-e6d9508c49ec", "translatable_type" => "App\Models\Description", "translatable_id" => "e8b6c645-c315-40be-940d-c7290a6fa2d7"],
+            ["translation_id" => "e29042a6-0a2e-4354-a6fd-6a460f8bf140", "translatable_type" => "App\Models\Description", "translatable_id" => "e8b6c645-c315-40be-940d-c7290a6fa2d7"],
+            //1231
+            ["translation_id" => "009bbe84-2c4c-4759-bfdc-36e12d023ae5", "translatable_type" => "App\Models\Description", "translatable_id" => "f3d21ca8-ad4e-4cef-974a-18440aa3f5e3"],
+            ["translation_id" => "5eca9d51-53b1-40e8-85dc-b8ef224c4ae8", "translatable_type" => "App\Models\Description", "translatable_id" => "f3d21ca8-ad4e-4cef-974a-18440aa3f5e3"],
+            ["translation_id" => "92d32c98-be0c-455e-afac-b5f778bea538", "translatable_type" => "App\Models\Description", "translatable_id" => "f3d21ca8-ad4e-4cef-974a-18440aa3f5e3"],
+            //1232
+            ["translation_id" => "9d264242-665b-4351-902d-626859dcca29", "translatable_type" => "App\Models\Description", "translatable_id" => "1fe9e546-e7eb-44b0-b17a-eec538312742"],
+            ["translation_id" => "c4d909d5-3f2f-413e-8de7-a7e2be1d53f1", "translatable_type" => "App\Models\Description", "translatable_id" => "1fe9e546-e7eb-44b0-b17a-eec538312742"],
+            ["translation_id" => "37bc51ef-2017-47c4-8285-3872c8457c8b", "translatable_type" => "App\Models\Description", "translatable_id" => "1fe9e546-e7eb-44b0-b17a-eec538312742"],
+            //1233
+            ["translation_id" => "a4d7b501-3385-48e7-8288-957567f08026", "translatable_type" => "App\Models\Description", "translatable_id" => "75b22026-6d87-4a44-babf-137fa2d70275"],
+            ["translation_id" => "d79bb45a-568f-4221-aa87-72a7e517e650", "translatable_type" => "App\Models\Description", "translatable_id" => "75b22026-6d87-4a44-babf-137fa2d70275"],
+            ["translation_id" => "0b965743-fe2c-4840-be93-ff47c6286bb2", "translatable_type" => "App\Models\Description", "translatable_id" => "75b22026-6d87-4a44-babf-137fa2d70275"],
+            //1234
+            ["translation_id" => "fe40925c-62c8-4f89-a9c0-d79785efd92c", "translatable_type" => "App\Models\Description", "translatable_id" => "ce10286a-3c14-4629-b4ea-e79f105eca91"],
+            ["translation_id" => "471a11bd-0d17-4c93-a126-b29ab6a9b781", "translatable_type" => "App\Models\Description", "translatable_id" => "ce10286a-3c14-4629-b4ea-e79f105eca91"],
+            ["translation_id" => "7e1bff67-2fb1-4b62-a58e-b3e58f42a730", "translatable_type" => "App\Models\Description", "translatable_id" => "ce10286a-3c14-4629-b4ea-e79f105eca91"],
+            //1235
+            ["translation_id" => "c68d075e-de0b-4f92-a922-81021e05272c", "translatable_type" => "App\Models\Description", "translatable_id" => "92ee2977-af67-4af6-af66-1ce2bf29e422"],
+            ["translation_id" => "5d68888b-1b9a-4855-8a7d-0f456bbbcb2c", "translatable_type" => "App\Models\Description", "translatable_id" => "92ee2977-af67-4af6-af66-1ce2bf29e422"],
+            ["translation_id" => "2f63e226-e82f-4a72-bdae-e6ee44416c0e", "translatable_type" => "App\Models\Description", "translatable_id" => "92ee2977-af67-4af6-af66-1ce2bf29e422"],
+            //1236
+            ["translation_id" => "eca2e78b-b820-4f42-b477-1afc153fb6b9", "translatable_type" => "App\Models\Description", "translatable_id" => "c7bfb04d-4cdd-4c1c-9494-7aeec3125d32"],
+            ["translation_id" => "6ce7bea2-0e8d-4c02-b60a-f0818a4fff1f", "translatable_type" => "App\Models\Description", "translatable_id" => "c7bfb04d-4cdd-4c1c-9494-7aeec3125d32"],
+            ["translation_id" => "1f4a7fa8-7ec0-47b2-9367-c2aa3f9f4622", "translatable_type" => "App\Models\Description", "translatable_id" => "c7bfb04d-4cdd-4c1c-9494-7aeec3125d32"],
+            //1237
+            ["translation_id" => "e6d04a5e-e440-447c-b7a3-e95eefd9741d", "translatable_type" => "App\Models\Description", "translatable_id" => "1e3d12c0-0a36-44a7-9c61-2b3977cb9c6b"],
+            ["translation_id" => "1c5838cb-8f3d-40df-8008-0bf408f5c58b", "translatable_type" => "App\Models\Description", "translatable_id" => "1e3d12c0-0a36-44a7-9c61-2b3977cb9c6b"],
+            ["translation_id" => "0ea9791e-c2dd-4576-9aaf-8f4e547015d7", "translatable_type" => "App\Models\Description", "translatable_id" => "1e3d12c0-0a36-44a7-9c61-2b3977cb9c6b"],
+            //1238
+            ["translation_id" => "c79bb157-4250-40f8-b4e6-460973185dfe", "translatable_type" => "App\Models\Description", "translatable_id" => "059bc0e7-5613-43ea-be2c-d2d2f05fa647"],
+            ["translation_id" => "b54da1a6-9c52-4394-b1c0-62c92cb292fd", "translatable_type" => "App\Models\Description", "translatable_id" => "059bc0e7-5613-43ea-be2c-d2d2f05fa647"],
+            ["translation_id" => "8b22a968-97df-4d17-adba-c9416a29ba78", "translatable_type" => "App\Models\Description", "translatable_id" => "059bc0e7-5613-43ea-be2c-d2d2f05fa647"],
+            //1239
+            ["translation_id" => "fb6daf2a-7acd-4ad6-aedc-537eae6a40ba", "translatable_type" => "App\Models\Description", "translatable_id" => "8e0d6d0c-d5aa-410d-bac1-9ba96ce69a90"],
+            ["translation_id" => "8ce44f94-a8bd-45cb-a2f2-ed91b0f72ade", "translatable_type" => "App\Models\Description", "translatable_id" => "8e0d6d0c-d5aa-410d-bac1-9ba96ce69a90"],
+            ["translation_id" => "3e101ec6-dba3-4ab7-9398-e441640630b1", "translatable_type" => "App\Models\Description", "translatable_id" => "8e0d6d0c-d5aa-410d-bac1-9ba96ce69a90"],
+            //1240
+            ["translation_id" => "8bba86e5-af50-446e-9c7c-d43eef65c653", "translatable_type" => "App\Models\Description", "translatable_id" => "8a34deba-1f90-44dc-82bf-c3a7ea7964de"],
+            ["translation_id" => "b996cc95-1d89-4bae-aa4f-a16ec29625f7", "translatable_type" => "App\Models\Description", "translatable_id" => "8a34deba-1f90-44dc-82bf-c3a7ea7964de"],
+            ["translation_id" => "7cd03513-6dc4-4763-9631-cf3674e4bb71", "translatable_type" => "App\Models\Description", "translatable_id" => "8a34deba-1f90-44dc-82bf-c3a7ea7964de"],
+            //1241
+            ["translation_id" => "aa3f485a-edcd-4b19-aef3-10a0f0e86d4d", "translatable_type" => "App\Models\Description", "translatable_id" => "b8ef2dde-5571-4e8a-9375-613867abdb0b"],
+            ["translation_id" => "86181938-0551-497e-9ea0-1bb7e2531afc", "translatable_type" => "App\Models\Description", "translatable_id" => "b8ef2dde-5571-4e8a-9375-613867abdb0b"],
+            ["translation_id" => "923101d7-71a0-4b76-b647-084b8dd386a0", "translatable_type" => "App\Models\Description", "translatable_id" => "b8ef2dde-5571-4e8a-9375-613867abdb0b"],
+            //1242
+            ["translation_id" => "6597910a-bb79-4a9c-b68a-b9f5a88af30b", "translatable_type" => "App\Models\Description", "translatable_id" => "b936c608-80f1-4141-aa03-4c74a53f8ec0"],
+            ["translation_id" => "79d2d746-d95b-4416-b9d3-dca0ac50de9a", "translatable_type" => "App\Models\Description", "translatable_id" => "b936c608-80f1-4141-aa03-4c74a53f8ec0"],
+            ["translation_id" => "ea6e4c1c-5544-4e4f-aa5c-b9fb449389d2", "translatable_type" => "App\Models\Description", "translatable_id" => "b936c608-80f1-4141-aa03-4c74a53f8ec0"],
+            //1243
+            ["translation_id" => "b5dc1959-7aa4-4446-b200-44fce24840b8", "translatable_type" => "App\Models\Description", "translatable_id" => "6e83b173-b431-4907-9ff8-8491284834bc"],
+            ["translation_id" => "05f469c8-29f2-4a0f-881e-0cb4ae5ff89a", "translatable_type" => "App\Models\Description", "translatable_id" => "6e83b173-b431-4907-9ff8-8491284834bc"],
+            ["translation_id" => "dfc52258-89a5-40c5-a898-3c88091e66a4", "translatable_type" => "App\Models\Description", "translatable_id" => "6e83b173-b431-4907-9ff8-8491284834bc"],
+            //1244
+            ["translation_id" => "dcd2b5a8-d9fb-4fa8-a57d-8ab3c30c29d0", "translatable_type" => "App\Models\Description", "translatable_id" => "2fe34b06-fdd7-4f35-9c73-fb97ce2b8c9b"],
+            ["translation_id" => "76ea7841-c9f9-4114-860d-346f920fa5b2", "translatable_type" => "App\Models\Description", "translatable_id" => "2fe34b06-fdd7-4f35-9c73-fb97ce2b8c9b"],
+            ["translation_id" => "8a86412f-9dfc-4255-8249-22a29217a3ac", "translatable_type" => "App\Models\Description", "translatable_id" => "2fe34b06-fdd7-4f35-9c73-fb97ce2b8c9b"],
+            //1245
+            ["translation_id" => "ffb7b2d8-3ca1-49c9-943c-bd2ba2cf1afe", "translatable_type" => "App\Models\Description", "translatable_id" => "cebfe5f7-a63f-4b76-b56e-ef4d6b928278"],
+            ["translation_id" => "521f961b-56df-4950-9180-b109c52de892", "translatable_type" => "App\Models\Description", "translatable_id" => "cebfe5f7-a63f-4b76-b56e-ef4d6b928278"],
+            ["translation_id" => "270c1105-e636-43fa-a355-d6cdd03ae2c2", "translatable_type" => "App\Models\Description", "translatable_id" => "cebfe5f7-a63f-4b76-b56e-ef4d6b928278"],
+            //1246
+            ["translation_id" => "a26525bc-46ec-4997-aa6f-e39cf17a596c", "translatable_type" => "App\Models\Description", "translatable_id" => "06f99d55-bffc-412c-8bd3-7c8a7f30f05b"],
+            ["translation_id" => "97a7c16b-9e2f-445f-ab53-821b7af6944a", "translatable_type" => "App\Models\Description", "translatable_id" => "06f99d55-bffc-412c-8bd3-7c8a7f30f05b"],
+            ["translation_id" => "b7b19bd4-cc0c-4b18-8bf7-ca1c7e87cb45", "translatable_type" => "App\Models\Description", "translatable_id" => "06f99d55-bffc-412c-8bd3-7c8a7f30f05b"],
+            //1247
+            ["translation_id" => "b70f856a-1509-4573-af5c-37c6f418af82", "translatable_type" => "App\Models\Description", "translatable_id" => "a394cf6a-0ab1-4c70-84ee-16fa47a1dec7"],
+            ["translation_id" => "34dadb88-4162-4750-9f16-36d44671380f", "translatable_type" => "App\Models\Description", "translatable_id" => "a394cf6a-0ab1-4c70-84ee-16fa47a1dec7"],
+            ["translation_id" => "adb8ce3d-1ead-4fcf-92c0-e97fa3bedb4a", "translatable_type" => "App\Models\Description", "translatable_id" => "a394cf6a-0ab1-4c70-84ee-16fa47a1dec7"],
+            //1248
+            ["translation_id" => "84c35341-5d01-4c32-8c27-ceb190cc9a43", "translatable_type" => "App\Models\Description", "translatable_id" => "d1bcb7c4-d8b3-4087-9892-e6a358ab7633"],
+            ["translation_id" => "c88b3f70-9e2a-421c-abd2-d6b198a3f195", "translatable_type" => "App\Models\Description", "translatable_id" => "d1bcb7c4-d8b3-4087-9892-e6a358ab7633"],
+            ["translation_id" => "7f2d6e76-98e7-402e-96bd-ad9f9001f047", "translatable_type" => "App\Models\Description", "translatable_id" => "d1bcb7c4-d8b3-4087-9892-e6a358ab7633"],
+            //1249
+            ["translation_id" => "ff79c373-f826-45d1-9987-4c4fd9739481", "translatable_type" => "App\Models\Description", "translatable_id" => "35ee7039-c1e7-4ccb-95bc-091658264d68"],
+            ["translation_id" => "389c3ea4-b08d-4c3f-90f5-2a64f794f151", "translatable_type" => "App\Models\Description", "translatable_id" => "35ee7039-c1e7-4ccb-95bc-091658264d68"],
+            ["translation_id" => "5890829d-fc8e-4702-9255-ea54546a7d71", "translatable_type" => "App\Models\Description", "translatable_id" => "35ee7039-c1e7-4ccb-95bc-091658264d68"],
+            //1250
+            ["translation_id" => "48846e7a-aa92-43e7-9ee4-bc8fb6b6e7e4", "translatable_type" => "App\Models\Description", "translatable_id" => "10681135-dce6-4828-b2e0-d19c20868ed9"],
+            ["translation_id" => "dd6503d3-e492-4e0a-8bc5-3276ddecd5c6", "translatable_type" => "App\Models\Description", "translatable_id" => "10681135-dce6-4828-b2e0-d19c20868ed9"],
+            ["translation_id" => "be9776bc-3989-4389-8573-fc89d88e74cb", "translatable_type" => "App\Models\Description", "translatable_id" => "10681135-dce6-4828-b2e0-d19c20868ed9"],
+            //1251
+            ["translation_id" => "ffbb9922-6424-4a2b-9cd7-46e7876b76dc", "translatable_type" => "App\Models\Description", "translatable_id" => "74d0f3a0-bd19-48cc-b4fe-985bcdd46518"],
+            ["translation_id" => "fa615a97-cc79-4463-9857-a45bec1f4b96", "translatable_type" => "App\Models\Description", "translatable_id" => "74d0f3a0-bd19-48cc-b4fe-985bcdd46518"],
+            ["translation_id" => "985cde6a-939e-4257-a5ca-c81012902d4c", "translatable_type" => "App\Models\Description", "translatable_id" => "74d0f3a0-bd19-48cc-b4fe-985bcdd46518"],
+            //1252
+            ["translation_id" => "589bdcb3-6445-4a2a-a468-9fcf5bfeff39", "translatable_type" => "App\Models\Description", "translatable_id" => "8d1d9f86-22c2-44a1-afa0-3be6e63e983f"],
+            ["translation_id" => "4c36ded7-0054-4119-96cd-acddf5811771", "translatable_type" => "App\Models\Description", "translatable_id" => "8d1d9f86-22c2-44a1-afa0-3be6e63e983f"],
+            ["translation_id" => "f50866f8-c57a-4746-9121-e8f355dd5b47", "translatable_type" => "App\Models\Description", "translatable_id" => "8d1d9f86-22c2-44a1-afa0-3be6e63e983f"],
+            //1253
+            ["translation_id" => "e602547f-69d6-423a-a257-7070d75dbbc5", "translatable_type" => "App\Models\Description", "translatable_id" => "6a9eb836-0c8b-426b-b719-7f27fd606b6c"],
+            ["translation_id" => "8bac7dc5-776a-4e4b-936b-f45c86a0ed51", "translatable_type" => "App\Models\Description", "translatable_id" => "6a9eb836-0c8b-426b-b719-7f27fd606b6c"],
+            ["translation_id" => "cf1c757e-a4fb-4f26-837e-f1a051617e34", "translatable_type" => "App\Models\Description", "translatable_id" => "6a9eb836-0c8b-426b-b719-7f27fd606b6c"],
+            //1254
+            ["translation_id" => "cde5662d-ebab-4980-ac9e-86ac639d5ed5", "translatable_type" => "App\Models\Description", "translatable_id" => "80e39ba2-31f2-4f82-8915-71e0446bed3c"],
+            ["translation_id" => "3dfe641b-c2be-4f6f-91f8-187b62ac31e4", "translatable_type" => "App\Models\Description", "translatable_id" => "80e39ba2-31f2-4f82-8915-71e0446bed3c"],
+            ["translation_id" => "71c1c391-4467-4a51-bf5d-aa0d032970d8", "translatable_type" => "App\Models\Description", "translatable_id" => "80e39ba2-31f2-4f82-8915-71e0446bed3c"],
+            //1255
+            ["translation_id" => "a03ed8c3-f1c8-44d9-a862-04831d596b26", "translatable_type" => "App\Models\Description", "translatable_id" => "85b5a52d-7315-42a2-8483-2bde0e3ecbf8"],
+            ["translation_id" => "cdd3e68b-13cb-4d9c-85be-f6555742163b", "translatable_type" => "App\Models\Description", "translatable_id" => "85b5a52d-7315-42a2-8483-2bde0e3ecbf8"],
+            ["translation_id" => "20ebb749-d432-4026-8ad7-f4cdb3e092be", "translatable_type" => "App\Models\Description", "translatable_id" => "85b5a52d-7315-42a2-8483-2bde0e3ecbf8"],
+            //1256
+            ["translation_id" => "e6c0dd97-f847-4a14-b9ac-cf04d83bd066", "translatable_type" => "App\Models\Description", "translatable_id" => "5eb03967-3f75-47a1-a104-ba9974abd4be"],
+            ["translation_id" => "4e732de1-87c8-489e-aa82-4ec11506492a", "translatable_type" => "App\Models\Description", "translatable_id" => "5eb03967-3f75-47a1-a104-ba9974abd4be"],
+            ["translation_id" => "2b020c5e-ee0f-4999-b1e9-9ba168e1e9ed", "translatable_type" => "App\Models\Description", "translatable_id" => "5eb03967-3f75-47a1-a104-ba9974abd4be"],
+            //1257
+            ["translation_id" => "6b250de8-ae3b-4f3c-b7cd-cd1145a64f68", "translatable_type" => "App\Models\Description", "translatable_id" => "16a883c5-14d2-4bd6-9c2c-1dfac0aea312"],
+            ["translation_id" => "5ff3ae16-2644-40e1-a8fd-8ac3343807f4", "translatable_type" => "App\Models\Description", "translatable_id" => "16a883c5-14d2-4bd6-9c2c-1dfac0aea312"],
+            ["translation_id" => "db35521f-7003-4648-8531-8234f0f2b24c", "translatable_type" => "App\Models\Description", "translatable_id" => "16a883c5-14d2-4bd6-9c2c-1dfac0aea312"],
+            //1258
+            ["translation_id" => "7221fcf5-eeb8-49ee-917e-8a1fc626ae0d", "translatable_type" => "App\Models\Description", "translatable_id" => "dab6604a-56a7-4435-84a9-ef53e20f60a2"],
+            ["translation_id" => "d6a357eb-fd44-40e3-8d41-e54c623f7eb2", "translatable_type" => "App\Models\Description", "translatable_id" => "dab6604a-56a7-4435-84a9-ef53e20f60a2"],
+            ["translation_id" => "54828795-eae8-46ad-8c87-04fe1f3bcffb", "translatable_type" => "App\Models\Description", "translatable_id" => "dab6604a-56a7-4435-84a9-ef53e20f60a2"],
+            //1259
+            ["translation_id" => "f6a3088e-6f39-4033-b109-a4fae9581c1d", "translatable_type" => "App\Models\Description", "translatable_id" => "f1e8a146-7b29-44b8-b309-1bc3d9b70ee0"],
+            ["translation_id" => "351a49d5-4907-4476-8ae2-b226040a234c", "translatable_type" => "App\Models\Description", "translatable_id" => "f1e8a146-7b29-44b8-b309-1bc3d9b70ee0"],
+            ["translation_id" => "c0c533e6-7a98-4cd0-9ee0-12e672ab8369", "translatable_type" => "App\Models\Description", "translatable_id" => "f1e8a146-7b29-44b8-b309-1bc3d9b70ee0"],
+            //1260
+            ["translation_id" => "20947f47-f756-44f3-b42b-31d00f032b50", "translatable_type" => "App\Models\Description", "translatable_id" => "23aad22b-053f-4357-83c9-e84279136731"],
+            ["translation_id" => "3e2a95ce-9f54-438d-b44c-080103cc0a50", "translatable_type" => "App\Models\Description", "translatable_id" => "23aad22b-053f-4357-83c9-e84279136731"],
+            ["translation_id" => "f48188cc-9071-4c25-9888-42dcaa97ec6b", "translatable_type" => "App\Models\Description", "translatable_id" => "23aad22b-053f-4357-83c9-e84279136731"],
+            //1261
+            ["translation_id" => "a0b9f188-7abf-453c-bc95-feee761cfd85", "translatable_type" => "App\Models\Description", "translatable_id" => "ae98d8c7-5f71-4b97-afef-342584354bda"],
+            ["translation_id" => "c89665d0-f967-4653-8257-db25925f0c0f", "translatable_type" => "App\Models\Description", "translatable_id" => "ae98d8c7-5f71-4b97-afef-342584354bda"],
+            ["translation_id" => "be578d08-e04d-4bee-8678-36ca7d1819dd", "translatable_type" => "App\Models\Description", "translatable_id" => "ae98d8c7-5f71-4b97-afef-342584354bda"],
+            //1262
+            ["translation_id" => "ab3dea45-1eb7-497b-8afe-64c78cb32b9d", "translatable_type" => "App\Models\Description", "translatable_id" => "b68e96b1-9eff-4022-bd05-65b23e400963"],
+            ["translation_id" => "d031e300-7ca1-43c0-b71f-a6fef9faf279", "translatable_type" => "App\Models\Description", "translatable_id" => "b68e96b1-9eff-4022-bd05-65b23e400963"],
+            ["translation_id" => "51e65bfa-1f44-4eea-a034-11206e561875", "translatable_type" => "App\Models\Description", "translatable_id" => "b68e96b1-9eff-4022-bd05-65b23e400963"],
+            //1263
+            ["translation_id" => "78f63bfd-e6a1-4a06-b41b-4007f42b3eb5", "translatable_type" => "App\Models\Description", "translatable_id" => "c61e32d0-d0df-4c9c-9144-2cba32061c74"],
+            ["translation_id" => "d9152be5-cdb9-47ee-8e21-94629016af07", "translatable_type" => "App\Models\Description", "translatable_id" => "c61e32d0-d0df-4c9c-9144-2cba32061c74"],
+            ["translation_id" => "5a0c2321-f190-4ab6-b263-4b97651a7a01", "translatable_type" => "App\Models\Description", "translatable_id" => "c61e32d0-d0df-4c9c-9144-2cba32061c74"],
+            //1264
+            ["translation_id" => "575d1a8c-6093-4416-b844-699feaab7f35", "translatable_type" => "App\Models\Description", "translatable_id" => "13dfe1f4-5764-4908-a246-bdb64676a4f1"],
+            ["translation_id" => "4c6bd3d4-35ce-4a4c-8939-653ba663483a", "translatable_type" => "App\Models\Description", "translatable_id" => "13dfe1f4-5764-4908-a246-bdb64676a4f1"],
+            ["translation_id" => "cbbf1477-b2d6-4b1c-a8f7-e2737cff3ef9", "translatable_type" => "App\Models\Description", "translatable_id" => "13dfe1f4-5764-4908-a246-bdb64676a4f1"],
+            //1265
+            ["translation_id" => "d1e4fb96-83a2-41ed-bd7d-ee162dac77cb", "translatable_type" => "App\Models\Description", "translatable_id" => "458502e2-0ee1-4241-8657-34b25ff9c1d8"],
+            ["translation_id" => "92892d2d-4c25-4c21-8439-3aa2fc1ccf5c", "translatable_type" => "App\Models\Description", "translatable_id" => "458502e2-0ee1-4241-8657-34b25ff9c1d8"],
+            ["translation_id" => "b01607d3-cd87-42c7-8d6c-f41807edaa1e", "translatable_type" => "App\Models\Description", "translatable_id" => "458502e2-0ee1-4241-8657-34b25ff9c1d8"],
+            //1266
+            ["translation_id" => "d8ae863e-efe4-4f7e-9886-a69ba8901165", "translatable_type" => "App\Models\Description", "translatable_id" => "2cc38a79-2245-426f-a6f7-1afdfe983d0d"],
+            ["translation_id" => "965e2b46-c9c4-4b00-ac44-442582caa0c0", "translatable_type" => "App\Models\Description", "translatable_id" => "2cc38a79-2245-426f-a6f7-1afdfe983d0d"],
+            ["translation_id" => "f89c2bcc-ae18-4e9c-895e-f04a34036f63", "translatable_type" => "App\Models\Description", "translatable_id" => "2cc38a79-2245-426f-a6f7-1afdfe983d0d"],
+            //1267
+            ["translation_id" => "bcff6a4d-71ae-4ebe-9ed5-9cdb6204b433", "translatable_type" => "App\Models\Description", "translatable_id" => "a48aaee9-725a-47fa-ab4d-90611915562e"],
+            ["translation_id" => "3d72b87c-84b4-4b14-8411-321fac612e34", "translatable_type" => "App\Models\Description", "translatable_id" => "a48aaee9-725a-47fa-ab4d-90611915562e"],
+            ["translation_id" => "5ad0f72b-f8e3-41ae-8d87-8a0f6609a5aa", "translatable_type" => "App\Models\Description", "translatable_id" => "a48aaee9-725a-47fa-ab4d-90611915562e"],
+            //1268
+            ["translation_id" => "53fdeccb-4264-4147-98dd-41909338523d", "translatable_type" => "App\Models\Description", "translatable_id" => "c97c063a-83ad-4639-a0f4-ee16d603abe8"],
+            ["translation_id" => "5ce73193-c432-42b1-a6e1-a95c71a41a24", "translatable_type" => "App\Models\Description", "translatable_id" => "c97c063a-83ad-4639-a0f4-ee16d603abe8"],
+            ["translation_id" => "67b8f4b0-2c26-4a21-b25d-d96e06446906", "translatable_type" => "App\Models\Description", "translatable_id" => "c97c063a-83ad-4639-a0f4-ee16d603abe8"],
+            //1269
+            ["translation_id" => "aaaced63-862f-4402-8ef2-0a0e8525fb81", "translatable_type" => "App\Models\Description", "translatable_id" => "e091b398-3b8a-4be9-b32d-f6c14b9b5943"],
+            ["translation_id" => "d5c6f374-a7cf-43e9-92e3-8d8514186a70", "translatable_type" => "App\Models\Description", "translatable_id" => "e091b398-3b8a-4be9-b32d-f6c14b9b5943"],
+            ["translation_id" => "4f7f085d-1a16-4479-8b87-1cbad1af9d97", "translatable_type" => "App\Models\Description", "translatable_id" => "e091b398-3b8a-4be9-b32d-f6c14b9b5943"],
+            //1270
+            ["translation_id" => "3b1f54be-4bb5-4c97-a23c-f5471a82ffc6", "translatable_type" => "App\Models\Description", "translatable_id" => "d7bcb3be-f88d-431a-9930-9eb0bf174cea"],
+            ["translation_id" => "006bb5bd-634f-4e37-944b-e82246cf690b", "translatable_type" => "App\Models\Description", "translatable_id" => "d7bcb3be-f88d-431a-9930-9eb0bf174cea"],
+            ["translation_id" => "555db0ee-47f9-45ec-87e5-4661298629d4", "translatable_type" => "App\Models\Description", "translatable_id" => "d7bcb3be-f88d-431a-9930-9eb0bf174cea"],
+            //1271
+            ["translation_id" => "8f246713-7e61-411a-9803-b7b6ab279872", "translatable_type" => "App\Models\Description", "translatable_id" => "e8a1d2cf-7693-4e9d-a0b8-970d4b376137"],
+            ["translation_id" => "0cb1f4e9-9d16-4523-a46f-f47b2e0b4f90", "translatable_type" => "App\Models\Description", "translatable_id" => "e8a1d2cf-7693-4e9d-a0b8-970d4b376137"],
+            ["translation_id" => "124d496a-625b-474e-9488-87b0de745938", "translatable_type" => "App\Models\Description", "translatable_id" => "e8a1d2cf-7693-4e9d-a0b8-970d4b376137"],
+            //1272
+            ["translation_id" => "d1ea2597-19fb-4036-87f9-20aab45e248a", "translatable_type" => "App\Models\Description", "translatable_id" => "7d5639a4-3776-4654-a5ad-d3769d76d69d"],
+            ["translation_id" => "0c95d823-16b5-478f-ab2c-fa8c23f3dff3", "translatable_type" => "App\Models\Description", "translatable_id" => "7d5639a4-3776-4654-a5ad-d3769d76d69d"],
+            ["translation_id" => "50b03e7f-b30f-4845-8c0c-0c6dea467f2d", "translatable_type" => "App\Models\Description", "translatable_id" => "7d5639a4-3776-4654-a5ad-d3769d76d69d"],
+            //1273
+            ["translation_id" => "f8e0d958-8840-458b-9617-e737c71a36f0", "translatable_type" => "App\Models\Description", "translatable_id" => "35e63666-2de4-44e1-8f9b-b1e9c3501136"],
+            ["translation_id" => "55665ef0-9a3b-4ecb-9394-4362f1cc13cd", "translatable_type" => "App\Models\Description", "translatable_id" => "35e63666-2de4-44e1-8f9b-b1e9c3501136"],
+            ["translation_id" => "14d82079-14f9-4358-aff9-769b81c23d21", "translatable_type" => "App\Models\Description", "translatable_id" => "35e63666-2de4-44e1-8f9b-b1e9c3501136"],
+            //1274
+            ["translation_id" => "44642c6c-b6ce-4a5a-b1b6-3a2a04e96eb2", "translatable_type" => "App\Models\Description", "translatable_id" => "f11ff283-1d61-4cc5-81bd-291cb372c012"],
+            ["translation_id" => "1ddcede2-ec50-474e-b447-573cdb2b03ff", "translatable_type" => "App\Models\Description", "translatable_id" => "f11ff283-1d61-4cc5-81bd-291cb372c012"],
+            ["translation_id" => "4f8898b2-edee-47b1-b247-bad4ef8d7b36", "translatable_type" => "App\Models\Description", "translatable_id" => "f11ff283-1d61-4cc5-81bd-291cb372c012"],
+            //1275
+            ["translation_id" => "72e07fd3-53eb-434f-bc92-48eea82d65e1", "translatable_type" => "App\Models\Description", "translatable_id" => "2ddce7c0-58ce-4c9f-be43-410712bd6f0f"],
+            ["translation_id" => "baebd56c-7d1c-4383-8277-c98706ffa799", "translatable_type" => "App\Models\Description", "translatable_id" => "2ddce7c0-58ce-4c9f-be43-410712bd6f0f"],
+            ["translation_id" => "d5692295-672b-4627-9168-0159051ab3be", "translatable_type" => "App\Models\Description", "translatable_id" => "2ddce7c0-58ce-4c9f-be43-410712bd6f0f"],
+            //1276
+            ["translation_id" => "57e41a70-65c0-44a7-afa6-20c083781a1c", "translatable_type" => "App\Models\Description", "translatable_id" => "9ac6ede8-be7f-4ee6-b4c1-271b911391dc"],
+            ["translation_id" => "28a1ec2b-a526-4d34-8103-e0df55095253", "translatable_type" => "App\Models\Description", "translatable_id" => "9ac6ede8-be7f-4ee6-b4c1-271b911391dc"],
+            ["translation_id" => "8eabd0dd-ed36-412f-b5b9-66c4eb77e3ad", "translatable_type" => "App\Models\Description", "translatable_id" => "9ac6ede8-be7f-4ee6-b4c1-271b911391dc"],
+            //1277
+            ["translation_id" => "95980b33-827b-4cd1-b152-1b5a8ecf33ef", "translatable_type" => "App\Models\Description", "translatable_id" => "05005737-27b8-4d44-a851-f5952bfc9fc5"],
+            ["translation_id" => "ac23526a-1df7-4dba-8184-b5f1959d91ca", "translatable_type" => "App\Models\Description", "translatable_id" => "05005737-27b8-4d44-a851-f5952bfc9fc5"],
+            ["translation_id" => "f217151e-725a-4339-a6bd-f20bb0d82002", "translatable_type" => "App\Models\Description", "translatable_id" => "05005737-27b8-4d44-a851-f5952bfc9fc5"],
+            //1278
+            ["translation_id" => "2e3bf02b-2e71-4add-a417-8ef902207c79", "translatable_type" => "App\Models\Description", "translatable_id" => "226e0019-812c-4226-9185-ec3cfa1e52bd"],
+            ["translation_id" => "fb51fe6d-fb78-4507-9c98-b68381e9ab03", "translatable_type" => "App\Models\Description", "translatable_id" => "226e0019-812c-4226-9185-ec3cfa1e52bd"],
+            ["translation_id" => "21333148-851c-4029-9417-158ed107b1b6", "translatable_type" => "App\Models\Description", "translatable_id" => "226e0019-812c-4226-9185-ec3cfa1e52bd"],
+            //1279
+            ["translation_id" => "c5d11b45-5ac5-4ef8-8725-255675a52a01", "translatable_type" => "App\Models\Description", "translatable_id" => "7997e6f1-31af-4b5d-8e63-3cf7f5abb354"],
+            ["translation_id" => "84be714c-5bac-4f82-97ca-f4cbc0513528", "translatable_type" => "App\Models\Description", "translatable_id" => "7997e6f1-31af-4b5d-8e63-3cf7f5abb354"],
+            ["translation_id" => "f7bf9494-a8e2-49ff-b12b-47dfb9e45274", "translatable_type" => "App\Models\Description", "translatable_id" => "7997e6f1-31af-4b5d-8e63-3cf7f5abb354"],
+            //1280
+            ["translation_id" => "7430a800-9ed9-4eca-a608-966ac3f56eb2", "translatable_type" => "App\Models\Description", "translatable_id" => "675ef883-809c-498e-8144-67340078370a"],
+            ["translation_id" => "b97c8b4f-2ca2-4bfc-8ab0-0f3688509e6a", "translatable_type" => "App\Models\Description", "translatable_id" => "675ef883-809c-498e-8144-67340078370a"],
+            ["translation_id" => "9e78917a-c61e-4527-839d-8c4c6415eb02", "translatable_type" => "App\Models\Description", "translatable_id" => "675ef883-809c-498e-8144-67340078370a"],
+            //1281
+            ["translation_id" => "73460733-16be-4396-934b-1aeae4c414fe", "translatable_type" => "App\Models\Description", "translatable_id" => "6712dcab-4d21-45b3-8a83-1c813cdddc76"],
+            ["translation_id" => "c264fda1-fbd9-4b19-b5f5-60886e4c0427", "translatable_type" => "App\Models\Description", "translatable_id" => "6712dcab-4d21-45b3-8a83-1c813cdddc76"],
+            ["translation_id" => "82bae9b0-5754-4a76-8a54-f13a2928059b", "translatable_type" => "App\Models\Description", "translatable_id" => "6712dcab-4d21-45b3-8a83-1c813cdddc76"],
+            //1282
+            ["translation_id" => "9c80df46-7de7-4ed8-9d3d-fe8c2beb7246", "translatable_type" => "App\Models\Description", "translatable_id" => "69f8312c-7b97-477c-b87f-e182df74a97a"],
+            ["translation_id" => "a4fd4762-5b85-4875-972e-f9b5b1e262b4", "translatable_type" => "App\Models\Description", "translatable_id" => "69f8312c-7b97-477c-b87f-e182df74a97a"],
+            ["translation_id" => "07d0bc3d-43a1-4e6e-bc1f-f324874dcf55", "translatable_type" => "App\Models\Description", "translatable_id" => "69f8312c-7b97-477c-b87f-e182df74a97a"],
+            //1283
+            ["translation_id" => "04163c5f-620a-44be-8f0a-1ca7ccf06054", "translatable_type" => "App\Models\Description", "translatable_id" => "d7db31ec-6fff-4443-83d1-d17b14e9c55a"],
+            ["translation_id" => "3d37f027-26cb-4afd-912b-26b64b90dd0a", "translatable_type" => "App\Models\Description", "translatable_id" => "d7db31ec-6fff-4443-83d1-d17b14e9c55a"],
+            ["translation_id" => "20722b9a-b410-48c8-8b1f-82a28e78eed5", "translatable_type" => "App\Models\Description", "translatable_id" => "d7db31ec-6fff-4443-83d1-d17b14e9c55a"],
+            //1284
+            ["translation_id" => "ab383432-80cf-4549-b801-25fe2401799d", "translatable_type" => "App\Models\Description", "translatable_id" => "37365dfa-1d75-4e79-8896-2a6f14222759"],
+            ["translation_id" => "ce42bf3d-a03f-4d36-9107-451e057b4aea", "translatable_type" => "App\Models\Description", "translatable_id" => "37365dfa-1d75-4e79-8896-2a6f14222759"],
+            ["translation_id" => "434899f2-9905-4fbd-8964-56e258c1b1a1", "translatable_type" => "App\Models\Description", "translatable_id" => "37365dfa-1d75-4e79-8896-2a6f14222759"],
+            //1285
+            ["translation_id" => "de0f7849-4be0-48fa-ab0d-4e76f31afbc9", "translatable_type" => "App\Models\Description", "translatable_id" => "40e60f57-fa66-4162-a63c-70f870e0b7c5"],
+            ["translation_id" => "9e0fc430-4ad9-4042-aee8-30829604ada6", "translatable_type" => "App\Models\Description", "translatable_id" => "40e60f57-fa66-4162-a63c-70f870e0b7c5"],
+            ["translation_id" => "c683df6f-769b-4bbd-8174-ce5f67813960", "translatable_type" => "App\Models\Description", "translatable_id" => "40e60f57-fa66-4162-a63c-70f870e0b7c5"],
+            //1286
+            ["translation_id" => "4936d569-4eb2-4a66-94fd-af86ef24ea30", "translatable_type" => "App\Models\Description", "translatable_id" => "7d1e10cd-bc47-475a-82fc-cb1951d0e68b"],
+            ["translation_id" => "d5c223f1-0c05-4549-9544-c2b7773cd5a2", "translatable_type" => "App\Models\Description", "translatable_id" => "7d1e10cd-bc47-475a-82fc-cb1951d0e68b"],
+            ["translation_id" => "41eb9603-0af8-467e-8a1a-8b5d19913d10", "translatable_type" => "App\Models\Description", "translatable_id" => "7d1e10cd-bc47-475a-82fc-cb1951d0e68b"],
+            //1287
+            ["translation_id" => "a055fd3c-a802-483e-9f9a-3211a4dd69c8", "translatable_type" => "App\Models\Description", "translatable_id" => "3aac60bc-11ac-487f-b627-cefc8e64558b"],
+            ["translation_id" => "79cbf14c-b86e-42f5-b87d-afde44fe5086", "translatable_type" => "App\Models\Description", "translatable_id" => "3aac60bc-11ac-487f-b627-cefc8e64558b"],
+            ["translation_id" => "2de54bed-6386-413f-b14b-b979aafbf3a3", "translatable_type" => "App\Models\Description", "translatable_id" => "3aac60bc-11ac-487f-b627-cefc8e64558b"],
+            //1288
+            ["translation_id" => "1a3e906b-db1b-497e-aa6e-83ebdb5d0248", "translatable_type" => "App\Models\Description", "translatable_id" => "0de5a867-b7bb-4a60-a1bd-7ad983813967"],
+            ["translation_id" => "fcc55ec7-cc30-4470-a4b2-0449106c8ce4", "translatable_type" => "App\Models\Description", "translatable_id" => "0de5a867-b7bb-4a60-a1bd-7ad983813967"],
+            ["translation_id" => "fcca23cb-8e13-4044-b60b-12eb4fc3d858", "translatable_type" => "App\Models\Description", "translatable_id" => "0de5a867-b7bb-4a60-a1bd-7ad983813967"],
+            //1289
+            ["translation_id" => "c573a456-cafd-4589-a482-4f569a778278", "translatable_type" => "App\Models\Description", "translatable_id" => "4738f81f-d3af-4964-a0ae-7734053709ba"],
+            ["translation_id" => "d83cc4af-d772-4b32-931b-5fe27a836701", "translatable_type" => "App\Models\Description", "translatable_id" => "4738f81f-d3af-4964-a0ae-7734053709ba"],
+            ["translation_id" => "1b8f98a3-d65a-4f51-b92b-78db29609e93", "translatable_type" => "App\Models\Description", "translatable_id" => "4738f81f-d3af-4964-a0ae-7734053709ba"],
+            //1290
+            ["translation_id" => "88b10fcf-f800-4121-9f1b-840a6cf2f2d6", "translatable_type" => "App\Models\Description", "translatable_id" => "ec087c9b-6943-44e6-b10c-4b464b72787c"],
+            ["translation_id" => "566f9859-3511-4a95-a947-0091193ea39f", "translatable_type" => "App\Models\Description", "translatable_id" => "ec087c9b-6943-44e6-b10c-4b464b72787c"],
+            ["translation_id" => "16ab50d7-34e1-4940-b4e6-3b448e8e6464", "translatable_type" => "App\Models\Description", "translatable_id" => "ec087c9b-6943-44e6-b10c-4b464b72787c"],
+            //1291
+            ["translation_id" => "cfcd576f-856b-4b61-893f-ec2fbfac7b08", "translatable_type" => "App\Models\Description", "translatable_id" => "8a1e6aff-cc73-4f65-b948-08d4fe364a5d"],
+            ["translation_id" => "9e020e1d-64fe-41af-931a-fe16a6270a96", "translatable_type" => "App\Models\Description", "translatable_id" => "8a1e6aff-cc73-4f65-b948-08d4fe364a5d"],
+            ["translation_id" => "cda59064-98fb-4550-ad7d-5aaa74943f0a", "translatable_type" => "App\Models\Description", "translatable_id" => "8a1e6aff-cc73-4f65-b948-08d4fe364a5d"],
+            //1292
+            ["translation_id" => "89c8a1a0-83d3-4e37-8a31-97eeb8268338", "translatable_type" => "App\Models\Description", "translatable_id" => "199cbea9-49fc-4b4d-8899-9cfb791fbd21"],
+            ["translation_id" => "7e7e0540-5d02-4b3a-8534-b5d352623fb3", "translatable_type" => "App\Models\Description", "translatable_id" => "199cbea9-49fc-4b4d-8899-9cfb791fbd21"],
+            ["translation_id" => "e48c6a07-cf47-49cb-8dec-631310b5745a", "translatable_type" => "App\Models\Description", "translatable_id" => "199cbea9-49fc-4b4d-8899-9cfb791fbd21"],
+            //1293
+            ["translation_id" => "8acca2ff-e6f3-44d8-9b66-699b4d7c00d8", "translatable_type" => "App\Models\Description", "translatable_id" => "33d35e6c-58c1-4000-aca4-79d0cf0fb144"],
+            ["translation_id" => "89d77a70-f8f0-46f8-9619-16b4b1e26e27", "translatable_type" => "App\Models\Description", "translatable_id" => "33d35e6c-58c1-4000-aca4-79d0cf0fb144"],
+            ["translation_id" => "31b7a305-7422-4793-8a32-0aae4d992248", "translatable_type" => "App\Models\Description", "translatable_id" => "33d35e6c-58c1-4000-aca4-79d0cf0fb144"],
+            //1294
+            ["translation_id" => "bb191977-66ee-4ee2-a5d9-c0404ad2f3ae", "translatable_type" => "App\Models\Description", "translatable_id" => "309b30d4-7c81-4125-9bae-2b1fc0f94b52"],
+            ["translation_id" => "630bf13b-cdb6-4664-9f76-59eab8ecb117", "translatable_type" => "App\Models\Description", "translatable_id" => "309b30d4-7c81-4125-9bae-2b1fc0f94b52"],
+            ["translation_id" => "5a9bd948-7843-4984-88b9-f523d2ecfa6e", "translatable_type" => "App\Models\Description", "translatable_id" => "309b30d4-7c81-4125-9bae-2b1fc0f94b52"],
+            //1295
+            ["translation_id" => "8f7cdddc-37d9-45ef-909f-0cadfbe6c902", "translatable_type" => "App\Models\Description", "translatable_id" => "997a35c1-93a8-4de6-a155-b1cb45c48568"],
+            ["translation_id" => "71fe6f0f-e225-423b-9a15-57644e723e89", "translatable_type" => "App\Models\Description", "translatable_id" => "997a35c1-93a8-4de6-a155-b1cb45c48568"],
+            ["translation_id" => "3b552c04-6b3e-4c5d-afcc-00f473425ee9", "translatable_type" => "App\Models\Description", "translatable_id" => "997a35c1-93a8-4de6-a155-b1cb45c48568"],
+            //1296
+            ["translation_id" => "6fa9dccd-0098-4271-b8a7-9eaf31e161a5", "translatable_type" => "App\Models\Description", "translatable_id" => "9a1c35e4-f256-4ee0-acbe-61818feb6c68"],
+            ["translation_id" => "00b70088-82f4-41c1-b1f2-d68dd87dee9b", "translatable_type" => "App\Models\Description", "translatable_id" => "9a1c35e4-f256-4ee0-acbe-61818feb6c68"],
+            ["translation_id" => "87385527-6fb9-4a22-936a-df91e2b51ee3", "translatable_type" => "App\Models\Description", "translatable_id" => "9a1c35e4-f256-4ee0-acbe-61818feb6c68"],
+            //1297
+            ["translation_id" => "3dc6fb08-5881-4d4f-ae53-cb04359fc709", "translatable_type" => "App\Models\Description", "translatable_id" => "81c57b94-93a1-48c1-be45-0cd053e51e6a"],
+            ["translation_id" => "1d69c4c1-fe2a-4e09-b513-dc59a5423537", "translatable_type" => "App\Models\Description", "translatable_id" => "81c57b94-93a1-48c1-be45-0cd053e51e6a"],
+            ["translation_id" => "76680320-699f-4866-866f-5d657de4c32e", "translatable_type" => "App\Models\Description", "translatable_id" => "81c57b94-93a1-48c1-be45-0cd053e51e6a"],
+            //1298
+            ["translation_id" => "8725a3d7-d5c7-4a44-8585-4e6aceb414b4", "translatable_type" => "App\Models\Description", "translatable_id" => "72285ba4-fb53-46e4-b53d-60db6e86667f"],
+            ["translation_id" => "22a9db27-74be-4846-abff-ad22e7b2dc94", "translatable_type" => "App\Models\Description", "translatable_id" => "72285ba4-fb53-46e4-b53d-60db6e86667f"],
+            ["translation_id" => "d6315a6d-de49-493e-b5e7-067cb78a843b", "translatable_type" => "App\Models\Description", "translatable_id" => "72285ba4-fb53-46e4-b53d-60db6e86667f"],
+            //1299
+            ["translation_id" => "c822d156-14a7-4e0d-bb99-74b53b47a26e", "translatable_type" => "App\Models\Description", "translatable_id" => "35f2271c-6e09-4f7e-8103-6f9c52c6d48d"],
+            ["translation_id" => "459aa6f1-4d27-4fea-9728-345a83fdbd3e", "translatable_type" => "App\Models\Description", "translatable_id" => "35f2271c-6e09-4f7e-8103-6f9c52c6d48d"],
+            ["translation_id" => "853863cf-b56f-4273-b481-21522759dcfc", "translatable_type" => "App\Models\Description", "translatable_id" => "35f2271c-6e09-4f7e-8103-6f9c52c6d48d"],
+            //1300
+            ["translation_id" => "8bb72de7-52ec-418d-9c91-76b07c6beb0c", "translatable_type" => "App\Models\Description", "translatable_id" => "5d90c806-6090-42e3-b040-43cedfbce7ef"],
+            ["translation_id" => "ce26d8a3-275e-4385-90fa-e37447c54160", "translatable_type" => "App\Models\Description", "translatable_id" => "5d90c806-6090-42e3-b040-43cedfbce7ef"],
+            ["translation_id" => "d85c693c-5991-4432-97cf-68084b87068b", "translatable_type" => "App\Models\Description", "translatable_id" => "5d90c806-6090-42e3-b040-43cedfbce7ef"],
+            //1301
+            ["translation_id" => "5911d999-2b4b-4cf5-8c93-1f825b4f2521", "translatable_type" => "App\Models\Description", "translatable_id" => "131b0356-36c2-4339-9980-8a5fba797acf"],
+            ["translation_id" => "ed8351aa-6291-420b-b1d4-1e25283af156", "translatable_type" => "App\Models\Description", "translatable_id" => "131b0356-36c2-4339-9980-8a5fba797acf"],
+            ["translation_id" => "05890733-31da-4949-8139-aa13218479ca", "translatable_type" => "App\Models\Description", "translatable_id" => "131b0356-36c2-4339-9980-8a5fba797acf"],
+            //1302
+            ["translation_id" => "f1481718-670d-4c3d-956e-cabee7046fae", "translatable_type" => "App\Models\Description", "translatable_id" => "d4d29a9c-b2e3-4839-b62c-70a5d40b4b21"],
+            ["translation_id" => "6c7b70cc-0784-4156-81f4-4c3e2b248d8e", "translatable_type" => "App\Models\Description", "translatable_id" => "d4d29a9c-b2e3-4839-b62c-70a5d40b4b21"],
+            ["translation_id" => "1ee8f6ef-1396-402e-9e6f-3fa14f82e049", "translatable_type" => "App\Models\Description", "translatable_id" => "d4d29a9c-b2e3-4839-b62c-70a5d40b4b21"],
+            //1303
+            ["translation_id" => "386219e9-b96b-47ff-b013-d1456bd0b150", "translatable_type" => "App\Models\Description", "translatable_id" => "01f424af-e10a-47be-bf0f-5d37c40ed784"],
+            ["translation_id" => "09774271-181d-424c-9f34-98ae1f44a468", "translatable_type" => "App\Models\Description", "translatable_id" => "01f424af-e10a-47be-bf0f-5d37c40ed784"],
+            ["translation_id" => "669b6a0e-9f8a-4dfd-9e9b-7c3c1fd6bb74", "translatable_type" => "App\Models\Description", "translatable_id" => "01f424af-e10a-47be-bf0f-5d37c40ed784"],
+            //1304
+            ["translation_id" => "4900e9e9-b832-456f-8883-825d99a0d23f", "translatable_type" => "App\Models\Description", "translatable_id" => "c5be29fa-8a79-4389-bd27-e1d051032f27"],
+            ["translation_id" => "f6859121-e044-4c64-85e2-e7ab32d0258a", "translatable_type" => "App\Models\Description", "translatable_id" => "c5be29fa-8a79-4389-bd27-e1d051032f27"],
+            ["translation_id" => "cea962e7-db80-4db5-8441-91994efef80d", "translatable_type" => "App\Models\Description", "translatable_id" => "c5be29fa-8a79-4389-bd27-e1d051032f27"],
+            //1305
+            ["translation_id" => "40649197-8685-4b1e-ab19-483e7194eb02", "translatable_type" => "App\Models\Description", "translatable_id" => "b340e0b8-69a3-4b26-9db6-258de7caa780"],
+            ["translation_id" => "e54b3585-41b3-4241-9e82-4aa044edca69", "translatable_type" => "App\Models\Description", "translatable_id" => "b340e0b8-69a3-4b26-9db6-258de7caa780"],
+            ["translation_id" => "d262c744-8967-4998-9d4f-f302d772c658", "translatable_type" => "App\Models\Description", "translatable_id" => "b340e0b8-69a3-4b26-9db6-258de7caa780"],
+            //1306
+            ["translation_id" => "c3226317-c4fa-45e7-b5da-743b99b18031", "translatable_type" => "App\Models\Description", "translatable_id" => "ed32a156-6726-4fe5-9f01-e30571004248"],
+            ["translation_id" => "2ac55298-1e54-4eda-917f-f44cf517be6a", "translatable_type" => "App\Models\Description", "translatable_id" => "ed32a156-6726-4fe5-9f01-e30571004248"],
+            ["translation_id" => "61965736-7a12-40d7-8a46-467f7daa3b96", "translatable_type" => "App\Models\Description", "translatable_id" => "ed32a156-6726-4fe5-9f01-e30571004248"],
+            //1307
+            ["translation_id" => "5950b137-986a-426e-91a9-6a1972245e58", "translatable_type" => "App\Models\Description", "translatable_id" => "cdcfed44-1a99-4028-a1b2-7cc0418fecc9"],
+            ["translation_id" => "ac84b84a-be37-429e-94d2-bb60a106ded9", "translatable_type" => "App\Models\Description", "translatable_id" => "cdcfed44-1a99-4028-a1b2-7cc0418fecc9"],
+            ["translation_id" => "c4d30876-bff4-4d7b-ae19-7c7e6c5ea13e", "translatable_type" => "App\Models\Description", "translatable_id" => "cdcfed44-1a99-4028-a1b2-7cc0418fecc9"],
+            //1308
+            ["translation_id" => "8eaf84bd-5ad5-4ab0-bffa-7a16f2f678eb", "translatable_type" => "App\Models\Description", "translatable_id" => "5c69202d-dcbb-4a6a-8842-6481ac4ed758"],
+            ["translation_id" => "758be8f5-22ae-425f-9467-f54ac4144f74", "translatable_type" => "App\Models\Description", "translatable_id" => "5c69202d-dcbb-4a6a-8842-6481ac4ed758"],
+            ["translation_id" => "9e9e3bbc-4fcd-405f-8528-d0bd52284e21", "translatable_type" => "App\Models\Description", "translatable_id" => "5c69202d-dcbb-4a6a-8842-6481ac4ed758"],
+            //1309
+            ["translation_id" => "e85821e1-b67f-4309-aff8-dc49fe9e13bd", "translatable_type" => "App\Models\Description", "translatable_id" => "7406d1ed-c2b5-46c8-bc5f-4c2ca82500c7"],
+            ["translation_id" => "b340a36c-59c0-41c3-9cc2-6cd14b8f8128", "translatable_type" => "App\Models\Description", "translatable_id" => "7406d1ed-c2b5-46c8-bc5f-4c2ca82500c7"],
+            ["translation_id" => "07dfaf55-45a4-48e6-b7ff-da77d670ff8d", "translatable_type" => "App\Models\Description", "translatable_id" => "7406d1ed-c2b5-46c8-bc5f-4c2ca82500c7"],
+            //1310
+            ["translation_id" => "a3a74209-2d34-4f2b-9c69-b5b7b8d048f6", "translatable_type" => "App\Models\Description", "translatable_id" => "f931d6df-d8fc-4fa9-b698-6eed85bf7c9b"],
+            ["translation_id" => "aafccdab-995f-469d-b12d-17a269d5cc59", "translatable_type" => "App\Models\Description", "translatable_id" => "f931d6df-d8fc-4fa9-b698-6eed85bf7c9b"],
+            ["translation_id" => "9ab2bf41-d75a-46f8-9f0d-5743dea80a21", "translatable_type" => "App\Models\Description", "translatable_id" => "f931d6df-d8fc-4fa9-b698-6eed85bf7c9b"],
+            //1311
+            ["translation_id" => "3af6b95c-d6e1-47a5-a966-de6aa9fc9fe4", "translatable_type" => "App\Models\Description", "translatable_id" => "05504b10-f21c-4629-856d-249fbebaf097"],
+            ["translation_id" => "98a0f27d-522c-4eeb-a332-37db01d331e2", "translatable_type" => "App\Models\Description", "translatable_id" => "05504b10-f21c-4629-856d-249fbebaf097"],
+            ["translation_id" => "ca61f1f1-d8e8-4d58-a739-2b7459a62a90", "translatable_type" => "App\Models\Description", "translatable_id" => "05504b10-f21c-4629-856d-249fbebaf097"],
+            //1312
+            ["translation_id" => "fd3a2294-955a-42c3-8e0c-20b5ea4c8816", "translatable_type" => "App\Models\Description", "translatable_id" => "3f2be22c-dc83-4c5b-983d-8c5aa1cc3ffb"],
+            ["translation_id" => "4bf56a52-70d7-422b-b5a6-25881bf6738d", "translatable_type" => "App\Models\Description", "translatable_id" => "3f2be22c-dc83-4c5b-983d-8c5aa1cc3ffb"],
+            ["translation_id" => "e6b68769-7490-4453-b701-f31dbd3500fb", "translatable_type" => "App\Models\Description", "translatable_id" => "3f2be22c-dc83-4c5b-983d-8c5aa1cc3ffb"],
+            //1313
+            ["translation_id" => "a1ca60e3-1baf-447b-89e7-72564e1bef07", "translatable_type" => "App\Models\Description", "translatable_id" => "640a653e-02b0-45fe-9766-cd84da8baf1c"],
+            ["translation_id" => "9d13145d-8f20-4221-b3da-6aa9031b92ee", "translatable_type" => "App\Models\Description", "translatable_id" => "640a653e-02b0-45fe-9766-cd84da8baf1c"],
+            ["translation_id" => "bdf0c236-0de2-42f8-8113-181b14d2064e", "translatable_type" => "App\Models\Description", "translatable_id" => "640a653e-02b0-45fe-9766-cd84da8baf1c"],
+            //1314
+            ["translation_id" => "a9407703-3251-456b-a12b-722711b32c30", "translatable_type" => "App\Models\Description", "translatable_id" => "3fb82ab4-a903-4929-9e89-4b431ac1273c"],
+            ["translation_id" => "164953c2-3265-4fef-9a8a-53738d926567", "translatable_type" => "App\Models\Description", "translatable_id" => "3fb82ab4-a903-4929-9e89-4b431ac1273c"],
+            ["translation_id" => "cdb662b0-1ec4-47db-9d4d-55e47c653a39", "translatable_type" => "App\Models\Description", "translatable_id" => "3fb82ab4-a903-4929-9e89-4b431ac1273c"],
+            //1315
+            ["translation_id" => "7e4c8b31-5a49-4283-ae34-2f3dbe839498", "translatable_type" => "App\Models\Description", "translatable_id" => "0e13f3d7-00ef-4819-ab58-ded6a448cc0e"],
+            ["translation_id" => "9072e5a3-975f-4499-a106-92c81e5ef9c7", "translatable_type" => "App\Models\Description", "translatable_id" => "0e13f3d7-00ef-4819-ab58-ded6a448cc0e"],
+            ["translation_id" => "2dd1cd21-ee0f-43f2-a9fe-1d53321a6806", "translatable_type" => "App\Models\Description", "translatable_id" => "0e13f3d7-00ef-4819-ab58-ded6a448cc0e"],
+            //1316
+            ["translation_id" => "19c81d4c-d655-4f9d-a256-2fc6fcefd73d", "translatable_type" => "App\Models\Description", "translatable_id" => "e0848d5b-49ac-4b69-bbba-a8a0b1610216"],
+            ["translation_id" => "f1f6c429-4500-481f-a0c0-00a9769845ff", "translatable_type" => "App\Models\Description", "translatable_id" => "e0848d5b-49ac-4b69-bbba-a8a0b1610216"],
+            ["translation_id" => "12f88560-6ed2-4a33-8bf7-3adce62ad39a", "translatable_type" => "App\Models\Description", "translatable_id" => "e0848d5b-49ac-4b69-bbba-a8a0b1610216"],
+            //1317
+            ["translation_id" => "ed4db089-d005-4d41-bd13-e456b688fd13", "translatable_type" => "App\Models\Description", "translatable_id" => "53041016-aa4d-4e8c-8513-341cbb62285b"],
+            ["translation_id" => "c7f0d885-05fd-4b51-8583-a13dc7b4ba4e", "translatable_type" => "App\Models\Description", "translatable_id" => "53041016-aa4d-4e8c-8513-341cbb62285b"],
+            ["translation_id" => "9eaabdcc-631d-4c8a-9681-d9d3e7922956", "translatable_type" => "App\Models\Description", "translatable_id" => "53041016-aa4d-4e8c-8513-341cbb62285b"],
+            //1318
+            ["translation_id" => "b474d8eb-2c13-4ed0-b535-7b0a6ad56243", "translatable_type" => "App\Models\Description", "translatable_id" => "d9fef6f7-9027-473a-865d-d11ee02df31b"],
+            ["translation_id" => "e729eb74-3a81-4250-a142-1ce10a13b2cf", "translatable_type" => "App\Models\Description", "translatable_id" => "d9fef6f7-9027-473a-865d-d11ee02df31b"],
+            ["translation_id" => "275a8cae-edb2-4031-9d23-1364efa38a58", "translatable_type" => "App\Models\Description", "translatable_id" => "d9fef6f7-9027-473a-865d-d11ee02df31b"],
+            //1319
+            ["translation_id" => "1f66243f-a529-40bf-a738-ab38e0a4a527", "translatable_type" => "App\Models\Description", "translatable_id" => "1602a81e-80f0-4151-bf0d-88a876843da0"],
+            ["translation_id" => "ccbb6e8f-7dd4-42ae-ba61-ec3aed01a705", "translatable_type" => "App\Models\Description", "translatable_id" => "1602a81e-80f0-4151-bf0d-88a876843da0"],
+            ["translation_id" => "902ae175-dc23-43b8-b3b3-089e37d1477b", "translatable_type" => "App\Models\Description", "translatable_id" => "1602a81e-80f0-4151-bf0d-88a876843da0"],
+            //1320
+            ["translation_id" => "4b047d69-2411-4f90-a32f-00fa471feca1", "translatable_type" => "App\Models\Description", "translatable_id" => "8d928003-89ea-4697-942f-ba00ed5bb4ec"],
+            ["translation_id" => "a5ca2dcb-9286-43f3-b8e4-7b63ec0515f9", "translatable_type" => "App\Models\Description", "translatable_id" => "8d928003-89ea-4697-942f-ba00ed5bb4ec"],
+            ["translation_id" => "b930048a-88b5-4d2c-a7f6-d13b80e3b6b3", "translatable_type" => "App\Models\Description", "translatable_id" => "8d928003-89ea-4697-942f-ba00ed5bb4ec"],
+            //1321
+            ["translation_id" => "dec875b0-59ab-473d-b86a-4a2a355283f9", "translatable_type" => "App\Models\Description", "translatable_id" => "d82ad86d-4701-46d3-84c5-a8b6a3fd9cca"],
+            ["translation_id" => "9e86cb84-b116-4967-80a0-b146bd56ec97", "translatable_type" => "App\Models\Description", "translatable_id" => "d82ad86d-4701-46d3-84c5-a8b6a3fd9cca"],
+            ["translation_id" => "e7e5330c-3a87-4809-98c2-daaa067d2800", "translatable_type" => "App\Models\Description", "translatable_id" => "d82ad86d-4701-46d3-84c5-a8b6a3fd9cca"],
+            //1322
+            ["translation_id" => "16e89db4-a9b9-44b1-9535-f642146ec6df", "translatable_type" => "App\Models\Description", "translatable_id" => "22bd1fe4-20de-4761-b96b-539b55c619d9"],
+            ["translation_id" => "a3c97359-0809-49c6-8b74-ea8920324f3d", "translatable_type" => "App\Models\Description", "translatable_id" => "22bd1fe4-20de-4761-b96b-539b55c619d9"],
+            ["translation_id" => "99c1f056-5f24-47f9-983d-1291b8ce8021", "translatable_type" => "App\Models\Description", "translatable_id" => "22bd1fe4-20de-4761-b96b-539b55c619d9"],
+            //1323
+            ["translation_id" => "7a147f29-7c7e-4024-8fcc-2b03e7093f0c", "translatable_type" => "App\Models\Description", "translatable_id" => "05aab091-5bf2-4f99-9bee-860b78552446"],
+            ["translation_id" => "192df71f-5ed6-4379-8c28-d15f4e5dd482", "translatable_type" => "App\Models\Description", "translatable_id" => "05aab091-5bf2-4f99-9bee-860b78552446"],
+            ["translation_id" => "4088a188-1e51-47ef-92b8-3d0a41f2393b", "translatable_type" => "App\Models\Description", "translatable_id" => "05aab091-5bf2-4f99-9bee-860b78552446"],
+            //1324
+            ["translation_id" => "eeffc058-3071-47ed-a0d8-3ca39e43cbad", "translatable_type" => "App\Models\Description", "translatable_id" => "21dae500-4722-420c-912b-7b775fb42b36"],
+            ["translation_id" => "abce9286-37c0-4c8f-ab8e-05b1d206a964", "translatable_type" => "App\Models\Description", "translatable_id" => "21dae500-4722-420c-912b-7b775fb42b36"],
+            ["translation_id" => "00e6307c-5f76-410d-a234-6b284798af4c", "translatable_type" => "App\Models\Description", "translatable_id" => "21dae500-4722-420c-912b-7b775fb42b36"],
+            //1325
+            ["translation_id" => "e177dc76-f74f-4674-886d-beb067727907", "translatable_type" => "App\Models\Description", "translatable_id" => "1eddee7c-7f67-4e1b-a2ea-c69f648d8223"],
+            ["translation_id" => "1e7c50bd-f651-4667-ba65-d57cc76ba41f", "translatable_type" => "App\Models\Description", "translatable_id" => "1eddee7c-7f67-4e1b-a2ea-c69f648d8223"],
+            ["translation_id" => "cec4761d-af7c-4cd7-be3f-b003af5725ff", "translatable_type" => "App\Models\Description", "translatable_id" => "1eddee7c-7f67-4e1b-a2ea-c69f648d8223"],
+            //1326
+            ["translation_id" => "ecd00b52-ecd9-497d-a8ec-9cf8c8c02eeb", "translatable_type" => "App\Models\Description", "translatable_id" => "3f95f52f-3fcd-448f-9daa-9b3e85376bdd"],
+            ["translation_id" => "7ffc9cb1-c209-4bd6-be2b-2013b6b6cda9", "translatable_type" => "App\Models\Description", "translatable_id" => "3f95f52f-3fcd-448f-9daa-9b3e85376bdd"],
+            ["translation_id" => "78cbb440-76e6-43dc-bad1-e52bc39659d2", "translatable_type" => "App\Models\Description", "translatable_id" => "3f95f52f-3fcd-448f-9daa-9b3e85376bdd"],
+            //1327
+            ["translation_id" => "2dbf85be-9b4b-4b3e-bd84-c254945cbddc", "translatable_type" => "App\Models\Description", "translatable_id" => "67634fa3-10cb-4186-acaa-d37756257d96"],
+            ["translation_id" => "4f14f51d-eb25-4a1b-a88c-e7b5fb75fe4b", "translatable_type" => "App\Models\Description", "translatable_id" => "67634fa3-10cb-4186-acaa-d37756257d96"],
+            ["translation_id" => "1c6e1bb0-bf7c-4f52-8974-521c169845a1", "translatable_type" => "App\Models\Description", "translatable_id" => "67634fa3-10cb-4186-acaa-d37756257d96"],
+            //1328
+            ["translation_id" => "f0b469d9-d140-408f-ac94-fd6bf538daf6", "translatable_type" => "App\Models\Description", "translatable_id" => "f143b8c0-eb45-467c-ab88-6e84541699b0"],
+            ["translation_id" => "bceb9690-0a10-4765-8d75-2be766f779a1", "translatable_type" => "App\Models\Description", "translatable_id" => "f143b8c0-eb45-467c-ab88-6e84541699b0"],
+            ["translation_id" => "ec403211-f356-40b9-96ca-981adf288609", "translatable_type" => "App\Models\Description", "translatable_id" => "f143b8c0-eb45-467c-ab88-6e84541699b0"],
+            //1329
+            ["translation_id" => "63ccedb3-2fd8-41a9-8c1c-451968310ba6", "translatable_type" => "App\Models\Description", "translatable_id" => "69858b17-cf05-4a90-9c01-6155b049ded8"],
+            ["translation_id" => "4f3825a8-719f-49d8-80ac-b6b1c7268fae", "translatable_type" => "App\Models\Description", "translatable_id" => "69858b17-cf05-4a90-9c01-6155b049ded8"],
+            ["translation_id" => "a072a006-1055-402b-9600-f3084ae15429", "translatable_type" => "App\Models\Description", "translatable_id" => "69858b17-cf05-4a90-9c01-6155b049ded8"],
+            //1330
+            ["translation_id" => "58306cad-226a-4a91-a5eb-4e422505213c", "translatable_type" => "App\Models\Description", "translatable_id" => "f7b9b7df-d2e5-4799-afbf-ce7a9e921155"],
+            ["translation_id" => "aeb11a64-5fe0-4ea4-a8ba-65fd62467f02", "translatable_type" => "App\Models\Description", "translatable_id" => "f7b9b7df-d2e5-4799-afbf-ce7a9e921155"],
+            ["translation_id" => "0ceb7421-afc9-4442-8f74-d7f128453f9e", "translatable_type" => "App\Models\Description", "translatable_id" => "f7b9b7df-d2e5-4799-afbf-ce7a9e921155"],
+            //1331
+            ["translation_id" => "09bad02c-f514-4cd4-97ba-8a0ecd7e5487", "translatable_type" => "App\Models\Description", "translatable_id" => "32c3f6ca-3466-4d0f-8db8-314b515db339"],
+            ["translation_id" => "3575a19d-66f7-4251-9779-a30b5c472a72", "translatable_type" => "App\Models\Description", "translatable_id" => "32c3f6ca-3466-4d0f-8db8-314b515db339"],
+            ["translation_id" => "4984dda4-f2e2-458c-8484-1149aa1f5e91", "translatable_type" => "App\Models\Description", "translatable_id" => "32c3f6ca-3466-4d0f-8db8-314b515db339"],
+            //1332
+            ["translation_id" => "13ffdce5-ed7a-4d76-aa76-3007f027ee1b", "translatable_type" => "App\Models\Description", "translatable_id" => "2bf57951-82fe-4776-adb0-ce5e83cd6965"],
+            ["translation_id" => "5007fa09-e40f-43f4-9e71-4f329dc1167e", "translatable_type" => "App\Models\Description", "translatable_id" => "2bf57951-82fe-4776-adb0-ce5e83cd6965"],
+            ["translation_id" => "b4d76c18-fbe6-461e-a950-b0e1631d9947", "translatable_type" => "App\Models\Description", "translatable_id" => "2bf57951-82fe-4776-adb0-ce5e83cd6965"],
+            //1333
+            ["translation_id" => "9953e9aa-7199-4ad0-b5ff-7bcdd41ba5ba", "translatable_type" => "App\Models\Description", "translatable_id" => "5503c034-e1ef-40ca-9e66-5cfb907cfc56"],
+            ["translation_id" => "0d4768d6-598f-4232-a0fd-19fb4c665702", "translatable_type" => "App\Models\Description", "translatable_id" => "5503c034-e1ef-40ca-9e66-5cfb907cfc56"],
+            ["translation_id" => "75a34d44-a324-4b6a-a4e3-e8ffd325c757", "translatable_type" => "App\Models\Description", "translatable_id" => "5503c034-e1ef-40ca-9e66-5cfb907cfc56"],
+            //1334
+            ["translation_id" => "4ee1c9ba-7024-4237-acf8-22f3b4958a2d", "translatable_type" => "App\Models\Description", "translatable_id" => "7b2d7934-4bd1-42e9-9f7d-3a177f7130c5"],
+            ["translation_id" => "3be8077e-5300-4b8d-8a35-6c69f6e84aaa", "translatable_type" => "App\Models\Description", "translatable_id" => "7b2d7934-4bd1-42e9-9f7d-3a177f7130c5"],
+            ["translation_id" => "a7276503-688b-4230-b1cd-f62f5eb535fd", "translatable_type" => "App\Models\Description", "translatable_id" => "7b2d7934-4bd1-42e9-9f7d-3a177f7130c5"],
+            //1335
+            ["translation_id" => "9902bdd6-ca01-493b-95a0-45599da90380", "translatable_type" => "App\Models\Description", "translatable_id" => "12d72a6d-f36b-47e9-adff-9cdc9c758a24"],
+            ["translation_id" => "84dd571e-580d-448f-9b43-0ef666d0c46d", "translatable_type" => "App\Models\Description", "translatable_id" => "12d72a6d-f36b-47e9-adff-9cdc9c758a24"],
+            ["translation_id" => "27b76818-337d-44e8-8c53-ec961f549b36", "translatable_type" => "App\Models\Description", "translatable_id" => "12d72a6d-f36b-47e9-adff-9cdc9c758a24"],
+            //1336
+            ["translation_id" => "02f2c7f3-482e-4a53-bb5a-4a641c91d050", "translatable_type" => "App\Models\Description", "translatable_id" => "3afe55fc-19a4-4fa3-b661-c4104858f56c"],
+            ["translation_id" => "a1303b3f-50df-4a92-a3ea-04255b048eee", "translatable_type" => "App\Models\Description", "translatable_id" => "3afe55fc-19a4-4fa3-b661-c4104858f56c"],
+            ["translation_id" => "69831354-2da8-41ac-84c9-51a6edc113f4", "translatable_type" => "App\Models\Description", "translatable_id" => "3afe55fc-19a4-4fa3-b661-c4104858f56c"],
+            //1337
+            ["translation_id" => "3e51be57-0a99-4b21-830a-a67b5083f711", "translatable_type" => "App\Models\Description", "translatable_id" => "d59b86fc-e450-4606-9fbe-ec9cf6a2b471"],
+            ["translation_id" => "1a8af253-09a2-4519-9f57-10801f003dc6", "translatable_type" => "App\Models\Description", "translatable_id" => "d59b86fc-e450-4606-9fbe-ec9cf6a2b471"],
+            ["translation_id" => "d1ecdd4e-e6e7-4912-a65d-c1c3a8f2bc15", "translatable_type" => "App\Models\Description", "translatable_id" => "d59b86fc-e450-4606-9fbe-ec9cf6a2b471"],
+            //1338
+            ["translation_id" => "bf0f2582-cd9f-44ed-bd32-8488ffdfadd2", "translatable_type" => "App\Models\Description", "translatable_id" => "bb7fa6e4-ff31-4a04-8e94-13b8d3262c67"],
+            ["translation_id" => "46171bae-dbf7-4ba3-a9ca-97190e8de06e", "translatable_type" => "App\Models\Description", "translatable_id" => "bb7fa6e4-ff31-4a04-8e94-13b8d3262c67"],
+            ["translation_id" => "6daee810-2121-4d69-a76f-f88a873e98ed", "translatable_type" => "App\Models\Description", "translatable_id" => "bb7fa6e4-ff31-4a04-8e94-13b8d3262c67"],
+            //1339
+            ["translation_id" => "13e4544f-773f-466b-9c68-b6986ba5f280", "translatable_type" => "App\Models\Description", "translatable_id" => "adb6b11f-69dc-4a44-935b-fa35ca783388"],
+            ["translation_id" => "08f9d50a-94a5-40d0-b05c-cb0d5fce0508", "translatable_type" => "App\Models\Description", "translatable_id" => "adb6b11f-69dc-4a44-935b-fa35ca783388"],
+            ["translation_id" => "1281cfa1-96ad-4bf1-8755-b9fd53f22071", "translatable_type" => "App\Models\Description", "translatable_id" => "adb6b11f-69dc-4a44-935b-fa35ca783388"],
+            //1340
+            ["translation_id" => "01bc9e95-877b-450f-9628-a65a5e90d00d", "translatable_type" => "App\Models\Description", "translatable_id" => "f8e91192-0731-4de1-83e4-1fa659f8f922"],
+            ["translation_id" => "8df0fdff-4203-40c3-b5da-d95c9d1fd3d7", "translatable_type" => "App\Models\Description", "translatable_id" => "f8e91192-0731-4de1-83e4-1fa659f8f922"],
+            ["translation_id" => "c9a3ca71-b862-4dd6-b9b4-bb24a7394d46", "translatable_type" => "App\Models\Description", "translatable_id" => "f8e91192-0731-4de1-83e4-1fa659f8f922"],
+            //1341
+            ["translation_id" => "ecf3086b-5fce-459a-ac3e-324eedd1b76a", "translatable_type" => "App\Models\Description", "translatable_id" => "cc5c384a-9961-432d-b3ec-a044aae3dcd8"],
+            ["translation_id" => "87eef2b5-4714-4ecf-b36e-2adf6622ef6e", "translatable_type" => "App\Models\Description", "translatable_id" => "cc5c384a-9961-432d-b3ec-a044aae3dcd8"],
+            ["translation_id" => "24d7205a-52c1-4aff-97c2-0e7f96661803", "translatable_type" => "App\Models\Description", "translatable_id" => "cc5c384a-9961-432d-b3ec-a044aae3dcd8"],
+            //1342
+            ["translation_id" => "c1d59c53-20bf-4bde-ad80-1aeb39523416", "translatable_type" => "App\Models\Description", "translatable_id" => "c313643b-5b7c-45c4-a9c5-77acde6bfd0b"],
+            ["translation_id" => "5a452b65-0bd2-45a8-b7e2-e772eedaa863", "translatable_type" => "App\Models\Description", "translatable_id" => "c313643b-5b7c-45c4-a9c5-77acde6bfd0b"],
+            ["translation_id" => "f3e2aec0-a21f-4224-9e8a-6bbe6141ff8b", "translatable_type" => "App\Models\Description", "translatable_id" => "c313643b-5b7c-45c4-a9c5-77acde6bfd0b"],
+            //1343
+            ["translation_id" => "a0a8bdbd-427f-4f7f-9cf0-858764f4bb34", "translatable_type" => "App\Models\Description", "translatable_id" => "cd8b8d4d-5264-445d-b9f9-b4d4d5f0332b"],
+            ["translation_id" => "c79ce8dd-9d53-4a96-9011-5937980fba66", "translatable_type" => "App\Models\Description", "translatable_id" => "cd8b8d4d-5264-445d-b9f9-b4d4d5f0332b"],
+            ["translation_id" => "7ee3a8e4-5771-41b9-8783-73c2384c6814", "translatable_type" => "App\Models\Description", "translatable_id" => "cd8b8d4d-5264-445d-b9f9-b4d4d5f0332b"],
+            //1344
+            ["translation_id" => "07d26af1-5c13-4e70-88d9-39aaacb3f75a", "translatable_type" => "App\Models\Description", "translatable_id" => "f25466fc-9355-45cd-891e-669d591ca9cf"],
+            ["translation_id" => "ee37198e-e5ba-4986-8812-7088652d2818", "translatable_type" => "App\Models\Description", "translatable_id" => "f25466fc-9355-45cd-891e-669d591ca9cf"],
+            ["translation_id" => "c6acab9f-9086-4507-a2da-bd64c9d82e34", "translatable_type" => "App\Models\Description", "translatable_id" => "f25466fc-9355-45cd-891e-669d591ca9cf"],
+            //1345
+            ["translation_id" => "3940a327-93ac-468d-bbd3-5be38dc85a83", "translatable_type" => "App\Models\Description", "translatable_id" => "8b3f44e3-090b-4caf-ad55-007a515f7af7"],
+            ["translation_id" => "89793568-ec37-4d60-98d3-e108ddcfbe34", "translatable_type" => "App\Models\Description", "translatable_id" => "8b3f44e3-090b-4caf-ad55-007a515f7af7"],
+            ["translation_id" => "ecb16a98-5309-48b2-b9cc-9b9239ba2862", "translatable_type" => "App\Models\Description", "translatable_id" => "8b3f44e3-090b-4caf-ad55-007a515f7af7"],
+            //1346
+            ["translation_id" => "dfba4092-96fc-4353-9081-4a541350520c", "translatable_type" => "App\Models\Description", "translatable_id" => "ea6e2ad7-63d4-457e-bac3-8ee17b5cab98"],
+            ["translation_id" => "5a4169c6-14f1-4c04-8735-2b8b6fc0fd3e", "translatable_type" => "App\Models\Description", "translatable_id" => "ea6e2ad7-63d4-457e-bac3-8ee17b5cab98"],
+            ["translation_id" => "f685238c-d288-49bc-a777-e76bd1d821ae", "translatable_type" => "App\Models\Description", "translatable_id" => "ea6e2ad7-63d4-457e-bac3-8ee17b5cab98"],
+            //1347
+            ["translation_id" => "4a056436-4707-4767-b427-63098f232aaf", "translatable_type" => "App\Models\Description", "translatable_id" => "040b2404-38f7-4be9-8ccc-cb819305c51c"],
+            ["translation_id" => "9da489a0-0c5e-499e-80d9-9e6511ab337b", "translatable_type" => "App\Models\Description", "translatable_id" => "040b2404-38f7-4be9-8ccc-cb819305c51c"],
+            ["translation_id" => "8086ddda-5222-46d2-9480-ec0a78342ff7", "translatable_type" => "App\Models\Description", "translatable_id" => "040b2404-38f7-4be9-8ccc-cb819305c51c"],
+            //1348
+            ["translation_id" => "31b66c69-eeec-4fff-a687-385da1bc5742", "translatable_type" => "App\Models\Description", "translatable_id" => "78b45afc-45ee-44ff-8848-b6308f2e61a2"],
+            ["translation_id" => "556f168e-2260-4732-9f5b-f6b42943b5d2", "translatable_type" => "App\Models\Description", "translatable_id" => "78b45afc-45ee-44ff-8848-b6308f2e61a2"],
+            ["translation_id" => "a825d707-3e84-41b6-989e-019c0ab39273", "translatable_type" => "App\Models\Description", "translatable_id" => "78b45afc-45ee-44ff-8848-b6308f2e61a2"],
+            //1349
+            ["translation_id" => "2b76dd21-3c75-482e-bac1-425a8dd0da2b", "translatable_type" => "App\Models\Description", "translatable_id" => "a5a07304-69ef-4835-ad17-22aa83836322"],
+            ["translation_id" => "1c9c5b37-db0b-4b1e-9217-a3597aeba6b4", "translatable_type" => "App\Models\Description", "translatable_id" => "a5a07304-69ef-4835-ad17-22aa83836322"],
+            ["translation_id" => "0286abf6-c145-4575-b09c-058fb2c62d99", "translatable_type" => "App\Models\Description", "translatable_id" => "a5a07304-69ef-4835-ad17-22aa83836322"],
+            //1350
+            ["translation_id" => "7ece69d3-fe0a-43c7-b02b-aae9c919557b", "translatable_type" => "App\Models\Description", "translatable_id" => "f098c1d6-257b-4723-be30-405aad96c8f5"],
+            ["translation_id" => "42b88687-d030-4abd-b946-7394f85279b1", "translatable_type" => "App\Models\Description", "translatable_id" => "f098c1d6-257b-4723-be30-405aad96c8f5"],
+            ["translation_id" => "d4c2f1c5-b43f-4e10-b25f-7a3e6861afc4", "translatable_type" => "App\Models\Description", "translatable_id" => "f098c1d6-257b-4723-be30-405aad96c8f5"],
+            //1351
+            ["translation_id" => "fc008159-bd22-4cc3-ba29-287267378c0f", "translatable_type" => "App\Models\Description", "translatable_id" => "4a567c02-c4c3-48c7-ae42-81bed5539e80"],
+            ["translation_id" => "71c2242d-4709-4a83-b0e7-2ae8ed4554c5", "translatable_type" => "App\Models\Description", "translatable_id" => "4a567c02-c4c3-48c7-ae42-81bed5539e80"],
+            ["translation_id" => "0ece2c9c-a727-471c-89e7-c2fe08d1ba2b", "translatable_type" => "App\Models\Description", "translatable_id" => "4a567c02-c4c3-48c7-ae42-81bed5539e80"],
+            //1352
+            ["translation_id" => "98001afd-0588-4399-8b52-b6b332d2d717", "translatable_type" => "App\Models\Description", "translatable_id" => "5ceea3ba-3585-46bb-9bc1-58e5f9338111"],
+            ["translation_id" => "12d16d02-7f2c-470e-ab0c-f9033da4c992", "translatable_type" => "App\Models\Description", "translatable_id" => "5ceea3ba-3585-46bb-9bc1-58e5f9338111"],
+            ["translation_id" => "7f42841e-d5ef-4703-a32f-036c89c96677", "translatable_type" => "App\Models\Description", "translatable_id" => "5ceea3ba-3585-46bb-9bc1-58e5f9338111"],
+            //1353
+            ["translation_id" => "d4752786-863c-4dfb-bc44-a9ec81ba89c5", "translatable_type" => "App\Models\Description", "translatable_id" => "5289fc45-b682-427f-9270-76fa84a27aa0"],
+            ["translation_id" => "831603ca-6030-41af-b5d4-a0c8b5a90417", "translatable_type" => "App\Models\Description", "translatable_id" => "5289fc45-b682-427f-9270-76fa84a27aa0"],
+            ["translation_id" => "0714b518-5672-4876-b2c1-0413f1c0a39c", "translatable_type" => "App\Models\Description", "translatable_id" => "5289fc45-b682-427f-9270-76fa84a27aa0"],
+            //1354
+            ["translation_id" => "3bfede96-325b-4ff5-8776-8c677c4d45fd", "translatable_type" => "App\Models\Description", "translatable_id" => "4ac573eb-1945-4b23-9dc0-25f3993eed04"],
+            ["translation_id" => "01907882-b97a-4ec4-8196-d49f4f787166", "translatable_type" => "App\Models\Description", "translatable_id" => "4ac573eb-1945-4b23-9dc0-25f3993eed04"],
+            ["translation_id" => "e2e02ce4-9d45-417b-ade1-f7b0f41fe151", "translatable_type" => "App\Models\Description", "translatable_id" => "4ac573eb-1945-4b23-9dc0-25f3993eed04"],
+            //1355
+            ["translation_id" => "83450ade-5fba-475b-83aa-feb724f7596a", "translatable_type" => "App\Models\Description", "translatable_id" => "63b257d6-52ae-439e-9e7c-a40bc8533797"],
+            ["translation_id" => "1a9b9730-b7fd-4d9c-808c-cb90e2811c53", "translatable_type" => "App\Models\Description", "translatable_id" => "63b257d6-52ae-439e-9e7c-a40bc8533797"],
+            ["translation_id" => "18c301e5-17e4-423d-871e-0addde2a331d", "translatable_type" => "App\Models\Description", "translatable_id" => "63b257d6-52ae-439e-9e7c-a40bc8533797"],
+            //1356
+            ["translation_id" => "6afd4f00-6f9f-4916-809a-653f60ed8f40", "translatable_type" => "App\Models\Description", "translatable_id" => "13bc97ee-6953-4248-9d65-fe99abc637c0"],
+            ["translation_id" => "f475371b-c9aa-4e43-9a06-463e99f60a65", "translatable_type" => "App\Models\Description", "translatable_id" => "13bc97ee-6953-4248-9d65-fe99abc637c0"],
+            ["translation_id" => "ff468af8-2989-43c6-bf1d-a020311f30e0", "translatable_type" => "App\Models\Description", "translatable_id" => "13bc97ee-6953-4248-9d65-fe99abc637c0"],
+            //1357
+            ["translation_id" => "03cdf022-0879-49ca-b712-e273fccbaadb", "translatable_type" => "App\Models\Description", "translatable_id" => "c425fe97-0557-4a1a-8239-7c5b85dbc165"],
+            ["translation_id" => "d2d5c77c-aec0-442a-853f-7f0270d39494", "translatable_type" => "App\Models\Description", "translatable_id" => "c425fe97-0557-4a1a-8239-7c5b85dbc165"],
+            ["translation_id" => "4772fd92-af7b-4c30-884d-661ca0f173e2", "translatable_type" => "App\Models\Description", "translatable_id" => "c425fe97-0557-4a1a-8239-7c5b85dbc165"],
+            //1358
+            ["translation_id" => "cc6b8889-f574-4d8d-b0a8-a66d2e2d1f30", "translatable_type" => "App\Models\Description", "translatable_id" => "67de2e05-5eb0-4aff-b3f2-c41b41ba7ec8"],
+            ["translation_id" => "26f6cebe-0827-4ce8-98c2-c65feee20bb4", "translatable_type" => "App\Models\Description", "translatable_id" => "67de2e05-5eb0-4aff-b3f2-c41b41ba7ec8"],
+            ["translation_id" => "33c58410-1ef0-44e0-a69d-aa1a5ec6c499", "translatable_type" => "App\Models\Description", "translatable_id" => "67de2e05-5eb0-4aff-b3f2-c41b41ba7ec8"],
+            //1359
+            ["translation_id" => "0ff5931a-2b18-4e35-bbbd-780ffa07bdb4", "translatable_type" => "App\Models\Description", "translatable_id" => "0f1f85d3-9603-42ee-8117-516f7ecef4e1"],
+            ["translation_id" => "e5712faa-3879-42e3-a5ab-e97c686fdc67", "translatable_type" => "App\Models\Description", "translatable_id" => "0f1f85d3-9603-42ee-8117-516f7ecef4e1"],
+            ["translation_id" => "6f2bb50e-db8a-4c8e-b631-ff52137dd05e", "translatable_type" => "App\Models\Description", "translatable_id" => "0f1f85d3-9603-42ee-8117-516f7ecef4e1"],
+            //1360
+            ["translation_id" => "7ea39e76-2fab-42e4-8bdb-1bcd4ae20ed3", "translatable_type" => "App\Models\Description", "translatable_id" => "df2c1698-1e20-42c6-a01b-41499dacd5ba"],
+            ["translation_id" => "b4b2e8d7-e65d-4f3a-b52e-00acac812b54", "translatable_type" => "App\Models\Description", "translatable_id" => "df2c1698-1e20-42c6-a01b-41499dacd5ba"],
+            ["translation_id" => "97bb833d-c26b-41fd-8de7-06dca4312966", "translatable_type" => "App\Models\Description", "translatable_id" => "df2c1698-1e20-42c6-a01b-41499dacd5ba"],
+            //1361
+            ["translation_id" => "3bb79687-70fd-4810-87a2-ebd93ba80291", "translatable_type" => "App\Models\Description", "translatable_id" => "c78954f3-ceb4-4cd7-ba6c-4c49795cabc3"],
+            ["translation_id" => "24b473d9-66ce-4063-a4ac-5bee676c1909", "translatable_type" => "App\Models\Description", "translatable_id" => "c78954f3-ceb4-4cd7-ba6c-4c49795cabc3"],
+            ["translation_id" => "311727c5-c135-4217-9bd6-0357d24d1aa1", "translatable_type" => "App\Models\Description", "translatable_id" => "c78954f3-ceb4-4cd7-ba6c-4c49795cabc3"],
+            //1362
+            ["translation_id" => "005cacc7-7b27-43df-bc94-ddde340d5643", "translatable_type" => "App\Models\Description", "translatable_id" => "f8de6ffd-21c0-435d-9a5b-7d269e1c2fdf"],
+            ["translation_id" => "39be31ea-5c81-43ea-bb68-060a6d0d7006", "translatable_type" => "App\Models\Description", "translatable_id" => "f8de6ffd-21c0-435d-9a5b-7d269e1c2fdf"],
+            ["translation_id" => "9f2071d3-e425-4d49-a3c5-ce08a1a73bd9", "translatable_type" => "App\Models\Description", "translatable_id" => "f8de6ffd-21c0-435d-9a5b-7d269e1c2fdf"],
+            //1363
+            ["translation_id" => "d355fa83-11f7-4cca-9b70-7bc0a2ab2bfa", "translatable_type" => "App\Models\Description", "translatable_id" => "5eea101b-cdd2-4988-9298-43ffcc4d9cf1"],
+            ["translation_id" => "0b088124-2d67-4c8b-b906-c11106208b65", "translatable_type" => "App\Models\Description", "translatable_id" => "5eea101b-cdd2-4988-9298-43ffcc4d9cf1"],
+            ["translation_id" => "fc0be7b3-a6fc-4087-8f65-8da1380471af", "translatable_type" => "App\Models\Description", "translatable_id" => "5eea101b-cdd2-4988-9298-43ffcc4d9cf1"],
+            //1364
+            ["translation_id" => "15073f9a-3030-4328-be31-86a5decc78cc", "translatable_type" => "App\Models\Description", "translatable_id" => "d9a4bb0b-3164-4396-adb5-433a0255fa27"],
+            ["translation_id" => "a9a3f70f-c04b-4874-999f-da5785352b64", "translatable_type" => "App\Models\Description", "translatable_id" => "d9a4bb0b-3164-4396-adb5-433a0255fa27"],
+            ["translation_id" => "25a2a075-9321-459f-a673-d609b497cc84", "translatable_type" => "App\Models\Description", "translatable_id" => "d9a4bb0b-3164-4396-adb5-433a0255fa27"],
+            //1365
+            ["translation_id" => "c9b568e1-09e9-4f6a-878d-7093c020a90b", "translatable_type" => "App\Models\Description", "translatable_id" => "9c264ab3-e827-4bad-950b-fc796f525d9e"],
+            ["translation_id" => "fb9be542-d42e-4e76-81f5-9681c69d82bd", "translatable_type" => "App\Models\Description", "translatable_id" => "9c264ab3-e827-4bad-950b-fc796f525d9e"],
+            ["translation_id" => "db46e2bf-e833-4e24-9f6a-dabac29f8fb4", "translatable_type" => "App\Models\Description", "translatable_id" => "9c264ab3-e827-4bad-950b-fc796f525d9e"],
+            //1366
+            ["translation_id" => "0885f9b2-6024-4e3c-bd58-2b01230dee74", "translatable_type" => "App\Models\Description", "translatable_id" => "e216e3b4-b91f-4874-9bc0-6ee47ce6cb9c"],
+            ["translation_id" => "21ec7274-a99f-4a09-b277-cd89aca12b0c", "translatable_type" => "App\Models\Description", "translatable_id" => "e216e3b4-b91f-4874-9bc0-6ee47ce6cb9c"],
+            ["translation_id" => "6a7c8218-d920-461e-a36f-7f5c55ba009f", "translatable_type" => "App\Models\Description", "translatable_id" => "e216e3b4-b91f-4874-9bc0-6ee47ce6cb9c"],
+            //1367
+            ["translation_id" => "677f06ca-3c8e-4723-8633-da54bbc79e8f", "translatable_type" => "App\Models\Description", "translatable_id" => "9e0ab2be-a734-4dbb-bbbe-15cc87bad3a4"],
+            ["translation_id" => "2d88662e-21d2-4f38-aafc-d006041d37fc", "translatable_type" => "App\Models\Description", "translatable_id" => "9e0ab2be-a734-4dbb-bbbe-15cc87bad3a4"],
+            ["translation_id" => "6e46b1fd-5a17-414c-a3be-2842ebb55556", "translatable_type" => "App\Models\Description", "translatable_id" => "9e0ab2be-a734-4dbb-bbbe-15cc87bad3a4"],
+            //1368
+            ["translation_id" => "5346d063-89ef-47ee-9b31-e1f2586eafd9", "translatable_type" => "App\Models\Description", "translatable_id" => "051a6e0a-d859-4e4f-ac0e-d428d51f0e69"],
+            ["translation_id" => "66311bff-7b3e-4205-bfe6-f2675c4dc713", "translatable_type" => "App\Models\Description", "translatable_id" => "051a6e0a-d859-4e4f-ac0e-d428d51f0e69"],
+            ["translation_id" => "6700200e-5d7b-4eb4-816f-d19a49c29c52", "translatable_type" => "App\Models\Description", "translatable_id" => "051a6e0a-d859-4e4f-ac0e-d428d51f0e69"],
+            //1369
+            ["translation_id" => "70fcb970-29d9-45ae-af06-fc9e3159819b", "translatable_type" => "App\Models\Description", "translatable_id" => "afbeaa36-33f1-43a8-a799-0125155ee052"],
+            ["translation_id" => "dceeafb4-6233-4968-a4ea-2c5cd311b076", "translatable_type" => "App\Models\Description", "translatable_id" => "afbeaa36-33f1-43a8-a799-0125155ee052"],
+            ["translation_id" => "7778986e-0e59-4036-bbdf-f2c7c2fa1d5a", "translatable_type" => "App\Models\Description", "translatable_id" => "afbeaa36-33f1-43a8-a799-0125155ee052"],
+            //1370
+            ["translation_id" => "76d4e7b3-9c51-411d-80ae-c6d144037767", "translatable_type" => "App\Models\Description", "translatable_id" => "08ad5f65-db34-4df3-8fed-c559445e5644"],
+            ["translation_id" => "4faabe06-387a-4b27-b0f8-4451f7a0ef7a", "translatable_type" => "App\Models\Description", "translatable_id" => "08ad5f65-db34-4df3-8fed-c559445e5644"],
+            ["translation_id" => "5f3d4b6b-6e27-428b-8c10-5190f49fd09b", "translatable_type" => "App\Models\Description", "translatable_id" => "08ad5f65-db34-4df3-8fed-c559445e5644"],
+            //1371
+            ["translation_id" => "b86e5968-7b5f-47e0-b07b-aefc01af2e13", "translatable_type" => "App\Models\Description", "translatable_id" => "4a8066b9-e509-40e5-a3ba-3236c01bb18a"],
+            ["translation_id" => "724ad4d0-643b-42b3-aa6e-bd961bae890c", "translatable_type" => "App\Models\Description", "translatable_id" => "4a8066b9-e509-40e5-a3ba-3236c01bb18a"],
+            ["translation_id" => "d614a778-1983-4da5-875d-bdc5058455bb", "translatable_type" => "App\Models\Description", "translatable_id" => "4a8066b9-e509-40e5-a3ba-3236c01bb18a"],
+            //1372
+            ["translation_id" => "6c303400-d5ac-4c20-afcf-a31d5ded35f4", "translatable_type" => "App\Models\Description", "translatable_id" => "d159d3b4-a130-479d-8847-696c31e2a52d"],
+            ["translation_id" => "45321cd6-b39f-4a89-a384-bfbc9dadcd28", "translatable_type" => "App\Models\Description", "translatable_id" => "d159d3b4-a130-479d-8847-696c31e2a52d"],
+            ["translation_id" => "87cf5ac3-bc2d-4f25-a471-ea3aeb017bc8", "translatable_type" => "App\Models\Description", "translatable_id" => "d159d3b4-a130-479d-8847-696c31e2a52d"],
+            //1373
+            ["translation_id" => "91f073b9-74ae-4199-8ba3-a38637b53960", "translatable_type" => "App\Models\Description", "translatable_id" => "8a941c0c-0ba0-4737-88c6-d4ca71fe50cd"],
+            ["translation_id" => "806cb042-6971-4b5e-96ab-f3ce528e3c99", "translatable_type" => "App\Models\Description", "translatable_id" => "8a941c0c-0ba0-4737-88c6-d4ca71fe50cd"],
+            ["translation_id" => "724029cd-9a43-48d2-af8c-026d4c6a1651", "translatable_type" => "App\Models\Description", "translatable_id" => "8a941c0c-0ba0-4737-88c6-d4ca71fe50cd"],
+            //1374
+            ["translation_id" => "1634c29e-0279-4653-b1c8-2dac25213cdf", "translatable_type" => "App\Models\Description", "translatable_id" => "b9c5887c-f832-45ea-a37f-ed2faebd57d0"],
+            ["translation_id" => "329ccc69-8508-4c9a-b1fb-1124fede854d", "translatable_type" => "App\Models\Description", "translatable_id" => "b9c5887c-f832-45ea-a37f-ed2faebd57d0"],
+            ["translation_id" => "a0ab28a4-3972-4846-8061-234d200e06c7", "translatable_type" => "App\Models\Description", "translatable_id" => "b9c5887c-f832-45ea-a37f-ed2faebd57d0"],
+            //1375
+            ["translation_id" => "aa754178-e68f-4e47-8c0e-3e41181c4f2a", "translatable_type" => "App\Models\Description", "translatable_id" => "23f16b2c-a73c-4b91-ac27-b5889901763d"],
+            ["translation_id" => "7b7a2859-a2a2-4cfe-a7b6-6dd97f695492", "translatable_type" => "App\Models\Description", "translatable_id" => "23f16b2c-a73c-4b91-ac27-b5889901763d"],
+            ["translation_id" => "c16350c3-f033-4b79-a306-1faa77c59850", "translatable_type" => "App\Models\Description", "translatable_id" => "23f16b2c-a73c-4b91-ac27-b5889901763d"],
+            //1376
+            ["translation_id" => "95a555af-4a99-4b0d-959f-60dfe17435f2", "translatable_type" => "App\Models\Description", "translatable_id" => "23c445a5-6709-4c7f-8287-53b30c6711c9"],
+            ["translation_id" => "de4d5885-eba0-4756-ae12-f23aa068a4ac", "translatable_type" => "App\Models\Description", "translatable_id" => "23c445a5-6709-4c7f-8287-53b30c6711c9"],
+            ["translation_id" => "eaea45c4-ddb5-431c-af0a-cf6e10f0733d", "translatable_type" => "App\Models\Description", "translatable_id" => "23c445a5-6709-4c7f-8287-53b30c6711c9"],
+            //1377
+            ["translation_id" => "a55d5bca-5802-4897-bf27-5583e506090a", "translatable_type" => "App\Models\Description", "translatable_id" => "5bf4a18c-50fe-4fdb-9c12-258ea85f032a"],
+            ["translation_id" => "b83cb910-410d-438c-bece-c78f400d836b", "translatable_type" => "App\Models\Description", "translatable_id" => "5bf4a18c-50fe-4fdb-9c12-258ea85f032a"],
+            ["translation_id" => "4bed7b43-bf16-4357-a50f-5ad05a406a90", "translatable_type" => "App\Models\Description", "translatable_id" => "5bf4a18c-50fe-4fdb-9c12-258ea85f032a"],
+            //1378
+            ["translation_id" => "2422aced-d7a4-4784-a393-ba6f33305726", "translatable_type" => "App\Models\Description", "translatable_id" => "14aa4949-c5b8-44d9-919f-96c785f34178"],
+            ["translation_id" => "27e8f979-dee1-4e62-a3ac-2d7afeab9c51", "translatable_type" => "App\Models\Description", "translatable_id" => "14aa4949-c5b8-44d9-919f-96c785f34178"],
+            ["translation_id" => "7158fbe4-bc76-47c3-ad06-05192d9a8b53", "translatable_type" => "App\Models\Description", "translatable_id" => "14aa4949-c5b8-44d9-919f-96c785f34178"],
+            //1379
+            ["translation_id" => "06c7b241-dc0e-4b24-bbcf-60a739953caf", "translatable_type" => "App\Models\Description", "translatable_id" => "1a5d8dbe-c5d3-4914-b435-b7d22cb79683"],
+            ["translation_id" => "6d4a9ba9-8188-4da3-b77d-510504f809db", "translatable_type" => "App\Models\Description", "translatable_id" => "1a5d8dbe-c5d3-4914-b435-b7d22cb79683"],
+            ["translation_id" => "2993fa90-d935-48e3-82e1-dafe2e8e5e4c", "translatable_type" => "App\Models\Description", "translatable_id" => "1a5d8dbe-c5d3-4914-b435-b7d22cb79683"],
+            //1380
+            ["translation_id" => "3cde807a-666b-49ba-a869-56a3fdf0277b", "translatable_type" => "App\Models\Description", "translatable_id" => "c90305c8-bd3a-4971-8b28-37d9e4223abe"],
+            ["translation_id" => "4ca92b38-f21e-4795-b192-c953f66f5376", "translatable_type" => "App\Models\Description", "translatable_id" => "c90305c8-bd3a-4971-8b28-37d9e4223abe"],
+            ["translation_id" => "d5bc2e58-d5ef-4419-b289-9ebcf8288e33", "translatable_type" => "App\Models\Description", "translatable_id" => "c90305c8-bd3a-4971-8b28-37d9e4223abe"],
+            //1381
+            ["translation_id" => "9e9e0088-96b6-49a4-8319-76b4d15e7049", "translatable_type" => "App\Models\Description", "translatable_id" => "5a19f4a2-01bb-47da-b974-a07de727010f"],
+            ["translation_id" => "954548b1-2d1b-4fd8-94aa-9a69832a2472", "translatable_type" => "App\Models\Description", "translatable_id" => "5a19f4a2-01bb-47da-b974-a07de727010f"],
+            ["translation_id" => "0fea4c12-65fe-4ed1-ad75-ec581d16dc36", "translatable_type" => "App\Models\Description", "translatable_id" => "5a19f4a2-01bb-47da-b974-a07de727010f"],
+            //1382
+            ["translation_id" => "4e03cd6a-7059-41ee-a798-dd2b70f421f9", "translatable_type" => "App\Models\Description", "translatable_id" => "55521bef-7af2-4707-bccf-97f46c4b85cf"],
+            ["translation_id" => "d7c0099b-1a08-495c-887e-89e5a4f9a256", "translatable_type" => "App\Models\Description", "translatable_id" => "55521bef-7af2-4707-bccf-97f46c4b85cf"],
+            ["translation_id" => "1215e5bc-2a9d-4912-a74c-cdc3b771372b", "translatable_type" => "App\Models\Description", "translatable_id" => "55521bef-7af2-4707-bccf-97f46c4b85cf"],
+            //1383
+            ["translation_id" => "4ea40555-4037-4b6d-82aa-530e18fd5e7f", "translatable_type" => "App\Models\Description", "translatable_id" => "565c2e8c-2d12-4993-bf75-2cc4645605ad"],
+            ["translation_id" => "ba067209-227d-4333-b98a-63713ed35438", "translatable_type" => "App\Models\Description", "translatable_id" => "565c2e8c-2d12-4993-bf75-2cc4645605ad"],
+            ["translation_id" => "81fe5c8d-b303-4a08-9fd5-95f6f93d895b", "translatable_type" => "App\Models\Description", "translatable_id" => "565c2e8c-2d12-4993-bf75-2cc4645605ad"],
+            //1384
+            ["translation_id" => "267d6aaf-406d-49a1-b1e1-001b0f213f01", "translatable_type" => "App\Models\Description", "translatable_id" => "45415cc5-cebb-4db8-8f06-d3e0e302835c"],
+            ["translation_id" => "25e6b5e5-6de4-4895-a224-4f05d295376f", "translatable_type" => "App\Models\Description", "translatable_id" => "45415cc5-cebb-4db8-8f06-d3e0e302835c"],
+            ["translation_id" => "40a5b650-7669-41ab-9958-90f68c292bad", "translatable_type" => "App\Models\Description", "translatable_id" => "45415cc5-cebb-4db8-8f06-d3e0e302835c"],
+            //1385
+            ["translation_id" => "0c22a51f-aa3e-44cf-918a-185c1277943d", "translatable_type" => "App\Models\Description", "translatable_id" => "5dbc891d-3d51-439e-8fce-007342e4de5a"],
+            ["translation_id" => "0bcef899-3163-472e-9b5b-50c84ddb6aae", "translatable_type" => "App\Models\Description", "translatable_id" => "5dbc891d-3d51-439e-8fce-007342e4de5a"],
+            ["translation_id" => "b294d7b7-3e4c-4d2a-92ea-00dfeb98e5d2", "translatable_type" => "App\Models\Description", "translatable_id" => "5dbc891d-3d51-439e-8fce-007342e4de5a"],
+            //1386
+            ["translation_id" => "a160c41e-517b-4a0b-982c-a4a23a4c2746", "translatable_type" => "App\Models\Description", "translatable_id" => "50faad1a-f37b-49f3-ae89-ad6df18c6dfa"],
+            ["translation_id" => "c092c25b-908d-4f77-ab42-9ae7c5a5e83b", "translatable_type" => "App\Models\Description", "translatable_id" => "50faad1a-f37b-49f3-ae89-ad6df18c6dfa"],
+            ["translation_id" => "d3e795ee-3b75-4c84-9038-e0d2da778d4f", "translatable_type" => "App\Models\Description", "translatable_id" => "50faad1a-f37b-49f3-ae89-ad6df18c6dfa"],
+            //1387
+            ["translation_id" => "f4d2f883-1c6a-448c-9881-a9cb6a1c66dd", "translatable_type" => "App\Models\Description", "translatable_id" => "aedc3c28-14d9-4812-9496-29a65b937ce5"],
+            ["translation_id" => "63ddcbd9-9308-4fcf-8268-130c08ba8a22", "translatable_type" => "App\Models\Description", "translatable_id" => "aedc3c28-14d9-4812-9496-29a65b937ce5"],
+            ["translation_id" => "d8e8d2ac-99d8-4b07-bab0-4e7069ef4a92", "translatable_type" => "App\Models\Description", "translatable_id" => "aedc3c28-14d9-4812-9496-29a65b937ce5"],
+            //1388
+            ["translation_id" => "390504b7-7a58-41db-a333-c03c6f3264cf", "translatable_type" => "App\Models\Description", "translatable_id" => "7e9a54de-ce56-4d16-92d2-daf1a48cbb53"],
+            ["translation_id" => "d44718de-a305-444f-9737-a0cfdbfd359b", "translatable_type" => "App\Models\Description", "translatable_id" => "7e9a54de-ce56-4d16-92d2-daf1a48cbb53"],
+            ["translation_id" => "e57e951e-99c6-4ae4-a3f6-b0058cd95a6a", "translatable_type" => "App\Models\Description", "translatable_id" => "7e9a54de-ce56-4d16-92d2-daf1a48cbb53"],
+            //1389
+            ["translation_id" => "66aaddd6-2180-4ff6-b2c0-4602f7a7541a", "translatable_type" => "App\Models\Description", "translatable_id" => "a4c45a47-eaaa-440d-9fb3-e47482b82455"],
+            ["translation_id" => "28d9cc18-de77-462d-abdc-47a1b6771c4a", "translatable_type" => "App\Models\Description", "translatable_id" => "a4c45a47-eaaa-440d-9fb3-e47482b82455"],
+            ["translation_id" => "18e3f64b-33f3-4778-a8f9-08c7a6dc2ced", "translatable_type" => "App\Models\Description", "translatable_id" => "a4c45a47-eaaa-440d-9fb3-e47482b82455"],
+            //1390
+            ["translation_id" => "2cf4efbd-a498-442a-aa18-f2ce291071d6", "translatable_type" => "App\Models\Description", "translatable_id" => "13d0f40c-d3c9-47b8-9c4b-6c619348e764"],
+            ["translation_id" => "2158742c-2bf4-4b6f-a389-c4ba9cc9559d", "translatable_type" => "App\Models\Description", "translatable_id" => "13d0f40c-d3c9-47b8-9c4b-6c619348e764"],
+            ["translation_id" => "9e62932d-a620-4176-8e84-183d7526f6ec", "translatable_type" => "App\Models\Description", "translatable_id" => "13d0f40c-d3c9-47b8-9c4b-6c619348e764"],
+            //1391
+            ["translation_id" => "c6a5748b-2adf-4712-93fc-ab67e0daa501", "translatable_type" => "App\Models\Description", "translatable_id" => "7fdaff22-5143-4b63-82af-78a5b4cba34f"],
+            ["translation_id" => "ac59c8df-f126-44d3-b927-515de419134f", "translatable_type" => "App\Models\Description", "translatable_id" => "7fdaff22-5143-4b63-82af-78a5b4cba34f"],
+            ["translation_id" => "831b8866-3e6b-4f03-8b7a-aa2c8b71f203", "translatable_type" => "App\Models\Description", "translatable_id" => "7fdaff22-5143-4b63-82af-78a5b4cba34f"],
+            //1392
+            ["translation_id" => "b6ec56d3-b2d5-47ed-abdb-9387e158f418", "translatable_type" => "App\Models\Description", "translatable_id" => "c836e5e4-b5fd-454b-8e07-291fdd990809"],
+            ["translation_id" => "f303ebe4-6eac-4339-bf88-9a3ac08ef483", "translatable_type" => "App\Models\Description", "translatable_id" => "c836e5e4-b5fd-454b-8e07-291fdd990809"],
+            ["translation_id" => "39b6fa58-ad4f-48f6-b60c-7ab1e05c50fb", "translatable_type" => "App\Models\Description", "translatable_id" => "c836e5e4-b5fd-454b-8e07-291fdd990809"],
+            //1393
+            ["translation_id" => "c63a9f1e-7936-4eb6-a836-f1ea38006da7", "translatable_type" => "App\Models\Description", "translatable_id" => "cd97f4da-7479-479c-9cf5-bf2640e7df2a"],
+            ["translation_id" => "45941346-60d5-4e35-8aca-24bcd08db006", "translatable_type" => "App\Models\Description", "translatable_id" => "cd97f4da-7479-479c-9cf5-bf2640e7df2a"],
+            ["translation_id" => "bb67c0fe-7975-4814-8ecd-8fad26498539", "translatable_type" => "App\Models\Description", "translatable_id" => "cd97f4da-7479-479c-9cf5-bf2640e7df2a"],
+            //1394
+            ["translation_id" => "98e7bb08-b240-47a5-b7a3-8ad24d315af3", "translatable_type" => "App\Models\Description", "translatable_id" => "d09c9d94-b3af-4aa7-a739-3ffad05d3600"],
+            ["translation_id" => "c70ae97d-311f-48f5-90e7-76b86c298047", "translatable_type" => "App\Models\Description", "translatable_id" => "d09c9d94-b3af-4aa7-a739-3ffad05d3600"],
+            ["translation_id" => "83c4e0eb-1d3e-4ec2-b591-cc0e9fcc9e1c", "translatable_type" => "App\Models\Description", "translatable_id" => "d09c9d94-b3af-4aa7-a739-3ffad05d3600"],
+            //1395
+            ["translation_id" => "4c693bd1-0b2a-4068-9d84-445e527054db", "translatable_type" => "App\Models\Description", "translatable_id" => "def5b8f1-ac42-4210-bcab-3de414eebfd0"],
+            ["translation_id" => "71960b9a-881c-462b-8eb2-5c3aaef3aeb3", "translatable_type" => "App\Models\Description", "translatable_id" => "def5b8f1-ac42-4210-bcab-3de414eebfd0"],
+            ["translation_id" => "adea0ee0-b05f-4356-ace7-ce21deac532f", "translatable_type" => "App\Models\Description", "translatable_id" => "def5b8f1-ac42-4210-bcab-3de414eebfd0"],
+            //1396
+            ["translation_id" => "3f3f31f7-aae2-4deb-97be-b298384e79e6", "translatable_type" => "App\Models\Description", "translatable_id" => "3a6dfbd5-aeb7-4086-be7f-92bea6c2d14b"],
+            ["translation_id" => "7a3fc671-0f7a-4f17-b964-645c6b63a163", "translatable_type" => "App\Models\Description", "translatable_id" => "3a6dfbd5-aeb7-4086-be7f-92bea6c2d14b"],
+            ["translation_id" => "2b0fb2fb-e64a-4007-ac8d-f4b9a70a7dc0", "translatable_type" => "App\Models\Description", "translatable_id" => "3a6dfbd5-aeb7-4086-be7f-92bea6c2d14b"],
+            //1397
+            ["translation_id" => "75db8704-64fd-4b61-9c9d-9d7a51e214e2", "translatable_type" => "App\Models\Description", "translatable_id" => "c938a5eb-9c6c-4ed6-8bea-39ce27fdb0d7"],
+            ["translation_id" => "35779fbb-b9bc-44a2-a7a6-53134529e12d", "translatable_type" => "App\Models\Description", "translatable_id" => "c938a5eb-9c6c-4ed6-8bea-39ce27fdb0d7"],
+            ["translation_id" => "ac8dfb13-2fc4-419e-9b59-a7fba051f3c8", "translatable_type" => "App\Models\Description", "translatable_id" => "c938a5eb-9c6c-4ed6-8bea-39ce27fdb0d7"],
+            //1398
+            ["translation_id" => "e75c69ae-3353-436d-93c2-6c0677be3b2d", "translatable_type" => "App\Models\Description", "translatable_id" => "bb8a3fb2-8706-4cbd-8adc-66ea4fc9df31"],
+            ["translation_id" => "dcabfffd-c342-4baa-8760-410682e03ede", "translatable_type" => "App\Models\Description", "translatable_id" => "bb8a3fb2-8706-4cbd-8adc-66ea4fc9df31"],
+            ["translation_id" => "9299e733-333c-4dbb-9ead-bf0f5450d1db", "translatable_type" => "App\Models\Description", "translatable_id" => "bb8a3fb2-8706-4cbd-8adc-66ea4fc9df31"],
+            //1399
+            ["translation_id" => "52c0d931-5a7e-478a-9d9e-d542602ac106", "translatable_type" => "App\Models\Description", "translatable_id" => "444e6c39-97e2-4d63-99b8-dd7616b0dbd4"],
+            ["translation_id" => "17174abe-7f3e-46e2-a272-6314d124a090", "translatable_type" => "App\Models\Description", "translatable_id" => "444e6c39-97e2-4d63-99b8-dd7616b0dbd4"],
+            ["translation_id" => "526ccac1-f71e-4d84-9ab6-f75c1b00c75f", "translatable_type" => "App\Models\Description", "translatable_id" => "444e6c39-97e2-4d63-99b8-dd7616b0dbd4"],
+            //1400
+            ["translation_id" => "cae9ed30-b17f-47c5-a335-1e8f5ab4e104", "translatable_type" => "App\Models\Description", "translatable_id" => "49ce3a05-5a3b-4b6b-b5de-3f50374b04ef"],
+            ["translation_id" => "0ae3bc8f-46f5-4bf2-9fdb-afe548fee5bc", "translatable_type" => "App\Models\Description", "translatable_id" => "49ce3a05-5a3b-4b6b-b5de-3f50374b04ef"],
+            ["translation_id" => "1bfb2202-c66a-4679-a35d-153b4b008463", "translatable_type" => "App\Models\Description", "translatable_id" => "49ce3a05-5a3b-4b6b-b5de-3f50374b04ef"],
+            //1401
+            ["translation_id" => "06bde67d-81b1-4c92-b84f-ec7a588c127c", "translatable_type" => "App\Models\Description", "translatable_id" => "90857f22-883a-486f-8c98-674b0e0370ec"],
+            ["translation_id" => "55f0e0e5-89ee-4e5c-95c3-301d78e98de0", "translatable_type" => "App\Models\Description", "translatable_id" => "90857f22-883a-486f-8c98-674b0e0370ec"],
+            ["translation_id" => "47559dc7-6714-41f8-8d9b-26f5afef89dc", "translatable_type" => "App\Models\Description", "translatable_id" => "90857f22-883a-486f-8c98-674b0e0370ec"],
+            //1402
+            ["translation_id" => "c6bd66b0-811a-4165-902e-6bb81ef9d4d1", "translatable_type" => "App\Models\Description", "translatable_id" => "e15c5866-1486-4724-8d19-9a7862201dbb"],
+            ["translation_id" => "70e8053b-06b8-4083-abc9-8660ed7c39a2", "translatable_type" => "App\Models\Description", "translatable_id" => "e15c5866-1486-4724-8d19-9a7862201dbb"],
+            ["translation_id" => "ce8ca735-b7ba-401a-bc27-acab748984cb", "translatable_type" => "App\Models\Description", "translatable_id" => "e15c5866-1486-4724-8d19-9a7862201dbb"],
+            //1403
+            ["translation_id" => "02500d5b-892b-4927-b4c0-cc0fa401555f", "translatable_type" => "App\Models\Description", "translatable_id" => "58c666bc-7ce6-4227-9150-a37487f2f218"],
+            ["translation_id" => "b053c91f-f3e1-40ef-846b-a5b351c1007d", "translatable_type" => "App\Models\Description", "translatable_id" => "58c666bc-7ce6-4227-9150-a37487f2f218"],
+            ["translation_id" => "7cbbf3d2-b2af-4514-8889-97196e541558", "translatable_type" => "App\Models\Description", "translatable_id" => "58c666bc-7ce6-4227-9150-a37487f2f218"],
+            //1404
+            ["translation_id" => "fb62872a-b3a6-4dbe-90f3-a857e39ab9c6", "translatable_type" => "App\Models\Description", "translatable_id" => "26c5535c-6dca-4601-a934-5f68df047470"],
+            ["translation_id" => "035e7ec7-70b3-4113-b1dc-345f303786f1", "translatable_type" => "App\Models\Description", "translatable_id" => "26c5535c-6dca-4601-a934-5f68df047470"],
+            ["translation_id" => "aa184722-0819-4f7e-bcaa-1641b070e7c1", "translatable_type" => "App\Models\Description", "translatable_id" => "26c5535c-6dca-4601-a934-5f68df047470"],
+            //1405
+            ["translation_id" => "4f7efaf3-f10b-4884-90af-764216d9917a", "translatable_type" => "App\Models\Description", "translatable_id" => "88a3354a-6451-4c37-b340-39adef55ed51"],
+            ["translation_id" => "5060b422-6e91-4fba-ae2a-e2840d834715", "translatable_type" => "App\Models\Description", "translatable_id" => "88a3354a-6451-4c37-b340-39adef55ed51"],
+            ["translation_id" => "1c59f509-5d4e-451e-bc08-2d4f111a142b", "translatable_type" => "App\Models\Description", "translatable_id" => "88a3354a-6451-4c37-b340-39adef55ed51"],
+            //1406
+            ["translation_id" => "3c40c8cb-33da-48e2-bee0-8d9a6714685d", "translatable_type" => "App\Models\Description", "translatable_id" => "ad82023c-d4ce-4c05-aa7c-6c472c300072"],
+            ["translation_id" => "f0789ff2-f2ad-4a84-9848-977b59861083", "translatable_type" => "App\Models\Description", "translatable_id" => "ad82023c-d4ce-4c05-aa7c-6c472c300072"],
+            ["translation_id" => "0f7fecf6-177b-4a70-951f-330d79316626", "translatable_type" => "App\Models\Description", "translatable_id" => "ad82023c-d4ce-4c05-aa7c-6c472c300072"],
+            //1407
+            ["translation_id" => "973617d6-61f7-40a4-868e-c154be72cef4", "translatable_type" => "App\Models\Description", "translatable_id" => "613e39e0-b8ba-4c7d-8d1e-d43e50c449e9"],
+            ["translation_id" => "e5355fc4-dbb5-47fd-bf6f-a935692d8fc6", "translatable_type" => "App\Models\Description", "translatable_id" => "613e39e0-b8ba-4c7d-8d1e-d43e50c449e9"],
+            ["translation_id" => "bd0d147e-287b-4887-bfce-34fa9b520b4b", "translatable_type" => "App\Models\Description", "translatable_id" => "613e39e0-b8ba-4c7d-8d1e-d43e50c449e9"],
+            //1408
+            ["translation_id" => "3c19ae26-11ec-4a4a-8741-edf71cb3381b", "translatable_type" => "App\Models\Description", "translatable_id" => "3d067eef-85f8-4b02-a2f5-d34308839175"],
+            ["translation_id" => "f32e6d4f-4823-4e72-b89c-1a612b4f7e04", "translatable_type" => "App\Models\Description", "translatable_id" => "3d067eef-85f8-4b02-a2f5-d34308839175"],
+            ["translation_id" => "9dfd65d1-95f7-4417-9a82-06184989dbf9", "translatable_type" => "App\Models\Description", "translatable_id" => "3d067eef-85f8-4b02-a2f5-d34308839175"],
+            //1409
+            ["translation_id" => "9b871037-4372-4709-bef9-4452ca0fea7c", "translatable_type" => "App\Models\Description", "translatable_id" => "41b07d81-d143-4f28-af75-7ceb6027ddd8"],
+            ["translation_id" => "63c42f33-ca72-4a0e-bf39-3bddbda452af", "translatable_type" => "App\Models\Description", "translatable_id" => "41b07d81-d143-4f28-af75-7ceb6027ddd8"],
+            ["translation_id" => "518c1c58-5a00-4482-97f3-f45cfbc26a28", "translatable_type" => "App\Models\Description", "translatable_id" => "41b07d81-d143-4f28-af75-7ceb6027ddd8"],
+            //1410
+            ["translation_id" => "3a600cf8-4642-46d8-8117-47022fed1a79", "translatable_type" => "App\Models\Description", "translatable_id" => "a8fd7f17-ba9b-4e99-99b9-80c7b8b25b0c"],
+            ["translation_id" => "064361de-1fd0-4bdf-92fc-9e199392b212", "translatable_type" => "App\Models\Description", "translatable_id" => "a8fd7f17-ba9b-4e99-99b9-80c7b8b25b0c"],
+            ["translation_id" => "59397fa1-2a03-433e-9906-5bc2c3a20470", "translatable_type" => "App\Models\Description", "translatable_id" => "a8fd7f17-ba9b-4e99-99b9-80c7b8b25b0c"],
+            //1411
+            ["translation_id" => "5729d169-3c8b-46a1-89d0-cb936a19eba1", "translatable_type" => "App\Models\Description", "translatable_id" => "f6cfbec6-4439-47ba-ac8d-a85bd5a87cb5"],
+            ["translation_id" => "ceac1e7d-1fbb-40b6-93ff-02fdd2151d46", "translatable_type" => "App\Models\Description", "translatable_id" => "f6cfbec6-4439-47ba-ac8d-a85bd5a87cb5"],
+            ["translation_id" => "5a7803bd-8799-4697-a31c-b01b403bee60", "translatable_type" => "App\Models\Description", "translatable_id" => "f6cfbec6-4439-47ba-ac8d-a85bd5a87cb5"],
+            //1412
+            ["translation_id" => "1cfd7e9b-35ca-4e69-af26-7edc645a39ec", "translatable_type" => "App\Models\Description", "translatable_id" => "86eea582-b702-40bd-8952-fde4df574299"],
+            ["translation_id" => "897e72cb-43b4-4a22-979b-f6ba6e43fde2", "translatable_type" => "App\Models\Description", "translatable_id" => "86eea582-b702-40bd-8952-fde4df574299"],
+            ["translation_id" => "10224472-c3d6-48f4-9d0e-b16d11d28ae5", "translatable_type" => "App\Models\Description", "translatable_id" => "86eea582-b702-40bd-8952-fde4df574299"],
+            //1413
+            ["translation_id" => "886f80fa-3b0d-499c-b214-3979819ff5fa", "translatable_type" => "App\Models\Description", "translatable_id" => "bfcbcf92-c26a-410f-944c-1c6e1a2fef58"],
+            ["translation_id" => "f8c7d427-b182-4384-833e-b4d064e8fb87", "translatable_type" => "App\Models\Description", "translatable_id" => "bfcbcf92-c26a-410f-944c-1c6e1a2fef58"],
+            ["translation_id" => "7b38dd10-bc5a-439b-9f6f-9478a6d0bd19", "translatable_type" => "App\Models\Description", "translatable_id" => "bfcbcf92-c26a-410f-944c-1c6e1a2fef58"],
+            //1414
+            ["translation_id" => "e5b17299-a58e-4b18-b800-88d8abde9ca0", "translatable_type" => "App\Models\Description", "translatable_id" => "297de142-cf01-4b5c-ad5b-223909d4a3f3"],
+            ["translation_id" => "21669a67-7df8-4aaa-b68d-627d66a8e959", "translatable_type" => "App\Models\Description", "translatable_id" => "297de142-cf01-4b5c-ad5b-223909d4a3f3"],
+            ["translation_id" => "a66cf29e-287e-4eef-974f-2c7a37edf4a8", "translatable_type" => "App\Models\Description", "translatable_id" => "297de142-cf01-4b5c-ad5b-223909d4a3f3"],
+            //1415
+            ["translation_id" => "af9fb23a-d5a3-4c6a-b073-2fe7d6360a52", "translatable_type" => "App\Models\Description", "translatable_id" => "47a896fd-a8e0-4758-b364-39b18234250f"],
+            ["translation_id" => "5db40c1f-9752-4030-b37c-4fc6e28a0084", "translatable_type" => "App\Models\Description", "translatable_id" => "47a896fd-a8e0-4758-b364-39b18234250f"],
+            ["translation_id" => "a4da8768-3c77-440f-a466-5587ef3fbc6b", "translatable_type" => "App\Models\Description", "translatable_id" => "47a896fd-a8e0-4758-b364-39b18234250f"],
+            //1416
+            ["translation_id" => "afa15376-d89a-4d0d-8409-cf49d1b10d28", "translatable_type" => "App\Models\Description", "translatable_id" => "1fe958f7-c901-40c3-bf1a-3bbcf3c2bd57"],
+            ["translation_id" => "7b6853fd-7db2-4fb9-a3a7-9cc69811d527", "translatable_type" => "App\Models\Description", "translatable_id" => "1fe958f7-c901-40c3-bf1a-3bbcf3c2bd57"],
+            ["translation_id" => "409d11dc-9e16-4b91-80de-04ab9f0d6d9a", "translatable_type" => "App\Models\Description", "translatable_id" => "1fe958f7-c901-40c3-bf1a-3bbcf3c2bd57"],
+            //1417
+            ["translation_id" => "ec5663fa-8d1c-4400-9892-6c519f742ee7", "translatable_type" => "App\Models\Description", "translatable_id" => "2041636f-f400-4413-8887-a4f6a918d443"],
+            ["translation_id" => "fd038eec-026d-48d7-ae98-2acf2a1aeb47", "translatable_type" => "App\Models\Description", "translatable_id" => "2041636f-f400-4413-8887-a4f6a918d443"],
+            ["translation_id" => "49d8a614-859f-4484-b297-714b63d98bfe", "translatable_type" => "App\Models\Description", "translatable_id" => "2041636f-f400-4413-8887-a4f6a918d443"],
+            //1418
+            ["translation_id" => "8a8225ae-cdb2-4f28-a8b9-e4fa669543ed", "translatable_type" => "App\Models\Description", "translatable_id" => "a717e1e5-aaff-4c24-88f4-5e4ecffa964c"],
+            ["translation_id" => "6c3871bc-2b3d-4205-8c3f-bd493f2adced", "translatable_type" => "App\Models\Description", "translatable_id" => "a717e1e5-aaff-4c24-88f4-5e4ecffa964c"],
+            ["translation_id" => "63e82170-3d4e-4bcc-aeab-f0c922be88cb", "translatable_type" => "App\Models\Description", "translatable_id" => "a717e1e5-aaff-4c24-88f4-5e4ecffa964c"],
+            //1419
+            ["translation_id" => "1285f4d2-2922-4664-98ca-fb9d58c4869c", "translatable_type" => "App\Models\Description", "translatable_id" => "030ed04e-df66-4417-9e89-6c641fb61597"],
+            ["translation_id" => "8fc9dc86-ccb0-4f1d-931f-ad2866769ac9", "translatable_type" => "App\Models\Description", "translatable_id" => "030ed04e-df66-4417-9e89-6c641fb61597"],
+            ["translation_id" => "00ce515a-8f73-4a32-aeb8-9b1677114c0d", "translatable_type" => "App\Models\Description", "translatable_id" => "030ed04e-df66-4417-9e89-6c641fb61597"],
+            //1420
+            ["translation_id" => "d35316d7-e3c8-4ecf-a535-fc7fa5f031d8", "translatable_type" => "App\Models\Description", "translatable_id" => "b5b71cd8-129f-42eb-a9e8-e3d7367b8c6b"],
+            ["translation_id" => "6a406ef2-4e7d-4c1c-9eae-3f9cdef26129", "translatable_type" => "App\Models\Description", "translatable_id" => "b5b71cd8-129f-42eb-a9e8-e3d7367b8c6b"],
+            ["translation_id" => "2c66ac6b-6f88-45bb-8074-2d86549764f6", "translatable_type" => "App\Models\Description", "translatable_id" => "b5b71cd8-129f-42eb-a9e8-e3d7367b8c6b"],
+            //1421
+            ["translation_id" => "cced96e7-732e-4ca8-b820-65f45a1370b0", "translatable_type" => "App\Models\Description", "translatable_id" => "2b78f0b4-2bc1-47b5-aaa8-335ea7ad6529"],
+            ["translation_id" => "28fee7b5-935d-41dd-a4b0-2d1ae6a54fa8", "translatable_type" => "App\Models\Description", "translatable_id" => "2b78f0b4-2bc1-47b5-aaa8-335ea7ad6529"],
+            ["translation_id" => "44227eea-7bbd-4a18-9176-8b9126ae9163", "translatable_type" => "App\Models\Description", "translatable_id" => "2b78f0b4-2bc1-47b5-aaa8-335ea7ad6529"],
+            //1422
+            ["translation_id" => "24cd3ce8-429b-4f02-ad2f-993ce26c4d2f", "translatable_type" => "App\Models\Description", "translatable_id" => "cb6f785c-97fb-4e25-a348-ac1ecd73bd9e"],
+            ["translation_id" => "6bd17e61-e05b-4127-9753-b0e813814c6f", "translatable_type" => "App\Models\Description", "translatable_id" => "cb6f785c-97fb-4e25-a348-ac1ecd73bd9e"],
+            ["translation_id" => "98ee055b-8e5d-47b3-8a3f-4a1da4dfb4ab", "translatable_type" => "App\Models\Description", "translatable_id" => "cb6f785c-97fb-4e25-a348-ac1ecd73bd9e"],
+            //1423
+            ["translation_id" => "e3194505-45dc-4468-a722-242dec220efe", "translatable_type" => "App\Models\Description", "translatable_id" => "13e059ad-4657-488d-b9ee-c24b0de64b2d"],
+            ["translation_id" => "cc5a5a1a-f01b-4fc8-a54c-157fad9dd30f", "translatable_type" => "App\Models\Description", "translatable_id" => "13e059ad-4657-488d-b9ee-c24b0de64b2d"],
+            ["translation_id" => "ce890edf-563f-43df-be95-9c4916b1c816", "translatable_type" => "App\Models\Description", "translatable_id" => "13e059ad-4657-488d-b9ee-c24b0de64b2d"],
+            //1424
+            ["translation_id" => "a155924b-8c68-4a42-bc04-fcde9af1d4ac", "translatable_type" => "App\Models\Description", "translatable_id" => "9394f1f6-db58-4501-82ab-16947cdbdcac"],
+            ["translation_id" => "b1e24c39-4b44-4e02-85e2-b32dab291b36", "translatable_type" => "App\Models\Description", "translatable_id" => "9394f1f6-db58-4501-82ab-16947cdbdcac"],
+            ["translation_id" => "b21798b0-06b9-403a-81c7-c929b7651b7e", "translatable_type" => "App\Models\Description", "translatable_id" => "9394f1f6-db58-4501-82ab-16947cdbdcac"],
+            //1425
+            ["translation_id" => "4b56e962-c439-4d67-94ac-e27932295100", "translatable_type" => "App\Models\Description", "translatable_id" => "109f7822-03c4-4693-9618-ddb8fd0e104c"],
+            ["translation_id" => "35e13be1-20fb-4d3b-aee5-de69b7489a04", "translatable_type" => "App\Models\Description", "translatable_id" => "109f7822-03c4-4693-9618-ddb8fd0e104c"],
+            ["translation_id" => "7d60bc6d-728e-4fd5-99de-c244d710d49b", "translatable_type" => "App\Models\Description", "translatable_id" => "109f7822-03c4-4693-9618-ddb8fd0e104c"],
+            //1426
+            ["translation_id" => "f6ce9de1-1b2e-4e31-96a5-9ed8cec3bdcf", "translatable_type" => "App\Models\Description", "translatable_id" => "5efbecb6-656c-4d6c-9bcc-7233e7e04ad6"],
+            ["translation_id" => "a797b381-8f02-471e-ba42-122839246748", "translatable_type" => "App\Models\Description", "translatable_id" => "5efbecb6-656c-4d6c-9bcc-7233e7e04ad6"],
+            ["translation_id" => "13fd82da-b297-4052-8f07-c512c0022e77", "translatable_type" => "App\Models\Description", "translatable_id" => "5efbecb6-656c-4d6c-9bcc-7233e7e04ad6"],
+            //1427
+            ["translation_id" => "7ea73f48-08f4-4719-bc85-0c82e9372040", "translatable_type" => "App\Models\Description", "translatable_id" => "fbbee69b-ce90-46fb-99e2-7c9913b904d9"],
+            ["translation_id" => "06d67d04-c385-4c00-bba8-af35822166e1", "translatable_type" => "App\Models\Description", "translatable_id" => "fbbee69b-ce90-46fb-99e2-7c9913b904d9"],
+            ["translation_id" => "70999321-e583-4bda-9871-32433fda8cd9", "translatable_type" => "App\Models\Description", "translatable_id" => "fbbee69b-ce90-46fb-99e2-7c9913b904d9"],
+            //1428
+            ["translation_id" => "dd570d74-39f4-42ea-b1f7-6496ca87abf9", "translatable_type" => "App\Models\Description", "translatable_id" => "1df997ff-e8a5-4005-863a-16a917fcd20c"],
+            ["translation_id" => "64c103d7-f1ad-41c7-9e44-8966c1537dbd", "translatable_type" => "App\Models\Description", "translatable_id" => "1df997ff-e8a5-4005-863a-16a917fcd20c"],
+            ["translation_id" => "34e66e7d-a6e2-4bac-a6ac-a8505cebc9dd", "translatable_type" => "App\Models\Description", "translatable_id" => "1df997ff-e8a5-4005-863a-16a917fcd20c"],
+            //1429
+            ["translation_id" => "5e3a98d8-5509-4fa7-bde9-369e8025a792", "translatable_type" => "App\Models\Description", "translatable_id" => "790f13fb-c188-4b4e-9c0d-1e4e01fef460"],
+            ["translation_id" => "3df62f1a-17b4-4fb5-b65e-1ceef5be9ac3", "translatable_type" => "App\Models\Description", "translatable_id" => "790f13fb-c188-4b4e-9c0d-1e4e01fef460"],
+            ["translation_id" => "ebd855cf-e929-4785-b45d-a421ceed87ff", "translatable_type" => "App\Models\Description", "translatable_id" => "790f13fb-c188-4b4e-9c0d-1e4e01fef460"],
+            //1430
+            ["translation_id" => "4a2517f5-8ec2-4e15-8e96-bc8f4f1d9648", "translatable_type" => "App\Models\Description", "translatable_id" => "9dce43c6-656f-499f-9414-77c346218602"],
+            ["translation_id" => "35a9c4f6-767a-4c50-ba46-d2a73b468553", "translatable_type" => "App\Models\Description", "translatable_id" => "9dce43c6-656f-499f-9414-77c346218602"],
+            ["translation_id" => "432ec087-08cb-4f3e-bad4-ee0cdc191904", "translatable_type" => "App\Models\Description", "translatable_id" => "9dce43c6-656f-499f-9414-77c346218602"],
+            //1431
+            ["translation_id" => "ba1eaf26-4e6e-4ccd-99a5-e601d627fa26", "translatable_type" => "App\Models\Description", "translatable_id" => "8caa461c-ac34-41e0-8d52-d37941dce95c"],
+            ["translation_id" => "00995612-f793-485a-a126-89023dd43fe3", "translatable_type" => "App\Models\Description", "translatable_id" => "8caa461c-ac34-41e0-8d52-d37941dce95c"],
+            ["translation_id" => "c8084bcc-51e6-47f7-9f04-e4ea4f9cfdfd", "translatable_type" => "App\Models\Description", "translatable_id" => "8caa461c-ac34-41e0-8d52-d37941dce95c"],
+            //1432
+            ["translation_id" => "25f0561e-9fbb-4263-a1d6-46963acc8725", "translatable_type" => "App\Models\Description", "translatable_id" => "ec81c86a-b334-40b0-9cca-d60a4118df91"],
+            ["translation_id" => "e0c52762-f08d-4cf7-a010-a7fa8171af6d", "translatable_type" => "App\Models\Description", "translatable_id" => "ec81c86a-b334-40b0-9cca-d60a4118df91"],
+            ["translation_id" => "77d32290-733c-4692-8b2e-1dd300a88ea1", "translatable_type" => "App\Models\Description", "translatable_id" => "ec81c86a-b334-40b0-9cca-d60a4118df91"],
+            //1433
+            ["translation_id" => "c2dc8ddc-1a5a-456a-b894-652e042eb927", "translatable_type" => "App\Models\Description", "translatable_id" => "6c525980-17eb-438a-87f0-bb8c3e184453"],
+            ["translation_id" => "ed34eeec-3469-4511-96d3-1477e0e608ca", "translatable_type" => "App\Models\Description", "translatable_id" => "6c525980-17eb-438a-87f0-bb8c3e184453"],
+            ["translation_id" => "ee3bce6b-9d19-4be8-b4f6-c1c48d7d8de1", "translatable_type" => "App\Models\Description", "translatable_id" => "6c525980-17eb-438a-87f0-bb8c3e184453"],
+            //1434
+            ["translation_id" => "154af7f8-52db-440c-acbf-5816563c888a", "translatable_type" => "App\Models\Description", "translatable_id" => "e01f1068-15e2-4d7a-b936-d3636876f510"],
+            ["translation_id" => "8043e5d3-a0e6-413e-b34f-815343ba0805", "translatable_type" => "App\Models\Description", "translatable_id" => "e01f1068-15e2-4d7a-b936-d3636876f510"],
+            ["translation_id" => "bf290b13-5e6e-4999-b946-0b1e08667db1", "translatable_type" => "App\Models\Description", "translatable_id" => "e01f1068-15e2-4d7a-b936-d3636876f510"],
+            //1435
+            ["translation_id" => "dcfeb572-5290-42ea-8020-bfef1ee7aaa4", "translatable_type" => "App\Models\Description", "translatable_id" => "4d110a49-3261-4b52-adf1-d7563e7d8014"],
+            ["translation_id" => "c7f7a033-f20e-4f3b-9b5f-a440972235df", "translatable_type" => "App\Models\Description", "translatable_id" => "4d110a49-3261-4b52-adf1-d7563e7d8014"],
+            ["translation_id" => "b8bc1b4e-f1cd-4b82-bcdf-efc54896dcae", "translatable_type" => "App\Models\Description", "translatable_id" => "4d110a49-3261-4b52-adf1-d7563e7d8014"],
+            //1436
+            ["translation_id" => "96d3ac4d-c7c4-44aa-b887-8ac0e6f94715", "translatable_type" => "App\Models\Description", "translatable_id" => "cd323ffe-92f7-4847-b7a3-e85a7e2f9750"],
+            ["translation_id" => "0c3936ed-0e5c-4799-8bfa-c1130528c746", "translatable_type" => "App\Models\Description", "translatable_id" => "cd323ffe-92f7-4847-b7a3-e85a7e2f9750"],
+            ["translation_id" => "e28a60e9-5c37-48aa-80c9-350f13171c75", "translatable_type" => "App\Models\Description", "translatable_id" => "cd323ffe-92f7-4847-b7a3-e85a7e2f9750"],
+            //1437
+            ["translation_id" => "2271d2a5-133a-413f-9c23-d6b728898342", "translatable_type" => "App\Models\Description", "translatable_id" => "622d11fe-6e22-47eb-bc19-4c3be6ab6bfa"],
+            ["translation_id" => "26435a38-296b-4f5d-bb81-33b66ab71029", "translatable_type" => "App\Models\Description", "translatable_id" => "622d11fe-6e22-47eb-bc19-4c3be6ab6bfa"],
+            ["translation_id" => "de2893d8-4072-4b3b-9f9b-b351cde14320", "translatable_type" => "App\Models\Description", "translatable_id" => "622d11fe-6e22-47eb-bc19-4c3be6ab6bfa"],
+            //1438
+            ["translation_id" => "73f4d329-0717-4f5a-87a9-b0fa693fc437", "translatable_type" => "App\Models\Description", "translatable_id" => "67fca6d4-fd73-4eeb-b13d-81d35a40c167"],
+            ["translation_id" => "945095fa-9dcf-4421-85f2-ef4d7abdd7fa", "translatable_type" => "App\Models\Description", "translatable_id" => "67fca6d4-fd73-4eeb-b13d-81d35a40c167"],
+            ["translation_id" => "33c06518-dc1e-4594-a3f8-52ff344bc258", "translatable_type" => "App\Models\Description", "translatable_id" => "67fca6d4-fd73-4eeb-b13d-81d35a40c167"],
+            //1439
+            ["translation_id" => "9fcda1a6-e5d2-4275-87ec-27a2102f92c7", "translatable_type" => "App\Models\Description", "translatable_id" => "704bc286-b254-4101-a606-525591b444f6"],
+            ["translation_id" => "42fe6f1a-e6d9-4024-832f-82610a04a46f", "translatable_type" => "App\Models\Description", "translatable_id" => "704bc286-b254-4101-a606-525591b444f6"],
+            ["translation_id" => "6766fb69-a34b-45ad-a921-a29b976e55a5", "translatable_type" => "App\Models\Description", "translatable_id" => "704bc286-b254-4101-a606-525591b444f6"],
+            //1440
+            ["translation_id" => "3b03d9b7-d618-4f10-9b2b-b136860d4946", "translatable_type" => "App\Models\Description", "translatable_id" => "d3f3e348-d487-4411-bb55-2f9968515e80"],
+            ["translation_id" => "6627512a-6d96-44a2-ae5a-3c7af342826d", "translatable_type" => "App\Models\Description", "translatable_id" => "d3f3e348-d487-4411-bb55-2f9968515e80"],
+            ["translation_id" => "9590f15f-8c8a-448d-824f-4a91cea5b02b", "translatable_type" => "App\Models\Description", "translatable_id" => "d3f3e348-d487-4411-bb55-2f9968515e80"],
+            //1441
+            ["translation_id" => "a6939f12-cc20-4a18-bde2-ad52904ff63d", "translatable_type" => "App\Models\Description", "translatable_id" => "e87d6b5d-f50f-4a45-be43-682b3cb24a63"],
+            ["translation_id" => "aa5577a4-666f-4526-9031-87b849cb237f", "translatable_type" => "App\Models\Description", "translatable_id" => "e87d6b5d-f50f-4a45-be43-682b3cb24a63"],
+            ["translation_id" => "7373a4e4-7aa6-408b-9b5f-03c96e58fec9", "translatable_type" => "App\Models\Description", "translatable_id" => "e87d6b5d-f50f-4a45-be43-682b3cb24a63"],
+            //1442
+            ["translation_id" => "e9a6d231-b885-4db5-b4de-45f755bc9f31", "translatable_type" => "App\Models\Description", "translatable_id" => "2b82366d-3cd0-4bfc-9c36-ffc4741bde36"],
+            ["translation_id" => "7f96c998-8ae2-40f1-8e4f-b056a2ad8902", "translatable_type" => "App\Models\Description", "translatable_id" => "2b82366d-3cd0-4bfc-9c36-ffc4741bde36"],
+            ["translation_id" => "c4f2bdf0-757d-4b95-88fb-7fb8f3a624b5", "translatable_type" => "App\Models\Description", "translatable_id" => "2b82366d-3cd0-4bfc-9c36-ffc4741bde36"],
+            //1443
+            ["translation_id" => "dcf7145e-6b39-48ba-a64e-24e500bcc8d1", "translatable_type" => "App\Models\Description", "translatable_id" => "7adf59b0-d41a-492e-b665-8dc8518fac96"],
+            ["translation_id" => "aa622ba4-9c18-4d18-acb6-98b08a674dfb", "translatable_type" => "App\Models\Description", "translatable_id" => "7adf59b0-d41a-492e-b665-8dc8518fac96"],
+            ["translation_id" => "664cb662-aab0-41dc-92bc-d4339d7722a2", "translatable_type" => "App\Models\Description", "translatable_id" => "7adf59b0-d41a-492e-b665-8dc8518fac96"],
+            //1444
+            ["translation_id" => "6273ebb6-95c2-40f9-9eda-e87a8369cc9d", "translatable_type" => "App\Models\Description", "translatable_id" => "ca5d1130-a0c4-4c94-8483-53cd423576cc"],
+            ["translation_id" => "48a3a674-7cd3-416a-9889-ac43a4c72657", "translatable_type" => "App\Models\Description", "translatable_id" => "ca5d1130-a0c4-4c94-8483-53cd423576cc"],
+            ["translation_id" => "efeaef18-eb59-4dfc-ac21-6d90e3686d7c", "translatable_type" => "App\Models\Description", "translatable_id" => "ca5d1130-a0c4-4c94-8483-53cd423576cc"],
+            //1445
+            ["translation_id" => "d9fc9119-7897-43aa-8c76-cd55d0b424b3", "translatable_type" => "App\Models\Description", "translatable_id" => "706a6b69-c019-4153-a0e3-1849e6def2c3"],
+            ["translation_id" => "06508412-37d5-4f21-8a57-bb665d7287e9", "translatable_type" => "App\Models\Description", "translatable_id" => "706a6b69-c019-4153-a0e3-1849e6def2c3"],
+            ["translation_id" => "a9c0562e-5257-47db-aff0-d626b63a08b6", "translatable_type" => "App\Models\Description", "translatable_id" => "706a6b69-c019-4153-a0e3-1849e6def2c3"],
+            //1446
+            ["translation_id" => "3e0c38e9-6926-48b5-8817-abb7a2dc3eba", "translatable_type" => "App\Models\Description", "translatable_id" => "d7a36733-a58b-4727-9aca-ad3764898606"],
+            ["translation_id" => "74359011-c847-4fd8-9fdc-bc027bece3f9", "translatable_type" => "App\Models\Description", "translatable_id" => "d7a36733-a58b-4727-9aca-ad3764898606"],
+            ["translation_id" => "648ca143-9cb5-4941-9f6a-365ad23214d4", "translatable_type" => "App\Models\Description", "translatable_id" => "d7a36733-a58b-4727-9aca-ad3764898606"],
+            //1447
+            ["translation_id" => "efb0ba61-f918-4f6e-8acb-87a33d822022", "translatable_type" => "App\Models\Description", "translatable_id" => "4faef4af-6227-464d-9478-a8b6867b7165"],
+            ["translation_id" => "2c4e5fa9-9d27-44e5-b73a-7a841911db99", "translatable_type" => "App\Models\Description", "translatable_id" => "4faef4af-6227-464d-9478-a8b6867b7165"],
+            ["translation_id" => "3e7c3437-42a0-4ed2-866e-f6aca2f122fb", "translatable_type" => "App\Models\Description", "translatable_id" => "4faef4af-6227-464d-9478-a8b6867b7165"],
+            //1448
+            ["translation_id" => "ab4999e7-c304-4bf8-8e8a-5150d25224d5", "translatable_type" => "App\Models\Description", "translatable_id" => "fe4c9b7d-0042-4570-adb2-4ca1c14272eb"],
+            ["translation_id" => "fb4324e2-67fa-4939-baff-f76b969c4897", "translatable_type" => "App\Models\Description", "translatable_id" => "fe4c9b7d-0042-4570-adb2-4ca1c14272eb"],
+            ["translation_id" => "d2d70ea6-2265-4c10-aade-98fb9a099896", "translatable_type" => "App\Models\Description", "translatable_id" => "fe4c9b7d-0042-4570-adb2-4ca1c14272eb"],
+            //1449
+            ["translation_id" => "ef7a2819-94e7-4901-b8c2-555a64f9a0b5", "translatable_type" => "App\Models\Description", "translatable_id" => "81b59bdf-0174-4517-a4c3-49683d0c1114"],
+            ["translation_id" => "470bf15a-1552-4afb-9910-58b650908a10", "translatable_type" => "App\Models\Description", "translatable_id" => "81b59bdf-0174-4517-a4c3-49683d0c1114"],
+            ["translation_id" => "a314e743-5525-452d-bdce-f05957407696", "translatable_type" => "App\Models\Description", "translatable_id" => "81b59bdf-0174-4517-a4c3-49683d0c1114"],
+            //1450
+            ["translation_id" => "86b46999-eb48-42d6-be81-c94893d547dc", "translatable_type" => "App\Models\Description", "translatable_id" => "a09489a5-e086-49c1-990a-df0457b6f93f"],
+            ["translation_id" => "05fd3549-e462-461b-b681-2c07c62dada6", "translatable_type" => "App\Models\Description", "translatable_id" => "a09489a5-e086-49c1-990a-df0457b6f93f"],
+            ["translation_id" => "e06f1c01-739f-40f4-bb86-85244ffab513", "translatable_type" => "App\Models\Description", "translatable_id" => "a09489a5-e086-49c1-990a-df0457b6f93f"],
+            //1451
+            ["translation_id" => "a8b99886-378d-45d7-a492-e365a668ef4f", "translatable_type" => "App\Models\Description", "translatable_id" => "878bbe79-3771-4b37-aded-cf713c4c4d29"],
+            ["translation_id" => "60bc57e7-5bb3-4b31-bf3b-19af7307dff1", "translatable_type" => "App\Models\Description", "translatable_id" => "878bbe79-3771-4b37-aded-cf713c4c4d29"],
+            ["translation_id" => "c2b83eb9-8e4a-4b2e-a042-db93ec4e62ef", "translatable_type" => "App\Models\Description", "translatable_id" => "878bbe79-3771-4b37-aded-cf713c4c4d29"],
+            //1452
+            ["translation_id" => "819a00b6-c893-4ddc-9692-0e757358963b", "translatable_type" => "App\Models\Description", "translatable_id" => "f4ee752c-b8be-42a3-8565-03d95c30ac30"],
+            ["translation_id" => "f93d35ee-6cf8-4849-9f65-f692b05615f6", "translatable_type" => "App\Models\Description", "translatable_id" => "f4ee752c-b8be-42a3-8565-03d95c30ac30"],
+            ["translation_id" => "2b77e410-dbcd-4c1e-9553-0a51a97d8637", "translatable_type" => "App\Models\Description", "translatable_id" => "f4ee752c-b8be-42a3-8565-03d95c30ac30"],
+            //1453
+            ["translation_id" => "923afd04-bc55-47aa-ba18-b8b2e08f828f", "translatable_type" => "App\Models\Description", "translatable_id" => "1e59e364-ba6b-4aa9-8443-524f53f89530"],
+            ["translation_id" => "d62432a2-fe18-4626-bee2-34491a0ec2a3", "translatable_type" => "App\Models\Description", "translatable_id" => "1e59e364-ba6b-4aa9-8443-524f53f89530"],
+            ["translation_id" => "34d7a944-3b35-44d9-9862-95e5114c010c", "translatable_type" => "App\Models\Description", "translatable_id" => "1e59e364-ba6b-4aa9-8443-524f53f89530"],
+            //1454
+            ["translation_id" => "cc55dd3f-d098-4f56-a470-2151aa7300ed", "translatable_type" => "App\Models\Description", "translatable_id" => "6a46ad3a-954e-43f7-9311-55e6139a31b6"],
+            ["translation_id" => "b3ee027b-d4d4-4dc1-b80b-73ff014c6b4c", "translatable_type" => "App\Models\Description", "translatable_id" => "6a46ad3a-954e-43f7-9311-55e6139a31b6"],
+            ["translation_id" => "e95370ca-5f3e-45bc-88d8-93046018ae47", "translatable_type" => "App\Models\Description", "translatable_id" => "6a46ad3a-954e-43f7-9311-55e6139a31b6"],
+            //1455
+            ["translation_id" => "3e31918b-5df5-4b66-8827-ea587a2091da", "translatable_type" => "App\Models\Description", "translatable_id" => "bac32497-eedb-4440-855e-1ef7a8cfa40d"],
+            ["translation_id" => "9a893fa3-bc2f-497a-9b6c-965d5c07c336", "translatable_type" => "App\Models\Description", "translatable_id" => "bac32497-eedb-4440-855e-1ef7a8cfa40d"],
+            ["translation_id" => "4a34a4cf-d2dd-4a0b-a69e-f4f4df5ea725", "translatable_type" => "App\Models\Description", "translatable_id" => "bac32497-eedb-4440-855e-1ef7a8cfa40d"],
+            //1456
+            ["translation_id" => "64070959-269c-4b2d-ab06-5661033f68f3", "translatable_type" => "App\Models\Description", "translatable_id" => "f6b5dab6-879d-4e88-a16a-3ed83317ca17"],
+            ["translation_id" => "fa8cc3fc-3660-44f6-a13d-92e499e23165", "translatable_type" => "App\Models\Description", "translatable_id" => "f6b5dab6-879d-4e88-a16a-3ed83317ca17"],
+            ["translation_id" => "2c57bb76-d9e6-4a71-995e-860c5e731bbe", "translatable_type" => "App\Models\Description", "translatable_id" => "f6b5dab6-879d-4e88-a16a-3ed83317ca17"],
+            //1457
+            ["translation_id" => "34b95b74-84ab-4244-96da-c69a5e8f07c8", "translatable_type" => "App\Models\Description", "translatable_id" => "f6264805-326e-44d0-8a2c-d086ca8bfb9c"],
+            ["translation_id" => "07c87a6c-67c7-460d-bbfa-d9d010d4aa27", "translatable_type" => "App\Models\Description", "translatable_id" => "f6264805-326e-44d0-8a2c-d086ca8bfb9c"],
+            ["translation_id" => "5e1a8c78-fd59-4687-b228-7197f1096535", "translatable_type" => "App\Models\Description", "translatable_id" => "f6264805-326e-44d0-8a2c-d086ca8bfb9c"],
+            //1458
+            ["translation_id" => "3a4ef892-ff68-4b26-8ae5-cc8c153809ca", "translatable_type" => "App\Models\Description", "translatable_id" => "64057850-1414-4ee9-975c-cb72e9e1cfcc"],
+            ["translation_id" => "197a2007-dce3-4fb2-a24c-42dc518111ee", "translatable_type" => "App\Models\Description", "translatable_id" => "64057850-1414-4ee9-975c-cb72e9e1cfcc"],
+            ["translation_id" => "50acd6d8-4097-4703-8fbe-e0427288b705", "translatable_type" => "App\Models\Description", "translatable_id" => "64057850-1414-4ee9-975c-cb72e9e1cfcc"],
+            //1459
+            ["translation_id" => "046f89d9-83b9-4204-8d41-d01dcc1f6dd3", "translatable_type" => "App\Models\Description", "translatable_id" => "c04a7aab-8950-49f0-9258-eab2e1366a77"],
+            ["translation_id" => "194f8275-86f2-4b70-aa47-4ea8818ce328", "translatable_type" => "App\Models\Description", "translatable_id" => "c04a7aab-8950-49f0-9258-eab2e1366a77"],
+            ["translation_id" => "23e4d358-30e3-4535-adc1-2b7377da992e", "translatable_type" => "App\Models\Description", "translatable_id" => "c04a7aab-8950-49f0-9258-eab2e1366a77"],
+            //1460
+            ["translation_id" => "d9b6e912-af1b-4f10-b9cb-ff61586e1dd1", "translatable_type" => "App\Models\Description", "translatable_id" => "5c3fbfb3-a1a7-4b39-ac27-78a716b59266"],
+            ["translation_id" => "e1fcf77c-43ba-402a-a334-8d4d71d1021d", "translatable_type" => "App\Models\Description", "translatable_id" => "5c3fbfb3-a1a7-4b39-ac27-78a716b59266"],
+            ["translation_id" => "a5e777bc-6838-4ff4-bf00-1b1157efb96c", "translatable_type" => "App\Models\Description", "translatable_id" => "5c3fbfb3-a1a7-4b39-ac27-78a716b59266"],
+            //1461
+            ["translation_id" => "416f61a0-77ed-4f28-bef8-cc3071d1979c", "translatable_type" => "App\Models\Description", "translatable_id" => "8e14b489-aad9-498e-bb01-27b79e62a8d5"],
+            ["translation_id" => "af071aa1-1f50-4479-b186-b233eb346e26", "translatable_type" => "App\Models\Description", "translatable_id" => "8e14b489-aad9-498e-bb01-27b79e62a8d5"],
+            ["translation_id" => "2923da9d-9e76-467b-9ffb-c63d41bdd6c4", "translatable_type" => "App\Models\Description", "translatable_id" => "8e14b489-aad9-498e-bb01-27b79e62a8d5"],
+            //1462
+            ["translation_id" => "b46f966f-0d23-4604-ac63-d0adea09403b", "translatable_type" => "App\Models\Description", "translatable_id" => "ca2e86ab-b1b7-421b-af0a-29e2df85bf81"],
+            ["translation_id" => "b8e5bef7-edea-4bd2-89ea-33d15cea864f", "translatable_type" => "App\Models\Description", "translatable_id" => "ca2e86ab-b1b7-421b-af0a-29e2df85bf81"],
+            ["translation_id" => "b0516168-e80a-4474-879c-65641eea558d", "translatable_type" => "App\Models\Description", "translatable_id" => "ca2e86ab-b1b7-421b-af0a-29e2df85bf81"],
+            //1463
+            ["translation_id" => "a7071a36-69d6-4935-ab92-4e80939c4327", "translatable_type" => "App\Models\Description", "translatable_id" => "10af404c-08d7-4278-9056-65e2fd4ee981"],
+            ["translation_id" => "13fcc069-b629-4b44-9b33-54cacb7a1642", "translatable_type" => "App\Models\Description", "translatable_id" => "10af404c-08d7-4278-9056-65e2fd4ee981"],
+            ["translation_id" => "8933fb13-06e8-4212-a766-4753d859a09d", "translatable_type" => "App\Models\Description", "translatable_id" => "10af404c-08d7-4278-9056-65e2fd4ee981"],
+            //1464
+            ["translation_id" => "b26939f6-e82b-4bd6-9046-a49ddedeebd1", "translatable_type" => "App\Models\Description", "translatable_id" => "520ac6ce-d8f9-4dba-b46a-7189038a3ce8"],
+            ["translation_id" => "d94a8c18-91d3-47b4-85f3-6422578707cd", "translatable_type" => "App\Models\Description", "translatable_id" => "520ac6ce-d8f9-4dba-b46a-7189038a3ce8"],
+            ["translation_id" => "91d68393-9749-4a04-961e-17462eb40376", "translatable_type" => "App\Models\Description", "translatable_id" => "520ac6ce-d8f9-4dba-b46a-7189038a3ce8"],
+            //1465
+            ["translation_id" => "e1c47b1e-2a74-426f-b588-e931c5e4a2f1", "translatable_type" => "App\Models\Description", "translatable_id" => "f7d85fb7-bea0-4908-b2c5-5f61bc143ff7"],
+            ["translation_id" => "bbfa08e1-ccce-4079-ba23-576fb3f79e95", "translatable_type" => "App\Models\Description", "translatable_id" => "f7d85fb7-bea0-4908-b2c5-5f61bc143ff7"],
+            ["translation_id" => "f966c676-7ccd-4035-a3e5-e9e65c8fd344", "translatable_type" => "App\Models\Description", "translatable_id" => "f7d85fb7-bea0-4908-b2c5-5f61bc143ff7"],
+            //1466
+            ["translation_id" => "3027e0a0-3e0e-4c89-9280-4e6bce9f97b6", "translatable_type" => "App\Models\Description", "translatable_id" => "2a07442b-8eb5-4110-ae06-e14b3e5c7bdd"],
+            ["translation_id" => "c48a5df4-cf2a-43ab-954f-e31fa303207a", "translatable_type" => "App\Models\Description", "translatable_id" => "2a07442b-8eb5-4110-ae06-e14b3e5c7bdd"],
+            ["translation_id" => "0d403506-ef0d-44f7-8d65-e8ca11fe2aa8", "translatable_type" => "App\Models\Description", "translatable_id" => "2a07442b-8eb5-4110-ae06-e14b3e5c7bdd"],
+            //1467
+            ["translation_id" => "285933f6-2d72-4ef3-bda8-2bbbd634d816", "translatable_type" => "App\Models\Description", "translatable_id" => "c50a77cd-f137-4806-8f8e-bee8b01cab4e"],
+            ["translation_id" => "f5677d9c-eba6-4e47-bf47-293eeee38ecc", "translatable_type" => "App\Models\Description", "translatable_id" => "c50a77cd-f137-4806-8f8e-bee8b01cab4e"],
+            ["translation_id" => "f3c53bbe-8541-405a-94d4-7ae7b89d9f23", "translatable_type" => "App\Models\Description", "translatable_id" => "c50a77cd-f137-4806-8f8e-bee8b01cab4e"],
+            //1468
+            ["translation_id" => "0acae6f5-6d5b-4433-a341-80347d6b6446", "translatable_type" => "App\Models\Description", "translatable_id" => "5bc2d94e-95eb-44bf-b784-c14053b2ff62"],
+            ["translation_id" => "574a9c11-81cb-4bdb-9c45-0af48eb66e5a", "translatable_type" => "App\Models\Description", "translatable_id" => "5bc2d94e-95eb-44bf-b784-c14053b2ff62"],
+            ["translation_id" => "283f3125-15e7-4ee1-81e2-845553bd195b", "translatable_type" => "App\Models\Description", "translatable_id" => "5bc2d94e-95eb-44bf-b784-c14053b2ff62"],
+            //1469
+            ["translation_id" => "f75d2b7f-a20c-4f95-bd71-68b13fe66e9a", "translatable_type" => "App\Models\Description", "translatable_id" => "d6d3c12e-c7dd-41af-b158-859d2d3ecb2f"],
+            ["translation_id" => "4533af49-b365-4339-897a-7bfa6e500b00", "translatable_type" => "App\Models\Description", "translatable_id" => "d6d3c12e-c7dd-41af-b158-859d2d3ecb2f"],
+            ["translation_id" => "7a365eb5-bf8a-4bfa-84ca-0fee3953b3f2", "translatable_type" => "App\Models\Description", "translatable_id" => "d6d3c12e-c7dd-41af-b158-859d2d3ecb2f"],
+            //1470
+            ["translation_id" => "0c0a327f-c68c-4571-9d05-9d99c9c44368", "translatable_type" => "App\Models\Description", "translatable_id" => "6fe4d145-c7a6-4cec-a74b-31de6915c41a"],
+            ["translation_id" => "5a1a8ccf-e39f-4c20-8188-9fa5fae11a92", "translatable_type" => "App\Models\Description", "translatable_id" => "6fe4d145-c7a6-4cec-a74b-31de6915c41a"],
+            ["translation_id" => "b5f5cd11-7ff0-481e-a429-6b1e5bbeba69", "translatable_type" => "App\Models\Description", "translatable_id" => "6fe4d145-c7a6-4cec-a74b-31de6915c41a"],
+            //1471
+            ["translation_id" => "dd50fceb-2a92-42e4-afa8-6cb169ddb251", "translatable_type" => "App\Models\Description", "translatable_id" => "ea8ce97e-d8b6-4f7e-9b61-9019c2b8ec68"],
+            ["translation_id" => "9fd49e26-866c-4f1c-a916-233d31d09851", "translatable_type" => "App\Models\Description", "translatable_id" => "ea8ce97e-d8b6-4f7e-9b61-9019c2b8ec68"],
+            ["translation_id" => "debe14d5-14e5-45fa-8f84-0a029bf96aba", "translatable_type" => "App\Models\Description", "translatable_id" => "ea8ce97e-d8b6-4f7e-9b61-9019c2b8ec68"],
+            //1472
+            ["translation_id" => "22121563-cc5a-448f-985a-b10efdee07d2", "translatable_type" => "App\Models\Description", "translatable_id" => "e03b93d6-52ce-4afc-a36e-70cac500047b"],
+            ["translation_id" => "25d813f7-9409-4010-bd42-5f97e11a108a", "translatable_type" => "App\Models\Description", "translatable_id" => "e03b93d6-52ce-4afc-a36e-70cac500047b"],
+            ["translation_id" => "62fa91ed-78b5-45a2-a846-63167fe643dd", "translatable_type" => "App\Models\Description", "translatable_id" => "e03b93d6-52ce-4afc-a36e-70cac500047b"],
+            //1473
+            ["translation_id" => "47855e37-62f0-4eb3-9ebe-3717eec13ac1", "translatable_type" => "App\Models\Description", "translatable_id" => "6800e7bb-f2a2-4f6c-830d-bc0568a0cafc"],
+            ["translation_id" => "25b88950-06c8-4ed7-a011-7bb41b3fb3fa", "translatable_type" => "App\Models\Description", "translatable_id" => "6800e7bb-f2a2-4f6c-830d-bc0568a0cafc"],
+            ["translation_id" => "df7bc9d5-c0bc-403b-8e62-dcebfe1c4985", "translatable_type" => "App\Models\Description", "translatable_id" => "6800e7bb-f2a2-4f6c-830d-bc0568a0cafc"],
+            //1474
+            ["translation_id" => "9f7b980d-7c14-49ff-8210-a86048c5e810", "translatable_type" => "App\Models\Description", "translatable_id" => "9e5c6a2f-3526-4f5b-8319-c3278b463b5c"],
+            ["translation_id" => "7f4d0a3c-ee6d-4c64-b6a7-3dc9fb146cc9", "translatable_type" => "App\Models\Description", "translatable_id" => "9e5c6a2f-3526-4f5b-8319-c3278b463b5c"],
+            ["translation_id" => "e3eddfc6-9683-4627-bed2-1bfe702ca156", "translatable_type" => "App\Models\Description", "translatable_id" => "9e5c6a2f-3526-4f5b-8319-c3278b463b5c"],
+            //1475
+            ["translation_id" => "f7e81745-1094-4dcd-8378-df2c5cc00af5", "translatable_type" => "App\Models\Description", "translatable_id" => "ba8fb43e-84b6-4308-83a7-bbba8d361638"],
+            ["translation_id" => "f4d2051d-9d7f-4938-b836-62ca69803b0b", "translatable_type" => "App\Models\Description", "translatable_id" => "ba8fb43e-84b6-4308-83a7-bbba8d361638"],
+            ["translation_id" => "aea6a70f-f028-4d29-9319-c5cf335b2317", "translatable_type" => "App\Models\Description", "translatable_id" => "ba8fb43e-84b6-4308-83a7-bbba8d361638"],
+            //1476
+            ["translation_id" => "f1d21daf-40b5-4397-a52d-0605a5798154", "translatable_type" => "App\Models\Description", "translatable_id" => "0b649ab3-b244-452f-be39-5a9c726385a8"],
+            ["translation_id" => "a0d6a7e7-abd5-44ef-bc05-cde499e4c035", "translatable_type" => "App\Models\Description", "translatable_id" => "0b649ab3-b244-452f-be39-5a9c726385a8"],
+            ["translation_id" => "31a5d989-f654-4193-8178-1239803a2638", "translatable_type" => "App\Models\Description", "translatable_id" => "0b649ab3-b244-452f-be39-5a9c726385a8"],
+            //1477
+            ["translation_id" => "55528dec-3730-48a9-8e48-8ba113abcd04", "translatable_type" => "App\Models\Description", "translatable_id" => "7c941353-e1fc-48fd-895b-5cc2680d1d3a"],
+            ["translation_id" => "e41d4786-4a65-4974-b094-a48a6c44d1a5", "translatable_type" => "App\Models\Description", "translatable_id" => "7c941353-e1fc-48fd-895b-5cc2680d1d3a"],
+            ["translation_id" => "18fefbdd-4ba4-4d09-a7ea-25745d025336", "translatable_type" => "App\Models\Description", "translatable_id" => "7c941353-e1fc-48fd-895b-5cc2680d1d3a"],
+            //1478
+            ["translation_id" => "d5f3b3d8-2e1b-4b6e-8b07-01855897ce4b", "translatable_type" => "App\Models\Description", "translatable_id" => "089408d5-7aca-4b2d-95e3-16df6432f518"],
+            ["translation_id" => "7ef6bfff-a658-46d8-afe5-697b969b12f1", "translatable_type" => "App\Models\Description", "translatable_id" => "089408d5-7aca-4b2d-95e3-16df6432f518"],
+            ["translation_id" => "5eeebc0b-13ad-4aee-a13a-ac3d51e9c564", "translatable_type" => "App\Models\Description", "translatable_id" => "089408d5-7aca-4b2d-95e3-16df6432f518"],
+            //1479
+            ["translation_id" => "cd5e405f-e238-480d-86ac-2f8a2f73fff2", "translatable_type" => "App\Models\Description", "translatable_id" => "837a1022-20b7-4320-b99e-08b61ea54ecf"],
+            ["translation_id" => "83114b72-f7ba-4eff-9797-ecb394f4a74f", "translatable_type" => "App\Models\Description", "translatable_id" => "837a1022-20b7-4320-b99e-08b61ea54ecf"],
+            ["translation_id" => "b371b001-efa3-47b3-ae7d-a018c8c3ce54", "translatable_type" => "App\Models\Description", "translatable_id" => "837a1022-20b7-4320-b99e-08b61ea54ecf"],
+            //1480
+            ["translation_id" => "bb1d3165-f4ba-4bfb-90a6-9c9cf5092063", "translatable_type" => "App\Models\Description", "translatable_id" => "dab0d7b5-11ad-4647-a41d-12b77032df97"],
+            ["translation_id" => "cba273a1-1baf-4350-b325-4bffc1e28c56", "translatable_type" => "App\Models\Description", "translatable_id" => "dab0d7b5-11ad-4647-a41d-12b77032df97"],
+            ["translation_id" => "ef539272-7669-4e0e-9abb-c2460b083295", "translatable_type" => "App\Models\Description", "translatable_id" => "dab0d7b5-11ad-4647-a41d-12b77032df97"],
+            //1481
+            ["translation_id" => "78227cd3-fb00-4523-ba41-c13fdce67351", "translatable_type" => "App\Models\Description", "translatable_id" => "5dc1955b-7c7d-4be9-b392-8a495bcce757"],
+            ["translation_id" => "8d2dd25d-7f63-4cbf-a4cd-1772446867df", "translatable_type" => "App\Models\Description", "translatable_id" => "5dc1955b-7c7d-4be9-b392-8a495bcce757"],
+            ["translation_id" => "64708adc-11a7-44ee-a1ad-b02d9168e2ec", "translatable_type" => "App\Models\Description", "translatable_id" => "5dc1955b-7c7d-4be9-b392-8a495bcce757"],
+            //1482
+            ["translation_id" => "d68bc0a2-dccc-452c-9cec-187d41b51ac1", "translatable_type" => "App\Models\Description", "translatable_id" => "cdbe990a-75aa-4058-afd1-3933b1ebce08"],
+            ["translation_id" => "2188617c-ee0d-415c-b31b-a09deb209204", "translatable_type" => "App\Models\Description", "translatable_id" => "cdbe990a-75aa-4058-afd1-3933b1ebce08"],
+            ["translation_id" => "8a657364-f9d4-47dd-9342-a0a2d729df67", "translatable_type" => "App\Models\Description", "translatable_id" => "cdbe990a-75aa-4058-afd1-3933b1ebce08"],
+            //1483
+            ["translation_id" => "59014445-531e-4477-bdd1-cdedfa36b387", "translatable_type" => "App\Models\Description", "translatable_id" => "55a4261d-15d6-453a-b37f-02628cbcce86"],
+            ["translation_id" => "85246ee5-8233-432b-b230-8862a7c4f0d1", "translatable_type" => "App\Models\Description", "translatable_id" => "55a4261d-15d6-453a-b37f-02628cbcce86"],
+            ["translation_id" => "60dbc4cc-52a7-4742-84c5-53292b46334d", "translatable_type" => "App\Models\Description", "translatable_id" => "55a4261d-15d6-453a-b37f-02628cbcce86"],
+            //1484
+            ["translation_id" => "c62d38a4-5839-4eee-9305-45401a6926fc", "translatable_type" => "App\Models\Description", "translatable_id" => "76aff91f-afc7-4f31-a2b9-144d72e7b75f"],
+            ["translation_id" => "8dde6a00-101f-40a7-a985-62937771af50", "translatable_type" => "App\Models\Description", "translatable_id" => "76aff91f-afc7-4f31-a2b9-144d72e7b75f"],
+            ["translation_id" => "63fe86c3-a779-4971-8232-99e720eebf4a", "translatable_type" => "App\Models\Description", "translatable_id" => "76aff91f-afc7-4f31-a2b9-144d72e7b75f"],
+            //1485
+            ["translation_id" => "17599ab4-b2ae-4373-af84-14a7984c54ce", "translatable_type" => "App\Models\Description", "translatable_id" => "bf585a77-a2e5-40c4-b849-60ab7f5155db"],
+            ["translation_id" => "5fcd7937-9713-4d66-8700-5a09b4e39800", "translatable_type" => "App\Models\Description", "translatable_id" => "bf585a77-a2e5-40c4-b849-60ab7f5155db"],
+            ["translation_id" => "dfe9a24c-6f0f-4307-8389-fe897f1712b8", "translatable_type" => "App\Models\Description", "translatable_id" => "bf585a77-a2e5-40c4-b849-60ab7f5155db"],
+            //1486
+            ["translation_id" => "6887e367-3abb-431c-b108-4c3b310472f7", "translatable_type" => "App\Models\Description", "translatable_id" => "026cef79-aaa5-42aa-a14f-c14942c143a9"],
+            ["translation_id" => "297319be-9494-4e2d-9956-1541edc7f974", "translatable_type" => "App\Models\Description", "translatable_id" => "026cef79-aaa5-42aa-a14f-c14942c143a9"],
+            ["translation_id" => "d60f5d33-9657-4ff0-81ad-7f1849cacb5d", "translatable_type" => "App\Models\Description", "translatable_id" => "026cef79-aaa5-42aa-a14f-c14942c143a9"],
+            //1487
+            ["translation_id" => "ff522f9b-45eb-486b-9d19-c9eca0d27ff4", "translatable_type" => "App\Models\Description", "translatable_id" => "670d00e9-24b7-4ee5-99f2-3f9b1135764b"],
+            ["translation_id" => "f66db623-bcaf-466c-813e-7cb3f64181d6", "translatable_type" => "App\Models\Description", "translatable_id" => "670d00e9-24b7-4ee5-99f2-3f9b1135764b"],
+            ["translation_id" => "6caabcf3-c0cc-4530-954b-571d4a88123a", "translatable_type" => "App\Models\Description", "translatable_id" => "670d00e9-24b7-4ee5-99f2-3f9b1135764b"],
+            //1488
+            ["translation_id" => "93ed67f2-8746-48d5-acea-4ca4ddd0d7ea", "translatable_type" => "App\Models\Description", "translatable_id" => "7b71bb80-01e7-4251-b834-4ba67c53d5df"],
+            ["translation_id" => "923658da-3d1f-45b1-82de-46fbdfc531d1", "translatable_type" => "App\Models\Description", "translatable_id" => "7b71bb80-01e7-4251-b834-4ba67c53d5df"],
+            ["translation_id" => "daf8d065-921e-4e66-b4f0-72f5e50d784f", "translatable_type" => "App\Models\Description", "translatable_id" => "7b71bb80-01e7-4251-b834-4ba67c53d5df"],
+            //1489
+            ["translation_id" => "bc72b826-bafc-4e54-9416-cc3548adf63e", "translatable_type" => "App\Models\Description", "translatable_id" => "4f7b1f58-ea0b-46e2-a493-20c81a10cb77"],
+            ["translation_id" => "8224724b-a7e7-4696-bf1a-c68550acef92", "translatable_type" => "App\Models\Description", "translatable_id" => "4f7b1f58-ea0b-46e2-a493-20c81a10cb77"],
+            ["translation_id" => "faaa618e-52c2-4a51-bc4d-2deb1ea9489b", "translatable_type" => "App\Models\Description", "translatable_id" => "4f7b1f58-ea0b-46e2-a493-20c81a10cb77"],
+            //1490
+            ["translation_id" => "c6db6f56-bee2-432a-a4ac-42c3b666b8f0", "translatable_type" => "App\Models\Description", "translatable_id" => "a64f3ed4-76e5-4495-a37f-f9827e35f83c"],
+            ["translation_id" => "b4b403c6-48e4-4fc6-8542-c373b354f527", "translatable_type" => "App\Models\Description", "translatable_id" => "a64f3ed4-76e5-4495-a37f-f9827e35f83c"],
+            ["translation_id" => "60ebf2e6-a2a8-48b7-baa4-9bd553d83773", "translatable_type" => "App\Models\Description", "translatable_id" => "a64f3ed4-76e5-4495-a37f-f9827e35f83c"],
+            //1491
+            ["translation_id" => "4377af15-c8ed-40bd-bba7-04e0e2005b64", "translatable_type" => "App\Models\Description", "translatable_id" => "3b9de6f0-20df-47b0-bda7-2a298697e5d2"],
+            ["translation_id" => "4e5aa6ca-7333-4a3f-926d-a3ba7f33e226", "translatable_type" => "App\Models\Description", "translatable_id" => "3b9de6f0-20df-47b0-bda7-2a298697e5d2"],
+            ["translation_id" => "5f8e188d-80c7-4fef-b720-dd66a83bae79", "translatable_type" => "App\Models\Description", "translatable_id" => "3b9de6f0-20df-47b0-bda7-2a298697e5d2"],
+            //1492
+            ["translation_id" => "a2ec26f3-5ad2-419a-b64c-d43ae098044e", "translatable_type" => "App\Models\Description", "translatable_id" => "1068d809-017c-4955-9061-aad939346411"],
+            ["translation_id" => "fd12c661-b367-4bbc-936b-68b45e62118d", "translatable_type" => "App\Models\Description", "translatable_id" => "1068d809-017c-4955-9061-aad939346411"],
+            ["translation_id" => "e7c9478a-40c5-4f5f-aeaf-19375873c994", "translatable_type" => "App\Models\Description", "translatable_id" => "1068d809-017c-4955-9061-aad939346411"],
+            //1493
+            ["translation_id" => "2300e1ca-ea17-4144-8a9d-8aabb9392319", "translatable_type" => "App\Models\Description", "translatable_id" => "a655295d-8101-4c65-a7a4-286467abdc83"],
+            ["translation_id" => "8cac0ca1-6077-4439-afe3-6cbebca9e942", "translatable_type" => "App\Models\Description", "translatable_id" => "a655295d-8101-4c65-a7a4-286467abdc83"],
+            ["translation_id" => "62af3038-3cf9-4f16-99b9-3f30e508dc43", "translatable_type" => "App\Models\Description", "translatable_id" => "a655295d-8101-4c65-a7a4-286467abdc83"],
+            //1494
+            ["translation_id" => "be2c43ee-cc04-4236-8bda-ab152a28334b", "translatable_type" => "App\Models\Description", "translatable_id" => "e0480bb0-2f73-4428-bbef-856de6fbd0ce"],
+            ["translation_id" => "f93ccf22-23dc-49a6-be36-84383f3f9ce6", "translatable_type" => "App\Models\Description", "translatable_id" => "e0480bb0-2f73-4428-bbef-856de6fbd0ce"],
+            ["translation_id" => "c4620ee6-e622-499d-8dbe-aeb259b2a317", "translatable_type" => "App\Models\Description", "translatable_id" => "e0480bb0-2f73-4428-bbef-856de6fbd0ce"],
+            //1495
+            ["translation_id" => "c5acea2c-efea-4d0e-b34e-ecfec10732f9", "translatable_type" => "App\Models\Description", "translatable_id" => "27a23812-987b-49cf-8049-394a1c0bb744"],
+            ["translation_id" => "f5706f97-5e01-49f6-be67-6bb357a07312", "translatable_type" => "App\Models\Description", "translatable_id" => "27a23812-987b-49cf-8049-394a1c0bb744"],
+            ["translation_id" => "8a7b6f74-73ec-4276-87dc-622d1db8ba4b", "translatable_type" => "App\Models\Description", "translatable_id" => "27a23812-987b-49cf-8049-394a1c0bb744"],
+            //1496
+            ["translation_id" => "9dcfa977-86ee-490d-be24-272c054741a4", "translatable_type" => "App\Models\Description", "translatable_id" => "11e64459-d23f-478e-a5c0-ba1a0dc75714"],
+            ["translation_id" => "cb4d9ee4-4224-46d4-a075-b592fe4331cd", "translatable_type" => "App\Models\Description", "translatable_id" => "11e64459-d23f-478e-a5c0-ba1a0dc75714"],
+            ["translation_id" => "02b4f25f-956f-469c-83ab-af5284fc3469", "translatable_type" => "App\Models\Description", "translatable_id" => "11e64459-d23f-478e-a5c0-ba1a0dc75714"],
+            //1497
+            ["translation_id" => "df5a0117-28e3-42a9-833e-5a3c03efa904", "translatable_type" => "App\Models\Description", "translatable_id" => "273733d7-6518-43e2-81a8-bc870a092a35"],
+            ["translation_id" => "75cd60d0-35c9-4d2c-ac4c-d73d9c1f43ff", "translatable_type" => "App\Models\Description", "translatable_id" => "273733d7-6518-43e2-81a8-bc870a092a35"],
+            ["translation_id" => "1591e634-62f9-43d8-b7f1-3053ba294d2a", "translatable_type" => "App\Models\Description", "translatable_id" => "273733d7-6518-43e2-81a8-bc870a092a35"],
+            //1498
+            ["translation_id" => "94185a10-1e8a-471a-ba4e-843d331ed648", "translatable_type" => "App\Models\Description", "translatable_id" => "8b911f69-cc2f-4167-beff-3ece582690f9"],
+            ["translation_id" => "a20022a1-6625-48dc-a958-98feaf1b6c5a", "translatable_type" => "App\Models\Description", "translatable_id" => "8b911f69-cc2f-4167-beff-3ece582690f9"],
+            ["translation_id" => "eddd69ab-d4ea-4552-93c7-e95f2cc27187", "translatable_type" => "App\Models\Description", "translatable_id" => "8b911f69-cc2f-4167-beff-3ece582690f9"],
+            //1499
+            ["translation_id" => "b488c167-cc12-41ee-896e-4ae6aa3750f0", "translatable_type" => "App\Models\Description", "translatable_id" => "2f29a5c8-a899-4ccc-9ea4-2f447ec64388"],
+            ["translation_id" => "72420c41-dbed-4eea-9123-b6b54e54632c", "translatable_type" => "App\Models\Description", "translatable_id" => "2f29a5c8-a899-4ccc-9ea4-2f447ec64388"],
+            ["translation_id" => "d164b07b-5768-49c1-8a22-2cccf2f53162", "translatable_type" => "App\Models\Description", "translatable_id" => "2f29a5c8-a899-4ccc-9ea4-2f447ec64388"],
+            //1500
+            ["translation_id" => "076a8242-4f3a-4f42-a333-a1eb18754664", "translatable_type" => "App\Models\Description", "translatable_id" => "fb5d6629-43e7-481b-b6a8-e5848fac0408"],
+            ["translation_id" => "89868113-21c6-4627-b0dd-8a56396fe0d0", "translatable_type" => "App\Models\Description", "translatable_id" => "fb5d6629-43e7-481b-b6a8-e5848fac0408"],
+            ["translation_id" => "427967bc-1c10-4936-9bf3-6260c5ca03c6", "translatable_type" => "App\Models\Description", "translatable_id" => "fb5d6629-43e7-481b-b6a8-e5848fac0408"],
+            //1501
+            ["translation_id" => "69397b2e-e708-448b-80f1-2a9885ba97b8", "translatable_type" => "App\Models\Description", "translatable_id" => "c5fa696c-7d06-4257-a00f-76c94ce23ad2"],
+            ["translation_id" => "3c90235b-b8e7-4e57-85d2-081fea84fbde", "translatable_type" => "App\Models\Description", "translatable_id" => "c5fa696c-7d06-4257-a00f-76c94ce23ad2"],
+            ["translation_id" => "c561f856-eced-4180-b575-499a74c188c4", "translatable_type" => "App\Models\Description", "translatable_id" => "c5fa696c-7d06-4257-a00f-76c94ce23ad2"],
+            //1502
+            ["translation_id" => "7bff5e8f-7a9e-4451-acaa-f7df5c5dede5", "translatable_type" => "App\Models\Description", "translatable_id" => "fb293091-b4d2-4842-a496-b950b00faab6"],
+            ["translation_id" => "f1df0a83-fdf8-4b95-bb20-ae7097883ea8", "translatable_type" => "App\Models\Description", "translatable_id" => "fb293091-b4d2-4842-a496-b950b00faab6"],
+            ["translation_id" => "ed27a31f-0da2-4bc7-afd8-ab126778abb1", "translatable_type" => "App\Models\Description", "translatable_id" => "fb293091-b4d2-4842-a496-b950b00faab6"],
+            //1503
+            ["translation_id" => "13aac97b-c0ac-4bfd-9ec1-cce79bb336d7", "translatable_type" => "App\Models\Description", "translatable_id" => "b2b2eb30-8fe9-4ff2-a9eb-6d0fa8d0f8ed"],
+            ["translation_id" => "482d5a9d-abe0-444c-bb92-d7bc7f44af65", "translatable_type" => "App\Models\Description", "translatable_id" => "b2b2eb30-8fe9-4ff2-a9eb-6d0fa8d0f8ed"],
+            ["translation_id" => "0bb44752-b221-4527-bb6f-178306d7003e", "translatable_type" => "App\Models\Description", "translatable_id" => "b2b2eb30-8fe9-4ff2-a9eb-6d0fa8d0f8ed"],
+            //1504
+            ["translation_id" => "222ff1c2-25ab-4b6f-b2e2-fe78c7aece37", "translatable_type" => "App\Models\Description", "translatable_id" => "517187be-d7c7-476b-b18c-d609da24b700"],
+            ["translation_id" => "9ebd08d1-bd17-482d-a49c-b48c5e6aa8a1", "translatable_type" => "App\Models\Description", "translatable_id" => "517187be-d7c7-476b-b18c-d609da24b700"],
+            ["translation_id" => "d52f916e-4e51-4363-8c12-e69d2bd04bc0", "translatable_type" => "App\Models\Description", "translatable_id" => "517187be-d7c7-476b-b18c-d609da24b700"],
+            //1505
+            ["translation_id" => "03b2206f-cb3f-4501-8f64-e6dc09bb10e0", "translatable_type" => "App\Models\Description", "translatable_id" => "3cb39659-8790-49f3-b278-1f76b836064d"],
+            ["translation_id" => "ca3909ab-92bc-44e5-83e8-7506cb658161", "translatable_type" => "App\Models\Description", "translatable_id" => "3cb39659-8790-49f3-b278-1f76b836064d"],
+            ["translation_id" => "8a5019be-c83b-44f5-971d-fb5092e21778", "translatable_type" => "App\Models\Description", "translatable_id" => "3cb39659-8790-49f3-b278-1f76b836064d"],
+            //1506
+            ["translation_id" => "120c0536-6b29-4b6e-a2dd-3095cf7f1f2a", "translatable_type" => "App\Models\Description", "translatable_id" => "5205e0f9-7bee-4d3c-a9d9-e6e8b3546fbf"],
+            ["translation_id" => "c7b7d3f9-17db-46f4-9f82-865daa118e12", "translatable_type" => "App\Models\Description", "translatable_id" => "5205e0f9-7bee-4d3c-a9d9-e6e8b3546fbf"],
+            ["translation_id" => "70192779-9ba7-4fab-8d9c-59a9ddf33cf0", "translatable_type" => "App\Models\Description", "translatable_id" => "5205e0f9-7bee-4d3c-a9d9-e6e8b3546fbf"],
+            //1507
+            ["translation_id" => "2a9339e9-bcb7-41c1-9a60-f782a46f329d", "translatable_type" => "App\Models\Description", "translatable_id" => "96b83d93-d9fb-4b85-ad58-e5e98f15c3e4"],
+            ["translation_id" => "32b5be55-9543-4486-88dc-2ec788a219cd", "translatable_type" => "App\Models\Description", "translatable_id" => "96b83d93-d9fb-4b85-ad58-e5e98f15c3e4"],
+            ["translation_id" => "95f93bc1-ae26-441d-a67e-6a32609932c0", "translatable_type" => "App\Models\Description", "translatable_id" => "96b83d93-d9fb-4b85-ad58-e5e98f15c3e4"],
+            //1508
+            ["translation_id" => "b6143086-3477-4928-8421-dc7f2f8545cc", "translatable_type" => "App\Models\Description", "translatable_id" => "dba9b066-4778-4cb8-85aa-b167c6532ba0"],
+            ["translation_id" => "562ddec9-1b0f-465f-ad77-88f2567ba67f", "translatable_type" => "App\Models\Description", "translatable_id" => "dba9b066-4778-4cb8-85aa-b167c6532ba0"],
+            ["translation_id" => "7e5dfd6e-9e0f-4583-959e-7d78afbb7b89", "translatable_type" => "App\Models\Description", "translatable_id" => "dba9b066-4778-4cb8-85aa-b167c6532ba0"],
+            //1509
+            ["translation_id" => "f96252c8-483f-4ee3-be6e-cfacee6e8d15", "translatable_type" => "App\Models\Description", "translatable_id" => "25032caf-203d-4346-906d-718fdae7e493"],
+            ["translation_id" => "1d06eec3-b851-4485-b92d-78d49b2e4ad8", "translatable_type" => "App\Models\Description", "translatable_id" => "25032caf-203d-4346-906d-718fdae7e493"],
+            ["translation_id" => "42f22ece-f908-4823-90fb-4bebf07e0b40", "translatable_type" => "App\Models\Description", "translatable_id" => "25032caf-203d-4346-906d-718fdae7e493"],
+            //1510
+            ["translation_id" => "7754350e-e69c-4f67-9a53-27ce5b6ecd90", "translatable_type" => "App\Models\Description", "translatable_id" => "fbe32584-97c8-4992-9fb3-9c35c3a07aed"],
+            ["translation_id" => "580eb0ab-64dd-47d4-8f11-59e73d9e77fb", "translatable_type" => "App\Models\Description", "translatable_id" => "fbe32584-97c8-4992-9fb3-9c35c3a07aed"],
+            ["translation_id" => "b109cf7e-74c5-439e-af2f-86e51f09c55a", "translatable_type" => "App\Models\Description", "translatable_id" => "fbe32584-97c8-4992-9fb3-9c35c3a07aed"],
+            //1511
+            ["translation_id" => "a733d334-1269-4d3a-bd27-b93057b33753", "translatable_type" => "App\Models\Description", "translatable_id" => "cdcd101a-0fbc-4f37-9bcf-c12284a287c9"],
+            ["translation_id" => "f1ab6be8-6785-4b1d-b6e3-f206de1627e8", "translatable_type" => "App\Models\Description", "translatable_id" => "cdcd101a-0fbc-4f37-9bcf-c12284a287c9"],
+            ["translation_id" => "694cd385-0eb6-48f7-a58f-0b0d51d73348", "translatable_type" => "App\Models\Description", "translatable_id" => "cdcd101a-0fbc-4f37-9bcf-c12284a287c9"],
+            //1512
+            ["translation_id" => "4bbb1f27-4d5d-4a9b-8bf5-dc05ed9bd558", "translatable_type" => "App\Models\Description", "translatable_id" => "3b8cdba0-9dde-492c-871c-5798b9636dab"],
+            ["translation_id" => "7b5c76d7-e204-4d00-85f3-7ef1f49c7a80", "translatable_type" => "App\Models\Description", "translatable_id" => "3b8cdba0-9dde-492c-871c-5798b9636dab"],
+            ["translation_id" => "65ec9ea9-21dd-4e13-9b2e-cbc5e68fd495", "translatable_type" => "App\Models\Description", "translatable_id" => "3b8cdba0-9dde-492c-871c-5798b9636dab"],
+            //1513
+            ["translation_id" => "56164727-77fe-417c-8599-71ba60004272", "translatable_type" => "App\Models\Description", "translatable_id" => "bf1bf880-cab4-45b1-a0a1-11a127268e4f"],
+            ["translation_id" => "ca255d8e-79dd-4828-a207-3dfc8ca44335", "translatable_type" => "App\Models\Description", "translatable_id" => "bf1bf880-cab4-45b1-a0a1-11a127268e4f"],
+            ["translation_id" => "bfb5b627-6b8c-4f16-bcf9-463e47dd4015", "translatable_type" => "App\Models\Description", "translatable_id" => "bf1bf880-cab4-45b1-a0a1-11a127268e4f"],
+            //1514
+            ["translation_id" => "03b504d2-4089-46e3-81fe-c475a82b8e0e", "translatable_type" => "App\Models\Description", "translatable_id" => "e0a0ca47-7bd9-40e6-a3a6-308d59da6d89"],
+            ["translation_id" => "4f0a5833-c311-4379-9c4c-948c937ecde7", "translatable_type" => "App\Models\Description", "translatable_id" => "e0a0ca47-7bd9-40e6-a3a6-308d59da6d89"],
+            ["translation_id" => "76fe8582-cd8d-4f51-8f43-e0b46e0b7e26", "translatable_type" => "App\Models\Description", "translatable_id" => "e0a0ca47-7bd9-40e6-a3a6-308d59da6d89"],
+            //1515
+            ["translation_id" => "e4252260-1d23-4e2e-a7b4-cbdf37d2083a", "translatable_type" => "App\Models\Description", "translatable_id" => "c243a51a-2a4d-4f40-aa46-bf07a098f617"],
+            ["translation_id" => "3b7b65fb-c0a9-430a-a4fe-5133100a236d", "translatable_type" => "App\Models\Description", "translatable_id" => "c243a51a-2a4d-4f40-aa46-bf07a098f617"],
+            ["translation_id" => "c6d2f6f1-ea32-4fba-a32f-489b8e4b1b93", "translatable_type" => "App\Models\Description", "translatable_id" => "c243a51a-2a4d-4f40-aa46-bf07a098f617"],
+            //1516
+            ["translation_id" => "3ea04d28-29ca-4f58-b813-bb4b68c4ccd8", "translatable_type" => "App\Models\Description", "translatable_id" => "b4fb00c5-d44c-4510-b390-6acb0ce15ed2"],
+            ["translation_id" => "264f5994-3b1d-4bf5-91a2-036cfc0917bf", "translatable_type" => "App\Models\Description", "translatable_id" => "b4fb00c5-d44c-4510-b390-6acb0ce15ed2"],
+            ["translation_id" => "0a436061-0f1d-4908-9b24-1d398bf15157", "translatable_type" => "App\Models\Description", "translatable_id" => "b4fb00c5-d44c-4510-b390-6acb0ce15ed2"],
+            //1517
+            ["translation_id" => "a0f561b9-5b32-4adc-90bd-59a3d13e2e4c", "translatable_type" => "App\Models\Description", "translatable_id" => "941728da-d227-4eb7-b0d3-db3b3830106f"],
+            ["translation_id" => "637cad38-6631-430d-be29-b735372dc899", "translatable_type" => "App\Models\Description", "translatable_id" => "941728da-d227-4eb7-b0d3-db3b3830106f"],
+            ["translation_id" => "9f43de8d-f59b-481f-b81b-ba335ffda350", "translatable_type" => "App\Models\Description", "translatable_id" => "941728da-d227-4eb7-b0d3-db3b3830106f"],
+            //1518
+            ["translation_id" => "d4bd18f0-bacb-43a1-9de8-d528c60c9a1b", "translatable_type" => "App\Models\Description", "translatable_id" => "83df8b5e-4a47-42cb-822d-68a641ace84e"],
+            ["translation_id" => "46d1ca18-a34b-4513-9504-1ad3730717da", "translatable_type" => "App\Models\Description", "translatable_id" => "83df8b5e-4a47-42cb-822d-68a641ace84e"],
+            ["translation_id" => "cc6df60d-488a-4363-bdb0-3b21c5db644e", "translatable_type" => "App\Models\Description", "translatable_id" => "83df8b5e-4a47-42cb-822d-68a641ace84e"],
+            //1519
+            ["translation_id" => "11a077b6-57a2-4dab-8c8a-519c2623b5c5", "translatable_type" => "App\Models\Description", "translatable_id" => "4742b061-e672-49a0-b3da-08f7bdf3682b"],
+            ["translation_id" => "f774648c-fba2-44b8-9837-698fe4933864", "translatable_type" => "App\Models\Description", "translatable_id" => "4742b061-e672-49a0-b3da-08f7bdf3682b"],
+            ["translation_id" => "e5a236eb-aef9-4209-8921-b1858a2d957e", "translatable_type" => "App\Models\Description", "translatable_id" => "4742b061-e672-49a0-b3da-08f7bdf3682b"],
+            //1520
+            ["translation_id" => "f6a28f64-ae94-4320-8579-e187283ef3a2", "translatable_type" => "App\Models\Description", "translatable_id" => "17ee7f9d-5c91-4321-8dea-2024a94b1475"],
+            ["translation_id" => "6365b25a-4c9f-40bf-891f-ae3f4d95822a", "translatable_type" => "App\Models\Description", "translatable_id" => "17ee7f9d-5c91-4321-8dea-2024a94b1475"],
+            ["translation_id" => "5f5f1ab2-f518-44ce-bb86-8ad6f9cfb343", "translatable_type" => "App\Models\Description", "translatable_id" => "17ee7f9d-5c91-4321-8dea-2024a94b1475"],
+            //1521
+            ["translation_id" => "d77f2155-61f1-4b1e-80e1-3ed72e2fde2d", "translatable_type" => "App\Models\Description", "translatable_id" => "3ab051b4-3370-40d2-81d9-8b39c69ccd06"],
+            ["translation_id" => "890cb0f8-e2a0-433e-ae29-5c6d324bed9b", "translatable_type" => "App\Models\Description", "translatable_id" => "3ab051b4-3370-40d2-81d9-8b39c69ccd06"],
+            ["translation_id" => "10d7346f-7e49-473f-8a05-0aea874ba45d", "translatable_type" => "App\Models\Description", "translatable_id" => "3ab051b4-3370-40d2-81d9-8b39c69ccd06"],
+            //1522
+            ["translation_id" => "80be3537-bdd7-4fb6-bd65-fdf150f69997", "translatable_type" => "App\Models\Description", "translatable_id" => "49608a22-e678-4ca6-a5d0-f52d7ea5aad1"],
+            ["translation_id" => "d2f6ff68-c3c2-4d7d-894f-8bdef8163542", "translatable_type" => "App\Models\Description", "translatable_id" => "49608a22-e678-4ca6-a5d0-f52d7ea5aad1"],
+            ["translation_id" => "48aa81c5-8b57-42dd-bcd4-aae8bb7b988d", "translatable_type" => "App\Models\Description", "translatable_id" => "49608a22-e678-4ca6-a5d0-f52d7ea5aad1"],
+            //1523
+            ["translation_id" => "21c88d9f-14a7-4600-8c23-07686f24b469", "translatable_type" => "App\Models\Description", "translatable_id" => "c0772bab-1656-437c-bf74-0c3b6174f929"],
+            ["translation_id" => "462a2f1d-c49f-4cc1-a1fd-286fe41a63dc", "translatable_type" => "App\Models\Description", "translatable_id" => "c0772bab-1656-437c-bf74-0c3b6174f929"],
+            ["translation_id" => "88cda19b-37ca-414a-9fa3-32bacb7a8215", "translatable_type" => "App\Models\Description", "translatable_id" => "c0772bab-1656-437c-bf74-0c3b6174f929"],
+            //1524
+            ["translation_id" => "af471c25-c194-4def-85e6-faf73822ef2c", "translatable_type" => "App\Models\Description", "translatable_id" => "ed2669f7-6dbd-4959-85ff-288e0400dda9"],
+            ["translation_id" => "11cbb49c-3afc-4949-b83a-d699afd2ec6d", "translatable_type" => "App\Models\Description", "translatable_id" => "ed2669f7-6dbd-4959-85ff-288e0400dda9"],
+            ["translation_id" => "b769354e-c422-466b-aa44-1e30b5185e2e", "translatable_type" => "App\Models\Description", "translatable_id" => "ed2669f7-6dbd-4959-85ff-288e0400dda9"],
+            //1525
+            ["translation_id" => "947d67e0-2328-406a-a6fa-7077f67bac24", "translatable_type" => "App\Models\Description", "translatable_id" => "1ca415f0-cb00-43d5-be34-0dfa891e10ef"],
+            ["translation_id" => "217dbe6f-4ff9-4f2e-94dc-359076411c1a", "translatable_type" => "App\Models\Description", "translatable_id" => "1ca415f0-cb00-43d5-be34-0dfa891e10ef"],
+            ["translation_id" => "a7465962-67ad-4ab7-a79c-6f9edd233586", "translatable_type" => "App\Models\Description", "translatable_id" => "1ca415f0-cb00-43d5-be34-0dfa891e10ef"],
+            //1526
+            ["translation_id" => "de5dfffc-2baa-4c0d-ab54-6ca36a6f703e", "translatable_type" => "App\Models\Description", "translatable_id" => "b1077b30-2564-4af9-a9c3-faf5df6c0e4d"],
+            ["translation_id" => "62e54b1f-90bf-4f2f-915d-718a3fe82ab1", "translatable_type" => "App\Models\Description", "translatable_id" => "b1077b30-2564-4af9-a9c3-faf5df6c0e4d"],
+            ["translation_id" => "8a2f3581-df12-49a9-8faa-448dbfecdc75", "translatable_type" => "App\Models\Description", "translatable_id" => "b1077b30-2564-4af9-a9c3-faf5df6c0e4d"],
+            //1527
+            ["translation_id" => "ea4b72bb-6570-4975-bb9b-a4237a4a4cde", "translatable_type" => "App\Models\Description", "translatable_id" => "5933fb7b-a86b-4a6b-9bd5-d8e17e0f89b7"],
+            ["translation_id" => "f4ab1e5d-3eb6-4f90-af0a-21e651ae43ed", "translatable_type" => "App\Models\Description", "translatable_id" => "5933fb7b-a86b-4a6b-9bd5-d8e17e0f89b7"],
+            ["translation_id" => "6218d3e3-fe91-4db3-9f10-3c58debab5c2", "translatable_type" => "App\Models\Description", "translatable_id" => "5933fb7b-a86b-4a6b-9bd5-d8e17e0f89b7"],
+            //1528
+            ["translation_id" => "f162f619-f470-483e-889e-83b4e7d861eb", "translatable_type" => "App\Models\Description", "translatable_id" => "88cdb56d-926e-4fe1-a0e1-44dda62fc6f8"],
+            ["translation_id" => "826dac1a-6464-4e8c-9010-a569cdd6980d", "translatable_type" => "App\Models\Description", "translatable_id" => "88cdb56d-926e-4fe1-a0e1-44dda62fc6f8"],
+            ["translation_id" => "a1a5de01-f6f9-4cd0-8566-6ab3725a6cbb", "translatable_type" => "App\Models\Description", "translatable_id" => "88cdb56d-926e-4fe1-a0e1-44dda62fc6f8"],
+            //1529
+            ["translation_id" => "8e51085a-faff-487a-bf63-d39d3fb19042", "translatable_type" => "App\Models\Description", "translatable_id" => "6d2d4de2-dc3c-4c52-a8e5-1c76fcebbad1"],
+            ["translation_id" => "94ce44e8-ac96-4ad8-bc4f-094213db9aba", "translatable_type" => "App\Models\Description", "translatable_id" => "6d2d4de2-dc3c-4c52-a8e5-1c76fcebbad1"],
+            ["translation_id" => "f9b9964c-4fd5-4d85-aef0-65efb3bfba65", "translatable_type" => "App\Models\Description", "translatable_id" => "6d2d4de2-dc3c-4c52-a8e5-1c76fcebbad1"],
+            //1530
+            ["translation_id" => "bafbca37-4fe3-49ff-b188-015a90f7cac7", "translatable_type" => "App\Models\Description", "translatable_id" => "313eb782-f413-4378-a5c7-7b9fe755194c"],
+            ["translation_id" => "dd99dc2e-4294-4834-bd42-f0d6dd7208e2", "translatable_type" => "App\Models\Description", "translatable_id" => "313eb782-f413-4378-a5c7-7b9fe755194c"],
+            ["translation_id" => "8913450e-ae51-439f-a2ac-2f773d7980d1", "translatable_type" => "App\Models\Description", "translatable_id" => "313eb782-f413-4378-a5c7-7b9fe755194c"],
+            //1531
+            ["translation_id" => "84bb5c53-430c-48d6-8745-04cd5b393a4b", "translatable_type" => "App\Models\Description", "translatable_id" => "5a88b232-89bd-44f1-bf08-b033e5b24fbd"],
+            ["translation_id" => "e087ff4e-799f-4d7d-b1de-ef8db91653c5", "translatable_type" => "App\Models\Description", "translatable_id" => "5a88b232-89bd-44f1-bf08-b033e5b24fbd"],
+            ["translation_id" => "5efad02f-19a6-4776-95bc-ce3d4ad895ec", "translatable_type" => "App\Models\Description", "translatable_id" => "5a88b232-89bd-44f1-bf08-b033e5b24fbd"],
+            //1532
+            ["translation_id" => "3b55dab9-61d7-4648-9215-31fea44b79e0", "translatable_type" => "App\Models\Description", "translatable_id" => "99ce4cf2-f684-4586-9af2-3ae515766030"],
+            ["translation_id" => "64dd1409-e9a2-4fe7-afe3-84e6e19fb794", "translatable_type" => "App\Models\Description", "translatable_id" => "99ce4cf2-f684-4586-9af2-3ae515766030"],
+            ["translation_id" => "3a5be6e2-064e-4ad8-a1ab-7d09c64b10e3", "translatable_type" => "App\Models\Description", "translatable_id" => "99ce4cf2-f684-4586-9af2-3ae515766030"],
+            //1533
+            ["translation_id" => "a8e248f8-cc32-4403-a869-17236111ac12", "translatable_type" => "App\Models\Description", "translatable_id" => "6dfd4fc8-8ed9-4f88-936e-ceafd41a4f54"],
+            ["translation_id" => "6d624523-124e-459e-9cbd-a2307f27eb82", "translatable_type" => "App\Models\Description", "translatable_id" => "6dfd4fc8-8ed9-4f88-936e-ceafd41a4f54"],
+            ["translation_id" => "0d2b0bd0-7aa5-4578-8443-6bc9bb46ae69", "translatable_type" => "App\Models\Description", "translatable_id" => "6dfd4fc8-8ed9-4f88-936e-ceafd41a4f54"],
+            //1534
+            ["translation_id" => "d8bb752a-812c-4dd3-acc1-dbc8753e465a", "translatable_type" => "App\Models\Description", "translatable_id" => "ad1cc292-f32b-4f58-9956-621599413159"],
+            ["translation_id" => "7018e6f2-b53e-474b-b641-f9fc8a41076f", "translatable_type" => "App\Models\Description", "translatable_id" => "ad1cc292-f32b-4f58-9956-621599413159"],
+            ["translation_id" => "b46afcc6-4f2f-47ce-84d0-a4ff9fba019a", "translatable_type" => "App\Models\Description", "translatable_id" => "ad1cc292-f32b-4f58-9956-621599413159"],
+            //1535
+            ["translation_id" => "55ee0d97-7ca9-44f5-a89c-c398542bf6df", "translatable_type" => "App\Models\Description", "translatable_id" => "4126b8f9-7146-4c51-9cda-dbfb984631a0"],
+            ["translation_id" => "481b8edc-4aa2-4854-a6ee-3e260ec43cd0", "translatable_type" => "App\Models\Description", "translatable_id" => "4126b8f9-7146-4c51-9cda-dbfb984631a0"],
+            ["translation_id" => "08d4a0e1-5a82-4b7e-96ab-810a3ffb23b9", "translatable_type" => "App\Models\Description", "translatable_id" => "4126b8f9-7146-4c51-9cda-dbfb984631a0"],
+            //1536
+            ["translation_id" => "364d946a-0dfc-463b-afef-75d94dac9312", "translatable_type" => "App\Models\Description", "translatable_id" => "640d3e8e-7563-4d65-8cee-bdf12291dc68"],
+            ["translation_id" => "5cdb419e-ff53-4df6-8125-a9c55884832c", "translatable_type" => "App\Models\Description", "translatable_id" => "640d3e8e-7563-4d65-8cee-bdf12291dc68"],
+            ["translation_id" => "fea907f6-f2f2-468c-a55a-b9e35de5a5fd", "translatable_type" => "App\Models\Description", "translatable_id" => "640d3e8e-7563-4d65-8cee-bdf12291dc68"],
+            //1537
+            ["translation_id" => "ad60a83d-63e3-4267-8751-0c3058a82c0a", "translatable_type" => "App\Models\Description", "translatable_id" => "e14e8621-7f8d-481a-a520-bcf4c6a8e711"],
+            ["translation_id" => "ef0e154d-c28c-4849-bb90-95cccabe90d0", "translatable_type" => "App\Models\Description", "translatable_id" => "e14e8621-7f8d-481a-a520-bcf4c6a8e711"],
+            ["translation_id" => "dd3d2ecb-794a-456c-8f22-78f7b7ee98b1", "translatable_type" => "App\Models\Description", "translatable_id" => "e14e8621-7f8d-481a-a520-bcf4c6a8e711"],
+            //1538
+            ["translation_id" => "75cf6e32-9f40-459e-93bc-7fb52da906aa", "translatable_type" => "App\Models\Description", "translatable_id" => "d2af4432-c067-4f22-b64c-5ea23b26fcb3"],
+            ["translation_id" => "cf87987d-8b96-4b3e-8435-78c5c01889fb", "translatable_type" => "App\Models\Description", "translatable_id" => "d2af4432-c067-4f22-b64c-5ea23b26fcb3"],
+            ["translation_id" => "2e939691-6651-49ad-8ff8-c2bfd2bb30ca", "translatable_type" => "App\Models\Description", "translatable_id" => "d2af4432-c067-4f22-b64c-5ea23b26fcb3"],
+            //1539
+            ["translation_id" => "ca84d135-9d7e-4d89-9211-280d286006c0", "translatable_type" => "App\Models\Description", "translatable_id" => "d3b9e5df-63ea-46d9-92aa-2fee1e26d2c7"],
+            ["translation_id" => "660e33c9-4a4b-4436-b87d-596fb845eebb", "translatable_type" => "App\Models\Description", "translatable_id" => "d3b9e5df-63ea-46d9-92aa-2fee1e26d2c7"],
+            ["translation_id" => "595ea573-1ec0-4729-80ac-7260e6f883c4", "translatable_type" => "App\Models\Description", "translatable_id" => "d3b9e5df-63ea-46d9-92aa-2fee1e26d2c7"],
+            //1540
+            ["translation_id" => "5b5b6955-4a3c-4a74-a3b0-90c1e990e21f", "translatable_type" => "App\Models\Description", "translatable_id" => "7b251524-cf72-45bb-b2bd-f36036b0ed23"],
+            ["translation_id" => "fdb14cfd-e800-4762-9147-0ae3ebd22b27", "translatable_type" => "App\Models\Description", "translatable_id" => "7b251524-cf72-45bb-b2bd-f36036b0ed23"],
+            ["translation_id" => "101a1fc9-fca0-42a1-b197-80799a9b6479", "translatable_type" => "App\Models\Description", "translatable_id" => "7b251524-cf72-45bb-b2bd-f36036b0ed23"],
+            //1541
+            ["translation_id" => "dc7f4698-622d-4db4-9548-7103855c3117", "translatable_type" => "App\Models\Description", "translatable_id" => "ea5050ec-c608-493d-a8d1-1c0c7e19397b"],
+            ["translation_id" => "a4cfe084-bf43-43c6-98bc-e8e789877b21", "translatable_type" => "App\Models\Description", "translatable_id" => "ea5050ec-c608-493d-a8d1-1c0c7e19397b"],
+            ["translation_id" => "25da91f4-12b7-486a-93c7-509114aecdb7", "translatable_type" => "App\Models\Description", "translatable_id" => "ea5050ec-c608-493d-a8d1-1c0c7e19397b"],
+            //1542
+            ["translation_id" => "a2cb0e93-1cc0-4746-8883-2f7ff0676369", "translatable_type" => "App\Models\Description", "translatable_id" => "6a25720d-faa1-46a8-aab6-5aa80e03f0df"],
+            ["translation_id" => "d6961eee-3820-4e84-b79f-63e2e7298fb4", "translatable_type" => "App\Models\Description", "translatable_id" => "6a25720d-faa1-46a8-aab6-5aa80e03f0df"],
+            ["translation_id" => "c91c9d1d-6de8-4183-bf81-4f22f51ab686", "translatable_type" => "App\Models\Description", "translatable_id" => "6a25720d-faa1-46a8-aab6-5aa80e03f0df"],
+            //1543
+            ["translation_id" => "0e655ae6-c306-4c08-b0c3-d8a3f2251285", "translatable_type" => "App\Models\Description", "translatable_id" => "79c2f1c3-1c03-46e3-bf7a-0f47b7f03907"],
+            ["translation_id" => "fcbe3163-99ef-4a3b-a912-3449503b6f11", "translatable_type" => "App\Models\Description", "translatable_id" => "79c2f1c3-1c03-46e3-bf7a-0f47b7f03907"],
+            ["translation_id" => "cded9ad4-965f-4758-8575-b696fcac931f", "translatable_type" => "App\Models\Description", "translatable_id" => "79c2f1c3-1c03-46e3-bf7a-0f47b7f03907"],
+            //1544
+            ["translation_id" => "cadf24fa-a1bc-40d9-8713-3a5798f50dbe", "translatable_type" => "App\Models\Description", "translatable_id" => "418cbcec-e8a0-45a1-9244-40a7afef99f8"],
+            ["translation_id" => "2fb60fcf-b01d-4421-9704-55c90373adfe", "translatable_type" => "App\Models\Description", "translatable_id" => "418cbcec-e8a0-45a1-9244-40a7afef99f8"],
+            ["translation_id" => "8fbcf2f9-7dbe-4f8f-bd89-de9956c55e8e", "translatable_type" => "App\Models\Description", "translatable_id" => "418cbcec-e8a0-45a1-9244-40a7afef99f8"],
+            //1545
+            ["translation_id" => "3bfa6292-4ea2-44f6-ba26-bbae47ee99a1", "translatable_type" => "App\Models\Description", "translatable_id" => "7a81b421-6b82-4fd4-a567-28d60225659a"],
+            ["translation_id" => "72b558da-0cf4-48b6-b1f1-16eee3b70b2d", "translatable_type" => "App\Models\Description", "translatable_id" => "7a81b421-6b82-4fd4-a567-28d60225659a"],
+            ["translation_id" => "86f43ba9-dddb-4154-8dce-f2b8664369e0", "translatable_type" => "App\Models\Description", "translatable_id" => "7a81b421-6b82-4fd4-a567-28d60225659a"],
+            //1546
+            ["translation_id" => "1b31a1a0-1627-432a-b227-47de390637c6", "translatable_type" => "App\Models\Description", "translatable_id" => "8fc3a1ff-616b-4429-8a0e-b6e8769ac21e"],
+            ["translation_id" => "8894d304-b611-4aa6-a183-2dddaea6b203", "translatable_type" => "App\Models\Description", "translatable_id" => "8fc3a1ff-616b-4429-8a0e-b6e8769ac21e"],
+            ["translation_id" => "dc1eb1d8-d6b9-4692-adfa-7216c7b3a021", "translatable_type" => "App\Models\Description", "translatable_id" => "8fc3a1ff-616b-4429-8a0e-b6e8769ac21e"],
+            //1547
+            ["translation_id" => "8cb86a0f-4b58-438d-a674-3b4e7d067bee", "translatable_type" => "App\Models\Description", "translatable_id" => "058cb768-9669-42a6-bbd4-ece8f13c71be"],
+            ["translation_id" => "30d21084-e9a0-4d80-944f-f00922575e16", "translatable_type" => "App\Models\Description", "translatable_id" => "058cb768-9669-42a6-bbd4-ece8f13c71be"],
+            ["translation_id" => "2d5df0ba-1a3a-4a29-a2b4-2e9c85d50dc1", "translatable_type" => "App\Models\Description", "translatable_id" => "058cb768-9669-42a6-bbd4-ece8f13c71be"],
+            //1548
+            ["translation_id" => "867da009-8bc4-4f5b-aa8c-40a7a4047ddb", "translatable_type" => "App\Models\Description", "translatable_id" => "012ee72d-1e09-4d5b-b87b-86254be2a543"],
+            ["translation_id" => "d7d6914f-b0b2-4e77-a1c1-2451c6776034", "translatable_type" => "App\Models\Description", "translatable_id" => "012ee72d-1e09-4d5b-b87b-86254be2a543"],
+            ["translation_id" => "a4608cbe-cd22-4b73-a154-7b520832022b", "translatable_type" => "App\Models\Description", "translatable_id" => "012ee72d-1e09-4d5b-b87b-86254be2a543"],
+            //1549
+            ["translation_id" => "2c65aa9f-36c7-437a-8dd8-6afd38598f07", "translatable_type" => "App\Models\Description", "translatable_id" => "67a06c43-3fe1-4306-a757-131bcb8cb589"],
+            ["translation_id" => "faa167c3-63c5-464f-9280-1ac0d2e65feb", "translatable_type" => "App\Models\Description", "translatable_id" => "67a06c43-3fe1-4306-a757-131bcb8cb589"],
+            ["translation_id" => "42b20a9e-42d2-4dc0-bfa1-38b8b6cfa2ef", "translatable_type" => "App\Models\Description", "translatable_id" => "67a06c43-3fe1-4306-a757-131bcb8cb589"],
+            //1550
+            ["translation_id" => "616269a5-2ffb-436b-9d20-579bba168f19", "translatable_type" => "App\Models\Description", "translatable_id" => "72cbc091-d516-4e0d-9374-c1f95c182309"],
+            ["translation_id" => "73a53634-7528-44b5-8127-100610d501b2", "translatable_type" => "App\Models\Description", "translatable_id" => "72cbc091-d516-4e0d-9374-c1f95c182309"],
+            ["translation_id" => "b3453cfe-24e3-45b0-bfc0-238c03388a17", "translatable_type" => "App\Models\Description", "translatable_id" => "72cbc091-d516-4e0d-9374-c1f95c182309"],
+            //1551
+            ["translation_id" => "b7f59f5c-5c01-47f0-93c8-72e7912ea628", "translatable_type" => "App\Models\Description", "translatable_id" => "8625e2ec-eb3d-471a-bb5d-a2da8e6a7e76"],
+            ["translation_id" => "7da0c951-cc21-4821-b55b-d340c98cff85", "translatable_type" => "App\Models\Description", "translatable_id" => "8625e2ec-eb3d-471a-bb5d-a2da8e6a7e76"],
+            ["translation_id" => "6b4ecdda-c15f-4b50-af3a-03e53b7905e6", "translatable_type" => "App\Models\Description", "translatable_id" => "8625e2ec-eb3d-471a-bb5d-a2da8e6a7e76"],
+            //1552
+            ["translation_id" => "7ca4d9c4-3f05-42c9-a187-1fcbf6ddb316", "translatable_type" => "App\Models\Description", "translatable_id" => "d919824b-8690-44e2-a4dd-47e9c61d8008"],
+            ["translation_id" => "f0692279-dcd6-4a68-b147-88bb40cb1119", "translatable_type" => "App\Models\Description", "translatable_id" => "d919824b-8690-44e2-a4dd-47e9c61d8008"],
+            ["translation_id" => "dabaf2ad-72b1-4903-97bf-3e25fe3be671", "translatable_type" => "App\Models\Description", "translatable_id" => "d919824b-8690-44e2-a4dd-47e9c61d8008"],
+            //1553
+            ["translation_id" => "afe14cee-2b58-4dd5-8d4c-766709a0eb80", "translatable_type" => "App\Models\Description", "translatable_id" => "43f053be-853c-4371-aaf0-e93a1d1001fb"],
+            ["translation_id" => "54d3d7e1-af2e-4e4d-90a3-d4bd451c8536", "translatable_type" => "App\Models\Description", "translatable_id" => "43f053be-853c-4371-aaf0-e93a1d1001fb"],
+            ["translation_id" => "2c1e5d38-e8c6-4db3-9f89-6ddc40ae1c33", "translatable_type" => "App\Models\Description", "translatable_id" => "43f053be-853c-4371-aaf0-e93a1d1001fb"],
+            //1554
+            ["translation_id" => "98323d99-af05-4ae9-8ad0-f0c75a0b43b4", "translatable_type" => "App\Models\Description", "translatable_id" => "852afdc5-7080-4ad8-835d-5c6bd6b809ac"],
+            ["translation_id" => "e03aab13-3d6f-4020-9bd3-12550effee40", "translatable_type" => "App\Models\Description", "translatable_id" => "852afdc5-7080-4ad8-835d-5c6bd6b809ac"],
+            ["translation_id" => "d549e7a3-4bff-416d-a899-173a27b788ed", "translatable_type" => "App\Models\Description", "translatable_id" => "852afdc5-7080-4ad8-835d-5c6bd6b809ac"],
+            //1555
+            ["translation_id" => "d6c8dec2-4b3d-4a17-af2c-ef705735a6f8", "translatable_type" => "App\Models\Description", "translatable_id" => "7c230826-b9d1-459b-a514-acc565c4daea"],
+            ["translation_id" => "ea663e2a-e321-48ac-834f-234f723579ee", "translatable_type" => "App\Models\Description", "translatable_id" => "7c230826-b9d1-459b-a514-acc565c4daea"],
+            ["translation_id" => "c5367329-0ac4-4f02-9441-50b33282b21b", "translatable_type" => "App\Models\Description", "translatable_id" => "7c230826-b9d1-459b-a514-acc565c4daea"],
+            //1556
+            ["translation_id" => "a7bb4f87-d36a-4d40-8323-e9d972796155", "translatable_type" => "App\Models\Description", "translatable_id" => "5109a1fb-089b-4d42-8c2e-5530fbdee428"],
+            ["translation_id" => "fb024ca2-dd3c-4089-99e4-5a99ca882923", "translatable_type" => "App\Models\Description", "translatable_id" => "5109a1fb-089b-4d42-8c2e-5530fbdee428"],
+            ["translation_id" => "838eea21-a3e0-42eb-8ba2-5c2e7c9abb3e", "translatable_type" => "App\Models\Description", "translatable_id" => "5109a1fb-089b-4d42-8c2e-5530fbdee428"],
+            //1557
+            ["translation_id" => "6d6748e7-94ce-4d26-bda5-967d6f7a5c5f", "translatable_type" => "App\Models\Description", "translatable_id" => "a9ecfa0e-9a97-4858-b02b-bf07c38b6423"],
+            ["translation_id" => "cde20d47-2d22-47ec-945a-b689a8ed8650", "translatable_type" => "App\Models\Description", "translatable_id" => "a9ecfa0e-9a97-4858-b02b-bf07c38b6423"],
+            ["translation_id" => "7172f44b-59d8-4b4b-8f3c-aae88d063219", "translatable_type" => "App\Models\Description", "translatable_id" => "a9ecfa0e-9a97-4858-b02b-bf07c38b6423"],
+            //1558
+            ["translation_id" => "4d7b0132-24e2-47ee-9d70-30be0d739d5c", "translatable_type" => "App\Models\Description", "translatable_id" => "bbbf4f70-3f36-4972-b0da-d149d303d338"],
+            ["translation_id" => "ae142b3c-b3a7-4e29-a893-fdf1c13ab9ae", "translatable_type" => "App\Models\Description", "translatable_id" => "bbbf4f70-3f36-4972-b0da-d149d303d338"],
+            ["translation_id" => "551c647c-cdd5-4409-b20b-06bf4b5cfcee", "translatable_type" => "App\Models\Description", "translatable_id" => "bbbf4f70-3f36-4972-b0da-d149d303d338"],
+            //1559
+            ["translation_id" => "1da32cc3-ead8-48d7-90b8-f3145d80ee9c", "translatable_type" => "App\Models\Description", "translatable_id" => "cbeb0b62-9151-4fed-827f-8b1c4790351c"],
+            ["translation_id" => "8160ba3c-d5b2-4e91-b62d-759c1f75273f", "translatable_type" => "App\Models\Description", "translatable_id" => "cbeb0b62-9151-4fed-827f-8b1c4790351c"],
+            ["translation_id" => "c3d46b95-73fc-423f-98b4-2c61556ac864", "translatable_type" => "App\Models\Description", "translatable_id" => "cbeb0b62-9151-4fed-827f-8b1c4790351c"],
+            //1560
+            ["translation_id" => "baa2ba88-0598-4fa7-aa50-a388cbd23d04", "translatable_type" => "App\Models\Description", "translatable_id" => "4f15273a-7093-456b-bfd8-43b1434b56c5"],
+            ["translation_id" => "69b07aab-1856-499b-91a4-aad05f4d0ac1", "translatable_type" => "App\Models\Description", "translatable_id" => "4f15273a-7093-456b-bfd8-43b1434b56c5"],
+            ["translation_id" => "e5336187-07f4-46f0-996f-6f316f3ed8e3", "translatable_type" => "App\Models\Description", "translatable_id" => "4f15273a-7093-456b-bfd8-43b1434b56c5"],
+            //1561
+            ["translation_id" => "7f016de8-c4e6-4a24-97a2-28e0d9bf6129", "translatable_type" => "App\Models\Description", "translatable_id" => "0b675afb-6baa-42cb-9755-887dc9543af0"],
+            ["translation_id" => "7ac189aa-ad4d-4009-ba6c-d2f9f2910917", "translatable_type" => "App\Models\Description", "translatable_id" => "0b675afb-6baa-42cb-9755-887dc9543af0"],
+            ["translation_id" => "ce686d4e-3589-438f-86dc-9df90ddd3d2d", "translatable_type" => "App\Models\Description", "translatable_id" => "0b675afb-6baa-42cb-9755-887dc9543af0"],
+            //1562
+            ["translation_id" => "9e3b2dd5-6889-4638-950d-7ae574092450", "translatable_type" => "App\Models\Description", "translatable_id" => "7645f9f2-3fee-44bb-8392-9667f4a4eb72"],
+            ["translation_id" => "b336be6c-5685-4085-9c3a-831c29df6b78", "translatable_type" => "App\Models\Description", "translatable_id" => "7645f9f2-3fee-44bb-8392-9667f4a4eb72"],
+            ["translation_id" => "21672e35-400e-4e8b-8ae9-746e282fc30d", "translatable_type" => "App\Models\Description", "translatable_id" => "7645f9f2-3fee-44bb-8392-9667f4a4eb72"],
+            //1563
+            ["translation_id" => "1fea5ae8-6eee-4f62-9f5a-7267fd1e0aaa", "translatable_type" => "App\Models\Description", "translatable_id" => "04aeca17-a0c9-474d-9402-1cc47f288480"],
+            ["translation_id" => "78c2e901-b544-46e7-ad0a-93479a1919b6", "translatable_type" => "App\Models\Description", "translatable_id" => "04aeca17-a0c9-474d-9402-1cc47f288480"],
+            ["translation_id" => "4495c02d-0961-4257-b0b8-b31d5684b89e", "translatable_type" => "App\Models\Description", "translatable_id" => "04aeca17-a0c9-474d-9402-1cc47f288480"],
+            //1564
+            ["translation_id" => "ff2e76aa-3801-45ef-b616-0ad974a3645c", "translatable_type" => "App\Models\Description", "translatable_id" => "451a06a5-fe07-40c2-b413-8741d99fe1bf"],
+            ["translation_id" => "ddfc0fa2-611a-4ecf-98e0-e4a99a125e25", "translatable_type" => "App\Models\Description", "translatable_id" => "451a06a5-fe07-40c2-b413-8741d99fe1bf"],
+            ["translation_id" => "b85dad6c-7353-42ff-9044-d60ed13e1264", "translatable_type" => "App\Models\Description", "translatable_id" => "451a06a5-fe07-40c2-b413-8741d99fe1bf"],
+            //1565
+            ["translation_id" => "8e19157b-4613-49cd-8ec2-49fd45f976d1", "translatable_type" => "App\Models\Description", "translatable_id" => "948ea9aa-7ff3-4f3a-9cdb-3dcbd56254e1"],
+            ["translation_id" => "80725adc-a2ef-4e97-9ee4-61abd6161e1b", "translatable_type" => "App\Models\Description", "translatable_id" => "948ea9aa-7ff3-4f3a-9cdb-3dcbd56254e1"],
+            ["translation_id" => "3976e72e-aed3-4440-8a9d-c5852bc9abdb", "translatable_type" => "App\Models\Description", "translatable_id" => "948ea9aa-7ff3-4f3a-9cdb-3dcbd56254e1"],
+            //1566
+            ["translation_id" => "3646ca92-b892-491f-85bf-8f1afd179356", "translatable_type" => "App\Models\Description", "translatable_id" => "8eb63767-95bc-4856-91cb-b5ae19beb144"],
+            ["translation_id" => "64d9add5-09ac-4f78-a790-d508b4c37568", "translatable_type" => "App\Models\Description", "translatable_id" => "8eb63767-95bc-4856-91cb-b5ae19beb144"],
+            ["translation_id" => "5ffb24c0-f879-4a3d-9c96-43a976ff7539", "translatable_type" => "App\Models\Description", "translatable_id" => "8eb63767-95bc-4856-91cb-b5ae19beb144"],
+            //1567
+            ["translation_id" => "2245dbfa-32d9-4a6b-bfe3-01b0addbf64d", "translatable_type" => "App\Models\Description", "translatable_id" => "619b1992-7308-45e4-a223-d7fda4cecf20"],
+            ["translation_id" => "2b977b29-30dc-4678-a934-3c4e003c865e", "translatable_type" => "App\Models\Description", "translatable_id" => "619b1992-7308-45e4-a223-d7fda4cecf20"],
+            ["translation_id" => "440d23b0-42a1-4d26-b1d8-7296194c97d6", "translatable_type" => "App\Models\Description", "translatable_id" => "619b1992-7308-45e4-a223-d7fda4cecf20"],
+            //1568
+            ["translation_id" => "966e8026-5e51-4d58-93b9-904d17412939", "translatable_type" => "App\Models\Description", "translatable_id" => "1f322017-0c10-4060-82c9-17f2c2535b96"],
+            ["translation_id" => "29a651c0-2ad2-462b-b31a-782cb40a9968", "translatable_type" => "App\Models\Description", "translatable_id" => "1f322017-0c10-4060-82c9-17f2c2535b96"],
+            ["translation_id" => "3076de40-5e03-4c88-a04d-e1662e820ca6", "translatable_type" => "App\Models\Description", "translatable_id" => "1f322017-0c10-4060-82c9-17f2c2535b96"],
+            //1569
+            ["translation_id" => "2d468714-f1fa-4ecf-bd3b-b015382f8c21", "translatable_type" => "App\Models\Description", "translatable_id" => "e0cec883-f50c-4184-9306-0626298d4412"],
+            ["translation_id" => "5baf934c-54fb-46b9-a06f-17b68413974c", "translatable_type" => "App\Models\Description", "translatable_id" => "e0cec883-f50c-4184-9306-0626298d4412"],
+            ["translation_id" => "c2918026-4700-4ceb-8b84-a1bcfd77f083", "translatable_type" => "App\Models\Description", "translatable_id" => "e0cec883-f50c-4184-9306-0626298d4412"],
+            //1570
+            ["translation_id" => "5a20bd77-91c1-4e11-91a4-faf34cb1dd97", "translatable_type" => "App\Models\Description", "translatable_id" => "f3705fa0-13d0-4e1e-aa8e-f7aecb79f985"],
+            ["translation_id" => "e4804f30-3aa3-4414-8cfb-dbe85780b944", "translatable_type" => "App\Models\Description", "translatable_id" => "f3705fa0-13d0-4e1e-aa8e-f7aecb79f985"],
+            ["translation_id" => "641de125-212c-4da0-9bdd-9787b6ccc57b", "translatable_type" => "App\Models\Description", "translatable_id" => "f3705fa0-13d0-4e1e-aa8e-f7aecb79f985"],
+            //1571
+            ["translation_id" => "2714f5dd-8cea-4887-bdae-d0e81e24b2f8", "translatable_type" => "App\Models\Description", "translatable_id" => "3dc50de6-7cc4-4b14-8d95-f81f47dbc02a"],
+            ["translation_id" => "4ac8ec9c-51bc-4729-bf53-ab89126d06f2", "translatable_type" => "App\Models\Description", "translatable_id" => "3dc50de6-7cc4-4b14-8d95-f81f47dbc02a"],
+            ["translation_id" => "250e4be7-4cc1-4b21-9f3b-55e61cbb1fa3", "translatable_type" => "App\Models\Description", "translatable_id" => "3dc50de6-7cc4-4b14-8d95-f81f47dbc02a"],
+            //1572
+            ["translation_id" => "fdc74286-9091-49c1-bf58-51aed5ba1ddc", "translatable_type" => "App\Models\Description", "translatable_id" => "92f103c8-4af1-4637-bcec-0de714222c4b"],
+            ["translation_id" => "246f98e9-d99b-4099-a740-fe7c27e1dc00", "translatable_type" => "App\Models\Description", "translatable_id" => "92f103c8-4af1-4637-bcec-0de714222c4b"],
+            ["translation_id" => "50a67d46-3177-448f-990e-a7a03f9719e5", "translatable_type" => "App\Models\Description", "translatable_id" => "92f103c8-4af1-4637-bcec-0de714222c4b"],
+            //1573
+            ["translation_id" => "563e9bb7-3a9e-4502-967f-99f0fd0f755c", "translatable_type" => "App\Models\Description", "translatable_id" => "1c219fa5-fa84-4e83-8f3d-54251de3176b"],
+            ["translation_id" => "9b5e847b-a91b-4492-95a9-2b6862f7611a", "translatable_type" => "App\Models\Description", "translatable_id" => "1c219fa5-fa84-4e83-8f3d-54251de3176b"],
+            ["translation_id" => "ad8d9503-51ca-45e7-a0da-71d354dbb932", "translatable_type" => "App\Models\Description", "translatable_id" => "1c219fa5-fa84-4e83-8f3d-54251de3176b"],
+            //1574
+            ["translation_id" => "e3358ce1-c86b-4698-b1d6-42fd70dd26ac", "translatable_type" => "App\Models\Description", "translatable_id" => "3d657895-d887-4696-9773-08b4f82b5f81"],
+            ["translation_id" => "0b401c5d-7cc6-4bf8-9aa1-d0d54a801e0e", "translatable_type" => "App\Models\Description", "translatable_id" => "3d657895-d887-4696-9773-08b4f82b5f81"],
+            ["translation_id" => "c82b612f-3516-46c6-92fd-643827197a18", "translatable_type" => "App\Models\Description", "translatable_id" => "3d657895-d887-4696-9773-08b4f82b5f81"],
+            //1575
+            ["translation_id" => "5d818247-4342-497c-b1e0-4cefe146773d", "translatable_type" => "App\Models\Description", "translatable_id" => "89581d7d-844a-40ba-a698-b636b596ccd8"],
+            ["translation_id" => "49c912b0-004f-4138-9f54-93f5556078e1", "translatable_type" => "App\Models\Description", "translatable_id" => "89581d7d-844a-40ba-a698-b636b596ccd8"],
+            ["translation_id" => "91ade31c-17c8-4f5e-a27b-86dde090aa40", "translatable_type" => "App\Models\Description", "translatable_id" => "89581d7d-844a-40ba-a698-b636b596ccd8"],
+            //1576
+            ["translation_id" => "004fc40d-9b43-4b6b-81a8-80d8ebbc5848", "translatable_type" => "App\Models\Description", "translatable_id" => "512b51c5-aa28-41fc-9c61-1991d3548053"],
+            ["translation_id" => "9d6f3544-c5b9-42ce-a396-74c18a46778c", "translatable_type" => "App\Models\Description", "translatable_id" => "512b51c5-aa28-41fc-9c61-1991d3548053"],
+            ["translation_id" => "fed92621-5cd9-40bd-9e55-c1ffcd777e6f", "translatable_type" => "App\Models\Description", "translatable_id" => "512b51c5-aa28-41fc-9c61-1991d3548053"],
+            //1577
+            ["translation_id" => "aa7d05ea-b28e-4476-b818-32830912a525", "translatable_type" => "App\Models\Description", "translatable_id" => "46202241-8760-43aa-8242-68de78765b37"],
+            ["translation_id" => "987d506f-e7ca-441c-98d8-c6aff5570419", "translatable_type" => "App\Models\Description", "translatable_id" => "46202241-8760-43aa-8242-68de78765b37"],
+            ["translation_id" => "9b4f403f-f372-4769-9d9a-173cb3c9e9fe", "translatable_type" => "App\Models\Description", "translatable_id" => "46202241-8760-43aa-8242-68de78765b37"],
+            //1578
+            ["translation_id" => "5fb17bbf-d043-43d6-9eab-6452d0926cba", "translatable_type" => "App\Models\Description", "translatable_id" => "48a194a9-d42e-4a76-a0c7-7fc2cca0a02b"],
+            ["translation_id" => "2961a68a-433c-4bcd-8212-999988bc1f17", "translatable_type" => "App\Models\Description", "translatable_id" => "48a194a9-d42e-4a76-a0c7-7fc2cca0a02b"],
+            ["translation_id" => "bd187c47-f896-424a-8b2b-2a63852d2889", "translatable_type" => "App\Models\Description", "translatable_id" => "48a194a9-d42e-4a76-a0c7-7fc2cca0a02b"],
+            //1579
+            ["translation_id" => "d57a454a-649c-4997-bc5f-937bbb289931", "translatable_type" => "App\Models\Description", "translatable_id" => "9332a556-d853-4bc8-a31c-4a22464070c4"],
+            ["translation_id" => "5376caaa-5d10-4950-bd07-8cdb04494c66", "translatable_type" => "App\Models\Description", "translatable_id" => "9332a556-d853-4bc8-a31c-4a22464070c4"],
+            ["translation_id" => "b72d31c9-9fcd-4f4e-b7de-b789df997102", "translatable_type" => "App\Models\Description", "translatable_id" => "9332a556-d853-4bc8-a31c-4a22464070c4"],
+            //1580
+            ["translation_id" => "681b31ca-76f6-4267-925f-1d646a74a1f8", "translatable_type" => "App\Models\Description", "translatable_id" => "fabed8f8-9598-4f33-b017-0f96b1ef4c3e"],
+            ["translation_id" => "1409afdc-5c2d-4627-8585-bf39d411ffcf", "translatable_type" => "App\Models\Description", "translatable_id" => "fabed8f8-9598-4f33-b017-0f96b1ef4c3e"],
+            ["translation_id" => "4b5ef042-b387-4166-897c-12fe75ae195c", "translatable_type" => "App\Models\Description", "translatable_id" => "fabed8f8-9598-4f33-b017-0f96b1ef4c3e"],
+            //1581
+            ["translation_id" => "a12fff99-65de-47f1-b3ea-2d1da23c6028", "translatable_type" => "App\Models\Description", "translatable_id" => "f038cff9-c21d-4b94-8ff6-ceaf7d1eab02"],
+            ["translation_id" => "0cfb14d6-a949-428c-b2d7-1ef393dddb2c", "translatable_type" => "App\Models\Description", "translatable_id" => "f038cff9-c21d-4b94-8ff6-ceaf7d1eab02"],
+            ["translation_id" => "09bcbe99-9afc-4bf6-97db-f836ceafce23", "translatable_type" => "App\Models\Description", "translatable_id" => "f038cff9-c21d-4b94-8ff6-ceaf7d1eab02"],
+            //1582
+            ["translation_id" => "6f64fd43-1b02-4491-9405-68807b02fb44", "translatable_type" => "App\Models\Description", "translatable_id" => "2d59f7e1-9977-4d74-89e3-2a7b1e53368c"],
+            ["translation_id" => "5e29695d-f240-45fd-bb95-7f7e6062dc33", "translatable_type" => "App\Models\Description", "translatable_id" => "2d59f7e1-9977-4d74-89e3-2a7b1e53368c"],
+            ["translation_id" => "e638ed6b-3045-42c1-9b8a-906728e0fcc7", "translatable_type" => "App\Models\Description", "translatable_id" => "2d59f7e1-9977-4d74-89e3-2a7b1e53368c"],
+            //1583
+            ["translation_id" => "5defc154-367c-4b58-ae54-8884f79b0b7c", "translatable_type" => "App\Models\Description", "translatable_id" => "50d267fe-d4fa-421b-b724-710686bf61e8"],
+            ["translation_id" => "8e002a29-3e81-4f04-bff7-7136fd0d136f", "translatable_type" => "App\Models\Description", "translatable_id" => "50d267fe-d4fa-421b-b724-710686bf61e8"],
+            ["translation_id" => "676e15ac-6f37-44ad-9e92-5b54261be374", "translatable_type" => "App\Models\Description", "translatable_id" => "50d267fe-d4fa-421b-b724-710686bf61e8"],
+            //1584
+            ["translation_id" => "0a623f72-a4e3-4838-92f9-23847ff1ba34", "translatable_type" => "App\Models\Description", "translatable_id" => "afc4c49b-9af6-4540-9585-65350a5789c9"],
+            ["translation_id" => "befeab6c-880a-47fe-885f-cda4e1384e38", "translatable_type" => "App\Models\Description", "translatable_id" => "afc4c49b-9af6-4540-9585-65350a5789c9"],
+            ["translation_id" => "3b6d2894-8c5e-48b6-a7db-f6d394637063", "translatable_type" => "App\Models\Description", "translatable_id" => "afc4c49b-9af6-4540-9585-65350a5789c9"],
+            //1585
+            ["translation_id" => "b7b0fb5e-e0f7-49bc-86ed-71c38493833a", "translatable_type" => "App\Models\Description", "translatable_id" => "72807e13-9f2f-42cf-a598-2cedd8d30a13"],
+            ["translation_id" => "28d7a722-f898-4337-bfc7-75649ff6952e", "translatable_type" => "App\Models\Description", "translatable_id" => "72807e13-9f2f-42cf-a598-2cedd8d30a13"],
+            ["translation_id" => "bd79fbbb-78b9-4aff-a95b-9054154a7a6a", "translatable_type" => "App\Models\Description", "translatable_id" => "72807e13-9f2f-42cf-a598-2cedd8d30a13"],
+            //1586
+            ["translation_id" => "fd8121c8-18fc-4e82-b937-ef50e67becb4", "translatable_type" => "App\Models\Description", "translatable_id" => "923987ab-1f24-4634-91e8-ba83f44e558e"],
+            ["translation_id" => "67903a97-d64d-4b4c-beaf-e76e3b15ef5a", "translatable_type" => "App\Models\Description", "translatable_id" => "923987ab-1f24-4634-91e8-ba83f44e558e"],
+            ["translation_id" => "d56c3649-c3d9-49e1-8394-8773f8f526d5", "translatable_type" => "App\Models\Description", "translatable_id" => "923987ab-1f24-4634-91e8-ba83f44e558e"],
+            //1587
+            ["translation_id" => "41b366e3-7d61-4392-a8c0-42f6a1e4cc3d", "translatable_type" => "App\Models\Description", "translatable_id" => "5750f0ba-9b9a-49f0-9315-c007155b10f2"],
+            ["translation_id" => "4cb79412-d29d-42ff-82af-28c3fdf57e3f", "translatable_type" => "App\Models\Description", "translatable_id" => "5750f0ba-9b9a-49f0-9315-c007155b10f2"],
+            ["translation_id" => "75a08ab2-47ad-4514-8a8a-2909faeb245e", "translatable_type" => "App\Models\Description", "translatable_id" => "5750f0ba-9b9a-49f0-9315-c007155b10f2"],
+            //1588
+            ["translation_id" => "012524dd-cc6a-4970-876c-168b8d678e4e", "translatable_type" => "App\Models\Description", "translatable_id" => "e6af98ad-b2e3-4548-b799-2ef55ba6fc33"],
+            ["translation_id" => "f4509d01-1bdb-495b-b1fd-3f838223b968", "translatable_type" => "App\Models\Description", "translatable_id" => "e6af98ad-b2e3-4548-b799-2ef55ba6fc33"],
+            ["translation_id" => "b3a60f07-c081-453e-89d3-143580789beb", "translatable_type" => "App\Models\Description", "translatable_id" => "e6af98ad-b2e3-4548-b799-2ef55ba6fc33"],
+            //1589
+            ["translation_id" => "c62d10f1-efc6-4d1b-95d1-67fd106cbcca", "translatable_type" => "App\Models\Description", "translatable_id" => "6e98f85e-bd8a-4b1b-8faa-f1727ffccfaa"],
+            ["translation_id" => "55b50ae1-55c3-406f-b6b7-75598d3e1728", "translatable_type" => "App\Models\Description", "translatable_id" => "6e98f85e-bd8a-4b1b-8faa-f1727ffccfaa"],
+            ["translation_id" => "21e4b698-8aab-46b8-8471-7a03717245f7", "translatable_type" => "App\Models\Description", "translatable_id" => "6e98f85e-bd8a-4b1b-8faa-f1727ffccfaa"],
+            //1590
+            ["translation_id" => "f9ec87f4-1f1d-4213-8815-0a1bca54c67e", "translatable_type" => "App\Models\Description", "translatable_id" => "16993b92-1255-4fbc-98dc-01b56047e01b"],
+            ["translation_id" => "b2885794-b2a3-48a4-81ba-07e4f631d83b", "translatable_type" => "App\Models\Description", "translatable_id" => "16993b92-1255-4fbc-98dc-01b56047e01b"],
+            ["translation_id" => "48154b22-7a7c-47bc-9821-8b7155e349e6", "translatable_type" => "App\Models\Description", "translatable_id" => "16993b92-1255-4fbc-98dc-01b56047e01b"],
+            //1591
+            ["translation_id" => "270d5939-e8d8-4f5e-b0ae-c4f63842251b", "translatable_type" => "App\Models\Description", "translatable_id" => "c802d80c-25e7-438b-99e0-2ba403bdcba1"],
+            ["translation_id" => "611dbc33-1ada-4992-adec-bd342700656b", "translatable_type" => "App\Models\Description", "translatable_id" => "c802d80c-25e7-438b-99e0-2ba403bdcba1"],
+            ["translation_id" => "4013ff06-a146-4e0a-a9b1-19bd77e11a7c", "translatable_type" => "App\Models\Description", "translatable_id" => "c802d80c-25e7-438b-99e0-2ba403bdcba1"],
+            //1592
+            ["translation_id" => "03455904-a62f-4465-a1fd-08aaa41de4ac", "translatable_type" => "App\Models\Description", "translatable_id" => "1e788a0d-fb17-43b1-b847-45b12e4f6413"],
+            ["translation_id" => "d48fd61b-b52e-46c4-96b9-842c202a2bca", "translatable_type" => "App\Models\Description", "translatable_id" => "1e788a0d-fb17-43b1-b847-45b12e4f6413"],
+            ["translation_id" => "9eb4ede0-5e4c-4daa-8110-e046f4d4774c", "translatable_type" => "App\Models\Description", "translatable_id" => "1e788a0d-fb17-43b1-b847-45b12e4f6413"],
+            //1593
+            ["translation_id" => "18885669-cf63-400f-8205-717101c1d6f1", "translatable_type" => "App\Models\Description", "translatable_id" => "15a80bf9-806a-4d14-958a-76fcd5882a2c"],
+            ["translation_id" => "6eac723c-0981-42f2-a9c0-7b2483f283a2", "translatable_type" => "App\Models\Description", "translatable_id" => "15a80bf9-806a-4d14-958a-76fcd5882a2c"],
+            ["translation_id" => "aae3ec66-5d8f-4527-92a8-02976081ebda", "translatable_type" => "App\Models\Description", "translatable_id" => "15a80bf9-806a-4d14-958a-76fcd5882a2c"],
+            //1594
+            ["translation_id" => "ebe6c394-f16f-4baa-83ee-b2fe12e7169e", "translatable_type" => "App\Models\Description", "translatable_id" => "9294a18a-5bee-45a1-b656-d34a17c2f111"],
+            ["translation_id" => "13d98e62-efa3-4956-ba0f-2a413678a909", "translatable_type" => "App\Models\Description", "translatable_id" => "9294a18a-5bee-45a1-b656-d34a17c2f111"],
+            ["translation_id" => "7b442c42-8121-48dd-8eee-a9d86ce5379a", "translatable_type" => "App\Models\Description", "translatable_id" => "9294a18a-5bee-45a1-b656-d34a17c2f111"],
+            //1595
+            ["translation_id" => "099a6fc8-b126-4377-af83-d5b898310b1d", "translatable_type" => "App\Models\Description", "translatable_id" => "1e64098a-b1cc-43d7-9b53-018549a440d2"],
+            ["translation_id" => "f7422b6c-6828-4a50-a2fa-637252eb2a5a", "translatable_type" => "App\Models\Description", "translatable_id" => "1e64098a-b1cc-43d7-9b53-018549a440d2"],
+            ["translation_id" => "e3866d3c-88b0-4713-8d9f-3b1a1bb1e706", "translatable_type" => "App\Models\Description", "translatable_id" => "1e64098a-b1cc-43d7-9b53-018549a440d2"],
+            //1596
+            ["translation_id" => "eb2bb84a-92c0-4b24-80f5-81fa5f1e0cf0", "translatable_type" => "App\Models\Description", "translatable_id" => "9a76a984-c133-4ac5-86a4-9bbb2fdf034a"],
+            ["translation_id" => "7f169645-9826-4131-8eaa-9e83728e6818", "translatable_type" => "App\Models\Description", "translatable_id" => "9a76a984-c133-4ac5-86a4-9bbb2fdf034a"],
+            ["translation_id" => "318784ec-aaf7-47bb-ac6d-6a5352175836", "translatable_type" => "App\Models\Description", "translatable_id" => "9a76a984-c133-4ac5-86a4-9bbb2fdf034a"],
+            //1597
+            ["translation_id" => "289c79fe-0dcb-437d-af5b-fe9ee42d0cf6", "translatable_type" => "App\Models\Description", "translatable_id" => "2e5cf6aa-a208-4ff3-8515-3656c1df55f8"],
+            ["translation_id" => "425fbcff-b2ca-4800-8b88-8cb49a921c77", "translatable_type" => "App\Models\Description", "translatable_id" => "2e5cf6aa-a208-4ff3-8515-3656c1df55f8"],
+            ["translation_id" => "34b38b35-ad3f-4e64-b9b2-39ad0720320f", "translatable_type" => "App\Models\Description", "translatable_id" => "2e5cf6aa-a208-4ff3-8515-3656c1df55f8"],
+            //1598
+            ["translation_id" => "cd0fd116-307d-4021-b91c-7b61d46357d0", "translatable_type" => "App\Models\Description", "translatable_id" => "16215a40-9b98-4f5e-aa9b-0075a7f436aa"],
+            ["translation_id" => "e44cc452-a975-402e-9d0e-049df3be00ad", "translatable_type" => "App\Models\Description", "translatable_id" => "16215a40-9b98-4f5e-aa9b-0075a7f436aa"],
+            ["translation_id" => "a0bd5ffc-4df5-4ef0-bb3e-1bcf0b234fa5", "translatable_type" => "App\Models\Description", "translatable_id" => "16215a40-9b98-4f5e-aa9b-0075a7f436aa"],
+            //1599
+            ["translation_id" => "744b64b4-86c5-4ced-a9cf-ebd0f61c5469", "translatable_type" => "App\Models\Description", "translatable_id" => "2847eee8-e8eb-433e-8f01-017518e6faf6"],
+            ["translation_id" => "584aaf4f-feb1-4ed0-af0e-bc4baac32880", "translatable_type" => "App\Models\Description", "translatable_id" => "2847eee8-e8eb-433e-8f01-017518e6faf6"],
+            ["translation_id" => "4605f934-f0e3-49ea-9f14-dd7d7f00f03b", "translatable_type" => "App\Models\Description", "translatable_id" => "2847eee8-e8eb-433e-8f01-017518e6faf6"],
+            //1600
+            ["translation_id" => "ef081e7a-8e75-42e8-a07c-410a35530ab8", "translatable_type" => "App\Models\Description", "translatable_id" => "05a29e93-d38b-4866-a222-11bc3099a7ea"],
+            ["translation_id" => "f0f357b6-671b-423b-8787-950c661dbac2", "translatable_type" => "App\Models\Description", "translatable_id" => "05a29e93-d38b-4866-a222-11bc3099a7ea"],
+            ["translation_id" => "0b257af2-63b3-423a-bca4-5c0fb6db0fa6", "translatable_type" => "App\Models\Description", "translatable_id" => "05a29e93-d38b-4866-a222-11bc3099a7ea"],
+            //1601
+            ["translation_id" => "3256773c-2108-444e-9188-23413380ea57", "translatable_type" => "App\Models\Description", "translatable_id" => "4c516966-3508-4fde-8ca2-5548291f153e"],
+            ["translation_id" => "fab95077-7195-4863-84cb-26f759314c43", "translatable_type" => "App\Models\Description", "translatable_id" => "4c516966-3508-4fde-8ca2-5548291f153e"],
+            ["translation_id" => "bbd3e24c-396a-49de-953f-16814cb13db1", "translatable_type" => "App\Models\Description", "translatable_id" => "4c516966-3508-4fde-8ca2-5548291f153e"],
+            //1602
+            ["translation_id" => "a19f149e-4da9-4b8c-af7b-d85537a1be3c", "translatable_type" => "App\Models\Description", "translatable_id" => "fcb42d75-4f34-4b4d-8de1-f4298acf6878"],
+            ["translation_id" => "45e82f5c-d417-453a-b497-ac6b754e9ccc", "translatable_type" => "App\Models\Description", "translatable_id" => "fcb42d75-4f34-4b4d-8de1-f4298acf6878"],
+            ["translation_id" => "3d71d198-1391-4be9-96f2-4899046b1e8a", "translatable_type" => "App\Models\Description", "translatable_id" => "fcb42d75-4f34-4b4d-8de1-f4298acf6878"],
+            //1603
+            ["translation_id" => "4e264655-d8ac-4716-a2c1-eb7151fbc739", "translatable_type" => "App\Models\Description", "translatable_id" => "bbe23265-9eed-4bf1-b653-c9ee4db8c201"],
+            ["translation_id" => "e8809c4e-ece5-4c3c-a5a4-9ab3d12d6942", "translatable_type" => "App\Models\Description", "translatable_id" => "bbe23265-9eed-4bf1-b653-c9ee4db8c201"],
+            ["translation_id" => "fe8dfac9-eef6-46cf-9a0a-5273cfc8c8a7", "translatable_type" => "App\Models\Description", "translatable_id" => "bbe23265-9eed-4bf1-b653-c9ee4db8c201"],
+            //1604
+            ["translation_id" => "f05042ae-4ac0-4bd8-a944-7032714a22b5", "translatable_type" => "App\Models\Description", "translatable_id" => "4018a5d7-b667-444c-b9e0-bd8594e3bf3b"],
+            ["translation_id" => "00659797-81d1-4810-a4d4-92f4a170c210", "translatable_type" => "App\Models\Description", "translatable_id" => "4018a5d7-b667-444c-b9e0-bd8594e3bf3b"],
+            ["translation_id" => "6559fb51-fc6f-4033-9e52-e3a3a0d54280", "translatable_type" => "App\Models\Description", "translatable_id" => "4018a5d7-b667-444c-b9e0-bd8594e3bf3b"],
+            //1605
+            ["translation_id" => "c465f9e4-b903-4b21-ad0c-007e05e01dc0", "translatable_type" => "App\Models\Description", "translatable_id" => "390ff1e7-cacb-4f1a-bc69-fd658712cd8c"],
+            ["translation_id" => "4c3d780e-ee5c-4f55-9cfa-2a36509d7d66", "translatable_type" => "App\Models\Description", "translatable_id" => "390ff1e7-cacb-4f1a-bc69-fd658712cd8c"],
+            ["translation_id" => "8835abda-1df2-4d7b-b9ce-1ffaa0f37522", "translatable_type" => "App\Models\Description", "translatable_id" => "390ff1e7-cacb-4f1a-bc69-fd658712cd8c"],
+            //1606
+            ["translation_id" => "75adc2b8-dea0-4c85-aab3-2a8a1f2a080b", "translatable_type" => "App\Models\Description", "translatable_id" => "3de46ef2-e54d-4e9b-aa06-dcec3e119837"],
+            ["translation_id" => "dc1db563-e90f-4d5c-883a-7b79867cb3f0", "translatable_type" => "App\Models\Description", "translatable_id" => "3de46ef2-e54d-4e9b-aa06-dcec3e119837"],
+            ["translation_id" => "c00f7525-4bd8-41db-aa85-c44b387f92e7", "translatable_type" => "App\Models\Description", "translatable_id" => "3de46ef2-e54d-4e9b-aa06-dcec3e119837"],
+            //1607
+            ["translation_id" => "5e2ba842-ba59-4aab-a85d-0eb138c376dc", "translatable_type" => "App\Models\Description", "translatable_id" => "fa2d9d37-c0fe-40be-a953-6face0f8a540"],
+            ["translation_id" => "c2b76e87-0e43-41d3-912d-d18f3d64e92d", "translatable_type" => "App\Models\Description", "translatable_id" => "fa2d9d37-c0fe-40be-a953-6face0f8a540"],
+            ["translation_id" => "6364a4eb-37fc-4eed-b03d-accabcef98f0", "translatable_type" => "App\Models\Description", "translatable_id" => "fa2d9d37-c0fe-40be-a953-6face0f8a540"],
+            //1608
+            ["translation_id" => "3cf10320-7353-4b7e-b133-7dd2894bee70", "translatable_type" => "App\Models\Description", "translatable_id" => "362caa49-edf4-49ec-a71e-393a30821181"],
+            ["translation_id" => "11f757e2-27f4-4a66-84e4-9a78d84ff1b8", "translatable_type" => "App\Models\Description", "translatable_id" => "362caa49-edf4-49ec-a71e-393a30821181"],
+            ["translation_id" => "27a8c267-54f2-43a8-bd0c-48d080e11717", "translatable_type" => "App\Models\Description", "translatable_id" => "362caa49-edf4-49ec-a71e-393a30821181"],
+            //1609
+            ["translation_id" => "00290e40-e723-4e05-9577-098a902865c3", "translatable_type" => "App\Models\Description", "translatable_id" => "4b6a5b32-1c9a-4327-8594-c977b1161e38"],
+            ["translation_id" => "fd32a426-eef1-48e4-8dee-6c56afa9f677", "translatable_type" => "App\Models\Description", "translatable_id" => "4b6a5b32-1c9a-4327-8594-c977b1161e38"],
+            ["translation_id" => "e83b1ef6-9fff-460c-8ee5-3f7b0acfda8e", "translatable_type" => "App\Models\Description", "translatable_id" => "4b6a5b32-1c9a-4327-8594-c977b1161e38"],
+            //1610
+            ["translation_id" => "7ba25cd9-dce4-4ece-876f-e903abb22f01", "translatable_type" => "App\Models\Description", "translatable_id" => "6155ff4b-a520-4fba-8e85-b7bff5520c3b"],
+            ["translation_id" => "6fca3798-1e96-4712-aded-8713a45fd8dc", "translatable_type" => "App\Models\Description", "translatable_id" => "6155ff4b-a520-4fba-8e85-b7bff5520c3b"],
+            ["translation_id" => "c718fc1f-5d28-4934-8948-becfa0cda166", "translatable_type" => "App\Models\Description", "translatable_id" => "6155ff4b-a520-4fba-8e85-b7bff5520c3b"],
+            //1611
+            ["translation_id" => "6536371e-587b-40e6-a78f-e90063fa2e40", "translatable_type" => "App\Models\Description", "translatable_id" => "18266dbf-adb8-4d13-a372-a32ec52357bf"],
+            ["translation_id" => "e4c5417a-2add-40b0-bcb5-cb0ad9006784", "translatable_type" => "App\Models\Description", "translatable_id" => "18266dbf-adb8-4d13-a372-a32ec52357bf"],
+            ["translation_id" => "0c0322c4-be86-4f2d-b556-f93660f74866", "translatable_type" => "App\Models\Description", "translatable_id" => "18266dbf-adb8-4d13-a372-a32ec52357bf"],
+            //1612
+            ["translation_id" => "2b498fff-da7a-4bc2-83a8-a2cc41ac6c59", "translatable_type" => "App\Models\Description", "translatable_id" => "41b9adf0-ef6b-4898-b4da-3607f609b7cd"],
+            ["translation_id" => "d6bb744d-6f0d-4cc3-bdcf-6cef52ceabf1", "translatable_type" => "App\Models\Description", "translatable_id" => "41b9adf0-ef6b-4898-b4da-3607f609b7cd"],
+            ["translation_id" => "16f3c66c-fc92-413e-80be-ca88ac5a642a", "translatable_type" => "App\Models\Description", "translatable_id" => "41b9adf0-ef6b-4898-b4da-3607f609b7cd"],
+            //1613
+            ["translation_id" => "275275d4-7d7a-4851-893c-620df5724a4f", "translatable_type" => "App\Models\Description", "translatable_id" => "772c3ea4-e09b-421a-a77e-8f62ce83f7d6"],
+            ["translation_id" => "7515e70f-1beb-4eb2-b2e6-12e3521d6236", "translatable_type" => "App\Models\Description", "translatable_id" => "772c3ea4-e09b-421a-a77e-8f62ce83f7d6"],
+            ["translation_id" => "1094d691-4aa4-4b0c-880e-ba8d2ac62516", "translatable_type" => "App\Models\Description", "translatable_id" => "772c3ea4-e09b-421a-a77e-8f62ce83f7d6"],
+            //1614
+            ["translation_id" => "a99194c6-1dd3-4ed1-80b2-424bbd8344d9", "translatable_type" => "App\Models\Description", "translatable_id" => "9f9c0a69-f8bd-4f15-a4b9-5ca755b787dc"],
+            ["translation_id" => "69deacf4-7516-4bed-8ef1-903e55db50c4", "translatable_type" => "App\Models\Description", "translatable_id" => "9f9c0a69-f8bd-4f15-a4b9-5ca755b787dc"],
+            ["translation_id" => "b5bfeae4-456a-45aa-b92d-7d8073f11df3", "translatable_type" => "App\Models\Description", "translatable_id" => "9f9c0a69-f8bd-4f15-a4b9-5ca755b787dc"],
+            //1615
+            ["translation_id" => "a061f000-da83-45c1-aced-a0ef00865a30", "translatable_type" => "App\Models\Description", "translatable_id" => "ba91b6f2-f56c-45be-92b5-b460423379d8"],
+            ["translation_id" => "1ba9b848-b5e5-43ce-8957-1d0cbd0492cc", "translatable_type" => "App\Models\Description", "translatable_id" => "ba91b6f2-f56c-45be-92b5-b460423379d8"],
+            ["translation_id" => "ae70bdf8-2d73-42c1-ad9e-f9c589925689", "translatable_type" => "App\Models\Description", "translatable_id" => "ba91b6f2-f56c-45be-92b5-b460423379d8"],
+            //1616
+            ["translation_id" => "a22101c2-c185-4e7c-86c7-52b90cbf43d2", "translatable_type" => "App\Models\Description", "translatable_id" => "64d6fa74-d6ca-4e6b-bd81-c10816ced15f"],
+            ["translation_id" => "36011462-d5bd-435a-90f0-44d153cb7301", "translatable_type" => "App\Models\Description", "translatable_id" => "64d6fa74-d6ca-4e6b-bd81-c10816ced15f"],
+            ["translation_id" => "4deaa30d-abd3-4555-9ab0-f8dd5763dc59", "translatable_type" => "App\Models\Description", "translatable_id" => "64d6fa74-d6ca-4e6b-bd81-c10816ced15f"],
+            //1617
+            ["translation_id" => "8d439f2e-9383-4c51-854b-b085557fab7e", "translatable_type" => "App\Models\Description", "translatable_id" => "9ab58d6d-a97c-49ca-8242-ac68cb910408"],
+            ["translation_id" => "08402158-22e5-4d60-ba3d-d06991dbc6b5", "translatable_type" => "App\Models\Description", "translatable_id" => "9ab58d6d-a97c-49ca-8242-ac68cb910408"],
+            ["translation_id" => "fd8fbba8-d2a3-4ea8-8da7-23329f53f8d5", "translatable_type" => "App\Models\Description", "translatable_id" => "9ab58d6d-a97c-49ca-8242-ac68cb910408"],
+            //1618
+            ["translation_id" => "f5e074da-0bed-4817-810e-758f4d80def5", "translatable_type" => "App\Models\Description", "translatable_id" => "5aecb404-931b-4c19-8438-cb961495e762"],
+            ["translation_id" => "939c11ff-9e91-475a-a4ef-4be8cbea25ba", "translatable_type" => "App\Models\Description", "translatable_id" => "5aecb404-931b-4c19-8438-cb961495e762"],
+            ["translation_id" => "834ce2d6-0453-4638-834c-067439ffe083", "translatable_type" => "App\Models\Description", "translatable_id" => "5aecb404-931b-4c19-8438-cb961495e762"],
+            //1619
+            ["translation_id" => "31ef13cd-0125-4463-aa6c-1b2664eaad84", "translatable_type" => "App\Models\Description", "translatable_id" => "92204a18-db6b-422b-987d-3453a3785001"],
+            ["translation_id" => "5b7f43e5-3ec1-41e0-9216-4b646be021cd", "translatable_type" => "App\Models\Description", "translatable_id" => "92204a18-db6b-422b-987d-3453a3785001"],
+            ["translation_id" => "d5d38f50-6230-4386-a4cc-064bebcc73dd", "translatable_type" => "App\Models\Description", "translatable_id" => "92204a18-db6b-422b-987d-3453a3785001"],
+            //1620
+            ["translation_id" => "f42b50bb-002e-41ff-a235-bd855da0205c", "translatable_type" => "App\Models\Description", "translatable_id" => "2e79cca8-d71f-4e02-92dc-7f2cd18d560e"],
+            ["translation_id" => "244883fa-5f41-47d8-964c-f2880ea63f3b", "translatable_type" => "App\Models\Description", "translatable_id" => "2e79cca8-d71f-4e02-92dc-7f2cd18d560e"],
+            ["translation_id" => "51bc52c3-dbec-4f26-93d4-87f814fe4a46", "translatable_type" => "App\Models\Description", "translatable_id" => "2e79cca8-d71f-4e02-92dc-7f2cd18d560e"],
+            //1621
+            ["translation_id" => "8882ed01-f994-4777-844f-a50fe1a54930", "translatable_type" => "App\Models\Description", "translatable_id" => "24b779f2-47d6-447f-9f60-e6d61ebf80a3"],
+            ["translation_id" => "04fb1804-37f8-495c-ae16-6e7118f325ea", "translatable_type" => "App\Models\Description", "translatable_id" => "24b779f2-47d6-447f-9f60-e6d61ebf80a3"],
+            ["translation_id" => "e86bc010-2805-4bdb-9d22-c09bdda6abb5", "translatable_type" => "App\Models\Description", "translatable_id" => "24b779f2-47d6-447f-9f60-e6d61ebf80a3"],
+            //1622
+            ["translation_id" => "6dcbf7d5-0e19-4f61-903b-c439090dee66", "translatable_type" => "App\Models\Description", "translatable_id" => "0f939b60-ff7d-4097-9057-4ab79d4411b3"],
+            ["translation_id" => "f4b3cfe3-f29c-4112-841b-e86409f43fe4", "translatable_type" => "App\Models\Description", "translatable_id" => "0f939b60-ff7d-4097-9057-4ab79d4411b3"],
+            ["translation_id" => "88e1b099-0014-405b-99d1-d6530320a59d", "translatable_type" => "App\Models\Description", "translatable_id" => "0f939b60-ff7d-4097-9057-4ab79d4411b3"],
+            //1623
+            ["translation_id" => "a9c8f89c-a497-4e24-8497-9d4577c6e8c7", "translatable_type" => "App\Models\Description", "translatable_id" => "7e5cd203-5650-4d6a-afff-ce97152c4743"],
+            ["translation_id" => "2c449e7f-f6e6-45bc-89fb-72210a7a31c4", "translatable_type" => "App\Models\Description", "translatable_id" => "7e5cd203-5650-4d6a-afff-ce97152c4743"],
+            ["translation_id" => "4faad209-0f39-4ad4-80e4-7a521eefae22", "translatable_type" => "App\Models\Description", "translatable_id" => "7e5cd203-5650-4d6a-afff-ce97152c4743"],
+            //1624
+            ["translation_id" => "d20da745-523e-472b-b20c-fd1d5d845baf", "translatable_type" => "App\Models\Description", "translatable_id" => "dbbcc04b-e34a-4d2b-8a1e-2cf7a5f950a0"],
+            ["translation_id" => "438dd398-ef18-4980-b9b8-3f2a93e0cc59", "translatable_type" => "App\Models\Description", "translatable_id" => "dbbcc04b-e34a-4d2b-8a1e-2cf7a5f950a0"],
+            ["translation_id" => "2bd34a58-1764-4354-aa72-57f902731016", "translatable_type" => "App\Models\Description", "translatable_id" => "dbbcc04b-e34a-4d2b-8a1e-2cf7a5f950a0"],
+            //1625
+            ["translation_id" => "e9f9e1e4-9884-462d-b1cd-e4cfbe4e4aa8", "translatable_type" => "App\Models\Description", "translatable_id" => "3d23e2ff-e3f3-40cc-a5e9-e4d67ee743eb"],
+            ["translation_id" => "1c205264-d03b-447f-bf82-522d5c96591d", "translatable_type" => "App\Models\Description", "translatable_id" => "3d23e2ff-e3f3-40cc-a5e9-e4d67ee743eb"],
+            ["translation_id" => "dc7d1aa5-46c7-4c4f-bdab-fdf67087463b", "translatable_type" => "App\Models\Description", "translatable_id" => "3d23e2ff-e3f3-40cc-a5e9-e4d67ee743eb"],
+            //1626
+            ["translation_id" => "abdf7dae-b10f-4bf9-a0fb-9c7e3e9db224", "translatable_type" => "App\Models\Description", "translatable_id" => "4daf4800-efd6-4957-97ca-9e8fb764f351"],
+            ["translation_id" => "1f60272d-64c6-4c17-852a-9a2133328889", "translatable_type" => "App\Models\Description", "translatable_id" => "4daf4800-efd6-4957-97ca-9e8fb764f351"],
+            ["translation_id" => "e748551b-fa80-4e8d-bc15-69d8583ed9fe", "translatable_type" => "App\Models\Description", "translatable_id" => "4daf4800-efd6-4957-97ca-9e8fb764f351"],
+            //1627
+            ["translation_id" => "75e8d4f1-60f8-4525-8366-14862e3b85b5", "translatable_type" => "App\Models\Description", "translatable_id" => "87f45f27-5723-447c-a514-0decab028a7d"],
+            ["translation_id" => "97b0437a-2ce8-4ea7-b7d1-1edc59516fef", "translatable_type" => "App\Models\Description", "translatable_id" => "87f45f27-5723-447c-a514-0decab028a7d"],
+            ["translation_id" => "1dc86e93-2cf7-416f-8448-2722c1206fc4", "translatable_type" => "App\Models\Description", "translatable_id" => "87f45f27-5723-447c-a514-0decab028a7d"],
+            //1628
+            ["translation_id" => "b9d0327e-75af-4806-b4de-c8ffc487e789", "translatable_type" => "App\Models\Description", "translatable_id" => "a59d2eb6-2d2a-4f6d-91e2-926215482ee9"],
+            ["translation_id" => "33612542-6df0-4640-a18f-1b799f75d5cd", "translatable_type" => "App\Models\Description", "translatable_id" => "a59d2eb6-2d2a-4f6d-91e2-926215482ee9"],
+            ["translation_id" => "b8141649-c0ee-4f04-92a5-b51c960e589b", "translatable_type" => "App\Models\Description", "translatable_id" => "a59d2eb6-2d2a-4f6d-91e2-926215482ee9"],
+            //1629
+            ["translation_id" => "f6a9c219-4c08-4ea4-aa3a-7d7cff2585a2", "translatable_type" => "App\Models\Description", "translatable_id" => "4aa11744-e374-49e1-89e7-1ef58e3db3ec"],
+            ["translation_id" => "955257a2-4930-433c-bc98-58256c7702c3", "translatable_type" => "App\Models\Description", "translatable_id" => "4aa11744-e374-49e1-89e7-1ef58e3db3ec"],
+            ["translation_id" => "3f850eab-012f-457f-9a87-daf103fb9b7a", "translatable_type" => "App\Models\Description", "translatable_id" => "4aa11744-e374-49e1-89e7-1ef58e3db3ec"],
+            //1630
+            ["translation_id" => "9d70c508-ffe6-493b-9a5e-6800d867b7d1", "translatable_type" => "App\Models\Description", "translatable_id" => "c9831f64-e298-424b-9141-da1ec0165d21"],
+            ["translation_id" => "1de75d4b-dbfd-4a48-95a4-4573ef49545a", "translatable_type" => "App\Models\Description", "translatable_id" => "c9831f64-e298-424b-9141-da1ec0165d21"],
+            ["translation_id" => "024e2096-6ad0-4822-b9da-a5be0f05663b", "translatable_type" => "App\Models\Description", "translatable_id" => "c9831f64-e298-424b-9141-da1ec0165d21"],
+            //1631
+            ["translation_id" => "d7404d7b-c3a7-4b22-ae90-1524f0eda834", "translatable_type" => "App\Models\Description", "translatable_id" => "d42b5d91-b398-468c-95ca-c79f738e082a"],
+            ["translation_id" => "1baebc77-6281-4f86-8e7c-0edda802b458", "translatable_type" => "App\Models\Description", "translatable_id" => "d42b5d91-b398-468c-95ca-c79f738e082a"],
+            ["translation_id" => "dbc2f594-8a14-4cb7-83c9-42451a20f4d2", "translatable_type" => "App\Models\Description", "translatable_id" => "d42b5d91-b398-468c-95ca-c79f738e082a"],
+            //1632
+            ["translation_id" => "82ade7e9-4e1f-467d-8995-08e198f7f584", "translatable_type" => "App\Models\Description", "translatable_id" => "37e93fea-34a7-471c-8759-515fdc3a19c3"],
+            ["translation_id" => "ddb8933a-503e-4eac-aa99-082570c94af3", "translatable_type" => "App\Models\Description", "translatable_id" => "37e93fea-34a7-471c-8759-515fdc3a19c3"],
+            ["translation_id" => "d5269512-5448-40ab-b9bf-2967b5ef3856", "translatable_type" => "App\Models\Description", "translatable_id" => "37e93fea-34a7-471c-8759-515fdc3a19c3"],
+            //1633
+            ["translation_id" => "e9c0ba84-afe2-4a5f-b4b2-9b1d6c6d3dd3", "translatable_type" => "App\Models\Description", "translatable_id" => "84bc0fa9-f584-4c61-81f4-79a4bffa5af4"],
+            ["translation_id" => "fe220a34-b27a-4189-b700-fd3eca962d3a", "translatable_type" => "App\Models\Description", "translatable_id" => "84bc0fa9-f584-4c61-81f4-79a4bffa5af4"],
+            ["translation_id" => "e8f49d61-d2e1-4461-b601-6a31d7c3673e", "translatable_type" => "App\Models\Description", "translatable_id" => "84bc0fa9-f584-4c61-81f4-79a4bffa5af4"],
+            //1634
+            ["translation_id" => "c22d427f-01ff-410c-b0b4-40a48ff3cc8c", "translatable_type" => "App\Models\Description", "translatable_id" => "42352fa4-2bce-4834-aa0d-e978d7452a72"],
+            ["translation_id" => "efaae0e7-f346-43cf-8f4a-cb197ee89359", "translatable_type" => "App\Models\Description", "translatable_id" => "42352fa4-2bce-4834-aa0d-e978d7452a72"],
+            ["translation_id" => "aa36291b-b3da-443e-b05c-d52221e88bc2", "translatable_type" => "App\Models\Description", "translatable_id" => "42352fa4-2bce-4834-aa0d-e978d7452a72"],
+            //1635
+            ["translation_id" => "6c0eee84-d6af-4a1c-8bfd-e921657a519c", "translatable_type" => "App\Models\Description", "translatable_id" => "f5ca6ab2-8a80-467e-8f97-2b159a72dcc4"],
+            ["translation_id" => "df979b10-3cdf-40eb-9af8-74c53a50e3d5", "translatable_type" => "App\Models\Description", "translatable_id" => "f5ca6ab2-8a80-467e-8f97-2b159a72dcc4"],
+            ["translation_id" => "f3b6e7f1-cb7f-4566-a5c1-d9f4b7f3ad3b", "translatable_type" => "App\Models\Description", "translatable_id" => "f5ca6ab2-8a80-467e-8f97-2b159a72dcc4"],
+            //1636
+            ["translation_id" => "d3221b21-6985-46c6-8038-bae7e3393096", "translatable_type" => "App\Models\Description", "translatable_id" => "5969d74d-be54-4292-b416-e3fff88fad2c"],
+            ["translation_id" => "d05a9a9e-50a2-4e5e-ae04-08e00e0451d5", "translatable_type" => "App\Models\Description", "translatable_id" => "5969d74d-be54-4292-b416-e3fff88fad2c"],
+            ["translation_id" => "bae50223-77f0-4c91-a1dd-a4c5433d83bb", "translatable_type" => "App\Models\Description", "translatable_id" => "5969d74d-be54-4292-b416-e3fff88fad2c"],
+            //1637
+            ["translation_id" => "1ac87b59-30fb-4554-b925-dbccf0e47bc8", "translatable_type" => "App\Models\Description", "translatable_id" => "a12949ac-fe47-47be-9d92-6b960c656f9b"],
+            ["translation_id" => "53959cf8-f222-41dd-bbcf-d5ccc0b22a61", "translatable_type" => "App\Models\Description", "translatable_id" => "a12949ac-fe47-47be-9d92-6b960c656f9b"],
+            ["translation_id" => "f6784393-1039-4fde-9cf6-2d88dbdc4f03", "translatable_type" => "App\Models\Description", "translatable_id" => "a12949ac-fe47-47be-9d92-6b960c656f9b"],
+            //1638
+            ["translation_id" => "7a9c21f3-5708-4a98-86ce-1b8d82d5282a", "translatable_type" => "App\Models\Description", "translatable_id" => "2329a3f8-52ca-40d0-8242-92177dfe4eb0"],
+            ["translation_id" => "d64670d9-ccc4-40b4-aa9b-ad370f7e4fcb", "translatable_type" => "App\Models\Description", "translatable_id" => "2329a3f8-52ca-40d0-8242-92177dfe4eb0"],
+            ["translation_id" => "5346c5b7-d0b5-4cc9-9bb3-a909b957cc62", "translatable_type" => "App\Models\Description", "translatable_id" => "2329a3f8-52ca-40d0-8242-92177dfe4eb0"],
+            //1639
+            ["translation_id" => "2705ba90-46f4-4d20-afd0-b0a95ba35b0f", "translatable_type" => "App\Models\Description", "translatable_id" => "6483d1c3-ed1a-44ab-bac9-057535aee4d8"],
+            ["translation_id" => "bf8a6869-f81c-41a8-a150-8e71b2b6c114", "translatable_type" => "App\Models\Description", "translatable_id" => "6483d1c3-ed1a-44ab-bac9-057535aee4d8"],
+            ["translation_id" => "a7905eff-14ef-45cd-aed0-fa2462af30da", "translatable_type" => "App\Models\Description", "translatable_id" => "6483d1c3-ed1a-44ab-bac9-057535aee4d8"],
+            //1640
+            ["translation_id" => "1fe32e06-b547-48b0-ae19-e41e96883cb3", "translatable_type" => "App\Models\Description", "translatable_id" => "9da80884-8e69-4f90-8170-ae88983dfcfa"],
+            ["translation_id" => "89ba584d-9388-4731-a9b3-5592fd88f613", "translatable_type" => "App\Models\Description", "translatable_id" => "9da80884-8e69-4f90-8170-ae88983dfcfa"],
+            ["translation_id" => "d33a8d23-d4fa-457c-98bb-9bb09561e43c", "translatable_type" => "App\Models\Description", "translatable_id" => "9da80884-8e69-4f90-8170-ae88983dfcfa"],
+            //1641
+            ["translation_id" => "418cf6f8-96fa-4dfd-9a5d-30fc7d403e49", "translatable_type" => "App\Models\Description", "translatable_id" => "4d68ef7b-824e-4c16-afc5-da64487a987f"],
+            ["translation_id" => "e469ce99-2d07-43ce-b5dd-04b28ece0b6b", "translatable_type" => "App\Models\Description", "translatable_id" => "4d68ef7b-824e-4c16-afc5-da64487a987f"],
+            ["translation_id" => "8aecf664-0962-4f2e-a869-3f1c5edb3004", "translatable_type" => "App\Models\Description", "translatable_id" => "4d68ef7b-824e-4c16-afc5-da64487a987f"],
+            //1642
+            ["translation_id" => "54303220-e8e3-48b7-8793-ce6ee4a1d706", "translatable_type" => "App\Models\Description", "translatable_id" => "c42d9feb-fc95-4d2d-8d6e-45078d62984a"],
+            ["translation_id" => "b3ca0385-77e6-4c46-96bf-37979aebc110", "translatable_type" => "App\Models\Description", "translatable_id" => "c42d9feb-fc95-4d2d-8d6e-45078d62984a"],
+            ["translation_id" => "202ad497-5166-4673-8049-d71efa87b035", "translatable_type" => "App\Models\Description", "translatable_id" => "c42d9feb-fc95-4d2d-8d6e-45078d62984a"],
+            //1643
+            ["translation_id" => "06eb28a4-4b86-4aed-9950-a7274c38b819", "translatable_type" => "App\Models\Description", "translatable_id" => "ec5bc8ca-9df2-4378-8f54-1afb1ff5a325"],
+            ["translation_id" => "bbb256db-4cb0-4eb6-a4e3-1071c9dace4e", "translatable_type" => "App\Models\Description", "translatable_id" => "ec5bc8ca-9df2-4378-8f54-1afb1ff5a325"],
+            ["translation_id" => "71eea8ab-9e9f-44e9-a4a5-f7aa3bb3aed6", "translatable_type" => "App\Models\Description", "translatable_id" => "ec5bc8ca-9df2-4378-8f54-1afb1ff5a325"],
+            //1644
+            ["translation_id" => "a7ad888f-6861-495c-8855-6ee9abbc7280", "translatable_type" => "App\Models\Description", "translatable_id" => "a5a4cb4e-2597-4f40-9191-040dcbf7d8ee"],
+            ["translation_id" => "1d0977b9-5386-4a55-a541-3c6c0d51a92f", "translatable_type" => "App\Models\Description", "translatable_id" => "a5a4cb4e-2597-4f40-9191-040dcbf7d8ee"],
+            ["translation_id" => "bb066ed3-598f-4397-b165-da5fbf2604b2", "translatable_type" => "App\Models\Description", "translatable_id" => "a5a4cb4e-2597-4f40-9191-040dcbf7d8ee"],
+            //1645
+            ["translation_id" => "6ffee50b-93d1-43ed-8c00-b112e6ab3a79", "translatable_type" => "App\Models\Description", "translatable_id" => "db662b5b-e7b6-46b8-86ea-688e14aef5f9"],
+            ["translation_id" => "f2f72913-63da-4941-92a7-744fad5740eb", "translatable_type" => "App\Models\Description", "translatable_id" => "db662b5b-e7b6-46b8-86ea-688e14aef5f9"],
+            ["translation_id" => "abf12a9e-8b77-4c69-b90f-546266080d89", "translatable_type" => "App\Models\Description", "translatable_id" => "db662b5b-e7b6-46b8-86ea-688e14aef5f9"],
+            //1646
+            ["translation_id" => "a10f5764-345e-4de1-9747-b27aa23a998b", "translatable_type" => "App\Models\Description", "translatable_id" => "aa397036-7ce6-4341-a8ec-1fa0ab0f14d2"],
+            ["translation_id" => "ed517c59-f71f-40c7-a38f-a18a8f86a888", "translatable_type" => "App\Models\Description", "translatable_id" => "aa397036-7ce6-4341-a8ec-1fa0ab0f14d2"],
+            ["translation_id" => "b44f0e41-c4ab-494c-9c91-21abae17bef1", "translatable_type" => "App\Models\Description", "translatable_id" => "aa397036-7ce6-4341-a8ec-1fa0ab0f14d2"],
+            //1647
+            ["translation_id" => "842b05a3-9469-401d-8950-d8b2e0f9bbfd", "translatable_type" => "App\Models\Description", "translatable_id" => "586ec90b-74ca-4125-ab2b-00f95991e3b9"],
+            ["translation_id" => "478d6ab2-2c30-452d-99d1-107a0506eb3a", "translatable_type" => "App\Models\Description", "translatable_id" => "586ec90b-74ca-4125-ab2b-00f95991e3b9"],
+            ["translation_id" => "50d61db3-f6b7-484e-9edb-6a8cf4b6875d", "translatable_type" => "App\Models\Description", "translatable_id" => "586ec90b-74ca-4125-ab2b-00f95991e3b9"],
+            //1648
+            ["translation_id" => "d32fd64e-5a29-4ca4-b17c-55a184a3909f", "translatable_type" => "App\Models\Description", "translatable_id" => "29b39d84-9242-4368-b415-186ab8d941fe"],
+            ["translation_id" => "e8b46fcd-7730-46ff-adc8-0949b91bdfee", "translatable_type" => "App\Models\Description", "translatable_id" => "29b39d84-9242-4368-b415-186ab8d941fe"],
+            ["translation_id" => "f87eebb9-d394-4a82-a78e-688aba0a1c95", "translatable_type" => "App\Models\Description", "translatable_id" => "29b39d84-9242-4368-b415-186ab8d941fe"],
+            //1649
+            ["translation_id" => "8cb33dcf-cadd-4450-8a06-3ecf6da78858", "translatable_type" => "App\Models\Description", "translatable_id" => "6b1ad0a2-5e95-43a9-823c-dbf3ceb8cf09"],
+            ["translation_id" => "3b316277-119f-49b5-8f69-485a90a26147", "translatable_type" => "App\Models\Description", "translatable_id" => "6b1ad0a2-5e95-43a9-823c-dbf3ceb8cf09"],
+            ["translation_id" => "be84137b-614c-4ba2-ba26-e8a86165ec76", "translatable_type" => "App\Models\Description", "translatable_id" => "6b1ad0a2-5e95-43a9-823c-dbf3ceb8cf09"],
+            //1650
+            ["translation_id" => "39f2fa55-0e66-46ed-a135-004044ebbfa3", "translatable_type" => "App\Models\Description", "translatable_id" => "229ea0bc-0f48-45d8-9b11-61ff31407956"],
+            ["translation_id" => "527c1f6c-7298-438e-b9ba-c54dcbb8b5f2", "translatable_type" => "App\Models\Description", "translatable_id" => "229ea0bc-0f48-45d8-9b11-61ff31407956"],
+            ["translation_id" => "c6a5d276-643d-46f9-b07a-35862c220b47", "translatable_type" => "App\Models\Description", "translatable_id" => "229ea0bc-0f48-45d8-9b11-61ff31407956"],
+            //1651
+            ["translation_id" => "5538e5d9-88fa-4ae0-bf82-7bd2fa0b60a6", "translatable_type" => "App\Models\Description", "translatable_id" => "9747a129-2a41-4a75-9f95-34e2f9cc886e"],
+            ["translation_id" => "6af9bde1-963e-42a2-9a4b-37e897d4be24", "translatable_type" => "App\Models\Description", "translatable_id" => "9747a129-2a41-4a75-9f95-34e2f9cc886e"],
+            ["translation_id" => "12e5294b-94c5-45bc-90b0-824eac8c545a", "translatable_type" => "App\Models\Description", "translatable_id" => "9747a129-2a41-4a75-9f95-34e2f9cc886e"],
+            //1652
+            ["translation_id" => "5c891df4-ccf0-447b-8816-19db104e4ef5", "translatable_type" => "App\Models\Description", "translatable_id" => "430434cf-2790-4040-a520-8b476c7b33f9"],
+            ["translation_id" => "3ee96771-5a97-4292-8b6a-01353ef29e98", "translatable_type" => "App\Models\Description", "translatable_id" => "430434cf-2790-4040-a520-8b476c7b33f9"],
+            ["translation_id" => "020d4bcd-fe83-4d3a-8649-4ae5b177e3ac", "translatable_type" => "App\Models\Description", "translatable_id" => "430434cf-2790-4040-a520-8b476c7b33f9"],
+            //1653
+            ["translation_id" => "e7b69715-8dec-4fe2-8c64-7cfaa58a09bf", "translatable_type" => "App\Models\Description", "translatable_id" => "2c056fe6-1140-4479-b00f-ae7c07856644"],
+            ["translation_id" => "7dedf4da-aca9-4e27-91be-8bbcab6d6d51", "translatable_type" => "App\Models\Description", "translatable_id" => "2c056fe6-1140-4479-b00f-ae7c07856644"],
+            ["translation_id" => "eb189d43-d7a5-4e4b-beb2-24eea8599a46", "translatable_type" => "App\Models\Description", "translatable_id" => "2c056fe6-1140-4479-b00f-ae7c07856644"],
+            //1654
+            ["translation_id" => "76c2dd75-e321-40e9-9e4e-04bb56673197", "translatable_type" => "App\Models\Description", "translatable_id" => "5eb5d78f-1a1c-41c0-a69d-7048b184f90a"],
+            ["translation_id" => "48c8f7d6-5620-4c40-8169-ce2c0661b135", "translatable_type" => "App\Models\Description", "translatable_id" => "5eb5d78f-1a1c-41c0-a69d-7048b184f90a"],
+            ["translation_id" => "fad0e9d4-1f6d-4a62-b97f-ec89005c5aad", "translatable_type" => "App\Models\Description", "translatable_id" => "5eb5d78f-1a1c-41c0-a69d-7048b184f90a"],
+            //1655
+            ["translation_id" => "c092e77c-3563-4c83-9e71-46c6736dde6f", "translatable_type" => "App\Models\Description", "translatable_id" => "ce5ef324-35d0-4752-b754-3e134e39636b"],
+            ["translation_id" => "09c9fcbb-b6c7-477c-bfe0-5dd8b6b27a8c", "translatable_type" => "App\Models\Description", "translatable_id" => "ce5ef324-35d0-4752-b754-3e134e39636b"],
+            ["translation_id" => "d5d15c77-cdf0-42e6-91b6-108ccedd73d7", "translatable_type" => "App\Models\Description", "translatable_id" => "ce5ef324-35d0-4752-b754-3e134e39636b"],
+            //1656
+            ["translation_id" => "0724663c-5000-44d5-a782-c54b422e0374", "translatable_type" => "App\Models\Description", "translatable_id" => "cf52715a-c27d-44d0-aae8-5c62cb9d85c7"],
+            ["translation_id" => "426a382d-ef20-496a-a088-fb07aacc0037", "translatable_type" => "App\Models\Description", "translatable_id" => "cf52715a-c27d-44d0-aae8-5c62cb9d85c7"],
+            ["translation_id" => "b7591f5e-9cef-4b77-8444-8f8b898c2227", "translatable_type" => "App\Models\Description", "translatable_id" => "cf52715a-c27d-44d0-aae8-5c62cb9d85c7"],
+            //1657
+            ["translation_id" => "3e545688-0b71-41c2-abb8-5cd4a5f96f1f", "translatable_type" => "App\Models\Description", "translatable_id" => "f71e5f0e-424c-4d58-b259-0a5e9af8f626"],
+            ["translation_id" => "0fc582f5-ae6b-4763-9afb-c5c6a736f9b6", "translatable_type" => "App\Models\Description", "translatable_id" => "f71e5f0e-424c-4d58-b259-0a5e9af8f626"],
+            ["translation_id" => "cef2e91b-3fba-4286-9026-140866ec18a1", "translatable_type" => "App\Models\Description", "translatable_id" => "f71e5f0e-424c-4d58-b259-0a5e9af8f626"],
+            //1658
+            ["translation_id" => "488cf3e4-bda2-428f-bf6f-d0386d975def", "translatable_type" => "App\Models\Description", "translatable_id" => "29da0adf-fb5a-4c88-aed2-fc327473af7c"],
+            ["translation_id" => "bce1f2fe-0c1b-44aa-8e69-c5006a1e7bae", "translatable_type" => "App\Models\Description", "translatable_id" => "29da0adf-fb5a-4c88-aed2-fc327473af7c"],
+            ["translation_id" => "54450ac1-5711-4ba8-8564-5bcf1bcc8572", "translatable_type" => "App\Models\Description", "translatable_id" => "29da0adf-fb5a-4c88-aed2-fc327473af7c"],
+            //1659
+            ["translation_id" => "8bcf2683-6eb1-45e9-8427-1d3ea85e8d83", "translatable_type" => "App\Models\Description", "translatable_id" => "dfc3a54f-936e-488f-9474-3a5cf8b1766b"],
+            ["translation_id" => "390b4de8-9a7d-4a82-8a32-28a32a1bc277", "translatable_type" => "App\Models\Description", "translatable_id" => "dfc3a54f-936e-488f-9474-3a5cf8b1766b"],
+            ["translation_id" => "30b9ed9e-de5e-4a1f-9630-e36d1b4ae981", "translatable_type" => "App\Models\Description", "translatable_id" => "dfc3a54f-936e-488f-9474-3a5cf8b1766b"],
+            //1660
+            ["translation_id" => "2e584745-0247-4172-909a-e495c045ec74", "translatable_type" => "App\Models\Description", "translatable_id" => "5aab5b99-6ccf-4b04-ad8b-f52b4800d7db"],
+            ["translation_id" => "02c885d1-1a5d-4dc6-baa3-949bef78d4b0", "translatable_type" => "App\Models\Description", "translatable_id" => "5aab5b99-6ccf-4b04-ad8b-f52b4800d7db"],
+            ["translation_id" => "6ea58b2e-950c-448c-bea5-ef3737e3e349", "translatable_type" => "App\Models\Description", "translatable_id" => "5aab5b99-6ccf-4b04-ad8b-f52b4800d7db"],
+            //1661
+            ["translation_id" => "22315c07-e39a-480d-a403-26b947c83bdf", "translatable_type" => "App\Models\Description", "translatable_id" => "bd79eb14-6362-4430-a6f0-9a5348c644a2"],
+            ["translation_id" => "e54597a8-d00e-463e-ae45-6f2aedaa5a6c", "translatable_type" => "App\Models\Description", "translatable_id" => "bd79eb14-6362-4430-a6f0-9a5348c644a2"],
+            ["translation_id" => "89b5a33c-f90f-4c4e-b4c4-0b6868c2061c", "translatable_type" => "App\Models\Description", "translatable_id" => "bd79eb14-6362-4430-a6f0-9a5348c644a2"],
+            //1662
+            ["translation_id" => "e20ecde9-51b2-487f-bea8-75e577cef5fc", "translatable_type" => "App\Models\Description", "translatable_id" => "9f822f81-c3ea-4986-9e25-bb611d570286"],
+            ["translation_id" => "9f756ef2-c993-4a96-ae7d-8c839779363b", "translatable_type" => "App\Models\Description", "translatable_id" => "9f822f81-c3ea-4986-9e25-bb611d570286"],
+            ["translation_id" => "30a52853-431a-4ffe-99e7-91ce673ed1f6", "translatable_type" => "App\Models\Description", "translatable_id" => "9f822f81-c3ea-4986-9e25-bb611d570286"],
+            //1663
+            ["translation_id" => "7befdb0b-50c1-47cc-9cf6-600fbb20e94f", "translatable_type" => "App\Models\Description", "translatable_id" => "1ccd2b9b-6b07-419d-9971-56717c2d6792"],
+            ["translation_id" => "5dd5bcc4-9115-4d58-99cb-82b7dbf853ed", "translatable_type" => "App\Models\Description", "translatable_id" => "1ccd2b9b-6b07-419d-9971-56717c2d6792"],
+            ["translation_id" => "31057c04-d5f5-4fef-bf33-e96f6d313e01", "translatable_type" => "App\Models\Description", "translatable_id" => "1ccd2b9b-6b07-419d-9971-56717c2d6792"],
+            //1664
+            ["translation_id" => "8cddc8e0-134a-441f-8099-e7e9d92aac58", "translatable_type" => "App\Models\Description", "translatable_id" => "ee11f43b-72f3-4600-ab9c-33b183093201"],
+            ["translation_id" => "244e99c8-a18b-4891-afc9-c2011d82ad7c", "translatable_type" => "App\Models\Description", "translatable_id" => "ee11f43b-72f3-4600-ab9c-33b183093201"],
+            ["translation_id" => "4577b6ab-dc90-4aa2-af79-960b9370bec2", "translatable_type" => "App\Models\Description", "translatable_id" => "ee11f43b-72f3-4600-ab9c-33b183093201"],
+            //1665
+            ["translation_id" => "c812873b-121f-42ea-943c-184d7db03a64", "translatable_type" => "App\Models\Description", "translatable_id" => "ba23e061-ddf5-41e8-86de-17bed4e3dc26"],
+            ["translation_id" => "97efbf14-3a37-43b9-9157-4f1c227e3c27", "translatable_type" => "App\Models\Description", "translatable_id" => "ba23e061-ddf5-41e8-86de-17bed4e3dc26"],
+            ["translation_id" => "a7100dc1-51f5-4a66-a366-117b9a53d893", "translatable_type" => "App\Models\Description", "translatable_id" => "ba23e061-ddf5-41e8-86de-17bed4e3dc26"],
+            //1666
+            ["translation_id" => "9809cb51-2e05-4667-bef5-f3f271e427c2", "translatable_type" => "App\Models\Description", "translatable_id" => "82f6ac5b-0374-415e-919f-c9842adf198e"],
+            ["translation_id" => "e7c867a8-2182-48aa-a2fc-b8ef449b55d4", "translatable_type" => "App\Models\Description", "translatable_id" => "82f6ac5b-0374-415e-919f-c9842adf198e"],
+            ["translation_id" => "44255d49-68da-44f5-b869-191bd3d25653", "translatable_type" => "App\Models\Description", "translatable_id" => "82f6ac5b-0374-415e-919f-c9842adf198e"],
+            //1667
+            ["translation_id" => "506b9490-cad0-4b4f-8d68-21b71914d1be", "translatable_type" => "App\Models\Description", "translatable_id" => "cafc2f64-b4a9-4653-adbf-a1261af16446"],
+            ["translation_id" => "2d38aea5-9d06-402a-b0b4-f3a695b21f8d", "translatable_type" => "App\Models\Description", "translatable_id" => "cafc2f64-b4a9-4653-adbf-a1261af16446"],
+            ["translation_id" => "be417f6f-217b-4789-bdd4-7952ac5e0793", "translatable_type" => "App\Models\Description", "translatable_id" => "cafc2f64-b4a9-4653-adbf-a1261af16446"],
+            //1668
+            ["translation_id" => "cfda00c1-b69d-46e9-8137-90a74faa6010", "translatable_type" => "App\Models\Description", "translatable_id" => "b7f4a7ba-4074-442d-8c21-f9049c1f2026"],
+            ["translation_id" => "b354c898-96e1-4c73-a0f4-7ddc8a48bddf", "translatable_type" => "App\Models\Description", "translatable_id" => "b7f4a7ba-4074-442d-8c21-f9049c1f2026"],
+            ["translation_id" => "2c916995-4cff-4e00-8978-829a88fc50ab", "translatable_type" => "App\Models\Description", "translatable_id" => "b7f4a7ba-4074-442d-8c21-f9049c1f2026"],
+            //1669
+            ["translation_id" => "0442b15e-f16a-4b53-b355-bea4c314bd93", "translatable_type" => "App\Models\Description", "translatable_id" => "bfef10ab-ac6f-42a1-8d1a-afe1378f3bcc"],
+            ["translation_id" => "da76d7ef-6e5c-4b8c-94c3-7c4545b64df4", "translatable_type" => "App\Models\Description", "translatable_id" => "bfef10ab-ac6f-42a1-8d1a-afe1378f3bcc"],
+            ["translation_id" => "14aa419a-4047-44b5-a837-368e34632798", "translatable_type" => "App\Models\Description", "translatable_id" => "bfef10ab-ac6f-42a1-8d1a-afe1378f3bcc"],
+            //1670
+            ["translation_id" => "89d560c6-bfb5-4764-af16-5d1a5bd10fd0", "translatable_type" => "App\Models\Description", "translatable_id" => "d96e042c-261b-441d-b792-7ceefa368518"],
+            ["translation_id" => "b7b24337-a539-4c71-b0ea-1f26390b5cbd", "translatable_type" => "App\Models\Description", "translatable_id" => "d96e042c-261b-441d-b792-7ceefa368518"],
+            ["translation_id" => "7f324c2d-fbcc-4c19-8b1f-cd35c6c868d0", "translatable_type" => "App\Models\Description", "translatable_id" => "d96e042c-261b-441d-b792-7ceefa368518"],
+            //1671
+            ["translation_id" => "80f9f917-16dd-4c9c-b17e-54ad2d9da7b3", "translatable_type" => "App\Models\Description", "translatable_id" => "254110de-b54f-4441-a0c8-c924f68a50d7"],
+            ["translation_id" => "84d1e905-c4f0-4718-b80c-ea7580d656bf", "translatable_type" => "App\Models\Description", "translatable_id" => "254110de-b54f-4441-a0c8-c924f68a50d7"],
+            ["translation_id" => "59231424-dc29-4800-83cb-e1285b135e74", "translatable_type" => "App\Models\Description", "translatable_id" => "254110de-b54f-4441-a0c8-c924f68a50d7"],
+            //1672
+            ["translation_id" => "f65d38c1-581e-492e-bc61-63f403587619", "translatable_type" => "App\Models\Description", "translatable_id" => "62556455-bd54-45c1-af29-4dbe9623910a"],
+            ["translation_id" => "01131399-0d38-4d00-bdc9-88fa879588a1", "translatable_type" => "App\Models\Description", "translatable_id" => "62556455-bd54-45c1-af29-4dbe9623910a"],
+            ["translation_id" => "ab374c48-8482-4352-8414-077977bb0894", "translatable_type" => "App\Models\Description", "translatable_id" => "62556455-bd54-45c1-af29-4dbe9623910a"],
+            //1673
+            ["translation_id" => "a4fa48c1-ec1a-4a5f-96a1-08fe2644a1fd", "translatable_type" => "App\Models\Description", "translatable_id" => "f947e77d-6dd9-4300-aa7f-a1a1bc5671c0"],
+            ["translation_id" => "a984ea73-06ed-48fd-88c0-037cd10ec316", "translatable_type" => "App\Models\Description", "translatable_id" => "f947e77d-6dd9-4300-aa7f-a1a1bc5671c0"],
+            ["translation_id" => "88992f6f-b52a-48a9-aca3-182495216f59", "translatable_type" => "App\Models\Description", "translatable_id" => "f947e77d-6dd9-4300-aa7f-a1a1bc5671c0"],
+            //1674
+            ["translation_id" => "abd46f36-0146-4c77-baf6-60ccf77286f5", "translatable_type" => "App\Models\Description", "translatable_id" => "7450f796-4e55-4f75-b7ff-1f7c26ca473c"],
+            ["translation_id" => "cd68f9df-94bf-47fc-99fe-59fa45e4c922", "translatable_type" => "App\Models\Description", "translatable_id" => "7450f796-4e55-4f75-b7ff-1f7c26ca473c"],
+            ["translation_id" => "a870147b-365b-4bb5-8041-303d5129d9a3", "translatable_type" => "App\Models\Description", "translatable_id" => "7450f796-4e55-4f75-b7ff-1f7c26ca473c"],
+            //1675
+            ["translation_id" => "ea41b19f-b999-4484-88ef-3289211ffd02", "translatable_type" => "App\Models\Description", "translatable_id" => "a2cb4a27-16e4-4f87-9450-edee4458949a"],
+            ["translation_id" => "203e0e9e-bd59-4936-a3f1-9382bde058c4", "translatable_type" => "App\Models\Description", "translatable_id" => "a2cb4a27-16e4-4f87-9450-edee4458949a"],
+            ["translation_id" => "345d5337-92c9-4563-bcda-7d443a97dc89", "translatable_type" => "App\Models\Description", "translatable_id" => "a2cb4a27-16e4-4f87-9450-edee4458949a"],
+            //1676
+            ["translation_id" => "390e3eee-ac00-47f7-b24e-fa5c9f1bc9e9", "translatable_type" => "App\Models\Description", "translatable_id" => "e8507440-6592-42a2-a80c-4d10230c5b6a"],
+            ["translation_id" => "9e6e0e25-b221-4dd8-a461-91cafd59592e", "translatable_type" => "App\Models\Description", "translatable_id" => "e8507440-6592-42a2-a80c-4d10230c5b6a"],
+            ["translation_id" => "ba69d39c-8aca-4d14-acf5-ccd86b6ece7d", "translatable_type" => "App\Models\Description", "translatable_id" => "e8507440-6592-42a2-a80c-4d10230c5b6a"],
+            //1677
+            ["translation_id" => "d0ce98f5-4709-4ffd-a075-a8f256e96417", "translatable_type" => "App\Models\Description", "translatable_id" => "d37870e9-d856-4865-90df-c785f005231b"],
+            ["translation_id" => "33db1dc7-d18f-48a4-9f35-732c3852db3f", "translatable_type" => "App\Models\Description", "translatable_id" => "d37870e9-d856-4865-90df-c785f005231b"],
+            ["translation_id" => "d006f95a-d7be-49d1-bc7f-e4d900696b28", "translatable_type" => "App\Models\Description", "translatable_id" => "d37870e9-d856-4865-90df-c785f005231b"],
+            //1678
+            ["translation_id" => "92b3a3fc-c35b-4718-9d4f-c1095444f47e", "translatable_type" => "App\Models\Description", "translatable_id" => "ff79b1e5-c305-40cd-8a47-c3bd3a1cae2f"],
+            ["translation_id" => "3f10848e-820c-4f23-8d3d-8ee9e35ce723", "translatable_type" => "App\Models\Description", "translatable_id" => "ff79b1e5-c305-40cd-8a47-c3bd3a1cae2f"],
+            ["translation_id" => "832bea02-5626-4288-b334-da00d2487a9e", "translatable_type" => "App\Models\Description", "translatable_id" => "ff79b1e5-c305-40cd-8a47-c3bd3a1cae2f"],
+            //1679
+            ["translation_id" => "db6c405f-b940-4902-baa5-a96eb8d02ec2", "translatable_type" => "App\Models\Description", "translatable_id" => "7ee75698-9145-4ec6-8ee6-9135d2f743b2"],
+            ["translation_id" => "c32a033e-bb92-4c3f-84ba-87308cbeac59", "translatable_type" => "App\Models\Description", "translatable_id" => "7ee75698-9145-4ec6-8ee6-9135d2f743b2"],
+            ["translation_id" => "a5897305-81c9-48cf-81d1-2b89e6ba5938", "translatable_type" => "App\Models\Description", "translatable_id" => "7ee75698-9145-4ec6-8ee6-9135d2f743b2"],
+            //1680
+            ["translation_id" => "1f523ebe-897b-4552-b9d0-3cf34ff1a486", "translatable_type" => "App\Models\Description", "translatable_id" => "c539592c-562e-421a-a6e7-135d363b786f"],
+            ["translation_id" => "7a09dfec-3b97-4ad9-846c-79aaefd9b047", "translatable_type" => "App\Models\Description", "translatable_id" => "c539592c-562e-421a-a6e7-135d363b786f"],
+            ["translation_id" => "64576ad8-1069-4789-b802-1385bb6db724", "translatable_type" => "App\Models\Description", "translatable_id" => "c539592c-562e-421a-a6e7-135d363b786f"],
+            //1681
+            ["translation_id" => "485146c0-fdc0-48c5-9f66-7963fbcf70b5", "translatable_type" => "App\Models\Description", "translatable_id" => "46383d48-39ea-4f9d-9a88-66d02042a8eb"],
+            ["translation_id" => "2dbd444b-5927-4ddc-8e80-e33f75d26525", "translatable_type" => "App\Models\Description", "translatable_id" => "46383d48-39ea-4f9d-9a88-66d02042a8eb"],
+            ["translation_id" => "0e8ea4bf-9944-40fb-b639-3539290f6284", "translatable_type" => "App\Models\Description", "translatable_id" => "46383d48-39ea-4f9d-9a88-66d02042a8eb"],
+            //1682
+            ["translation_id" => "e466aa4c-8946-443f-9a75-73ebb3d975fe", "translatable_type" => "App\Models\Description", "translatable_id" => "97e95f8a-1cd7-4407-9e76-b58f85b4bc7b"],
+            ["translation_id" => "d3deb54d-67b7-4bc3-a2d9-fbb2bafcbdcc", "translatable_type" => "App\Models\Description", "translatable_id" => "97e95f8a-1cd7-4407-9e76-b58f85b4bc7b"],
+            ["translation_id" => "d5d45b4d-34ac-42d7-8c61-7086b2e28631", "translatable_type" => "App\Models\Description", "translatable_id" => "97e95f8a-1cd7-4407-9e76-b58f85b4bc7b"],
+            //1683
+            ["translation_id" => "238ae86d-bf2d-46eb-af27-93f19759e0d6", "translatable_type" => "App\Models\Description", "translatable_id" => "d446c2e1-c9be-48f2-8786-cf6623965cbd"],
+            ["translation_id" => "cdb7da41-a867-40ed-9278-c5f8871e14fa", "translatable_type" => "App\Models\Description", "translatable_id" => "d446c2e1-c9be-48f2-8786-cf6623965cbd"],
+            ["translation_id" => "3790a313-1bb1-482a-92cc-de6d01220c2d", "translatable_type" => "App\Models\Description", "translatable_id" => "d446c2e1-c9be-48f2-8786-cf6623965cbd"],
+            //1684
+            ["translation_id" => "c96bf7a1-fd23-4854-aa82-4a34a2ff6b00", "translatable_type" => "App\Models\Description", "translatable_id" => "1d8e6dc2-21fb-4d86-9275-c792a445130a"],
+            ["translation_id" => "c5034a12-4ae2-49ac-ad6a-349816e5182f", "translatable_type" => "App\Models\Description", "translatable_id" => "1d8e6dc2-21fb-4d86-9275-c792a445130a"],
+            ["translation_id" => "0628f306-c781-4af5-8379-418e2fbb34ae", "translatable_type" => "App\Models\Description", "translatable_id" => "1d8e6dc2-21fb-4d86-9275-c792a445130a"],
+            //1685
+            ["translation_id" => "9b2ed056-b2de-4531-ad3a-3dca240d42bd", "translatable_type" => "App\Models\Description", "translatable_id" => "959383fe-d259-42de-bebd-d4759e24758f"],
+            ["translation_id" => "5d3eb891-e6a3-4088-b751-6302f9d39cb7", "translatable_type" => "App\Models\Description", "translatable_id" => "959383fe-d259-42de-bebd-d4759e24758f"],
+            ["translation_id" => "6cb30f61-368f-4024-9203-ffb45e842174", "translatable_type" => "App\Models\Description", "translatable_id" => "959383fe-d259-42de-bebd-d4759e24758f"],
+            //1686
+            ["translation_id" => "152f3229-b55c-4c9c-96ef-21c05705369e", "translatable_type" => "App\Models\Description", "translatable_id" => "6c00b116-3bd0-4f2a-a421-6d573703be03"],
+            ["translation_id" => "c62638ca-2791-42d6-8dfc-3aa29be1832f", "translatable_type" => "App\Models\Description", "translatable_id" => "6c00b116-3bd0-4f2a-a421-6d573703be03"],
+            ["translation_id" => "c8f50d1c-3514-4041-942b-8bd08ce13092", "translatable_type" => "App\Models\Description", "translatable_id" => "6c00b116-3bd0-4f2a-a421-6d573703be03"],
+            //1687
+            ["translation_id" => "ea378392-40d0-4a3d-a3c6-82ceda9c7754", "translatable_type" => "App\Models\Description", "translatable_id" => "d65729a9-3113-4180-8bec-43f005b601e6"],
+            ["translation_id" => "a2403eaf-3a76-4eeb-9a62-aa94574ea55b", "translatable_type" => "App\Models\Description", "translatable_id" => "d65729a9-3113-4180-8bec-43f005b601e6"],
+            ["translation_id" => "7be1e5f4-0888-489d-aee7-cff298dd6d84", "translatable_type" => "App\Models\Description", "translatable_id" => "d65729a9-3113-4180-8bec-43f005b601e6"],
+            //1688
+            ["translation_id" => "63943d9e-6e3a-459f-8cc8-82470286e826", "translatable_type" => "App\Models\Description", "translatable_id" => "69843cbe-d992-4d7b-ad16-5172a4f5dc08"],
+            ["translation_id" => "ce93a348-76d2-41c9-94df-025c927086bb", "translatable_type" => "App\Models\Description", "translatable_id" => "69843cbe-d992-4d7b-ad16-5172a4f5dc08"],
+            ["translation_id" => "d650a60c-541f-4d71-9d38-f62c40a6949e", "translatable_type" => "App\Models\Description", "translatable_id" => "69843cbe-d992-4d7b-ad16-5172a4f5dc08"],
+            //1689
+            ["translation_id" => "be54b3e6-613b-4e5c-b30f-0c6c0ae24efc", "translatable_type" => "App\Models\Description", "translatable_id" => "4e03d953-ec88-4b0c-b660-455358f574bf"],
+            ["translation_id" => "f36a0646-cfb8-4ac8-b7ca-ea66bfcc1759", "translatable_type" => "App\Models\Description", "translatable_id" => "4e03d953-ec88-4b0c-b660-455358f574bf"],
+            ["translation_id" => "145e2b3b-106c-410d-be53-57fba8ff916d", "translatable_type" => "App\Models\Description", "translatable_id" => "4e03d953-ec88-4b0c-b660-455358f574bf"],
+            //1690
+            ["translation_id" => "2fb9653e-1176-4c3f-8bda-3a808508003b", "translatable_type" => "App\Models\Description", "translatable_id" => "51785efe-a88f-4709-8b00-35be160c2b13"],
+            ["translation_id" => "2b492646-1e7d-4f40-a3aa-2afce356a40e", "translatable_type" => "App\Models\Description", "translatable_id" => "51785efe-a88f-4709-8b00-35be160c2b13"],
+            ["translation_id" => "7c203cdb-4e39-43e9-9277-a2c8399b1dcd", "translatable_type" => "App\Models\Description", "translatable_id" => "51785efe-a88f-4709-8b00-35be160c2b13"],
+            //1691
+            ["translation_id" => "0e0e53e1-a8fd-4b23-8a4c-fc1dc12f22b9", "translatable_type" => "App\Models\Description", "translatable_id" => "a5c83a70-88c1-4076-9eac-f18b6567a4ef"],
+            ["translation_id" => "c357261f-ef3d-4041-afa3-2a8519376ef6", "translatable_type" => "App\Models\Description", "translatable_id" => "a5c83a70-88c1-4076-9eac-f18b6567a4ef"],
+            ["translation_id" => "2337c2fb-7941-4de3-8473-59a889217e02", "translatable_type" => "App\Models\Description", "translatable_id" => "a5c83a70-88c1-4076-9eac-f18b6567a4ef"],
+            //1692
+            ["translation_id" => "e02f2167-90a0-4aa3-ba82-7efb8beb70fa", "translatable_type" => "App\Models\Description", "translatable_id" => "1b9c14e4-a4be-436d-b4a7-da33c621235f"],
+            ["translation_id" => "82cb418b-370c-4455-8f67-4034c0e39026", "translatable_type" => "App\Models\Description", "translatable_id" => "1b9c14e4-a4be-436d-b4a7-da33c621235f"],
+            ["translation_id" => "be9db244-70f9-4e92-8b3d-bfaa1c279502", "translatable_type" => "App\Models\Description", "translatable_id" => "1b9c14e4-a4be-436d-b4a7-da33c621235f"],
+            //1693
+            ["translation_id" => "19d9ae77-c6e6-49b6-8733-7e417e94c3fe", "translatable_type" => "App\Models\Description", "translatable_id" => "2a11b6b0-95c5-44ab-bdb1-4fc8d298b96a"],
+            ["translation_id" => "d6b2e19e-171f-4f24-9fed-68bdd9b24d35", "translatable_type" => "App\Models\Description", "translatable_id" => "2a11b6b0-95c5-44ab-bdb1-4fc8d298b96a"],
+            ["translation_id" => "8701b941-d3e3-48fb-a6dd-7d67b836e29c", "translatable_type" => "App\Models\Description", "translatable_id" => "2a11b6b0-95c5-44ab-bdb1-4fc8d298b96a"],
+            //1694
+            ["translation_id" => "a3138844-fa1f-4f2f-9bdf-268be63c08cc", "translatable_type" => "App\Models\Description", "translatable_id" => "57195fca-6809-45ce-b29c-65a8a15d4588"],
+            ["translation_id" => "057c10cf-f60a-4f12-afa5-7c69a02a9dc5", "translatable_type" => "App\Models\Description", "translatable_id" => "57195fca-6809-45ce-b29c-65a8a15d4588"],
+            ["translation_id" => "1bfb1322-cfdc-424a-b096-94c93e5fcfd4", "translatable_type" => "App\Models\Description", "translatable_id" => "57195fca-6809-45ce-b29c-65a8a15d4588"],
+            //1695
+            ["translation_id" => "de17b6e7-332c-4509-b95c-2f3b1a3ef839", "translatable_type" => "App\Models\Description", "translatable_id" => "fb881f44-f7a8-4165-a61f-a2be47600b3d"],
+            ["translation_id" => "6dd1e19d-ebd7-4c8d-88de-6ea11450b5f2", "translatable_type" => "App\Models\Description", "translatable_id" => "fb881f44-f7a8-4165-a61f-a2be47600b3d"],
+            ["translation_id" => "dfdf188c-1900-43d5-8e08-ff09114f32bd", "translatable_type" => "App\Models\Description", "translatable_id" => "fb881f44-f7a8-4165-a61f-a2be47600b3d"],
+            //1696
+            ["translation_id" => "c5be8211-21d9-4a8a-9b00-0ee0e7fa65c7", "translatable_type" => "App\Models\Description", "translatable_id" => "504fe563-41a6-413a-be7c-082c5a606ce9"],
+            ["translation_id" => "f760846c-1b1a-453b-bd61-579ce8402ae2", "translatable_type" => "App\Models\Description", "translatable_id" => "504fe563-41a6-413a-be7c-082c5a606ce9"],
+            ["translation_id" => "08465af8-2633-4b96-a652-71804ea4c5d6", "translatable_type" => "App\Models\Description", "translatable_id" => "504fe563-41a6-413a-be7c-082c5a606ce9"],
+            //1697
+            ["translation_id" => "3dac011d-3008-450d-aaa9-de799e1b991c", "translatable_type" => "App\Models\Description", "translatable_id" => "c90d627a-f3be-4662-9d1b-7db4847504e1"],
+            ["translation_id" => "4910ce5e-58f2-474d-a583-660ecc9086b8", "translatable_type" => "App\Models\Description", "translatable_id" => "c90d627a-f3be-4662-9d1b-7db4847504e1"],
+            ["translation_id" => "6194e681-8142-4060-a5e2-b0cb3d2ef423", "translatable_type" => "App\Models\Description", "translatable_id" => "c90d627a-f3be-4662-9d1b-7db4847504e1"],
+            //1698
+            ["translation_id" => "7c9e68eb-b813-48fb-a5c3-dd61853c0b9e", "translatable_type" => "App\Models\Description", "translatable_id" => "1e3eef8e-3aeb-41b9-a9de-62575629c9e7"],
+            ["translation_id" => "1f648d7c-859a-48ed-904e-ddfef22a9edb", "translatable_type" => "App\Models\Description", "translatable_id" => "1e3eef8e-3aeb-41b9-a9de-62575629c9e7"],
+            ["translation_id" => "923dcced-1ce2-4d58-8fb4-073cd2e9d59e", "translatable_type" => "App\Models\Description", "translatable_id" => "1e3eef8e-3aeb-41b9-a9de-62575629c9e7"],
+            //1699
+            ["translation_id" => "a67f52e4-ef08-4c4c-903c-097557cc46af", "translatable_type" => "App\Models\Description", "translatable_id" => "675a9de1-fffd-47e3-b5d0-37719b1262c3"],
+            ["translation_id" => "12740bac-66eb-4465-8baf-af0a1c9c1b4b", "translatable_type" => "App\Models\Description", "translatable_id" => "675a9de1-fffd-47e3-b5d0-37719b1262c3"],
+            ["translation_id" => "3ffb5203-4c95-45e6-85c5-1219946d35e8", "translatable_type" => "App\Models\Description", "translatable_id" => "675a9de1-fffd-47e3-b5d0-37719b1262c3"],
+            //1700
+            ["translation_id" => "57bbd793-a7cb-4bbd-a262-836026fdf45f", "translatable_type" => "App\Models\Description", "translatable_id" => "2ef4bac0-840c-41e5-b3fe-263914028d37"],
+            ["translation_id" => "00386192-980c-4327-b144-45512a0a38e4", "translatable_type" => "App\Models\Description", "translatable_id" => "2ef4bac0-840c-41e5-b3fe-263914028d37"],
+            ["translation_id" => "dbc6fcd6-2227-4b4b-ba08-4cbdc0d50fce", "translatable_type" => "App\Models\Description", "translatable_id" => "2ef4bac0-840c-41e5-b3fe-263914028d37"],
+            //1701
+            ["translation_id" => "e57e99cf-43a3-456e-a10e-fd859b692154", "translatable_type" => "App\Models\Description", "translatable_id" => "54de8127-3464-46d1-8114-2bd5a3e6ff29"],
+            ["translation_id" => "e0b271d2-7042-418d-b036-a038ede334f0", "translatable_type" => "App\Models\Description", "translatable_id" => "54de8127-3464-46d1-8114-2bd5a3e6ff29"],
+            ["translation_id" => "7efbffd1-0806-423d-a277-864532abc692", "translatable_type" => "App\Models\Description", "translatable_id" => "54de8127-3464-46d1-8114-2bd5a3e6ff29"],
+            //1702
+            ["translation_id" => "98b107e5-de03-4c95-96a9-3708b4682a10", "translatable_type" => "App\Models\Description", "translatable_id" => "4f215c3e-a94a-4e27-8791-206f29ad73c9"],
+            ["translation_id" => "79bcca2e-04bb-4acc-8e93-99caa79d5144", "translatable_type" => "App\Models\Description", "translatable_id" => "4f215c3e-a94a-4e27-8791-206f29ad73c9"],
+            ["translation_id" => "375412df-aeae-47e4-a3e1-536437b5955f", "translatable_type" => "App\Models\Description", "translatable_id" => "4f215c3e-a94a-4e27-8791-206f29ad73c9"],
+            //1703
+            ["translation_id" => "a2d88fef-f1a8-41ac-8b91-0345c02e3dd0", "translatable_type" => "App\Models\Description", "translatable_id" => "7e59dc85-7616-468c-9c92-8b10d6f4d565"],
+            ["translation_id" => "50cb3cc2-721c-44a7-97b4-f5092dfdfeff", "translatable_type" => "App\Models\Description", "translatable_id" => "7e59dc85-7616-468c-9c92-8b10d6f4d565"],
+            ["translation_id" => "acc1c353-c44f-4a17-9e66-63f74199cc23", "translatable_type" => "App\Models\Description", "translatable_id" => "7e59dc85-7616-468c-9c92-8b10d6f4d565"],
+            //1704
+            ["translation_id" => "fc1c486b-e868-4366-a6f8-08128535cc36", "translatable_type" => "App\Models\Description", "translatable_id" => "957f50d2-a28f-439e-83d6-492d673246dc"],
+            ["translation_id" => "d08a9368-4b88-4816-b8da-88c9769bfc96", "translatable_type" => "App\Models\Description", "translatable_id" => "957f50d2-a28f-439e-83d6-492d673246dc"],
+            ["translation_id" => "ec4cce3e-6d91-4ac2-bab4-293fb3735397", "translatable_type" => "App\Models\Description", "translatable_id" => "957f50d2-a28f-439e-83d6-492d673246dc"],
+            //1705
+            ["translation_id" => "7a16bfc2-36e4-49e0-a0cc-03a4b65ed091", "translatable_type" => "App\Models\Description", "translatable_id" => "f5a10451-e3b4-4a24-9121-d484d8916600"],
+            ["translation_id" => "29424ba6-e65f-4287-af49-f73c21d9fe03", "translatable_type" => "App\Models\Description", "translatable_id" => "f5a10451-e3b4-4a24-9121-d484d8916600"],
+            ["translation_id" => "6dfe7cad-89f5-4bef-9497-b675de04e6a6", "translatable_type" => "App\Models\Description", "translatable_id" => "f5a10451-e3b4-4a24-9121-d484d8916600"],
+            //1706
+            ["translation_id" => "7cd02cd1-64cf-4ade-abca-4594f8f6ecc4", "translatable_type" => "App\Models\Description", "translatable_id" => "b0ac5904-f92a-455b-9a15-27ace328c90b"],
+            ["translation_id" => "39127ef4-c48f-415b-9abf-9c965800b82d", "translatable_type" => "App\Models\Description", "translatable_id" => "b0ac5904-f92a-455b-9a15-27ace328c90b"],
+            ["translation_id" => "17ec504b-a413-45f3-a0dd-227693979fcb", "translatable_type" => "App\Models\Description", "translatable_id" => "b0ac5904-f92a-455b-9a15-27ace328c90b"],
+            //1707
+            ["translation_id" => "02d22fa6-b67b-4d89-94b2-d6d7c2501b61", "translatable_type" => "App\Models\Description", "translatable_id" => "e0d12b68-132b-42cc-8a30-59ec8062579f"],
+            ["translation_id" => "ef20c0d7-61a6-4b48-b99d-a761fe2578a2", "translatable_type" => "App\Models\Description", "translatable_id" => "e0d12b68-132b-42cc-8a30-59ec8062579f"],
+            ["translation_id" => "2a79b8d2-997b-4a5f-a929-b2de0c9cd87f", "translatable_type" => "App\Models\Description", "translatable_id" => "e0d12b68-132b-42cc-8a30-59ec8062579f"],
+            //1708
+            ["translation_id" => "49955f1a-8053-4e55-9350-eb7431435383", "translatable_type" => "App\Models\Description", "translatable_id" => "0cd396fd-9ba7-4f06-87ba-72a57a2a1a52"],
+            ["translation_id" => "a9fa2255-4a41-4cb0-9f82-c9365fb5b7a9", "translatable_type" => "App\Models\Description", "translatable_id" => "0cd396fd-9ba7-4f06-87ba-72a57a2a1a52"],
+            ["translation_id" => "20a13f2d-76ed-4a35-94fd-c9da0cc3c743", "translatable_type" => "App\Models\Description", "translatable_id" => "0cd396fd-9ba7-4f06-87ba-72a57a2a1a52"],
+            //1709
+            ["translation_id" => "0ff5f139-e4ae-4459-a048-9a4dd85660f9", "translatable_type" => "App\Models\Description", "translatable_id" => "13585ee8-c2fe-4054-8ff6-eaa7d9237d78"],
+            ["translation_id" => "d8c42511-d875-4fd5-80ac-5317e51c318b", "translatable_type" => "App\Models\Description", "translatable_id" => "13585ee8-c2fe-4054-8ff6-eaa7d9237d78"],
+            ["translation_id" => "2b30f642-fe33-4f4f-a38e-3ffb2387a20f", "translatable_type" => "App\Models\Description", "translatable_id" => "13585ee8-c2fe-4054-8ff6-eaa7d9237d78"],
+            //1710
+            ["translation_id" => "75031982-2c6e-41a6-8390-e3077edb0121", "translatable_type" => "App\Models\Description", "translatable_id" => "ceaf9b0b-f556-4ac9-a99e-15727bbaca71"],
+            ["translation_id" => "076f6e98-9d12-417b-b0c6-8becc6deb50f", "translatable_type" => "App\Models\Description", "translatable_id" => "ceaf9b0b-f556-4ac9-a99e-15727bbaca71"],
+            ["translation_id" => "7d044ad2-c9a9-44dd-a082-5e9c94a251c7", "translatable_type" => "App\Models\Description", "translatable_id" => "ceaf9b0b-f556-4ac9-a99e-15727bbaca71"],
+            //1711
+            ["translation_id" => "d3e97cd4-c982-4f66-b5b5-fc0f8dec4775", "translatable_type" => "App\Models\Description", "translatable_id" => "09d533a7-e0d1-4f3a-b13c-84b0e2af925d"],
+            ["translation_id" => "cd307761-9699-4d84-9375-9bdc491e9398", "translatable_type" => "App\Models\Description", "translatable_id" => "09d533a7-e0d1-4f3a-b13c-84b0e2af925d"],
+            ["translation_id" => "c66fc4bc-6456-4765-b8c0-773db12290da", "translatable_type" => "App\Models\Description", "translatable_id" => "09d533a7-e0d1-4f3a-b13c-84b0e2af925d"],
+            //1712
+            ["translation_id" => "249de7cc-6184-4134-aa33-6f83df1119ab", "translatable_type" => "App\Models\Description", "translatable_id" => "027a5b39-6d74-441e-a21f-f6fd15b24a5b"],
+            ["translation_id" => "450e05b9-874e-4d76-8ade-a401b4048a53", "translatable_type" => "App\Models\Description", "translatable_id" => "027a5b39-6d74-441e-a21f-f6fd15b24a5b"],
+            ["translation_id" => "a054f42d-08c4-4e93-87c9-8541a1a4c828", "translatable_type" => "App\Models\Description", "translatable_id" => "027a5b39-6d74-441e-a21f-f6fd15b24a5b"],
+            //1713
+            ["translation_id" => "85286296-9723-41ff-81e1-37949887ee18", "translatable_type" => "App\Models\Description", "translatable_id" => "6fbb87c6-9b75-4f6d-a423-8ee596333726"],
+            ["translation_id" => "f0c004e8-9856-4148-99ec-6b63d4abed1f", "translatable_type" => "App\Models\Description", "translatable_id" => "6fbb87c6-9b75-4f6d-a423-8ee596333726"],
+            ["translation_id" => "c6acb918-6e36-4d0a-8039-bf6ca31ab116", "translatable_type" => "App\Models\Description", "translatable_id" => "6fbb87c6-9b75-4f6d-a423-8ee596333726"],
+            //1714
+            ["translation_id" => "11e3c0bf-f2b8-40fc-9bb6-a2919aa4bec7", "translatable_type" => "App\Models\Description", "translatable_id" => "fd7527ef-c325-4717-b4e4-74abefd86efc"],
+            ["translation_id" => "32813216-47f6-4071-8ec0-1d70a89622b6", "translatable_type" => "App\Models\Description", "translatable_id" => "fd7527ef-c325-4717-b4e4-74abefd86efc"],
+            ["translation_id" => "7943a907-a40a-4af3-99d7-3acec313ee89", "translatable_type" => "App\Models\Description", "translatable_id" => "fd7527ef-c325-4717-b4e4-74abefd86efc"],
+            //1715
+            ["translation_id" => "95742d54-96b2-4a00-b5eb-bd02afccb132", "translatable_type" => "App\Models\Description", "translatable_id" => "3f4adbf4-82c7-4ed5-82e0-2d4732b2dd48"],
+            ["translation_id" => "434d4186-b579-4b92-8ec7-882cba6fa577", "translatable_type" => "App\Models\Description", "translatable_id" => "3f4adbf4-82c7-4ed5-82e0-2d4732b2dd48"],
+            ["translation_id" => "8ec9a3a9-9653-4996-9f0b-2935cd881e2e", "translatable_type" => "App\Models\Description", "translatable_id" => "3f4adbf4-82c7-4ed5-82e0-2d4732b2dd48"],
+            //1716
+            ["translation_id" => "14f798ea-7a64-486f-807a-6194b389de47", "translatable_type" => "App\Models\Description", "translatable_id" => "2de1afa8-3d7a-4eaf-bc2e-ed554c11b700"],
+            ["translation_id" => "3c6efca2-3824-4807-8462-61baa711b8b0", "translatable_type" => "App\Models\Description", "translatable_id" => "2de1afa8-3d7a-4eaf-bc2e-ed554c11b700"],
+            ["translation_id" => "6bdd187d-f00e-41b3-bca9-5fc7c26ed8bc", "translatable_type" => "App\Models\Description", "translatable_id" => "2de1afa8-3d7a-4eaf-bc2e-ed554c11b700"],
+            //1717
+            ["translation_id" => "0f97e621-61d4-41a7-bb78-8bdf64ee779e", "translatable_type" => "App\Models\Description", "translatable_id" => "fd74691d-e0e9-46be-8acb-5883ef64db24"],
+            ["translation_id" => "8e06f9a0-df65-4ade-9aa9-c0a2c36fd41d", "translatable_type" => "App\Models\Description", "translatable_id" => "fd74691d-e0e9-46be-8acb-5883ef64db24"],
+            ["translation_id" => "58440ba2-b781-4a36-b3a2-6847d4e3268c", "translatable_type" => "App\Models\Description", "translatable_id" => "fd74691d-e0e9-46be-8acb-5883ef64db24"],
+            //1718
+            ["translation_id" => "7c5b57dd-5211-4139-870a-4982733d147c", "translatable_type" => "App\Models\Description", "translatable_id" => "bcbdd3d8-a44a-4428-9b68-a088951aee15"],
+            ["translation_id" => "1d3a4f49-3bb7-4d93-9b09-1650a9b80daf", "translatable_type" => "App\Models\Description", "translatable_id" => "bcbdd3d8-a44a-4428-9b68-a088951aee15"],
+            ["translation_id" => "b294d602-4fb9-4937-9052-8e5cda92d198", "translatable_type" => "App\Models\Description", "translatable_id" => "bcbdd3d8-a44a-4428-9b68-a088951aee15"],
+            //1719
+            ["translation_id" => "886516c8-2bcb-4e06-b9ae-b1b2a4d2334d", "translatable_type" => "App\Models\Description", "translatable_id" => "e3c560c1-1f46-48c0-9fde-c378b12af630"],
+            ["translation_id" => "c911ad00-b2ca-4c12-8fc2-3c29e195d979", "translatable_type" => "App\Models\Description", "translatable_id" => "e3c560c1-1f46-48c0-9fde-c378b12af630"],
+            ["translation_id" => "b7a7bac3-c0ea-4b2a-9a66-a684103cdf1b", "translatable_type" => "App\Models\Description", "translatable_id" => "e3c560c1-1f46-48c0-9fde-c378b12af630"],
+            //1720
+            ["translation_id" => "e1a44f35-67c9-4d3e-b45f-03c939d624e8", "translatable_type" => "App\Models\Description", "translatable_id" => "75ac645a-8e86-424e-b2cf-13478ee36329"],
+            ["translation_id" => "573ad60b-27a2-405b-8353-01ebf8655342", "translatable_type" => "App\Models\Description", "translatable_id" => "75ac645a-8e86-424e-b2cf-13478ee36329"],
+            ["translation_id" => "89d932bb-7679-4e18-9572-d1a213abba71", "translatable_type" => "App\Models\Description", "translatable_id" => "75ac645a-8e86-424e-b2cf-13478ee36329"],
+            //1721
+            ["translation_id" => "3e5aaec8-5bb7-4bc6-8484-7f52502eea30", "translatable_type" => "App\Models\Description", "translatable_id" => "ef5422c5-5047-46ec-a094-7b6586187e4f"],
+            ["translation_id" => "ad1155fb-24d3-45cf-abf1-89100f9b8a17", "translatable_type" => "App\Models\Description", "translatable_id" => "ef5422c5-5047-46ec-a094-7b6586187e4f"],
+            ["translation_id" => "6e50b444-d5d8-4d5b-af85-21d16a4ded8b", "translatable_type" => "App\Models\Description", "translatable_id" => "ef5422c5-5047-46ec-a094-7b6586187e4f"],
+            //1722
+            ["translation_id" => "02f715a0-b155-44fc-b9e8-bf2edd2e7684", "translatable_type" => "App\Models\Description", "translatable_id" => "8a50a432-fb1a-41e3-a753-c14524c33e23"],
+            ["translation_id" => "012566b3-e4cd-4fcd-a9c5-a4f3ebc4f311", "translatable_type" => "App\Models\Description", "translatable_id" => "8a50a432-fb1a-41e3-a753-c14524c33e23"],
+            ["translation_id" => "c7b64183-5cc7-4443-888b-460d606a2136", "translatable_type" => "App\Models\Description", "translatable_id" => "8a50a432-fb1a-41e3-a753-c14524c33e23"],
+            //1723
+            ["translation_id" => "7044c7d8-485f-40ae-9521-bcb979fd0a0d", "translatable_type" => "App\Models\Description", "translatable_id" => "160fd8e1-dedb-45f2-8795-cd89f68365e9"],
+            ["translation_id" => "7a669aba-fc2d-48a4-bd3d-6f234ca93662", "translatable_type" => "App\Models\Description", "translatable_id" => "160fd8e1-dedb-45f2-8795-cd89f68365e9"],
+            ["translation_id" => "dc0d65ab-f482-4037-9b92-c99ca131b7c4", "translatable_type" => "App\Models\Description", "translatable_id" => "160fd8e1-dedb-45f2-8795-cd89f68365e9"],
+            //1724
+            ["translation_id" => "f705dcd1-fce8-49ab-a39f-f3bcaa151a83", "translatable_type" => "App\Models\Description", "translatable_id" => "0aca9ad5-0d22-42e3-90b1-5c1870f8072e"],
+            ["translation_id" => "5852958d-0db6-4916-bcad-707e1723c6f4", "translatable_type" => "App\Models\Description", "translatable_id" => "0aca9ad5-0d22-42e3-90b1-5c1870f8072e"],
+            ["translation_id" => "b9af038f-4a33-487d-8473-76f516cfe4b7", "translatable_type" => "App\Models\Description", "translatable_id" => "0aca9ad5-0d22-42e3-90b1-5c1870f8072e"],
+            //1725
+            ["translation_id" => "7da08993-facd-40f9-84c7-c287e318e2ab", "translatable_type" => "App\Models\Description", "translatable_id" => "a13cdf65-93cd-49e4-961d-5b5951786f68"],
+            ["translation_id" => "40bc3443-487a-47b4-adc1-101bc13849ca", "translatable_type" => "App\Models\Description", "translatable_id" => "a13cdf65-93cd-49e4-961d-5b5951786f68"],
+            ["translation_id" => "5f8e4a07-89a7-4da4-a12c-deb64a3e4022", "translatable_type" => "App\Models\Description", "translatable_id" => "a13cdf65-93cd-49e4-961d-5b5951786f68"],
+            //1726
+            ["translation_id" => "417fb72a-19d7-4416-953e-cabfa762a452", "translatable_type" => "App\Models\Description", "translatable_id" => "a67b6e11-74bf-4782-a2f1-8b73192124cb"],
+            ["translation_id" => "c29f1a11-dc19-4bf9-9d20-dbe7ff0b9cd8", "translatable_type" => "App\Models\Description", "translatable_id" => "a67b6e11-74bf-4782-a2f1-8b73192124cb"],
+            ["translation_id" => "a760e351-b5d3-480a-8000-db360b29ac68", "translatable_type" => "App\Models\Description", "translatable_id" => "a67b6e11-74bf-4782-a2f1-8b73192124cb"],
+            //1727
+            ["translation_id" => "c580dcd4-e664-462e-b875-bea3da01f7f6", "translatable_type" => "App\Models\Description", "translatable_id" => "df912dec-fe68-4f34-b81c-e7665410121c"],
+            ["translation_id" => "13bf80d7-a89c-4aab-ad4b-b45cbef979ec", "translatable_type" => "App\Models\Description", "translatable_id" => "df912dec-fe68-4f34-b81c-e7665410121c"],
+            ["translation_id" => "14dde1fa-1258-44e6-b1a7-ca57426036af", "translatable_type" => "App\Models\Description", "translatable_id" => "df912dec-fe68-4f34-b81c-e7665410121c"],
+            //1728
+            ["translation_id" => "4300b814-5b88-4a05-801e-368d3995315b", "translatable_type" => "App\Models\Description", "translatable_id" => "680155b9-42d6-4f74-93d6-0e4e1e6896a0"],
+            ["translation_id" => "7f5ba715-e19a-48cb-bc3d-18f9e8158827", "translatable_type" => "App\Models\Description", "translatable_id" => "680155b9-42d6-4f74-93d6-0e4e1e6896a0"],
+            ["translation_id" => "b23dffd9-324a-4e20-8532-f1599caaab73", "translatable_type" => "App\Models\Description", "translatable_id" => "680155b9-42d6-4f74-93d6-0e4e1e6896a0"],
+            //1729
+            ["translation_id" => "07d4aad7-b2e3-4351-bff9-ed290b083c20", "translatable_type" => "App\Models\Description", "translatable_id" => "c1c52f70-bcb3-4902-84d1-68ee7cd5673c"],
+            ["translation_id" => "244795ae-b708-4108-a422-5b4c7dca553c", "translatable_type" => "App\Models\Description", "translatable_id" => "c1c52f70-bcb3-4902-84d1-68ee7cd5673c"],
+            ["translation_id" => "45e73012-0da1-4f14-b707-b39b83cd7df5", "translatable_type" => "App\Models\Description", "translatable_id" => "c1c52f70-bcb3-4902-84d1-68ee7cd5673c"],
+            //1730
+            ["translation_id" => "699728de-a991-4268-afce-2a47bed24492", "translatable_type" => "App\Models\Description", "translatable_id" => "621c304d-1feb-4f0d-ac52-589ee87df8ca"],
+            ["translation_id" => "7976c5ac-0c71-49d5-a30f-f421b0f55ad7", "translatable_type" => "App\Models\Description", "translatable_id" => "621c304d-1feb-4f0d-ac52-589ee87df8ca"],
+            ["translation_id" => "66d3f62d-8411-426d-986d-806c751cda70", "translatable_type" => "App\Models\Description", "translatable_id" => "621c304d-1feb-4f0d-ac52-589ee87df8ca"],
+            //1731
+            ["translation_id" => "c23203a5-fd33-4363-92ae-82677fd55d5f", "translatable_type" => "App\Models\Description", "translatable_id" => "f1da1650-8a21-440d-97f3-65e3db65d8b9"],
+            ["translation_id" => "f1b63f83-f093-4ce5-8d37-15970d328908", "translatable_type" => "App\Models\Description", "translatable_id" => "f1da1650-8a21-440d-97f3-65e3db65d8b9"],
+            ["translation_id" => "9dbd0ad0-f99a-4e3b-ab70-35abb8878ba0", "translatable_type" => "App\Models\Description", "translatable_id" => "f1da1650-8a21-440d-97f3-65e3db65d8b9"],
+            //1732
+            ["translation_id" => "03a39217-2d43-44ad-831d-1dcbb7b754a7", "translatable_type" => "App\Models\Description", "translatable_id" => "20840246-53cd-447f-85c0-e9953251548a"],
+            ["translation_id" => "d81d684d-2f03-482e-bb79-126ef950d618", "translatable_type" => "App\Models\Description", "translatable_id" => "20840246-53cd-447f-85c0-e9953251548a"],
+            ["translation_id" => "abeb8b6c-175a-48c3-9704-e330f28483ee", "translatable_type" => "App\Models\Description", "translatable_id" => "20840246-53cd-447f-85c0-e9953251548a"],
+            //1733
+            ["translation_id" => "0412a20f-0423-4839-ad84-cd59e6f97765", "translatable_type" => "App\Models\Description", "translatable_id" => "a5f4cfc6-ad0c-44ff-b56a-33091bd4452c"],
+            ["translation_id" => "3aa7b3ca-be85-471b-a918-2361530e9180", "translatable_type" => "App\Models\Description", "translatable_id" => "a5f4cfc6-ad0c-44ff-b56a-33091bd4452c"],
+            ["translation_id" => "23109134-a133-4743-a958-30819477da69", "translatable_type" => "App\Models\Description", "translatable_id" => "a5f4cfc6-ad0c-44ff-b56a-33091bd4452c"],
+            //1734
+            ["translation_id" => "327ce36b-80dd-4904-9e01-0164c5e6e534", "translatable_type" => "App\Models\Description", "translatable_id" => "31eaca90-ae59-4ef7-b490-9b93f8808ef6"],
+            ["translation_id" => "a91dbac0-58a8-450d-9a2f-561748cd5c9f", "translatable_type" => "App\Models\Description", "translatable_id" => "31eaca90-ae59-4ef7-b490-9b93f8808ef6"],
+            ["translation_id" => "da540484-8e2f-4986-9cb2-95ff064712dd", "translatable_type" => "App\Models\Description", "translatable_id" => "31eaca90-ae59-4ef7-b490-9b93f8808ef6"],
+            //1735
+            ["translation_id" => "80af316e-4cb3-4adf-b45c-c99b99e70c9b", "translatable_type" => "App\Models\Description", "translatable_id" => "9ca7edc3-64fd-4881-9e62-53515c5bbee9"],
+            ["translation_id" => "0b0ea843-215f-48bb-aa4e-f18a0490b7f2", "translatable_type" => "App\Models\Description", "translatable_id" => "9ca7edc3-64fd-4881-9e62-53515c5bbee9"],
+            ["translation_id" => "b7b875b5-cc1b-4ee4-a748-beafb3b8457c", "translatable_type" => "App\Models\Description", "translatable_id" => "9ca7edc3-64fd-4881-9e62-53515c5bbee9"],
+            //1736
+            ["translation_id" => "16147f9a-f144-46a0-9804-21b4610c1f87", "translatable_type" => "App\Models\Description", "translatable_id" => "c7e30fba-9fff-4832-a72c-93ea738d4dd4"],
+            ["translation_id" => "b53dc331-ae9d-41e9-8121-8b4a5c829cac", "translatable_type" => "App\Models\Description", "translatable_id" => "c7e30fba-9fff-4832-a72c-93ea738d4dd4"],
+            ["translation_id" => "70edd734-ef86-4d5d-984a-278687ef4d7c", "translatable_type" => "App\Models\Description", "translatable_id" => "c7e30fba-9fff-4832-a72c-93ea738d4dd4"],
+            //1737
+            ["translation_id" => "245f328d-7771-414f-abe6-f68a2e384817", "translatable_type" => "App\Models\Description", "translatable_id" => "dc738f79-ed03-4f89-a342-98578a81f6d3"],
+            ["translation_id" => "62559f0d-7b49-4eb8-8090-dd56b04e030a", "translatable_type" => "App\Models\Description", "translatable_id" => "dc738f79-ed03-4f89-a342-98578a81f6d3"],
+            ["translation_id" => "0317e1c1-3db6-4c4f-b6d9-18437831caa4", "translatable_type" => "App\Models\Description", "translatable_id" => "dc738f79-ed03-4f89-a342-98578a81f6d3"],
+            //1738
+            ["translation_id" => "ac0eeee6-3c2e-49f6-b2b0-de147a3d772b", "translatable_type" => "App\Models\Description", "translatable_id" => "e8e70eb6-b7cc-4237-9d7c-696d6978922a"],
+            ["translation_id" => "486894f8-ebb1-4c8c-8328-754c004e176d", "translatable_type" => "App\Models\Description", "translatable_id" => "e8e70eb6-b7cc-4237-9d7c-696d6978922a"],
+            ["translation_id" => "d0459ade-ed01-44f6-ab51-68d103b3cd44", "translatable_type" => "App\Models\Description", "translatable_id" => "e8e70eb6-b7cc-4237-9d7c-696d6978922a"],
+            //1739
+            ["translation_id" => "69473775-d417-4517-bd00-e2abf07cc824", "translatable_type" => "App\Models\Description", "translatable_id" => "2d7b0557-0369-4119-8d9d-fb336cb2b934"],
+            ["translation_id" => "955d148a-4897-4af5-a0c5-1b9ffc928eba", "translatable_type" => "App\Models\Description", "translatable_id" => "2d7b0557-0369-4119-8d9d-fb336cb2b934"],
+            ["translation_id" => "e255e9ce-654c-4f9b-9cb4-af9c7854fa64", "translatable_type" => "App\Models\Description", "translatable_id" => "2d7b0557-0369-4119-8d9d-fb336cb2b934"],
+            //1740
+            ["translation_id" => "9cd8214c-5c87-479d-b1ad-5d962202e2cb", "translatable_type" => "App\Models\Description", "translatable_id" => "f8c4b715-70c8-47df-a048-7288b1ca3491"],
+            ["translation_id" => "2059131d-131f-4be6-8c05-4b7aac02c202", "translatable_type" => "App\Models\Description", "translatable_id" => "f8c4b715-70c8-47df-a048-7288b1ca3491"],
+            ["translation_id" => "d5a2788c-d772-4c3b-b42d-ac354f993160", "translatable_type" => "App\Models\Description", "translatable_id" => "f8c4b715-70c8-47df-a048-7288b1ca3491"],
+            //1741
+            ["translation_id" => "f56ec4f5-a60b-4e7f-8a40-f69ef8d5024d", "translatable_type" => "App\Models\Description", "translatable_id" => "6edec918-a094-4642-a832-7cd15bfb2aea"],
+            ["translation_id" => "aeee5d3d-0e1d-46cd-a169-66e9ead3cdb0", "translatable_type" => "App\Models\Description", "translatable_id" => "6edec918-a094-4642-a832-7cd15bfb2aea"],
+            ["translation_id" => "1c2b73e0-6b86-4ccb-a318-392d584283a6", "translatable_type" => "App\Models\Description", "translatable_id" => "6edec918-a094-4642-a832-7cd15bfb2aea"],
+            //1742
+            ["translation_id" => "75706827-afa9-483f-be7f-1ed546e864b6", "translatable_type" => "App\Models\Description", "translatable_id" => "1d1201e8-a7a2-4c11-884d-9df1d34071f1"],
+            ["translation_id" => "6487b9f7-d405-4285-b8c4-2cd04c89dee2", "translatable_type" => "App\Models\Description", "translatable_id" => "1d1201e8-a7a2-4c11-884d-9df1d34071f1"],
+            ["translation_id" => "941d108f-2c7e-463b-a838-2f36f65721da", "translatable_type" => "App\Models\Description", "translatable_id" => "1d1201e8-a7a2-4c11-884d-9df1d34071f1"],
+            //1743
+            ["translation_id" => "b0a7bc01-3e80-4968-99a3-650cea510ee2", "translatable_type" => "App\Models\Description", "translatable_id" => "90cbe3a9-70e9-4b76-ae53-9ef58f0230d0"],
+            ["translation_id" => "28ebed78-b9de-4479-a607-cce8e965d4b6", "translatable_type" => "App\Models\Description", "translatable_id" => "90cbe3a9-70e9-4b76-ae53-9ef58f0230d0"],
+            ["translation_id" => "7d0c248d-b29d-47e9-96db-2e65b19401da", "translatable_type" => "App\Models\Description", "translatable_id" => "90cbe3a9-70e9-4b76-ae53-9ef58f0230d0"],
+            //1744
+            ["translation_id" => "53878a92-3f9c-4c59-81d2-a689c7d83fae", "translatable_type" => "App\Models\Description", "translatable_id" => "6cc718cf-f2c5-417d-bac0-75b8402e428a"],
+            ["translation_id" => "081b796c-35f4-40b3-b585-8e1a855ac6de", "translatable_type" => "App\Models\Description", "translatable_id" => "6cc718cf-f2c5-417d-bac0-75b8402e428a"],
+            ["translation_id" => "323dc888-564c-44ee-9725-fce7180432a5", "translatable_type" => "App\Models\Description", "translatable_id" => "6cc718cf-f2c5-417d-bac0-75b8402e428a"],
+            //1745
+            ["translation_id" => "976b58ee-7d37-4d94-a67e-a5f00162cd48", "translatable_type" => "App\Models\Description", "translatable_id" => "efe97731-dd41-46eb-a6ff-aea858ca7d32"],
+            ["translation_id" => "980f5ff4-f4b1-4da1-aec8-68d1bedadd36", "translatable_type" => "App\Models\Description", "translatable_id" => "efe97731-dd41-46eb-a6ff-aea858ca7d32"],
+            ["translation_id" => "33d932b5-9996-4ef1-b0f7-6a6e588ded63", "translatable_type" => "App\Models\Description", "translatable_id" => "efe97731-dd41-46eb-a6ff-aea858ca7d32"],
+            //1746
+            ["translation_id" => "20611113-a6c6-4e92-8390-43caf77c9eb7", "translatable_type" => "App\Models\Description", "translatable_id" => "6e0dd9f5-c820-4065-bbe2-6c62486f960b"],
+            ["translation_id" => "70e0cb20-704f-47de-8c1f-750e39b22d54", "translatable_type" => "App\Models\Description", "translatable_id" => "6e0dd9f5-c820-4065-bbe2-6c62486f960b"],
+            ["translation_id" => "c8913e8b-abb3-4da5-86b0-0b0f0d12daec", "translatable_type" => "App\Models\Description", "translatable_id" => "6e0dd9f5-c820-4065-bbe2-6c62486f960b"],
+            //1747
+            ["translation_id" => "e0fbf7f9-694c-46e9-8d67-80f0202a7658", "translatable_type" => "App\Models\Description", "translatable_id" => "6c06c6e3-419e-4828-b594-e230a0864cff"],
+            ["translation_id" => "d08bfcca-5ebe-4a28-b68a-ebadab56496f", "translatable_type" => "App\Models\Description", "translatable_id" => "6c06c6e3-419e-4828-b594-e230a0864cff"],
+            ["translation_id" => "fdb50fab-4536-4bae-b5d8-b56585121a7c", "translatable_type" => "App\Models\Description", "translatable_id" => "6c06c6e3-419e-4828-b594-e230a0864cff"],
+            //1748
+            ["translation_id" => "6d965a14-a0b2-4ea5-b8c5-3ae52b8c3744", "translatable_type" => "App\Models\Description", "translatable_id" => "4d444bc9-e6cc-4248-a59c-b6ed94049d49"],
+            ["translation_id" => "e12349b5-9366-4584-969f-1ed40faf9130", "translatable_type" => "App\Models\Description", "translatable_id" => "4d444bc9-e6cc-4248-a59c-b6ed94049d49"],
+            ["translation_id" => "bc91d168-205f-4273-a55c-1892cbbc4544", "translatable_type" => "App\Models\Description", "translatable_id" => "4d444bc9-e6cc-4248-a59c-b6ed94049d49"],
+            //1749
+            ["translation_id" => "7cf280a9-ee51-49f0-b6a7-bdce786cea52", "translatable_type" => "App\Models\Description", "translatable_id" => "1a0c937f-7134-4c51-a60a-d473302f18b9"],
+            ["translation_id" => "eb724179-8a29-45ce-b3f1-ae69768d383b", "translatable_type" => "App\Models\Description", "translatable_id" => "1a0c937f-7134-4c51-a60a-d473302f18b9"],
+            ["translation_id" => "58225400-b500-4b70-b1db-16ff46189619", "translatable_type" => "App\Models\Description", "translatable_id" => "1a0c937f-7134-4c51-a60a-d473302f18b9"],
+            //1750
+            ["translation_id" => "3b1908e0-b99b-4ab8-81d4-27019c20ad77", "translatable_type" => "App\Models\Description", "translatable_id" => "d974d767-01d0-4def-9e04-9081bfe9d2cf"],
+            ["translation_id" => "3c9dc9c3-40fa-4abb-9985-24f0506cdf86", "translatable_type" => "App\Models\Description", "translatable_id" => "d974d767-01d0-4def-9e04-9081bfe9d2cf"],
+            ["translation_id" => "76ffe7d9-d19d-4a21-a083-78bc1b880498", "translatable_type" => "App\Models\Description", "translatable_id" => "d974d767-01d0-4def-9e04-9081bfe9d2cf"],
+
+        ];
         DB::table("translatables")->insert($translatable);
     }
 }

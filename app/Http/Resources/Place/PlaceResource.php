@@ -27,7 +27,10 @@ class PlaceResource extends JsonResource
             "wilaya" => WilayaResource::make($this->town->wilaya),
             "rating" => $this->getRating(),
             "rating_count" => $this->rating->count(),
-            "liked" => $this->alreadyLiked()
+            "comment_count" => $this->comments->count(),
+            "liked" => $this->alreadyLiked(),
+            "latitude" => $this->latitude,
+            "longitude" => $this->longitude
         ];
     }
 }
