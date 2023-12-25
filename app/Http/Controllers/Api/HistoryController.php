@@ -16,8 +16,8 @@ class HistoryController extends Controller
 {
     public function index(Request $request): ResourceCollection
     {
-        $latitude = $request->get("filter")["range"]["latitude"];
-        $longitude = $request->get("filter")["range"]["longitude"];
+        $latitude = $request->header("Location-latitude");
+        $longitude = $request->header("Location-longitude");
 
         $user = Auth::user();
 

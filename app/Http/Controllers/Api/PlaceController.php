@@ -29,8 +29,8 @@ class PlaceController extends Controller
     }
 
     public function nearby(Request $request): ResourceCollection {
-        $latitude = $request->get("filter")["range"]["latitude"];
-        $longitude = $request->get("filter")["range"]["longitude"];
+        $latitude = $request->header("Location-latitude");
+        $longitude = $request->header("Location-longitude");
         $places = QueryBuilder::for(Place::class)
             ->allowedFilters(["category_id"])
             ->withinDistanceOf($latitude,$longitude, 30)->addDistanceFromField($latitude,$longitude)
@@ -49,8 +49,8 @@ class PlaceController extends Controller
 
     public function show(Request $request,string $place_id) {
 
-        $latitude = $request->get("filter")["range"]["latitude"];
-        $longitude = $request->get("filter")["range"]["longitude"];
+        $latitude = $request->header("Location-latitude");
+        $longitude = $request->header("Location-longitude");
         $place = Place::addDistanceFromField($latitude,$longitude)->with("comments")->find($place_id);
         HistoryController::store($place);
         return PlaceResource::make($place);
