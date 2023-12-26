@@ -15,7 +15,6 @@ use Netsells\GeoScope\Traits\GeoScopeTrait;
 
 class Place extends Model
 {
-    use HasFactory;
     use HasUuids;
     use GeoScopeTrait;
 
@@ -31,12 +30,16 @@ class Place extends Model
         return $this->hasOne(Description::class,"place_id");
     }
 
-    public function rating(): HasMany {
+    public function ratings(): HasMany {
         return $this->hasMany(Rating::class, "place_id");
     }
 
+    public function histories(): HasMany {
+        return $this->hasMany(History::class, "place_id");
+    }
+
     public function getRating(): ?float {
-        return $this->rating->avg("rating");
+        return $this->ratings->avg("rating");
     }
 
     public function comments(): MorphMany {

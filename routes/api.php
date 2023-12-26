@@ -46,6 +46,7 @@ Route::middleware("auth:sanctum")->group(function () {
     Route::get("towns/{wilaya}", [TownController::class, "wilaya_town"]);
     //places
     Route::get("places/nearby", [PlaceController::class, "nearby"])->name("places.nearby");
+    Route::get("places/explore", [PlaceController::class, "explore"])->name("places.explore");
     Route::get("places/discover", [PlaceController::class, "discover"])->name("places.discover");
     Route::post("places/{place}/rating", [PlaceController::class, "updateRating"])->name("place.rating-update");
     Route::get("places/{place}/rating", [PlaceController::class, "getRating"])->name("place.get-rating");
