@@ -17,10 +17,10 @@ class HomeResource extends JsonResource
     {
         return [
             "explore" => [
-                "most_viewed" => PlaceResource::collection($this["explore"]["most_viewed"]),
-                "most_liked" => PlaceResource::collection($this["explore"]["most_liked"]) ,
-                "most_rated" => PlaceResource::collection($this["explore"]["most_rated"]),
                 "most_popular" => PlaceResource::collection($this["explore"]["most_popular"]),
+                "most_rated" => PlaceResource::collection($this["explore"]["most_rated"]),
+                "most_liked" => PlaceResource::collection($this["explore"]["most_liked"]) ,
+                "most_viewed" => PlaceResource::collection($this["explore"]["most_viewed"]),
             ],
             "nearby" => HomeCategoryResource::collection($this["nearby"])
         ];

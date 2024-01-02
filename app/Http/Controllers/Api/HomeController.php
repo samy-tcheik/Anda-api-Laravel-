@@ -50,10 +50,10 @@ class HomeController extends Controller
         return HomeResource::make(
             [
                 "explore" => [
-                    "most_viewed" => $mostViewed,
-                    "most_liked" => $mostLiked ,
+                    "most_popular" => $mostPopular,
                     "most_rated" => $mostRated,
-                    "most_popular" => $mostPopular
+                    "most_liked" => $mostLiked ,
+                    "most_viewed" => $mostViewed,
                 ],
                 "nearby" => $categories,
             ]
