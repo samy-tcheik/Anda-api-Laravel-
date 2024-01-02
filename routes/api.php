@@ -3,6 +3,7 @@
 use App\Http\Controllers\Api\AuthController;
 use App\Http\Controllers\Api\CommentController;
 use App\Http\Controllers\Api\HistoryController;
+use App\Http\Controllers\Api\HomeController;
 use App\Http\Controllers\Api\LikeController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -46,7 +47,7 @@ Route::middleware("auth:sanctum")->group(function () {
     Route::get("towns/{wilaya}", [TownController::class, "wilaya_town"]);
     //places
     Route::get("places/nearby", [PlaceController::class, "nearby"])->name("places.nearby");
-    Route::get("places/explore", [PlaceController::class, "explore"])->name("places.explore");
+    Route::get("places/home", HomeController::class)->name("places.home");
     Route::get("places/discover", [PlaceController::class, "discover"])->name("places.discover");
     Route::post("places/{place}/rating", [PlaceController::class, "updateRating"])->name("place.rating-update");
     Route::get("places/{place}/rating", [PlaceController::class, "getRating"])->name("place.get-rating");
