@@ -6015,6 +6015,1241 @@ class TranslationSeeder extends Seeder
             ["id" => "89933156-bf64-4299-a3e5-2e09d477fb47", "translation" => "Sidi Yakoub dam", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
             ["id" => "c9823980-25ef-4e1c-bd17-408d52e5795a", "translation" => "Barrage Sidi Yakoub" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
             ["id" => "2ab97644-8ce2-42a3-b3ec-152f75dc649c", "translation" => "سد سيدي يعقوب", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1501
+            ["id" => "4b431e89-2302-436c-bab3-db8f724732f4", "translation" => "Kef Eddir dam", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6f651e69-13b3-4478-8810-ba92fee69107", "translation" => "Barrage Kef Eddir" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ea43cb2e-7086-4e6e-b0ce-e3e40d090045", "translation" => "سد كاف الدير", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1502
+            ["id" => "a9b2b391-85f3-4493-8fab-3f3522549e00", "translation" => "Oued Fodda dam", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "28a53e5e-179c-4160-84b9-7683e96b8393", "translation" => "Barrage d’Oued Fodda" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3b9a754b-1b8d-4929-9132-115f0df60bc5", "translation" => "سد واد الفضة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1503
+            ["id" => "01d441c8-89fa-4c8d-ac6d-0b7d6aa5de9a", "translation" => "Bahara beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "61fd8072-d58d-4f7d-873f-7105d77e41c1", "translation" => "Plage Bahara" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e049d44f-67f1-4df2-a23a-5a238e7c2cad", "translation" => "شاطئ بحارة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1504
+            ["id" => "b0760884-4bc0-4ecf-8ffe-3cb18aeec9da", "translation" => "Kharbet beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "946bec62-b0c2-4a70-9478-4fd9bdeb4ca7", "translation" => "Plage Kharbet" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "dd8ba599-496b-49d1-9e10-64c7ef1c3609", "translation" => "شاطئ خاربات", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1505
+            ["id" => "f041f6f9-95ea-44c4-9b50-532d40c39b05", "translation" => "Marsa Sheikh beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ac4b8ebc-ff87-4a05-9875-544334b9f186", "translation" => "Plage Marsa Cheikh" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c48e0848-b294-454e-ba01-69a4986bd8db", "translation" => "شاطئ مرسى الشيخ", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1506
+            ["id" => "f92b629c-d655-4600-908e-9288471728b5", "translation" => "Sidi Abdelkader beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3f7bf0c6-de2f-4a00-91ab-4d9c9fff25d2", "translation" => "Plage Sidi Abdelkader" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "50ad91d8-9dcd-410a-b870-cdd5ada5483d", "translation" => "شاطئ سيدي عبد القادر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1507
+            ["id" => "478a7919-e63d-40ca-a910-c2c5c449f953", "translation" => "Lalla Ada beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3085b637-f1a9-4c4e-a306-7aff9cfdca94", "translation" => "Plage Lalla Ada" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3a96471f-305f-407d-983b-3d985bf39bb9", "translation" => "شاطئ لالة عدة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1508
+            ["id" => "b32bf05c-e92f-485d-b052-14d3c2d8e006", "translation" => "Tansyouf beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3bd4ff7d-eea1-42e6-9c09-fbfaff317a29", "translation" => "Plage Tansyouf" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6a37ddca-f999-43c3-8166-f9fcb846bc64", "translation" => "شاطئ تنسيوف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1509
+            ["id" => "596f8e54-a8c0-4b13-a710-727ba29c16cf", "translation" => "Kramis dam", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7377b97a-ce18-4376-aa20-355f2b2b9b22", "translation" => "Barrage Kramis" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "59a86554-baff-491f-aecb-f5e260ca6ad7", "translation" => "سد كراميس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1510
+            ["id" => "8c0e1646-ab14-4b30-a376-c88d5c663124", "translation" => "Public garden", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "db42b726-a199-4782-a6d1-4590d4c83045", "translation" => "Jardin public" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0177a618-5eac-4023-a592-6fb7de128a7d", "translation" => "حديقة عامة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1511
+            ["id" => "3c7d20b0-f3f2-4021-ab1c-8680e3ca47ea", "translation" => "Kef Kadous beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "135183b3-3102-465c-9ac1-7ecf85d2c7cb", "translation" => "Plage Kef Kadous" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1ae7dfde-e4a1-4d74-9d7b-5c70c59a3a57", "translation" => "شاطئ كاف قادوس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1512
+            ["id" => "ac7dce51-62cf-4b0e-830d-df229cfd43d2", "translation" => "Sidi Laadjal beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "811410a8-331a-434e-8df1-0812bcff0342", "translation" => "Plage Sidi Laadjal" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "40982820-ea2f-4c21-b0a1-b55ce273dfdc", "translation" => "شاطئ سيدي لعجال", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1513
+            ["id" => "6798fc8e-bf52-4b3b-bf42-52a122c5fe7e", "translation" => "Oued Romane beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "952dc205-1a23-4e21-8424-f24f5b16be64", "translation" => "Plage Oued Romane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "70d32a17-81c3-439d-92db-df7e42095501", "translation" => "شاطئ واد الرمان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1514
+            ["id" => "5c81d3c0-83e4-48c1-bf2c-8abb7341ef82", "translation" => "Ain Ibrahim beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0270cd90-3522-40f1-ba17-b1ce3922ebf2", "translation" => "Plage Ain Ibrahim" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ecdd3bfe-14f9-4a23-93bb-fedb2949a561", "translation" => "شاطئ عين ابراهيم", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1515
+            ["id" => "c5256904-2630-4b8c-a428-3ef9113b0ae4", "translation" => "Sedawa beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "34cc0d24-a150-4e6a-932b-58ff4a9c40cd", "translation" => "Plage Sedawa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "463f7148-cb50-4904-9973-e7880058591d", "translation" => "شاطئ سداوة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1516
+            ["id" => "21e04c61-5f13-44be-823c-fa7d4d420a03", "translation" => "Sidi Lakhdar fishing port", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "047a0c69-f906-4476-8035-500230d775cb", "translation" => "Port de pêche Sidi Lakhdar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b2804f6f-bfde-4460-909f-7d563d84a955", "translation" => "ميناء الصيد سيدي لخضر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1517
+            ["id" => "278e72d5-ac53-4aea-b310-c29a7bf74ca1", "translation" => "East small port beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8e2cc536-d5da-4cf8-b3ec-6cfb6c05d33f", "translation" => "Plage Petit port Est" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3b7cd7c5-46a9-4ad5-b1b8-417120d0a010", "translation" => "شاطئ الميناء الصغير الشرقي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1518
+            ["id" => "2df68946-c7b6-404d-b61c-4e4b45cd9bc2", "translation" => "West small port beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "eeb0ca88-98c9-4c5a-9bce-115f649fe3db", "translation" => "Plage Petit port Ouest" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "664ae451-1166-44bf-a13b-fb18918c9cff", "translation" => "شاطئ الميناء الصغير الغربي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1519
+            ["id" => "74f1755c-7b6c-4a5f-82cd-037b12c76e5e", "translation" => "Kef Lasfar beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5e7ca0b3-5c55-45a8-bd38-fb18c0f063df", "translation" => "Plage Kef Lasfar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c7d98d90-0892-41f1-9bca-e05a2ef16d48", "translation" => "شاطئ الكاف الأصفر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1520
+            ["id" => "c140d054-7a23-4a5c-b1cc-48bd5c28f444", "translation" => "Sidi Lakhdar Ben Khlouf mausoleum", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e367d445-adbb-424b-a42a-42df34655370", "translation" => "Mausolée de Sidi Lakhdar Ben Khlouf" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "814204f2-0ad3-4c39-9090-98ea4a0b59bd", "translation" => "ضريح سيدي لخضر بن خلوف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1521
+            ["id" => "40e7ff6a-8500-44fa-9337-8691d35cad0e", "translation" => "Public garden", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "12b1932f-aab6-407d-bed4-4304208bb38f", "translation" => "Jardin public" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4cef41b5-091f-4d15-b76b-2777998fc001", "translation" => "حديقة عامة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1522
+            ["id" => "a470ff44-0e8e-4ab2-81de-d9d34b1b6f01", "translation" => "East Hadjadj beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "41a849fa-addf-4530-a09d-5379ddd99f21", "translation" => "Plage Hadjadj Est" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d5d5711b-5746-457c-b7dc-6780cee2813d", "translation" => "شاطئ حجاج الشرقي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1523
+            ["id" => "ac042b0f-1e95-4e77-b809-07e9b79d41ab", "translation" => "West Hadjadj beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0e34a162-b99c-4212-aad0-e5fd9d19c19b", "translation" => "Plage Hadjadj Ouest" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0ebe4d6d-2ed2-4aea-bfdd-233f9370456a", "translation" => "شاطئ حجاج الغربي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1524
+            ["id" => "745bf61e-c9b3-4ab8-a545-db86b5ebcbb9", "translation" => "Kef Ouair beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "843dfa46-ffea-49e2-ba8b-9fee9ab05b53", "translation" => "Plage Kef Ouair" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "914497c6-bbae-45c8-922c-3e128df83eff", "translation" => "شاطئ كاف أوعير", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1525
+            ["id" => "3e8fe168-9b78-4435-9595-91d3dfb19d43", "translation" => "Clovis beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "fc248cc8-d341-43bc-97eb-fd1b93c16b16", "translation" => "Plage Clovis" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "35af500f-6344-496d-8ccd-6d2cc1cca89f", "translation" => "شاطىء كلوفيس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1526
+            ["id" => "246ca840-7af5-4710-b92c-c020442db6c7", "translation" => "El Marsa beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f606b5f0-c3dc-4813-958b-641aa74e68ee", "translation" => "Plage el Marsa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e2543f93-03f3-429a-8165-d1db112dc403", "translation" => "شاطئ المرسى", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1527
+            ["id" => "475e2a53-32bd-4517-938b-892e81a24c3c", "translation" => "Dakara beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "57297c8b-2c83-43ab-8f72-80e8ba53571f", "translation" => "Plage Dakara" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c72ecad6-ae39-4150-9278-78876728acf3", "translation" => "شاطئ الذكارة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1528
+            ["id" => "9d0dabea-8be8-419e-a4b9-48d4d89fb7d6", "translation" => "Cap Ivi beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "aaab3b61-d804-43db-b391-4efc51a62896", "translation" => "Plage Cap Ivi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9098b665-3c80-4879-a6e8-6005fa8c6dfa", "translation" => "شاطئ رأس آيفي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1529
+            ["id" => "4560d4b9-422c-4a59-8a1a-9d954bcad8b5", "translation" => "Chaibia beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "471dada2-aa7d-47ae-bac4-90d59b7002c0", "translation" => "Plage Chaïbia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f20e0bef-2c7d-4c66-8da9-019ca899d7c8", "translation" => "شاطئ الشعايبية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1530
+            ["id" => "7ff4520c-8d2e-48db-aa48-1c1e08255c6e", "translation" => "Sakhra beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "45607acf-4473-4b64-88d9-6a7de6155a95", "translation" => "Plage Sakhra" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8b11e903-1b78-4bc2-ad53-cb672e454a52", "translation" => "شاطئ الصخرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1531
+            ["id" => "bf689adb-41d8-4304-826b-97596adc647a", "translation" => "West Cheliff beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2000d781-aa2e-475c-ac7b-ae79a1f84b6b", "translation" => "Plage du Cheliff Ouest" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b588c32e-2911-4cfd-8505-13491ecaf986", "translation" => "شاطئ الشلف الغربي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1532
+            ["id" => "ba96f961-8e45-47bc-a966-34e99658edb4", "translation" => "Sonacter beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0f4b3d31-2568-458e-ad3d-c26eb21f57a8", "translation" => "Plage Sonacter" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4045bc5f-84e7-474d-98d8-8d193c698ef7", "translation" => "شاطئ سونكتار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1533
+            ["id" => "22b64ce9-b860-4450-a125-fc180f5191fd", "translation" => "Caves beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "41f0e044-6471-4042-9785-49f50cae441f", "translation" => "Plage des Grottes" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d46ddc98-878c-42e6-9c99-6529000b3f64", "translation" => "شاطئ الغيران", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1534
+            ["id" => "e78bde6f-5f01-4c47-add7-7bf5e40a3808", "translation" => "The three brothers", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d25b0fab-847e-4ec6-9225-9014235e36b9", "translation" => "Les trois frères" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c5caaae6-6a9d-492d-b5d7-ed10696b355f", "translation" => "شاطئ الإخوة الثلاث", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1535
+            ["id" => "7c19ad82-de7e-4b81-869a-d1191164cd99", "translation" => "Kharouba beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f46a629e-7a2c-4cab-92d7-391d7d27c830", "translation" => "Plage Kharouba" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8661c22d-4013-46a8-a2b3-34889d8be87f", "translation" => "شاطئ خروبة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1536
+            ["id" => "b1169886-31c4-429e-b867-e6ed2c0a0e86", "translation" => "Matarba beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b8686103-566f-4d4c-ae0a-0b8cb8280980", "translation" => "Plage Matarba" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "625dec6a-aea9-454a-92af-fc219837ed95", "translation" => "شاطئ متربة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1537
+            ["id" => "3fdac36b-16fe-4f9c-9d75-1d34058076dd", "translation" => "Fishing port", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0c9aa4a4-2560-4939-9bea-62e9c716c8d1", "translation" => "Port de pêche" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1798d043-d41f-4702-9cbc-6c01c6b5e029", "translation" => "ميناء الصيد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1538
+            ["id" => "14ee7ed8-aaa9-45cb-9b5c-d4f6556dfb84", "translation" => "Salamandre beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "681d3438-f296-4b9e-9210-b1008ad2b63b", "translation" => "Plage Salamandre" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fb1b236e-4e56-4216-a59e-572e8aeffb07", "translation" => "شاطئ صلامندر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1539
+            ["id" => "628e3e2c-dd4a-4e76-ac0a-9862e323361c", "translation" => "Public garden", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9460a28e-2515-408e-81ba-35cf10e2244f", "translation" => "Jardin public" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5bef9509-c509-4357-8504-23fac6502862", "translation" => "حديقة عامة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1540
+            ["id" => "9766b407-3575-40ef-9a32-255bfc4374c5", "translation" => "Ghaliland park", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "947d9679-5d36-4aee-b85e-a3502fa6103c", "translation" => "Ghaliland parc" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0a20bd36-6b5b-4abc-b4a7-360f2a1a70b3", "translation" => "غاليلاند", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1541
+            ["id" => "11fc7b6b-5a2e-499c-b5fb-34c6be4d8803", "translation" => "AZ Aquapark", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e90db8a0-e829-4267-ae45-9a88e5d4670d", "translation" => "AZ Aquapark" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e6950201-25bc-420a-832d-197065d56deb", "translation" => "الحديقة المائية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1542
+            ["id" => "877946ea-4c51-4251-8ed6-154064eb2991", "translation" => "Golden forest park", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8d73f53d-09c6-488c-9a6f-921139564f39", "translation" => "Parc de la forêt d’or" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b30f50a3-dac8-4c58-b7b7-14be04b7c2c6", "translation" => "حديقة الحرية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1543
+            ["id" => "372e87ac-991b-4f78-b552-4cc5aa3c12d6", "translation" => "20 August garden", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "62a28d94-3ff1-424b-b69e-e2c5b6547598", "translation" => "Jardin du 20 Août" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9144c98c-4595-4260-8397-7d767d7d82bf", "translation" => "حديقة 20 أوت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1544
+            ["id" => "0dab010a-416a-4242-baeb-77882b6be80c", "translation" => "Dar el Kaid", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "53c6ee29-87a7-4c98-aee5-0f659273efd4", "translation" => "Dar el Kaïd" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "96de888e-4c74-43c3-afed-6cc969e12d1b", "translation" => "دار القايد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1545
+            ["id" => "8af3523c-3fd0-4091-a285-eeb5f395919d", "translation" => "Ben Yahia Belkacem garden", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3bb77121-6c66-4769-b040-c02d505b32e5", "translation" => "Jardin Ben Yahia Belkacem" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "eb6b5788-f779-43c1-b4bc-68f33a4ed60b", "translation" => "حديقة بن يحيى بلقاسم", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1546
+            ["id" => "2cd33276-5666-4dfc-a8fb-b68c971bb375", "translation" => "Essalam garden", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "226edbd9-4e7c-4d00-b9b7-86138b126e3f", "translation" => "Jardin Essalam" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7b3fabbb-511b-4e73-a5b6-4df5b12f0e24", "translation" => "حديقة السلام", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1547
+            ["id" => "d38e9aa2-10aa-4e24-8be1-0c47cf8f3d10", "translation" => "Benaissa land equestrian center", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "79e9cac0-610e-44bb-9f6b-18b5f55b2161", "translation" => "Centre équestre Benaissa land" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "deed265e-373e-4a2e-9671-3b27cec0285c", "translation" => "نادي الفروسية بن عيسى لاند", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1548
+            ["id" => "24586e64-7a9c-4c3b-90e6-e6ae9d43d4f8", "translation" => "Marine plateau lighthouse", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7fb3d7ca-ced6-4302-9825-42dadc52b08b", "translation" => "Phare du plateau de la marine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b40e9fa8-9c42-444c-891f-39297e4330ee", "translation" => "منارة بلاطو البحري", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1549
+            ["id" => "efefb71b-2e5d-498f-b229-1b424b9105f7", "translation" => "Sablette beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "eaecef0a-559f-4e61-84b6-d1c368e47f90", "translation" => "Plage Sablette" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a594e2c4-372d-45e2-811e-a2b34f774dff", "translation" => "شاطئ صابلات", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1550
+            ["id" => "fc80f2f0-997d-4e4c-8c9d-62acaa2c0b6b", "translation" => "Oureah beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8b80f857-022e-4b95-a70a-84d8a938e3dd", "translation" => "Plage Oureah" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3f50e4ed-60a9-49d2-9bc7-8ddd1e4a54f8", "translation" => "شاطئ أوريحة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1551
+            ["id" => "eafc433c-be52-4e78-9eea-aabb8f10ebde", "translation" => "Islet beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "74640339-cf66-4c6b-8a33-ccea2b50749e", "translation" => "Plage de L’îlot" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c1019e79-6fce-4189-adb7-766ae609d7b2", "translation" => "شاطئ الجزيرة الصغيرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1552
+            ["id" => "86f87c9f-857d-46ca-8e83-eac4e4103be5", "translation" => "Stidia beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "256a58d4-e128-419f-afb1-80920ced6e01", "translation" => "Plage Stidia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f265d25b-9652-468d-b35b-bc22fee28cd5", "translation" => "شاطئ ستيديا", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1553
+            ["id" => "5a1194cc-e05e-4066-81c4-c2315bb8e9c9", "translation" => "Sidi Mansour beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "232a6943-4bbc-40d9-9621-fe9710679eba", "translation" => "Plage Sidi Mansour" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c7121863-8d7f-443d-aff3-4004fed53bfe", "translation" => "شاطئ سيدي منصور", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1554
+            ["id" => "0ed19bfd-a6e8-45e5-a146-09e29477c7bd", "translation" => "El Mactaa beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d176a95c-9c82-470f-a6d9-356f99fc8224", "translation" => "Plage el Mactaa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b572604f-6da8-4df5-a3f7-b0969c387e14", "translation" => "شاطئ المقطع", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1555
+            ["id" => "21d4e7df-43b1-46b5-b268-5da1422af058", "translation" => "El Amir square", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "84e06a2e-8862-4008-ad6e-00aaece206e8", "translation" => "Place el Amir" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5837d0da-3246-44de-befd-319792b662b6", "translation" => "ساحة الأمير", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1556
+            ["id" => "f03e83d5-64aa-4d40-b42e-e87fc7550736", "translation" => "Public garden", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "71aace48-b538-4523-8943-5d8645e79339", "translation" => "Jardin public" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "be04c4fd-6648-4758-8a2c-8f1b22d68ec4", "translation" => "حديقة عامة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1557
+            ["id" => "3c2efe01-6a88-48eb-be61-97881a0bc80b", "translation" => "Frachih Dahra cave", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b9fe856b-e483-4f9c-9b9e-ae668c461e6c", "translation" => "Grotte Frachih Dahra" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f373120d-3510-4589-904e-7cc754f8c11a", "translation" => "مغارة الفراشيح الظهرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1558
+            ["id" => "d707ebc8-4683-4c48-b4f2-42e395278b1d", "translation" => "Djebel Sikh monument", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "92c76c60-d552-4ea5-afb1-9e2edf1cc81b", "translation" => "Monument de Djebel Sikh" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "676dfb75-27ca-4553-a994-a4f89e422e34", "translation" => "مقام جبل السيخ", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1559
+            ["id" => "d109c5f4-8dc1-426c-89ea-1910815d8180", "translation" => "Mostaganem equestrian club", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3971ec24-442e-4b32-98ab-3c76981d57c6", "translation" => "Club Hippique de Mostaganem" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "cbfebe99-8080-49db-9189-0c51f4cbfdd3", "translation" => "نادي الفروسية مستغانم", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1560
+            ["id" => "5d126762-4744-461b-b5fd-4c01a6346f4d", "translation" => "Public garden", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3a74a2c1-3c74-46f9-9cc6-590994fb39eb", "translation" => "Jardin public" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9bf66315-c7ae-49c3-ac2e-4a0e167604a0", "translation" => "حديقة عامة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1561
+            ["id" => "7f9ed7e9-0b42-4551-be59-98e43212ef4e", "translation" => "Kerrada dam", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "73ac0d85-580c-42df-923f-b62a6c4b198b", "translation" => "Barrage de Kerrada" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "80f73bfc-1555-4bec-bb86-495f0f8ae46c", "translation" => "سد كرادة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1562
+            ["id" => "c5fb806b-e430-4e54-bcdf-b34e190594f6", "translation" => "Small port beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9dffffaf-2d57-4fad-90a6-15433121ebc5", "translation" => "Plage petit port" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0a68c018-2f41-42b9-a18f-8f10bab22621", "translation" => "شاطئ الميناء الصغير", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1563
+            ["id" => "90ea9640-231d-4f4d-a85b-739d10607c01", "translation" => "The big beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4c9d526f-2a8b-4697-9145-6a0fb13b4aaf", "translation" => "La grande plage" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "76fd5144-ac14-46b6-b06b-ffde6580e6fd", "translation" => "الشاطئ الكبير", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1564
+            ["id" => "3b851af7-6983-4ca4-a1df-52c5bf5cbec1", "translation" => "Fishing port", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5218d8eb-63ae-4306-a4ae-e816580e1ca3", "translation" => "Port de pêche" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ee0b6817-882d-42c8-8318-e9603d3ebbab", "translation" => "ميناء الصيد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1565
+            ["id" => "d5c42ac0-514e-4bfd-bc4b-3025c7c9477c", "translation" => "Saint Michel beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4c630844-802d-44f7-9996-e2ae7ca0fd04", "translation" => "Plage Saint Michel" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c4d89bb2-d556-44ba-afc8-0d619e2716a7", "translation" => "شاطئ سان ميشال", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1566
+            ["id" => "9bc72218-0395-45f9-88b5-5fccfca8f046", "translation" => "Arzew islet lighthouse", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9d9d8799-b94b-4d2d-a7d1-fdc6d1a313cf", "translation" => "Phare de l’îlot d’Arzew" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3eece27a-77e9-4702-ac08-5e14e88307ea", "translation" => "منارة جزيرة أرزيو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1567
+            ["id" => "c738c1a2-e510-43c5-9599-947e730347ff", "translation" => "Cap Carbon beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d334b860-e0af-4074-9e50-fb8ed4e9b400", "translation" => "Plage du Cap Carbon" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "edcc15a1-cbe0-44fb-af17-d6dbe3a1c9cd", "translation" => "شاطئ رأس كربون", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1568
+            ["id" => "a55853c6-f4fb-4408-a8cd-428d53826f26", "translation" => "Arzew beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a22a8732-3cad-41bf-9b68-2e16bfdd57ed", "translation" => "Plage d’Arzew" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "999e2511-c83d-4755-8fcb-749f6d1ae090", "translation" => "شاطئ أرزيو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1569
+            ["id" => "ef1fab5a-8487-427a-ac4d-7b6fd7b93355", "translation" => "November 1st square", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d8ed1290-f877-49ae-a05a-f815c05fe594", "translation" => "Place 1er Novembre" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bf365b11-d67f-42b9-9343-3431624f7236", "translation" => "ساحة 1 نوفمبر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1570
+            ["id" => "26154bda-d2aa-4178-b485-ebd8e32c5d4f", "translation" => "Jasmine esplanade", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3eeb98ca-5514-4142-a289-ab4f94238c65", "translation" => "Esplanade des jasmins" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "55c9ee03-b9ad-44fb-a713-cb7c887c8b36", "translation" => "ساحة الياسمين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1571
+            ["id" => "3866b4b5-73de-46fd-9139-a6292b4e9d36", "translation" => "Tebbana fortress", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e1fc7d32-98dd-4a7a-8a62-ccafd4891882", "translation" => "Forteresse Tebbana" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9c378461-e1dd-447f-b5b6-0bd46c747e75", "translation" => "قلعة تبانة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1572
+            ["id" => "57fbffdb-9792-4aa2-9144-a9f2b947932c", "translation" => "Cap de l’Aiguille lighthouse", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "637519ff-828b-458a-93f4-53547be1d175", "translation" => "Phare du Cap de l’Aiguille" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ef816d60-9426-4d1d-824b-fde92c297adb", "translation" => "منارة رأس الإبرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1573
+            ["id" => "c61b1b9b-f25f-40a2-bb32-2fe1e17bc577", "translation" => "The Macta natural reserve", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8c3a1cde-72d6-47b9-84e6-7eb900aabbfc", "translation" => "Réserve naturelle de la Macta" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b6e2cd61-3b71-4461-9522-6b2f7e3f059a", "translation" => "المحمية الطبيعية المقطع", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1574
+            ["id" => "56339bce-5096-4d77-9296-91e94b81bbbe", "translation" => "Kristel Park", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d6fe1076-e44e-47dd-b489-411d6cdffc74", "translation" => "Kristel Park" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9e302113-128a-4f6f-b10f-12720d05553f", "translation" => "كريستل بارك", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1575
+            ["id" => "dd303d1b-eb1c-479a-b023-76dbf7a53e60", "translation" => "Derdaza beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "20b131af-65a7-4758-974f-f82ed83d0c6f", "translation" => "Plage Derdaza" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7a537428-ab06-4d44-a5e2-49bed051e8d4", "translation" => "شاطئ دردازة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1576
+            ["id" => "b5822b9a-589e-4758-8f99-3675169ca06e", "translation" => "Fishing port", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "895ef60f-ad44-48ec-9fe3-27b81a42b635", "translation" => "Port de pêche" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ae5bfb8a-da14-40bf-a984-95370e8d96f1", "translation" => "ميناء الصيد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1577
+            ["id" => "d101e163-d8d1-4370-a6b3-b435b37d4e9d", "translation" => "Kristel beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "36ac7c2c-61c5-473a-ae13-60ef9698f4d4", "translation" => "Plage Kristel" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "980ca38e-b0a5-4ec0-9ff7-ba6560e2d6d4", "translation" => "شاطئ كريستل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1578
+            ["id" => "9ec8fdd0-6e0f-41ca-a084-8c27f56372ed", "translation" => "Public garden", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0dae0825-fd9b-41c3-b0d7-ea7b36894504", "translation" => "Jardin public" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9609d8da-02c9-419d-bddb-ccdef632c79b", "translation" => "حديقة عامة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1579
+            ["id" => "e6ab5943-abb9-444a-afe0-b3ecc1a4eb5f", "translation" => "Ain Franine beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7e16061d-1af4-4420-abb3-8bcab2b4a659", "translation" => "Plage Ain Franine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d9d7ad1c-a306-4c47-80d8-dfd2e3f6d2f4", "translation" => "شاطئ عين فرانين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1580
+            ["id" => "614c678d-1a6f-4fae-bb60-c14429100876", "translation" => "Cap Rousseau beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b2de9ed3-6638-49d3-ae6d-b9030c08f8e2", "translation" => "Plage Cap Rousseau" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5ce62001-2267-4d46-9586-6da5c80f6d20", "translation" => "شاطئ كاب روسو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1581
+            ["id" => "16276367-c3a0-4d68-84ab-24495ec0b7af", "translation" => "Cap Moreau beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "75555281-5c45-46e0-a835-4d8f3e4ba4af", "translation" => "Plage Cap Moreau" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "07916c9f-5eaa-475c-857f-0f7805813642", "translation" => "شاطئ كاب مورو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1582
+            ["id" => "25b5eaa2-3baa-4cc1-bea3-fb673197e24f", "translation" => "Cool Park Oran", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e841ee17-caa2-45e3-b6b1-ef0110fe2710", "translation" => "Cool Park Oran" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5519de44-8b55-4e7f-ba06-124e3d2274de", "translation" => "كول بارك وهران", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1583
+            ["id" => "703c8cb5-382d-4517-bbc0-b77347c77dff", "translation" => "Aqua-Dive", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6edebd45-a80e-4d23-bb24-22ef809c7744", "translation" => "Aqua-Dive" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "eeea16b0-1e41-4443-89e0-3261ea5fe1c3", "translation" => "أكوا دايف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1584
+            ["id" => "50ca4c47-780f-4240-864b-c4f885982512", "translation" => "The craft house", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3a88f90b-b3e3-4dea-aeaf-422c6bfdfb6f", "translation" => "La maison de l’artisanat" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "69425f8c-ac65-4b01-bb1f-6c0d073769cd", "translation" => "دار الصناعة التقليدية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1585
+            ["id" => "7851725b-4cdb-4ae6-935f-a96e6d865dd3", "translation" => "Chamber of crafts and trades", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e61b4ffc-3b46-4650-b1bf-ede2188f4a39", "translation" => "Chambre de l’artisanat et des métiers" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "19a7fac1-0e33-4e62-8393-5c0371012033", "translation" => "غرفة الصناعة والحرف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1586
+            ["id" => "75dbffeb-2039-4f41-a4fd-bf92fe324348", "translation" => "Ahmed Zabana statue", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "94ff673a-1f55-4e12-b2b7-c011ebf27381", "translation" => "Statue Ahmed Zabana" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ebf68729-5b1c-4c07-9ec5-fe81041d292e", "translation" => "تمثال أحمد زبانة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1587
+            ["id" => "c1bdc11f-c311-4cc5-942c-a39be3b0c0ad", "translation" => "Miramar carousel", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "75c7c631-6f30-4a5d-a853-85333b39afbe", "translation" => "Manège Miramar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bcc81938-7ee0-4c56-82b3-5306de9e8f92", "translation" => "ماناج ميرامار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1588
+            ["id" => "3b756766-30ee-4d65-b772-398ea6dd8b61", "translation" => "Thuveny square", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "bd94cf65-0300-4c9d-b586-e227405ddd33", "translation" => "Square maître Thuveny" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9d6a4449-007f-4422-b53f-e928da92a3b9", "translation" => "ساحة توفاني", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1589
+            ["id" => "90ff93ae-b720-48fb-80a1-55aedba3df14", "translation" => "Yves Saint Laurent museum", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b84a952a-43e6-4a1e-8699-1f2133366c22", "translation" => "Musée Yves Saint Laurent" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d48260b5-3989-42fc-b6b7-2d92065bd23c", "translation" => "متحف إيف سان لوران", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1590
+            ["id" => "59c8a06e-723b-4ae6-ba47-d17f31d3d211", "translation" => "Exhibition room of photos of the martyrs of the revolution", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2db14b06-7622-411b-88c1-36a46aba204f", "translation" => "Salle d’exposition des photos des martyrs de la révolution" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8017a3f7-770d-47a6-ac90-bc9f3ac7504f", "translation" => "قاعة عرض صور شهداء الثورة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1591
+            ["id" => "40f65e91-02b2-4f1e-af30-16bea93fc07c", "translation" => "El Morchid garden", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b112a26b-64f9-493a-9ace-827c50c4fc1b", "translation" => "Jardin el Morchid" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b13bdb1b-411a-46d5-875c-d21da67e5bdd", "translation" => "حديقة المرشد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1592
+            ["id" => "66cc9701-112e-4d93-9a5a-9d848a22f0bf", "translation" => "Museum of the mujahid", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d36b3605-1774-4062-af81-b3b94678bf79", "translation" => "Musée du Moudjahid" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c5ce4c9f-70c1-47c2-91a5-3b2d0cac2c36", "translation" => "متحف المجاهد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1593
+            ["id" => "098ca56c-0e70-4237-bd7a-8329c10bab9c", "translation" => "Kiddy Garden", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "546b29eb-1c22-482b-9460-64753c1ae77b", "translation" => "Kiddy Garden" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "675fcbe5-3cbd-434c-96a4-dc4a09c082b8", "translation" => "كيدي ڨاردن", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1594
+            ["id" => "58b47c7e-21d8-476e-897d-260273655167", "translation" => "Aquatica by Rodina", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "cdda2ed8-d7df-4072-9f06-f900c9610613", "translation" => "Aquatica by Rodina" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3db7efa0-bd76-4019-b4f1-789a7f62955b", "translation" => "أكواتيكا", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1595
+            ["id" => "c26e4f0c-f6a7-492b-85f9-e598cc10461f", "translation" => "Public garden", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7d2d2b17-f5b6-44f5-97ea-4d11db393b6f", "translation" => "Jardin public" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c511fdb9-5bb3-404f-b04c-dc2866fb87f7", "translation" => "حديقة عامة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1596
+            ["id" => "d26226d5-5e26-4592-86de-37cca0f9fe3c", "translation" => "Fishing port", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "05b4444c-6ac7-439c-87d5-9d1b7b205d4d", "translation" => "Port de pêche" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8577be7e-1b4a-4dc9-9f5e-46a2df34e7f8", "translation" => "ميناء الصيد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1597
+            ["id" => "801eb984-c818-45b5-affd-55445062b77e", "translation" => "El Othmania garden", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "bb17a749-f593-427d-9d3f-0725d89edba1", "translation" => "Jardin el Othmania" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bc980832-6b80-434f-9f82-894833d3c133", "translation" => "حديقة العثمانية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1598
+            ["id" => "02476024-8b84-457d-aa5e-121f0af6d4a0", "translation" => "Seddikia garden", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3df6e123-319e-4856-95cd-7e37ed9e093f", "translation" => "Jardin Seddikia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "302e558f-c503-493a-b986-9617c61fc290", "translation" => "حديقة الصديقية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1599
+            ["id" => "a41b2224-53b5-426b-9e7b-f650005418c8", "translation" => "Atelier 31 Store & Gallery", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "fc2f76c9-fc97-4f1d-b7ae-21d32d776c53", "translation" => "Atelier 31 Store & Gallery" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "32c9760c-3e8c-41aa-ae95-fb18abf8e9c7", "translation" => "معرض فني", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1600
+            ["id" => "0c2d13bf-5685-409e-9376-e6461c7dcc22", "translation" => "Sefart Gallery", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "dce14ccf-98a2-4330-b02f-8cc73309b92a", "translation" => "Sefart Galerie" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f0949657-a0d1-4d02-8733-35f6162dd25b", "translation" => "معرض فني", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1601
+            ["id" => "aa1b2d50-291a-499b-b85b-063489bdcb0d", "translation" => "Trouville beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "92750ea9-a221-49ce-bb3d-38a475dd4ba2", "translation" => "Plage Trouville" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "39b57ef9-79c7-41d0-b6ce-cafde4034598", "translation" => "شاطئ تروفيل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1602
+            ["id" => "74f5f565-3f13-40ed-af2a-6cb5459222a7", "translation" => "Bouisseville beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "96f7331a-6dbf-41d5-84bc-2f5dd163a367", "translation" => "Plage Bouisseville" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7cf1df8a-3411-4ac9-80f5-5de6a8465035", "translation" => "شاطئ بوزفيل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1603
+            ["id" => "ac52898d-db35-4a1c-8ffd-0f19523ecdf0", "translation" => "Paradise beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a064fcf6-40ff-44f2-b9a0-0ff2a07ecc82", "translation" => "Plage Paradis" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f52550be-4c25-46a6-805d-7b242b5ad5e7", "translation" => "شاطئ الجنة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1604
+            ["id" => "27def168-04c1-4805-a7bd-cf1c3bc171f3", "translation" => "Clairefontaine beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "92d48598-8ecb-4105-90ce-8237c58d3f22", "translation" => "Plage Clairefontaine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e5920c9b-586d-48fb-85b7-035d6062e942", "translation" => "شاطئ كليرفونتين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1605
+            ["id" => "0bef0aef-347b-4114-9bf0-0801443693d3", "translation" => "Saint Germain beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8718a546-05b5-49ac-b688-39b861946ef6", "translation" => "Plage Saint Germain" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9cba74f1-6068-482d-84ed-dbe5f090b05d", "translation" => "شاطئ سان جيرمان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1606
+            ["id" => "8135c9c4-6c2d-4512-b307-e965b386a1b6", "translation" => "Les Dunes beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1c83b03f-a054-4fc5-ab14-8551a1ef4dfb", "translation" => "Plage Les Dunes" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "48e7ab15-24ec-4dc6-bd9e-d7132110947b", "translation" => "شاطئ ليدون", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1607
+            ["id" => "e7d52e9f-b73b-4ee9-bd2f-bfd92c2581dc", "translation" => "Beau Sejour beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "af267d9e-0818-4b48-a944-ddec1a2e2467", "translation" => "Plage Beau Séjour" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3eccfcb3-e89f-49aa-9a7e-b81d489b987b", "translation" => "شاطئ بوسيجور", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1608
+            ["id" => "01079890-e9b5-46e9-8f70-129672f3dccd", "translation" => "Cap Falcon lighthouse", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "83e6fb8d-9963-4adb-8717-b0abb3c6714a", "translation" => "Phare du Cap Falcon" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6386409f-945d-4239-ba67-eb03c1aa9a10", "translation" => "منارة رأس فالكون", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1609
+            ["id" => "881772a1-c6d3-480d-be8c-47a1c480da86", "translation" => "Boukaa beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5714a8c4-b927-4b2f-bc07-6c60d9982dc4", "translation" => "Boukâa Beach" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b8ee087f-b26d-41bd-bb4c-62c001e9a485", "translation" => "بقعة بيتش", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1610
+            ["id" => "01942ab9-cc30-486e-91f1-0288f898cd37", "translation" => "Cap Falcon beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d80af252-05bc-4adf-bb8d-67c63aa6994a", "translation" => "Plage Cap Falcon" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "52e90f10-e9b9-49e6-9003-6769122800fa", "translation" => "شاطئ رأس فالكون", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1611
+            ["id" => "9bc56a97-cbca-4422-b2ef-ca700941ec0c", "translation" => "August 20 square", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4dbd636e-7c16-413d-8779-67986dc011ff", "translation" => "Place 20 Août" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "14ecbdf7-a0a1-44eb-b044-6a4de66dc37e", "translation" => "ساحة 20 اوت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1612
+            ["id" => "233cff19-c3fa-4884-8cdb-2c506a6a704c", "translation" => "Vassas square", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3ef64a12-7b14-48b4-a6cd-f8fac3b63581", "translation" => "Place Vassas" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "54b298ca-d878-4789-87f2-64967d7ca905", "translation" => "ساحة فاساس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1613
+            ["id" => "d98da317-c9c0-460b-b28f-7d8d8ac38993", "translation" => "Djelti Miloud garden", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c6adb2e6-ba48-402b-bf28-457c455aece6", "translation" => "Jardin Djelti Miloud" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bc057adc-d3c4-4620-8b77-fb605dde6940", "translation" => "حديقة جلطي ميلود", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1614
+            ["id" => "85b5ff1c-07cd-49f2-b327-fbfdb2f9000b", "translation" => "Bousfer beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7b98078b-1da7-4d31-8234-329b78ab1c5b", "translation" => "Plage Bousfer" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bab27969-1868-4f54-81a7-80c5400e40ce", "translation" => "شاطئ بوسفر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1615
+            ["id" => "5596005e-d917-498b-aa98-445667ddfa4a", "translation" => "Pinika beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "97316e71-c6ad-4c57-8dcc-e1f1ba08ddfc", "translation" => "Plage Pinika" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0472bd48-620b-4076-b548-c61bd99c91f0", "translation" => "شاطئ بينيكا", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1616
+            ["id" => "01b2eb0e-be7b-48f5-abff-a01df41f71a1", "translation" => "The big beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4e843ca4-7e61-4e17-8434-2805326edad2", "translation" => "La grande plage" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "37d463a2-13c5-466b-beed-426ddff2d7f3", "translation" => "الشاطئ الكبير", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1617
+            ["id" => "ca4a559c-d556-4fbe-991a-73ae490aaaf5", "translation" => "The star beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e810109f-4d64-4d1e-a1b2-5cf20abc79d7", "translation" => "Plage L’étoile" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "50720da1-6832-4ae8-a473-34b1a22c7ed2", "translation" => "شاطئ النجمة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1618
+            ["id" => "b1e1b0f6-6a17-4b2a-8f37-afe69a93f11c", "translation" => "Bomo beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "14f6112a-6604-41e5-8b35-7a02127c6093", "translation" => "Plage Bomo" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d1970027-c48b-40f4-8cd1-53c0f54443a8", "translation" => "شاطئ بومو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1619
+            ["id" => "f89fc7e3-2d40-496c-a86a-ef14f2e52605", "translation" => "Corales beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5cbcea81-edf6-4766-873d-2ca3929323f5", "translation" => "Plage Corales" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d5f45400-2934-446a-a583-de2e21648ad8", "translation" => "شاطئ كوراليس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1620
+            ["id" => "96bd0137-4d0d-484d-8441-f7634a2ff296", "translation" => "The Andalusians beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f48002db-6e18-4d5f-a7e4-354bfc02b2a1", "translation" => "Plage Les Andalouses" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5f7db33f-2351-4fa5-b48c-99e9d5529302", "translation" => "شاطئ الأندلسيات", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1621
+            ["id" => "7832864c-212a-4978-825f-9a52457684eb", "translation" => "Aqua Paloma", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f4d712dc-ae53-48a9-a149-a1dbf4ecb552", "translation" => "Aqua Paloma" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "91eb3180-5cf5-49c6-bd92-3cd44f7ecebf", "translation" => "أكوا بالوما", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1622
+            ["id" => "f5fa10a7-7119-40af-a9fd-0f1c354ff9d1", "translation" => "Ennakhil beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7966a7a7-6f02-4b97-947f-1f4b4a328e9d", "translation" => "Plage Ennakhil" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6ffe0ff2-b048-4d70-a560-cea3cee26352", "translation" => "شاطئ النخيل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1623
+            ["id" => "5eac9012-5109-4ce5-9419-5a7dceddd2f8", "translation" => "Pilici beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "bc60c255-b4b1-478e-aba5-b52fa6439c4c", "translation" => "Plage Pilici" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8508cc1d-9e5a-471b-91df-e7fba365cdf0", "translation" => "شاطئ بيليسي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1624
+            ["id" => "37084645-1f77-41e3-b459-446ef8ff4603", "translation" => "Cap Blanc beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "71aee6e9-aa73-4c70-a2e9-c99cea5a86b2", "translation" => "Plage Cap Blanc" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1d029f53-4d69-46e7-b6ae-f6680c60d4b2", "translation" => "شاطىء الرأس الأبيض", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1625
+            ["id" => "fb610fa8-383e-4b53-b491-aba8462e29b8", "translation" => "Small port beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "62151810-9cc5-4c24-aa30-83c88a54baec", "translation" => "Plage Petit Port" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a8eaf305-3276-43cb-8c8c-c2431d19356b", "translation" => "شاطئ الميناء الصغير", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1626
+            ["id" => "06584280-1516-4df6-8fc0-c31f5eeabceb", "translation" => "Madagh 1 beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1103c735-dce1-45a2-a09a-b93258d6d564", "translation" => "Plage Madagh 1" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "df6300f9-8905-4ad1-a43f-cd9d9871748a", "translation" => "شاطئ مداغ 1", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1627
+            ["id" => "c8b48ece-92d5-45cf-8e16-ff5735e3d205", "translation" => "Madagh beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4b978b19-31ef-4e84-a9d4-291b96592527", "translation" => "Plage Madagh" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7fc2fbe2-6f9e-4f10-adea-0661be731cf7", "translation" => "شاطئ مداغ", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1628
+            ["id" => "bfe08c75-d8b9-4414-b3dc-5423d0256047", "translation" => "Madagh cove", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9a01f1f3-4317-4368-b475-f0d6682f92de", "translation" => "Crique Madagh" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1eb43ae8-d7ed-4ee7-ae20-87c7ac30bb27", "translation" => "خليج مداغ", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1629
+            ["id" => "15e7918f-3780-4eae-8e89-c731ea747caa", "translation" => "Hassi Bounif thermal resort", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6040a53e-c5cd-4d1e-a724-3138b13ba431", "translation" => "Station thermale Hassi Bounif" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c8fcaf7a-0363-44c4-a3d1-df21a4157786", "translation" => "منتجع حاسي بونيف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1630
+            ["id" => "8a6798da-a662-4571-83a5-4039e8f11731", "translation" => "Kart Live", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d8c07542-1d6e-47ff-bede-7ed0989d7fa3", "translation" => "Kart Live" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bd62e07f-37e0-467c-90f1-1db906d0af46", "translation" => "كارت لايف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1631
+            ["id" => "60607b55-a7f1-4fcf-8a08-ecca4aa6ffe3", "translation" => "Adventure Oran Paintball", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "93d5db03-a861-4fd9-8615-25fa46a624ae", "translation" => "Adventure Oran Paintball" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "dd0e4f27-5a67-4f7b-b448-74ae2a1679e4", "translation" => "باينتبول وهران", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1632
+            ["id" => "26687b2e-12ba-4170-9670-57cad9a59d47", "translation" => "Antar ibn Chaddad equestrian center", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e3fef24d-cf3a-440f-9b85-49b7a1e36458", "translation" => "Centre équestre Antar ibn Chaddad" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2fe54424-f9e9-4820-9a4f-941284e2d2ad", "translation" => "نادي الفروسية عنتر بن شداد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1633
+            ["id" => "6a87a2d1-851b-4ea4-b8de-66406f8e882b", "translation" => "Gharaba lake", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b806c860-a820-4610-acc3-210c7753c1c1", "translation" => "Lac Gharaba" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5c267bf9-6d2d-42fc-b6d5-b97d9f085167", "translation" => "بحيرة غرابة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1634
+            ["id" => "cd47cef2-0a76-489d-b39f-7b3281b3b0ae", "translation" => "La Vierge swimming pool", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "23c3c7ad-1b84-4960-89f6-a90498c51a0e", "translation" => "Piscine La Vierge" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9bed96c1-089e-45e0-b1dd-d05d12068b2a", "translation" => "مسبح مسرغين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1635
+            ["id" => "e04dd21c-d6ae-4f3d-b71c-79868f964de2", "translation" => "Misserghine square", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d407696b-570e-49e0-82a0-7b48b11fb19b", "translation" => "Placette Misserghine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0b8de852-1c3d-4ff0-8db0-c4a0778c97f8", "translation" => "ساحة مسرغين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1636
+            ["id" => "ce905349-4d1f-45ec-a1ae-39ff4e1a5652", "translation" => "Public garden", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d2524472-c626-4671-839a-f589be158ec3", "translation" => "Jardin public" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "45bef8d4-32ea-474f-bee2-6e86aa6b57e3", "translation" => "حديقة عامة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1637
+            ["id" => "8936fb4b-a0bc-447c-bf24-6bdd7471ab69", "translation" => "Habibas islands lighthouse", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d6fcf0b4-8de9-4182-b810-a0db2be50623", "translation" => "Phare des îles Habibas" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "aa13fed9-0995-4f7e-ab33-0f2f1c2a8922", "translation" => "منارة جزر حبيبة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1638
+            ["id" => "f9dbb3b1-0ef6-4bd3-a806-3213b9f00c08", "translation" => "Bouzedjar beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8f509607-548f-4c62-b4ed-90245422df2c", "translation" => "Plage Bouzedjar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7d5348f9-e4d4-40a9-a90c-3d898fd87353", "translation" => "شاطئ بوزجار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1639
+            ["id" => "cc9d8971-d1eb-41bb-848d-7236c262317e", "translation" => "Fishing port", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c29155d7-fe60-43fa-a76a-63a50b002ae2", "translation" => "Port de pêche" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "cb073bc8-224c-4a33-8be2-72d2e42da4d5", "translation" => "ميناء الصيد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1640
+            ["id" => "d56d2dde-aa01-4084-984f-5e2b7ec2a3b9", "translation" => "Port beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f8ac4158-02ce-49c1-9716-3873c06cf469", "translation" => "Plage du port" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "75700ba3-f73e-4212-9f29-452afa7d4aeb", "translation" => "شاطئ الميناء", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1641
+            ["id" => "269f8a79-7b03-420f-979f-5fc1518e0cb6", "translation" => "Cap Figalo beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e05b9498-0425-45ca-999d-67285e6a5b6b", "translation" => "Plage Cap Figalo" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "cdaf6837-71f1-4490-bdfd-bed16cfa1109", "translation" => "شاطئ كاب فيغالو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1642
+            ["id" => "02599e74-3c20-44fc-b6ad-84536a74b40d", "translation" => "The Guitare cove", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e5ec6020-09e8-47b2-95d5-36b0274f7d8a", "translation" => "Crique La Guitare" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "709fda0f-31bf-40ea-8faa-11ad4e2e2001", "translation" => "خليج الجيتار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1643
+            ["id" => "cb90004e-f1df-4f8a-9d91-7c0bdf55285c", "translation" => "Sbiaat beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "993ffd17-d2ea-44eb-a035-de20daf3b99c", "translation" => "Plage Sbiaat" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7a2cb34a-c573-4ffb-8624-211afa8e75fd", "translation" => "شاطئ السبيعات", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1644
+            ["id" => "90de1db0-68db-4978-b752-f901866fc9fc", "translation" => "Zimba beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0390440c-1044-4815-9c29-0e45f8b29839", "translation" => "Plage Zimba" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "85fd53a2-0ef3-4dcc-89f3-dc4924948a22", "translation" => "شاطئ زيمبا", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1645
+            ["id" => "2cd44ab1-82e8-4997-bede-6457b583eded", "translation" => "Sassel beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "39e66259-2543-40a5-a6f4-d29d9bccc1c3", "translation" => "Plage Sassel" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "37b4b348-2c03-4d1d-b208-e882f1d616f7", "translation" => "شاطئ ساسل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1646
+            ["id" => "9d0869b4-07c9-4796-807c-267c073985b9", "translation" => "Kenzi Land", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2e2fd519-d249-42de-9cd1-d9e23986ce5f", "translation" => "Kenzi Land" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0947faaa-0267-4e45-9393-f4cf3c847904", "translation" => "كنزي لاند", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1647
+            ["id" => "bd83cd9f-4956-4fad-9040-48c4fc4b013a", "translation" => "El Mordjane beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "fe3db217-60d3-41a4-ac26-e4386cf9734e", "translation" => "Plage el Mordjane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c43c9f6f-8133-4804-a94f-e33afeda6ecc", "translation" => "شاطئ المرجان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1648
+            ["id" => "bc2fddf6-b754-49e9-bcf3-2a3c2e5ba0ec", "translation" => "Nedjma beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e77b0a18-509c-4f10-bdde-6feff67085ee", "translation" => "Plage Nedjma" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b52ba5cc-1998-48b8-bd79-65fec17981f7", "translation" => "شاطئ نجمة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1649
+            ["id" => "2f06864c-bfa4-46b3-96ad-bf8bf0b2265c", "translation" => "Terga beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1a410c08-2701-41c9-af49-93153533d26e", "translation" => "Plage Terga" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "96803a63-f931-4dd2-b4c6-8dfe19a3419f", "translation" => "شاطئ تارقة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1650
+            ["id" => "1e0b9e07-ffa5-47e7-991f-78c2f5c6c77d", "translation" => "El Ain beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "df12ffb5-4eb4-4d5a-9783-d0a2a41faf4e", "translation" => "Plage el Ain" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8034be82-5307-43dc-9c09-7007ac7e801a", "translation" => "شاطئ العين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1651
+            ["id" => "d57baf93-8ad1-4842-8ce9-b8fb74839f47", "translation" => "El Hilal beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a95214f1-b284-43ee-9f3c-0ed41389fe91", "translation" => "Plage el Hilal" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d7a1c3cc-1006-4677-bab3-23759181b3c4", "translation" => "شاطئ الهلال", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1652
+            ["id" => "9df505d4-c7e3-4a22-98ed-2562338b39ac", "translation" => "Chatt el Ward beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6d3d02c1-678b-41e5-8fd8-ecdf18d46160", "translation" => "Plage Chatt el Ward" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e87b353e-6277-481d-9f7b-ef0bfa6adada", "translation" => "شاطئ الورد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1653
+            ["id" => "fc17e431-2b2d-4d8e-bc7c-d00bff6a2c1d", "translation" => "Sidi Djelloul beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7ce88462-d5ad-42a9-82ca-7dedad67726e", "translation" => "Plage Sidi Djelloul" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6616e15c-aea3-48ff-9c55-b409934d231c", "translation" => "شاطئ سيدي جلول", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1654
+            ["id" => "82b48d4b-fc69-4eb4-ac7f-c844532fc9c9", "translation" => "Hafer el Djmel beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e70c504c-e1fd-4dfc-a68b-e609271c2cfd", "translation" => "Plage Hafer el Djmel" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d3b3d590-64dc-4017-bf78-3db1782c18b0", "translation" => "شاطئ حافر الجمل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1655
+            ["id" => "0d45d435-f01b-494a-96d5-54d2de9c2a7f", "translation" => "Boucif beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f7072ec2-d82d-44aa-81ab-63e4c91b53a0", "translation" => "Plage Boucif" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "98e17e8a-2aa6-44fa-9395-ad4d6a426e93", "translation" => "شاطئ بوسيف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1656
+            ["id" => "546eaf53-8430-4630-958f-3446cf2b8920", "translation" => "Fishing port", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8682fdb6-4d67-4a97-94b1-0110eeba1bcc", "translation" => "Port de pêche" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e3645dc9-84a3-4124-8bd8-ffd017a8e10a", "translation" => "ميناء الصيد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1657
+            ["id" => "3a327f66-68f9-482a-8888-33e0b9bd9758", "translation" => "The well beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "245ae776-afc0-4825-a826-07c0ca218184", "translation" => "Plage du puit" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fe20dac5-9f20-46a4-8bd6-184a39bd6845", "translation" => "شاطئ البئر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1658
+            ["id" => "659fc844-f644-4605-823b-7a9ae9367d07", "translation" => "Beni Saf aquarium", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6ec3e363-18d6-4c15-8ae5-2906df744074", "translation" => "Aquarium de Beni Saf" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c6247251-edfc-48e3-af79-19a97fea5535", "translation" => "معرض بني صاف المائي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1659
+            ["id" => "d627a282-90d6-4be3-814e-353d0993dd7b", "translation" => "Kouidem cove", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "51a82c3c-bdff-4087-8266-499860d4ab24", "translation" => "Crique Khouidem" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3df4b774-6e59-403b-9381-5b363e85aa99", "translation" => "خليج خويدم", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1660
+            ["id" => "8c307ab9-bf2d-4587-97aa-b69d6f489860", "translation" => "Bakhaboro beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a35ca11d-4763-4ae8-bd3d-a405140a0a83", "translation" => "Plage Bakhaboro" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "88ff5a57-d636-4d36-a3f8-e822c7862cd7", "translation" => "شاطئ باخابورو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1661
+            ["id" => "1e835116-4222-4072-b8a8-001bf322d538", "translation" => "Ennabil beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9c943b62-0c42-4ca5-9cca-d3becdea4b0b", "translation" => "Plage Ennabil" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6b6a151e-00f6-4d1a-8cb9-5864c686c4ef", "translation" => "شاطئ النبيل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1662
+            ["id" => "af371593-fb05-4c00-bf7a-d7043e64ba90", "translation" => "Madrid beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d4d2e827-4107-4d03-8a1a-d19858a7ee6b", "translation" => "Plage Madrid" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fd73e436-9d30-4747-a648-69574e466063", "translation" => "شاطئ مدريد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1663
+            ["id" => "1ee35377-439b-4fb8-8a77-0fb67b56bbf9", "translation" => "East Rachgoun beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "337eac68-eae1-47eb-bab1-8d7ffe17512d", "translation" => "Plage Rachgoun Est" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "270c6bef-af0b-438b-9b5a-1a5f3be73452", "translation" => "شاطئ رشقون الشرقي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1664
+            ["id" => "2a17bd37-ead6-43b3-8b34-1f2e81cde563", "translation" => "Rachgoun Aquapark", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "59f6e3e3-c9ba-4f34-a5d5-ff0e09bafbcb", "translation" => "Rachgoun Aquapark" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "29d85a62-287c-4d26-ba7a-43281f65e1d9", "translation" => "حديقة رشقون المائية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1665
+            ["id" => "7dd81e7c-1a5c-4c24-ba63-ea6db1c4c8c0", "translation" => "Allou Fun Park", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "bf784809-4067-40a9-b5f6-bdc549c4149a", "translation" => "Allou Fun Park" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "332bbe0e-0015-417e-b1f3-bda20701e886", "translation" => "ألو بارك", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1666
+            ["id" => "c02e7bc1-71b4-4984-95f6-4456215ff7fa", "translation" => "Zouanif beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "64a3f1a5-1e22-4a25-86c3-3a918cb5f3ef", "translation" => "Plage Zouanif" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "79f24bc3-155e-4dce-8143-fe4ffd289aed", "translation" => "شاطئ زوانيف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1667
+            ["id" => "18372c09-9201-4219-8fef-bea18ef01ac8", "translation" => "Malous beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "986287bd-1350-481d-87a6-b3d0ce6b023c", "translation" => "Plage Malous" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "caffd521-c187-4e76-898e-d01dba57e977", "translation" => "شاطئ مالوس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1668
+            ["id" => "562f70cc-9287-4160-bcd5-3543fe3eb77f", "translation" => "Sidi Yaakoub beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "41817c0e-68da-40e8-b2cd-8593cba60c9c", "translation" => "Plage Sidi Yaakoub" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "02167ee5-d7c5-4076-b74f-ba0a930e55fa", "translation" => "شاطئ سيدي يعقوب", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1669
+            ["id" => "23e9825b-d718-45cf-aeb1-e4d595b7ef73", "translation" => "Ouardania beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "fac8a2ad-c1b1-4abb-9200-d0db6154d2ea", "translation" => "Plage Ouardania" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "057cd7c5-a464-4bad-98f6-1306f251715f", "translation" => "شاطئ وردانية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1670
+            ["id" => "bced2000-44e9-49b7-a11a-28a934aa246e", "translation" => "Banitalha Land Park", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9f491d81-b631-487c-a6fe-661ec5d9155c", "translation" => "Banitalha Land Park" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "655c8199-d9d3-4d17-8680-8cf6d4575686", "translation" => "بني طلحة لاند بارك", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1671
+            ["id" => "f2f29197-7c87-48f4-ab80-326bf9c2f158", "translation" => "Public garden", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "139cdfbf-a099-4c27-8ab3-324cf9745ac4", "translation" => "Jardin public" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "37537587-10b1-42dd-9309-3bdfb04d5ee4", "translation" => "حديقة عامة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1672
+            ["id" => "08b8d665-ec5d-497c-97f2-8e9244142c26", "translation" => "Saida Khadidja mosque", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "48b61558-f4af-4219-8d4c-deb1c6417295", "translation" => "Mosquée Saida Khadidja" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "522f524d-e6dc-45c0-bdf7-d05755dcea8c", "translation" => "مسجد السيدة خديجة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1673
+            ["id" => "399db266-20b9-4091-9228-4027d17802b1", "translation" => "Ain Temouchent amusement park", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "783557b0-50b5-40f9-a5cd-a0fb1212c072", "translation" => "Parc d’attractions d’Ain Temouchent" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5792accc-c73d-472b-8bfd-47316d02b105", "translation" => "حديقة التسلية عين تموشنت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1674
+            ["id" => "31dc781f-61fb-4d81-b3c9-1de2a97155d2", "translation" => "Archaeological museum", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d4a7da28-4b5e-4952-8ab4-9747475de6a3", "translation" => "Musée archéologique" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "aaae30df-33af-4010-a8bd-202da4f1c4a9", "translation" => "المتحف الأثري", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1675
+            ["id" => "e202b495-59b1-4d94-86d3-a88487080600", "translation" => "Public garden", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f17ea381-7b27-4193-808f-ef32cb5f2a8a", "translation" => "Jardin public" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "33690852-3aa2-4caa-9915-1712bee6d0f2", "translation" => "حديقة عامة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1676
+            ["id" => "88bb899a-5470-40da-8976-da7a9c215fff", "translation" => "Ain el Arbaa square", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b88ca6cb-7205-4f4d-a20a-0498b6a6dec0", "translation" => "Placette d'Aïn el Arbaa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1ada05a6-9388-456c-82c3-d6915d9fe647", "translation" => "ساحة عين الأربعاء", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1677
+            ["id" => "ee3d56a6-78c4-4d16-85fb-81aa8afa1b4f", "translation" => "Public garden", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "44148980-0026-4c41-9a22-c7fa48bdf02a", "translation" => "Jardin public" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4ae2b5a6-a7f1-492f-9093-77ecaf9f090c", "translation" => "حديقة عامة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1678
+            ["id" => "d038b4ee-d7c1-4840-965e-3f8ef259dc67", "translation" => "Baba Aroudj statue", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "abaddafe-060b-43dc-a93f-a69fa1580903", "translation" => "Statue Baba Aroudj" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f0d1dc3f-ec0c-499a-84c7-4e0a8698fb4c", "translation" => "تمثال بابا عروج", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1679
+            ["id" => "f46676a4-a872-41a1-91ba-fd0447dc9faa", "translation" => "Public garden", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "fc4ec973-755b-4730-9aa4-bd4b8676b0c9", "translation" => "Jardin public" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8547a137-bd9e-485c-a620-974f6d7fcfdb", "translation" => "حديقة عامة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1680
+            ["id" => "4dd72a9d-ccad-47d6-b368-7510026fd106", "translation" => "Public garden", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "403493f1-edb4-41ff-a875-410a2599c7f7", "translation" => "Jardin public" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6ab35a72-f295-4266-ae9f-f4034a879194", "translation" => "حديقة عامة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1681
+            ["id" => "6b271b22-debf-4b8f-82c9-30847d024916", "translation" => "The Emir Abdelkader statue", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6bf06083-ce87-4d25-8bc6-48deaa0c3c5e", "translation" => "Statue de l’Emir Abdelkader" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "035a1f57-01f6-4851-b43d-64e3f1bce287", "translation" => "تمثال الأمير عبد القادر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1682
+            ["id" => "a11590a8-07bb-4571-a5fb-81380a7fbf36", "translation" => "Little Vichy garden", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "42a96014-b1b1-495d-b7b1-5b5d25e323ae", "translation" => "Jardin Petit Vichy" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ac91b693-1a9b-43a8-9f07-4f553f815d6b", "translation" => "حديقة فيشي الصغير", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1683
+            ["id" => "03e615d5-075f-4d29-a34f-f75e0187d76b", "translation" => "Public garden", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "86a1dba3-bc79-4d3f-8a81-af5f50cbdd9e", "translation" => "Jardin public" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7150bce4-a0cc-4637-ac61-463af47b88b5", "translation" => "حديقة عامة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1684
+            ["id" => "d743a1d4-2a38-42dd-852e-da7229d43885", "translation" => "Hamza Ibn Abd Elmoutalib mosque", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "614e365a-6b94-4835-9199-a6673d053949", "translation" => "Mosquée Hamza Ibn Abd Elmoutalib" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "21f4c555-61cb-4301-b92f-374e18a5f80c", "translation" => "مسجد حمزة بن عبد المطلب", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1685
+            ["id" => "12f7b69f-dc83-4861-bb22-cbdc444ed5cf", "translation" => "Hammam Bouhadjar town hall", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4934d8bc-2707-4491-b2e1-7c060025fc64", "translation" => "Mairie de Hammam Bouhadjar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a295e34b-a4d7-4763-be18-4636aa713d2d", "translation" => "بلدية حمام بوحجر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1686
+            ["id" => "44c3b9a4-0eff-47fc-978e-5f0d5cab64ee", "translation" => "The martyr's memorial", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "58b031f4-6630-4fa9-bc8f-4c6e71972613", "translation" => "Le mémorial du martyr" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9b08c288-5f07-46fa-a4e9-f5b6bf870ffd", "translation" => "مقام الشهيد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1687
+            ["id" => "2fc3cfee-786c-4967-865e-3dfecb8c1a87", "translation" => "The old church", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2f74b0c6-c7a6-493a-a0ac-829193a4cc61", "translation" => "L’ancienne église" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6455342c-7781-4a86-9e7f-8143379419a7", "translation" => "الكنيسة القديمة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1688
+            ["id" => "ece98fc6-316d-42b3-aaab-63e541836434", "translation" => "Agla beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "11e1e3c6-5d88-40f3-9ceb-171c8aaa9446", "translation" => "Plage Agla" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3630dd64-81f0-4b7c-87ba-8dfcfe52efd1", "translation" => "شاطئ آقلة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1689
+            ["id" => "8cc78259-7752-4a98-82e6-4d1b58943ae4", "translation" => "Agla 2 beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5b73cd17-c8bd-42c5-af91-cb8c1ff7179b", "translation" => "Plage Agla 2" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "dee14767-6995-4327-a267-48a158e29dc4", "translation" => "شاطئ آقلة 2", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1690
+            ["id" => "349d8bd9-5eec-42c2-8eca-073e8a26221b", "translation" => "Mkhalled beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6a016991-79da-4c3d-b3d5-8ced02a27f8e", "translation" => "Plage Mkhalled" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "533e886e-e255-47d2-b4f7-c844c5d939ed", "translation" => "شاطئ المخلد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1691
+            ["id" => "66b03bda-e0f1-40dc-a2ce-9a904bb425eb", "translation" => "Tafsout beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b0d243a6-699a-4fef-a660-e41322bcc662", "translation" => "Plage Tafsout" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2257f2f4-a1c3-45a8-9b06-d95a5ca7549c", "translation" => "شاطئ تافسوت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1692
+            ["id" => "37e0ba24-0283-4b3a-b4cd-4833f46879a0", "translation" => "Honaine marina", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "617b7256-6d1c-483c-a63f-ee7b44143498", "translation" => "Port de plaisance de Honaine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "88f9f216-faa9-4861-bb93-acda36d3dc31", "translation" => "ميناء هنين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1693
+            ["id" => "abbdef6b-9269-462a-bcd7-f395cdcd9e7f", "translation" => "Barbadjani beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e8176f2f-a1ce-4d57-b80f-61015ca95e81", "translation" => "Plage Barbadjani" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "64f20126-4049-4023-9e14-7abfce2d6204", "translation" => "شاطئ بربجاني", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1694
+            ["id" => "0819500a-c36d-4b84-99ec-9f566307cae5", "translation" => "Sidna Youchaa beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "62c4dc10-989b-49c4-a582-fc1376cb5697", "translation" => "Plage Sidna Youchaa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "dbaf834c-0313-41ee-be2b-996ae83daa5f", "translation" => "شاطئ سيدنا يوشع", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1695
+            ["id" => "66b63b2b-9de8-4555-806b-612ebe814665", "translation" => "Fishing port", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3ce9e884-ce4a-4865-8cf5-0f6ebdb55706", "translation" => "Port de pêche" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c1f30a97-04e9-4da9-88ca-7265000f0b5e", "translation" => "ميناء الصيد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1696
+            ["id" => "828720c7-5f50-4300-97be-e9fe19ea98ef", "translation" => "Laaricha beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6dd30e81-3340-4394-95ad-8ec1b44c33c7", "translation" => "Plage Laaricha" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6a07cd2f-b88d-478b-a178-dcfc8e3a891f", "translation" => "شاطئ العريشة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1697
+            ["id" => "4c02f26e-914c-4580-af74-790eb9c7c611", "translation" => "Souinia beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a3f91272-d7ce-4546-83d1-fc3123fae5d3", "translation" => "Plage Souinia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "77290112-09f2-4650-b1b4-a2050fe24562", "translation" => "شاطئ السوينية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1698
+            ["id" => "c5a4cbed-ba46-4a40-9580-23271a9150cb", "translation" => "Fishing port", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "761a0ccd-c876-4da5-8bbf-525c1e0324b6", "translation" => "Port de pêche" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8e748e25-15b6-451e-bb61-60cea3d3a1c7", "translation" => "ميناء الصيد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1699
+            ["id" => "be94df9d-ec91-4488-96bd-68daa203b2d2", "translation" => "Oued Abdallah beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8629a483-67f0-4d61-993f-43887031ec20", "translation" => "Plage Oued Abdallah" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "34309c7d-f1a5-41a8-8106-25a96b6913d9", "translation" => "شاطئ واد عبد الله", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1700
+            ["id" => "f8dc4fbf-4e01-4edd-84c8-71c59a8da2e9", "translation" => "Dakhla beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b268b741-2527-4359-8147-1aec4718bc02", "translation" => "Plage Dakhla" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f59ca638-34de-4b70-aeed-6fbd3cd9e86d", "translation" => "شاطئ الدخلة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1701
+            ["id" => "063226eb-6621-4737-ac63-5ea4203ca04c", "translation" => "The three Hamdoun brothers garden", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "21055de3-8409-4c9b-8132-ad36fad50dbf", "translation" => "Jardin des trois frères Hamdoun" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d114c30f-07d6-44c7-ae78-598361a10a17", "translation" => "حديقة الإخوة حمدون الثلاثة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1702
+            ["id" => "0e854af9-7178-4fac-a4f1-808538de8365", "translation" => "The old church", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d3506c90-d588-4b6c-b0bb-8f719469c183", "translation" => "L’ancienne église" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4419e54e-1668-49e7-bca8-5ca595ceeea7", "translation" => "الكنيسة القديمة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1703
+            ["id" => "b8c18759-5f81-4b29-bce7-a0a37c9728a6", "translation" => "Boukhnais beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "63208736-662c-4825-b37c-852225ef27d4", "translation" => "Plage Boukhnaïs" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "06fe6520-6e96-4941-a0ec-56174c33a426", "translation" => "شاطئ بوخنايس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1704
+            ["id" => "99b79950-129c-409f-8303-23fb6d960ba6", "translation" => "Bkhata beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "54fc8402-e570-4185-9f8b-8cff3c7f609d", "translation" => "Plage Bkhata" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c456f2e2-6d94-46ca-9195-ad7b110674e5", "translation" => "شاطئ البخاتة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1705
+            ["id" => "d4bb3baf-9c2d-4be4-aa26-0d1f8ed8abac", "translation" => "The martyrs' square", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "30287f8d-16d8-4c58-a4b8-b347f1d4d244", "translation" => "La place des martyrs" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e79cf51e-5173-4bf1-a5f2-d280b4aa4962", "translation" => "ساحة الشهداء", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1706
+            ["id" => "e992dc8b-57b7-4e4a-8a75-914575250b15", "translation" => "Ouled Benayad beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4413a646-b13b-4735-a2a5-1e0a42e27865", "translation" => "Plage Ouled Benayad" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b929a63f-ca60-4647-9d72-7d64b287d1ec", "translation" => "شاطئ أولاد بن عايد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1707
+            ["id" => "77714c2d-20a1-4dd1-ad15-ad75b6953266", "translation" => "Laayayat beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c093d2a6-f70a-4ec3-833f-53c464b7d071", "translation" => "Plage Laayayat" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "40e05297-a825-48fc-a43e-0fcbb7169f3e", "translation" => "شاطئ العيايط", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1708
+            ["id" => "22ea32c5-5bd6-4569-acaf-579587e040eb", "translation" => "Maarouf beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "cb124e1f-779f-4862-8101-7f556710441d", "translation" => "Plage Maarouf" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "821ae628-169e-4b1d-bf62-ecf4e791ffc9", "translation" => "شاطئ معروف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1709
+            ["id" => "ee892da2-bfcc-46dc-ab78-5e6af0900f30", "translation" => "Bider beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ffc06305-8e8d-4b77-8102-ce5124a5f850", "translation" => "Plage Bider" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4b3a5480-2717-4a22-9c30-4ab054293559", "translation" => "شاطئ بيدر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1710
+            ["id" => "909b2d72-f472-430f-b4e2-6591bb637ec5", "translation" => "El Bayda beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "40111a46-b1d4-4b8a-bd0e-006379078e69", "translation" => "Plage el Bayda" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "cf234207-60dc-4b13-9149-6a2ec739fca8", "translation" => "شاطئ البياضة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1711
+            ["id" => "cbe70269-f6c1-4345-9568-2b416fa09184", "translation" => "Ain Adjroud beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "62ef16ce-5162-4c4a-a26c-bb35b014bf90", "translation" => "Plage Ain Adjroud" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "84ae865a-68da-413b-8d8b-a8f7e758db31", "translation" => "شاطئ عين عجرود", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1712
+            ["id" => "771e0db1-1360-436d-ad64-eb45bb1b75a4", "translation" => "Moscarda 2 beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "347cb33b-b37b-4653-9d0c-bb75c20a2613", "translation" => "Plage Moscarda 2" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d67fee83-0d8a-4636-a409-5131ef50311a", "translation" => "شاطئ موسكاردا 2", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1713
+            ["id" => "4bcc7d5d-5e5a-4d6c-ba4e-b17a9e9e76da", "translation" => "Moscarda 1 beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "83dd17e1-5286-4280-80ba-33e7c4b9afd0", "translation" => "Plage Moscarda 1" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ce13c6db-f2f0-4a03-b495-88d269a9a4c9", "translation" => "شاطئ موسكاردا 1", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1714
+            ["id" => "22919d57-7c7b-4ca1-a556-028378c09f50", "translation" => "Fishing port", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9bd3d6a1-61c3-484a-9152-b4c432160069", "translation" => "Port de pêche" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6e56795a-5d3b-47ef-8ac8-890f7f7e6f75", "translation" => "ميناء الصيد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1715
+            ["id" => "6f43bcbd-3a8b-491e-8448-e8102a7a434a", "translation" => "Marsa Ben Mhidi beach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "40fc7409-4c0e-460e-b7b3-1a5bf64ce116", "translation" => "Plage Marsa Ben Mhidi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9ba7ae12-aaa3-4152-b1f1-c8d11683d4b6", "translation" => "شاطئ مرسى بن مهيدي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1716
+            ["id" => "18dd620f-51f4-4794-b698-bd1916e4d401", "translation" => "Bab el Khemis", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "43af5c6c-2f3a-46f7-9e8f-c5128f17e478", "translation" => "Bab el Khemis" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b8ac0b45-7476-44d1-956d-755cfed2d3b7", "translation" => "باب الخميس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1717
+            ["id" => "d3db30c6-f4a5-4101-bcb4-77647ee8dd32", "translation" => "Museum of islamic calligraphy", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7c09be37-8c37-477c-8a1f-649c376ba9bc", "translation" => "Musée de calligraphie islamique" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2e9f2a46-496d-44ca-b627-b9694d43c864", "translation" => "متحف الخط الإسلامي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1718
+            ["id" => "edccef0a-14df-4762-a9c4-766e40cb6d55", "translation" => "Ahmed Ben Bella statue", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9016d75f-56d7-4922-a28b-6436b0ea99fd", "translation" => "Statue d’Ahmed Ben Bella" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "09597541-5d03-4a5d-a6ca-b66a902b5a07", "translation" => "تمثال أحمد بن بلة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1719
+            ["id" => "9c6948f0-f2b8-4ed2-8470-d3f2b3bd0e7b", "translation" => "Aqua Center", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "80379bdf-9ef2-494b-a308-e9485f1d2bb6", "translation" => "Aqua Center" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4ac899a7-97c6-4ea8-bdf6-4fa43d50c97a", "translation" => "أكوا سنتر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1720
+            ["id" => "d46a3bd6-703b-4e9e-bb3c-41e8c9bab255", "translation" => "Minaret of the old mosque of Agadir", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "281ff43f-ae3f-4fb1-b49c-28ecb5e2055f", "translation" => "Minaret de l’ancienne mosquée d’Agadir" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "21a1d850-87c6-4433-ad80-6ff984e17a0b", "translation" => "مئذنة المسجد القديم أغادير", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1721
+            ["id" => "93d4ac95-0e75-421b-83cb-e588cbe88ad9", "translation" => "La Marguerite equestrian center", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "13f69e56-74f2-4402-9c9d-d89b839af1ba", "translation" => "Centre équestre La Marguerite" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "af0450fb-da27-4b64-8e20-46b5bdfd6da3", "translation" => "نادي الفروسية لا مارغريت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1722
+            ["id" => "37bb07d2-7c87-40f6-844b-339fe1c3b7dd", "translation" => "Arts and Exhibition Center", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "fe9f35d2-63e5-42a0-8e41-fc7f8f7b0361", "translation" => "Centre des Arts et des Expositions" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0f3cdece-e370-42b4-9a14-f486dc278a7d", "translation" => "مركز الفنون والمعارض", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1723
+            ["id" => "ec3a3b43-ce75-4aeb-98bf-2d6a4dcc9b3a", "translation" => "King Jugurtha's garden", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "89f0c0e8-ecbf-42a6-93e0-4f96f310c8e7", "translation" => "Jardin du roi Jugurtha" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b3b4619e-90f1-47a6-82ba-062eb48874b2", "translation" => "حديقة الملك يوغرطة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1724
+            ["id" => "452c5c5d-54da-49da-a94d-2f59e8009df1", "translation" => "Chamber of crafts and trades", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "07dc8041-b79b-414d-b1ff-b5772321ca24", "translation" => "Chambre de l’artisanat et des métiers" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "cf6cb286-2e02-461e-83eb-0f5451599a16", "translation" => "غرفة الصناعة والحرف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1725
+            ["id" => "dfc4de3c-21d7-4c26-9334-391990507e08", "translation" => "Sidi Boumediene mosque", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0565014d-48f3-4f9a-adae-864aadf9e2d8", "translation" => "Mosquée Sidi Boumediene" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4f966555-b3c8-4bd9-907f-3767018ac658", "translation" => "مسجد سيدي بومدين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1726
+            ["id" => "6347c7ba-16f0-4740-b8ff-3fef518746b3", "translation" => "Museum of the mujahid", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "12106d46-0ad0-4e3e-bc96-b44eea923de8", "translation" => "Musée du Moudjahid" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "132b6dad-b4c6-4b9c-83f7-7e83de8361d8", "translation" => "متحف المجاهد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1727
+            ["id" => "198019cd-4e08-43fb-8807-b984cbd63e29", "translation" => "Tlemcen national park", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3cffd199-db58-4253-bef0-00e2bec2ac0a", "translation" => "Parc National de Tlemcen" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9ad5996a-a118-454c-92d9-0e102a94e1ac", "translation" => "الحظيرة الوطنية تلمسان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1728
+            ["id" => "d493c63c-c940-4ce5-be5e-a57b7345cbb4", "translation" => "Sekkak dam", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6022fc5b-3c29-461f-9543-95d1b1393d8d", "translation" => "Barrage Sekkak" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fb44ecf4-b891-4321-a841-eb4e03472e96", "translation" => "سد سكاك", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1729
+            ["id" => "8908cb18-e30c-418b-bc1b-394a2509bf72", "translation" => "Mefrouche dam", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "08ab0f8c-3558-451d-b759-11135a312ea3", "translation" => "Barrage Mefrouche" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6d8b1e78-f019-4e73-8a1a-0c902c66e15c", "translation" => "سد المفروش", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1730
+            ["id" => "8de7f331-1fc0-44d6-9429-bf37c059b1cb", "translation" => "Public garden", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9286495d-ec90-44d6-a9cf-35f82ff8a152", "translation" => "Jardin public" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6fe27103-1c39-4667-b689-c0870c7b1dae", "translation" => "حديقة عامة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1731
+            ["id" => "a2b29171-ff38-4451-a984-03fbfe579030", "translation" => "Monument to the Martyrs", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f88aebd8-6a34-47bd-9e4f-34db17a937ce", "translation" => "Monument aux martyrs" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0bccfe3e-2318-4e26-a09b-388ae48c0c8c", "translation" => "مقام الشهيد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1732
+            ["id" => "87755269-9095-46e6-9c0e-6ceed5f65d17", "translation" => "Boughrara dam", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1c2a704a-1590-450a-bfe4-d1860d896643", "translation" => "Barrage Boughrara" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "aa7aa2b9-2243-463d-8107-feca5e7f0ad4", "translation" => "سد بوغرارة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1733
+            ["id" => "c92222d6-f81a-4793-abb9-f57ac9c45b89", "translation" => "Boughrara thermal resort", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "fb1b542b-6f61-4c19-acd3-1440e7b75792", "translation" => "Station thermale Boughrara" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ebd3a28e-4138-4335-9014-cb49c5f9bb0d", "translation" => "منتجع بوغرارة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1734
+            ["id" => "146ba721-1c79-4d9c-bfc3-4aa42e3bfa74", "translation" => "Hammam Chiguer", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "babcf993-ba24-4219-9828-4abb6a000c67", "translation" => "Hammam Chiguer" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d6f3ff98-bb0b-4604-996b-ed4590a345a9", "translation" => "حمام شيقر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1735
+            ["id" => "2090d37e-945b-46cc-b2c8-c7c28b17b34f", "translation" => "Sidi Abdelli dam", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b81a7127-1ef2-4c29-89a3-106257d69497", "translation" => "Barrage de Sidi Abdelli" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a47af647-0fd5-43f5-82a4-39e541f97a35", "translation" => "سد سيدي العبدلي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1736
+            ["id" => "dbc36afa-d029-439f-b236-e8041362a739", "translation" => "Fortification of Ghar Rouban", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b8325e18-06d7-40d3-9cd3-0ef1367f8c51", "translation" => "Fortification de Ghar Rouban" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "658233c4-bc0e-411e-9a17-b358653c1e8e", "translation" => "تحصين غار روبان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1737
+            ["id" => "7f0d5ce1-9c9e-49db-95f3-3607608e6b16", "translation" => "Beni Bahdel dam", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "276bd478-3296-44b0-9893-167a50f394ad", "translation" => "Barrage de Beni Bahdel" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "28440849-e7ff-46e9-8a27-f1d71c0297cf", "translation" => "سد بني بهدل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1738
+            ["id" => "92dda356-6004-494d-8bbd-2e54960e21d2", "translation" => "Art gallery", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7dda32e2-156f-4932-b7cc-21189c5db480", "translation" => "Galerie d’art" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c342c03c-507e-4a42-956f-b87bcbe35e80", "translation" => "معرض فني", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1739
+            ["id" => "847d3b62-1205-466f-b794-5dfd02c916ae", "translation" => "Queen Dihya statue", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ee9373be-3939-4134-b9eb-2be729b9d102", "translation" => "Statue de la reine Dihya" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "650c346e-fcb2-4936-80fd-1b69834ad4df", "translation" => "تمثال الملكة ديهيا", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1740
+            ["id" => "a3dc9498-5a21-44d4-90cb-4bc5fb7be29c", "translation" => "Public garden", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c8ba5df2-7e5d-4f83-ace3-5f2589c99a31", "translation" => "Jardin public" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "83874e7a-dd6e-403b-ad4c-5c7caf16f466", "translation" => "حديقة عامة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1741
+            ["id" => "e6bdf94f-a52e-4662-a918-a8b81b4051a5", "translation" => "Bab Boubarnos", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "de6df949-755b-4fde-ae16-cda543cfd7e6", "translation" => "Bab Boubarnos" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3e0cf3dd-6efc-4d0b-9344-2baca5299ff4", "translation" => "باب بوبرنوس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1742
+            ["id" => "3d4c1bc7-147d-43ca-a1ff-a4d2f67b83bf", "translation" => "Boukhtouta Hocine garden", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "87cb7632-3143-4818-afec-96287ed952e4", "translation" => "Jardin Boukhtouta Hocine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c920223c-e036-4cd1-a43d-65b7784b2a31", "translation" => "حديقة بوخطوطة حسين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1743
+            ["id" => "7127aa20-57a2-4649-a5a4-62ac6bfd28ef", "translation" => "Statue of Zighoud Youcef ", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f6a4df95-dc2b-40aa-9d7d-69286bad49a9", "translation" => "Statue de Zighoud Youcef" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e439e5ae-f0a0-47a7-bbd4-4df6c25b4015", "translation" => "تمثال زيغود يوسف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1744
+            ["id" => "6e95d19c-a3d6-430d-8c5a-1e4b99e5e906", "translation" => "Statue of Maatoub", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7e78fe86-34e9-436e-bdb9-b9c50d58019e", "translation" => "Statue de Maatoub" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fd067951-7787-4fe7-9aed-b26853e41d74", "translation" => "تمثال معطوب", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1745
+            ["id" => "415b81cd-56da-4c55-8929-61b604a48337", "translation" => "Thais beach ", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3f3b0ce8-fdb5-4f8d-9fb1-0764053e618b", "translation" => "Plage Thaïs" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e98ae8ff-4ab2-436e-9988-99ff5db0c60b", "translation" => "شاطئ طاييس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1746
+            ["id" => "ae370127-7d8e-4621-9a5a-8af7dcc42db4", "translation" => "Public garden ", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "45ddc70b-0954-46cb-ac64-1f629064b899", "translation" => "Jardin public" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3ef6abe8-909b-4b68-b903-9520df077925", "translation" => "حديقة عامة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1747
+            ["id" => "ae9c7494-17f1-4e59-ac3b-1bc13b1cea00", "translation" => "The liberty garden ", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0758dca6-8f6f-44ae-97c9-bc5290677d84", "translation" => "Jardin de la Liberté" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "cb27c83f-a4ea-44ee-a5be-9995da6bdd14", "translation" => "حديقة الحرية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1748
+            ["id" => "b2467b6e-656d-4c82-bc75-1249cecef467", "translation" => "El Nour mosque ", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a1e7cd01-20ac-4f94-b0d4-2db06725b5c1", "translation" => "Mosquée el Nour" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a55a4289-15f7-4849-b1e5-bcaa871298e0", "translation" => "مسجد النور", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1749
+            ["id" => "70b7b8e1-1cf8-4a37-aa19-3001f87681d2", "translation" => "Open air theatre ", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2f7fad14-82d4-41cc-a858-ab83d036ab70", "translation" => "Théâtre de verdure" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1c05ee02-f941-4d8b-abf0-9ffe8132c938", "translation" => "مسرح الهواء الطلق", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1750
+            ["id" => "0b09286b-e4f7-4313-ab5d-c5430b18c711", "translation" => "Cosmos cinema  ", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "84868565-1e2f-4d5c-982a-9a4f5c397b26", "translation" => "Cinéma Cosmos" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d597c58e-8511-43d0-bb3a-47e94baa1d88", "translation" => "سينما كوزموس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+
+            //Wilaya
+            //1
+            ["id" => "820407ef-d957-4c6d-a871-e07797189548", "translation" => "Adrar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "eb8f6ade-b214-4fba-ac7c-e830c5c58365", "translation" => "Adrar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4ea58ed3-c7d7-4a7e-b38e-0d5f14178021", "translation" => "أدرار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //2
+            ["id" => "d2a11220-3606-4fa9-a226-0fff91a16825", "translation" => "Chlef", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e0de6531-c390-4dc1-9730-0d26804b3ca2", "translation" => "Chlef" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "213e1d89-9d5b-4cf9-b1da-17775db06a51", "translation" => "الشلف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //3
+            ["id" => "c800228a-8af8-454a-834e-11df6a424d62", "translation" => "Laghouat", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a25203c2-fa41-4d6e-a2e0-410eb086a5f5", "translation" => "Laghouat" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "027fab72-0942-45d4-abd5-0ae281b4831e", "translation" => "الأغواط", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //4
+            ["id" => "b2e38abf-3809-4f03-9dfa-91737b2e1d3a", "translation" => "Oum El Bouaghi", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "09634ee5-0182-4c6d-80ac-148d1ecf8534", "translation" => "Oum El Bouaghi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "acc4699e-d28b-431b-af71-31472ac17fb7", "translation" => "أم البواقي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //5
+            ["id" => "305f32b1-8f95-4864-bf74-1e86ac7d9a08", "translation" => "Batna", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6315619c-b175-474c-97c5-16541901380d", "translation" => "Batna" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a0950d32-1707-4f71-b5c4-e21b5f3d5633", "translation" => "باتنة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //6
+            ["id" => "5e52506c-e634-4c31-a49d-e685bb727445", "translation" => "Bejaia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8d4c7be2-3661-4724-999c-81710a0add22", "translation" => "Béjaïa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f252c2b1-2f91-4093-a510-8347f34941e0", "translation" => "بجاية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //7
+            ["id" => "40e03322-befc-4b03-ae99-94cbe020b2d5", "translation" => "Biskra", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "46a79f54-913b-466c-ba0e-b04adb1ebd50", "translation" => "Biskra" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "cd2d47f8-46c2-40fd-9808-03a106fcbbf7", "translation" => "بسكرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //8
+            ["id" => "cda439c5-c227-4fcb-afe0-f7d506e64c85", "translation" => "Bechar ", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f1567d78-6c49-4840-a14a-405ea0b770d6", "translation" => "Béchar " , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f850ccf7-0f19-4f40-8595-171370b5d0bc", "translation" => "بشار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //9
+            ["id" => "c4ebd620-d7a6-4636-8a3f-252cf9716b84", "translation" => "Blida", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6b02700d-9906-4318-8e25-5847a23bc153", "translation" => "Blida" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fb6314c0-d18d-4659-b55d-a3e80c28fbdc", "translation" => "البليدة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //10
+            ["id" => "fce002b7-8958-40fa-a3e8-f71da9e9ea64", "translation" => "Bouira", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ad6463f9-82f2-42e1-be54-5d842148d0e4", "translation" => "Bouira" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7a012abe-5025-40ca-9d77-61e99c77a5b7", "translation" => "البويرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //11
+            ["id" => "a9fc8531-f80a-4e37-a176-2f7a273daa30", "translation" => "Tamanrasset", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a82e31b1-ff86-4572-b6e2-5c21d168d518", "translation" => "Tamanrasset" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8661788f-d4f0-4874-8862-8f6f47dc606d", "translation" => "تمنراست", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //12
+            ["id" => "18356600-aeca-45f7-87ce-e1e10c75c779", "translation" => "Tebessa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "97fa3cca-203a-4fe4-9d17-84a2fe7f3f4c", "translation" => "Tébessa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7a668d3b-5b71-425b-9a80-c201cae1f7b5", "translation" => "تبسة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //13
+            ["id" => "b2b28930-2071-4caa-b06e-3e8977fbdf65", "translation" => "Tlemcen", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e66749c6-092f-4eb2-b979-b3b13152fd69", "translation" => "Tlemcen" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "753f29da-9b4e-4ad5-9160-415a494d946a", "translation" => "تلمسان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //14
+            ["id" => "23b060ec-17ba-4167-a1c0-4e8bfe0c5c53", "translation" => "Tiaret", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e90e426a-0e48-47b1-bcb4-99cd182d551d", "translation" => "Tiaret" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "cc3c1fe5-ae68-4321-b3d6-6a77e36350ad", "translation" => "تيارت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //15
+            ["id" => "c13b0959-ae5a-4457-a54d-b1a99c798d0b", "translation" => "Tizi Ouzou", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4979f331-cd30-4927-a2b0-fc3f49deb642", "translation" => "Tizi Ouzou" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "15837df5-61ec-45b1-8a30-d2bddc9c3dd8", "translation" => "تيزي وزو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //16
+            ["id" => "bb2c32fd-897c-4a8f-9bb7-085295b82cf2", "translation" => "Alger", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b46f8c66-825d-422f-8136-b3beb9f593d8", "translation" => "Alger" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fc9462f4-64f9-467c-8fc1-37bf71aa384c", "translation" => "الجزائر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //17
+            ["id" => "6e3fef58-1764-4227-8a62-92c7685982af", "translation" => "Djelfa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6394cc93-9a59-4bc1-bbff-b99c08061e10", "translation" => "Djelfa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4a59aa08-f58a-47e0-a016-b9fd50772af2", "translation" => "الجلفة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //18
+            ["id" => "01b41f88-b498-40aa-9143-038f5f37e903", "translation" => "Jijel", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "839e2990-0502-4486-8e7b-819216cbf3cd", "translation" => "Jijel" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2695e222-799b-4dd9-88ed-838f50a6d8e9", "translation" => "جيجل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //19
+            ["id" => "da8a6192-590c-4192-ac20-9aac0f2cc7e1", "translation" => "Setif", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "818bd05c-8a32-4fdd-961e-5391f84b6115", "translation" => "Sétif" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6820eb7b-aff6-4cb3-8f35-9dc536dbc944", "translation" => "سطيف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //20
+            ["id" => "7ef7fa01-f09f-4f47-8240-f003d6d393e8", "translation" => "Saida", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "56e7d377-2eee-4fe3-ba35-12858a0d3f99", "translation" => "Saïda" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "aed8161b-5d31-48dc-8531-e1ab6d71da17", "translation" => "سعيدة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //21
+            ["id" => "1b604394-e432-49e7-90fb-828d8117e835", "translation" => "Skikda", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8770ab28-98ec-4011-ae99-ac2dd5a4d37b", "translation" => "Skikda" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6d0a8344-3329-4827-a3b3-0d588397ae16", "translation" => "سكيكدة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //22
+            ["id" => "a61afaeb-a562-42f9-915d-e825229b2ed5", "translation" => "Sidi Bel Abbes", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "89c35296-53be-4d7b-bbb4-bc91a18e746d", "translation" => "Sidi Bel Abbès" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b12c0f4f-66d3-4757-afd8-53e7830a0179", "translation" => "سيدي بلعباس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //23
+            ["id" => "13daeaaf-c0bc-4eca-a582-491233ecc7ea", "translation" => "Annaba", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "dfb90894-3727-4a3c-b3f8-8a77d8572e8b", "translation" => "Annaba" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a0021b2a-1298-4d85-a9a3-648c64ea4413", "translation" => "عنابة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //24
+            ["id" => "8e288b23-6083-4981-98ca-5102a8832c30", "translation" => "Guelma", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6bfaad58-1383-4b52-b8c3-37415926e707", "translation" => "Guelma" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a42372d3-8cf5-4a8d-a623-f4eddc2bb73f", "translation" => "قالمة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //25
+            ["id" => "edcb8701-e896-4bdb-a9c9-49e24cad066d", "translation" => "Constantine", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5bef7201-5750-40cb-9a33-d1e4e9fd402c", "translation" => "Constantine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c62f33cf-9423-402f-9245-1c2f9d954605", "translation" => "قسنطينة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //26
+            ["id" => "f4040d54-9c75-4784-b7e6-6b67fd00811a", "translation" => "Medea", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8c1d02dc-d0bf-45f6-8a47-a8d482631612", "translation" => "Médéa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6c3fbf82-f415-4d68-a8d8-dfcf3dff4610", "translation" => "المدية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //27
+            ["id" => "a6e43a3f-0ccf-4039-b2d1-73b448a8fda9", "translation" => "Mostaganem", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5d78b7cb-ad43-48d2-bc59-5b76ac6e3fbd", "translation" => "Mostaganem" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f0269c03-54df-4419-9cc4-b4bbb2431e76", "translation" => "مستغانم", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //28
+            ["id" => "cb4bf797-7dd1-4fa8-909b-29b63ae98f72", "translation" => "M'sila", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "622fcc07-b938-4e97-b9f5-e5e3df49bb50", "translation" => "M'sila" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c69edca7-300e-44f7-acd2-d13ee4174b37", "translation" => "المسيلة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //29
+            ["id" => "41221faa-c783-4bc0-a6be-b829a150ca5c", "translation" => "Mascara", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "15304a84-43ae-4af4-9af0-74c3db322971", "translation" => "Mascara" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bdf26f7d-19c6-415c-9931-36315ab03081", "translation" => "معسكر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //30
+            ["id" => "aa9ae720-e753-4276-b224-64b3b676cfe1", "translation" => "Ouargla", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6391cc67-854e-4e16-858a-c57d284362bf", "translation" => "Ouargla" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9f71ae50-70a6-4dcc-847e-b382f26fd489", "translation" => "ورقلة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //31
+            ["id" => "34361e3e-88c9-4d2b-a7e6-6697cfd5f728", "translation" => "Oran", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "158b8555-9129-4831-9a28-c4cd6638f0c1", "translation" => "Oran" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "64520a0a-2c1d-44ae-9773-324d856367b3", "translation" => "وهران", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //32
+            ["id" => "33d5008f-6edf-4d01-b50f-a8141c714b05", "translation" => "El Bayadh", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "20d85778-7c04-4e51-a187-14b8004b3cd0", "translation" => "El Bayadh" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d6927639-9464-4a13-b502-24498fc45b13", "translation" => "البيض", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //33
+            ["id" => "90527333-c0bc-493f-905e-4319cb08fa4b", "translation" => "illizi", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b6c5e54a-4603-4646-872d-0cc4881bfcf6", "translation" => "illizi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "dc5b36e6-bb23-43a3-a153-145f13c9d119", "translation" => "إليزي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //34
+            ["id" => "1ce8a170-6c35-431e-b6a8-1728a11b26c1", "translation" => "Bordj Bou Arreridj", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "20b6c0e9-3ebe-47cf-8e9b-983058c195c6", "translation" => "Bordj Bou Arreridj" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f0a0b105-6abf-45d4-b87c-017c90c897a1", "translation" => "برج بوعريريج", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //35
+            ["id" => "06eb6d2b-5e6d-47bd-843a-cbd4dbf7acc0", "translation" => "Boumerdes", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "093de43b-0f8f-4efe-ae94-618cae561dc1", "translation" => "Boumerdes" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "512b39f6-799a-4ceb-b2cb-9a164e6117fe", "translation" => "بومرداس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //36
+            ["id" => "3430b44c-de6a-4f67-84fe-388ff1e14e8f", "translation" => "El Tarf", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "bdba5451-5b18-4af4-bd1a-d303fa5fec03", "translation" => "El Tarf" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "86138d55-c214-4ce9-8016-68fe16ac7e38", "translation" => "الطارف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //37
+            ["id" => "3e96a599-7340-4038-97d8-686942294ea6", "translation" => "Tindouf", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8a997291-22f9-486e-8b01-e300b9c32219", "translation" => "Tindouf" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a921d51d-6ad4-4190-9abd-434003d7550d", "translation" => "تندوف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //38
+            ["id" => "7e57842b-97fe-4de0-8531-8f6054415832", "translation" => "Tissemsilt", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a1dcc900-991d-477a-b326-07536812b348", "translation" => "Tissemsilt" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "15fb3a6c-33f3-4a40-86f5-11b6ccbd211f", "translation" => "تيسمسيلت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //39
+            ["id" => "bb83fc50-af23-49d7-a1fe-3f1c1e2cc963", "translation" => "El Oued", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9174f3ef-008b-44b6-8316-1c042f085ba3", "translation" => "El Oued" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8da5c8ba-c965-4ad9-85b0-5f1b783e9f65", "translation" => "الوادي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //40
+            ["id" => "d5cc7df2-a692-4a41-9e17-11a4fbae251c", "translation" => "Khenchela", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "dbd38e9a-0f17-4ee9-922b-18e8651536b5", "translation" => "Khenchela" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ca1eb299-89ab-4147-a2a3-c71780de1086", "translation" => "خنشلة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //41
+            ["id" => "ad480203-be4a-4382-a22e-0bd3eccf5b6f", "translation" => "Souk Ahras", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "117fd6a6-1018-4360-8c69-9b0be0fa1c97", "translation" => "Souk Ahras" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a075a017-e754-4083-a00a-86573e6cafb0", "translation" => "سوق أهراس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //42
+            ["id" => "ce588e24-5d13-40ff-93cb-4a84fcfc122a", "translation" => "Tipaza", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3f7e0600-8069-4e7d-8db3-8d043eba988e", "translation" => "Tipaza" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5a02367c-2027-42f7-a9f6-61df34a09586", "translation" => "تيبازة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //43
+            ["id" => "b2658968-0142-4abc-a8bd-8789d0e4b098", "translation" => "Mila", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c6eac608-5e6c-41e3-9565-3f549f9cc731", "translation" => "Mila" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4fd4446a-df50-4d3b-9f6d-9101ae0a78a9", "translation" => "ميلة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //44
+            ["id" => "809f1497-67c4-4e1c-9aa8-08ed63f948b5", "translation" => "Ain Defla", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "cc080dea-97e3-4ca3-944b-91f7aee6dd09", "translation" => "Aïn Defla" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "994a8b64-9fae-4439-8ece-c92a9098689d", "translation" => "عين الدفلى", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //45
+            ["id" => "b7b064f9-9f56-4a8e-8d06-6eda2234f47a", "translation" => "Naama", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c289c3cc-3616-4a41-8e4f-c013fad6e3b9", "translation" => "Naâma" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "14ee1318-fccd-43dc-a655-92859a1e1c2f", "translation" => "النعامة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //46
+            ["id" => "48d90c65-789d-45c8-820b-800b4c193693", "translation" => "Ain Temouchent", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "79e13f87-0a5f-45a2-b212-92bcf3ab0afd", "translation" => "Aïn Témouchent" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ae5addb6-14be-408d-8479-235c0fe5970f", "translation" => "عين تموشنت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //47
+            ["id" => "8607339c-c66a-4752-b6aa-9bc4f4b941e1", "translation" => "Ghardaia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "39651a16-84c8-41eb-ae0d-1d894ac3251c", "translation" => "Ghardaïa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3f3d1e43-2d75-4de6-b1fe-5c5d2e9d1021", "translation" => "غرداية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //48
+            ["id" => "bf5823b2-2135-4691-a1a3-77079eb5fc47", "translation" => "Relizane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "cdeaceef-58e1-4ab7-826a-5216fbcc4a76", "translation" => "Relizane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f7cd38b8-04e2-4530-9d85-02072587e8d8", "translation" => "غليزان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //49
+            ["id" => "d03fd5d0-7ad1-471b-8841-6e4cc115d20f", "translation" => "Timimoun", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f7b85278-26cf-4fb4-a187-d00720dbf8c5", "translation" => "Timimoun" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "59bc017f-cb5f-46f0-83b8-89895a383f60", "translation" => "تيميمون", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //50
+            ["id" => "90ce1257-a25e-4421-8e24-2e01e961bd04", "translation" => "Bordj Badji Mokhtar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "df83dcc9-86ad-4852-b392-e98096651866", "translation" => "Bordj Badji Mokhtar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0b698fa0-5cc1-49b6-a2fa-2377dd3d317d", "translation" => "برج باجي مختار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //51
+            ["id" => "56ff53b1-d830-452a-95a7-c1311f434e0e", "translation" => "Ouled Djellal", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "fac7aaeb-c1fc-4189-a317-8703591e7d63", "translation" => "Ouled Djellal" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8f51b00c-dd64-4e52-9a57-c05287677a6a", "translation" => "أولاد جلال", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //52
+            ["id" => "cabe749e-32db-4afc-b760-7fbff0bf23af", "translation" => "Beni Abbes", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d5f4eff8-92e0-4c35-8569-e6b4c15535d2", "translation" => "Béni Abbès" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0e8c4def-0bd5-463c-99be-f5ea064a447a", "translation" => "بني عباس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //53
+            ["id" => "96cd9ea5-c7ec-4d8b-8c89-3792f281314d", "translation" => "In Salah", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "25311d48-2a1d-429a-86f9-c67ce7ba2969", "translation" => "In Salah" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3aeafa00-5b4b-4fd7-a92f-964760049559", "translation" => "إن صالح", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //54
+            ["id" => "f76fd560-c145-4a2f-b64d-0c00775db844", "translation" => "In Guezzam", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f8460f53-a8e3-4899-879c-4c6cb5aef703", "translation" => "In Guezzam" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3b754758-efd6-44e2-84f6-9209de2e4d14", "translation" => "إن قزام", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //55
+            ["id" => "f4987dab-88db-4df5-b2c2-a3b38e10262e", "translation" => "Touggourt", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "64d71ea5-6fa7-4ddb-81c4-37cb7201846c", "translation" => "Touggourt" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "924f22d1-6ce9-4053-baf9-4c846901115e", "translation" => "تقرت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //56
+            ["id" => "95132cd4-6005-464d-a3d3-b9e4e9b03520", "translation" => "Djanet", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9afe897a-c3ec-4cb5-ad95-bdb01cc167c8", "translation" => "Djanet" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "759d64d0-fab8-4fc4-90d2-8d2093ef61c2", "translation" => "جانت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //57
+            ["id" => "130276cd-d2ec-4dfb-a7ed-0286cec4dd7e", "translation" => "El M'Ghair", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c05ee82b-929b-4688-a76e-1d2352c0b113", "translation" => "El M'Ghair" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f526cd0f-0cdd-4405-b889-56e50e42937e", "translation" => "المغير", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //58
+            ["id" => "8bf2d878-1de5-4933-aa04-f9dfb4b6a248", "translation" => "El Meniaa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "72171eca-3a98-4407-9623-dc2296f030ac", "translation" => "El Meniaa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4356ae16-bcfa-44d8-a555-e63f481e61e7", "translation" => "المنيعة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+
             //languages
             ["id" => "843c5d5b-1ee2-4c58-b95a-6f76f532317e", "translation" => "english", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
             ["id" => "0302f4e4-50c4-442c-8332-a9f5ea13e9e1", "translation" => "anglais" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
