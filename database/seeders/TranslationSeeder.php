@@ -14,6 +14,7 @@ class TranslationSeeder extends Seeder
     public function run(): void
     {
         $translations = [
+
             //Place
             //1
             ["id" => "000c5d5b-1ee2-4c58-b95a-6f76f532317e", "translation" => "Church of Saint Cyprien", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
@@ -7250,6 +7251,6173 @@ class TranslationSeeder extends Seeder
             ["id" => "72171eca-3a98-4407-9623-dc2296f030ac", "translation" => "El Meniaa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
             ["id" => "4356ae16-bcfa-44d8-a555-e63f481e61e7", "translation" => "المنيعة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
 
+//Communes
+            //1
+            ["id" => "0d22c7b3-87dd-4c09-b7b6-bb09d3ac083c", "translation" => "Adrar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "57026771-f10a-4ae5-bab9-d33a4e92a959", "translation" => "Adrar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d5e750f6-6144-4328-9bcb-d52dded77a6d", "translation" => "أدرار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //2
+            ["id" => "f95669ce-2787-4651-89e6-6752280ee775", "translation" => "Tamest", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "587ed5a5-52d0-4097-b273-c62ff371a0da", "translation" => "Tamest" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a4a509da-3675-49f8-9f09-cf3bc5eccf13", "translation" => "تامست", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //3
+            ["id" => "54d2a0d6-3aa9-4f95-ae18-fadd04556aac", "translation" => "Reggane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "bd141936-b9ba-4f4b-a838-79fccf8a6fa4", "translation" => "Reggane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c4332e6a-0891-447d-96a1-e98e59f0c904", "translation" => "رقان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //4
+            ["id" => "ddf11f12-434b-4f75-a094-b824ddeab500", "translation" => "inzghmir", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3a440ff1-3359-49b7-8a93-75d2cae38103", "translation" => "inzghmir" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f805ec64-193a-4716-a2c1-84b8b8942e13", "translation" => "إن زغمير", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //5
+            ["id" => "c7420237-c00c-4353-b1f8-fe6e4671c154", "translation" => "Tit", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "56a1c9f7-2482-459a-a356-eb1cecbb8de5", "translation" => "Tit" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e03608e9-36bb-44a2-ac5c-90e2aae33bac", "translation" => "تيت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //6
+            ["id" => "c06866bc-0a58-4f63-b79a-66f36f65755c", "translation" => "Tsabit", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2e198210-3e41-4f97-ac43-afc91a9606eb", "translation" => "Tsabit" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f9abbf29-8d2c-42c9-8cdd-3d1dceb1c1c5", "translation" => "تسابيت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //7
+            ["id" => "a1a8628f-8f94-4af1-9a94-649f144a2e47", "translation" => "Zaouiet Kounta", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3122b3cd-be44-4913-9a4a-6c3748abd372", "translation" => "Zaouiet Kounta" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2fba8077-7c85-4170-af46-d58382ea76ea", "translation" => "زاوية كونتة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //8
+            ["id" => "e26b0896-7ef2-45e4-8f18-39076c428a9e", "translation" => "Aoulef", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "434f266a-381b-4949-ad04-b24abf6663bf", "translation" => "Aoulef" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8c59eba9-9a9a-4006-8aed-0c71153eef61", "translation" => "أولف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //9
+            ["id" => "18281a19-2e99-4fab-b4d8-b27d134e9fd7", "translation" => "Tamekten", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "00a026bc-34b3-4ae9-bae7-3703811a1015", "translation" => "Tamekten" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b316287d-d1e2-44b8-bd6f-1985f3e4f31b", "translation" => "تيمقتن", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //10
+            ["id" => "5fd3858f-4a11-4515-af93-8a1898af33a3", "translation" => "Tamantit", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "08657ebf-7d91-4b65-9689-cdfeba965038", "translation" => "Tamantit" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "38bf525a-1a94-49b2-b621-dc42e607fbae", "translation" => "تامنطيت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //11
+            ["id" => "f7a30a7c-1eda-4da8-8847-36c906f8d80d", "translation" => "Fenoughil", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d957659f-2878-4d95-bcd0-044b09829f61", "translation" => "Fenoughil" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3a2d35f9-2369-4e77-b34f-6e4687bfc010", "translation" => "فنوغيل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //12
+            ["id" => "9c3bc147-c9a8-44bf-ab24-1e5677df89a2", "translation" => "Sali", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4334019a-fe74-4ac8-a466-470c9b3cbe94", "translation" => "Sali" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e2a4cdd8-15f1-4d98-a8c3-d0cf35c15b48", "translation" => "سالي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //13
+            ["id" => "3fdeb16c-d0a1-46ae-8021-b193d4e645d6", "translation" => "Akabli", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b80bc20a-bc79-4f16-93e1-484025c6b073", "translation" => "Akabli" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "99936757-8d4d-4b67-a02b-a93df3aee7a1", "translation" => "أقبلي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //14
+            ["id" => "ee4f528b-f2a8-4732-bb4a-4f1aed98ced0", "translation" => "Ouled Ahmed Tammi", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b6a1a02e-4cee-40d3-a9e4-fda18c712af2", "translation" => "Ouled Ahmed Tammi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5773b4c1-bb50-4aaa-b0ab-0d839dcf3d80", "translation" => "أولاد أحمد تيمي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //15
+            ["id" => "f79a1704-e165-417a-9ea0-679fb0ebf38d", "translation" => "Bouda", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7b61fa1a-8d25-435d-9473-953cfad5b359", "translation" => "Bouda" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bc61c46e-788b-4579-a75c-8ac79fb6e9a5", "translation" => "بودة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //16
+            ["id" => "66e5ebb5-7d27-4042-8049-e7ab55449f12", "translation" => "Sebaa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "45471513-a2d1-4457-b173-9dfdd68cb213", "translation" => "Sebaa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6358a664-a5ee-4344-8ec3-2a8aa80872cb", "translation" => "السبع", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //17
+            ["id" => "f067e795-0cfc-461d-b9b3-e8efc2998ebb", "translation" => "Chlef", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9ff318f4-c281-4660-846c-cac2e7273705", "translation" => "Chlef" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a6c8c363-a904-4ef2-8bba-af4416ca6c56", "translation" => "الشلف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //18
+            ["id" => "96c49755-6961-4fd7-a880-f84d881ccf7c", "translation" => "Tenes", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "86c10b52-84e4-42ec-8be3-62f2efdb17eb", "translation" => "Ténès" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "93ce127b-242a-4694-aea5-1d0c3e3787ac", "translation" => "تنس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //19
+            ["id" => "3cd91af8-bc00-4d35-8411-b236b79c4aa5", "translation" => "Benairia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1eb26336-e366-4729-a9fa-f62cdd31dcc2", "translation" => "Bénairia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "dcc0cbb2-f402-41cd-bab1-1fac66695a4e", "translation" => "بنايرية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //20
+            ["id" => "cf255577-0e37-4520-8944-f31721f6195d", "translation" => "El Karimia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "49db096d-7e98-46a3-8be1-5fef2583360e", "translation" => "El Karimia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ad15d5dc-2431-4cb5-ac6e-2048f7ef230e", "translation" => "الكريمية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //21
+            ["id" => "25c44645-212d-47f0-9735-cea539b0095d", "translation" => "Tadjena", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "66883571-a39e-4598-92e9-aaea3ccc0d86", "translation" => "Tadjena" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "58153702-e1b2-40c5-b441-ccbc0ea4087f", "translation" => "تاجنة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //22
+            ["id" => "7d84079a-6f8b-4659-85a3-82ca1ef466e7", "translation" => "Taougrite", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "171aec92-c5be-4f08-99a3-eb7b2f71ef94", "translation" => "Taougrite" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "11d4087b-c5e6-4b6b-8c18-df3dfe4ff539", "translation" => "تاوقريت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //23
+            ["id" => "0eb39cca-469e-4d17-9da7-72ca25f0bb85", "translation" => "Beni Haoua", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5e1df7bb-861f-475d-af22-edef0abc44c4", "translation" => "Beni Haoua" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1848f741-24fe-4b3b-b8af-355dd54399f0", "translation" => "بني حواء", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //24
+            ["id" => "005f82e6-daf7-4c82-beed-72fe852e5345", "translation" => "Sobha", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "351977d8-64bc-4e51-8e0f-1996d1812e38", "translation" => "Sobha" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ebb694d1-154d-4515-be55-8a47657171dd", "translation" => "صبحة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //25
+            ["id" => "1fbf0a40-34b4-4cd7-9641-532358216289", "translation" => "Harchoun", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7e182316-e792-4367-9cd2-5687829d06e4", "translation" => "Harchoun" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d350e772-e418-4135-a5bb-6fa05c01eb05", "translation" => "حرشون", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //26
+            ["id" => "e038a4c3-4733-469e-bc1d-9ba820b57c52", "translation" => "Ouled Fares", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d819ee86-4996-4d2a-b9ce-73e95ac8b78e", "translation" => "Ouled Fares" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a2e6406c-94fe-4260-85d6-dfa28f4de83f", "translation" => "أولاد فارس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //27
+            ["id" => "c665431a-55b3-4497-9049-9adf27202bf5", "translation" => "Sidi Akkacha", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8bee62be-54bf-473e-ac78-cd9d29d843a3", "translation" => "Sidi Akkacha" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "520a3673-3722-47f1-8849-6770ba1d58f2", "translation" => "سيدي عكاشة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //28
+            ["id" => "13de394e-e0ee-43b7-b8fa-4550464f738c", "translation" => "Boukadir", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f8186039-2ed8-4fc4-8110-bf653be7a592", "translation" => "Boukadir" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5227761a-9415-485d-8bb5-79ecfa1d0354", "translation" => "بوقادير", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //29
+            ["id" => "094af992-8d57-4c59-8adc-c7753b0bd40a", "translation" => "Beni Rached", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d026525d-506a-48d7-929d-f897bf2a0b5f", "translation" => "Beni Rached" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "92a67b27-d2f9-45e1-a208-ee2e13d07811", "translation" => "بني راشد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //30
+            ["id" => "7f7d9999-88c8-47b9-91ec-ecf931570b75", "translation" => "Talassa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "06ff277a-3ca3-46b2-b8dc-0cba82348bf5", "translation" => "Talassa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2962d7ee-a5c2-4150-a7e8-046c7c233e49", "translation" => "تلعصة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //31
+            ["id" => "47eefa27-c318-4e5b-bd38-058b187b31e7", "translation" => "Harenfa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ecf39d31-822f-4b8d-930d-ba2a4bb28d9e", "translation" => "Harenfa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "88ff733f-36e6-4376-9c33-956efa9ef6a4", "translation" => "الهرانفة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //32
+            ["id" => "e9295677-c79f-46a9-bbea-275a49458b69", "translation" => "Oued Goussine", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "10b1e031-82f5-45ec-9da9-45a685af8454", "translation" => "Oued Goussine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c6c0440f-d32e-472e-bed6-9576128df2b1", "translation" => "وادى قوسين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //33
+            ["id" => "4def95d1-f0ab-4e7d-8ccd-e51a6c9c6a3a", "translation" => "Dahra", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7d6c768b-ec35-436b-9aaf-f45d5cc4cf47", "translation" => "Dahra" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "509b6c8a-7c30-4968-b9e0-fabd2a5b9a14", "translation" => "الظهرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //34
+            ["id" => "042a0151-d901-448e-9532-c733d16a9428", "translation" => "Ouled Abbes", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6a014b88-6445-44fe-aec3-692197e087f2", "translation" => "Ouled Abbes" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "496b2b0d-2dae-4652-98ad-c717dd6317cf", "translation" => "أولاد عباس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //35
+            ["id" => "99574f38-fe6a-4211-a0c5-0a33b2af2909", "translation" => "Sendjas", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "858908ad-5cf5-4830-827e-644ac62875f3", "translation" => "Sendjas" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e36dd2c4-1aad-4b52-bbe8-064ee656283b", "translation" => "سنجاس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //36
+            ["id" => "5d24e8c7-35c1-4107-a804-49332af7b4aa", "translation" => "Zeboudja", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "df73175c-0f28-4f88-8cc2-ca991f8b84e4", "translation" => "Zeboudja" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a398567c-b587-46c3-b5d0-59573507ee48", "translation" => "الزبوجة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //37
+            ["id" => "9125acb3-56a3-4a7a-bd56-2695770fa866", "translation" => "Oued Sly", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "432cea7b-e76c-41be-8710-5d3f948717be", "translation" => "Oued Sly" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d4e06aa6-0469-4417-a36a-439698ad3cc5", "translation" => "وادي سلي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //38
+            ["id" => "6c9180d0-6189-407c-b936-377cba36cbde", "translation" => "Abou El Hassan", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e0fe6a0d-889c-4588-92bb-325bcd1581ac", "translation" => "Abou El Hassan" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "35f6f558-1912-45da-8c3b-3dd632a5d865", "translation" => "أبو الحسن", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //39
+            ["id" => "b881493a-d496-4d32-acee-9344308c956c", "translation" => "El Marsa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c8ff6ac4-4854-494d-b4bc-d5f44d50b197", "translation" => "El Marsa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6ef542ac-dbd0-4a7f-b2a3-24493932e3ab", "translation" => "المرسى", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //40
+            ["id" => "a1077ac0-48a9-49e4-b478-93e7351b2f18", "translation" => "Chettia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "90f7d9ae-f4df-40a1-9f31-2f264f19bb5e", "translation" => "Chettia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "de0b81d0-f5a0-4ef3-8417-07c62a5dbab3", "translation" => "الشطية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //41
+            ["id" => "e5dd8ef1-5d67-4477-9f0d-fda58c5ebb1a", "translation" => "Sidi Abderrahmane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0ff92aae-f5c0-4f05-91c8-0f40fb1cc1cb", "translation" => "Sidi Abderrahmane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "01ecf250-7c99-443a-a6ab-a91d7ef4a169", "translation" => "سيدي عبد الرحمان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //42
+            ["id" => "9bff9826-9d33-4f55-9adc-4a4deb38f5ba", "translation" => "Moussadek", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "593737e2-289f-4bb4-96e8-b4a759ec383a", "translation" => "Moussadek" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "93538033-0245-438a-a4e8-45b79e4a50c5", "translation" => "مصدق", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //43
+            ["id" => "5d4052f3-a973-430d-a726-2fd764b6f64b", "translation" => "El Hadjadj", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "481f17d7-ecc5-4fc6-b7e2-4fc24cf968ad", "translation" => "El Hadjadj" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "56769186-72d2-436c-8b0c-f5221760807d", "translation" => "الحجاج", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //44
+            ["id" => "a9f77c3b-c340-439a-8874-c39505da02b6", "translation" => "Labiod Medjadja", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2562b592-6793-42bc-8369-99ac1212d567", "translation" => "Labiod Medjadja" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5e2d8a98-fab9-4527-87dd-eca29fa6aae8", "translation" => "الأبيض مجاجة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //45
+            ["id" => "35ee9dfa-247a-4ee7-9cf5-c4535224674b", "translation" => "Oued Fodda", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b14ced1e-695b-434f-ae78-55b220ebc425", "translation" => "Oued Fodda" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "cb48c76a-d514-4248-8a2d-f5b9d39e9e15", "translation" => "وادي الفضة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //46
+            ["id" => "72839f29-4541-44ee-a4a2-7020f045d7c2", "translation" => "Ouled Ben Abdelkader", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d1b3f406-493f-498f-a874-2a51b68f141a", "translation" => "Ouled Ben Abdelkader" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fd80a197-fbd9-469e-bf87-edd26f4adcbd", "translation" => "أولاد بن عبد القادر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //47
+            ["id" => "23cd1bca-2af2-4406-a9c9-1c6e10932945", "translation" => "Bouzeghaia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "863a7539-6e9d-44ca-b006-d545f13f56bd", "translation" => "Bouzeghaia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d372ed28-c2ff-4bda-a8fa-79e9e8bc5196", "translation" => "بوزغاية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //48
+            ["id" => "19609e77-b94a-4672-b120-3ed79d441e50", "translation" => "Ain Merane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "255bbd52-c055-4da7-b6c0-b6b1dbc677a4", "translation" => "Aïn Merane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "908d70a7-5ba4-462f-b83d-bf0b934a872b", "translation" => "عين مران", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //49
+            ["id" => "ef950cd4-0b9e-4399-bbd3-59a549c97c6f", "translation" => "Oum Drou", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "57d4819d-05da-4085-8657-2511229b97bb", "translation" => "Oum Drou" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "51459482-7d65-4467-b644-a8aefbebc3d7", "translation" => "أم الذروع", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //50
+            ["id" => "08d7f6a6-6086-4e07-9f5f-76daeb236422", "translation" => "Breira", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "307d35bc-5d32-4246-8a55-f97a9cea4b49", "translation" => "Breira" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7ba9354b-9abd-4e09-a9cf-b2699242ed2f", "translation" => "بريرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //51
+            ["id" => "caf9bb4c-5162-48ca-9c8f-c305bf08561d", "translation" => "Beni Bouateb", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "eea9dcba-0b4a-45a9-b20e-092b22637613", "translation" => "Beni Bouateb" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6f6e6bb6-43c2-4ee8-b1bd-e4b738c60579", "translation" => "بني بوعتاب", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //52
+            ["id" => "4d4ab475-9083-42be-ae1b-6bb9e40a8747", "translation" => "Laghouat", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6245469f-16c5-46f9-8bfd-d6fa67d31be4", "translation" => "Laghouat" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "dba2b7ab-9f2c-47ec-abbc-bad488f91a5f", "translation" => "الأغواط", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //53
+            ["id" => "d34d76b5-d029-435f-b3c3-6d7c769caaab", "translation" => "Ksar El Hirane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9522c285-7f1d-4c62-8113-33cb02062ff0", "translation" => "Ksar El Hirane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "af9a80a1-deb5-46b4-9b16-7ec3864c35fa", "translation" => "قصر الحيران", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //54
+            ["id" => "b50e0455-da8a-4d82-871f-96b3b797be38", "translation" => "Bennasser Benchohra", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "efc28494-112b-423f-868f-6f342ea4fd8a", "translation" => "Bennasser Benchohra" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2722b5bb-ae22-47aa-be85-2f57f08c36a5", "translation" => "بن ناصر بن شهرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //55
+            ["id" => "6c916fdd-7ba5-4f9c-a061-42d7a2e34b66", "translation" => "Sidi Makhlouf", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "38bea969-eb1a-4416-ba5f-af6dbf448c2a", "translation" => "Sidi Makhlouf" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3f4423e0-4804-49da-8210-017b527e8c0a", "translation" => "سيدي مخلوف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //56
+            ["id" => "e54dd799-fde3-43ba-b137-c01ed2c3f524", "translation" => "Hassi Delaa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "db316e2a-8c7e-4925-8bed-0f97324d3568", "translation" => "Hassi Delaa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "47527ceb-2f4f-4da3-9abc-3bc333b4f08b", "translation" => "حاسي الدلاعة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //57
+            ["id" => "048393ea-9f3c-4320-886b-98308759bd6d", "translation" => "Hassi R'Mel", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f7610b2e-d0d3-4c83-b41a-727309d3de0b", "translation" => "Hassi R'Mel" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ce5b45b4-a577-4bc3-8f69-aaa1d953c109", "translation" => "حاسي الرمل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //58
+            ["id" => "ea7a9173-1782-4e14-a4f0-3480b6533016", "translation" => "Ain Madhi", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4b057eb6-be1e-4b41-89fd-573e9b582358", "translation" => "Aïn Madhi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "aca0f830-102f-4c15-9fd1-d04867b6992f", "translation" => "عين ماضي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //59
+            ["id" => "c945f272-018d-4469-8b98-0c756eab1d0a", "translation" => "Tadjemout", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "61b659de-178e-487d-b627-c515760b1081", "translation" => "Tadjemout" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "40efd2e3-227a-4402-8f8e-a8b9f8186080", "translation" => "تاجموت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //60
+            ["id" => "f7692224-edc6-4c60-9a1c-703eb1c3d187", "translation" => "Kheneg", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "04da1017-be89-4bef-b11d-30d9f2088095", "translation" => "Kheneg" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c848477c-5852-430d-bd61-1db0a08731ce", "translation" => "الخنق", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //61
+            ["id" => "1f104d68-6b81-4529-8959-118f1959bd49", "translation" => "Gueltat Sidi Saad", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6241a2ea-80d0-4b09-84d1-78c59649d4cb", "translation" => "Gueltat Sidi Saad" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "15285bcd-0b12-416f-93d2-46dac985035c", "translation" => "قلتة سيدي سعد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //62
+            ["id" => "95f329cb-df20-4d1e-8e29-ce6ac743f077", "translation" => "Ain Sidi Ali", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "14490f2d-03c0-4d75-88ff-74e38133754c", "translation" => "Aïn Sidi Ali" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7adaff32-e3e9-41e2-a597-20912c1c14b1", "translation" => "عين سيدي علي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //63
+            ["id" => "eb2f3ccb-43c6-4a90-b777-a9a74f3f2c6d", "translation" => "Beidha", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "86e13e2d-8195-4a1f-bbd1-5d8cbdabef49", "translation" => "Beidha" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0cf81fb8-d7c4-4758-87dc-e5e1cb6db25c", "translation" => "البيضاء", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //64
+            ["id" => "571d3bcf-09a5-4395-9587-e5ab572b5d11", "translation" => "Brida", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "954e9eb9-e4df-4cf9-bb31-606f88f7a959", "translation" => "Brida" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "37046664-a48c-4f92-8f6c-33516aaea060", "translation" => "بريدة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //65
+            ["id" => "e9c0f2ef-a8a0-4d15-bb1e-0b37a5c05d20", "translation" => "El Ghicha", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4dd46c3a-e1c9-4657-a6d5-53890d651172", "translation" => "El Ghicha" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5f832046-bda4-4a5b-beda-55639f24ce7d", "translation" => "الغيشة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //66
+            ["id" => "03f19893-7a5a-4a64-85cc-18325664c654", "translation" => "Hadj Mechri", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "def43700-f073-462e-842c-b55dcaf43d14", "translation" => "Hadj Mechri" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3f4c34e3-4948-4e3d-b8d5-fa6248dda8d2", "translation" => "الحاج المشري", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //67
+            ["id" => "9c26b198-dff2-447d-adfc-ba1ddb3af5f2", "translation" => "Sebgag", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "75391bec-3774-4eae-b50c-3c0d4645a6f8", "translation" => "Sebgag" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "47f8b054-d2f0-4bac-b864-c8c696c41364", "translation" => "سبقاق", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //68
+            ["id" => "7e8e1370-f77f-4594-b769-6e9a3dc0bf98", "translation" => "Taouiala", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2107fc55-5a74-40cd-a8ee-d985308d5c9e", "translation" => "Taouiala" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "dce7a425-ed4d-4918-bb5d-e070626844a9", "translation" => "تاويالة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //69
+            ["id" => "9702d1b8-8652-426f-9f1d-803e35ad66a7", "translation" => "Tadjrouna", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "342c9fb4-4e45-4e7d-8080-97bf0bf02bb5", "translation" => "Tadjrouna" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4f8272ce-6769-4f29-ab57-210c60f99da3", "translation" => "تاجرونة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //70
+            ["id" => "eb0ce586-07e1-428b-8105-09c86a353875", "translation" => "Aflou", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ab8f5ef5-bff3-4335-b17a-916e2e5869e3", "translation" => "Aflou" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9c835875-d0fd-4f38-80b8-8e963ff065d0", "translation" => "أفلو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //71
+            ["id" => "1dd98eb8-302b-4dd9-adf0-68f2c812ec93", "translation" => "El Assafia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c74c534e-65e5-490f-a002-1d3c82818a94", "translation" => "El Assafia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c82bfdbd-59b8-48d1-a9b6-ee5b02a7989f", "translation" => "العسافية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //72
+            ["id" => "6af2e175-c045-4a77-9b1d-a360949e3da1", "translation" => "Oued Morra", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a2455c7f-2d1e-41f6-85fa-fbbea73aa8d0", "translation" => "Oued Morra" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2756b147-51fd-440d-8962-ef4b25447960", "translation" => "وادي مرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //73
+            ["id" => "258c0687-2fe2-416a-a3a0-f83bf169f48c", "translation" => "Oued M'Zi", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c9b2248b-89df-4c32-9642-754a7fda76ff", "translation" => "Oued M'Zi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c7c061e5-7ecf-40fb-bd34-a930ea916018", "translation" => "وادي مزي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //74
+            ["id" => "eacfb25a-606b-470a-b18e-17e83832f053", "translation" => "El Houaita", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "97c9c8a3-5bc2-4e05-b65d-763224af3578", "translation" => "El Houaita" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "84028373-d123-446a-bda0-e8dfcda184a5", "translation" => "الحويطة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //75
+            ["id" => "3563bfd5-f1d4-4f79-a65e-30c74d9c1319", "translation" => "Sidi Bouzid", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f9924d89-68f5-49f8-9f07-36d42b2df3ff", "translation" => "Sidi Bouzid" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fe382611-88f1-4b9d-9717-3e0c7a204af7", "translation" => "سيدي بوزيد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //76
+            ["id" => "890ef5c4-23fe-4357-9388-85b3b64679c1", "translation" => "Oum El Bouaghi", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3ab4360b-0204-4fb8-9425-9f968ed025ef", "translation" => "Oum El Bouaghi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9cb57334-6764-4e6a-aaf2-8f43ed4e26d0", "translation" => "أم البواقي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //77
+            ["id" => "02f6daf3-3c52-460c-b40a-2074c714fc46", "translation" => "Ain Beida", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a65bfc73-1ca7-4765-82bd-ddee96a43e2f", "translation" => "Aïn Beïda" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "38c7b668-01c3-40e0-94aa-94c9665fd7f4", "translation" => "عين البيضاء", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //78
+            ["id" => "76ffcbe4-b12e-4a51-896d-9c94179b76f8", "translation" => "Ain M'lila", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "819d9261-d812-4188-85df-e4580eec0cc6", "translation" => "Aïn M'lila" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "59df1924-7db2-4041-80be-abaaad17458c", "translation" => "عين مليلة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //79
+            ["id" => "c2625b67-d71f-40af-b683-3a1f8f83ca00", "translation" => "Behir Chergui", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6daa2dbb-6bbd-4c03-a370-f5f11e1c89c3", "translation" => "Behir Chergui" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "eaf036d2-4f20-402b-b4d5-d7a7e13fee81", "translation" => "بحير شرقي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //80
+            ["id" => "f193c5dd-efee-48cd-92e9-c27f03a7477a", "translation" => "El Amiria", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "71526719-c076-40e3-aac8-c1aec26801db", "translation" => "El Amiria" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e11b09a1-b46e-4d0f-8bc6-c5407f1e78f9", "translation" => "العامرية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //81
+            ["id" => "bcf0324d-b587-4086-ac14-b9781ec8f181", "translation" => "Sigus", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "beee3578-a83c-485a-92bd-75e4a09bd17e", "translation" => "Sigus" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1322a568-58b1-4732-ba58-00dcd78212e1", "translation" => "سيقوس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //82
+            ["id" => "d3096cc3-2a81-41dd-9e9e-71a0e7cd2691", "translation" => "El Belala", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e9067dd9-7702-4245-9397-33e1d38282d9", "translation" => "El Belala" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6d788ab4-da5f-4ebd-aa2f-7a42e2a722c7", "translation" => "البلالة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //83
+            ["id" => "51140291-1f84-4cb3-acb7-d613408b4dd9", "translation" => "Ain Babouche", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b50fdec3-9f8f-44ff-ad6c-05d02ea1f3af", "translation" => "Aïn Babouche" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1e0280b7-d924-40ff-a92e-70bf262a4b2d", "translation" => "عين بابوش", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //84
+            ["id" => "3089df7d-62e9-469b-8185-62986f0773f0", "translation" => "Berriche", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e7889e73-2ef7-4803-a61d-731b8b08e77c", "translation" => "Berriche" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "94c8cab3-0700-4f2d-81e0-d2c7f07ffd43", "translation" => "بريش", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //85
+            ["id" => "9e1968e3-a330-4023-897e-4bba11abad02", "translation" => "Ouled Hamla", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9a2103d8-5804-4cde-996b-af1f8f85ba72", "translation" => "Ouled Hamla" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ecd7e4c9-e244-4e29-9f61-4146b0f290d5", "translation" => "أولاد حملة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //86
+            ["id" => "773ce0d2-f90d-4118-a41b-f72ad70c7801", "translation" => "Dhalaa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e16dd01c-fb26-4406-b61a-257a2fc65f57", "translation" => "Dhalaa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "408e3198-fcdc-4f1e-ad2f-6a9b43787a2d", "translation" => "الضلعة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //87
+            ["id" => "28a15e8a-687f-4c7f-95d7-722a90a63458", "translation" => "Ain Kercha", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "969e8274-1df5-4681-b768-bf6d01d3e37e", "translation" => "Aïn Kercha" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9837c6d7-e0b9-46ba-aa3f-32454ba48e58", "translation" => "عين كرشة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //88
+            ["id" => "4efdfcbc-192d-4d80-a3ad-2a03f85afae2", "translation" => "Hanchir Toumghani", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ea783c4d-375b-4b73-a7be-78e07cca57ca", "translation" => "Hanchir Toumghani" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3ac24b3d-0353-4ef7-bc70-ab8e55d9a0e7", "translation" => "هنشير تومغني", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //89
+            ["id" => "9fc777a6-a49a-4595-b00b-c918a2dce2b7", "translation" => "El Djazia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "60d3fc44-2f23-4241-9dc0-fe2fca9425b2", "translation" => "El Djazia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "622942ec-9ab1-431c-9e87-ec88c16b034a", "translation" => "الجازية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //90
+            ["id" => "08fae911-99b9-4b55-88a7-3ff839748b26", "translation" => "Ain Diss", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "094f68c6-89a1-47a6-95d4-12418406a1eb", "translation" => "Aïn Diss" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "98eeda7e-3112-4b63-ae9f-a5506845222d", "translation" => "عين الديس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //91
+            ["id" => "9bdff089-6096-4549-b574-4db0f153cd2b", "translation" => "Fkirina", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "81baa53a-67f6-4093-a4e0-dd2e73a87a1a", "translation" => "Fkirina" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c868039d-3a7a-4f24-ac5c-f80cd5ce5ebb", "translation" => "فكرينة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //92
+            ["id" => "8aab108f-4909-4454-9f27-8918a3562629", "translation" => "Souk Naamane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3c760af3-5acd-4e3a-b137-97f577e2ac80", "translation" => "Souk Naamane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "17312cfc-1ced-469b-a4c6-3233f5b5f0f5", "translation" => "سوق نعمان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //93
+            ["id" => "5c88f5a9-b467-43bb-a325-c1ff43e0f685", "translation" => "Zorg", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "be345fd5-3740-4e9c-99f8-b242c5121e77", "translation" => "Zorg" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f4ba1191-85f5-45d2-9e83-7d0357d30b40", "translation" => "الزرق", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //94
+            ["id" => "b7240bc2-411e-4c0e-816c-e42bcf05fc1f", "translation" => "El Fedjoudj Boughrara Saoudi", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f4975153-dbad-4d22-aad7-9f3685e24435", "translation" => "El Fedjoudj Boughrara Saoudi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "47d2eba1-63ad-4d66-9573-c5244ceeb507", "translation" => "الفجوج بوغرارة سعودي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //95
+            ["id" => "a965a9c1-478f-4c6d-9580-82692720dab6", "translation" => "Ouled Zouai", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "04fa3d71-05d9-4f2a-ba5d-7ba70e06dc70", "translation" => "Ouled Zouaï" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e10522a6-410e-4c3d-bcb0-6abb86f9c1d6", "translation" => "أولاد زواي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //96
+            ["id" => "4d9eeed4-1dd5-4d90-9421-8bc8935a9da0", "translation" => "Bir Chouhada", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "34a50512-692a-485d-b587-17bf90686ace", "translation" => "Bir Chouhada" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "53dec305-0bd5-440c-b93f-7ad238c6e5b5", "translation" => "بئر الشهداء", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //97
+            ["id" => "f590c56c-a84d-4571-8686-e363845654db", "translation" => "Ksar Sbahi", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "71f1a03b-2a31-4acb-ad1c-acd5941eada9", "translation" => "Ksar Sbahi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1634a0a0-d767-4d33-8955-5c48bb3ad001", "translation" => "قصر صباحي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //98
+            ["id" => "4a7faa2c-5e89-4182-994d-0bfacddde8e7", "translation" => "Oued Nini", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ae56f773-a2a5-464c-a722-6c74a191aa1b", "translation" => "Oued Nini" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "92c6d7fd-d6be-4409-b2fb-d2a5a8ae533f", "translation" => "وادي نيني", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //99
+            ["id" => "25d88fe3-123e-4c75-b928-84126cc1600b", "translation" => "Meskiana", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8b18335b-a321-4c49-8752-fb02280b9fd4", "translation" => "Meskiana" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f5b3afe4-936c-4b67-8f49-ebe607b784aa", "translation" => "مسكيانة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //100
+            ["id" => "79994826-c1d0-46a4-a137-e7be2746909d", "translation" => "Ain Fakroun", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5a290755-3af0-44fb-942f-0f0ebde41789", "translation" => "Aïn Fakroun" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "288a21c2-d2ff-4652-a680-8b1f90d9667a", "translation" => "عين فكرون", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //101
+            ["id" => "61a2ce58-e745-42f8-9595-3e4334e2c2da", "translation" => "Rahia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "68deacf8-2682-402f-9fa0-1152922b7d19", "translation" => "Rahia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2beaaed0-bf38-4c03-ad58-0157c10a8c74", "translation" => "الراحية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //102
+            ["id" => "d54326a4-394d-4ba3-b75a-56d6922e017a", "translation" => "Ain Zitoun", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2b86091d-6ba8-4791-915b-a59180f4b36a", "translation" => "Aïn Zitoun" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6dc284f7-a43f-46c4-9a61-e50c5190b496", "translation" => "عين الزيتون", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //103
+            ["id" => "5f01faef-50b6-444f-a486-67147372ec68", "translation" => "Ouled Gacem", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "af67c2c4-7bf0-4e28-a6be-cbca12aef5af", "translation" => "Ouled Gacem" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c55d04a5-400f-4bf9-b557-8592b1e91e32", "translation" => "أولاد قاسم", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //104
+            ["id" => "49580b3e-7e36-4a9a-a5fd-008236b1158f", "translation" => "El Harmilia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "da2bee06-2538-4676-a7f9-5c858147c895", "translation" => "El Harmilia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "de24a3d2-1387-41f6-90c8-7f4facd1204e", "translation" => "الحرميلية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //105
+            ["id" => "23dfe4c4-e048-4028-93cf-3b6d9cec2cbf", "translation" => "Batna", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "900f8006-7857-4dd2-868c-6af033f6795a", "translation" => "Batna" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4fd72e6f-202e-4b2e-bc93-11968c1ff3bc", "translation" => "باتنة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //106
+            ["id" => "f2c9cc11-aa73-44de-a4d3-45cd02ca00bf", "translation" => "Ghassira", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "244edd16-3914-4e1f-8299-3d057fec7e7d", "translation" => "Ghassira" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "93dc961f-0fe4-4d94-ab19-544950b2cd21", "translation" => "غسيرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //107
+            ["id" => "062024fa-a9a1-47d6-bed1-345cf2778b36", "translation" => "Maafa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3b966be5-00a5-4575-9902-ac93be392680", "translation" => "Maafa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e44e817c-46b3-45d1-a198-b9699c3a889b", "translation" => "معافة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //108
+            ["id" => "fd216836-86a6-4dca-887d-d416919f2f38", "translation" => "Merouana", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ea84ded2-e999-4f6d-a83a-9d44868a175e", "translation" => "Merouana" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "72cb070a-b04f-4bff-a0a3-c88e60cbb110", "translation" => "مروانة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //109
+            ["id" => "fc5c9735-1b17-4b6c-95ba-91df631d5b43", "translation" => "Seriana", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a624346f-3991-4e07-938b-711973fb7f13", "translation" => "Seriana" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f77a4609-1882-44b1-b37c-a74d35c0ab51", "translation" => "سريانة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //110
+            ["id" => "359b8f26-6df6-42d4-9093-5b66c78e0ac2", "translation" => "Menaa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c18d2181-6ff6-467a-8c36-44a5853e1ca1", "translation" => "Menaa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "526a048e-201c-4a1b-b909-ac05bf62bef6", "translation" => "منعة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //111
+            ["id" => "03b7961e-5a51-4c9b-b302-bf02ac2e0129", "translation" => "El Madher", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "14c531b8-4fdb-40e6-ae1a-3986ebcff562", "translation" => "El Madher" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "246b67b5-92e7-4a59-9b91-a168b6fabe3f", "translation" => "المعذر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //112
+            ["id" => "dc31ab02-8b66-499e-a4d3-4acf03cbf277", "translation" => "Tazoult", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5fa9c418-065e-43c2-a544-4d1d1ff8d9ec", "translation" => "Tazoult" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7e7fea12-6b85-4837-9825-5a7b83d96ba1", "translation" => "تازولت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //113
+            ["id" => "776a6a22-fdc8-45fd-8b30-50b47c99a240", "translation" => "N'Gaous", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "83e5142f-a9b3-4c32-9f13-bb1012b074f8", "translation" => "N'Gaous" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3b37605b-e3e7-4cc6-a818-359e03d9db10", "translation" => "نقاوس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //114
+            ["id" => "8df58592-8949-4655-ba47-6b9ede1d6312", "translation" => "Guigba", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5a9bd96c-5833-4614-8f5d-c76712db4560", "translation" => "Guigba" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "12c4bb97-a489-4d77-96b4-e3da6824191e", "translation" => "القيقبة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //115
+            ["id" => "e66f59b2-d1cc-43a9-ab1c-62f40eb022b8", "translation" => "Inoughissen", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1b0cb16a-90c3-4829-a689-f26ccd55ffa6", "translation" => "Inoughissen" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3eb6d6db-c8ca-4605-9353-613c9a156e11", "translation" => "إينوغيسن", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //116
+            ["id" => "20b6807a-2395-48b8-9fa1-1f4d5a2fd4e3", "translation" => "Ouyoun El Assafir", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "df7efaa6-477a-46c3-a2ce-a9569bc84e02", "translation" => "Ouyoun El Assafir" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c334ea1c-8625-40bd-8a71-931707aba4b4", "translation" => "عيون العصافير", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //117
+            ["id" => "eee3e343-201a-470a-9eb0-be66f11f3ebf", "translation" => "Djerma", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "781e5f68-38dd-420c-9b4a-849b5f6eb104", "translation" => "Djerma" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4dd63075-973f-44d5-965b-fc1179431e35", "translation" => "جرمة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //118
+            ["id" => "b0ce8462-bdf7-453b-a7ef-45d532c658bd", "translation" => "Bitam", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e53cd376-9bf1-4af1-a47d-5b5206ec1d18", "translation" => "Bitam" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3cef1fe8-ce13-45fa-b40f-a54d8eff7e8a", "translation" => "بيطام", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //119
+            ["id" => "0c0cad17-a880-4dbb-b938-2230a85a863b", "translation" => "Abdelkader Azil", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "03eff492-2f22-4d2e-b4c1-9e1dd0f9863e", "translation" => "Abdelkader Azil" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9bf0f8db-0467-4bf3-bec6-2d75c85b44b8", "translation" => "عزيل عبد القادر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //120
+            ["id" => "0131a326-8212-40ea-9385-67fcb7e1a699", "translation" => "Arris", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9224b6ef-6c83-4b6e-8221-516e389bc7db", "translation" => "Arris" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "82776178-edfa-4018-85aa-c444db8d501f", "translation" => "آريس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //121
+            ["id" => "ed6258e8-33fa-429d-8a25-b4abc3f6b8bc", "translation" => "Kimmel", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ec2645af-fd94-4c96-8791-27bd49ad8588", "translation" => "Kimmel" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2f6c0f49-136d-40fe-8621-70fce2cdf5e5", "translation" => "كيمل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //122
+            ["id" => "f62b456d-b8e6-4789-a8b8-4a1b8c84454e", "translation" => "Tilatou", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "77fd5894-e79e-4a0b-8ca0-23352abb0a56", "translation" => "Tilatou" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0c55c5ae-5469-4b2b-9326-c406cf9fb0fc", "translation" => "تيلاطو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //123
+            ["id" => "4f8c1294-9038-4b81-95e9-5106e6399aa5", "translation" => "Ain Djasser", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "db524532-81fa-4163-8787-e4c8a46b9a41", "translation" => "Aïn Djasser" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "26eec9c3-2a4a-4a5d-84a7-06b142c72005", "translation" => "عين جاسر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //124
+            ["id" => "8b45ba92-8095-43d4-ae0b-89e4e9dd8739", "translation" => "Ouled Sellam", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e02b82e4-7805-4c3e-ba4a-46940093d422", "translation" => "Ouled Sellam" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bb2f3b06-06c8-4e29-8479-a0bc30ec1f06", "translation" => "أولاد سلام", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //125
+            ["id" => "db24bd63-a1db-4cdd-8df5-67743082f56e", "translation" => "Tigherghar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7bd1286f-5cbf-40f0-a539-c70501aec754", "translation" => "Tigherghar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d02cb602-793c-4916-9d68-192a63545fb5", "translation" => "تيغرغار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //126
+            ["id" => "abf56f50-c3f0-458b-a1c5-282ea57bb6cd", "translation" => "Ain Yagout", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ac4a79b8-da51-484b-9517-bd7ac62c59d1", "translation" => "Aïn Yagout" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f14265f0-5a27-482c-a8e4-6beb18a0a432", "translation" => "عين ياقوت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //127
+            ["id" => "9dca3536-412d-4276-afdc-d739866baae6", "translation" => "Sefiane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a2db5e3b-6d2b-41d0-a878-b8c23aa178cf", "translation" => "Sefiane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "636ac69b-4896-4413-a56a-b40172f0c074", "translation" => "سفيان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //128
+            ["id" => "7b9d26d2-44f2-4559-8775-ff6d56447055", "translation" => "Fesdis", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5831dda5-dc28-44de-be6d-a7f5c872823e", "translation" => "Fesdis" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e6d39855-de47-46c0-b9c6-659d9bdcf3f5", "translation" => "فسديس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //129
+            ["id" => "7ef43a31-05c0-4182-b9f2-4091e4613a59", "translation" => "Rahbat", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e0adf0c8-075e-4c7a-9dc7-a105000933f3", "translation" => "Rahbat" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "44b3012c-88a1-4153-90e3-7a20a0752e5d", "translation" => "الرحبات", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //130
+            ["id" => "4eb083ff-919e-4540-8d8d-d4b46b3239fc", "translation" => "Tighanimine", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "486deae3-af74-4051-9d7e-a6d80ca7fd83", "translation" => "Tighanimine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "47d2fdd9-fcc0-4007-9d8c-cf4c977abe9f", "translation" => "تيغانمين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //131
+            ["id" => "a18148e7-b76a-44d0-9ee9-0eda5b227d6f", "translation" => "Lemsane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2b7e3015-eb7a-4f57-aa36-f954a30b4787", "translation" => "Lemsane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1ae9d242-7d30-4a95-956d-e65562f4e12f", "translation" => "لمسان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //132
+            ["id" => "21478bb1-9d41-4c8c-bb56-87125c61ce6e", "translation" => "Ksar Bellezma", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "00cc939c-fb97-41d9-b194-71c117292b3c", "translation" => "Ksar Bellezma" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bf9218f2-d94d-444a-ac10-0151ca4dc1bd", "translation" => "قصر بلزمة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //133
+            ["id" => "f744a330-ac09-419c-8991-940cf794788a", "translation" => "Seggana", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c120dd55-713a-4c70-baa6-bd1c50beb851", "translation" => "Seggana" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bdb7c914-e12b-468c-9677-daed8d6a2359", "translation" => "سقانة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //134
+            ["id" => "23f955fa-c702-4698-ad6f-6a6cd12b5591", "translation" => "Ichmoul", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "95a42650-6e53-48a7-b8a5-20e8e82be01d", "translation" => "Ichmoul" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "76f9ac42-9d53-42ed-baff-e3e986cc309f", "translation" => "إشمول", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //135
+            ["id" => "5fe031bc-3efe-498d-8fbe-9fcd5a3cdd50", "translation" => "Foum Toub", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4cef8a2c-e7b3-45b1-a8c0-df8abd504e1d", "translation" => "Foum Toub" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "435afa02-0422-47d1-86d0-97c3d0cc45a1", "translation" => "فم الطوب", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //136
+            ["id" => "45788648-3323-4cd3-a707-b13bf43a52dc", "translation" => "Ben Foudhala El Hakania", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "85244e8b-325e-48b4-9dcd-afa19d82776e", "translation" => "Ben Foudhala El Hakania" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "45d510ed-02de-4d3a-931d-832d4d3d5556", "translation" => "بني فضالة الحقانية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //137
+            ["id" => "82549c49-f620-4536-8f2f-1561979315fe", "translation" => "Oued El Ma", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "31b48eb0-8073-402a-a6e2-02b94fa29ffb", "translation" => "Oued El Ma" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "707169f2-6eda-4883-b013-76605882eab1", "translation" => "وادي الماء", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //138
+            ["id" => "b2ed5665-06a3-43d2-a119-6c0a9e651965", "translation" => "Talkhamt", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c855bd61-8c13-4623-8181-387b31e63127", "translation" => "Talkhamt" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d34ad377-12c4-4ba6-84fd-fbfda1fa39a3", "translation" => "تالخمت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //139
+            ["id" => "744ff195-31c3-430f-910f-b88294b56287", "translation" => "Bouzina", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6ae3825c-01e8-4620-adb9-2cf5d212c973", "translation" => "Bouzina" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e44097f3-c2d3-4225-a350-4922f0689ee8", "translation" => "بوزينة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //140
+            ["id" => "b1fd3075-7f6a-4120-9fc1-08e75a95b641", "translation" => "Chemora", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a8d6c48f-b1a1-4570-a8e9-2c6d3f2c27bb", "translation" => "Chemora" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ab3b7d0e-46de-4032-9901-45deed6ee9dd", "translation" => "الشمرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //141
+            ["id" => "b27b2356-dbf0-46c9-91d4-554ec8f422a8", "translation" => "Oued Chaaba", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c7ce925b-fea1-4b08-8ec6-f78e56f10d41", "translation" => "Oued Chaaba" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d66b1fad-d823-4997-8b11-bda7d7449483", "translation" => "وادي الشعبة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //142
+            ["id" => "a4b1a2fb-0e6a-47ea-89a7-fd345c9ff7a8", "translation" => "Taxlent", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "26816ca6-2360-4c97-b63f-9dcc646c8370", "translation" => "Taxlent" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e50500d1-cb0d-4237-a424-f60effa238ed", "translation" => "تاكسلانت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //143
+            ["id" => "107ae0f4-fe04-454c-a125-5788795a3c18", "translation" => "Gosbat", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8cc91f9d-78b8-4227-b299-937925bd4533", "translation" => "Gosbat" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "dda41191-1856-4542-af0b-584fc655b6a3", "translation" => "القصبات", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //144
+            ["id" => "d42a929d-ed7b-4554-b9cd-cd19a3d2588d", "translation" => "Ouled Aouf", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2e715ad2-4b2e-4839-911e-54d5548e296f", "translation" => "Ouled Aouf" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6e0fc8ad-879f-42b7-b4a2-3dbb977890d3", "translation" => "أولاد عوف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //145
+            ["id" => "970eb0c8-dc4e-4aac-a5ca-b3fce12bc4e5", "translation" => "Boumagueur", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "31864a80-2348-4ce0-a22c-430925e95c6f", "translation" => "Boumagueur" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5addad2b-4db9-4411-a7de-93fee6708c24", "translation" => "بومقر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //146
+            ["id" => "2f2489c0-d0a7-4ab9-901e-3fe56c99e1b2", "translation" => "Barika", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d030a63b-2ec9-40ae-a1c2-016acf3df85a", "translation" => "Barika" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "846b66c7-1a62-4393-91c4-796b53e8d7cf", "translation" => "بريكة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //147
+            ["id" => "a914687c-cb2f-4780-86ef-8de6d1c671d7", "translation" => "Djezar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "88bb7ecc-f122-4616-abed-1c0268c2093d", "translation" => "Djezar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b7435d55-85f0-4051-8fb8-84c3c8f149b5", "translation" => "الجزار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //148
+            ["id" => "3bced098-a05d-4afe-894b-348416df82d6", "translation" => "T'Kout", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "af91b8ee-db8b-4141-960d-896555d9d236", "translation" => "T'Kout" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e71dc5c2-bac0-42c4-a438-f298b2c5daa4", "translation" => "تكوت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //149
+            ["id" => "60544582-15be-40bc-a32d-4b4ed7e74c3b", "translation" => "Ain Touta", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "80795cdc-9205-437e-ada7-9558013cb94f", "translation" => "Aïn Touta" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3162aeb2-98ad-4ff1-b933-48d9635f48b7", "translation" => "عين التوتة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //150
+            ["id" => "5dab25ff-dc5c-4ea7-b49c-90de5870df2b", "translation" => "Hidoussa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1d444b35-be44-46e1-b3c3-7c1a04920dd6", "translation" => "Hidoussa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fc26ef08-ee35-4713-9f8b-d8c89ea2da1f", "translation" => "حيدوسة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //151
+            ["id" => "fe538254-509c-4ce6-a4dc-511afd6b83f3", "translation" => "Teniet El Abed", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "dfffde1b-c9d4-42a3-ab0e-e9d132ceb243", "translation" => "Teniet El Abed" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b57d8d4d-2a04-4f43-8b4f-18c639751b0e", "translation" => "ثنية العابد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //152
+            ["id" => "b5051e1a-d9a6-478a-b5fc-f453fca85802", "translation" => "Oued Taga", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4a169bfe-90df-49f8-a788-f2e3f0af0940", "translation" => "Oued Taga" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6a244940-a661-40c2-a7d6-991aaccf85a4", "translation" => "وادي الطاقة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //153
+            ["id" => "f2500765-941d-4bbb-937c-1b8f650685dd", "translation" => "Ouled Fadel", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "155be1b1-1134-45aa-a614-db530b52beed", "translation" => "Ouled Fadel" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4c47f805-e77f-459a-855d-dc83339b9655", "translation" => "أولاد فاضل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //154
+            ["id" => "89eb4f60-9d06-46e2-bb49-8ef667b509c7", "translation" => "Timgad", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "090be7cd-93c4-447a-b44f-7cdd8376628b", "translation" => "Timgad" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9091aea6-4e16-4904-b3a7-79176e812ac8", "translation" => "تيمقاد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //155
+            ["id" => "cc7993ad-0fd3-4499-8b74-aff342046dfd", "translation" => "Ras El Aioun", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9f709eae-7ee2-4ecc-ad68-6e3c5ff7ca30", "translation" => "Ras El Aioun" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d196ecfa-b235-48cb-b071-91dee1172cbc", "translation" => "رأس العيون", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //156
+            ["id" => "74990a04-4aa5-448b-8f7e-c73851eb5075", "translation" => "Chir", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "bb42c4a4-3f51-4560-901b-b7ed29c401ce", "translation" => "Chir" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6d7e1b50-9bf1-448b-9735-106928d45c6a", "translation" => "شير", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //157
+            ["id" => "ce5f21b8-98ad-4c1a-8cb5-17254b26a673", "translation" => "Ouled Si Slimane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "14a6331b-1dc6-445a-b6e9-fb5d38bb33d1", "translation" => "Ouled Si Slimane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c93014d9-b668-4900-aefd-15cd6eef1082", "translation" => "أولاد سي سليمان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //158
+            ["id" => "9211f646-373f-4f52-bc98-8da06819a1f3", "translation" => "Zanat El Beida", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c54b7f9d-b2b3-4bff-a129-53d99ec12972", "translation" => "Zanat El Beida" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f8d50e8b-5c77-4a2b-91c4-8cf24a1c4c47", "translation" => "زانة البيضاء", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //159
+            ["id" => "2ed4ee19-bf34-4d32-9018-de9a8f9a1252", "translation" => "M'doukel", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "719e2064-6fee-4454-8bac-d125e1c350c5", "translation" => "M'doukel" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "40e9ecc5-5414-4e68-95af-2de08bbcf84b", "translation" => "أمدوكال", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //160
+            ["id" => "18b51abf-5065-427d-9d64-cf4eaf78ad31", "translation" => "Ouled Ammar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0bd4c85c-4ab0-4448-9e38-a78b79695d10", "translation" => "Ouled Ammar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b7552bca-b656-4a3b-98a7-29f3230dd1c3", "translation" => "أولاد عمار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //161
+            ["id" => "4108b24f-c31c-41ed-b91b-fe0f1f1208a3", "translation" => "El Hassi", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e6aac473-a127-4d7e-9367-d8b2c1019ad5", "translation" => "El Hassi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "61b48f2c-8907-4528-a4a3-c69239809dcc", "translation" => "الحاسي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //162
+            ["id" => "986a7261-05ad-4e89-8874-1c94b19233db", "translation" => "Lazrou", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6572873c-cb63-402e-a43a-a2db27cb8db0", "translation" => "Lazrou" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5ca70a3f-69ad-4783-9000-17ac54856457", "translation" => "لازرو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //163
+            ["id" => "fc48a6c7-f181-4a21-a7fe-23e592e7c84f", "translation" => "Boumia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ff2942e3-016f-4ac8-a49a-b1332560cc74", "translation" => "Boumia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "15b98721-32a7-4343-9d04-a96e0fc5dd27", "translation" => "بومية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //164
+            ["id" => "b7888c4f-ac41-427b-9187-f1be50cf87ba", "translation" => "Boulhilat", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ec264df8-3dd7-44aa-92a8-d6d5403fb312", "translation" => "Boulhilat" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "345c6e7a-8a7f-4517-bd67-539d2a86aca1", "translation" => "بولهيلات", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //165
+            ["id" => "37416b8d-17ed-42f8-a74f-b87a59a27b73", "translation" => "Larbaa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "af8465a9-f5d5-4baf-8fda-10bc30467a7e", "translation" => "Larbaâ" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bce6ef1c-fa46-45e2-8393-dff0363f1916", "translation" => "لارباع", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //166
+            ["id" => "a68bda83-accb-4011-a121-2f68d784a3b0", "translation" => "Bejaia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e5af06da-e823-47c6-b158-0922be30c9ab", "translation" => "Béjaïa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b00de3cf-fec4-4927-89e6-1f01ee6f5f11", "translation" => "بجاية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //167
+            ["id" => "7df3a4ae-a026-4927-a3e1-53709bdf66aa", "translation" => "Amizour", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e0df6c80-438a-41c2-b1ba-67fe97f3db8d", "translation" => "Amizour" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e9058403-7db7-415e-8ab3-5bc17b77aa43", "translation" => "أميزور", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //168
+            ["id" => "94e235f6-b3b1-42ee-940b-dd901aaaeacd", "translation" => "Ferraoun", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "86a7240e-6659-44b4-932b-505d7a0f157e", "translation" => "Ferraoun" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d4fc9bd2-8e24-4f3d-89b4-9279a43c0f40", "translation" => "فرعون", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //169
+            ["id" => "6a71e489-7329-4b36-9ec2-8b21b642108e", "translation" => "Taourirt Ighil", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c1dc2318-5633-4e39-9ebc-b5bc89801719", "translation" => "Taourirt Ighil" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f35f8c78-f4c7-45b6-a56b-7bc5ec17fc4c", "translation" => "تاوريرت آغيل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //170
+            ["id" => "83744d1b-a657-4100-9b24-adf125526e34", "translation" => "Chellata", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "986833aa-ac0d-4de3-871a-93db684d94df", "translation" => "Chellata" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "777fa250-124b-4f37-a92c-f677ed472940", "translation" => "شلاطة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //171
+            ["id" => "c27fbace-00d1-4dee-9b5b-009ce2c96415", "translation" => "Tamokra", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3ad39d61-ec86-4bd5-9c69-43dc0046a613", "translation" => "Tamokra" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "463b30fb-6093-416b-8653-8a5059a8e5a7", "translation" => "تمقرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //172
+            ["id" => "7eaa15d1-482a-48fe-a985-9ecc51aaebe1", "translation" => "Timezrit", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9bca59ac-ff1c-4a46-b4a6-62b920812e5a", "translation" => "Timezrit" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "641c8b75-cc62-4ffa-8a47-65c1a3329e4f", "translation" => "تيمزريت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //173
+            ["id" => "da8abbc7-3de4-4db7-a127-023b52ab2aa8", "translation" => "Souk El Tenine", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "61a4a73e-2618-41f1-b387-b5548d804a6e", "translation" => "Souk El Ténine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "319769cc-4e11-42d1-b0bc-17616c0f8c67", "translation" => "سوق الاثنين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //174
+            ["id" => "6f3d59e6-c7b8-470a-9f3a-614f04c507c3", "translation" => "M'cisna", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3e772e44-f837-4346-8a32-95b638699991", "translation" => "M'cisna" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e1b775f0-ed1f-4cbe-8048-ea97a13e2335", "translation" => "مسيسنة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //175
+            ["id" => "9d505802-8f25-4deb-812d-244f7f5c735e", "translation" => "Tinabdher", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c38964c6-0f3e-4187-b25b-3582b459d270", "translation" => "Tinabdher" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c38429c8-a40d-4aa6-8632-1aab6a975117", "translation" => "تينبذار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //176
+            ["id" => "28419652-cd84-4568-8e8a-f61aaeca0297", "translation" => "Tichy", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "fb5446fe-983a-4b25-b4af-d240e0fa3195", "translation" => "Tichy" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b25bcab8-9c3e-498d-8f26-77cb8af6d19b", "translation" => "تيشي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //177
+            ["id" => "31f96c47-75b3-4ee3-8026-ded8febb9a7e", "translation" => "Semaoun", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7656cbb7-f17e-46d5-8a12-a74ecd537f4c", "translation" => "Semaoun" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f62db255-09b4-4e0c-b2db-2d0c274526a6", "translation" => "سمعون", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //178
+            ["id" => "efd9ee00-cca0-46fb-87a5-f37e9138ffc1", "translation" => "Kendira", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "956f95af-08a9-4f50-9493-161f3737cc5b", "translation" => "Kendira" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "cdd4f162-d7ed-4aa9-b78e-1ef86a0eed01", "translation" => "كنديرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //179
+            ["id" => "8c7f2074-3e3d-4d7a-b983-3112c33fc333", "translation" => "Tifra", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9966aaf3-4050-4ffe-a897-661627eca82c", "translation" => "Tifra" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e6041636-c26a-47d6-b96b-01ebae034da5", "translation" => "تيفرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //180
+            ["id" => "47cb78e8-d502-44f9-a9cd-c6e2c611651a", "translation" => "Ighram", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "330f7bfd-d693-4a59-94a2-47eb0ed3ae5c", "translation" => "Ighram" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "489250d6-cb0f-4efa-89c5-393740ee42c8", "translation" => "آغرام", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //181
+            ["id" => "b046c0fc-f52b-4818-9c5c-e87f5d4a3db7", "translation" => "Amalou", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "437fb81e-fb4a-46ed-81e6-b5f383af1edc", "translation" => "Amalou" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a4e9e2f9-ceef-40e9-a580-31af9168ef4d", "translation" => "أمالو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //182
+            ["id" => "ac9b80e5-35e9-4b1e-a010-46c1dc6758ec", "translation" => "Ighil Ali", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3854b921-0c63-44fc-bdfa-1d15eb3a389c", "translation" => "Ighil Ali" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "479f66b1-a307-44e7-8178-36bd1dbd1343", "translation" => "إغيل علي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //183
+            ["id" => "9aba939b-f743-447f-b67c-3df5dd0fdb53", "translation" => "Fenaia Ilmaten", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "bbeea31f-af56-4510-8443-604564a10f02", "translation" => "Fenaïa Ilmaten" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "acec4962-f7f9-4ad5-8260-9734231f8593", "translation" => "فناية الماثن", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //184
+            ["id" => "97b7fa7d-c10c-4356-97c3-faecb158ce0e", "translation" => "Toudja", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "04f3e311-f983-41c5-85a9-a981fc5f3208", "translation" => "Toudja" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1083df80-7c97-46b6-be0c-044408f87fb6", "translation" => "توجة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //185
+            ["id" => "cb615822-c9e6-4a76-90e0-90c1e7f0def4", "translation" => "Darguina", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "bc49e409-4e70-4fbb-9d08-c374daa38eef", "translation" => "Darguina" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ef06b0cc-83ce-462a-86c2-cdcca1e47fa7", "translation" => "درقينة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //186
+            ["id" => "1df87224-4e33-4385-9b6c-66e9f7ea4176", "translation" => "Sidi Ayad", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3ee0d113-7fea-4c18-a0b1-376c85d78ebc", "translation" => "Sidi Ayad" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0aea4ff9-5487-45be-815b-d0ae75862e47", "translation" => "سيدي عياد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //187
+            ["id" => "72a9e5f3-8dc3-4553-84ec-acda448112ca", "translation" => "Aokas", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e2585de8-79e9-48eb-8a68-b75dad9a9bc4", "translation" => "Aokas" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ad5e1bc0-5fb0-4ac6-91b4-67c47769d8d3", "translation" => "أوقاس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //188
+            ["id" => "5b89db01-a3ff-4ee1-b71d-b7636cd05d38", "translation" => "Ait Djellil", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3fdc4a44-445b-4a2c-b685-912b5bf77c9d", "translation" => "Ait Djellil" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b0af2ba5-a7e2-42b5-8e8b-68bf53439050", "translation" => "آيث جليل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //189
+            ["id" => "37077ad6-766f-49c0-ae7a-5c33aa2c45e0", "translation" => "Adekar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0b42ef6b-ec63-4ad6-a7c2-63400af691b5", "translation" => "Adekar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "103348ee-39ce-4552-a1a1-e015c73cfe5f", "translation" => "آدكار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //190
+            ["id" => "aad8cca7-9998-455d-9ad8-0f19cabb352a", "translation" => "Akbou", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0edb5cb0-4f49-438c-83ef-3d3d9cc449e0", "translation" => "Akbou" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2bebb945-9d54-41ff-b0ea-1cd80c9e34f4", "translation" => "أقبو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //191
+            ["id" => "07ba3436-3f68-4d2f-94f8-d0381e93b435", "translation" => "Seddouk", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7a3832ee-6736-4f5d-b994-5ac4302945d0", "translation" => "Seddouk" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4470c9be-a96a-4f43-9157-d73a43303465", "translation" => "صدوق", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //192
+            ["id" => "7c062720-f280-48ee-9ee2-2aba4ced63e5", "translation" => "Tazmalt", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "98f21414-a9c2-4eb8-b0e6-8d4491c8f3d7", "translation" => "Tazmalt" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b0e18937-bccf-46e0-8efb-d3a8f40d96e9", "translation" => "تازمالت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //193
+            ["id" => "dd04aa62-da79-4014-b6ad-df3f1b96dc0e", "translation" => "Ait R'zine", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "94673e6e-a116-4ff2-a6f8-10eb3094ff4d", "translation" => "Aït R'zine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "08e1dee3-2ec1-4cf0-986b-38424f29f6b7", "translation" => "آيت أرزين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //194
+            ["id" => "15435ef4-c8d7-4cd3-97e5-e850fd0b4ac4", "translation" => "Chemini", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1c8018fc-2928-44d9-9f8b-fb7b8f8f3f6c", "translation" => "Chemini" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d2dc8a45-70ec-49ea-bdc7-4908cce9faa2", "translation" => "شميني", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //195
+            ["id" => "3453ac00-4370-41de-8182-31fd04bc1614", "translation" => "Souk Oufella", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "329455fd-f25b-489a-943e-492eab7012bf", "translation" => "Souk Oufella" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f7e76efc-000e-4626-a4ac-e7ca7442594c", "translation" => "سوق أوفلة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //196
+            ["id" => "fb665232-daed-412b-958a-d165a59c5afb", "translation" => "Taskriout", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a25f6e06-65bf-47e0-8fd2-033ca31888e5", "translation" => "Taskriout" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "91d9c508-80ae-4a2a-af7f-ef4466c943a4", "translation" => "تاسكريوت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //197
+            ["id" => "6b78428b-cae7-4ac2-a94c-7e58d661a3a1", "translation" => "Tibane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0ab7ec88-f2b5-47b4-bedb-a70a6fcea2ea", "translation" => "Tibane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "414877d2-9660-4b8a-91a9-96607d155ac6", "translation" => "طيبان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //198
+            ["id" => "0c055e90-ebb3-42ce-baa6-5e0dda72b05f", "translation" => "Tala Hamza", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "37db56d1-4191-4f02-a373-fdffa3a9a996", "translation" => "Tala Hamza" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f492e645-4110-407d-9648-f4b1a4b7cd60", "translation" => "تالة حمزة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //199
+            ["id" => "cfedcce8-8982-4ab0-9ca8-7b3d9bd19495", "translation" => "Barbacha", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b0eef524-f86c-47fe-b53e-25807e3521cd", "translation" => "Barbacha" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "978e64bf-37fe-4400-81b9-9d5adb4e4a98", "translation" => "برباشة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //200
+            ["id" => "25ac3995-a0f4-4df5-83d7-3a8791177313", "translation" => "Beni Ksila", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d18d54e1-c957-4f8c-9dc8-6e0c9e79c663", "translation" => "Beni Ksila" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "79b5832f-4091-4d38-9643-03aff562c6e7", "translation" => "بنى كسيلة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //201
+            ["id" => "bdd356e3-59ee-42a1-ad86-416e7db36086", "translation" => "Ouzellaguen", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "fbc5d3f3-bfec-4e35-a296-7d85f930337d", "translation" => "Ouzellaguen" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f86889f8-143b-4928-85a3-80ed46495d06", "translation" => "أوزلاقن", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //202
+            ["id" => "a6a83207-f1ae-46e0-93ee-1da77f8890d0", "translation" => "Bouhamza", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6191d874-6e62-4039-ba40-7510be85bbb4", "translation" => "Bouhamza" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f45af9fb-4c74-47ae-a92e-452c375345ff", "translation" => "بوحمزة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //203
+            ["id" => "db09fe8b-ec9a-4a29-bc03-df33658b9b29", "translation" => "Beni Mellikeche", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "410ec9fb-8eaa-41ef-b74b-ed0eb8728098", "translation" => "Beni Mellikeche" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2583a70b-b43f-401d-b55d-8fcfa564e9dc", "translation" => "بني مليكش", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //204
+            ["id" => "587ae470-878d-4ddc-86b4-1f961b0b8396", "translation" => "Sidi Aich", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d537bb06-d162-41c2-b038-f3b4bd5005f7", "translation" => "Sidi Aïch" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a60d2dd2-f91d-4ab9-a80b-be58702bdb1e", "translation" => "سيدي عيش", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //205
+            ["id" => "71a9ac4e-a58d-4254-9523-6c694268e33b", "translation" => "El Kseur", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d251cb38-311e-4a53-b99f-f56f4db60d50", "translation" => "El Kseur" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "19b1d1fa-dd06-4575-872a-64a7d5af8165", "translation" => "القصر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //206
+            ["id" => "11eae7e8-ee52-4482-aed0-ab9b5e43cc2d", "translation" => "Melbou", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3e375a84-28e3-44b6-bc89-f7babb9e7800", "translation" => "Melbou" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "af21cd9c-7550-41cd-9911-578deddeae3b", "translation" => "ملبو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //207
+            ["id" => "50789e84-2c99-4fcf-9968-615ac5031342", "translation" => "Akfadou", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ed558fa7-e387-46a0-a915-075ffb7712c3", "translation" => "Akfadou" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b7f336b6-bf6f-46cd-aecb-5e0bceb067b0", "translation" => "أكفادو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //208
+            ["id" => "68b2f27d-aa67-4ffb-b8b3-cd6e4ac4bd56", "translation" => "Leflaye", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "54a9f79a-aa18-447e-9b5b-67bd6cafdf9a", "translation" => "Leflaye" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f674f48e-5acc-4e39-9244-e91dde3b4959", "translation" => "لفلاي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //209
+            ["id" => "52c0c88d-748f-4662-b683-4e4dc0eb305c", "translation" => "Kherrata", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "64972da5-bc18-4eb0-b8b5-e7e10cfb4619", "translation" => "Kherrata" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5af19d29-d275-4b1d-a648-8b7c61ebde07", "translation" => "خراطة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //210
+            ["id" => "dcd1c879-83ca-4b1b-9604-cfc6ad776eb9", "translation" => "Draa El Kaid", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e67ffa1a-ee79-4cc5-89af-937855808d5a", "translation" => "Draâ El Kaïd" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "055b4554-97c7-4629-b731-2db319cb4d90", "translation" => "القصر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //211
+            ["id" => "c4b90c65-1f9f-47c2-b500-d8124c821c09", "translation" => "Tamridjet", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "bae0c7f0-bc12-47ee-af4e-dca7dfbc510c", "translation" => "Tamridjet" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "613ff1ac-2c63-40df-b190-d9d174b7d0f9", "translation" => "تامريجت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //212
+            ["id" => "17c6070b-4974-4fa0-9221-350a5ad58870", "translation" => "Ait Smail", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0011763a-3077-4c11-8144-68578fb8581c", "translation" => "Aït Smail" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "43b8b02f-9134-4efc-90e7-f7cff4906091", "translation" => "آيت سماعيل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //213
+            ["id" => "72887205-5233-4c06-8520-88714d21fecb", "translation" => "Boukhelifa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8fef6bbd-7620-4b07-89ec-dae73480025c", "translation" => "Boukhelifa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fb8d05c9-4375-4a08-82b2-b1a00614accb", "translation" => "بوخليفة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //214
+            ["id" => "4acc41f8-0670-4779-82cd-0a0029ff1562", "translation" => "Tizi N'Berber", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8b1634a6-ed38-45d0-ae1b-7e550354e667", "translation" => "Tizi N'Berber" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6d1a9334-91e9-4a7c-b8d9-9a83ed812626", "translation" => "تيزى نبربر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //215
+            ["id" => "af5aabbe-b229-486b-a83e-d282f4c531b5", "translation" => "Beni Maouche", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "16f34d97-daf3-4ceb-bd22-8b4b225e96c2", "translation" => "Beni Maouche" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b13ff7c4-8461-4192-97fc-0a6d3bb18638", "translation" => "بني معوش", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //216
+            ["id" => "aa2d0207-f0d8-449d-82a0-2d893749f2f5", "translation" => "Oued Ghir", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9aa2ef6e-9642-4921-a6ad-bdb427e3775e", "translation" => "Oued Ghir" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "02784328-e3cc-42d7-8a34-b5b065e8b90d", "translation" => "وادي غير", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //217
+            ["id" => "c0359160-af84-4651-bb31-b4f420ee6c71", "translation" => "Boudjellil", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3c8d36a8-c946-44eb-a453-3afe2c5170f5", "translation" => "Boudjellil" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4764a9cf-477a-4e08-8ce3-59bd1131736e", "translation" => "بوجليل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //218
+            ["id" => "4e4ead93-0d19-43e7-a78b-a76b10fbaa89", "translation" => "Biskra", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "80a00398-bfd8-4692-a5f2-861f401c54f5", "translation" => "Biskra" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9d2732e8-e38e-4e70-8acf-62d94b12a778", "translation" => "بسكرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //219
+            ["id" => "75083bd4-63af-45e7-975b-70258123e2fd", "translation" => "Ain Naga", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "da256739-4c95-4a5b-8f11-bcde1b1001ae", "translation" => "Aïn Naga" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4c8deee3-9270-461c-a5f6-80fb5ad38e4e", "translation" => "عين الناقة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //220
+            ["id" => "a5cf6637-a0a8-4ceb-8b69-3e95b1ce8bbb", "translation" => "Ain Zaatout", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "db124a1a-9015-4139-9f17-c3a58329d418", "translation" => "Aïn Zaatout" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ade23078-ba75-4958-a105-f975b29c5a91", "translation" => "عين زعطوط", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //221
+            ["id" => "e2bb1e56-3136-4d95-b0a0-bb8615cd4143", "translation" => "Bordj Ben Azzouz", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b3a013b6-9686-4cc4-b180-800d31730290", "translation" => "Bordj Ben Azzouz" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "03c4b9d3-fb48-4456-a0d2-d1c77b407a72", "translation" => "برج بن عزوز", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //222
+            ["id" => "7f6330cc-7ed9-49a0-a63e-5aae6cbd6657", "translation" => "Bouchagroune", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b6cbe9bd-1dce-4c77-9b5f-43b292b53673", "translation" => "Bouchagroune" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2b257a54-f2c7-4bea-bf1d-ad0ad8a7485c", "translation" => "بوشقرون", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //223
+            ["id" => "265745ab-26a8-4c00-97a5-5d0c8a0688f2", "translation" => "Branis", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "73df6df5-5c75-4bd0-912c-37cf152b9160", "translation" => "Branis" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "06ac31e1-d046-4146-b327-87a85ce17a39", "translation" => "البرانيس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //224
+            ["id" => "b6c0092c-7afd-46b7-bbce-60d8c69af739", "translation" => "Chetma", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1be3d30b-53a9-40c4-a829-2440afbc7cdb", "translation" => "Chetma" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "24a856d4-35e7-40c2-a292-768bcf161523", "translation" => "شتمة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //225
+            ["id" => "5adce217-5507-407d-9ae3-878468833d3b", "translation" => "Djemorah", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1d96931b-93bc-408a-b5af-939ee2e9010b", "translation" => "Djemorah" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c48144c3-38ec-4ec6-b6fe-92badf77b8eb", "translation" => "جمورة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //226
+            ["id" => "c8db6f76-c1ab-43d8-a46e-064a3f53d37e", "translation" => "El Feidh", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "324697b9-8a9b-4f0a-993e-505d76f97377", "translation" => "El Feidh" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2f89ac82-ff74-4754-95ec-41390aeb3653", "translation" => "الفيض", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //227
+            ["id" => "113dc27c-20b1-49cb-9d29-efe33ccd10ae", "translation" => "El Ghrous", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a74fec92-5814-42a8-bd9d-04189040e6cf", "translation" => "El Ghrous" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e1c60c67-a177-469c-ab69-43ecc2275ac9", "translation" => "الغروس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //228
+            ["id" => "ff6126e7-08fe-492c-84c6-0abd7c381eec", "translation" => "El Hadjeb", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d3c3ae08-fdf1-4c7d-8e02-d58269a57107", "translation" => "El Hadjeb" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "abeac281-8f03-42d4-8f66-5c24b7489bd2", "translation" => "الحاجب", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //229
+            ["id" => "6139c358-cf4f-4071-a43b-d0b017df7e78", "translation" => "El Haouch", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "74ccd662-79ea-4a66-a22e-637e41837288", "translation" => "El Haouch" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9e8a54b4-c8d5-4cd3-9147-9e905c552cfa", "translation" => "الحوش", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //230
+            ["id" => "e9664a27-d991-4f4f-89fe-6ab3331ce414", "translation" => "El Kantara", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "afa49160-1cca-4ec0-931b-564227d8f2e4", "translation" => "El Kantara" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1592ba46-ea81-4c53-9c11-3c19358adfc0", "translation" => "القنطرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //231
+            ["id" => "a9c99ddd-0597-4750-8639-38eefc5da97d", "translation" => "El Mizaraa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "18d10b50-3cf3-4cc6-816e-a14c2ba86ad2", "translation" => "El Mizaraa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d9a64669-ab9d-460e-8dd7-90d5912fa248", "translation" => "المزيرعة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //232
+            ["id" => "613fab3b-5820-4b30-98fc-efa4138d1f05", "translation" => "El Outaya", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a6c24541-ddfe-4949-98cb-063efddc5d27", "translation" => "El Outaya" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a9758a94-1cc8-4861-8e4b-1e003e3fde56", "translation" => "لوطاية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //233
+            ["id" => "6f8138d0-ae04-4172-be9c-4e6d99e0443b", "translation" => "Foughala", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "cead0a74-379d-47e0-8f65-95a58b5c4949", "translation" => "Foughala" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6674474f-10d5-4e28-bbed-2e5efc227d1a", "translation" => "فوغاله", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //234
+            ["id" => "8e787bac-fcc4-41d9-bce7-55a7b368a0d2", "translation" => "Khenguet Sidi Nadji", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "037dc74a-b9ce-42e1-b0c6-d54565261435", "translation" => "Khenguet Sidi Nadji" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1ee3185d-2b94-46dc-ab4d-0893e2a62f4f", "translation" => "خنقة سيدي ناجي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //235
+            ["id" => "a2f1e6af-781a-483a-a32d-3faa6a2881cf", "translation" => "Lichana", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b61b10c3-45c7-4a29-95be-f6619d404951", "translation" => "Lichana" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "348730e9-224e-4e54-88a8-5f9500ba621e", "translation" => "ليشانه", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //236
+            ["id" => "08bd962e-c37e-4f0b-a75a-a2e773d8c0f4", "translation" => "Lioua", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d25e4163-5351-49a4-be58-89376a75929a", "translation" => "Lioua" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "dd811c81-d52c-41a4-9adc-16fbb41d6d05", "translation" => "ليوة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //237
+            ["id" => "dfe76a7e-f5eb-46b7-9b58-f45990e49477", "translation" => "M'Chouneche", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ada2a1b3-6caf-4be7-98ec-903022c44c99", "translation" => "M'Chouneche" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ad5f8da7-fb97-4b3d-819a-c6295a9a1425", "translation" => "مشونش", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //238
+            ["id" => "d3288351-1dfa-4fdd-9b09-3c2edcdeab70", "translation" => "Mekhadma", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4345ba9d-03fb-4f3a-8e15-12b6354d9255", "translation" => "Mekhadma" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a4355e6a-dfeb-48e8-9202-b924598e7846", "translation" => "مخادمة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //239
+            ["id" => "99bb87d4-98cb-48f1-820d-d35c71430d2b", "translation" => "M'Lili", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "79d78e51-db7a-4a95-baf4-e5bc1d660dd7", "translation" => "M'Lili" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4f52ceaf-a33c-47ca-8048-b0d78a15b202", "translation" => "مليلي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //240
+            ["id" => "46bcd82c-d14f-43b0-883f-147af3e4d61e", "translation" => "Oumache", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "44cafac6-5735-491a-bace-b86aec967943", "translation" => "Oumache" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "86e568a2-dfa0-4dc6-8d85-9dd3e5bbfa50", "translation" => "أوماش", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //241
+            ["id" => "0cec7d56-4768-4691-aa75-b29a9de46057", "translation" => "Ourlal", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "312c7425-8c20-41e7-93ec-0ca7f989ab4a", "translation" => "Ourlal" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "21560f8d-a022-4651-bae6-95a27c559cb3", "translation" => "اورلال", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //242
+            ["id" => "a47e4fff-811a-4055-8922-a98c6f0636a0", "translation" => "Sidi Okba", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "079c2f6f-c03b-4657-be5b-1ff20652127e", "translation" => "Sidi Okba" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "05be1b05-1a68-4806-820a-425dc9777c7b", "translation" => "سيدي عقبة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //243
+            ["id" => "433be82c-7436-426d-90b6-90552cc04bb6", "translation" => "Tolga", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8748c0d5-07a5-43fe-91b9-6e89f14de5ed", "translation" => "Tolga" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0e7633bf-6756-42e6-9a3b-61660c883d4a", "translation" => "طولقة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //244
+            ["id" => "0d4b1055-c1de-4f32-92f9-4a847061ccb1", "translation" => "Zeribet El Oued", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "18e39060-e583-4de7-a4e3-19e663b4ad39", "translation" => "Zeribet El Oued" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "08d5a379-1568-4ec7-a583-85fdf7d87d57", "translation" => "زريبة الوادي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //245
+            ["id" => "42b68077-5196-41f8-9c7f-0e70204bc485", "translation" => "Bechar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "16b7bd8a-1435-4d46-8795-7af969dd673f", "translation" => "Béchar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9d2574bb-d268-4ce7-98ed-6a473b13ec10", "translation" => "بشار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //246
+            ["id" => "b3b050fb-cfc3-48cc-bcb0-6f2b505c15fd", "translation" => "Erg Ferradj", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5577bf60-f46e-46cb-b577-d2360f5dc9b8", "translation" => "Erg Ferradj" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c3f8e5f0-54fb-47b0-a579-fcf354fd8089", "translation" => "عرق فراج", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //247
+            ["id" => "69cbc817-afc4-4739-a1e6-3ad4e168cfaf", "translation" => "Meridja", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "cf38edfd-0608-4b76-8f89-ee5a2d5b2ee4", "translation" => "Meridja" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f9efc230-329e-4c35-8949-4561eabb42b8", "translation" => "المريجة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //248
+            ["id" => "df4d246e-84c2-4f79-97ba-de3c0ba68911", "translation" => "Lahmar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "952a1689-8375-4c4e-bfed-fcbba6220e4f", "translation" => "Lahmar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e5b6bc4a-fecc-4b3c-bc66-dcc73d17e93d", "translation" => "لحمر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //249
+            ["id" => "77f8b0ec-5aed-4525-91bf-f2754a614cb6", "translation" => "Mechraa Houari Boumedienne", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "566c3b0e-46bc-4eb0-9258-88c80e68ef24", "translation" => "Mechraa Houari Boumedienne" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "83e1d451-5d38-482f-8c50-a9436b01c152", "translation" => "مشرع هواري بومدين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //250
+            ["id" => "79296f08-0945-47dd-ae5d-7da37e5addc7", "translation" => "Kenadsa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "50171524-04fb-4b17-8332-789197a304a9", "translation" => "Kenadsa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "79536526-36ac-486c-a5d5-995ba2f75c90", "translation" => "القنادسة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //251
+            ["id" => "8cd1bfaf-8232-4e21-9483-e504224d4814", "translation" => "Taghit", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "609ace7a-cfbf-465c-bd6e-b1d9a00e9a5d", "translation" => "Taghit" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9dc7ddc4-9cad-4a14-b69b-34834656055e", "translation" => "تاغيت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //252
+            ["id" => "8e45825d-9ec4-47be-9578-bc828e8b7ec4", "translation" => "Boukais", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d1d594b9-fe87-4b15-a3fc-4baca0cc549d", "translation" => "Boukais" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3c2cc694-6660-41c5-9782-1189c6ca3a12", "translation" => "بوكايس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //253
+            ["id" => "baabec7c-aded-44fb-91e8-43370a33290a", "translation" => "Mougheul", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d4e8324c-6684-43a1-948b-dfddb3087344", "translation" => "Mougheul" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a2c2b6df-f90d-4f41-ac9c-6f3d6ef67bd2", "translation" => "موغل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //254
+            ["id" => "466e5e0f-1099-4c48-b445-3d724c0c113c", "translation" => "Abadla", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1b687375-6111-43df-9140-fc2b49902716", "translation" => "Abadla" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b6606de3-5124-435f-895c-f541ba56b476", "translation" => "العبادلة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //255
+            ["id" => "e6df7df4-d9f9-4b5b-8dcc-c35da6d263c5", "translation" => "Beni Ounif", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "dbde219a-c2d6-4ec5-9b5f-e03837fbbb62", "translation" => "Beni Ounif" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5e66c5c5-50e4-43b9-a548-af8393d8e114", "translation" => "بني ونيف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //256
+            ["id" => "f02363f0-5efd-4dc2-8266-de0e1f45002b", "translation" => "Blida", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5ccb5f5f-8f8e-41d7-9779-93be8557e9aa", "translation" => "Blida" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5e6dd838-66f6-4748-96fc-7afbfc71104f", "translation" => "البليدة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //257
+            ["id" => "3787c73b-a10a-40c4-903e-3900b5c5e5b1", "translation" => "Chebli", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8b7751cc-4459-45c4-a552-adcd4f411724", "translation" => "Chebli" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "63b284c0-fe5d-4459-a647-db15d2fee29a", "translation" => "شبلي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //258
+            ["id" => "45e7a7b8-1748-441d-aaad-4dffa7f1d4ee", "translation" => "Bouinan", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "075050d8-f655-4842-9c49-86c898179f5d", "translation" => "Bouinan" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "338b2a56-511f-4cf0-b831-0d794b94ff57", "translation" => "بوينان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //259
+            ["id" => "6aed01f4-d284-4769-809b-b730689a44c9", "translation" => "Oued Alleug", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "61e257b6-1672-467a-a742-c4014be8163b", "translation" => "Oued Alleug" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9532c919-083d-453f-81fc-eaeb4a6f45d4", "translation" => "وادي العلايق", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //260
+            ["id" => "9935e3ab-bdef-43c1-8e71-059545455279", "translation" => "Ouled Yaich", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "857e0fbc-0cf8-4cf5-9efc-fb79b766ad76", "translation" => "Ouled Yaïch" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9814cce6-9517-4dc9-851b-c8be4bb3f2ba", "translation" => "أولاد يعيش", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //261
+            ["id" => "66552bbd-790f-49d1-bb98-2454f114a869", "translation" => "Chrea", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e5911ab4-93ff-42a1-a4c8-3417a3ed8381", "translation" => "Chréa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7c5a3f93-b126-4855-a5bf-626a968cbf42", "translation" => "الشريعة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //262
+            ["id" => "3c5778e4-f3e8-4f47-b5e3-dfa6bc4dbef7", "translation" => "El Affroun", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "eb7cc871-096b-4b9f-8960-1d2be240004b", "translation" => "El Affroun" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b6b46c87-e913-43f8-8251-d5ab3e9e0a90", "translation" => "العفرون", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //263
+            ["id" => "e95d3e4b-d1fb-4f66-9512-afa0b5327ccc", "translation" => "Chiffa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1a15e6c7-c81b-4174-b8a7-6ddf8fb89a96", "translation" => "Chiffa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fc92bd05-6c4a-451f-b8e1-1efcda2bffb1", "translation" => "الشفة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //264
+            ["id" => "6ff77d24-87cd-450f-ae73-d1586dfd2aa7", "translation" => "Hammam Melouane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "76a0d9da-474e-479b-9498-c2ee16aa24e8", "translation" => "Hammam Melouane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8805ddfa-e3b1-4adc-8c2a-eb416e802de0", "translation" => "حمام ملوان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //265
+            ["id" => "43763832-5651-4dad-93d4-943704c7a326", "translation" => "Benkhelil", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "13030eff-acbb-4633-b62b-38c3e7e9d98a", "translation" => "Benkhelil" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "08170bcb-63d8-43ba-9024-feaeb43d16df", "translation" => "بن خليل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //266
+            ["id" => "7bdb3476-471a-4e55-a92a-7fbc1ce65fbb", "translation" => "Soumaa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "fedc940a-1d93-401c-a24a-53c6e43f9251", "translation" => "Soumaa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c4ef777f-46f9-4478-bc28-3e30f0b24e60", "translation" => "الصومعة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //267
+            ["id" => "20e5a0e5-23da-4291-8943-ddd1e88ab04a", "translation" => "Mouzaia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "792be3c3-2b7d-4c98-9c15-30a9dc3507ff", "translation" => "Mouzaia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8d0b09f8-f0f1-4008-b5d9-38570fddbddd", "translation" => "موزاية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //268
+            ["id" => "2e74e6c3-9e04-46a5-b405-4501e90859b5", "translation" => "Souhane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "93be248c-0ae1-4f0c-92c3-a41d22738d49", "translation" => "Souhane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "cee0cb1f-4fdb-4203-acc6-967800672020", "translation" => "صوحان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //269
+            ["id" => "b7f1ddb8-02fa-4af7-9261-e515fef350ec", "translation" => "Meftah", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0587b7a3-080b-41cb-9684-e2e02e997609", "translation" => "Meftah" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b08c900a-b0a9-46bb-8d00-41ec034afb55", "translation" => "مفتاح", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //270
+            ["id" => "43963951-73d0-437c-9984-fea0abb94d8e", "translation" => "Ouled Slama", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6331a66b-015a-4305-8a44-6e824a14b4a8", "translation" => "Ouled Slama" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ad67b1b2-aec4-49ae-8e2f-ee43e6a51c35", "translation" => "أولاد السلامة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //271
+            ["id" => "4cd09c14-03b3-422c-9c16-2c436990e961", "translation" => "Boufarik", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7380a7dc-edd2-4272-99c8-e25bfc5cc85e", "translation" => "Boufarik" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4eaab4d8-d661-4678-a300-35890bb51cc5", "translation" => "بوفاريك", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //272
+            ["id" => "b1e88d57-a2db-4a28-a9f8-a6c74798e29a", "translation" => "Larbaa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "61a91776-deef-4423-9adc-4a3ee72b325d", "translation" => "Larbaa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "80525364-4ea3-45f0-bc15-4298b76a6115", "translation" => "الأربعاء", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //273
+            ["id" => "4c78d446-55d3-4ded-8fad-fc381d5f30fb", "translation" => "Oued Djer", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ea47c3f0-54d2-44f7-82f4-4559bd8cd1f7", "translation" => "Oued Djer" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6fd78354-dd44-4791-a85b-e0d564a0c432", "translation" => "واد جر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //274
+            ["id" => "6da5e3b5-1749-4386-878d-ff040abf3ed2", "translation" => "Beni Tamou", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2b6d8e22-03b7-48c8-8a8b-84dbdcd857e8", "translation" => "Beni Tamou" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c8c466c5-1415-4364-b913-c6b3239cdfde", "translation" => "بني تامو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //275
+            ["id" => "a2e1cad5-988b-47bc-9862-b251b75dfaca", "translation" => "Bouarfa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "21acaac7-bbb5-4970-b8c0-3afea03f82af", "translation" => "Bouarfa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1b5eee03-d58b-42b2-b828-8d1803a5c1f5", "translation" => "بوعرفة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //276
+            ["id" => "f8c1394e-6fa5-4cf7-b364-93e5766eebdd", "translation" => "Beni Mered", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0d83f9e1-999c-46c0-8d68-42bcd0416f77", "translation" => "Beni Mered" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c36532e7-9b0f-434c-8828-139575d4152c", "translation" => "بني مراد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //277
+            ["id" => "7bc55c83-2992-427f-ac25-4c669b8c3fae", "translation" => "Bougara", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b2221e7f-458c-4a17-878e-4f5b05c8f800", "translation" => "Bougara" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2432416f-91fa-4737-b04d-d8e2cabad6c4", "translation" => "بوقرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //278
+            ["id" => "17690126-df9f-4012-9b9e-2b986a2db61d", "translation" => "Guerouaou", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2a83320f-48ff-48dc-b6c1-fd89db04b1c7", "translation" => "Guerouaou" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d1ec6da1-4b58-4327-a0b3-9e6949581edd", "translation" => "قرواو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //279
+            ["id" => "d9e08a49-ff6f-46b8-98eb-23deca0e6469", "translation" => "Ain Romana", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2cc636ae-4c25-4b24-9337-46274e1b6ae3", "translation" => "Aïn Romana" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "295c9250-42c3-474a-8eca-843c8f53b6a9", "translation" => "عين الرمانة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //280
+            ["id" => "7bcadfee-5a09-4f4d-9ca2-3d5ded8e4d9f", "translation" => "Djebabra", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1027b38b-586f-46ae-9b8e-b3b5f7ee0a4c", "translation" => "Djebabra" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b5a90b19-9b48-496a-bd7e-89eed174562a", "translation" => "الجبابرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //281
+            ["id" => "ae5593c5-a226-40bd-8093-035fa0da9654", "translation" => "Bouira", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "fee3362b-a6a3-4197-b421-af0ad1dd5375", "translation" => "Bouira" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9b85c001-2eed-448e-a547-c6c1920b6376", "translation" => "البويرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //282
+            ["id" => "18d13496-257f-401f-8410-e11dab64442b", "translation" => "Ain Bessem", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6301c2cc-6ea2-49a4-8f89-9c0f246a28bc", "translation" => "Aïn Bessem" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8f333fc2-a660-4541-871b-0c51e6f7f674", "translation" => "عين بسام", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //283
+            ["id" => "9f45060b-a14b-4708-87d5-9b8652aed849", "translation" => "Hanif", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8f76c881-8373-45c7-8cb3-caa65e59b59e", "translation" => "Hanif" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5f9bba7d-a052-4257-a964-7d7415e70266", "translation" => "الحانيف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //284
+            ["id" => "9d6deeaf-6278-4d60-a43d-a163a28abd2a", "translation" => "Aghbalou", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "37ba0cf5-1f00-4597-a084-9c1cda76d607", "translation" => "Aghbalou" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e705e63f-a81b-4842-9a44-c14b79111f31", "translation" => "أغبالو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //285
+            ["id" => "ba17a05e-af1c-40a6-b7b3-44f1694e1b64", "translation" => "Ain El Hadjar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1814b276-8ae7-4379-8917-7ef4089fe1ac", "translation" => "Aïn El Hadjar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0d357581-7136-46fb-9734-73c17f0e3df6", "translation" => "عين الحجر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //286
+            ["id" => "d6167186-86cf-408e-b7f6-59471b4a5a82", "translation" => "Ahl El Ksar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "697ea55d-d783-403b-ada7-887102ddd8e3", "translation" => "Ahl El Ksar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0e1b0254-0193-4fc2-9e34-ea6d72aff718", "translation" => "أهل القصر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //287
+            ["id" => "5ff725cb-e2eb-4916-806b-d68ee9025a46", "translation" => "Ain Laloui", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b56eb474-5bc3-4a95-be9b-117c29566357", "translation" => "Aïn Laloui" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "67a6cc22-5742-443a-a182-9db61d0bd218", "translation" => "عين العلوي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //288
+            ["id" => "4551f3c4-b645-4ee6-b4c4-47243b2bb520", "translation" => "Ath Mansour", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b027ddbd-141c-4f62-b6dc-58414ae2cf31", "translation" => "Ath Mansour" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "15b55502-f663-4198-8953-42a972d870d6", "translation" => "آث منصور", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //289
+            ["id" => "b92f9258-b08e-4013-bf80-7c88bcf464cd", "translation" => "Aomar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ecb08255-08cb-4893-8750-ab9120c8deb7", "translation" => "Aomar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e6b6dc37-0c90-4053-9ef8-483bb5994e02", "translation" => "أعمر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //290
+            ["id" => "b2d49b22-f7ba-4eda-af71-974a579a9de7", "translation" => "Ain El Turc", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3e6be532-29c8-4fd2-bed3-7633b1331db4", "translation" => "Aïn El Turc" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "55431ce8-9ece-4fd0-869b-ee64cb8b9b81", "translation" => "عين الترك", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //291
+            ["id" => "6e359f7c-11eb-4dbb-ba9f-2fe00895213e", "translation" => "Ait Laziz", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3f38395a-65e2-4dfe-baa1-4b130dbefcd0", "translation" => "Aït Laziz" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8f194e20-833a-46fb-a023-d646cac1e88d", "translation" => "آيت لعزيز", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //292
+            ["id" => "c3a6bebb-3bc5-4f62-bde7-5d1602c9e911", "translation" => "Bouderbala", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6db85114-4457-4e92-af97-d9a1339c24c6", "translation" => "Bouderbala" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1c7064e2-e829-4658-9ec0-db80ebdca9ec", "translation" => "بودربالة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //293
+            ["id" => "552dd246-671d-4f27-a7dd-ff39bc5de8cf", "translation" => "Bechloul", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ab54a4ed-aea9-4d3f-abe9-570044490537", "translation" => "Bechloul" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0f7c14e8-a4b7-4490-80dd-987713dd549f", "translation" => "بشلول", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //294
+            ["id" => "bdc3bd75-d0db-4de0-82fc-4ea63c11bef2", "translation" => "Bir Ghbalou", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5e4b1eb3-e898-4809-aea9-9ff3739b7a00", "translation" => "Bir Ghbalou" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "01dc213c-8f08-414b-860b-ca26cf5e6115", "translation" => "بئر غبالو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //295
+            ["id" => "1b6d7a5b-3bb8-427f-87d2-6db915300519", "translation" => "Boukram", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "bd9a1f6d-6014-4054-8295-559b471d40cc", "translation" => "Boukram" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d8839fbb-4636-4277-92b5-5f194b22f1e3", "translation" => "بوكرام", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //296
+            ["id" => "de0cf976-3936-4c5c-accc-4092c97c120e", "translation" => "Bordj Okhriss", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a455872d-4c4c-4298-8329-c6e20b303893", "translation" => "Bordj Okhriss" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0eab18e5-864b-4680-9ab1-eaec7e46326a", "translation" => "برج أوخريص", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //297
+            ["id" => "5cdc761f-9b26-4d62-bb95-7324725e27b6", "translation" => "Zbarbar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4ebb71a7-0d45-4e6c-b7fb-ea5c2b963901", "translation" => "Zbarbar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0924304d-dca4-4bb3-9ef4-a9bf089870c1", "translation" => "الزبربر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //298
+            ["id" => "60e2b479-a2e5-4d7b-a056-a185daf9cac2", "translation" => "Chorfa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c37f1584-cf66-49df-acb7-32c2d9c7b4f7", "translation" => "Chorfa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f420cc71-2a80-4699-9cf0-d54de5c6df35", "translation" => "الشرفة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //299
+            ["id" => "b3513275-82dc-430b-9a56-f8f2970c90ec", "translation" => "Dechmia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6a0660be-c45f-4bd1-a396-29894cad497c", "translation" => "Dechmia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "63b64ff7-0b00-41ac-a311-7a5d9992a4b2", "translation" => "الدشمية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //300
+            ["id" => "848d5cc1-8730-4f3f-b19d-6f64ed528f92", "translation" => "Dirrah", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6f72a92d-a818-4777-8da2-80f48cc0f230", "translation" => "Dirrah" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fb8d922b-3f0d-4868-b243-756905e2e367", "translation" => "ديرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //301
+            ["id" => "c3ea3594-bf36-4cc5-aee6-346e87cfd015", "translation" => "Djebahia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b73a18e7-e6fc-4279-abf8-720cf9aa30b0", "translation" => "Djebahia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0d8b4fe9-df8e-4bbe-b0b7-1e2a31dc330a", "translation" => "الجباحية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //302
+            ["id" => "e2afb0cc-acf8-4eee-a421-93b3f7c77816", "translation" => "El Hakimia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "fa15598d-9e51-46b6-a7c2-60d6f52b91a6", "translation" => "El Hakimia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "614c29f9-89e9-4f3d-a9fc-d0bdb4a14f1c", "translation" => "الحاكمية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //303
+            ["id" => "4b0ba64b-aec7-43e6-a934-8f98ac1ce031", "translation" => "El Hachimia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c62d25ed-abe9-4795-945e-ef8b0017034b", "translation" => "El Hachimia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b62839c9-c5f5-4765-a0c2-7d5cd4f5fc4f", "translation" => "الهاشمية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //304
+            ["id" => "8b46e594-e206-4490-98f4-dff368638cd6", "translation" => "El Adjiba", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8d5fd6b8-9132-4592-b72a-f38dea7125d8", "translation" => "El Adjiba" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "36363d89-c1a2-46aa-9c39-769c60568c88", "translation" => "العجيبية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //305
+            ["id" => "41e959b3-10d0-4157-b940-ba21e0c2c808", "translation" => "El Khabouzia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c5bcce45-3dca-4d50-b55a-b44409efe259", "translation" => "El Khabouzia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ed030d03-ae53-473c-be1f-55cf22616a45", "translation" => "الخبوزية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //306
+            ["id" => "de1ffe3c-1d7f-4387-8e67-62b0930872b6", "translation" => "El Mokrani", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "206692c6-f6bb-4be1-9613-5f94e011081b", "translation" => "El Mokrani" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8c4857b1-679d-485f-b048-55d41abe7b66", "translation" => "المقراني", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //307
+            ["id" => "8d31bbfe-f36f-4e34-a10c-4a6c27ced32d", "translation" => "El Asnam", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "668b6cb4-af60-4d90-8eac-969426f5832d", "translation" => "El Asnam" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0a2d3daf-7c56-4b05-9457-8f2856fa864c", "translation" => "الأصنام", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //308
+            ["id" => "af94ba2e-d760-4df9-a4c5-9af76b85ad8a", "translation" => "Guerrouma", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a2cf9259-a3bb-4a5b-a1b8-5a40b8a45f07", "translation" => "Guerrouma" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a2446a9a-59e6-46b6-b28a-af1710d51c93", "translation" => "قرومة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //309
+            ["id" => "fb8c1353-a37b-4896-a134-6900f5c50723", "translation" => "Haizer", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0cf6b2b6-4a96-41c3-bdd5-a0a3489261d3", "translation" => "Haizer" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e34dcaf7-a317-4111-93f0-f1b5a6e83b84", "translation" => "حيزر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //310
+            ["id" => "e55bc4c0-287a-45ab-8381-9dac37a540f9", "translation" => "Hadjera Zerga", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b535346d-b8bf-460b-91e2-6fdf3d943f76", "translation" => "Hadjera Zerga" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3f96dde1-ebbc-42e3-b71b-2ce6738bd9e5", "translation" => "الحجرة الزرقاء", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //311
+            ["id" => "09aa90ce-63f1-44da-a85b-5ea44feac53c", "translation" => "Kadiria", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "698c1838-49d2-4a3b-bc99-78f5465a359e", "translation" => "Kadiria" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fcb939a6-38c7-47e9-89d6-7363c5860979", "translation" => "قادرية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //312
+            ["id" => "e04c7c68-6f3f-434f-b0e7-2fce070ad271", "translation" => "Lakhdaria", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "55c9d836-fb0f-4a9a-92e7-9e0f1511404f", "translation" => "Lakhdaria" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0564c5f3-542c-4423-a2d4-fc0d578b51c3", "translation" => "الأخضرية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //313
+            ["id" => "c1aaa9de-b037-4903-bded-9663a4ba5b99", "translation" => "M'Chedallah", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e5d49fe3-4e0c-4ce4-9f75-a1a00c285bf1", "translation" => "M'Chedallah" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "42eea59b-b0af-43bb-9210-7101fc162ebe", "translation" => "مشدا الله", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //314
+            ["id" => "b12b2f34-7f59-4728-9b2e-95d1a1d5f376", "translation" => "Mezdour", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a19e2c38-17fe-47f3-b221-2957612a9e75", "translation" => "Mezdour" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "044675fa-781c-41bb-9f86-61467f9c874b", "translation" => "مسدور", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //315
+            ["id" => "7458e308-17e0-4522-825f-fb6b17f35446", "translation" => "Maala", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0b95a1c1-c55e-47e3-9252-052ad27e5ba3", "translation" => "Maala" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d262a705-2221-4bd2-8c44-81c69802968c", "translation" => "معالة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //316
+            ["id" => "2f09b356-45d7-44c2-bbb4-7def8aef7134", "translation" => "Maamora", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c4db9d10-904d-4e97-bea5-0a34f7abdcb0", "translation" => "Maamora" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c6a2a34e-af59-4359-9fc5-669efb7fd765", "translation" => "المعمورة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //317
+            ["id" => "f1088c49-7be9-45ab-b6c6-4795fd00926f", "translation" => "Oued El Berdi", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4ef9616c-3895-45f6-88b2-5044a2369cd4", "translation" => "Oued El Berdi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b395b721-33e9-4f70-b184-1201992701a3", "translation" => "وادي البردي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //318
+            ["id" => "e77671c4-ccfb-4de9-b40f-58ac1efcd498", "translation" => "Ouled Rached", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "881df60b-2471-4fe3-9c32-2f98636d9c83", "translation" => "Ouled Rached" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1d2ac3b9-f1a0-4f6a-bbe4-3d7769591320", "translation" => "أولاد راشد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //319
+            ["id" => "322de97f-bfa8-427b-8468-a7b9d00d937a", "translation" => "Raouraoua", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c0ec9910-f5da-4023-8197-89451ceb5b9f", "translation" => "Raouraoua" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e0e67642-a103-4b13-8a6d-d3431fc37c81", "translation" => "الروراوة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //320
+            ["id" => "2f6ec3ba-59c3-4f5a-b3e6-dea1181afb5b", "translation" => "Ridane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0bed1aa3-df2f-418b-830a-855cb52bec65", "translation" => "Ridane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b6e7bbf6-2f41-49e9-aa5d-cd544768f9d3", "translation" => "ريدان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //321
+            ["id" => "87a4dda1-31a4-4cc9-9635-41ab0b136efc", "translation" => "Saharidj", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "900f4158-ced8-49ac-bb81-c8bb285abdf4", "translation" => "Saharidj" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1670da95-01f3-47a1-863e-ba8433972dbd", "translation" => "الصھاريج", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //322
+            ["id" => "66de8d91-7fdd-4ece-a4fa-aec112987580", "translation" => "Sour El Ghouzlane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c5612327-f673-4a07-8a03-8b7d98eb3840", "translation" => "Sour El Ghouzlane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bda95d4e-b2c6-4bd4-b9fe-ce49cabb650c", "translation" => "سور الغزلان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //323
+            ["id" => "c07187b8-3336-45a9-9fff-df2a5254fafe", "translation" => "Souk El Khemis", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "fd5dd555-1b5a-4822-ae29-349f24c61d5f", "translation" => "Souk El Khemis" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "becb755a-6ca5-47a6-a287-93866b5a39ef", "translation" => "سوق الخميس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //324
+            ["id" => "f0babe11-90b4-44f9-a56d-350053f47452", "translation" => "Taguedit", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3fd14275-b1d0-46c5-98d1-0b5531e05786", "translation" => "Taguedit" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "932b185c-fd04-4ec6-9500-ca108675f33a", "translation" => "تاقديت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //325
+            ["id" => "4d3426c7-9159-4dfa-bdec-b7df5d0ea608", "translation" => "Taghzout", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d9886cdb-08cd-4267-826d-6148f8bd7960", "translation" => "Taghzout" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "966b7959-08dd-4fc5-abc6-cb3a2dfe1611", "translation" => "تاغزوت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //326
+            ["id" => "bc4297a6-2d63-487f-b266-7b6958c35c10", "translation" => "Tamanrasset", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "83249c70-7593-4e70-8e4f-d8cf5b4439a7", "translation" => "Tamanrasset" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7b6b0418-438e-4d61-bacf-392c7bd931ec", "translation" => "تمنراست", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //327
+            ["id" => "cce060bd-2a4c-444c-9645-f1ec34110064", "translation" => "Abalessa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "87b9e0ea-e902-4663-9ca0-28360719b1ad", "translation" => "Abalessa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a583cbd2-4cf8-4260-9998-b8b002958ed9", "translation" => "أبلسة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //328
+            ["id" => "1f48331b-5f92-4acf-af20-385de3799554", "translation" => "Idles", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c11dec32-0c75-440f-a715-d19958ceb674", "translation" => "Idles" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4f7e766c-095d-43f3-a704-8e087f8f4fb2", "translation" => "أدلس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //329
+            ["id" => "d87b9625-3ca9-4f20-b463-ff7633d1516f", "translation" => "Tazrouk", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9a3638b3-af22-49a6-9e4c-239e5f1e13ad", "translation" => "Tazrouk" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8613db85-4a5a-4210-98e1-9c518f9d6382", "translation" => "تازروق", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //330
+            ["id" => "d268d040-a274-46eb-bdd0-b3e4efd55ee1", "translation" => "In Amguel", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "16e96493-16de-4945-af84-7ceb85d48ac8", "translation" => "In Amguel" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4d8cda2b-0ba1-4c7f-bbfc-42c644a74999", "translation" => "عين أمقل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //331
+            ["id" => "f35345a2-f73d-42ed-af72-3f0cd8bb84b6", "translation" => "Tebessa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e576e3a5-14c4-4523-babf-56f6687c05cd", "translation" => "Tébessa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d8af008f-483a-4e78-97e3-49a9741ee9db", "translation" => "تبسة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //332
+            ["id" => "00b7a272-f964-430a-b17f-dc829ac460a5", "translation" => "Bir el Ater", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "06c9cfb8-ec19-40a4-ac6c-fc8a3e66b84b", "translation" => "Bir el Ater" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fddf9dac-7c27-4127-9ce9-4cba80b4940a", "translation" => "بئر العاتر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //333
+            ["id" => "c0d373ed-f18e-4882-9085-2db95dd4709c", "translation" => "Cheria", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5010006e-a6ba-419a-a049-6521a5d2725d", "translation" => "Cheria" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0d3e5c09-8643-4e65-85e7-84da1e4d447d", "translation" => "الشريعة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //334
+            ["id" => "434de48c-169a-46b7-8109-e6ce65d39e89", "translation" => "Stah Guentis", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d0d87e91-150a-4458-a518-328e65c5149b", "translation" => "Stah Guentis" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ba828a4f-a697-4944-ab51-b2567456eeb5", "translation" => "سطح قنطيس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //335
+            ["id" => "7b470dfa-03eb-4286-8a6c-3105cbfb6474", "translation" => "El Aouinet", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d5c1db7a-f2f7-47e7-a657-9e99de7a2646", "translation" => "El Aouinet" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bc64123f-fa07-4776-870e-b61c6c984566", "translation" => "العوينات", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //336
+            ["id" => "720719a4-beeb-4a3d-acdd-d09e3adfd574", "translation" => "El Houidjbet", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ed3dfbce-6184-40e7-97fa-ecd3b810b7d8", "translation" => "El Houidjbet" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0c4b4e74-59da-427b-81ad-5f97161a89b1", "translation" => "الحويجبات", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //337
+            ["id" => "5856dde8-a867-4f20-9c58-43005777daf3", "translation" => "Safsaf El Ouesra", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9c48a13f-14b9-46a4-8ed6-48b76bf5137a", "translation" => "Safsaf El Ouesra" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "59a94a8d-d72a-443a-a4f9-1cbea53d3053", "translation" => "صفصاف الوسرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //338
+            ["id" => "109e1c49-474f-4e37-bdbf-c157e4ff9bdd", "translation" => "Hammamet", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9e3a9fdb-3010-4151-af6c-e6a26045be40", "translation" => "Hammamet" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f943d516-a4db-43cc-afde-7dab1f5d4c2a", "translation" => "الحمامات", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //339
+            ["id" => "2b563e4a-8b04-437c-8491-c228651d02e9", "translation" => "Negrine", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "87a0d8be-daaa-48ae-ae50-6b7e65602be4", "translation" => "Negrine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c5464844-6108-4b80-bf4b-d7a71c7fc2f4", "translation" => "نقرين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //340
+            ["id" => "8233c454-e586-442b-8ac6-a004457f45fd", "translation" => "Bir Mokkadem", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5d4bf6d2-cf68-4340-8b96-e974dee14746", "translation" => "Bir Mokkadem" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "34d45158-9c45-4d52-a0ce-57c522c8029c", "translation" => "بئر مقدم", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //341
+            ["id" => "b9413c30-cbec-4cbf-b1ad-7ecb0c036289", "translation" => "El Kouif", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0c0044b8-5e11-4e73-9430-68ea77c55f05", "translation" => "El Kouif" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a6118e6f-b779-4418-ad43-c283f30da24b", "translation" => "الكويف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //342
+            ["id" => "935b10e9-262c-4ce7-b318-78a1680ecc7c", "translation" => "Morsott", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "bf2e502f-b014-4200-8a5d-17f26bbf567f", "translation" => "Morsott" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0277ab17-1321-405a-b167-a41a2e0bfcde", "translation" => "مرسط", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //343
+            ["id" => "f0b73b45-09cf-4419-8cb7-cf920dfc0b80", "translation" => "El Ogla", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a028bf28-db29-4a59-8a3d-9a468aa8924b", "translation" => "El Ogla" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "733e06c1-416c-4ae0-9659-9b2f4826950a", "translation" => "العقلة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //344
+            ["id" => "852184e9-0d18-42bb-b772-099687416393", "translation" => "Bir Dheb", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "aa99f66a-967f-451e-88b3-eaff9a5c84d1", "translation" => "Bir Dheb" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b7118f17-fea9-401e-b8c6-93ece03352a0", "translation" => "بئر الذهب", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //345
+            ["id" => "bcdf047e-160d-410b-8a43-307903bdcdb5", "translation" => "Ogla Melha", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3a53ccb6-9f89-48be-bb1a-baeae049df0b", "translation" => "Ogla Melha" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5c4a4ab8-f6c6-47d0-92d9-f77af76d9c63", "translation" => "العقلة المالحة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //346
+            ["id" => "698e1d29-b6ee-4a07-a64e-00fc33e35c7b", "translation" => "Guorriguer", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7602f99d-8aa2-49b5-8539-743e39f01381", "translation" => "Guorriguer" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8b0a8610-9290-4307-b063-4323e574ce7c", "translation" => "قريقر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //347
+            ["id" => "22b642a0-4e36-44fe-b184-dd3f6c37b0de", "translation" => "Bekkaria", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9422ce1d-c478-4a2c-a512-91355e9b5a9d", "translation" => "Bekkaria" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b3eb946e-3f18-4468-a597-f0306a447ba3", "translation" => "بكارية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //348
+            ["id" => "d44b6cb9-99dd-4eef-a980-4a7751095d98", "translation" => "Boukhadra", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "06687c4a-c525-4bca-b10c-5aba2b0d00ae", "translation" => "Boukhadra" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7f1ddf04-95f5-4a0f-9515-c8ed0275fe57", "translation" => "بوخضرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //349
+            ["id" => "bd06da32-966c-4aa7-8748-6124d4aa566c", "translation" => "Ouenza", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1d24c61e-e5e8-462f-8ee4-b08b9817a975", "translation" => "Ouenza" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d5885625-d0fa-423a-9c6d-11834cb431de", "translation" => "الونزة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //350
+            ["id" => "6fd9286c-e3cc-4d6c-89e6-edf68d4ff65e", "translation" => "El Ma Labiodh", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "fc337a1f-20ff-432d-815f-b541218276bc", "translation" => "El Ma Labiodh" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "be7d4961-3f33-44f8-95c3-2c6cc2dd23a6", "translation" => "الماء الأبيض", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //351
+            ["id" => "03f83361-0a43-4eda-ad17-237c00bbd6a3", "translation" => "Oum Ali", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "da48bbc1-b73f-45da-b5bb-e737b9104240", "translation" => "Oum Ali" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c69f9103-f1fb-484a-a224-d8afd90225af", "translation" => "أم علي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //352
+            ["id" => "fcfdb4e4-d541-4fb1-9312-ed6ba023e027", "translation" => "Tlidjene", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6fc68af4-f1cd-4715-b419-329f99c4c25a", "translation" => "Tlidjene" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "11e2ec2c-689e-48d1-838a-f88cb5d43453", "translation" => "ثليجان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //353
+            ["id" => "22f24ab9-a13c-4364-88c1-380ba1bf1eef", "translation" => "Ain Zerga", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "27aa8084-f19a-4f55-b1f9-75b02c6b8367", "translation" => "Aïn Zerga" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c762a388-f2de-4d5c-98fb-84eba4c2baa5", "translation" => "عين الزرقاء", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //354
+            ["id" => "d8fc43a5-7d71-469d-9cec-a16f9881deb7", "translation" => "El Meridj", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0505e28d-b650-4cc8-842d-b8ad8e9b383b", "translation" => "El Meridj" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "50247392-67ac-4836-8103-afe809a6e00b", "translation" => "المريج", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //355
+            ["id" => "eff9e66a-87f9-47e3-8d39-6890895e7135", "translation" => "Boulhaf Dir", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c26a1892-b017-4efd-ad67-6c999a606285", "translation" => "Boulhaf Dir" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2da58ea0-5000-416c-87de-d69be0f81f3f", "translation" => "بولحاف الدير", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //356
+            ["id" => "c04863b1-f8ae-46ae-912e-22903d14726b", "translation" => "Bedjene", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "901e1afa-ab2f-4b2c-825b-1423f11fab4b", "translation" => "Bedjene" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "af06da14-1659-41a9-a27c-851d091be076", "translation" => "بجن", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //357
+            ["id" => "f568f5a7-ccf2-4125-87d5-41244b30357a", "translation" => "El Mezeraa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0b61fd9e-a66e-4fcc-82ac-07b8278c76d5", "translation" => "El Mezeraa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4148e3c9-dc47-4ae5-9940-1e24bd195a2e", "translation" => "المزرعة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //358
+            ["id" => "4fb46d4b-4513-4180-9dd5-8c8d8b4b35ef", "translation" => "Ferkane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0c85b186-8dfe-49b3-80b5-be3e3870be27", "translation" => "Ferkane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f6ef6fb4-c77a-495d-b243-8dd82ef698a0", "translation" => "فركان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //359
+            ["id" => "09a2266b-2690-42d9-9e82-e9857bb0ec8b", "translation" => "Tlemcen", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "86f2116f-7270-4a7f-be1d-2b277f55d3f8", "translation" => "Tlemcen" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "062e4702-4507-4e84-b0c8-931de5acd049", "translation" => "تلمسان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //360
+            ["id" => "c8724b54-daac-470e-ad88-e2b68f9bef2d", "translation" => "Beni Mester", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9c4df958-87d8-4785-8a26-76dd7b6428da", "translation" => "Beni Mester" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "26a9825e-3bd6-4861-a84c-819453da9f0d", "translation" => "بني مستار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //361
+            ["id" => "f18e8ab4-e221-4f52-9237-601922feb031", "translation" => "Ain Tallout", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d0929d67-4445-413c-9fa6-87bc091bc9d9", "translation" => "Aïn Tallout" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bf1c1c84-d068-4525-915d-27ea8875b13d", "translation" => "عين تالوت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //362
+            ["id" => "87b8950a-7396-4f18-868b-220dc57ee4c3", "translation" => "Remchi", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0b09791d-eb0a-4f77-8c67-84a7a1fb4b1b", "translation" => "Remchi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1699a0a8-e000-48be-8c12-6c2cd62262ca", "translation" => "الرمشي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //363
+            ["id" => "26712a9a-ae71-4555-bf90-6c740388c329", "translation" => "El Fehoul", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "327a0af7-319e-4bd4-8149-458d112139d5", "translation" => "El Fehoul" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "47649281-a386-47f0-982f-9fd0f13ad7eb", "translation" => "الفحول", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //364
+            ["id" => "bdbf4f97-3e59-4db0-8b4a-e8a6704cd518", "translation" => "Sabra", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1e4f0764-429d-4561-bbef-3c1d706d0520", "translation" => "Sabra" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9d96c914-2dd8-4e67-bf64-8530d3ca62ed", "translation" => "صبرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //365
+            ["id" => "f5dcf2c8-f1ee-4526-a57d-08b7952d1554", "translation" => "Ghazaouet", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7ccf1193-31b6-4914-965f-dc344a917688", "translation" => "Ghazaouet" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c21dcf32-a519-49df-b5d2-20b0734dbc86", "translation" => "الغزوات", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //366
+            ["id" => "65fcbe0f-fb07-43db-99d5-402d3be79909", "translation" => "Souani", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f179ad5a-e36a-4a4a-b5bc-ad806d76ca1e", "translation" => "Souani" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "412f4ad7-94a5-4559-a6ba-50ed91d6d5ac", "translation" => "السواني", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //367
+            ["id" => "b5aec9e2-8e54-4bf9-8e25-89cae3384735", "translation" => "Djebala", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e714fffc-7208-40cc-bae6-f78a156ac0ca", "translation" => "Djebala" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "89d39470-de10-4b3d-be39-5fc019f6867a", "translation" => "جبالة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //368
+            ["id" => "050e4f1c-cc6b-4fc2-84e8-00d2f87353b1", "translation" => "El Gor", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "da80d4c9-0506-4b60-b6a3-4c81433d0a28", "translation" => "El Gor" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "63beb6ed-bbfd-465c-99e7-fce544052b66", "translation" => "القور", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //369
+            ["id" => "2ac657da-4f29-45ea-8b01-5773c4e68dbd", "translation" => "Oued Lakhdar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6e83bed5-95bc-4da1-965c-2f5125147629", "translation" => "Oued Lakhdar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9d914e90-e3ef-4143-afa1-813b508e088b", "translation" => "الواد الأخضر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //370
+            ["id" => "660ff4f2-9ffa-4cb6-9d2b-b1eb889bef25", "translation" => "Ain Fezza", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3bdc4816-5a6d-45df-bbe1-cd5e789e8718", "translation" => "Aïn Fezza" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "58aa9a65-4084-42e9-93d2-aaa4e948e3a5", "translation" => "عين فزة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //371
+            ["id" => "ed5007b2-7ea5-4495-a5f9-579abbb7c8d5", "translation" => "Ouled Mimoun", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "30eca45c-eef9-4a4b-99a6-1dab45814eaf", "translation" => "Ouled Mimoun" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "15ae846e-07ec-48b3-9df1-89a6f5568efa", "translation" => "أولاد ميمون", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //372
+            ["id" => "2319ee4d-bbe6-449a-b5ce-b89bbcda1dc7", "translation" => "Amieur", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f9d1bc42-acb2-422f-993e-dafe3db59c63", "translation" => "Amieur" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "636db6f4-4ac0-4e38-9535-2ec7063ed10a", "translation" => "عمير", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //373
+            ["id" => "6be569ed-3a0b-453f-85ea-f20935ecc72f", "translation" => "Ain Youcef", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b97b854a-7473-4b59-a04f-a4a214e79cd7", "translation" => "Aïn Youcef" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c438f6cb-992e-411f-abf7-6caeeb15ef2f", "translation" => "عين يوسف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //374
+            ["id" => "5ca7e4dd-2d54-4bdd-b5a8-a4658398214d", "translation" => "Zenata", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "95de9e6a-a384-46d9-8588-950387291267", "translation" => "Zenata" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0f4bdca5-b4d8-4ebb-8be1-430dd4b2fd73", "translation" => "زناتة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //375
+            ["id" => "64f76506-f281-45d2-b204-4f87313af6aa", "translation" => "Beni Snous", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1816be5c-ef3b-41ea-8a79-088cd96a8518", "translation" => "Beni Snous" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a43885e6-8630-426e-a206-a4b584151029", "translation" => "بني سنوس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //376
+            ["id" => "43796827-0e7a-4ab0-8914-76c53742e241", "translation" => "Bab El Assa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "62c90d23-2c3c-4bcb-931f-759c6c7ae400", "translation" => "Bab El Assa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "af559e06-0026-41b4-8d1a-a25e1b94d8e3", "translation" => "باب العسة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //377
+            ["id" => "bb572da7-9ab1-45d7-931b-c936b0a23ce2", "translation" => "Dar Yaghmouracene", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "65076fa2-5f50-43e7-9042-f83ab1a56cb6", "translation" => "Dar Yaghmouracene" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "02ce68f5-d613-454f-a5ad-fbdfc31cec35", "translation" => "دار يغمراسن", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //378
+            ["id" => "52c96552-f8e0-4e03-a9bd-58f8035291d4", "translation" => "Fellaoucene", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "fbb59186-2d0b-4a1f-b744-e8ee3aaf1fb1", "translation" => "Fellaoucene" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "71206fcd-6254-4448-ad4e-ea8c2607265e", "translation" => "فلاوسن", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //379
+            ["id" => "96644a7c-02ca-41d2-8ad9-a6f49506e2df", "translation" => "Azails", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9415a5a5-5816-48a5-b54b-3fd471cbbf46", "translation" => "Azails" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f5cfa52f-f30d-4018-a0c1-4a9096537604", "translation" => "العزايل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //380
+            ["id" => "3f37c59e-0808-4c49-8f0e-49af8284aba5", "translation" => "Sebaa Chioukh", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4bfa383f-3e42-4333-bd77-a3171a38d97d", "translation" => "Sebaa Chioukh" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2c55d99f-d406-4820-963f-3d89a220a5e7", "translation" => "السبعة شيوخ", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //381
+            ["id" => "06c755cc-d700-420e-9991-25decc75389e", "translation" => "Terny Beni Hdiel", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "524ac3c5-1ab0-47d9-be5a-962aa0695c3b", "translation" => "Terny Beni Hdiel" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f7bfd3d6-7629-4b66-be62-b4357941d114", "translation" => "تيرني بني ھديل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //382
+            ["id" => "488eebf6-da46-44d4-b958-8c9c7ae52b75", "translation" => "Bensekrane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "eb132245-984b-42fc-8893-a3e93c542ce4", "translation" => "Bensekrane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "85b90448-61bf-496e-81bc-bb5ffd5d718a", "translation" => "بن سكران", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //383
+            ["id" => "d7d9c98b-c79e-44cc-9306-f1b9f18682ed", "translation" => "Ain Nehala", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "017026fb-b416-4beb-a2c6-ba75227886b4", "translation" => "Aïn Nehala" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "03d3e314-2ce4-4440-a4f2-ebecdb19b643", "translation" => "عين نحالة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //384
+            ["id" => "346ec2cb-5e24-42a2-8576-2abe307c7f67", "translation" => "Hennaya", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "bae7d51d-b88d-43d8-b8d3-ab45353d7fa3", "translation" => "Hennaya" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "502df8a1-59ec-4db0-bcdd-7c5ee81b3da5", "translation" => "الحناية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //385
+            ["id" => "45e8a538-7102-42cd-b6a8-cf089c70f529", "translation" => "Maghnia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9f30a4e0-bb08-4aad-b16d-fda097887cd7", "translation" => "Maghnia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "35707fe1-24e1-4780-b61d-18185c789005", "translation" => "مغنية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //386
+            ["id" => "da43ce21-e93a-40fe-9ee7-7d889e778692", "translation" => "Hammam Boughrara", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1668a6f1-eb6d-49c0-a4e6-786e840dcc4a", "translation" => "Hammam Boughrara" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "dd7fad9b-cd1f-4b3d-bb50-6b329269466f", "translation" => "حمام بوغرارة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //387
+            ["id" => "8fece82c-345e-47be-971c-658591b82957", "translation" => "Souahlia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "28198e05-4386-445f-bace-6332174e30a0", "translation" => "Souahlia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ff0cdac3-7cf1-488e-ad5c-0c4171629ce8", "translation" => "السواحلية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //388
+            ["id" => "00ad12e3-b84b-4c74-ade6-91eb07ff78dc", "translation" => "Msirda Fouaga", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1e43a502-4179-4ffe-8147-3097bdc8c475", "translation" => "Msirda Fouaga" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7a01ff1e-ee7b-4cda-bcd4-7ac3191878f1", "translation" => "مسيردة الفواقة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //389
+            ["id" => "7f37988a-37a0-4cb7-ac23-daa401b7db3b", "translation" => "Ain Fetah", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4022bf4c-1bf7-4e54-a1b4-b111b0c17d0c", "translation" => "Aïn Fetah" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "70a8577d-d98c-4521-beca-4a64ec437c3c", "translation" => "عين فتاح", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //390
+            ["id" => "bd16cef2-731c-4255-9f20-ec73dccf6977", "translation" => "El Aricha", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "17add399-b8ea-49ca-9b77-dff6d40c7c17", "translation" => "El Aricha" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0daa968a-1038-45d7-8ba9-8f7f7a3d2419", "translation" => "العريشة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //391
+            ["id" => "e2918740-521d-44b6-93ef-66b53e639d45", "translation" => "Souk Tlata", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6545cb34-dc67-4d85-82e8-298f911c7321", "translation" => "Souk Tlata" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a196a50d-bb1b-4365-9369-8f8abe3e3a2d", "translation" => "سوق الثلاثاء", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //392
+            ["id" => "f84558b7-82a6-41d3-bfd3-286e19cb95b0", "translation" => "Sidi Abdelli", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "cca63d78-a16c-41ab-838a-90454bf6e7e0", "translation" => "Sidi Abdelli" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "10e31fc3-a6ae-4139-ae35-3ea96b04a5e0", "translation" => "سيدي العبدلي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //393
+            ["id" => "7b17ab87-06fe-4843-acc1-83a7c75bc2a8", "translation" => "Sebdou", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ae91ad8d-c59b-4913-af29-f47b176aedb9", "translation" => "Sebdou" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "51def717-eb46-4afe-96b9-5b6d4d8143d3", "translation" => "سبدو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //394
+            ["id" => "3c901393-44f1-4124-8265-1326b88bd2f4", "translation" => "Beni Ouarsous", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8c754415-f240-43cd-a8f3-f20157d37715", "translation" => "Beni Ouarsous" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bde2590d-198b-4b4f-a402-c378d1a7be35", "translation" => "بني ورسوس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //395
+            ["id" => "924fbff3-aeef-48f3-be68-bf752e589e3b", "translation" => "Sidi Medjahed", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "084c11f6-f185-4cdf-8edb-aede54622e0b", "translation" => "Sidi Medjahed" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d8ab676f-04fd-4590-9e78-a8ccb1bf5520", "translation" => "سيدي مجاهد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //396
+            ["id" => "bba7e3df-a676-4b4f-98fe-3567d347d881", "translation" => "Beni Boussaid", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0e40b512-c6bd-4bd9-92f2-e6bfff34979c", "translation" => "Beni Boussaid" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "adb1fbe7-0ae8-496c-99d0-5be86c880edb", "translation" => "بني بوسعيد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //397
+            ["id" => "845196b0-c672-4d0d-a9ce-cdd38ebb99c9", "translation" => "Marsa Ben M'Hidi", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c87c05e2-fe54-4242-953e-4261714cfc42", "translation" => "Marsa Ben M'Hidi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "290e779e-bd6f-44e1-8c81-165b54873adb", "translation" => "مرسى بن مهيدي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //398
+            ["id" => "cf5f1eba-07ba-40e3-98a9-f528fde0aa34", "translation" => "Nedroma", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "81cdaefc-d8fc-4be2-8973-6d5269cfb2ff", "translation" => "Nedroma" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "cdec640a-b373-472d-bfd1-fd3e17a7994a", "translation" => "ندرومة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //399
+            ["id" => "a5529b72-c4d0-4b37-8427-2d434b47532d", "translation" => "Sidi Djillali", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f43f275a-af23-4da3-ba7a-43297ea6b7f4", "translation" => "Sidi Djillali" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9e859dfb-2e84-4a5e-93a6-9bc50149986d", "translation" => "سيدي الجيلالي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //400
+            ["id" => "8cbf6612-290b-4d67-800b-7655f71b8f4d", "translation" => "Beni Bahdel", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "151e269d-d897-4f4e-a47a-80a4f3325ed2", "translation" => "Beni Bahdel" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "da01279a-a497-40b3-b34a-d122bd522742", "translation" => "بني بهدل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //401
+            ["id" => "10cfd698-28b8-4562-92b9-0abfdf570072", "translation" => "El Bouihi", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4306d4c2-c6bb-4dc8-9cb8-81bc687a2689", "translation" => "El Bouihi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4c20ebc7-c557-4a58-a2b8-12f40b2c54f4", "translation" => "البويهي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //402
+            ["id" => "c5fee576-8be2-4156-a90b-fa932c45c845", "translation" => "Honaine", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f841cf39-4563-47d9-9194-7e0acf21d63d", "translation" => "Honaïne" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "69d4ad1f-3ed8-490a-9bb9-ff294b04593c", "translation" => "هنين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //403
+            ["id" => "5f9a8ac5-effe-41aa-9dbb-37d361cf93a2", "translation" => "Tienet", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6f9c380c-50de-4021-855d-04afb6e3d201", "translation" => "Tienet" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1bbb2e3a-1382-44b8-8e3d-f0451861e064", "translation" => "تيانت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //404
+            ["id" => "f0e5a98f-0307-4168-b2ec-d38bef740cd5", "translation" => "Ouled Riyah", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ba16991b-f2f3-4f2a-b538-b7287f0b6f9c", "translation" => "Ouled Riyah" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0dbba506-519e-4ccd-a98a-b3ad9fdd138e", "translation" => "أولاد رياح", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //405
+            ["id" => "d151c157-5436-4f4e-8ffe-2a6e66776b3b", "translation" => "Bouhlou", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d6fd820b-9e8a-453d-b02e-ffcfb59fba19", "translation" => "Bouhlou" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7479c259-f71e-4727-8849-70906dac6ac8", "translation" => "بوحلو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //406
+            ["id" => "d1b6d3ad-1379-4c1e-a3cd-13811d481dc3", "translation" => "Beni Khellad", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "977a534a-a5a5-4435-8fb1-9ab99ef1029b", "translation" => "Beni Khellad" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4a735afc-3e7e-4e4e-91b1-9d91f501ff66", "translation" => "بني خلاد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //407
+            ["id" => "dc339b99-8333-44ed-8491-9cfd97bc7532", "translation" => "Ain Ghoraba", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c5e6558a-a0e1-4aa2-80d6-952b0d9e5899", "translation" => "Aïn Ghoraba" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "44a78657-6713-4b13-997f-cc09a3113070", "translation" => "عين غرابة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //408
+            ["id" => "972a2709-62fe-485b-99f5-b4fe29ddf242", "translation" => "Chetouane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "213dc0d8-ea10-4759-93f4-bf1b03045b26", "translation" => "Chetouane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "52c20e2e-32e4-482f-a8e3-01fc14cb8215", "translation" => "شتوان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //409
+            ["id" => "61877a0c-b9b8-4b0d-ac78-bb032e98113a", "translation" => "Mansourah", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "118ec322-8efc-438a-a609-a0079a5d90db", "translation" => "Mansourah" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7629b7f7-4650-450d-9a51-d488a9b8a3c5", "translation" => "المنصورة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //410
+            ["id" => "813799a0-e724-49e8-a8bd-d1d2928437b6", "translation" => "Beni Semiel", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b8e7373e-dd1e-47b2-8770-1e54e03153cf", "translation" => "Beni Semiel" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "67b57ea2-a5a1-4c64-9e85-b4468e134405", "translation" => "بني صميل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //411
+            ["id" => "6f81f0e4-70c1-4ee4-b20d-431a2c11e398", "translation" => "Ain Kebira", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ae383508-0290-48f5-a811-39d1c4c67803", "translation" => "Aïn Kebira" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6d97f99a-a9f4-45db-a1d7-c271cbeeccf6", "translation" => "عين الكبيرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //412
+            ["id" => "34d78cc5-3438-4bf3-ac94-6795ea44c421", "translation" => "Tiaret", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ad989ba5-34a0-407e-aed1-68b6a4902696", "translation" => "Tiaret" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c62f41e7-3e91-4113-afe1-4e289aa2cbeb", "translation" => "تيارت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //413
+            ["id" => "1b153ccd-189e-47f7-b564-fd013b444392", "translation" => "Ain Bouchekif", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d54e066c-02f7-47e9-aeaf-a14e14bfd540", "translation" => "Aïn Bouchekif" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "04ff8b50-2648-4617-81e5-e2996a77082f", "translation" => "عين بوشقيف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //414
+            ["id" => "2f4c20a6-7fcd-439a-a3a2-edba9b25714b", "translation" => "Ain Deheb", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4867b182-d746-42f4-8899-696a314efc53", "translation" => "Aïn Deheb" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "28ecd365-ce3e-4eb1-9920-2760526ac466", "translation" => "عين الذهب", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //415
+            ["id" => "87d1a2c1-ad69-437a-a6ac-e196b3e1e5a0", "translation" => "Ain El Hadid", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b05f6b81-451b-4ff5-a4a6-f9b67ea7db16", "translation" => "Aïn El Hadid" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "721b75bf-6f50-4edd-a05f-f9c85fc19cf2", "translation" => "عين الحديد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //416
+            ["id" => "1fc5d5d6-5d9d-4d01-8673-787c8a79005f", "translation" => "Ain Kermes", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "df74cd49-d0f3-4b4c-8ddd-54ef4008958f", "translation" => "Aïn Kermes" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7c3f93c3-f167-4868-a454-ccc271122754", "translation" => "عين كرمس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //417
+            ["id" => "53d2c9ce-df00-4776-a619-25244531323a", "translation" => "Ain Dzarit", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "86436722-f609-4e8f-a973-1f2f15d14e15", "translation" => "Aïn Dzarit" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ff3fec4a-ea5c-4585-a51f-1af0929c135f", "translation" => "عين دزاريت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //418
+            ["id" => "910a35a1-7eeb-4454-909c-49537b8d6f9b", "translation" => "Bougara", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7aabb51c-43f8-42a4-abfa-1d95574e9b94", "translation" => "Bougara" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "13e650ac-6294-4b80-9380-cafcd0268b83", "translation" => "بوقرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //419
+            ["id" => "7e99df4d-2fb1-410d-93d7-ac57091a0826", "translation" => "Chehaima", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4b7bb6c9-5ce2-402d-9a4e-fd520550ea93", "translation" => "Chehaima" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1d2111ca-acf7-46e9-9e55-970cde073937", "translation" => "شحيمة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //420
+            ["id" => "3842cb83-03a6-406d-97ae-32d141edcaae", "translation" => "Dahmouni", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "85c38a64-8264-43c9-9b8f-7f16eacc25fe", "translation" => "Dahmouni" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a8fa6aa0-4269-4c84-8174-3c029f7665e1", "translation" => "دحموني", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //421
+            ["id" => "ed42d8a5-696f-4750-ab75-a3a4aa68bfce", "translation" => "Djebilet Rosfa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "cf121495-9e0b-4cfe-bdad-640601f8ec84", "translation" => "Djebilet Rosfa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1098fad3-30eb-4d50-9a1c-8df22b0c52d7", "translation" => "جبيلة الرصفاء", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //422
+            ["id" => "800a02ed-d0a8-4614-a503-8db1fba1d7c3", "translation" => "Djillali Ben Amar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a11db2f0-1cd1-46ae-8456-73e06ae5d29f", "translation" => "Djillali Ben Amar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "892fae76-8ba0-4f0d-ac81-692c7cecaed2", "translation" => "جيلالي بن عمار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //423
+            ["id" => "82badf52-6aa7-4871-af66-e61de57df973", "translation" => "Faidja", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "69e2c436-5a01-442b-a19e-dfe8e8e08ad4", "translation" => "Faidja" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "65c21d1d-7994-46f2-81db-dec92bb2d76b", "translation" => "الفايجة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //424
+            ["id" => "28e6a056-62c6-4644-9453-e5cd4e923291", "translation" => "Frenda", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1b4bf415-a7df-4cb5-8d28-541d82e6e5da", "translation" => "Frenda" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "48627019-2eba-4e5b-8902-75680890b8ea", "translation" => "فرندة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //425
+            ["id" => "d09518e1-a83b-4c9d-9b9b-4b2bc8564794", "translation" => "Guertoufa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "03b78366-da67-44e2-81db-3db7af0ca258", "translation" => "Guertoufa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "953f4b79-5ff1-4fe7-beb3-695e70b4e8e8", "translation" => "قرطوفة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //426
+            ["id" => "b8e0375a-aa95-425a-bd69-61136b2ca757", "translation" => "Hamadia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "fb6bed6e-01cb-43e9-a049-4d49f92f0430", "translation" => "Hamadia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "be633f44-54c8-46dd-97d3-7fe2a9688919", "translation" => "حمادية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //427
+            ["id" => "2bf1024c-9743-417b-90e5-e8dbab7b1be8", "translation" => "Ksar Chellala", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "959b23a4-7e18-46fa-9f60-4ec838d5afcc", "translation" => "Ksar Chellala" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a60d2171-3587-450b-81d2-cbc1037b739d", "translation" => "قصر الشلالة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //428
+            ["id" => "b78f435e-b51c-47b5-9b30-424fcf7655af", "translation" => "Madna", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "053e5366-8b68-4abc-a44b-63c53afb424c", "translation" => "Madna" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4818de77-236d-4d80-a2bc-6656ed65d42a", "translation" => "مادنة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //429
+            ["id" => "942cb5bd-7709-434d-bdc4-4e04042a5f3c", "translation" => "Mahdia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "eb454bbd-1e51-4ea9-8c07-1552a1f3674f", "translation" => "Mahdia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0a284f9f-ddca-46df-bbff-d447dea190cb", "translation" => "مهدية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //430
+            ["id" => "410559e2-88f8-418d-9068-a003b5b1dbe0", "translation" => "Mechraa Safa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0a35d1ce-7c08-4da5-a15b-9dee7db0bdbb", "translation" => "Mechraa Safa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "26c3cbdb-c1f0-492e-a39e-e257e5debdfa", "translation" => "مشرع الصفاء", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //431
+            ["id" => "a16f3cc5-d9f5-442a-828d-442193fbd431", "translation" => "Medrissa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "602628a0-670d-4e15-8b82-de6f3d8c912e", "translation" => "Medrissa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a2f2d5f0-a777-4490-8272-438c2d1eba11", "translation" => "مدريسة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //432
+            ["id" => "5ad091da-acec-4c5e-89e9-eeff08597559", "translation" => "Medroussa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ddaec68d-7728-4348-8975-15c78e672c3b", "translation" => "Medroussa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c2a83b82-4d03-413d-af06-de96c2dff262", "translation" => "مدروسة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //433
+            ["id" => "0f81adae-dc25-4d2a-bd65-8e7971f08908", "translation" => "Meghila", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e310b952-d345-4855-be7d-5d48f5aa98ee", "translation" => "Meghila" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "48cdb25f-9d4f-48fe-859b-72dea7e4e992", "translation" => "مغيلة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //434
+            ["id" => "177a8788-1dde-419d-8eec-26705f7e9c3f", "translation" => "Mellakou", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3e3b8f3c-5861-4b06-8d6f-feaf42224358", "translation" => "Mellakou" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "14b1ccf6-aada-45bc-ba21-8d8b2f8cd71f", "translation" => "ملاكو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //435
+            ["id" => "baff0a8e-a76e-4114-afe4-1ecba5895323", "translation" => "Nadorah", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7d9d5d21-0e91-49d5-b0c5-fe50da273115", "translation" => "Nadorah" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "dff27e3a-76b7-4a9c-92ee-77a59dcc097c", "translation" => "الناظورة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //436
+            ["id" => "89a86f7e-5f84-45b4-a382-1d96b4c36002", "translation" => "Naima", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "46648bde-69fb-47d6-b89e-c1e5125d3a34", "translation" => "Naima" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e1497c64-d06f-4bf1-98e8-caa8d8ee3d38", "translation" => "النعيمة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //437
+            ["id" => "97eb5e19-1cd6-44f4-9127-e167b5ba4c58", "translation" => "Oued Lilli", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b25b04ae-4076-4dc3-9f69-92944a8a01cd", "translation" => "Oued Lilli" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "93378157-5895-46b4-bf68-74100b8a9ed3", "translation" => "وادي ليلي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //438
+            ["id" => "b9d0c1d9-48f4-49bf-b603-a2e376835453", "translation" => "Rahouia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f0377616-6b2d-4dde-8543-19f8aa1c0f94", "translation" => "Rahouia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "39f56e23-aabd-4636-a118-4f7217a30101", "translation" => "الرحوية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //439
+            ["id" => "e21dd147-9c76-4d79-b286-613102cc2636", "translation" => "Rechaiga", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "accbc927-74e2-48a8-8a76-85ea57310c5a", "translation" => "Rechaïga" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e83f050d-0e9f-4e13-8736-c86f5c582022", "translation" => "الرشايقة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //440
+            ["id" => "d933dd8b-869f-4bd0-ba54-b768f70b53f6", "translation" => "Sebaine", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6709cb2f-1bd1-420d-b6ff-e8aed319bc71", "translation" => "Sebaïne" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6d132b2b-9599-4fc3-9a1a-898d619b65cc", "translation" => "سبعين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //441
+            ["id" => "c9b77918-795e-4d66-a114-b3f12861eecf", "translation" => "Sebt", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f6cd3e5b-4a9b-423c-a6cb-a8be78d3b914", "translation" => "Sebt" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "db0898d3-77d6-4bc1-ab03-9da233e66270", "translation" => "السبت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //442
+            ["id" => "3b50fe0e-aff3-4d7f-8386-b134ae5592c5", "translation" => "Serghine", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "27b5c8a6-0c12-46bc-9b4a-d1afec195216", "translation" => "Serghine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7cbd9d63-6861-4b9d-b60e-ddb7ed3a3a7a", "translation" => "سرغين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //443
+            ["id" => "dbfa457b-1c8e-4667-847a-8bce9668f63c", "translation" => "Si Abdelghani", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3d513b9b-5fef-4317-afde-783aaad36df4", "translation" => "Si Abdelghani" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0ab26110-f39c-457a-a61a-8b0c710201a0", "translation" => "سي عبد الغني", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //444
+            ["id" => "d93f70f1-1885-4d06-b365-5f0d9600a624", "translation" => "Sidi Abderahmane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ad26d906-16bc-42a7-ae29-5c14a90ef991", "translation" => "Sidi Abderahmane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b4b8673a-b339-4c18-8807-af238c6426c3", "translation" => "سيدي عبد الرحمان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //445
+            ["id" => "5565ca01-41b8-40cf-8301-c44615fc093a", "translation" => "Sidi Ali Mellal", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7332de16-ffdb-443f-b004-1b95630b2843", "translation" => "Sidi Ali Mellal" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2ff6c29b-30ba-4509-a7b3-65bbfc25f6cb", "translation" => "سيدي علي ملال", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //446
+            ["id" => "e063c0c6-62b8-4689-ad67-d8eb6c8c940f", "translation" => "Sidi Bakhti", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9f467fec-8cda-4d09-8eba-200733fdcc88", "translation" => "Sidi Bakhti" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e70b8110-f89a-47f3-97b2-3bb9e5d6d4fc", "translation" => "سيدي بختي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //447
+            ["id" => "04febd25-402b-4f10-9903-3d6d5c192742", "translation" => "Sidi Hosni", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "91aa6322-b2ec-419c-bbc0-a32616272d7c", "translation" => "Sidi Hosni" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "81e76bd3-aa06-4970-b01f-56b6909c4126", "translation" => "سيدي حسني", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //448
+            ["id" => "881e155d-8662-4a53-9c12-1c9b72fe5370", "translation" => "Sougueur", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "bb36be2e-69d1-4bcc-8baf-eb89c60177c5", "translation" => "Sougueur" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "14b30ecf-5a87-49df-b8fe-38c881356da0", "translation" => "السوقر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //449
+            ["id" => "59049b34-2a92-4a5a-bd93-3e88f469c135", "translation" => "Tagdemt", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "424b2421-f163-4afa-8e98-aa293d68e059", "translation" => "Tagdemt" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8f519d82-72f4-48d6-a7a0-6996ad63aa9b", "translation" => "تاقدمت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //450
+            ["id" => "c5ce848e-4fac-454b-8b79-70cd502aef10", "translation" => "Takhemaret", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5d5cdce2-8747-4cdf-9959-bd5957b04b79", "translation" => "Takhemaret" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a30ac74e-24f2-40cc-acf7-860a279aa3d7", "translation" => "تاخمرت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //451
+            ["id" => "84b9113d-c4f5-4456-bddd-d76d689a98e5", "translation" => "Zmalet El Emir Abdelkader", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3de12298-c9c5-4d56-b231-fa87b231e9dd", "translation" => "Zmalet El Emir Abdelkader" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9086bac2-422f-4300-8870-e1dbd2d087a2", "translation" => "زمالة الأمير عبد القادر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //452
+            ["id" => "fe219368-8e51-4751-a69e-87c86f75353e", "translation" => "Tidda", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "577ae5eb-164f-4feb-b0b4-3c8d41e82266", "translation" => "Tidda" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b5c8d18f-3fdb-4db8-8f2d-d8e0191e969b", "translation" => "تيدة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //453
+            ["id" => "29f6b398-66c9-4479-a321-540e0bacca94", "translation" => "Tousnina", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ab1da878-c360-4cc5-ab41-a9982b82e2f5", "translation" => "Tousnina" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8085bdd3-5838-423e-86a2-4b6e01b39d0d", "translation" => "توسنينة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //454
+            ["id" => "61e9c634-be38-416a-a086-0c7752aa49ee", "translation" => "Tizi Ouzou", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f480be6d-b240-439b-9e61-1578875ce519", "translation" => "Tizi Ouzou" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bc449b84-2418-48bb-9ce7-6c93d7b6b7de", "translation" => "تيزي وزو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //455
+            ["id" => "4aa4f659-c5e0-4b68-9c96-2544de6be54e", "translation" => "Ain El Hammam", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "02bbcf89-e5ad-4065-b74b-35d89fb6fe99", "translation" => "Ain El Hammam" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0e9e0fdd-47d0-43cf-b950-cba4661d28c8", "translation" => "عين الحمام", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //456
+            ["id" => "741c17d1-c78f-4c87-87d3-fbbb72d05168", "translation" => "Akbil", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3a76cd6e-c4e9-455d-98c6-e4e37400d30f", "translation" => "Akbil" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "074d3f30-6c6a-47ea-ac53-24e3dadf29e0", "translation" => "أقبيل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //457
+            ["id" => "bae0a2b8-b8b3-43e3-bd19-04b2c2686d7b", "translation" => "Freha", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "979d2c6d-9c64-4837-a42a-fc9e84046766", "translation" => "Freha" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3095ab99-6d9a-42ff-8b80-da49ba3cd548", "translation" => "فريحة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //458
+            ["id" => "5fd6499d-db71-42b0-aec9-db76bf6b5306", "translation" => "Souamaa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f737fe49-14ed-4675-87e8-f39963558b2c", "translation" => "Souamaâ" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "20e8990d-d0e9-4500-ae5b-5859a6af3a82", "translation" => "الصوامع", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //459
+            ["id" => "67cf5302-ebc5-43d5-bd23-cc8663cea5b5", "translation" => "Mechtras", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "401d191e-b062-419b-99c2-1131136345be", "translation" => "Mechtras" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fd35deea-3129-441a-8008-77628c5df89d", "translation" => "مشطراس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //460
+            ["id" => "211a40cb-7c2d-41e9-8818-015d9b88faad", "translation" => "Irdjen", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b6f305b1-efea-43a7-9a1a-259ba692419a", "translation" => "Irdjen" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "63545241-1e33-45d6-8065-b01957ba1b4e", "translation" => "إرجن", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //461
+            ["id" => "2a8fcb7e-93e5-4bb7-b588-7b0d5dd3bd71", "translation" => "Timizart", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "87593c12-7d63-45b4-a39f-c97029253ea3", "translation" => "Timizart" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "28514f2c-5b6e-4475-b5fe-828ef80cb144", "translation" => "تيميزارت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //462
+            ["id" => "6a03b341-48c6-4e53-92e0-1827b00c794d", "translation" => "Makouda", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9f238ec6-4a0a-4b11-bca1-cf564dca5e05", "translation" => "Makouda" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "192fa393-9f5e-46f6-8a92-ab3c64881b16", "translation" => "ماكودة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //463
+            ["id" => "d5f57ca6-ddb8-4d79-884a-6c64023046aa", "translation" => "Draa El Mizan", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8db04107-c78b-4216-80ba-8b71041c15eb", "translation" => "Draâ El Mizan" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "787d3ec4-c380-41fa-8fd3-ef682510e366", "translation" => "ذراع الميزان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //464
+            ["id" => "f3ca5f03-665a-4ecb-beac-ec25b48601d3", "translation" => "Tizi Gheniff", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4291fc1d-10da-4f6c-ba59-30d7906137ec", "translation" => "Tizi Gheniff" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e98be088-902a-49d8-9f56-cdf379cda27d", "translation" => "تيزي غنيف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //465
+            ["id" => "2d3d0243-18e5-4fe1-bda9-7a86dcf4b1e1", "translation" => "Bounouh", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8daf7405-e846-4617-ab47-69ca3bafca40", "translation" => "Bounouh" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1dfee29d-8d10-4923-b35d-59715582b262", "translation" => "بونوح", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //466
+            ["id" => "28038ea9-3ef7-4a8b-a473-b52ace66f696", "translation" => "Ait Chafaa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5923a5fb-70e6-4c7f-8ae3-3a89bc1fcfb9", "translation" => "Aït Chafâa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "97557a94-dab2-4fc2-93f0-a082c18929f5", "translation" => "أيت شفعة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //467
+            ["id" => "5c1c3e06-b7d2-497f-9c19-6cb64598a10b", "translation" => "Frikat", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1259ace5-d919-413b-af2a-2c77424266da", "translation" => "Frikat" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1de2f3d3-797f-4a9a-b0e9-71c98e4a5584", "translation" => "فريقات", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //468
+            ["id" => "81c2a565-07c1-426e-bc13-c63108323d0a", "translation" => "Beni Aissi", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8d63fa35-81da-4f93-90d0-2ed4eaa76014", "translation" => "Beni Aïssi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f0b9f05d-765c-4937-be65-b80d1c8b652e", "translation" => "بني عيسي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //469
+            ["id" => "00e790af-9f5c-4664-9648-81f0cf2662a7", "translation" => "Ait Zmenzer", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f06bb73b-9c43-4027-88d9-f6b3c1c8bfb1", "translation" => "Aït Zmenzer" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "181a472f-3d09-46be-b8ab-7e031438aaea", "translation" => "أيت زمنزر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //470
+            ["id" => "ea1d81a8-61d9-4fab-ba3a-59cfe66993c2", "translation" => "Iferhounene", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f4f60e34-cf8a-4ea5-8112-bc29caf9c532", "translation" => "Iferhounène" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9168d15a-ee6f-4ba4-8ccd-a06a47ed374a", "translation" => "إيفرحونن", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //471
+            ["id" => "c0675ebe-08b8-4970-882d-fa01653b9082", "translation" => "Azazga", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4f622922-7fc7-452c-bf60-685344051eae", "translation" => "Azazga" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9b113b64-faf4-4618-b4b1-9efa8cec5071", "translation" => "عزازقة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //472
+            ["id" => "0daf0e4e-05f0-4966-8fc2-54e27c0d1626", "translation" => "Illoula Oumalou", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1ed6d530-3cba-44e0-a365-aa39a81d5a7a", "translation" => "Illoula Oumalou" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b55309aa-9630-4546-bbaa-c376c910a303", "translation" => "إيلولة أمالو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //473
+            ["id" => "10fd6dfd-5b2c-4ace-aec6-b201db8513bc", "translation" => "Yakouren", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a6588265-f023-4738-b50f-7d40b2cc47c2", "translation" => "Yakouren" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "eebc86aa-58dc-4dcd-8b37-5bf056e60b21", "translation" => "إعكوران", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //474
+            ["id" => "afc46d67-bea1-4b29-9b7c-60f3047cc9b7", "translation" => "Larbaa Nath Irathen", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "948bf6a7-58c3-4e29-912b-34df84d2051a", "translation" => "Larbaâ Nath Irathen" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "acb6be8f-666a-4cf3-ae08-456d3fa29745", "translation" => "الأربعاء نايث إيراثن", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //475
+            ["id" => "07dcc44e-c600-491c-9780-c701ead14a57", "translation" => "Tizi Rached", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8f48c56b-0d84-43a5-9bde-3f2d17541501", "translation" => "Tizi Rached" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "30a93cc6-58c0-4f1e-8f99-0ebb9f628a22", "translation" => "تيزي راشد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //476
+            ["id" => "206a2c82-8efb-463b-a3b2-ee77a8d80567", "translation" => "Zekri", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f88bff48-5095-4d63-b721-4a6ee1fa6698", "translation" => "Zekri" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3fc34ece-142f-4043-b3a3-4cdc69a2dc09", "translation" => "زكري", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //477
+            ["id" => "667b56b5-1847-4a00-b869-da59840b6d79", "translation" => "Ouaguenoun", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4a0b3179-0a5d-4948-b6f8-d1263c28fd4e", "translation" => "Ouaguenoun" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8577eb61-e242-47d5-bcde-b86b5fd07b4c", "translation" => "واقنون", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //478
+            ["id" => "8f3b95bd-7f12-4001-8462-fbd3d5947f53", "translation" => "Ain Zaouia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "55de01b5-c00e-49b7-b987-5b7eec4b6a3e", "translation" => "Aïn Zaouia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "437a172a-3ae9-4eac-ad9e-526b07fd88e0", "translation" => "عين الزاوية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //479
+            ["id" => "68b67cd8-928a-4f9f-913c-436dadc6268e", "translation" => "M'kira", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3d32cc7e-8d09-4336-9cf4-7d51121398e3", "translation" => "M'kira" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "03676aa8-7d9c-4c70-8993-580a9fc87e20", "translation" => "مكيرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //480
+            ["id" => "b022f4b3-8f74-4863-977c-c37eba919bb5", "translation" => "Ait Yahia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "72b45c33-4c90-4147-aa7b-c1fa794706a6", "translation" => "Aït Yahia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "99ec050c-3f20-40d0-900a-4cfd1ce2c537", "translation" => "أيت يحي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //481
+            ["id" => "e2b71801-3825-4f90-95d0-c3acb37399d5", "translation" => "Ait Mahmoud", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1b194329-0115-4a0e-a4bf-9d2ef5126522", "translation" => "Aït Mahmoud" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "dab24ff2-ac93-4bfe-ba46-2319b3429487", "translation" => "أيت محمود", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //482
+            ["id" => "4387d658-94b3-40ca-9e09-e0edd693694d", "translation" => "Maatkas", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "591c2c2f-6a8e-4eeb-9971-5ce2d8661bf0", "translation" => "Mâatkas" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "60b5bf2f-acdd-410b-9dab-ce3f37d06e9a", "translation" => "المعاتقة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //483
+            ["id" => "c5482dff-f2ec-4705-a5f3-2b171601a6f7", "translation" => "Ait Boumahdi", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ae0deaa0-f8ac-493a-b2a0-898480fd31c0", "translation" => "Aït Boumahdi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8c088da6-29da-474c-aa16-a5296c1cbf53", "translation" => "أيت بومهدي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //484
+            ["id" => "e85da504-2617-4f7d-8657-44459b950e9c", "translation" => "Abi Youcef", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6e440975-2f6b-4849-a378-8072472fe657", "translation" => "Abi Youcef" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bda41835-d688-4b00-bcfb-a06af7d8ec3b", "translation" => "أبي يوسف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //485
+            ["id" => "ab983e2b-408e-4025-9cf7-8a33e78af79f", "translation" => "Beni Douala", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "efe62b8c-8811-488b-8ee8-9e78fd9427ff", "translation" => "Beni Douala" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "799b1ab1-447d-44ce-8bbb-f0696b01d540", "translation" => "بني دوالة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //486
+            ["id" => "86768942-8c45-41d8-86c2-ed92eb787120", "translation" => "Illilten", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a87fb515-086a-4013-bedd-f84480e5cbcf", "translation" => "Illilten" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a44e344f-3413-42b3-b072-84f8a615bbe9", "translation" => "إليلتن", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //487
+            ["id" => "ae66f559-b726-43ae-9c43-cad803be506c", "translation" => "Bouzeguene", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4b6db1f2-9f1d-4479-8576-c5324a2aa0dc", "translation" => "Bouzeguène" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0f44acbd-c1bc-4fd7-9d59-fe3b6a061236", "translation" => "بوزغن", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //488
+            ["id" => "43cf3ea4-8be8-4aa1-9de0-38c30e4465ae", "translation" => "Ait Aggouacha", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c5bd413b-4490-4f02-92a5-4bef556314c3", "translation" => "Aït Aggouacha" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f1fd09b4-a4fb-430c-9187-a5f7a7e56b2a", "translation" => "أيت قواشة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //489
+            ["id" => "56e16409-d523-4999-a111-5812e5bf3768", "translation" => "Ouadhia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a53d104f-062b-4ac4-9e2a-2f35749b6d08", "translation" => "Ouadhia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "518f2bfa-27bf-420e-8e86-21c9cec3b7af", "translation" => "واضية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //490
+            ["id" => "4e6ca220-d127-444b-8ae3-5eff16e61e67", "translation" => "Azeffoun", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ebf35c3f-ecdd-405f-9717-ea3697a0ed66", "translation" => "Azeffoun" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c30af732-067f-4e5b-a5a4-cdcd861bc7db", "translation" => "أزفون", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //491
+            ["id" => "2df37d22-4f3c-4e5d-a88e-7ea1a04c5622", "translation" => "Tigzirt", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e168f2ca-9cd7-437f-aff8-1e4df598933f", "translation" => "Tigzirt" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6db5878d-d7fd-4356-a842-b65be49e4384", "translation" => "تيقزيرت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //492
+            ["id" => "eeba5d8f-e5c9-45ec-a751-0b91a7563a8d", "translation" => "Ait Aissa Mimoun", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ba259dd6-7930-4ab8-96ec-c531d60e91a8", "translation" => "Aït Aïssa Mimoun" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "91941610-02b9-4efa-98d7-112cda025971", "translation" => "آيت عيسى ميمون", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //493
+            ["id" => "464119b1-ab14-4c60-8445-06ad5cde8473", "translation" => "Boghni", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "cc19a397-2cd5-4c75-9920-d13595c61e0d", "translation" => "Boghni" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5e90fb5f-b9f9-4116-9547-5b76b8cd0581", "translation" => "بوغني", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //494
+            ["id" => "e5e089bf-35ed-438b-b426-735318de99f5", "translation" => "Ifigha", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "85827c9d-7058-4921-a0c6-b1e8e543002b", "translation" => "Ifigha" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "61e495f8-7854-43f1-8af9-af34bc4d99b5", "translation" => "إيفيغاء", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //495
+            ["id" => "e44a7adf-b947-41d4-8efa-1911aa14bd7a", "translation" => "Ait Oumalou", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c35be6e6-b366-4f34-b679-4cf5fac1eaf0", "translation" => "Aït Oumalou" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "eaa6de1b-46dd-409b-8be6-8ac6ebcd06b2", "translation" => "أيت أومالو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //496
+            ["id" => "be7a01a5-43fd-464a-b27a-d6b06b2160fb", "translation" => "Tirmitine", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "fb35a572-0cc8-4b62-9cf5-58519e2defe1", "translation" => "Tirmitine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1f4ff455-2945-4657-9f43-10f713dc1755", "translation" => "تيرمتين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //497
+            ["id" => "780395f9-1445-40fb-915f-9a9c8afe5a37", "translation" => "Akerrou", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "cd36a4d1-45d2-4001-8802-90f23a645ad5", "translation" => "Akerrou" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "84fbaad1-606c-488e-bea3-f2b9ae3b1547", "translation" => "أقرو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //498
+            ["id" => "6ca8a286-7c26-4e9b-8a5f-c167a5dc89f5", "translation" => "Yatafen", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ce13d0f0-9a82-40c9-91ff-68eb05e85cf3", "translation" => "Yatafen" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4dc7162e-e92e-4d03-a93b-e183bb854b70", "translation" => "يطافن", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //499
+            ["id" => "0aefd7f0-a4f3-45f6-bf20-9588b3d72ed2", "translation" => "Beni Zikki", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7754fd6a-017a-4013-9b55-b6f00b9754b8", "translation" => "Beni Zikki" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d93b2a84-6a3e-4337-b1a5-471a7487f126", "translation" => "بني زيكي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //500
+            ["id" => "09ceb02f-34af-4ef8-9b9f-d964df8c33c0", "translation" => "Draa Ben Khedda", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f40d5462-0dd7-4398-9679-91ee11788b07", "translation" => "Draâ Ben Khedda" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "14bfd297-011a-4155-b1bf-f53b926f9e47", "translation" => "ذراع بن خدة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //501
+            ["id" => "72fb5d93-a9bc-4767-b0da-7f39c45ee5f7", "translation" => "Ouacif", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "dc35081b-2a91-46ff-97d7-e9665ac8ba55", "translation" => "Ouacif" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bc4b867c-9fd7-454c-bca7-24b69358b69a", "translation" => "واسيف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //502
+            ["id" => "4d3362a7-3ab4-4078-a8e0-cd9cac4201be", "translation" => "Idjeur", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "67c003b0-2979-4c7c-a9ee-12b1d6f5aece", "translation" => "Idjeur" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "70c38f93-cf49-4e2d-95ad-6c8e57481427", "translation" => "إجر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //503
+            ["id" => "0d4dc73d-c13a-428a-a79e-1ec19b00a358", "translation" => "Mekla", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "61fb644e-a2e6-4864-99ca-f486cbbecbb3", "translation" => "Mekla" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c2173988-2b78-4629-9996-4a61d2899646", "translation" => "مقلع", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //504
+            ["id" => "2da886d5-13c5-4338-a3ca-70d3c7cfa022", "translation" => "Tizi N'Tleta", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "34267126-7a53-4416-ae24-7e84766cb289", "translation" => "Tizi N'Tleta" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "12108ef0-64f3-428f-b536-12399ab9f3b5", "translation" => "تيزي نثلاثة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //505
+            ["id" => "6c0f7cef-83c0-4d88-bddb-0fbfd6517ecd", "translation" => "Beni Yenni", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "98e09c32-36ff-4284-9139-021a8a627118", "translation" => "Beni Yenni" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c06e246d-29a8-458e-92ef-3692ba4cdaa5", "translation" => "بني يني", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //506
+            ["id" => "a35643eb-1a56-4110-b5f0-2d34855fa882", "translation" => "Aghribs", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1277ee83-12ad-4567-8b80-185c8e85c34d", "translation" => "Aghribs" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0b2be8b0-866b-4e7d-944b-6260c9ae27a5", "translation" => "أغريب", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //507
+            ["id" => "9242c6ed-18fb-4074-8555-15b2a5f4c71a", "translation" => "Iflissen", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "207a66bc-2e66-466d-b075-49a131c61453", "translation" => "Iflissen" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0d64d036-7303-4dca-8693-5e5e0ea494ab", "translation" => "إفليسن", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //508
+            ["id" => "feb6f418-80a4-4973-991a-857c6376194c", "translation" => "Boudjima", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ba7ab2ea-1c9f-4d16-9b4e-cc7754f8df09", "translation" => "Boudjima" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "27295faa-fad9-4191-8824-41a5c5ee051b", "translation" => "بوجيمة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //509
+            ["id" => "6de0499d-a90d-4959-932b-dc86681ff734", "translation" => "Ait Yahia Moussa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f631f268-1d7f-4793-8fd7-3c8bdddc2f61", "translation" => "Aït Yahia Moussa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5f0d3374-46c7-4894-9c14-7d9ba99a17b6", "translation" => "أيت يحي موسى", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //510
+            ["id" => "60fbebb8-7bd3-439f-8be6-f4b674b111df", "translation" => "Souk El Thenine", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "363a29d8-d826-4014-aa8f-629ac1608d74", "translation" => "Souk El Thenine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1e0a608a-490a-47fe-89ef-a7e896dded27", "translation" => "سوق الاثنين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //511
+            ["id" => "a628553d-d787-4f73-a256-073389c374a9", "translation" => "Ait Khellili", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "834ca7f7-5b98-471a-a689-1b9de969cd50", "translation" => "Aït Khellili" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "cb623777-4ff4-44c9-b9e7-b711d4c7d39c", "translation" => "أيت خليلي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //512
+            ["id" => "0b4b5da9-e6cc-40c0-a590-c6010dfa1241", "translation" => "Sidi Namane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9cbffa4a-c793-473d-a8f4-79a5ffb2ba25", "translation" => "Sidi Namane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b3eee1b5-d073-4af2-91b2-97524d5a65eb", "translation" => "سيدي نعمان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //513
+            ["id" => "7f366d60-f65b-4df3-ae0a-77ba0976042c", "translation" => "Iboudraren", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c2593e83-7103-4e45-ba81-ed2eac31e3a1", "translation" => "Iboudraren" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e4e062c8-61ec-47fc-839a-e76c58b21a4c", "translation" => "إبودرارن", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //514
+            ["id" => "169ab2fe-0517-4e30-a351-872340368955", "translation" => "Agouni Gueghrane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b7321ae6-cdc7-4698-9d44-74421a51a5cf", "translation" => "Agouni Gueghrane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b16f65a3-8d7a-406b-ac31-39de3c403afb", "translation" => "أقني قغران", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //515
+            ["id" => "0e7f6057-83bf-4b64-a43c-7f92748147f7", "translation" => "Mizrana", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d39c67d2-4bbf-404d-8562-1ab95a470adb", "translation" => "Mizrana" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "093a63c0-4bfc-43fe-ae62-693cac433573", "translation" => "مزرانة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //516
+            ["id" => "c2e10357-48f1-46de-bab8-fdfda9204591", "translation" => "Imsouhel", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "63d9473c-e099-48f6-b17c-54d45ced7899", "translation" => "Imsouhel" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fc5d0a7f-accc-4ad1-b801-342e47f8031c", "translation" => "أمسوحال", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //517
+            ["id" => "fe373685-5eb0-41eb-8977-afa92410e7a6", "translation" => "Tadmait", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "36b7259f-c098-4523-8f5e-d918b0b49eb4", "translation" => "Tadmaït" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "cb5d3b38-125a-4c4a-92a5-1d37b17095c9", "translation" => "تادمايت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //518
+            ["id" => "6cf3351d-deff-49a3-9251-adc24056532c", "translation" => "Ait Bouaddou", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a85d531b-0186-40e7-b97b-daf87c3c5a1d", "translation" => "Aït Bouaddou" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "18bc46be-ccc6-4dfc-b398-805f05dceeda", "translation" => "أيت بوعدو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //519
+            ["id" => "67026e36-3224-45fb-be76-acc25b24c16e", "translation" => "Assi Youcef", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f5772428-724d-47a0-b4dd-f2d1d3225422", "translation" => "Assi Youcef" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "14419087-09c7-4e0d-a9af-12aae44eff57", "translation" => "أسي يوسف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //520
+            ["id" => "0e32682a-82d1-4fcd-904e-20e2519e43a7", "translation" => "Ait Toudert", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b39686ef-09bc-407f-8c59-b7047e14098e", "translation" => "Aït Toudert" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d0c11a0e-9969-4974-8735-72e6ae334848", "translation" => "أيت تودرت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //521
+            ["id" => "45e0ea8f-048b-47b0-ac12-22927b540b22", "translation" => "Alger-Centre", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "de4e1718-26d4-42ff-801c-b0b343a54278", "translation" => "Alger-Centre" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "24e8ea74-9788-42fd-ada7-a7b642c20701", "translation" => "الجزائر الوسطى", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //522
+            ["id" => "80828456-9d7e-4fcf-a4dd-5247d7451a52", "translation" => "Sidi M'Hamed", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "71d527b3-bde3-4b4b-97ef-aca1d72135e9", "translation" => "Sidi M'Hamed" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4e8fdfbf-ca73-4cdd-a626-bcd8c9a64ce0", "translation" => "سيدي امحمد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //523
+            ["id" => "49034e6d-1d4a-475e-9c86-f8559cfdacea", "translation" => "El Madania", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "eaffc167-beea-4c25-ae37-a29a2f24d7f7", "translation" => "El Madania" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5fb663cb-55a0-4de1-b55f-6e9f482173cb", "translation" => "المدنية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //524
+            ["id" => "beb8c2c7-b08a-48a0-8124-355d5bc400f3", "translation" => "Belouizdad", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4aad4246-8620-4d65-8301-1fbf409013bc", "translation" => "Belouizdad" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "136dcd90-678b-43c1-86b7-a53557709f91", "translation" => "بلوزداد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //525
+            ["id" => "8f6b2352-51a3-43b9-8f35-9fd32b15980f", "translation" => "Bab El Oued", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d5161145-3cac-43eb-9bed-58a5857413c9", "translation" => "Bab El Oued" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8865116c-845f-4251-a278-5c472a7fc12a", "translation" => "باب الواد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //526
+            ["id" => "e58683c4-0325-4afc-b4a8-6523c55bdeb9", "translation" => "Bologhine", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2d609311-786d-446d-88fd-77878f62a737", "translation" => "Bologhine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "86d8ed0c-7589-43da-9b8a-8a485654bfba", "translation" => "بولوغين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //527
+            ["id" => "f2df99c4-80f7-446b-9992-5bc36bc6b50c", "translation" => "Casbah", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6da0333a-7afd-4a81-97aa-2ce3f8851440", "translation" => "Casbah" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2a20b652-e63d-4e18-9024-4628a9bf02cd", "translation" => "القصبة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //528
+            ["id" => "4b7f8dbb-cfdb-475b-8483-103f4b676f91", "translation" => "Oued Koriche", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "dd37a05a-5dab-4e4a-b2b6-1c47cc0e0cd8", "translation" => "Oued Koriche" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d2c362d0-27d6-4cd9-8b34-bef1640f0316", "translation" => "واد قريش", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //529
+            ["id" => "6940f12e-6a0d-4f3c-ac68-79a7407aa22b", "translation" => "Bir Mourad Rais", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f75a627b-eb4f-4a27-9a4c-56127c345184", "translation" => "Bir Mourad Raïs" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "21b7464b-2030-4893-ad3f-b7a7e0bb6f05", "translation" => "بئر مراد رايس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //530
+            ["id" => "ed255b8b-5fe6-43d3-b978-7fe19bafc0de", "translation" => "El Biar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f98be925-801d-4201-8390-680f5811b5d6", "translation" => "El Biar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c63e73df-5403-41ea-9517-3d6a93f076ea", "translation" => "الأبيار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //531
+            ["id" => "e14c724d-8154-4384-a6ad-e400cf329699", "translation" => "Bouzareah", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "40043da9-d8a8-4892-8cea-949040da0cf0", "translation" => "Bouzareah" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "17127856-7054-47ca-b69c-39f517173e7f", "translation" => "بوزريعة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //532
+            ["id" => "bae6522c-5cad-4d60-b728-39ed034e430c", "translation" => "Birkhadem", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "fed654cc-5da0-4d79-ae5b-e14cb51f5ace", "translation" => "Birkhadem" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "32761ced-56f5-4d0a-b1e9-fb5636d30e9f", "translation" => "بئر خادم", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //533
+            ["id" => "3dc2366c-a277-4b7d-9f57-8885ff4c8f5b", "translation" => "El Harrach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8454ef98-5afc-4671-b99c-6cf2ee8a614c", "translation" => "El Harrach" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8ebf8a09-3a79-4014-8c55-b12284cb00a1", "translation" => "الحراش", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //534
+            ["id" => "0f07dbd7-f0b8-4407-b0d1-603c2e3a1930", "translation" => "Baraki", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "eb9afc43-683e-472c-9d35-621e25332362", "translation" => "Baraki" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c95ad74a-2cd3-4f27-8028-ebd99d267509", "translation" => "براقي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //535
+            ["id" => "8c1545d5-bb05-4c10-becb-2c3edd06eb96", "translation" => "Oued Smar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a298b7bb-5e0c-41a4-bbb2-1a6c9f4fa7d3", "translation" => "Oued Smar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "82d7ab46-bc58-4a3d-ad86-3af81c19dc08", "translation" => "وادي السمار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //536
+            ["id" => "dde3ba41-684d-49d7-8a4f-d24b88cef678", "translation" => "Bachdjerrah", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c9eee0c5-0068-4a36-9d15-6b9280557ae1", "translation" => "Bachdjerrah" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a3c676d1-ddf9-49cb-81a1-61747403fb5b", "translation" => "باش جراح", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //537
+            ["id" => "b33cb7ca-91d0-438c-8e77-ba78642c4400", "translation" => "Hussein Dey", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a50e842a-21a1-4081-a58a-2ff1793bd8e8", "translation" => "Hussein Dey" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d8a1cd97-1e52-4999-b23c-f4ab245cf563", "translation" => "حسين داي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //538
+            ["id" => "2df13829-4f8d-4db8-aba1-12161ea9ad1c", "translation" => "Kouba", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f245ab9b-2989-4291-ae39-0b08d768f04f", "translation" => "Kouba" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a24bc9db-d2bf-4eee-8994-6689627a158f", "translation" => "القبة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //539
+            ["id" => "0dc3c36a-d9b9-4a11-ab13-d265dcbf26b2", "translation" => "Bourouba", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "631fd515-88da-434b-8341-e35d9b7a5d9e", "translation" => "Bourouba" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fe33aea6-41f3-4e37-b8e3-7526d9b6083a", "translation" => "بوروبة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //540
+            ["id" => "7fff8061-c7b5-4df9-baf8-97eb62f7d78e", "translation" => "Dar El Beida", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a3a4d07f-0077-422b-922e-34de8a11f0c5", "translation" => "Dar El Beïda" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d7b386ca-905b-4889-9239-8f12802ebd93", "translation" => "الدار البيضاء", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //541
+            ["id" => "89f19ba0-979f-409c-9ec5-e505c9295eec", "translation" => "Bab Ezzouar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "50bf3188-ecb7-446b-ac28-279fab205922", "translation" => "Bab Ezzouar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c3c1031a-918f-4a58-a9e9-8ab27b437c20", "translation" => "باب الزوار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //542
+            ["id" => "f7283b0e-ceba-4e35-a994-ecd6009e40d2", "translation" => "Ben Aknoun", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "236886e2-092a-4384-993c-e6bdab681386", "translation" => "Ben Aknoun" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "435ed469-7774-4f2e-a648-c56cddc07a2d", "translation" => "بن عكنون", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //543
+            ["id" => "ce56cf2c-5a52-4cdd-a285-0fc7198c325f", "translation" => "Dely Ibrahim", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a40d8e39-9553-4ff7-b450-3cf113c113bb", "translation" => "Dely Ibrahim" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6a6244fa-a560-488d-afa6-656269fe8439", "translation" => "دالي إبراهيم", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //544
+            ["id" => "b5cc2c77-44d1-4027-9a79-e7f071bc330a", "translation" => "El Hammamet", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4ee3b9fb-2120-4b77-aa7e-6778198f9e9a", "translation" => "El Hammamet" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "53fb0128-4c83-41a7-896b-b380837d4d89", "translation" => "الحمامات", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //545
+            ["id" => "e6b73331-0149-4714-8df4-92fca6eaa243", "translation" => "Rais Hamidou", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "da96e633-ecb0-40cd-a38d-16e7d9b1a93c", "translation" => "Raïs Hamidou" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7e0167f4-6fa5-4ec0-b9e7-9055992b07ea", "translation" => "رايس حميدو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //546
+            ["id" => "03990c56-ba7e-4ad4-9e8f-251be00fc680", "translation" => "Gue de Constantine", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "55fb1c2c-c2f4-481a-9c57-28b0604056a8", "translation" => "Gué de Constantine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6ac1a78e-ef03-4550-ad00-ac58c0212a88", "translation" => "جسر قسنطينة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //547
+            ["id" => "80285d27-3bb1-4f33-83dc-abcbba9fee89", "translation" => "El Mouradia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1db674ca-9185-43a8-8e92-58d8269b37c1", "translation" => "El Mouradia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "79cb9f72-c378-4c27-9f4f-02b270e885b9", "translation" => "المرادية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //548
+            ["id" => "532cf14d-5e53-4699-9bb0-522bb7e5e7f2", "translation" => "Hydra", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "da843fbe-c4ba-4be9-8434-dd012f9f6fec", "translation" => "Hydra" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f97d0f11-03d9-441b-9b4b-19194c79997a", "translation" => "حيدرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //549
+            ["id" => "7a5dfda3-a6b0-45d1-93cc-2ed2d4617492", "translation" => "Mohammadia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2f84abdb-cd01-44f3-b714-9f279df8b147", "translation" => "Mohammadia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b0a4a687-41c8-4e90-9dc8-7a34d038dbcf", "translation" => "المحمدية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //550
+            ["id" => "9f1906c7-abbb-4110-bed7-dcee996eabcf", "translation" => "Bordj El Kiffan", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "11348306-e147-4246-aba5-abae225b5be7", "translation" => "Bordj El Kiffan" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "33b81a0b-4c7d-4805-9508-4bd127466671", "translation" => "برج الكيفان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //551
+            ["id" => "91ef6cab-59cf-4109-bea2-493acd5cc6d5", "translation" => "El Magharia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6deddb2c-5e8b-495f-b3cd-24c8b4af02fc", "translation" => "El Magharia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8bca74de-e46f-4d22-aa00-8c294b343536", "translation" => "المقارية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //552
+            ["id" => "def64843-9397-486d-9e85-5979d3aae34b", "translation" => "Beni Messous", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d6024135-753e-4b51-af82-0274bd717e7b", "translation" => "Beni Messous" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2425e4b5-5299-4e39-aa5f-ff1c0069330e", "translation" => "بني مسوس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //553
+            ["id" => "fbe7d7da-8c51-4b76-9a59-ce9ed7a2301f", "translation" => "Les Eucalyptus", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f237890f-208f-4a44-90df-68f2c5c08a4f", "translation" => "Les Eucalyptus" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9050839a-0fe2-459e-93da-d905438926c2", "translation" => "الكاليتوس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //554
+            ["id" => "94474625-010a-40af-b341-e98cffeb732a", "translation" => "Birtouta", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ed09df93-f5be-4302-9885-947f0488cc2d", "translation" => "Birtouta" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "94bbccbb-a67f-4187-bdf7-356b5f912c5f", "translation" => "بئر توتة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //555
+            ["id" => "bc0a0afb-b443-4b92-81d6-c37d42efa89f", "translation" => "Tessala El Merdja", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3dafa44b-4e18-4c4b-9405-b4a918db9444", "translation" => "Tessala El Merdja" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c31d6fa0-647a-4986-8c6e-ebbc0ce84b08", "translation" => "تسالة المرجة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //556
+            ["id" => "6d17f6da-17ff-4e88-b248-d9db415bb399", "translation" => "Ouled Chebel", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "884c6ba3-75ee-4ec7-b3f8-b3823e06a431", "translation" => "Ouled Chebel" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c069d615-577e-49cd-aa66-49a861c3b903", "translation" => "أولاد شبل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //557
+            ["id" => "96bd8c31-5bf3-4a44-8450-84fe650e4f9e", "translation" => "Sidi Moussa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a2ca9419-6c55-435e-a0d8-671b9e493004", "translation" => "Sidi Moussa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6cabcbd6-7146-45bb-83ba-21e0d48b9e69", "translation" => "سيدي موسى", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //558
+            ["id" => "4c295a03-a8ad-43dc-b2b8-386b8da32b6c", "translation" => "Ain Taya", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e1fa5287-ec8a-4e56-8684-6359bd9a60d8", "translation" => "Aïn Taya" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "97e4c0bd-6049-4288-a262-a124e03105bd", "translation" => "عين طاية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //559
+            ["id" => "5559198a-d5d1-4725-a722-34f96940e96c", "translation" => "Bordj El Bahri", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a5bcbea5-9cd9-4f7f-ab85-cee6125f7f2f", "translation" => "Bordj El Bahri" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0a0e5355-cdb3-4b38-97d2-cfb2fdd15939", "translation" => "برج البحري", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //560
+            ["id" => "90f5023f-4925-4923-b681-56d1fd8177a7", "translation" => "El Marsa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "026f033c-8eb9-43ec-add9-58796bb49769", "translation" => "El Marsa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "22d22fdc-6325-44fd-83be-e9f68ac68b61", "translation" => "المرسى", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //561
+            ["id" => "23de422c-28e5-4779-bc96-e560969df6df", "translation" => "H'raoua", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e5e2d0c5-4f8f-44f3-ae3f-3cc43ca55c0d", "translation" => "H'raoua" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7b664075-66df-414c-b0ec-9059b918fb4d", "translation" => "هراوة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //562
+            ["id" => "1a17e33b-bd3e-46f0-a86e-6569fda6bb52", "translation" => "Rouiba", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8c7219e6-17ac-40e8-ab8f-351ee7eceb30", "translation" => "Rouïba" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "45b0c3a6-9cff-4a7e-b474-b1b8f30d4133", "translation" => "الرويبة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //563
+            ["id" => "b50cb2dc-49fb-4103-bf52-c227ba0400b4", "translation" => "Reghaia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "50e10ce1-4c40-4e04-892c-6d49728d6467", "translation" => "Reghaïa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "95b1ffd5-0659-475f-b05b-182181259028", "translation" => "الرغاية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //564
+            ["id" => "5b542377-af37-4ed4-9490-ecca2d500f80", "translation" => "Ain Benian", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ced5a8d8-7380-4841-92da-fdc798ac9a7b", "translation" => "Aïn Benian" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0cc49711-bdbb-4359-bbb3-8e36b290951e", "translation" => "عين البنيان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //565
+            ["id" => "b413c115-4046-4e54-ba44-51c6fe6dd8fa", "translation" => "Staoueli", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4519c093-0d74-4089-8bd1-282744eac705", "translation" => "Staoueli" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "23267cb8-fe55-4349-b93b-df12d7bb652f", "translation" => "سطاوالي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //566
+            ["id" => "f75b4b36-939b-4faa-a950-0173dbd44c87", "translation" => "Zeralda", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d7586b1b-ed59-4ede-9ff8-43435a58f17d", "translation" => "Zeralda" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "09c463a5-a8ed-4a37-9ab2-abbc201b3008", "translation" => "زرالدة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //567
+            ["id" => "ac29caf3-dc42-4891-afb6-94aca75dbb28", "translation" => "Mahelma", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "486a3ad9-b6b4-4d78-aa5a-f4b4ccbf34d8", "translation" => "Mahelma" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b4d18766-08bd-4104-ab07-63545d7fb2ec", "translation" => "المحالمة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //568
+            ["id" => "4a3a17ff-894b-4b66-94c5-e8400f1bace1", "translation" => "Rahmania", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d5ef2d6c-014c-4007-bb62-30307a04358c", "translation" => "Rahmania" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6ede9d55-e296-4570-a7cc-897123287038", "translation" => "الرحمانية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //569
+            ["id" => "b5a29f9a-a544-4f00-86c3-6473e3a5d83c", "translation" => "Souidania", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c8e0664b-1e33-4560-853f-f2d8e7c225d5", "translation" => "Souidania" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a470311b-09ec-4460-ad8b-c42c52e14181", "translation" => "السويدانية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //570
+            ["id" => "a501efd1-196d-4e3d-b45d-e505bdbc0521", "translation" => "Cheraga", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "aa1b6ca0-b32a-40a7-a832-cf87f721f04e", "translation" => "Cheraga" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "baad89f7-769b-4f34-b024-802ba4e48af7", "translation" => "الشراقة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //571
+            ["id" => "91132f6f-8af5-4213-a30a-af0e93926882", "translation" => "Ouled Fayet", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3f975987-4122-481d-bd73-5e4ecf7c1e39", "translation" => "Ouled Fayet" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0dcf5132-3ea3-471e-be8c-0a92ccc970a6", "translation" => "أولاد فايت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //572
+            ["id" => "7b5515c0-90dc-41b7-9113-e9172e914fce", "translation" => "El Achour", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "887e9604-0b28-4415-ba6c-78c0536d5966", "translation" => "El Achour" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "467e520d-4c42-4edf-ad85-83a8b596a9a4", "translation" => "العاشور", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //573
+            ["id" => "168fa075-f050-4b81-8f8e-085aa6a6b699", "translation" => "Draria", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2dc9c187-925f-425d-ac47-08ca33daae24", "translation" => "Draria" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e9d9a60f-e724-44aa-887e-72d663e153fe", "translation" => "الدرارية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //574
+            ["id" => "5dc4ed42-80bf-4137-a2dc-dd2cc8cee108", "translation" => "Douera", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "cd466b2a-09fe-47a9-9d75-fef612989a56", "translation" => "Douera" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6daa3f2d-9414-4071-a7ad-c58f75733c01", "translation" => "دويرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //575
+            ["id" => "ad34a0ff-7bf0-4eae-be3b-62fe7f946e48", "translation" => "Baba Hassen", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ae5d1a96-ea14-4cee-aeaa-d1b9bf9282ba", "translation" => "Baba Hassen" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fd32d234-a3c2-4cab-a689-186f8291e0ab", "translation" => "بابا حسن", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //576
+            ["id" => "994873bd-dc1a-4252-a990-675170c0d3e6", "translation" => "Khraicia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d68a6230-6890-4841-897b-89a457c16a8d", "translation" => "Khraicia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ddcf1936-4166-4a10-becf-bc03da5b37b3", "translation" => "خرايسية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //577
+            ["id" => "232d0423-e639-42cf-90a0-6008da404033", "translation" => "Saoula", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "33e2b698-b08a-48e8-96e3-6b6bc07c36cd", "translation" => "Saoula" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "47e6c64f-4e24-4c64-9456-154dfa8b66a2", "translation" => "سحاولة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //578
+            ["id" => "44499719-2ded-4a42-ac1a-9c5f803f9eeb", "translation" => "Djelfa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ce2c2255-f7d4-45e4-8a35-714f2ceabe2d", "translation" => "Djelfa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8e359aa2-1a79-4385-b31b-c80930b412e6", "translation" => "الجلفة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //579
+            ["id" => "a8c30944-9412-4f4b-acce-29e0fa1fdcc8", "translation" => "Ain Chouhada", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c8638ef0-8e27-4b10-a4e8-8964971bfd91", "translation" => "Aïn Chouhada" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "cb398da9-eded-479c-8497-f1c44508a437", "translation" => "عين الشهداء", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //580
+            ["id" => "47b2f69c-8fb6-4504-9b7e-f2d63474ddbe", "translation" => "Ain El Ibel", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "dc9312f7-fd9c-4c36-97aa-06f4204d1fa1", "translation" => "Aïn El Ibel" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bee5d9b7-7060-4b27-9897-7a3517855273", "translation" => "عين الإبل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //581
+            ["id" => "d558b540-27b3-4604-bd6e-2bf651797ac1", "translation" => "Ain Feka", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b697804c-7e03-4a6c-baef-beadfcad41bf", "translation" => "Aïn Feka" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a6cfd740-8796-4095-9988-895461ebaca6", "translation" => "عين أفقه", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //582
+            ["id" => "06ce6084-1b19-4106-8e14-f424dcfbe348", "translation" => "Ain Maabed", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "88272468-e74a-4272-8841-5e4c85e04510", "translation" => "Aïn Maabed" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "616a6ede-7c1c-4294-ad1f-c49e2736f7a8", "translation" => "عين معبد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //583
+            ["id" => "e5a14ae3-4dd1-404a-9dff-abfc7ced1c92", "translation" => "Ain Oussara", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9e37a808-a9c4-425c-a50a-4148dc246c64", "translation" => "Aïn Oussara" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ceaffc24-7000-4046-b67b-2c91c947ec9e", "translation" => "عين وسارة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //584
+            ["id" => "f9c01f5b-9cf9-48c6-af55-7832329dc5f2", "translation" => "Amourah", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "32284ded-1eef-461e-9be8-d7c3f0880eca", "translation" => "Amourah" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2e25d307-a5fc-446f-ba2f-540767f8df86", "translation" => "عمورة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //585
+            ["id" => "0780f60d-63bd-444b-be35-57491ba0ba32", "translation" => "Benhar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7813c587-59b1-43a0-819f-407391b2746f", "translation" => "Benhar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e9f50e48-f232-4fb5-8845-2652310f073d", "translation" => "بنهار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //586
+            ["id" => "dd313be6-8e61-4c67-85d9-1f9d255ca631", "translation" => "Beni Yagoub", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f66ba82a-4418-4d4b-ac73-e89dd7a4485a", "translation" => "Beni Yagoub" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c828d29e-667f-4d96-ac8f-d38d8753f45b", "translation" => "بن يعقوب", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //587
+            ["id" => "4f268194-5d72-48d5-804c-b0f9bf804b39", "translation" => "Birine", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "90a7041b-afe8-4b93-8a9b-0bbedad00650", "translation" => "Birine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "745e7ff7-f5c4-48a7-9883-fb861c5cb9ea", "translation" => "البيرين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //588
+            ["id" => "136d0473-cee3-40e5-8505-13bd0be437f0", "translation" => "Bouira Lahdab", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4ff4b304-c8ec-4403-937e-68bd9855c1dc", "translation" => "Bouira Lahdab" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6c24d5b3-f93d-479b-9633-65960720da9d", "translation" => "بويرة الأحداب", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //589
+            ["id" => "9adb4b93-52ac-416c-bc58-29cf19c59e75", "translation" => "Charef", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "52826643-6d5c-4310-8003-9d0525a4aa2a", "translation" => "Charef" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "565d960d-245a-467a-b21a-af3dbaecbbcc", "translation" => "الشارف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //590
+            ["id" => "1020d818-0baf-4398-bb02-1619bf96c303", "translation" => "Dar Chioukh", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4f478c3b-a783-42e5-bf6d-5e70fe115536", "translation" => "Dar Chioukh" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bcb5ac03-b255-4211-9a75-2608a12ea888", "translation" => "دار الشيوخ", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //591
+            ["id" => "e2f34463-f7a0-4c13-acbd-35dfb764c127", "translation" => "Deldoul", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a340551e-4458-414f-b8af-15cbf7b4e529", "translation" => "Deldoul" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "74f60611-2593-42a7-8b26-429381b5714e", "translation" => "دلدول", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //592
+            ["id" => "ba684821-8d34-4777-8046-c67f18cd716d", "translation" => "Zaccar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a2aba758-3bc7-4beb-ac04-6c600be7c37c", "translation" => "Zaccar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9381acad-897a-41e4-aacd-ddb9027dcfd8", "translation" => "زكار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //593
+            ["id" => "bb4f2862-d6e2-4b0b-ac83-1cbeb5f2c09c", "translation" => "Douis", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7cc26444-a5ed-4200-8c53-c315430d422b", "translation" => "Douis" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0b17f69a-04c5-4e05-b571-01e6a8ffdf43", "translation" => "الدويس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //594
+            ["id" => "d28ac03e-45f3-4067-ab60-f7fcf8d86b14", "translation" => "El Guedid", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e5791aa4-069d-43b0-bd5a-4962063cfa1e", "translation" => "El Guedid" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1309087b-31f1-4e2b-b918-a67427eb633f", "translation" => "القديد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //595
+            ["id" => "e66e880b-5889-46df-bf04-6321e547aad5", "translation" => "El Idrissia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "09b5aa9e-2519-4593-b174-1adba4549559", "translation" => "El Idrissia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d7234a12-894f-4a75-8199-bfaa8c81ff28", "translation" => "الإدريسية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //596
+            ["id" => "f1d805be-b5cc-4c2e-a880-6a2ee7bcc5ee", "translation" => "El Khemis", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0c1bacbd-1424-4936-8310-aa438349cc79", "translation" => "El Khemis" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1d53e4c9-12c7-4dd1-a570-c6883647cd78", "translation" => "الخميس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //597
+            ["id" => "1d80ce74-3ca7-4646-a451-5ad91b7a60ab", "translation" => "Faidh El Botma", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "92400a46-1665-4a78-9c80-9d934ff775de", "translation" => "Faidh El Botma" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "99a5f676-5020-4423-8bc4-37d95c5682ed", "translation" => "فيض البطمة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //598
+            ["id" => "d8d63b97-8526-4b6e-b216-ba114ac7ed95", "translation" => "Guernini", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f6bf4caf-e96c-431a-b32d-282c9b94d76f", "translation" => "Guernini" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d43047b4-7a4a-417a-a5ff-68897f03a4eb", "translation" => "القرنيني", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //599
+            ["id" => "dbbd5f89-d766-4087-9384-0ed1dc0f9615", "translation" => "Guettara", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "20ffd65f-7434-4f75-b006-393bdf19e6cb", "translation" => "Guettara" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ce0624a4-45d6-42e7-adde-61167ab21f22", "translation" => "قطارة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //600
+            ["id" => "61761e56-43e5-4bb8-9207-b50c9fe10f88", "translation" => "Had Sahary", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "bc737d68-0df3-4010-ad8d-062313f22555", "translation" => "Had Sahary" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f485dfc6-1e7a-4fd3-9e01-75e07b312bfb", "translation" => "حد الصحاري", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //601
+            ["id" => "7903d941-687a-4dea-a44d-987a953585fb", "translation" => "Hassi Bahbah", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "59d38dd0-459d-49ac-ba1a-b219fb81c95f", "translation" => "Hassi Bahbah" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "09a38a80-07a2-4009-8dfc-467a3b4dcab9", "translation" => "حاسي بحبح", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //602
+            ["id" => "b7633cd9-80f8-42e3-bfe0-9b4cb8945698", "translation" => "Hassi El Euch", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1ec2794f-a5a7-4ee9-beb5-b57c7cc33670", "translation" => "Hassi El Euch" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "22b1e8cd-8308-4d04-ba00-97d10b33edc4", "translation" => "حاسي العش", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //603
+            ["id" => "896e581d-2c01-4fc2-8988-ce4ecaa259de", "translation" => "Hassi Fedoul", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c6c084de-4078-472b-84cf-57e781737a71", "translation" => "Hassi Fedoul" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ad23b196-4712-457e-b7af-26236f9f20d2", "translation" => "حاسي فدول", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //604
+            ["id" => "c0e80904-14c8-4257-af2a-4c4fe9a42668", "translation" => "Messaad", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "40fa9982-ea9f-44dd-b208-0ed3a680212d", "translation" => "Messaad" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7a25a25d-75e4-465d-b8ab-58b2f61b6a03", "translation" => "مسعد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //605
+            ["id" => "9b2f427c-0487-43c1-90b1-d12b2bdbe703", "translation" => "M'Liliha", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "bcb2be00-714b-49ca-abdd-5ca524b29fea", "translation" => "M'Liliha" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b9f6887f-a51b-421b-b41f-35f68fcd6982", "translation" => "مليليحة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //606
+            ["id" => "961a5ce9-4004-42a5-bfaf-a62c754f15b5", "translation" => "Moudjebara", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "480fba47-4cf8-49bd-b815-2be9dd859f76", "translation" => "Moudjebara" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a7ee5dc2-9ee6-43ee-8530-16e2e05b9808", "translation" => "مجبارة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //607
+            ["id" => "6680a26f-b583-411a-bace-a3fb2ad36c32", "translation" => "Oum Laadham", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2d9809b8-5b78-47c0-b6f2-eefb0c6bab96", "translation" => "Oum Laadham" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "64982e07-58e3-45a5-91f0-a1b685ab15cc", "translation" => "أم العظام", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //608
+            ["id" => "7fb7ceff-759b-47d6-8237-00d29dc27e04", "translation" => "Sed Rahal", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8aec9b15-c490-4307-8c65-3db63777325a", "translation" => "Sed Rahal" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1589e100-d312-467b-951a-31164597569e", "translation" => "سد رحال", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //609
+            ["id" => "4747ffd8-01e5-43a5-82fb-bf49ddb8980d", "translation" => "Selmana", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "cc4a790c-4765-4104-a916-5a0e73b04f78", "translation" => "Selmana" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ddc228c8-a66a-4a2a-b969-cb4e39fff4cb", "translation" => "سلمانة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //610
+            ["id" => "82e74cba-4a02-4e85-aa52-160898320797", "translation" => "Sidi Baizid", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0a045492-8882-48f6-8155-8d788c9ca245", "translation" => "Sidi Baizid" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a5486ffe-5723-4d10-81a1-d42d561109c1", "translation" => "سيدي بايزيد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //611
+            ["id" => "4c6ff0aa-8b47-4f29-acb3-1db10865aa09", "translation" => "Sidi Ladjel", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "92a64b0e-2421-4881-af85-62d411789eeb", "translation" => "Sidi Ladjel" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d77e9433-1347-481b-94c1-cc044f1feb0c", "translation" => "سيدي لعجال", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //612
+            ["id" => "a99bcdde-b8cd-479a-970f-bb8505fa034f", "translation" => "Tadmit", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a697a73c-9396-4cec-9337-e975f8ba6f58", "translation" => "Tadmit" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5e4ff6aa-8839-40e1-88e0-0af8dc30b332", "translation" => "تعضميت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //613
+            ["id" => "da6c946b-00ae-49cc-9b35-f963db552245", "translation" => "Zaafrane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "381fa3c6-1ed8-4d9c-8c1a-51170d0ef0d1", "translation" => "Zaafrane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e7af0145-866e-4bc2-a013-0d76e0d8f1ed", "translation" => "الزعفران", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //614
+            ["id" => "27148672-c4df-4929-8981-c16f002950b6", "translation" => "Jijel", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c9d19c71-108f-4b84-859e-5ce1b484dacc", "translation" => "Jijel" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "04e23c9c-6dec-4b4d-b15a-d14e3b9d141e", "translation" => "جيجل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //615
+            ["id" => "af11ed77-f3ba-497b-9793-ce8cfffb19ff", "translation" => "Eraguene", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e69536de-c4bb-4980-b2f9-2be10cf130d8", "translation" => "Eraguene" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e7bf972d-eeea-4daf-aa30-dca92bad085e", "translation" => "اراقن", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //616
+            ["id" => "7cd8b756-7acc-4062-922a-ca799a7085ae", "translation" => "El Aouana", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "46c131d3-cab8-4472-95d5-b6acff565460", "translation" => "El Aouana" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c48d3736-6309-41c0-bba4-269db3a75ff2", "translation" => "العوانة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //617
+            ["id" => "3517d3d1-79fc-4e28-9d8a-bc8c273db711", "translation" => "Ziama Mansouriah", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d06f885a-2aea-4c4e-b7f1-870289064985", "translation" => "Ziama Mansouriah" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ae4dc544-9293-4b8e-83e1-376ae2663df7", "translation" => "زيامة المنصورية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //618
+            ["id" => "183959c4-07b6-4ff9-bcb7-3a6443436a8e", "translation" => "Taher", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3d00397b-3dd2-41e9-a2bd-7d8eaca129fd", "translation" => "Taher" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8d837876-58f6-4a48-946a-325ad9155a8c", "translation" => "الطاهير", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //619
+            ["id" => "65db5f35-2b05-474f-990a-54e23bd7b3a8", "translation" => "Emir Abdelkader", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6e1b57f7-96b1-426a-8dae-c8a396fcca19", "translation" => "Emir Abdelkader" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f1f148e1-430f-452a-b722-a73c8ac1689a", "translation" => "الأمير عبد القادر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //620
+            ["id" => "52c32a61-9ac3-4d90-afb9-66d5ef32b98f", "translation" => "Chekfa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "94b9043e-1fa8-4a22-b3ea-310e1cd5f370", "translation" => "Chekfa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6338096d-77eb-4b30-bdee-fd6e1e9a29e7", "translation" => "الشقفة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //621
+            ["id" => "e8159a0c-00c4-442d-813a-08ee74273e98", "translation" => "Chahna", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f62d8ad5-2460-457d-a18b-752fe24d3f86", "translation" => "Chahna" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "86276080-1e40-4add-99a9-8fc46668756f", "translation" => "شحنة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //622
+            ["id" => "3bb16a64-ba09-4e68-a2b8-1c384473e31b", "translation" => "El Milia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5a28e7ae-dd5f-455c-9ed2-45b75f02a827", "translation" => "El Milia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "499df540-5479-4df5-b436-8cd20948b1bd", "translation" => "الميلية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //623
+            ["id" => "15f52988-4ccb-4d62-b311-f341ab25bdfa", "translation" => "Sidi Maarouf", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8dad86ed-fd1b-42b5-8661-b7c7ad98de2d", "translation" => "Sidi Maarouf" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9b7902c7-fc8c-4b5e-8e98-e2d5cf11f5a8", "translation" => "سيدي معروف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //624
+            ["id" => "86cb5a8e-e29d-4656-85dc-22ee251b6d1d", "translation" => "Settara", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "01d81204-e994-4d55-8372-4c8989424a78", "translation" => "Settara" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3679a77e-6993-42a0-9ea9-f563557e5f00", "translation" => "السطارة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //625
+            ["id" => "e9784354-ff0f-48da-b448-6abd68bf9fee", "translation" => "El Ancer", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2ccce1a8-78bf-47e2-8178-7c0bc25d6a2c", "translation" => "El Ancer" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fac7fa89-22bd-4771-aa40-847aefac8099", "translation" => "العنصر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //626
+            ["id" => "294110c3-268c-47cd-a8f8-502ba20dd38b", "translation" => "Sidi Abdelaziz", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e183f3d2-ce46-416f-85d2-ff755aa3f106", "translation" => "Sidi Abdelaziz" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "90c48d3c-e7a0-4ddf-b74f-d1d0d6ce7962", "translation" => "سيدي عبد العزيز", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //627
+            ["id" => "df6dfa4c-ddab-4a29-9a9f-780ed9270659", "translation" => "Kaous", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f5af894b-1b54-4e9d-8379-9ede2641ee0a", "translation" => "Kaous" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7f1aedea-b05b-48af-a41f-e2bdd6c9f7a4", "translation" => "قاوس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //628
+            ["id" => "292a9ed7-293b-4161-89a1-b640ca49f7fe", "translation" => "Ghebala", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "beae671b-f12b-400e-8a6a-416e455f0de1", "translation" => "Ghebala" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b9adf832-6513-4be2-9aee-191bf945e615", "translation" => "غبالة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //629
+            ["id" => "4fbf7ba4-ed94-421b-8cd7-9c793d3679ea", "translation" => "Bouraoui Belhadef", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1550300e-ff62-42cd-a5ca-15848dcd8672", "translation" => "Bouraoui Belhadef" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0f416a90-ed7a-43f4-8fed-f5aac6622946", "translation" => "بوراوي بلهادف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //630
+            ["id" => "37c52c82-988d-4835-b19c-ad248716c35d", "translation" => "Djimla", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c9485b23-3bbe-4864-b443-22a44f1dfe32", "translation" => "Djimla" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "59be82aa-6b2c-4389-ba7b-3f62c29ecbe7", "translation" => "جيملة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //631
+            ["id" => "a64a06b4-6eaf-49b5-b310-4da655de58cd", "translation" => "Selma Benziada", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "dbb37122-4fb2-46a6-b59b-9624e07f56af", "translation" => "Selma Benziada" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "47738bdf-2d67-4d10-9f5c-f6a1481a89f7", "translation" => "سلمى بن زيادة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //632
+            ["id" => "7abce272-e614-4729-80a4-0b1365a99bdf", "translation" => "Boucif Ouled Askeur", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9bb12b40-ce05-4759-b144-511e28ff534b", "translation" => "Boucif Ouled Askeur" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "762fd511-f565-4a99-80f1-efce1f4034a4", "translation" => "بوسيف أولاد عسكر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //633
+            ["id" => "8c14be8c-510a-415c-8b06-449f0e95f827", "translation" => "El Kennar Nouchfi", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a7843655-d05f-41a1-9762-397c23a96728", "translation" => "El Kennar Nouchfi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "11b2b1bb-5f99-4b9b-ab1b-61cb73e2479b", "translation" => "القنار نوشفى", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //634
+            ["id" => "1fbf5852-0fa0-437b-902e-846d2ee0238e", "translation" => "Ouled Yahia Khedrouche", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "72e27a2c-de38-4c78-b447-c0db15c221af", "translation" => "Ouled Yahia Khedrouche" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1d0b6c75-2bd5-4d0f-a8ef-cc78b67f026d", "translation" => "أولاد يحيى خدروش", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //635
+            ["id" => "ff36e5c9-51f9-455a-b350-fe0ec2dddd17", "translation" => "Boudriaa Ben Yadjis", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d94d6ff0-f8d3-43a7-aef5-a4f15f5519f5", "translation" => "Boudriaa Ben Yadjis" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "378d211b-7d73-461b-be6c-b19129f1a047", "translation" => "بودريعة بن ياجيس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //636
+            ["id" => "cbf663aa-3e4c-4d06-af4a-484c743f36cb", "translation" => "Kheiri Oued Adjoul", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "65deff02-e23f-474c-9c92-395f08bdf91a", "translation" => "Kheïri Oued Adjoul" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "65a04a8d-b301-4ba1-bf89-5c5facb336ee", "translation" => "خيري وادي العجول", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //637
+            ["id" => "64a35ee0-ff66-4530-b147-e6d62ed91f95", "translation" => "Texenna", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "99999e26-f56e-47fb-be77-f8f710addfc8", "translation" => "Texenna" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "53c102a7-129c-44bd-bd78-4dda8f4fc482", "translation" => "تاكسنة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //638
+            ["id" => "79ac1b11-a5f5-41bc-899b-83877c98cb29", "translation" => "Djemaa Beni Habibi", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "64b0e649-722e-487c-b023-d59dfb957c7a", "translation" => "Djemaa Beni Habibi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a334e1d0-2016-42ee-a03e-a43bc5d8a8a5", "translation" => "الجمعة بني حبيبي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //639
+            ["id" => "de8ebd97-47e2-4c7d-a7c2-caf6a796a2fe", "translation" => "Bordj Tahar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ca0c4350-9a44-487e-869f-45ec2eb0c99f", "translation" => "Bordj Tahar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "81dee953-f87a-4409-baec-39f946201ee8", "translation" => "برج الطهر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //640
+            ["id" => "a4fc5aee-6c05-4ea6-94e9-fc72256abed6", "translation" => "Ouled Rabah", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "69bcbbc1-d747-472e-8bdb-f58cfa66343d", "translation" => "Ouled Rabah" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "351ad77c-c431-46f4-881b-c9fbac27c647", "translation" => "أولاد رابح", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //641
+            ["id" => "be7ceaea-5e97-4a3b-a79b-81aaae251350", "translation" => "Ouadjana", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "fc6058dd-0b7f-4be1-8ef4-ce9c2ae02dcf", "translation" => "Ouadjana" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e11abd2f-2fc5-4358-845b-aa68b4e2b51d", "translation" => "وجانة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //642
+            ["id" => "76f3a636-dc1a-4d7d-a454-06242da65997", "translation" => "Setif ", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5b44d248-36d4-43c7-9c72-43249ccf8468", "translation" => "Sétif " , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6b6b47f3-647c-4d97-9de1-946fe1273ffc", "translation" => "سطيف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //643
+            ["id" => "5f173ab2-e428-482a-ab9d-c6939faebcf4", "translation" => "Ain Abessa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "fc1e39ee-f251-4944-baf7-9f74312ff47a", "translation" => "Aïn Abessa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6f7ef11d-8a50-4a7c-9e7f-f6453a957d38", "translation" => "عين عباسة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //644
+            ["id" => "3480d41c-6e9d-419a-9494-09fb94933ffc", "translation" => "Ain Arnat", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e16c5a92-90db-406b-88fe-ca5ed1257ed4", "translation" => "Aïn Arnat" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c86867f6-f228-4fcf-b1e6-66c4abb46822", "translation" => "عين أرنات", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //645
+            ["id" => "fb7ccc26-b45e-4439-8981-11664516ab0b", "translation" => "Ain Azel", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1a4bc313-3781-4663-94b5-ba45652835ac", "translation" => "Aïn Azel" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "16e56110-0404-48e8-a2f2-1e01880bc0ff", "translation" => "عين آزال", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //646
+            ["id" => "b95c9170-3906-4f17-a08f-fb4553830b4e", "translation" => "El Eulma", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "472776ac-746c-4b2d-972e-1755038e22af", "translation" => "El Eulma" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "43876af3-9512-4fca-977f-16cedbae7219", "translation" => "العلمة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //647
+            ["id" => "13622408-7b05-4495-ae45-7953c67ae4a0", "translation" => "Tala Ifacene ", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5423edce-9eb1-4ea1-a350-c6358bf900ce", "translation" => "Tala Ifacene " , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "22099256-f68c-42da-acde-b58cc22b1f6b", "translation" => "تالة ايفاسن", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //648
+            ["id" => "81941f76-12aa-49b6-a072-c9b28d061728", "translation" => "Ain El Kebira", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "20e4c9d0-8cb5-44b7-9ae8-01ad354b7853", "translation" => "Aïn El Kebira" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e6b4206a-ccd4-4f60-8958-3683167900ee", "translation" => "عين الكبيرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //649
+            ["id" => "22e48602-5f94-45aa-8ff5-51905421410a", "translation" => "Ain Lahdjar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "76499300-0107-4cbf-a078-59846a67cff5", "translation" => "Aïn Lahdjar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "46e5e105-d0e4-4f43-b217-e5474e673f3d", "translation" => "عين لحجر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //650
+            ["id" => "e4623c60-a7b4-4ab2-848c-f1ceb47775b5", "translation" => "Ain Legradj", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "556807a9-1f98-4338-a314-ac65fcf0450b", "translation" => "Aïn Legradj" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "51a035bb-7de3-44c6-9057-e8943a15601f", "translation" => "عين لقراج", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //651
+            ["id" => "c63a517c-ae51-4460-a08e-4749bdeab4c8", "translation" => "Ain Oulmene", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6f3fac8b-5dfe-4994-a7ae-832b22792768", "translation" => "Aïn Oulmene" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "86dc3687-2a87-4acf-94aa-cdf0115eff73", "translation" => "عين ولمان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //652
+            ["id" => "0cbd4dc5-66ad-4d76-bf2d-558427e1b515", "translation" => "Ain Roua", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "902dae9b-2722-4fd3-9a52-1bdbdb63d55a", "translation" => "Aïn Roua" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "72103426-1189-47a2-8f34-69f7004e67dd", "translation" => "عين الروى", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //653
+            ["id" => "87a5a842-b489-4f30-8558-75c5a210eb48", "translation" => "Ain Sebt", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "35f3f802-00e8-4496-92e2-62bdb265b9bf", "translation" => "Aïn Sebt" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5a63d71e-bfbe-4135-96d3-1bf6986606bf", "translation" => "عين السبت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //654
+            ["id" => "9d5835ac-56c0-40e7-a33a-371c9a884a56", "translation" => "Ait Naoual Mezada", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "15009695-62e9-4bf9-9c2a-7569cf7edd40", "translation" => "Aït Naoual Mezada" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0a7232b4-6ce7-48f0-8b15-58dc8064ee4f", "translation" => "آيت نوال مزادة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //655
+            ["id" => "054d5320-a28f-4c8e-a7d5-dc653c2db4e3", "translation" => "Ait Tizi", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c062311d-be50-486e-aa33-4c4a20c58365", "translation" => "Aït Tizi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5953c5e2-351c-473e-968a-b22fd8ce08b2", "translation" => "آيت تيزي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //656
+            ["id" => "a2dc5f4d-6ac5-481a-9e21-a59f2e280d3f", "translation" => "Beni Ouartilene", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "eca6a3e3-42c2-42f1-97c1-4e3da5d3412b", "translation" => "Beni Ouartilene" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "16cd1f90-6444-4a30-a234-84101e9bd37f", "translation" => "بني ورتيلان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //657
+            ["id" => "523764e7-87f1-4ed1-ac24-43362274b738", "translation" => "Amoucha", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "67acab0c-3c2d-419c-b695-2ffbddc85505", "translation" => "Amoucha" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "16ef2a43-0102-4d7d-9323-71e6b5d5cd00", "translation" => "عموشة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //658
+            ["id" => "5bf5f70c-bc87-44e0-8201-e109b23eb493", "translation" => "Babor", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6223226d-d358-49f7-bf1c-c6ef05553e8a", "translation" => "Babor" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "47318477-f2a3-47e5-8bf3-077012513411", "translation" => "بابور", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //659
+            ["id" => "e66646c5-37bf-4467-b8e9-c8da644e1a7d", "translation" => "Bazer Sakhra", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "51e38450-bd28-4bbb-9689-52ec347a9271", "translation" => "Bazer Sakhra" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "da1d920c-4145-448d-ad29-2639bd319967", "translation" => "بازر الصخرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //660
+            ["id" => "e38ff334-aea9-4711-ac42-2c892653d748", "translation" => "Beidha Bordj", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "08db561a-d2fb-43d3-a93b-9a67bc08806f", "translation" => "Beidha Bordj" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b61c7a53-67b8-42e7-bb5a-7ac1102ef0d2", "translation" => "بيضاء برج", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //661
+            ["id" => "37a8def6-ab8f-48fe-a8f0-20c7cf2e77a3", "translation" => "Belaa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f99f9ede-7553-45e0-b38b-2b61cb4b4ad6", "translation" => "Belaa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "97066774-8eed-4278-b332-2d2aa14c77e4", "translation" => "بلاعة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //662
+            ["id" => "f47365a5-4d90-4c43-ac58-fe47b18bda04", "translation" => "Beni Aziz", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1c036ec3-d999-47ec-94f1-62a0c63ce48c", "translation" => "Beni Aziz" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "34fddd3d-bcfb-43b2-a2c1-34dc948db5eb", "translation" => "بني عزيز", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //663
+            ["id" => "cd239bd1-5943-4943-afc9-0479c40e1f04", "translation" => "Beni Chebana", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "15823e11-4479-4687-be80-bb5e4a791767", "translation" => "Beni Chebana" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "05ca5161-0d56-4e85-981d-71c3b9a51caf", "translation" => "بني شيبانة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //664
+            ["id" => "1824c0bf-c846-4698-995e-fbdf3f7398a9", "translation" => "Beni Fouda", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c970c4f8-0d72-4a77-9685-49d0c8ee152d", "translation" => "Beni Fouda" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2801fd37-906c-4687-8a29-1b8667db6b41", "translation" => "بني فودة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //665
+            ["id" => "418c57da-29e5-4991-8620-3faf3c66c82a", "translation" => "Beni Hocine", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3e266852-8ba0-444f-a755-a7fa3f35301c", "translation" => "Beni Hocine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c1e16c7f-22aa-4128-b4e9-8a56ae1c202b", "translation" => "بني حسين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //666
+            ["id" => "d7cb6de3-11a5-40c1-9e69-279f23693111", "translation" => "Beni Mouhli", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e9649267-0bf1-4ab2-bf6b-fd021de4e52b", "translation" => "Beni Mouhli" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e5d6bf61-aff2-47af-b21d-9f5704ab4457", "translation" => "بني محلي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //667
+            ["id" => "ae36f054-db54-4262-904d-c60c1c4a51a5", "translation" => "Bir El Arch", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f5dd43d7-3787-46c9-bd71-c25ba3fd5604", "translation" => "Bir El Arch" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f9e14aba-8cee-4b16-961a-fb8437fc370e", "translation" => "بئر العرش", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //668
+            ["id" => "df750956-a0f8-415c-90dd-43d945356cfb", "translation" => "Bir Haddada", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2df14d2d-9be2-476e-9987-41ef2e2bae38", "translation" => "Bir Haddada" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "793e8731-64de-417e-83ac-da2e4ee426b5", "translation" => "بئر حدادة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //669
+            ["id" => "88eb9278-c445-45b4-b706-49bebc5b91e0", "translation" => "Bouandas", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ec1cb3e7-8f01-46ac-99d1-e81a9084d9d7", "translation" => "Bouandas" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e8a40725-6a10-4f67-844f-39a9cfee0224", "translation" => "بوعنداس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //670
+            ["id" => "a7260eba-0c42-4b56-89fd-5d16ff226b21", "translation" => "Bougaa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "daf16623-53b9-4554-9233-9ae52626df07", "translation" => "Bougaa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "148b91e3-dc9f-489d-acdc-6d3c6871b59f", "translation" => "بوقاعة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //671
+            ["id" => "58778e45-28b8-49de-90c7-8a01b5a37c87", "translation" => "Bousselam", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "80006c35-1da8-40c3-93a9-b79799c36817", "translation" => "Bousselam" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "87388281-6780-422a-a06f-b59edc7b8b6c", "translation" => "بوسلام", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //672
+            ["id" => "5a22136e-9c57-4da2-8bc1-3a3be53222e5", "translation" => "Boutaleb", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "cf4c4b20-edb7-4f25-874f-1402e981a056", "translation" => "Boutaleb" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a95c12b0-2d20-4b22-b633-2468070f9bac", "translation" => "بوطالب", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //673
+            ["id" => "a1c471a9-4816-4b2f-af2f-c447f2b5e26f", "translation" => "Dehamcha", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0939ae70-73d7-41e2-b976-eb9fdf48b2a1", "translation" => "Dehamcha" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bff99693-7b76-416c-8c59-e9a00574ad57", "translation" => "دهامشة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //674
+            ["id" => "a86884e3-125d-41a2-875e-53c8b11530a5", "translation" => "Djemila", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e00fc309-7062-450e-aa45-809e81bc6f57", "translation" => "Djemila" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "594250d2-6faf-4d5c-8c5a-b821fa27dbef", "translation" => "جميلة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //675
+            ["id" => "aa0ea3a6-9c51-465a-8d19-e73423d7ff2d", "translation" => "Draa Kebila", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2ea3dc52-57b3-4c2a-a2e8-b20319669df5", "translation" => "Draa Kebila" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d2ae23de-79d4-4416-baaf-013c8fb03fb0", "translation" => "ذراع قبيلة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //676
+            ["id" => "bc618c1e-5fdc-4286-892e-af595dc5a37b", "translation" => "Tizi N'Bechar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a6489afa-fbfe-4578-b367-61f145fa34eb", "translation" => "Tizi N'Bechar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1efc33e1-1e90-44a1-89f6-72f452ce34c2", "translation" => "تيزي نبشار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //677
+            ["id" => "5b4a2f9d-96c5-4531-a0ea-22afa18721c3", "translation" => "El Ouldja", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5a8c22e6-af33-4326-81a4-4b4ae27b35f8", "translation" => "El Ouldja" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7a9b08a2-b043-4165-88a2-ba781386eb58", "translation" => "الولجة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //678
+            ["id" => "a568c45a-60d1-4d0a-b101-9a3e4b699090", "translation" => "El Ouricia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a5f532e0-3250-49b8-838f-696773219f1c", "translation" => "El Ouricia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "73046b06-0f58-4636-b2b8-fbc47046d07e", "translation" => "الأوريسية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //679
+            ["id" => "38fe0f35-6eab-45f2-a34a-1c78f34fa21a", "translation" => "Guellal", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d2765ae3-c362-4a6c-abb1-dd3f0d5d9186", "translation" => "Guellal" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "44e58135-706d-4298-848e-8dc449e5f2c2", "translation" => "قلال", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //680
+            ["id" => "6efb29f3-cd78-4845-8d79-594528ae17bf", "translation" => "Taya", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "aacb33bd-c451-4f1a-ae63-898fa5ccbf6b", "translation" => "Taya" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "29503f14-7335-4e01-9993-8debf08f68cf", "translation" => "الطاية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //681
+            ["id" => "acd500ab-20d7-4d41-8917-6badc6326284", "translation" => "Guenzet", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "96293067-0703-43a7-b35c-9c637f5e1188", "translation" => "Guenzet" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "89245080-386b-4b79-b1ba-7dbafa75a994", "translation" => "قنزات", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //682
+            ["id" => "583a3ba7-a354-4f4f-98fd-a269733652a9", "translation" => "Guidjel", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "dd06ec68-7c52-43ff-af58-a42608d97ee8", "translation" => "Guidjel" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "69e713fd-8fce-47bb-96fd-338a77ca5c27", "translation" => "ڤجال", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //683
+            ["id" => "cd80979a-b313-4a07-8db1-2fb34dbdd936", "translation" => "Hamma", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "82887a7e-b266-4bd9-99a0-75ec85007d02", "translation" => "Hamma" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8071a683-c38b-498f-a328-443fea3fbc41", "translation" => "الحامة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //684
+            ["id" => "8fe18744-5c07-4519-b353-6b246ef593e4", "translation" => "Hammam Guergour", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b1af976c-778a-4307-9728-9d5389c25883", "translation" => "Hammam Guergour" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f82e12b6-83ec-49aa-be25-bfde7b5973a1", "translation" => "حمام قرقور", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //685
+            ["id" => "a07c8502-9879-4697-a423-5161771f35c4", "translation" => "Hammam Soukhna", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d7ded4d4-97c3-441d-ad2f-09a321dd649e", "translation" => "Hammam Soukhna" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1f2a3227-b98c-4e50-bb08-0489512ebf30", "translation" => "حمــام السخنة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //686
+            ["id" => "f21ec001-63ee-44c5-b017-11be5b022753", "translation" => "Harbil", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d2394527-b4db-41b9-b228-a48f5282ef3c", "translation" => "Harbil" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ac1a6e3e-f6d3-4258-bd73-7aa0e27696f2", "translation" => "حربيل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //687
+            ["id" => "c47b12f3-85b5-4518-9e34-f68a69dd5d5c", "translation" => "Ksar El Abtal", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1ba1369d-77c1-447a-b2d2-b337a5dae742", "translation" => "Ksar El Abtal" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1bafa049-fb3b-45c8-b61a-460592f4d8fd", "translation" => "قصر الأبطال", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //688
+            ["id" => "843e0147-f039-4a02-869d-bf30e733a11d", "translation" => "Maaouia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "656e650f-d674-4624-9197-4c47081104ab", "translation" => "Maaouia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7f0b6498-f515-4369-bc3f-c3fbe8428aca", "translation" => "معاوية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //689
+            ["id" => "32779fe0-02c5-4b06-9ae3-c715c07b3e50", "translation" => "Maoklane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "dab467bd-a214-430d-8a64-fa50728ed192", "translation" => "Maoklane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1b14071e-32cf-4011-962c-37cf32d9533e", "translation" => "ماوكلان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //690
+            ["id" => "c6d96e8b-8963-4a26-b7c9-360b0aaf4b5c", "translation" => "Mezloug", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f45ccf49-753e-49d3-8b51-7ba7567ed174", "translation" => "Mezloug" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "19421201-cd04-4faa-b76b-05cc7c06a7e8", "translation" => "مزلوق", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //691
+            ["id" => "eb83f12c-0767-4a73-8807-d46f14821f59", "translation" => "Oued El Barad", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7056a284-4a2b-4aa1-afc0-70eaa2ef063e", "translation" => "Oued El Barad" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8eb3ca55-49e0-4609-ac95-45b6cc0b6af3", "translation" => "واد البارد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //692
+            ["id" => "bacc0998-04e6-4c0b-ab85-4b61ada1893f", "translation" => "Ouled Addouane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1516314f-186b-46d7-9163-f80e073516cd", "translation" => "Ouled Addouane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c52a7f5e-df87-4dbc-a598-28a4b27abe28", "translation" => "اولاد عدوان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //693
+            ["id" => "a0b376bd-2b05-46d5-aea2-4a91936adebc", "translation" => "Ouled Sabor", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "015b36bb-31e4-4556-ba41-5292775f7e79", "translation" => "Ouled Sabor" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "21c182ad-efc3-4e47-b9de-3c5136feee9f", "translation" => "اولاد صابر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //694
+            ["id" => "5c922e9f-d1c9-4d76-8fe2-6672622683dd", "translation" => "Ouled Si Ahmed", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0815ceb1-414b-4228-a1fb-72d024810502", "translation" => "Ouled Si Ahmed" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "76e13a79-90f9-4cb4-acff-8a17ec13b508", "translation" => "ولاد السي أحمد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //695
+            ["id" => "a27b6bd3-9115-4959-a943-54a4d388fd75", "translation" => "Ouled Tebben", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9b41f2af-aae2-4bda-af95-14ecf9b2529f", "translation" => "Ouled Tebben" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8c90ae39-505b-4012-aa32-98328602485c", "translation" => "اولاد تبان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //696
+            ["id" => "fd54939a-c092-4433-a79f-35ff1c9ac08a", "translation" => "Rasfa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "eceaa756-329b-42a1-837d-03428e75e904", "translation" => "Rasfa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8563ef32-73c7-43cd-aaf7-9a13c65b0c5b", "translation" => "رسفة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //697
+            ["id" => "9a557986-474c-42ae-8bcc-9005e8e530ef", "translation" => "Salah Bey", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ccacddab-402c-4f0d-b703-714cd8de5aa3", "translation" => "Salah Bey" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fb82c437-262e-4e09-bea0-dd98411546c3", "translation" => "صالح باي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //698
+            ["id" => "b7b3e2ac-fce6-4775-a8ce-69b7cdfc1846", "translation" => "Serdj El Ghoul", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0a21663b-5ebf-47e9-81d5-9f586e3bdfe5", "translation" => "Serdj El Ghoul" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "24a16dd9-2b54-4f3b-a7b1-c3e2479cfff5", "translation" => "سرج الغول", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //699
+            ["id" => "30a23c8d-9694-4c80-94bd-aba26dc13763", "translation" => "Tella", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0684e637-d19d-40f2-b844-52d25b5ebd76", "translation" => "Tella" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3aa034a1-6347-4df6-a3b6-bc70efe6d175", "translation" => "تلة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //700
+            ["id" => "ef6e5ed7-a7b8-4bed-84c1-9967767c0057", "translation" => "Tachouda", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5c61d829-b6f3-425b-ba9f-0e5bf4250c71", "translation" => "Tachouda" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2c1ac40f-263d-4a19-9cef-22be736c5744", "translation" => "تاشودة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //701
+            ["id" => "b22cfc21-b941-4267-9802-59087a7ea5c7", "translation" => "Guelta Zerga", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "349095ed-f5e1-4d82-b381-09995004a9c9", "translation" => "Guelta Zerga" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e77b895a-42a9-4c3b-9b4f-756fa486d3fe", "translation" => "القلتة الزرقاء", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //702
+            ["id" => "fdb29eba-0c4c-4593-899f-1ac5681b972e", "translation" => "Saida", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a8ccdec3-8f0e-401f-ba85-2698871bd542", "translation" => "Saïda" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "553b750a-821c-46e6-abd6-9108f5731bd6", "translation" => "سعيدة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //703
+            ["id" => "a68b6829-c247-46df-afcf-00083e9d4926", "translation" => "Ain El Hadjar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d9e181ca-4c47-4957-b21c-b52370d26ff7", "translation" => "Aïn El Hadjar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "06b30e62-1444-41a3-93fd-ea7ed924a25a", "translation" => "عين الحجر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //704
+            ["id" => "c5f76ceb-6449-4b18-a211-95eb63bc6809", "translation" => "Ain Sekhouna", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a17e3bcf-851d-42c3-aca7-3873fadf5072", "translation" => "Aïn Sekhouna" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fa13f7a5-c07b-4e2f-89f4-dd1cefe2ae32", "translation" => "عين السخونة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //705
+            ["id" => "0eb66c97-fcf9-40e0-a145-1f84178d759d", "translation" => "Ain Soltane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f2b27d14-d7f2-474f-ba4c-295fa8b2bbfc", "translation" => "Aïn Soltane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "78660953-9470-4550-889f-fb6d05655481", "translation" => "عين سلطان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //706
+            ["id" => "5b07e978-7e21-478c-bf32-b476a8b44911", "translation" => "Doui Thabet", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2057c366-b740-4ec0-b92c-b6585586d54b", "translation" => "Doui Thabet" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c2ac826f-d0a5-4fe8-ac81-cbedee1f0611", "translation" => "ذوي ثابت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //707
+            ["id" => "d97489c2-1234-486b-991d-f071f5a32231", "translation" => "El Hassasna", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1af43ade-fcca-4a7d-b606-786d1cc8c462", "translation" => "El Hassasna" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ea669a9e-ba39-431d-b8a8-633fee47357f", "translation" => "الحساسنة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //708
+            ["id" => "2caaf9e8-c99c-47b5-9f98-bf7e3dc86755", "translation" => "Hounet", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "71c92b29-69eb-4d7a-8832-603555fe7000", "translation" => "Hounet" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "59046de9-e3fa-4ad2-80ea-d732c3c77512", "translation" => "حنات", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //709
+            ["id" => "103e17e1-8ab9-4125-90b5-7b48e3e1e10a", "translation" => "Maamora", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ef758a4f-e101-4ff3-9fec-8ee6b721faf5", "translation" => "Maamora" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2aae8501-c144-4de4-b35c-39b6b62f5c29", "translation" => "معمورة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //710
+            ["id" => "59444ace-8f30-4c41-be7b-65af1d2565f1", "translation" => "Moulay Larbi", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "710a70d0-bd2e-4672-8a8c-31fe796193b4", "translation" => "Moulay Larbi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1d642ab3-7782-4fe1-a2a9-3631dee36c41", "translation" => "مولاي لعربي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //711
+            ["id" => "c0da79fb-8f9c-49f6-8203-dc412d9de57c", "translation" => "Ouled Brahim", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "07da77f1-32d9-4148-b650-314354919a6d", "translation" => "Ouled Brahim" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bcd7a5ac-de51-473e-af05-7b3b0c5b94c8", "translation" => "أولاد براهيم", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //712
+            ["id" => "a05cabc5-bc5e-4b26-b091-6365698646f6", "translation" => "Ouled Khaled", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "32a49f41-5222-4303-8470-73a8afd4c58f", "translation" => "Ouled Khaled" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a44126d2-3805-4be9-a0d5-47862e041166", "translation" => "أولاد خالد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //713
+            ["id" => "ef110956-68b4-4a32-9b01-cc12c14fbf8f", "translation" => "Youb", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c3ffac92-e429-4f02-bdbc-9c30cedd69a1", "translation" => "Youb" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7c2cdffe-82fc-40a3-8aa6-d6438680e8f5", "translation" => "يوب", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //714
+            ["id" => "d0993ac7-ed5d-4ce4-a305-a02445aee5c5", "translation" => "Sidi Ahmed", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6457cf32-9cd8-4314-82cc-a3e2de71dba9", "translation" => "Sidi Ahmed" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e759a276-0046-4358-b393-f52e582b46be", "translation" => "سيدي أحمد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //715
+            ["id" => "b37c8081-5968-4403-84c1-e472dabaea71", "translation" => "Sidi Amar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6cc619b0-b12c-44fd-bd0b-59fb9edfe6cc", "translation" => "Sidi Amar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3bcd9eb4-0b9f-41b2-a88f-78e3f86bb451", "translation" => "سيدي اعمر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //716
+            ["id" => "d6513c61-70fd-4380-bc6a-b4a333f8d5e6", "translation" => "Sidi Boubekeur", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f041f208-9f66-4161-bdc6-8c01676cf741", "translation" => "Sidi Boubekeur" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "db66c887-0056-4ef9-be6a-aa013c3d8075", "translation" => "سيدي بوبكر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //717
+            ["id" => "5091d27f-ac91-496b-ae3d-edaacdbdb688", "translation" => "Tircine", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "89202742-ce47-448d-8c1f-4237ba67e433", "translation" => "Tircine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "838e05d3-809d-4fcb-bc46-8eee7779501b", "translation" => "تيرسين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //718
+            ["id" => "984ada5e-50be-467a-ad6b-470e53f54f93", "translation" => "Skikda", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3b44c45a-c60d-40e4-a20f-85723e356beb", "translation" => "Skikda" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a4801536-5807-40e2-b380-88575de7c1a2", "translation" => "سكيكدة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //719
+            ["id" => "8efaf5c6-d21d-4a5c-843f-eaad24a60335", "translation" => "Ain Bouziane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5ad10f6b-53ad-4fc8-9dec-7aa9caa10ca9", "translation" => "Aïn Bouziane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "727205fc-bd02-4a3f-8628-06430c1c1657", "translation" => "عين بوزيان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //720
+            ["id" => "8bd4dfd1-18da-4aa6-906f-4b4b95358dc7", "translation" => "Ain Charchar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9f5b4420-7d35-4c18-ba6b-3882f4e61035", "translation" => "Aïn Charchar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0dde9551-8331-47bf-8353-e1441bb65534", "translation" => "عين شرشار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //721
+            ["id" => "f6ca2df7-9513-4eda-9e00-8317d1363312", "translation" => "Ain Kechra", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "96d94716-8222-4fbb-b5eb-b58e9dd242cc", "translation" => "Aïn Kechra" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "56c6e085-9a2f-48bd-9ea4-29537f20d49d", "translation" => "عين قشرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //722
+            ["id" => "382ec341-1201-42a3-a10b-356bae1e4bf1", "translation" => "Ain Zouit", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "cde80ca1-bf26-4fa7-ad4e-f1543d3e12f4", "translation" => "Aïn Zouit" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7d2edf19-d13b-4152-b62a-dfd62629ca6a", "translation" => "عين زويت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //723
+            ["id" => "1eed800e-f8c9-49e0-a8a4-7b6ff1f0e554", "translation" => "Azzaba", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "086cef6f-045a-493f-8fcc-1853141907f3", "translation" => "Azzaba" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b524e210-0416-41e6-ad79-15f000354bf9", "translation" => "عزابة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //724
+            ["id" => "b0dfa4e1-2f6d-4358-9980-42f466867f3d", "translation" => "Bekkouche Lakhdar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "35be14e0-fad9-47b1-a1b4-cca9a29ffb56", "translation" => "Bekkouche Lakhdar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "88256bb1-9231-4ff7-9e73-d3434563c81a", "translation" => "بكوش لخضر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //725
+            ["id" => "3d6afd78-57cf-426d-b0c7-24eac04127fd", "translation" => "Bin El Ouiden", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a339deea-774b-430b-83c9-f71f11fb9a8f", "translation" => "Bin El Ouiden" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "44e1c174-8906-4d40-b49a-1aff962d4f81", "translation" => "بين الويدان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //726
+            ["id" => "3684b3d5-65f5-4403-990d-de8536134ca7", "translation" => "Ben Azzouz", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6189572b-341b-415e-a6d3-4de9eb21b7e9", "translation" => "Ben Azzouz" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7d2d2dfb-0d45-4a2f-813f-8e466c8c8fbc", "translation" => "بن عزوز", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //727
+            ["id" => "faa65a0b-42c5-4e41-a7e1-d271734bca74", "translation" => "Beni Bechir", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "02f24238-4f94-4855-9713-7b3ca403d26e", "translation" => "Beni Bechir" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "afc9afe2-31b9-4a24-aabb-f623b10c2ba6", "translation" => "بني بشير", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //728
+            ["id" => "22adc540-8068-4fdd-bca5-d122f37cda27", "translation" => "Beni Oulbane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7afb8833-b64d-406a-80ff-7bd403b7e74b", "translation" => "Beni Oulbane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "baf32da8-e629-4b57-a7a3-3511355eb791", "translation" => "بني ولبان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //729
+            ["id" => "3e1c6694-e4e6-40a1-aced-b051ae9c3663", "translation" => "Beni Zid", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e91204f5-06fb-44c8-9a20-ebda983b0db1", "translation" => "Beni Zid" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ba4c06a0-8707-4a56-bb43-b938de8c172b", "translation" => "بني زيد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //730
+            ["id" => "8797a824-ee5c-4da4-9daa-45e178eb3a84", "translation" => "Bouchtata", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7da91f42-0f55-418b-8b55-163ebfc2abf9", "translation" => "Bouchtata" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "aa5d9d7f-656c-468d-a779-69abcb73c4a1", "translation" => "بوشطاطة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //731
+            ["id" => "e927f2d6-f8cf-46b8-a9ff-f3ce48a661ef", "translation" => "Cheraia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "103cde83-43be-44d2-abe8-b20e2a9bd319", "translation" => "Cheraia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "73b0f665-4250-4222-a05f-cc0f7802ae29", "translation" => "الشرايع", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //732
+            ["id" => "9491a6b9-e5f3-4af1-b5b4-e0cc04cf72d0", "translation" => "Collo", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "73798271-c550-43d6-be5f-096606c28924", "translation" => "Collo" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c6bb7ac1-7046-4c52-8282-d955b0153cbb", "translation" => "القل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //733
+            ["id" => "ef88bea2-54af-49a1-b9b7-d80d6b33e456", "translation" => "Djendel Saadi Mohamed", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "85782ff3-5545-4791-8b36-bce257532267", "translation" => "Djendel Saadi Mohamed" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3f252753-79d1-4e16-b38f-0cfd1dede671", "translation" => "جندل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //734
+            ["id" => "7890ff6b-088b-4a09-8269-f7e29f0bb818", "translation" => "El Ghedir", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0955fea8-25d5-4acd-89cc-6a6d2bc48d38", "translation" => "El Ghedir" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "74cec5d5-9805-4b96-b7b2-0ffc27d9c383", "translation" => "لغدير", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //735
+            ["id" => "da9e07ff-371b-4346-b5fa-f2cda8d9b72e", "translation" => "El Hadaiek", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e0888c8d-8dae-4905-bcad-59ad00bbb153", "translation" => "El Hadaiek" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f29657ca-a0db-480b-b0fc-030d51fe1ac3", "translation" => "الحدائق", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //736
+            ["id" => "afe9520e-63f4-49d3-bb13-a4692183447e", "translation" => "El Harrouch", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "96d19875-46bd-424d-a871-9570a3238784", "translation" => "El Harrouch" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5515e464-4a84-4529-9d0c-eb03180b59a2", "translation" => "الحروش", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //737
+            ["id" => "64e73c1f-f5fe-4521-834e-d8d63062c001", "translation" => "El Marsa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3cfcbb21-9f69-4471-a761-eb08a355832c", "translation" => "El Marsa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8c1c895a-d3d3-4b8f-b4f3-8409b36da8c5", "translation" => "المرسى", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //738
+            ["id" => "82e28d67-b3da-4d82-85c7-5513ac2d45c3", "translation" => "Emdjez Edchich", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d6c5bc22-a10b-4b4b-b1f8-e70eb0aefbf0", "translation" => "Emdjez Edchich" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b0542129-3cd9-4ba0-bc8e-1d01addf245d", "translation" => "أمجاز الدشيش", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //739
+            ["id" => "45707fbf-85d2-49fe-a268-bf2cc2258529", "translation" => "Es Sebt", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "91eb9d43-3f18-4a08-8050-0321acacff80", "translation" => "Es Sebt" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2bcc74f0-01b9-45b4-8354-39beab53ff54", "translation" => "السبت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //740
+            ["id" => "c108f6f0-901d-45f2-8853-6b2bd9073aa0", "translation" => "Filfila", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "aa8ba310-9f5e-4c50-94ab-da355988a47a", "translation" => "Filfila" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "22e9a569-d733-4326-aaaa-1643d53037fe", "translation" => "فلفلة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //741
+            ["id" => "449158c3-9b38-4ef3-8f94-e0234c42a218", "translation" => "Hamadi Krouma", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "93fbfdb7-33e2-466c-baa4-3bd2d475d5b6", "translation" => "Hamadi Krouma" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8abd64c1-101a-442b-a2f2-c4649d31924f", "translation" => "حمادي كرومة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //742
+            ["id" => "3be40180-fcc9-4d9d-a850-3620ca87c383", "translation" => "Kanoua", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f3fc7a98-e6b5-467e-93cf-2f65caaca4b6", "translation" => "Kanoua" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "439b9e76-9a1b-4038-afb9-acb404c364e9", "translation" => "قنواع", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //743
+            ["id" => "94163f24-0310-48ca-be75-5de51d42f34e", "translation" => "Kerkera", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c2d36717-b7f8-4b70-bde3-be13c92dccd5", "translation" => "Kerkera" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c2c5e56a-524c-485d-8dc1-b72cd6134bf7", "translation" => "الكركرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //744
+            ["id" => "df01f4fc-bcce-4277-b6dd-6b11d935a3cb", "translation" => "Kheneg Mayoum", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "68e83795-4249-4d83-88a5-fa14048b245c", "translation" => "Kheneg Mayoum" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9c70dc95-68c0-4afd-b0b7-e171e19a5bda", "translation" => "خناق مايون", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //745
+            ["id" => "3b08f22a-df12-4e33-9501-ba031a4dcee0", "translation" => "Oued Zehour", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d4bf943f-c172-4e50-8f8e-9a71234784cf", "translation" => "Oued Zehour" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ab15aa0f-8645-4bbc-8d67-108f8ed92f13", "translation" => "وادي الزهور", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //746
+            ["id" => "cfcdf858-9840-4fca-b43c-89d30975ccf9", "translation" => "Ouldja Boulballout", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ec65bfe3-2d45-4553-af94-4a1b02a7a0be", "translation" => "Ouldja Boulballout" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "dfd0c87b-0e5e-48e0-95c7-2a3c5cf71c4b", "translation" => "الولجة بوالبلوط", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //747
+            ["id" => "1c9dbd07-02b5-4ac1-87dc-14f3c613012c", "translation" => "Ouled Attia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "64281826-d7c7-453f-b13b-f8441ca5b548", "translation" => "Ouled Attia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8f32976f-f546-42ac-854f-a3068aac7647", "translation" => "أولاد عطية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //748
+            ["id" => "c456f00c-14cd-41df-9f80-30b7e119297f", "translation" => "Ouled Hbaba", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9131171d-dc96-4956-92f6-02fe06f9e05f", "translation" => "Ouled Hbaba" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0a137e80-eaaf-4600-8fd5-1b72e1229b32", "translation" => "أولاد أحبابة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //749
+            ["id" => "233e8593-1732-4783-adec-6db04759d38d", "translation" => "Oum Toub", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "71cc289b-8b46-467b-8ea8-e7d1a8330c2c", "translation" => "Oum Toub" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d81622a7-0f75-4f11-926c-f0482c254848", "translation" => "أم الطوب", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //750
+            ["id" => "b18e9f31-791f-48d0-baaf-e2ee01b76dcf", "translation" => "Ramdane Djamel", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a34c059b-b027-4d7b-95a6-2bdf5b79734b", "translation" => "Ramdane Djamel" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e1626fb6-82f4-402d-8a4d-5039330e0329", "translation" => "رمضان جمال", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //751
+            ["id" => "15a8c788-6bf4-45ad-b242-03e446d6b322", "translation" => "Salah Bouchaour", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "022d3bbf-be8d-4cd9-8c28-496ecb1ed6eb", "translation" => "Salah Bouchaour" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "69bc5f14-ce24-4ae5-90f0-9936afcbdc9b", "translation" => "صالح بوالشعور", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //752
+            ["id" => "cb2f6c45-bd54-4dae-9601-e0bc99075f1e", "translation" => "Sidi Mezghiche", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "47e5cfec-bf2d-4b17-ae38-f742711ed8c6", "translation" => "Sidi Mezghiche" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fd7af392-deac-42ef-ab09-d384faa7d9ac", "translation" => "سيدي مزغيش", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //753
+            ["id" => "e9ee3268-6245-4659-9173-74659c5ae1ca", "translation" => "Zitouna", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a4b0fa4c-7a26-4129-8adb-dd10be8d2317", "translation" => "Zitouna" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6f250873-84de-46e1-b1ed-88105b174e23", "translation" => "زيتونة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //754
+            ["id" => "371f9759-a207-445e-82a9-bb28212481a1", "translation" => "Tamalous", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1cc9eb94-2d5d-4084-ad3d-c85db9896cad", "translation" => "Tamalous" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d9f2d8aa-1290-483c-bd4a-d2275bc2d5fd", "translation" => "تمالوس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //755
+            ["id" => "20b8ffdc-bfa6-4601-8012-4bd9aa75efb2", "translation" => "Zerdaza", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7f44b2c7-bbac-424d-826a-2d2d9bc52ed1", "translation" => "Zerdaza" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ba07f349-06df-4bcc-a2ed-1350704bee4b", "translation" => "زردازة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //756
+            ["id" => "e41da6fd-c29e-4cd4-ac64-74b40ef51471", "translation" => "Sidi Bel Abbes", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "60204621-0ea2-4916-adb4-02b51558f634", "translation" => "Sidi Bel Abbès" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1a5e5782-ea1b-40a2-bb7e-575f14d5eb69", "translation" => "سيدي بلعباس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //757
+            ["id" => "3b5cbeaa-92e3-44b3-b390-c5b9a49d54db", "translation" => "Ain El Berd", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "eeb7a20e-b195-4141-a181-11efd40fa41a", "translation" => "Aïn El Berd" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7f8164b5-b4a9-4d62-838a-cc0a244cc11f", "translation" => "عين البرد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //758
+            ["id" => "9782f3f3-e4b7-487b-b36b-8694474e6827", "translation" => "Ain Adden", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3250fe3c-94ad-4f9b-8c00-2ef47ee81088", "translation" => "Aïn Adden" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9788a31f-f4e0-43bc-9a7c-8e7157ef930b", "translation" => "عين أدان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //759
+            ["id" => "52e05de1-1e5b-41d3-8ac1-459d421798a6", "translation" => "Ain Kada", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "eb04996c-fa7b-450e-ae74-e45652ec903c", "translation" => "Aïn Kada" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d77d2303-0c89-4e84-9f29-5da6718deb26", "translation" => "عين قادة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //760
+            ["id" => "3dc3903d-b511-4c69-88ef-47f91774812b", "translation" => "Ain Thrid", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "79987876-3134-4662-99bc-5f906dc24d7b", "translation" => "Aïn Thrid" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ff4f0b90-d0a0-43e0-b331-9fded559c5ae", "translation" => "عين الثريد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //761
+            ["id" => "c164d1af-35a7-40f9-8c85-2fd8e4e534bb", "translation" => "Ain Tindamine", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9006c0bc-7aae-44df-81ea-cc853a35be6f", "translation" => "Aïn Tindamine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "dc002ff2-bf7e-450c-b1aa-650aac4f5eb1", "translation" => "عين تندامين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //762
+            ["id" => "d1b626a5-a98f-433c-b577-2568b7ef96e4", "translation" => "Amarnas", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5dd7bb3b-3bb3-4ded-8239-bc05e09f152e", "translation" => "Amarnas" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d4ec72c3-3a6f-4670-a65c-a2e8aafa22a5", "translation" => "العمارنة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //763
+            ["id" => "9e10b772-f81f-4e3e-92e7-0800a530ad3e", "translation" => "Badredine El Mokrani", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1de76995-44b3-47c5-be1a-a223e8cd4780", "translation" => "Badredine El Mokrani" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "10865c42-1369-4979-a687-e4850023eb80", "translation" => "بدر الدين المقراني", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //764
+            ["id" => "a9ab7159-c52a-48bb-b3d7-9c95742bf684", "translation" => "Belarbi", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c9e7db1a-947e-449a-b0bb-52d207c416ae", "translation" => "Belarbi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f4e6150f-20a3-4035-8664-91ca889ebe14", "translation" => "بلعربي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //765
+            ["id" => "563012c6-7927-437d-86b2-a408d180d766", "translation" => "Ben Badis", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "cf99f6ab-00f0-4e92-bdf3-972d7d10c4ad", "translation" => "Ben Badis" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4f8dd5f1-7a80-4f94-87eb-b8e85305c05d", "translation" => "بن باديس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //766
+            ["id" => "02efd2df-a555-46d0-945b-0f6c678a66a6", "translation" => "Benachiba Chelia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0f9e50e6-e1b4-415b-8f37-ce11c7b84ab3", "translation" => "Benachiba Chelia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "27b2b924-bb43-458e-982f-4a41b52d003f", "translation" => "بن عشيبة شلية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //767
+            ["id" => "7b45eae3-3e82-4a07-b466-ffb70918f76b", "translation" => "Bir El Hammam", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d5e4810d-6678-4cc7-9c17-aa142eaabf4e", "translation" => "Bir El Hammam" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0e49bd51-b42b-4571-97dd-26e18d1ead72", "translation" => "بئر الحمام", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //768
+            ["id" => "6fda07c8-4b69-400b-9f8c-81750fef166c", "translation" => "Boudjebaa El Bordj", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "283ce524-b431-49ad-bc7f-53172163399b", "translation" => "Boudjebaa El Bordj" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f2c186d1-0f84-42bb-b4b5-a68c6abcab0a", "translation" => "بوجبهة البرج", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //769
+            ["id" => "1d9a49ee-dc37-4dd9-a860-8bd88ab992c6", "translation" => "Boukhanafis", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5fcae3b1-faf5-4ba9-bc7f-dba2b08c20b4", "translation" => "Boukhanafis" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e3fa63e8-1cd8-4fad-b820-d85c1d8b2f17", "translation" => "بوخنيفيس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //770
+            ["id" => "f3832c80-830c-49e7-bd21-3bbc20f11dcf", "translation" => "Chettouane Belaila", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "654ddccf-92ed-46e9-b161-ce03e4cfec64", "translation" => "Chettouane Belaila" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b7a43708-dbb8-4f93-af32-7392f9708245", "translation" => "شيطوان بليلة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //771
+            ["id" => "65b0b183-b5ba-44c6-9573-3067374ba925", "translation" => "Dhaya", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "44391eb0-15b8-40bc-ab00-0215b7f4be7b", "translation" => "Dhaya" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9eae159e-ba81-4bc8-9f56-f265bcf0e68d", "translation" => "الضاية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //772
+            ["id" => "da87e1be-47d0-4b75-85b5-72de5182fd43", "translation" => "El Haçaiba", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ecf4665d-66cb-4d1e-adcf-289cfb3f0a84", "translation" => "El Haçaiba" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4c032d13-1ab7-492d-9164-26ce3951e3b8", "translation" => "الحصيبة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //773
+            ["id" => "00f4b35e-5672-45fb-90c2-10d210ae669b", "translation" => "Hassi Dahou", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "24ec6170-4015-4713-acc9-0b2a093f2055", "translation" => "Hassi Dahou" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "109f7857-5657-4c3f-ba5e-a4cd2e657f13", "translation" => "حاسي دحو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //774
+            ["id" => "c4b6d185-6551-49cb-a03f-1175f0702ba0", "translation" => "Hassi Zehana", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "324b0f32-f64c-4109-9d43-09fdb82fb4bc", "translation" => "Hassi Zehana" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c83703b9-82ce-47e3-88cd-6ad458371406", "translation" => "حاسي زهانة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //775
+            ["id" => "da62f113-6c8c-4055-a24f-587b578b61cf", "translation" => "Lamtar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "dbeedc2b-dfd5-4211-9d75-1a191a59ddf6", "translation" => "Lamtar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fb566fe6-9589-41d7-ba03-04c32bfc7f96", "translation" => "لمطار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //776
+            ["id" => "fb05d2bd-6ca4-4d2b-80ba-913df94af143", "translation" => "Makedra", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "122fecf0-30e9-47b7-963d-7bd23993fc2b", "translation" => "Makedra" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8881f21f-1f6d-495c-b812-140622a016f2", "translation" => "مقدرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //777
+            ["id" => "e1c05b99-9eb1-41ff-9761-dc646ddaf70d", "translation" => "Marhoum", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "140f0984-f8f3-403d-af6f-c9ea806483ac", "translation" => "Marhoum" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1a8ffdc3-4415-43f1-b6c3-5c0820a2ae58", "translation" => "مرحوم", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //778
+            ["id" => "f9e63450-7290-4d69-9b8c-355bc0453b92", "translation" => "M'Cid", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8e662bee-8581-46b8-b383-28e7b4a4ab9f", "translation" => "M'Cid" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e50360d7-c5fe-4ac7-9f74-db3483ce6aaf", "translation" => "المسيد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //779
+            ["id" => "c210212d-0467-49e3-9253-b630b81bf6b3", "translation" => "Merine", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b0391e21-b47c-4524-9977-2b20eac60e92", "translation" => "Merine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d75430da-c3be-4179-b8be-439428d5852e", "translation" => "مرين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //780
+            ["id" => "678f6e16-bdab-4bc2-b20d-e8af36e74a6b", "translation" => "Mezaourou", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1a7ea5b9-234d-4129-8c91-00eaa7fa83e1", "translation" => "Mezaourou" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7d6e1913-c1c5-47b0-8fcc-b43ca35cc8c5", "translation" => "مزاورو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //781
+            ["id" => "89e52cf4-e17d-42ce-b254-4262d0659e07", "translation" => "Mostefa Ben Brahim", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "112cc11c-f736-4778-a40b-fd2ec048a2f5", "translation" => "Mostefa Ben Brahim" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f01793ac-7dec-47ab-b72a-b0f0b53dd1eb", "translation" => "مصطفى بن إبراهيم", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //782
+            ["id" => "bc0db64a-bc23-417d-a2b6-8edc92b6a645", "translation" => "Moulay Slissen", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "40ea9825-731a-487e-8e85-7bb2543807f5", "translation" => "Moulay Slissen" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fb31aefd-11bd-4cac-9863-1de86cdb0073", "translation" => "مولاي سليسن", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //783
+            ["id" => "8ba02143-eabf-495e-a615-385bd752fb97", "translation" => "Oued Sebaa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "273b724f-a467-4fbc-8e66-4cebc2ce59a6", "translation" => "Oued Sebaa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f69be908-797e-457e-8aa7-d2bb0fccc78b", "translation" => "واد السبع", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //784
+            ["id" => "009f4452-54f9-4863-a347-11904190b6c1", "translation" => "Oued Sefioun", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "44352355-1d04-42b2-b16c-cb217b9a9d3b", "translation" => "Oued Sefioun" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1cf24b72-3c07-4cf4-a68d-81a94698993d", "translation" => "واد سفيون", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //785
+            ["id" => "c95eabf7-2ed8-40ec-a26d-a23571fea81f", "translation" => "Oued Taourira", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "54d0eca6-40f2-4e5f-9155-0f298326c6fb", "translation" => "Oued Taourira" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e136f272-8cc0-40d5-ad57-3d4c22ba467d", "translation" => "واد تاوريرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //786
+            ["id" => "4a5c431c-5fc9-443e-a126-70cc2b054b25", "translation" => "Ras El Ma", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9e25551a-c401-4d57-9343-09640f7fc24f", "translation" => "Ras El Ma" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f055a6fe-87ba-4327-90d4-65d1e6d4892b", "translation" => "رأس الماء", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //787
+            ["id" => "872c8a71-f077-4e4c-b53b-c215e92376fc", "translation" => "Redjem Demouche", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e7098888-1112-415a-be2f-f044d6551144", "translation" => "Redjem Demouche" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a090a0ef-ddd4-41fc-ba5a-d8d93e053fdc", "translation" => "رجم دموش", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //788
+            ["id" => "03a95969-506d-4d59-b086-b93d1417f1ca", "translation" => "Sehala Thaoura", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "57456406-9639-438d-a993-9a47ec2d2932", "translation" => "Sehala Thaoura" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "19805d3f-0238-4971-92bb-7d5b7857aa68", "translation" => "سهالة ثاورة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //789
+            ["id" => "b8389b90-aae7-41cf-b79f-a54a06dae3a5", "translation" => "Sfisef", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "670a7404-f024-4407-859d-d5ce42cde3a6", "translation" => "Sfisef" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "75993612-ee2a-4859-97c2-568f125f6b8f", "translation" => "سفيزف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //790
+            ["id" => "5f755878-5adc-4e59-873e-6950d8c6c1e4", "translation" => "Sidi Ali Benyoub", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "af69d6f6-c294-4fb6-98c6-d6f65045131a", "translation" => "Sidi Ali Benyoub" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "53117ffd-8046-4e2b-a965-127df4522982", "translation" => "سيدي علي بن يوب", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //791
+            ["id" => "5a1c4949-e948-40e4-b2a5-e8be02721b21", "translation" => "Sidi Ali Boussidi", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "68f019e6-6256-47ac-94b1-35aa7a1fbab9", "translation" => "Sidi Ali Boussidi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "623b3673-2e7d-4538-b471-d135cff1e4e6", "translation" => "سيدي علي بوسيدي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //792
+            ["id" => "9194e64e-6f36-4bfc-916a-37d83f38457a", "translation" => "Sidi Brahim", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0b4e49f8-c4a1-4c09-a51e-6887ff479185", "translation" => "Sidi Brahim" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b46c8d90-e402-4ade-bfff-b9f8d22035cf", "translation" => "سيدي إبراهيم", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //793
+            ["id" => "b5626687-9428-4799-bcc6-dc29e27123a4", "translation" => "Sidi Chaib", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1be47c90-ea39-4d24-8fb3-7f9999ae5b38", "translation" => "Sidi Chaib" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fbadd082-fbf0-443a-a917-fa421ade2679", "translation" => "سيدي شعيب", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //794
+            ["id" => "45849419-c8d8-477c-9da4-9f041a25181b", "translation" => "Sidi Daho des Zairs", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0b7be62c-9db3-4240-a8a9-2fcd19fafe53", "translation" => "Sidi Daho des Zairs" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e4778002-5b7d-4105-a0ca-98496056a66e", "translation" => "سيدي دحو الزائر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //795
+            ["id" => "c367e661-ea0a-4ac3-ab4d-baf8864ca966", "translation" => "Sidi Hamadouche", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d73a9122-48b0-4ace-b44e-9b88abda8f1a", "translation" => "Sidi Hamadouche" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "256313fa-5fed-45f1-a0ee-694541fed657", "translation" => "سيدي حمادوش", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //796
+            ["id" => "9bbecab0-3a2e-4b7f-a7b5-fac9875c61b8", "translation" => "Sidi Khaled", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7cfac0d9-440a-4d8d-83e9-4fc821f22232", "translation" => "Sidi Khaled" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4b19edc6-3be7-40f8-96df-ba98935125dd", "translation" => "سيدي خالد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //797
+            ["id" => "bfb31335-07d2-48eb-a464-5de6adc5bed0", "translation" => "Sidi Lahcene", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "bd20319f-96d8-4f6f-9552-e6596c77de0b", "translation" => "Sidi Lahcene" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "42e07d07-c636-4a15-94d5-c9f0ee715ed6", "translation" => "سيدي لحسن", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //798
+            ["id" => "c4e31825-d6d4-47f9-ac28-8d3eded51d3e", "translation" => "Sidi Yacoub", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "eca0d733-cace-4ed5-b6ae-6f828e5ad4b7", "translation" => "Sidi Yacoub" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "901d070e-3bf6-4b57-9a97-5fb39bbd2ca0", "translation" => "سيدي يعقوب", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //799
+            ["id" => "2bb23fac-379d-4916-9f27-7c3f75f25910", "translation" => "Tabia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0ce32981-31ae-46f2-9c3f-a593e40faac2", "translation" => "Tabia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d3c49bb1-052b-4b0e-b84c-3bc29af99ec9", "translation" => "طابية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //800
+            ["id" => "c60ba0f4-5005-445d-b9c3-53389f44cb79", "translation" => "Tafissour", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "932cb2d9-c81f-4661-8573-905e7df036e1", "translation" => "Tafissour" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "44982318-c337-4d04-b137-6319ed175e39", "translation" => "تفسور", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //801
+            ["id" => "d0c95841-251d-4990-9935-a896ad45f296", "translation" => "Taoudmout", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6be41741-33a1-416b-afc3-169e3edb3cc8", "translation" => "Taoudmout" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1ebd97be-c5df-4f4e-a802-441383a24149", "translation" => "تاودموت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //802
+            ["id" => "0ddba931-43b6-44c2-ad88-f4697d85cd5f", "translation" => "Teghalimet", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1fa795fa-a316-45dd-8166-ef4ff465d0b2", "translation" => "Teghalimet" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "105d1919-9c50-4843-9235-90fa97b933ce", "translation" => "تغاليمت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //803
+            ["id" => "61ef0fc7-8a23-4f04-bba2-a2a6da27216f", "translation" => "Telagh", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1c2c3329-c72b-4dce-9806-38b9da1540fe", "translation" => "Telagh" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2a260df6-cbbc-463a-9d6a-5e07bae6a2e6", "translation" => "تلاغ", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //804
+            ["id" => "b85ca85d-c59a-455c-aa4d-18555fe5b1a1", "translation" => "Tenira", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f1e8641a-d6d2-41ca-acee-c6e8edc76c92", "translation" => "Tenira" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fe6705b6-b4ed-4371-9efc-4e7ab23a9830", "translation" => "تنيرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //805
+            ["id" => "4c22ac63-76ab-40fc-9759-04b11eaf51a1", "translation" => "Tessala", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8b9b17b4-48e7-4c0f-8b0e-0d8e467e791f", "translation" => "Tessala" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "02bf281c-463c-4642-be6b-88ab18b4a285", "translation" => "تسالة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //806
+            ["id" => "a5fbe61f-1b3c-47e7-acfe-96bf8a7c6f92", "translation" => "Tilmouni", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3b89f828-4d9e-4c2b-9bc8-23600bc0a492", "translation" => "Tilmouni" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "217f04e9-fb50-4ac7-a4de-a79520ef26fa", "translation" => "تلموني", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //807
+            ["id" => "44e138b0-b640-4977-ba76-2ce98ccbe079", "translation" => "Zerouala", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "44b43b3d-02b7-410f-b5ba-f9be61b09c60", "translation" => "Zerouala" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a6591c85-91dc-4195-94d4-e0329654a718", "translation" => "زروالة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //808
+            ["id" => "731d3d0c-6328-4eab-a4d2-9b8099ecfbd1", "translation" => "Annaba", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "48823bbe-ab09-4b82-a6f5-e6178055ef57", "translation" => "Annaba" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6e961917-0e60-41a3-95ec-f64ade5d3b5d", "translation" => "عنابة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //809
+            ["id" => "e11df56e-0566-44f6-8516-efc7c28613e1", "translation" => "Berrahal", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c9f3d30d-2ca1-490d-9377-0021c142070c", "translation" => "Berrahal" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "367e6583-4d90-46b3-a475-da20ae3e92d2", "translation" => "برحال", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //810
+            ["id" => "a9baebd4-00b6-409a-bd65-14165c11b9b2", "translation" => "El Hadjar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a2189074-c160-45b9-a4e4-b8c60b52e2c9", "translation" => "El Hadjar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5cf42753-9f37-4c01-865d-7982c38b95da", "translation" => "الحجار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //811
+            ["id" => "c16b5269-c36f-4a47-9415-07fb664bf119", "translation" => "Eulma", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c6234875-69e6-4dbd-91fa-ae44ad7ba5c6", "translation" => "Eulma" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5033d101-d07c-4379-a2b9-087a35a21b3e", "translation" => "العلمة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //812
+            ["id" => "ab4817a9-08fe-449c-be8b-696931f7de4c", "translation" => "El Bouni", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0d6f3dda-b5b4-4d2f-ad44-73dfbbeb1c2f", "translation" => "El Bouni" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0e38419b-e60e-4bce-bb7b-26570e0eb134", "translation" => "البوني", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //813
+            ["id" => "1f621dd0-fe7f-4d4d-9ba9-6694bae0f71f", "translation" => "Oued El Aneb", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d80e7f0e-f508-4f31-bd80-9ec4943bbaf8", "translation" => "Oued El Aneb" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9e21da92-abca-455d-a9e7-2e319880cb49", "translation" => "وادي العنب", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //814
+            ["id" => "8b5bc6c1-d8b5-4871-a673-cbc26bcddf78", "translation" => "Cheurfa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6fcc4be0-1270-4007-b5a3-80f12f1cf21d", "translation" => "Cheurfa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "970c4922-a844-4c27-9f49-a7f998aad313", "translation" => "الشرفة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //815
+            ["id" => "0b328454-2e34-4cc8-b857-88935225c6e9", "translation" => "Seraidi", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "190a4c88-91a5-4ae3-ba93-2988e22099be", "translation" => "Seraïdi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "94665bd5-cba9-4a16-be2e-927bc40ccda1", "translation" => "سرايدي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //816
+            ["id" => "9f7ec088-24dd-494f-8b4d-c35e895269cc", "translation" => "Ain Berda", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "593d6cc2-0b84-47bf-9834-fee8a32bba91", "translation" => "Aïn Berda" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8749235c-75b7-4759-953f-4f3926852fd4", "translation" => "عين الباردة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //817
+            ["id" => "854ff55f-a817-490c-96ea-8246c27e1f46", "translation" => "Chetaibi", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "be9891fe-38a6-4ff8-8d2c-aee3ee1ffb24", "translation" => "Chetaïbi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "093dfe93-9378-44a8-9b94-f1c599d40267", "translation" => "شطايبي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //818
+            ["id" => "f2e0f781-7375-458c-973a-fe94e7c68a32", "translation" => "Sidi Amar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "546c2bb1-2728-4907-9bad-74eed25d88be", "translation" => "Sidi Amar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ac5c37ba-5b28-4dab-9952-4d9eaf908d1c", "translation" => "سيدي عمار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //819
+            ["id" => "b688526b-949d-46e7-a3c7-2d52bc2e5325", "translation" => "Treat", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "777f779d-e840-48ec-be9b-89ce78ec5da0", "translation" => "Treat" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bad3a864-65dc-4984-8e87-9f9144cbb840", "translation" => "تريعات", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //820
+            ["id" => "1a183403-5231-46d9-8a36-0de52190d380", "translation" => "Guelma", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a8a6c4de-f852-46b9-8daa-0c91fbeef4df", "translation" => "Guelma" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bb43ef7b-ce38-4c95-b272-096144913ae9", "translation" => "قالمة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //821
+            ["id" => "dabc9af2-9e08-4645-856d-61c708488584", "translation" => "Ain Ben Beida", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9237dfe7-98d7-43e1-82fa-e454f3a798a8", "translation" => "Aïn Ben Beida" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "248c40b4-3467-47c9-89fe-854164976edd", "translation" => "عين بن بيضاء", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //822
+            ["id" => "27756632-e263-47e7-a8b6-afabe8566594", "translation" => "Ain Larbi", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9bedf914-bb73-4335-a0ec-bf844016a992", "translation" => "Aïn Larbi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bce298b3-f306-4057-96c5-af8d8166f05f", "translation" => "عين العربي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //823
+            ["id" => "0d364a4f-c98d-490a-b341-0d7185458576", "translation" => "Ain Makhlouf", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e48c99e0-becf-4b1f-9575-4925ac7a79ae", "translation" => "Aïn Makhlouf" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "504c2008-49ff-4bcd-b975-7a8f39a76f5d", "translation" => "عين مخلوف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //824
+            ["id" => "885f3f3d-7628-47b1-b191-04ebaad1bc9d", "translation" => "Ain Reggada", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "43630999-7057-4d7e-b3b1-6ad1f2fea298", "translation" => "Aïn Reggada" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9399ebf8-43e2-4328-bb18-a06ea49790b3", "translation" => "عين رقادة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //825
+            ["id" => "efecbe6b-f2f2-4aad-98c1-4ef0a753fd35", "translation" => "Ain Sandel", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a452f448-6411-4063-a9ac-4e97d4e985f1", "translation" => "Aïn Sandel" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "42e45a5c-8d93-48f8-8bf3-49fb9d51679e", "translation" => "عين صندل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //826
+            ["id" => "cd58880f-0a08-4018-afd7-9841d88f6dce", "translation" => "Belkheir", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a9019cb4-3746-4e6d-a76d-327fe2d777db", "translation" => "Belkheir" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d3ff8e5c-7ac3-4b9f-890e-4125e245a4ab", "translation" => "بلخير", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //827
+            ["id" => "ef096db3-430b-4375-a26b-b0cd9230dd2c", "translation" => "Ben Djerrah", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e0932fc1-79a1-4c20-ab91-b0eaa5b74257", "translation" => "Ben Djerrah" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5969af6a-edce-45d6-af44-422f996f2b56", "translation" => "بن جراح", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //828
+            ["id" => "85de3c6f-e691-46cd-ac6e-821d0c56fe55", "translation" => "Beni Mezline", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ab252be5-bbe4-4401-8896-e216706910d4", "translation" => "Beni Mezline" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "52e18c2f-f46b-44d2-b18e-41dbc4bddc65", "translation" => "بني مزلين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //829
+            ["id" => "b5017028-82bd-4a85-9ad4-e60030e64527", "translation" => "Bordj Sabath", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f65c54fe-388e-463c-8a4d-fbe82ee3b779", "translation" => "Bordj Sabath" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "88a81d75-97fb-4bd4-9b8b-d73d0a8969a6", "translation" => "برج صباط", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //830
+            ["id" => "55f519be-743a-46b3-8b9d-ae216b4f090b", "translation" => "Bouhachana", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "016e431e-efc9-4e50-ac1a-1fd38f063fb5", "translation" => "Bouhachana" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3c8650ab-33f8-4404-8ef9-ed85b069b664", "translation" => "بوحشانة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //831
+            ["id" => "3b5c576a-920a-4c12-9f0b-585c319e0763", "translation" => "Bouhamdane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "72c7f6a7-cb88-4137-8983-7d85b1edd137", "translation" => "Bouhamdane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7b8f63eb-fc6e-4a54-b3cb-20b428369a55", "translation" => "بوحمدان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //832
+            ["id" => "1f7744e6-b05f-4683-b74b-7802f883aca3", "translation" => "Bouati Mahmoud", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f148f09e-d04f-4cd9-8da9-95a833f01f6f", "translation" => "Bouati Mahmoud" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "124b4659-5499-4e77-9f9a-47738c3cb9a1", "translation" => "بوعاطي محمود", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //833
+            ["id" => "b36b9efe-0611-49a4-8a08-982a8a005c96", "translation" => "Bouchegouf", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3a168301-ffcf-45a2-99ff-1cd70a4a1888", "translation" => "Bouchegouf" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5d6fffce-31c0-4d4c-a819-6bb2d0445f03", "translation" => "بوشقوف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //834
+            ["id" => "b1662d67-f238-4695-9a2c-2a5f369b1786", "translation" => "Boumahra Ahmed", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0932da85-79fa-45c3-9b66-76728e2ed4d6", "translation" => "Boumahra Ahmed" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f5e405b5-1bd2-4c11-a56a-11e3d7f47f07", "translation" => "بومهرة أحمد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //835
+            ["id" => "05fd3764-4723-4879-a94f-02955c93bd3a", "translation" => "Dahouara", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c32e85c8-5e20-4604-9655-dc59fdc9a54f", "translation" => "Dahouara" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d250edd9-4b8f-4901-a039-6c33686d10e2", "translation" => "الدهوارة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //836
+            ["id" => "c65a7348-2e91-47f9-a5ab-17b1e2c6ed13", "translation" => "Djeballah Khemissi", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "654218f8-2ae1-4b1c-97ca-9794e7dc0829", "translation" => "Djeballah Khemissi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "de7ab002-6f94-45b1-946c-07ab9f7551cc", "translation" => "جبالة لخميسي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //837
+            ["id" => "6f5ce63e-6d6c-4c23-afdc-62e008b4276e", "translation" => "El Fedjoudj", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "321b8de3-02c3-4468-b0c8-4cee4f416abc", "translation" => "El Fedjoudj" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "30135e94-dea1-47dd-9757-6f6c5edb1af8", "translation" => "الفجوج", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //838
+            ["id" => "87289009-d6a2-412a-a101-5a90768f9b91", "translation" => "Guellat Bou Sbaa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ef4f4dfd-3944-4dca-97df-1947473c4040", "translation" => "Guellat Bou Sbaa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ffed65ab-98dc-4158-ac88-e16a571e6d24", "translation" => "قلعة بوصبع", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //839
+            ["id" => "80327e02-7b01-45a0-860b-019302f45d45", "translation" => "Tamlouka", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1f72af24-359c-4eab-bac5-f0b6949e0de1", "translation" => "Tamlouka" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "245a89b4-99d8-4fea-b76a-3e876b362cd4", "translation" => "تاملوكة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //840
+            ["id" => "d4d63482-f592-4131-bbea-6a9dd4b2c4fe", "translation" => "Hammam Debagh", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d97d1432-8cd5-4967-81e2-e497cb3727f9", "translation" => "Hammam Debagh" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "acaf0d56-8b1a-40fd-b5e7-e0e6a7f74a0b", "translation" => "حمام دباغ", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //841
+            ["id" => "70653754-41c4-4fab-aa7e-acf8b3d214a3", "translation" => "Hammam N'Bail", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0787a829-f150-4df2-b3fe-45fddd4e64fd", "translation" => "Hammam N'Bail" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "14f215a4-7b9f-4102-b34b-5bdd05bbf819", "translation" => "حمام النبايل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //842
+            ["id" => "f09e987d-b7a3-4f22-ac57-406f60b36f0b", "translation" => "Heliopolis", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "bf2bb16f-cc11-44bf-9281-410b26008851", "translation" => "Héliopolis" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fa7b8612-f34a-4598-9d9b-783094a102af", "translation" => "هيليوبوليس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //843
+            ["id" => "7905f057-3904-469e-bfe5-a695a8cd4c96", "translation" => "Houari Boumediene", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8f74f6b1-6d6a-4f12-bc3b-795d915065e6", "translation" => "Houari Boumédiène" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5c45629e-bb38-40ab-8ba0-a0db9c455ebe", "translation" => "هواري بومدين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //844
+            ["id" => "43508753-affe-45e8-b171-171a403f233a", "translation" => "Khezarra", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7fa73435-da21-441e-bb08-6f5f1cdae8ac", "translation" => "Khezarra" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bafcf067-8a28-46d9-9d28-f58d047171a3", "translation" => "لخزارة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //845
+            ["id" => "dc855399-f7eb-4526-aed5-421074c83030", "translation" => "Medjez Amar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6f9bef2f-8739-4e86-9357-8984bd7f6b83", "translation" => "Medjez Amar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "38787348-498a-4243-af80-6a05fc8068cb", "translation" => "مجاز عمار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //846
+            ["id" => "d2247194-894a-48d8-8911-0bd21c34d27a", "translation" => "Medjez Sfa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5e92bb8c-9c31-4e3a-ba3a-0678a64e10dd", "translation" => "Medjez Sfa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ed4273a2-cf6d-4835-9426-95b1638e0104", "translation" => "مجاز الصفاء", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //847
+            ["id" => "b984e48f-515c-4bc3-beda-c7084ba46f4d", "translation" => "Nechmaya", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2e665c8b-4f5c-4d87-9b29-7326e1a981d4", "translation" => "Nechmaya" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5764a877-7f4d-48f5-9d1d-075d9d55ac54", "translation" => "نشماية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //848
+            ["id" => "fb27b17a-2f8b-4912-afff-018494743954", "translation" => "Oued Cheham", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "18cbcf7d-174c-4cd9-a6b5-d45013406a7d", "translation" => "Oued Cheham" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5a6621bd-f23e-47c4-9327-4fa63b8d9ae9", "translation" => "وادي الشحم", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //849
+            ["id" => "660065bd-d5d0-4cac-95bd-0393bf3fcf40", "translation" => "Oued Fragha", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "976b7e0e-0f46-4b7d-a9cc-f4891672e0ff", "translation" => "Oued Fragha" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "cd206e47-82e2-418c-97a6-063254e1611f", "translation" => "وادي فراغة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //850
+            ["id" => "0c3a9a9c-7379-4284-859c-a2c86b9274b3", "translation" => "Oued Zenati", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7383808a-151d-4417-8b8d-bbe02b821eed", "translation" => "Oued Zenati" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4d0dfbcb-2673-4b75-9db8-9abb2852e6c1", "translation" => "وادي الزناتي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //851
+            ["id" => "f106e3dc-b4ea-4bac-9dea-c545cdc43341", "translation" => "Ras El Agba", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f7d537de-ce8b-4f59-a5ae-281b22cc305c", "translation" => "Ras El Agba" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "74601ee4-474c-4d7c-9fee-5aceb6b478aa", "translation" => "راس العقبة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //852
+            ["id" => "05c11bf5-c3be-412b-8375-7fe3018bb930", "translation" => "Roknia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0adbb4be-88e1-4674-8ae5-7485d7c621be", "translation" => "Roknia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3ede5d05-12aa-417c-9ddd-3794f819d52c", "translation" => "الركنية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //853
+            ["id" => "5790c0ee-e215-4542-8624-bbfffdbeeb7a", "translation" => "Sellaoua Announa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c23e5dd9-aa8a-41ee-bcb5-0a6a33c27af3", "translation" => "Sellaoua Announa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5f443b47-bd4d-4e15-b2c7-4f33d553f1c3", "translation" => "سلاوة عنونة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //854
+            ["id" => "542ae60a-f3c0-4d26-bfeb-4e394b739e77", "translation" => "Constantine ", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3786fe07-7397-4ccf-98e8-370239595882", "translation" => "Constantine " , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "600b62f7-72d0-4457-b260-41a6c363e495", "translation" => "قسنطينة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //855
+            ["id" => "37330518-7aa5-42db-a70e-cae51cb72bd6", "translation" => "Ouled Rahmoune", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6391137c-7fb7-4b14-b241-225a56777a83", "translation" => "Ouled Rahmoune" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "eb4ce08a-4201-4ca4-b4ae-43816ff8abd9", "translation" => "أولاد رحمون", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //856
+            ["id" => "a30ef23b-9d6e-4848-840d-c35a5a31288a", "translation" => "Ain Abid", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "189db06a-4050-4feb-8aa2-cc05cdf6afff", "translation" => "Aïn Abid" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "49ae73c3-caea-4f0c-a3b4-df731b5e49eb", "translation" => "عين عبيد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //857
+            ["id" => "e85ebba0-f817-4b20-af80-f6a343dc6f0c", "translation" => "El Khroub", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "322a0b84-3d25-448b-9d21-c525a99acc06", "translation" => "El Khroub" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "26acecc5-9ea5-4c19-b34e-9e1aae720187", "translation" => "الخروب", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //858
+            ["id" => "9100d781-d690-41ac-81ec-9bd0b35fdc62", "translation" => "Ibn Badis", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "78c1298f-5986-45e9-8279-537bb22897a0", "translation" => "Ibn Badis" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "751a3af4-204b-4a72-81ed-cd79c0e4f0fa", "translation" => "ابن باديس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //859
+            ["id" => "8d28180a-d0c2-40c0-817c-e3e7e472a6fa", "translation" => "Ain Smara", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b0389f67-582d-47dd-ad60-2289b5265a49", "translation" => "Aïn Smara" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "54c30da0-3bc0-4972-a061-190eee3eb346", "translation" => "عين سمارة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //860
+            ["id" => "2c19ef05-57b6-463e-a1c0-f1d8e909f915", "translation" => "Ibn Ziad", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "33bfd12e-49b8-4a39-9944-bf3d9b5001a0", "translation" => "Ibn Ziad" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ec1ffb0e-6183-495a-8a86-6a098f1d0fb9", "translation" => "ابن زياد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //861
+            ["id" => "e9b8fdb0-bff0-4cab-8bbb-ce76a73966c4", "translation" => "Hamma Bouziane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8232d469-3452-405d-b43e-c9866dbf1687", "translation" => "Hamma Bouziane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "21759eaf-db82-49c7-aa62-d75e6b285cd1", "translation" => "حامة بوزيان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //862
+            ["id" => "8f501c3b-c904-485f-9086-ac3208bc2b4d", "translation" => "Didouche Mourad", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6f48657d-b071-400b-8fac-f6cdef0ef591", "translation" => "Didouche Mourad" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8ce9248a-02b9-4a19-8324-f02a8079fa3c", "translation" => "ديدوش مراد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //863
+            ["id" => "aaa6785f-12ab-4f94-8c6d-35dd4b20aabe", "translation" => "Messaoud Boudjriou", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "77389d5e-4eb7-48eb-8274-120de53411e2", "translation" => "Messaoud Boudjriou" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1c0e98a3-4701-4385-93ce-4368e3a9f641", "translation" => "مسعود بوجريو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //864
+            ["id" => "93374f34-1659-4d8b-8825-38e649bb2ad5", "translation" => "Beni Hamiden", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "df96ec59-76c3-400d-9762-7486d87dc368", "translation" => "Beni Hamiden" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e1657f29-3279-4aa4-a170-d11006f7c5ec", "translation" => "بني حميدان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //865
+            ["id" => "08f15dd1-34ee-4d67-ae3b-55d062c3b442", "translation" => "Zighoud Youcef", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "be385822-b1ac-43b2-bb2b-2072e4555aca", "translation" => "Zighoud Youcef" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c3d3f62b-96be-4105-8718-cef9a614e2bb", "translation" => "زيغود يوسف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //866
+            ["id" => "2e54aa3e-7c36-4506-966d-788c76d959c5", "translation" => "Medea", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a45c962d-1e58-4f2b-a552-ac2ca617fca2", "translation" => "Médéa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5600da25-a9e3-4509-97fd-10ec22789afb", "translation" => "المدية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //867
+            ["id" => "b9efb952-c812-4250-b92f-66f875912006", "translation" => "Ain Boucif", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "bc2d9f22-ec20-4a57-9cda-3d3c07c51d2a", "translation" => "Aïn Boucif" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "722885ca-a7be-4cbc-a420-ed77c950a4f7", "translation" => "عين بوسيف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //868
+            ["id" => "498bfbc0-3769-4261-9ff2-ef4ba2c76d30", "translation" => "Ain Ouksir", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "bd637b40-5fa5-46c0-b53d-5f637b4604a4", "translation" => "Aïn Ouksir" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8af7ad5e-039e-48ee-a7fc-56abf0452847", "translation" => "عين القصير", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //869
+            ["id" => "665aec90-0b2e-41bb-a106-595e2b9e29a7", "translation" => "Aissaouia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "18f157cd-8ff4-4240-ad52-74a9e3954fb0", "translation" => "Aissaouia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c7196b88-10b6-4b65-91c0-92f621653d97", "translation" => "العيساوية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //870
+            ["id" => "6403c3b2-0142-4209-a021-ed9632b8772f", "translation" => "Aziz", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b37dabf9-e613-4b7a-bb48-0cbcd0674b9e", "translation" => "Aziz" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "65c4478c-5a6d-4048-94db-cbb66af94e4b", "translation" => "عزيز", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //871
+            ["id" => "2165c918-8d06-4f2b-976e-2da71b28bbae", "translation" => "Baata", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1ccf9482-7d96-4634-bbca-e90d41b3f694", "translation" => "Baata" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8095b58a-10d1-44f0-bd2e-3b6455490d87", "translation" => "بعطة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //872
+            ["id" => "3dc31001-fc77-4499-8ba9-7024eeda538b", "translation" => "Benchicao", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a070b590-9473-490b-8923-d70175a75e82", "translation" => "Benchicao" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "87445a6a-df1e-4689-b4d7-30577a50af6d", "translation" => "بن شكاو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //873
+            ["id" => "95bec506-83e1-4fa7-bd25-0d516e4aabfc", "translation" => "Beni Slimane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "58383721-b53e-4e7b-bb73-a3a447cb9a29", "translation" => "Beni Slimane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2383c125-cef3-4c52-8b7c-6df829f21646", "translation" => "بني سليمان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //874
+            ["id" => "05b0bfd5-0cdc-47aa-9736-197e72ebffc6", "translation" => "Berrouaghia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7302ae28-1e79-457b-8011-70ac3993435b", "translation" => "Berrouaghia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "69d20a45-29cc-4ebf-b37e-620ee2ae6aa6", "translation" => "البرواقية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //875
+            ["id" => "ddf506e5-22bc-42f5-9e34-f741950dbcf1", "translation" => "Bir Ben Laabed", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "125b980b-9f08-4b58-ba77-ae4e75bf8c3c", "translation" => "Bir Ben Laabed" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6ba30955-01cb-4186-8cd1-1903bbd93cf9", "translation" => "بئر بن عابد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //876
+            ["id" => "ba3414d2-9838-4574-844b-5da74a931a99", "translation" => "Boghar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ebd9ee65-3146-44d6-accf-32301e37716b", "translation" => "Boghar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c76635c0-5c10-4123-b5de-3ebcfc67896b", "translation" => "بوغار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //877
+            ["id" => "5273284a-d38b-42d8-bd1c-da552180c1df", "translation" => "Bou Aiche", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b36c4bd0-e8c8-46d0-a89e-8d5d328543b6", "translation" => "Bou Aiche" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "46b0b7e0-eb46-4810-b8d7-3feadebae5dd", "translation" => "بوعيش", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //878
+            ["id" => "864243cd-585b-4ded-8db1-7b7a5b3fa907", "translation" => "Bouaichoune", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "23b31f80-a770-457b-a509-1e6efad73c65", "translation" => "Bouaichoune" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7f030feb-d3ec-4d48-a5ff-279905155d76", "translation" => "بوعيشون", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //879
+            ["id" => "12a14d72-fb0c-424e-9436-1317325a7184", "translation" => "Bouchrahil", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4b35843e-1871-47dd-9c0d-7a0a258c54f0", "translation" => "Bouchrahil" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fea6fd44-0f68-4512-ace4-09c1ec0aaa99", "translation" => "بوشراحيل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //880
+            ["id" => "1e10ecd7-0ec6-4ec1-954e-a31b0cb8c0f0", "translation" => "Boughezoul", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e9f7ed77-2424-486c-9e42-3f269aff3aef", "translation" => "Boughezoul" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2b4b9e01-e6ff-4738-9e0f-000cfb5f5c9e", "translation" => "بوغزول", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //881
+            ["id" => "386875e8-a772-4c52-96b4-db1566f5e63b", "translation" => "Bouskene", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "51abe2a5-84c9-4dd2-b80d-831fda2d748c", "translation" => "Bouskene" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4a6be5cd-6d1c-46b3-8635-21b1316500c6", "translation" => "بوسكن", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //882
+            ["id" => "caca19c8-99d4-4ee3-a184-1a4b74a0723d", "translation" => "Chahbounia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0cd8ce70-fd87-4351-b2f9-a5f7e888f555", "translation" => "Chahbounia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "41ddd638-793f-4b46-b1e1-bdf00d49e075", "translation" => "الشهبونية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //883
+            ["id" => "be83c76b-9b41-4c20-bd60-dd7461ff2402", "translation" => "Chellalet El Adhaoura", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c3430bd1-913c-406f-b60c-c96e485a10ba", "translation" => "Chellalet El Adhaoura" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "748cb1ec-799c-4109-8102-8d63a10aa742", "translation" => "شلالة العذاورة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //884
+            ["id" => "3422a216-5f33-4c61-bb82-025223be42f4", "translation" => "Cheniguel", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ed010d1f-9e33-447e-b895-5f3eebf9a70c", "translation" => "Cheniguel" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4b3e6343-5130-442d-a181-30cb7f045825", "translation" => "شنيقل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //885
+            ["id" => "82309c98-1972-4880-9d1b-8e65a3fa7161", "translation" => "Derrag", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ff941a5a-766d-4fed-ac47-6f5d45854efa", "translation" => "Derrag" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2d18b8cd-8433-4042-98c7-1d5c1f0be156", "translation" => "دراق", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //886
+            ["id" => "66c39b3c-0786-44bd-94ba-761a0a4bc1ad", "translation" => "Deux Bassins", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f282aac2-0673-46cb-b504-51484b1c923e", "translation" => "Deux Bassins" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6ad85838-2a0c-4816-9efc-afdebc3603af", "translation" => "فج الحوضين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //887
+            ["id" => "a113e8e0-fd5c-4d5a-adbe-27ac775e3ef0", "translation" => "Djouab", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c1f1e881-3002-4ea5-9a77-60b904645ad2", "translation" => "Djouab" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a1bc4c81-ed41-481b-8d29-e56c2ddc92cc", "translation" => "جواب", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //888
+            ["id" => "b2d52b53-5920-4e73-905d-5439a6121fa3", "translation" => "Draa Essamar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5407fd54-1653-4afe-a6ce-ba85e30aca54", "translation" => "Draa Essamar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1445918e-5d5a-4c14-9908-4f2c5ddd8f34", "translation" => "ذراع السمار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //889
+            ["id" => "56c991cf-3259-44fb-805e-511757ee884c", "translation" => "El Azizia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3f792009-d792-494d-8b89-f6ad37a44b1a", "translation" => "El Azizia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "44cc730c-b474-4ab2-8f9f-9f0ce8242339", "translation" => "العزيزية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //890
+            ["id" => "45ce5efd-3d20-4a38-a1c3-5967ce36e600", "translation" => "El Guelb El Kebir", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1c340c5f-0cde-42a1-a9cb-c1fd74d41271", "translation" => "El Guelb El Kebir" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f068e74b-eadd-4145-8f3d-6b52d282d8e4", "translation" => "القلب الكبير", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //891
+            ["id" => "6901ee92-5201-4305-b04a-07e3145aadef", "translation" => "El Hamdania", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "aee21893-f786-4182-bcd7-760b83920c23", "translation" => "El Hamdania" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e0ce3078-f84b-472d-a5e7-96433915ae83", "translation" => "الحمدانية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //892
+            ["id" => "f413d475-46c8-4213-8bfa-be5923d6b9f8", "translation" => "El Omaria", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "12e1074d-f683-4f93-b751-c045727a4f86", "translation" => "El Omaria" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b6b861a9-8424-4faa-9f36-e5209fc4e113", "translation" => "العمارية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //893
+            ["id" => "725a2e0b-5871-495e-9acb-9ea0ba7e342e", "translation" => "El Ouinet", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6265a75d-e01d-4388-b86c-a81a8398767a", "translation" => "El Ouinet" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fa7267c6-4e8a-4643-a4c5-e02906abd737", "translation" => "العوينات", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //894
+            ["id" => "e4903c76-73aa-43b0-9623-3e1ad0d443e7", "translation" => "Hannacha", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "89712d63-6cd2-48dc-9234-a6b26c73d962", "translation" => "Hannacha" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7a268968-8739-440d-b1ad-3ea75367b23f", "translation" => "حناشة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //895
+            ["id" => "bd9b0c6d-7a37-4d34-95cf-585565c5be05", "translation" => "Kef Lakhdar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a5d05b22-0f9b-4fe6-8a71-214b7edf3eb2", "translation" => "Kef Lakhdar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9832e9e6-0697-4bff-867b-61b05164e8a2", "translation" => "الكاف الأخضر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //896
+            ["id" => "b6a1bf90-c1e5-410e-b032-ea2a5f9849ce", "translation" => "Khams Djouamaa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "14921df5-36f6-46c1-85e6-ce2f990c3b8c", "translation" => "Khams Djouamaa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ad15de6c-5a6c-4b99-84b7-9a2427d8711c", "translation" => "خمس جوامع", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //897
+            ["id" => "4f919a95-57ac-40db-9cd7-1b3e97bf7772", "translation" => "Ksar Boukhari", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7521a511-5780-467d-8260-f45262ed331b", "translation" => "Ksar Boukhari" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0a394dda-a942-4f49-9c0a-26f789b687b1", "translation" => "قصر البخاري", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //898
+            ["id" => "39582daf-5dfb-4605-a410-ac2dabe3c2ca", "translation" => "Meghraoua", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "bcdae44c-0a4d-482e-ba14-8ef6b8ac2509", "translation" => "Meghraoua" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "990f254f-c9db-4582-9ed7-9edbe5373cd4", "translation" => "مغراوة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //899
+            ["id" => "dda33f42-1bef-402f-a716-ca565acba637", "translation" => "Zoubiria", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "86ece161-d2de-4a25-9514-7cbf2863f4d0", "translation" => "Zoubiria" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5531a55b-e011-4d79-97e9-7090435fa708", "translation" => "الزبيرية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //900
+            ["id" => "fc807e8f-76f5-4c67-a6c2-88cb03304e70", "translation" => "Moudjbar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "36778070-fa54-400f-bcaa-f7f5795e1d3d", "translation" => "Moudjbar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7709ba7d-37d9-43dc-ac79-9c5fa476ae04", "translation" => "مجبر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //901
+            ["id" => "aeff99d0-dab1-4dd0-b285-bdfc2e5ebaca", "translation" => "Meftaha", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d9237b88-700a-4945-b8ae-7bc7d42e4519", "translation" => "Meftaha" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3da28816-7365-49e5-80f1-cc9ee1f057f1", "translation" => "المفاتحة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //902
+            ["id" => "b84a1d6e-ae61-4b07-9958-501ae1fb9433", "translation" => "Mezeghana", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d5c39a8c-0cd7-4b58-a5f9-3a6c98169d72", "translation" => "Mezeghana" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f5bbf3fb-ca82-4e95-810f-b8a734b13f26", "translation" => "مزغنة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //903
+            ["id" => "e5f0abcd-1c93-4815-ba4d-295979482bb5", "translation" => "Mihoub", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e15dd9c5-5255-4e86-9f3c-b180a096e7a1", "translation" => "Mihoub" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "312d303c-fe65-4dcf-8e38-47fe53966706", "translation" => "ميهوب", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //904
+            ["id" => "fe06c92a-d1ae-4715-8087-75a0e0bc6071", "translation" => "Ouamri", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "506a3d82-fc3e-4b74-96dd-626ebbaa8ea9", "translation" => "Ouamri" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "689284b2-cb18-4bcd-a47b-0284cb8fa119", "translation" => "وامري", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //905
+            ["id" => "01d8d2fc-4a8b-4ec1-a714-80d2f6b9e590", "translation" => "Oued Harbil", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5a830fa8-2a34-4071-871d-72077dc8297a", "translation" => "Oued Harbil" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "80db1d79-5451-4b85-bf37-4b36ef108f4e", "translation" => "وادي حربيل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //906
+            ["id" => "7e8fb5ba-86a9-43d9-aef1-0d0765278195", "translation" => "Ouled Antar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "96a36bfa-2f12-485a-a922-48337a8e0e54", "translation" => "Ouled Antar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5f703d49-5a10-4608-9c55-1bcee43eecda", "translation" => "أولاد عنتر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //907
+            ["id" => "ebe6973d-94aa-4ee9-a07e-2b50275a53aa", "translation" => "Ouled Bouachra", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "79cebef4-e9ac-4530-a566-23f7bc2961c0", "translation" => "Ouled Bouachra" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c516766b-5629-4a3f-8484-e8eb5c38448d", "translation" => "أولاد بوعشرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //908
+            ["id" => "dd4f775f-b3bd-4bbd-a46e-560be30eb2ee", "translation" => "Ouled Brahim", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5dd2b66a-b94b-4201-9db4-4c7bc259f07e", "translation" => "Ouled Brahim" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "96343130-73b0-44da-94f7-d6c50935bc81", "translation" => "أولاد إبراهيم", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //909
+            ["id" => "9ae9164d-e46b-4d76-9aed-ae0a94ff1564", "translation" => "Ouled Deide", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "cfb7ff7e-b602-4323-8a9d-251a65e41ab6", "translation" => "Ouled Deide" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4fb0e654-9738-4a0e-96e3-82b4d792f207", "translation" => "أولاد دايد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //910
+            ["id" => "094b669c-a585-41d9-9f2d-c5a35e570de9", "translation" => "Ouled Hellal", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e8d62bf2-acad-4031-9f0e-d2df796471a5", "translation" => "Ouled Hellal" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c2ec44ff-4bda-4eee-b738-51b05f06a5bb", "translation" => "أولاد هلال", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //911
+            ["id" => "ca0401ac-72aa-4ccc-8f48-dcdf35c9183a", "translation" => "Ouled Maaref", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "beeef468-f825-4855-8503-013d6d4f5a26", "translation" => "Ouled Maaref" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "117b5d3f-ae5f-40cb-9f29-0421054f2dbc", "translation" => "أولاد معرف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //912
+            ["id" => "8d5d5ff5-8cd9-4bde-9465-d046b5692906", "translation" => "Oum El Djalil", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "bda980ea-086b-4221-97bf-8bdf96e23abd", "translation" => "Oum El Djalil" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f5222f81-dca6-44ea-af30-995ab7a7c6e4", "translation" => "أم الجليل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //913
+            ["id" => "9337df4f-89c7-4a3a-b9b5-cb73bb043c54", "translation" => "Ouzera", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0cb2c72f-e757-4968-8e50-88e508aca8eb", "translation" => "Ouzera" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2c0fac3c-0351-4375-947a-fa03828ed0f2", "translation" => "وزرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //914
+            ["id" => "33befdc4-f76d-493a-a277-ab5aaee63908", "translation" => "Rebaia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f0434e25-b458-4828-91dc-f8fbc7a1afff", "translation" => "Rebaia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fd5dcb32-1804-4a2d-b8a7-bc898a3a4c82", "translation" => "الربعية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //915
+            ["id" => "1d0f6698-d736-4c5a-8e39-acccc93a74d2", "translation" => "Saneg", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f5c66828-f0c0-43fa-b492-963c268d5aeb", "translation" => "Saneg" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "552a8479-158f-4a82-b016-93008dc2fdf7", "translation" => "سانق", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //916
+            ["id" => "86051b8d-5538-42fc-86cc-28f5291a244a", "translation" => "Sedraia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "cec3ded3-e9fa-4542-814b-62063ae39420", "translation" => "Sedraia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1cd94b6c-01ed-415c-89e2-111a2255073d", "translation" => "سدراية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //917
+            ["id" => "24729d71-04a1-4754-bb1e-311726e66800", "translation" => "Seghouane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5920f121-4785-4d18-9b2f-ba6153788fe6", "translation" => "Seghouane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4e7a0042-cbb6-48bd-978f-01de1e791056", "translation" => "سغوان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //918
+            ["id" => "d3f80469-3f0e-4479-bd9f-584d19b1788b", "translation" => "Si Mahdjoub", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1a2978a8-a669-4613-80e5-3d75bb438cc9", "translation" => "Si Mahdjoub" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "81817ae7-584b-4f76-b624-48f4412a4820", "translation" => "سي المحجوب", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //919
+            ["id" => "9ec2e55b-c7a8-4247-9f29-ff6e9797ca7d", "translation" => "Sidi Damed", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0468a049-b0e8-429f-afad-dab4a6f6030d", "translation" => "Sidi Damed" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ef327de8-df9c-4e79-8412-3ba7ab96e4a3", "translation" => "سيدي دامد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //920
+            ["id" => "df3c3385-236e-4a48-8e25-67d419bb50ce", "translation" => "Sidi Errabie", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "643f9a04-c918-4c37-af87-ccb020164098", "translation" => "Sidi Errabie" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "eb2ca6a3-fe17-4762-8eda-a1ba75139da3", "translation" => "سيدي الربيع", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //921
+            ["id" => "e883c416-ea9d-47d5-b3b7-c861bde62d15", "translation" => "Sidi Naamane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "659965e0-02af-4fe8-b4c1-cb95e2d40aa6", "translation" => "Sidi Naamane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7bb7e621-6b15-44b7-8ed8-a32c1b3c4b24", "translation" => "سيدي نعمان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //922
+            ["id" => "41a010b5-3bbf-4538-a7b6-ab7c0d5fd9f8", "translation" => "Sidi Zahar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "61e68d0b-5d3a-4dd0-86e1-d092f4b552f7", "translation" => "Sidi Zahar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1fd603b2-320f-4ab0-b726-f1220c773317", "translation" => "سيدي زهار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //923
+            ["id" => "68fa875c-6c24-4617-b4f5-d9b2847cf6e4", "translation" => "Sidi Ziane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a076b3f7-87fc-4dbc-b8ce-d0165413ac10", "translation" => "Sidi Ziane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d33e84d0-5765-4446-b588-0e48a6612281", "translation" => "سيدي زيان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //924
+            ["id" => "e5a582e8-f138-4765-a5b5-1cf141a02319", "translation" => "Souagui", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7288571e-585c-42f2-a73c-e1e7a8ab24eb", "translation" => "Souagui" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4d73c1da-158d-4802-9caf-f31cbe0cfe3c", "translation" => "السواقي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //925
+            ["id" => "7cf1749a-c9f5-429c-a510-c869dfbf496a", "translation" => "Tablat", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "09d36870-392f-4a26-9c72-530d3d4563fa", "translation" => "Tablat" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0bdfed40-5e68-448a-957c-396bfe4a6b0c", "translation" => "تابلاط", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //926
+            ["id" => "6de42e8d-8c84-421c-b479-51016d526557", "translation" => "Tafraout", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "10b7ce22-c277-4044-9db5-0dd22dff0da9", "translation" => "Tafraout" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1b506c53-ebda-4eff-b72a-ad2aeb6d1737", "translation" => "تافراوت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //927
+            ["id" => "5931dd8a-1e03-4452-b296-19413687e5c0", "translation" => "Tamesguida", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "411a8649-1ae1-45b2-ba91-453cb556121e", "translation" => "Tamesguida" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "524d6839-5989-4755-ae1a-c3c602830c2e", "translation" => "تمزقيدة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //928
+            ["id" => "a60d928d-6760-4651-8d18-73ec0ad60c6d", "translation" => "Tizi Mahdi", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f7457634-b44c-46c2-b865-665ccde55345", "translation" => "Tizi Mahdi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "804e99d0-8b54-47a0-952f-4830ff82ef61", "translation" => "تيزي المهدي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //929
+            ["id" => "26a39509-ab3b-47ce-b327-356798b8d08e", "translation" => "Tlatet Eddouar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8838b925-0f63-4654-857d-b2a4c03e37aa", "translation" => "Tlatet Eddouar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "577de225-d694-4c1f-931a-c73456ba0d15", "translation" => "ثلاثة الدوائر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //930
+            ["id" => "7c889c29-ad1b-4916-a5eb-ef48a20f6da2", "translation" => "Mostaganem", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "696596ec-fa2e-4874-b7b9-5315efde2f6b", "translation" => "Mostaganem" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e48faff5-4185-4b0d-9609-ad297fe341ee", "translation" => "مستغانم", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //931
+            ["id" => "0300189a-bf4e-4dd2-9b10-f16ccfb5502b", "translation" => "Abdelmalek Ramdane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f69127c8-888b-4400-a4aa-eefd58a80540", "translation" => "Abdelmalek Ramdane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "71c5a4d5-374d-4c9b-882d-3a592f616ae4", "translation" => "بن عبد المالك رمضان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //932
+            ["id" => "d1335692-16c8-40cd-bc1a-7e52f39027d5", "translation" => "Achaacha", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d37502bd-4bd3-41fc-a245-3c30e4f20a67", "translation" => "Achaacha" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "237aa693-0932-407d-a067-8fffc0ee04d5", "translation" => "عشعاشة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //933
+            ["id" => "47205815-4e22-4bb2-807b-38e50d350183", "translation" => "Ain Boudinar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d21434e4-a230-4ea7-8497-b962b16a9b27", "translation" => "Aïn Boudinar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "605cda7f-5a18-4afa-9052-9cde78a31245", "translation" => "عين بودينار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //934
+            ["id" => "9ffbf415-8fb1-4ae7-8f21-b67aa47e9e45", "translation" => "Ain Nouissy", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "968db2bf-bbdd-4711-b75c-0758d9b15b03", "translation" => "Aïn Nouissy" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "31cd7380-37d0-48fe-b5d2-2d31816a1273", "translation" => "عين النويصي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //935
+            ["id" => "0b0982fc-abea-4d99-a921-acaf69c35437", "translation" => "Ain Sidi Cherif", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8fa0c7c4-65cd-4790-ae17-1c830e319143", "translation" => "Aïn Sidi Cherif" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8ef835a7-0dc1-4758-9d6b-6518fe23d7a1", "translation" => "عين سيدي شريف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //936
+            ["id" => "adc0f586-3bcc-4af6-985a-0875adcde0a7", "translation" => "Ain Tedles", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b0a71b0c-e6fd-4320-9c9d-7053af14f716", "translation" => "Aïn Tedles" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "acab9c01-a3c7-4def-95af-b9e2ee71331e", "translation" => "عين تادلس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //937
+            ["id" => "b3016d6b-4257-4295-93d8-63fac3587954", "translation" => "Touahria", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c9399a6d-485a-4c35-9590-3271e483d48c", "translation" => "Touahria" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3152a35c-f557-4cf0-b55f-6809f9b12ee4", "translation" => "الطواهرية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //938
+            ["id" => "44f663f9-434d-4f6c-a4cf-f9a9f2981e0a", "translation" => "Bouguirat", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2f78372b-f750-4c94-8d9d-8da4092198e7", "translation" => "Bouguirat" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e01390f2-1aff-45bb-bcd9-b31122c2fad4", "translation" => "بوقيرات", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //939
+            ["id" => "8d529b1e-1c31-44e0-b951-cad0165b42cf", "translation" => "El Hassiane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d02e630c-b86d-4073-bf08-2162f42f4d75", "translation" => "El Hassiane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c86579fb-9c3b-4bba-8941-a018f3910ff9", "translation" => "الحسيان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //940
+            ["id" => "6c9fe7db-711d-49b0-bfb6-da232348a05e", "translation" => "Fornaka", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ca3b4d08-b5eb-47da-b034-86886f4909d0", "translation" => "Fornaka" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1b6c9bab-d73c-4911-99c5-cbba50a3fc07", "translation" => "فرناكة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //941
+            ["id" => "af435329-5314-4808-9a29-e9d138db7096", "translation" => "Hadjadj", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "49f4e853-e6e2-4ab0-96c6-d6458224acc5", "translation" => "Hadjadj" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5e31dd71-fb22-427c-9fdb-4d1e77cdcc5b", "translation" => "حجاج", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //942
+            ["id" => "43be7a24-74f4-4887-abb6-a10f794f5498", "translation" => "Hassi Mameche", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0ee4fc9c-c65b-4e4e-9dbc-c206dc259273", "translation" => "Hassi Mameche" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "73921dcb-7243-44f1-b8e7-39e9beb65661", "translation" => "حاسي مماش", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //943
+            ["id" => "574a77d2-22d7-4ebf-b29a-3c522e016d6b", "translation" => "Khadra", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1c1d07ce-7a0b-4548-805b-37e15ee50870", "translation" => "Khadra" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e43d90dc-1dea-4040-af5d-b5de9baf76f3", "translation" => "خضرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //944
+            ["id" => "8f9b9a37-cafb-4ee9-a0e0-60942e75da6b", "translation" => "Kheireddine", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "bd7cc0a3-e1b3-44cb-97f0-9c021c659b13", "translation" => "Kheireddine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "92f472b1-3148-4415-a2da-43b6c7fa625a", "translation" => "خير الدين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //945
+            ["id" => "c72d1233-8528-4607-a3d3-11b9b2a2e49e", "translation" => "Mansourah", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "64a3e82c-f4f4-4c44-ae08-d91a5616c15d", "translation" => "Mansourah" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "59354ba9-532f-4480-8d0f-9857f52d1381", "translation" => "منصورة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //946
+            ["id" => "b62c8ebf-79e9-4648-9497-ffb9c93bb5b1", "translation" => "Mesra", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ef9b1b45-8401-4fe8-9b7a-2ee5758d1e16", "translation" => "Mesra" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "75d846b6-9d05-443b-ae9e-b10dadf3f1bf", "translation" => "ماسرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //947
+            ["id" => "a8dcb2a0-f307-4cc6-b2f5-1a483cb86148", "translation" => "Mazagran", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f008dee4-0a9b-4eed-8b58-8a52be974aa2", "translation" => "Mazagran" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "60f95812-00ad-4e0e-9f4a-361044ecec3a", "translation" => "مزغران", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //948
+            ["id" => "9ca0f023-664f-4eec-ac03-f43f07afeb07", "translation" => "Tazgait", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2865718c-acca-4dd3-b556-37dc87e97522", "translation" => "Tazgait" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "810a49f0-4e9b-490e-a47f-bf10de69bdc4", "translation" => "تازقايت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //949
+            ["id" => "b2a563b2-12d1-41fa-802d-1ef58c08557b", "translation" => "Nekmaria", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "36673552-589b-4446-a180-68e0be38fd45", "translation" => "Nekmaria" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3ab2265a-ad28-4a33-ad5b-33bcfb27b8be", "translation" => "نقمارية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //950
+            ["id" => "c92c00a2-4c9b-4c1d-8ad6-70cb96bc84c2", "translation" => "Oued El Kheir", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5d644d40-e0f5-47f2-afe7-b6b6c7e73ae3", "translation" => "Oued El Kheir" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a3a9f62e-bf79-442c-9f97-111e43e3f5bd", "translation" => "واد الخير", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //951
+            ["id" => "2580863a-2c52-41e4-a3a1-8e82169260d6", "translation" => "Ouled Boughalem", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "94511981-a170-46f5-b351-1f80c8a12da3", "translation" => "Ouled Boughalem" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "eec5100c-b772-4c97-8e0c-4b83c6f52514", "translation" => "أولاد بوغالم", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //952
+            ["id" => "276b1b56-c6ed-4abf-b50f-fd3c4bf40df2", "translation" => "Ouled Maallah", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "63c3f66f-c47c-462a-9afc-b413fbc82a87", "translation" => "Ouled Maallah" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0c1ef26c-48f5-45e4-9601-2de0c3551bf3", "translation" => "أولاد مع الله", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //953
+            ["id" => "907089f9-a5f6-422c-a28f-72bdd406fa0a", "translation" => "Safsaf", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0a46dd6e-46d8-4960-bbdc-4db400f13108", "translation" => "Safsaf" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8ba2c3ca-f44f-48f8-b56d-0f2218d00426", "translation" => "الصفصاف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //954
+            ["id" => "ef636e68-ca14-420b-bd0c-2fc972774e1e", "translation" => "Sayada", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "448c47d1-02a8-4ca0-b8f6-768dc69b6890", "translation" => "Sayada" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "371adadb-8fa3-4b2a-b9c8-b25ce812b00a", "translation" => "صيادة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //955
+            ["id" => "66d1ded0-3b63-4585-8f18-9290dc68c7d8", "translation" => "Sidi Ali", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2a9fa259-4aa3-4757-80a5-a014bf91c1a0", "translation" => "Sidi Ali" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4a2d5f1b-136f-4dfa-855e-552a549d5a9c", "translation" => "سيدي علي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //956
+            ["id" => "2e784345-419c-4b21-bd3d-50cdf69314aa", "translation" => "Sidi Belattar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4e0a9f04-b266-466d-8566-73328a82a5d2", "translation" => "Sidi Belattar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "da401f78-9f38-48a4-844e-8169e883c399", "translation" => "سيدي بلعطار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //957
+            ["id" => "2ac139a7-7157-4ed9-a9ee-b786d8b1a484", "translation" => "Sidi Lakhdar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f405f69e-e6a0-40ae-85b3-72a3dadfffda", "translation" => "Sidi Lakhdar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "52108479-4204-4d2e-b61b-d18af5d66c3e", "translation" => "سيدي لخضر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //958
+            ["id" => "b55057fc-5e05-4b35-ab65-94f9de5d656a", "translation" => "Sirat", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9872f486-3fea-45a3-9ddc-f18be3bcd202", "translation" => "Sirat" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "75fa70e3-510b-472b-80dd-85d373b7c9ae", "translation" => "سيرات", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //959
+            ["id" => "f166a942-1299-4ef3-aaa9-32455ac49fb1", "translation" => "Souaflia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4b13c3a5-dad5-4624-847b-d1ad2addc86a", "translation" => "Souaflia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "daa82047-b5e0-4e68-986b-86bcac5b05f8", "translation" => "السوافلية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //960
+            ["id" => "6db3ab37-4307-4314-b6a8-9ef62071074e", "translation" => "Sour", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6426e337-3480-464d-9f95-d7608ff67c4b", "translation" => "Sour" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "71809e67-8f73-427b-b123-4f1a33f7704f", "translation" => "الصور", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //961
+            ["id" => "4360abba-e5c9-4826-a634-5ac4d0742bf8", "translation" => "Stidia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b67a1bb4-0732-44aa-8980-48fe1ff88d67", "translation" => "Stidia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f3b68b34-01fc-41a0-98c7-3a3b0b4dd3f5", "translation" => "ستيدية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //962
+            ["id" => "766f13da-6736-40f7-b5a3-3332d8825c2a", "translation" => "M'sila", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d08276ba-e32b-4b27-ba3c-b4a0185e606c", "translation" => "M'sila" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9da2ce8e-d346-42d3-bbe0-2c55ddefbdc1", "translation" => "المسيلة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //963
+            ["id" => "5f77a0d5-29ee-4d99-bb16-d011b2b8695b", "translation" => "Ain El Hadjel", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "74abbd20-9455-4714-bc75-c50941863169", "translation" => "Aïn El Hadjel" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f0de411a-08b6-4c68-9814-8c4457da3859", "translation" => "عين الحجل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //964
+            ["id" => "b3a7cc4d-ca1d-44a9-a0f3-03910dd4371d", "translation" => "Ain El Melh", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "43d47a35-5df3-4916-bd9d-a70544b117eb", "translation" => "Aïn El Melh" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b9beb168-17b2-4693-bb61-78dd8975a5b8", "translation" => "عين الملح", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //965
+            ["id" => "935b3b23-6ce7-4744-b109-9e29fa1c1b87", "translation" => "Ain Errich", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "34e91bab-aefd-42cc-98a5-11c18fe7218e", "translation" => "Aïn Errich" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "553da42b-ca77-41ee-ae29-70fc68287c1c", "translation" => "عين الريش", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //966
+            ["id" => "794b3828-0306-4b88-8c5f-0be9ad772820", "translation" => "Ain Fares", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ae2e5e2a-5f31-4c81-94ea-c632ecf2b3d9", "translation" => "Aïn Fares" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2a05c6d3-b085-464f-bacb-c44f3114bc48", "translation" => "عين فارس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //967
+            ["id" => "8c541b77-5453-46cc-a03e-80aa680e01b9", "translation" => "Ain Khadra", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ff61187b-52c0-44aa-b784-787c7557ee29", "translation" => "Aïn Khadra" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "21a9365b-df9e-47d8-bb91-41fea3c79517", "translation" => "عين الخضراء", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //968
+            ["id" => "640a7776-2087-4f2e-a3b9-3936414b228f", "translation" => "Belaiba", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "78b15477-7e13-442c-afe4-f51d5b2b8686", "translation" => "Belaiba" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6d3a4a1b-e45e-4680-b759-dc99122e984c", "translation" => "بلعايبة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //969
+            ["id" => "0926ee5e-ea1b-44a4-ba15-67201eac641f", "translation" => "Ben Srour", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b0a56233-a1a2-45ee-8883-ddca432e0d4a", "translation" => "Ben Srour" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "639ab3b6-824f-4049-9d5f-1450688597e7", "translation" => "بن سرور", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //970
+            ["id" => "7eebf329-fe11-4c2c-a9bf-cdfd4fb15502", "translation" => "Beni Ilmane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d0cd4603-7272-4932-8257-81250cf1881c", "translation" => "Beni Ilmane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "80d0afc3-5202-4dea-8002-ce5d768162cf", "translation" => "بني يلمان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //971
+            ["id" => "f2d84b77-74f1-480c-862f-c389a717bf24", "translation" => "Benzouh", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0600b319-461b-4142-a509-b77f5d48acba", "translation" => "Benzouh" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fc69d1bc-1d3f-4302-a0c5-b4260bed331b", "translation" => "بنزوه", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //972
+            ["id" => "7154eda6-c40b-427e-897b-d4a6f482cc2d", "translation" => "Berhoum", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c7a54ce6-e342-4bcc-8a10-7d25a0498950", "translation" => "Berhoum" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "09176da8-8f9c-48ec-b00b-c425f8841543", "translation" => "برهوم", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //973
+            ["id" => "2f3ecfd2-adcd-4594-8b9e-db4db278ced6", "translation" => "Bir Foda", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "87410ccc-3fe6-4b9e-82f1-d355bc63455e", "translation" => "Bir Foda" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1b410e9b-96f4-4170-8f09-9d28ab067749", "translation" => "بئر الفضة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //974
+            ["id" => "6ab5af7d-f2e1-49be-a377-37dee0cc1c28", "translation" => "Bou Saada", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9703282d-59db-40e7-8293-8bdc642a5a5e", "translation" => "Bou Saâda" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5edfb496-e85d-46a8-8d8b-e802e8375c88", "translation" => "بوسعادة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //975
+            ["id" => "fd4b204b-f9dd-4c4e-8775-761d1ba7ebb6", "translation" => "Bouti Sayah", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9ec1b512-be89-4cd8-9744-3b9cb450ae4e", "translation" => "Bouti Sayah" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e676e72c-3072-4bf7-864f-27faae488cf6", "translation" => "بوطي السايح", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //976
+            ["id" => "026195d2-b3f2-417c-b735-33d6efb007bf", "translation" => "Chellal", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e364f01f-4de0-4967-b057-436e4e09f83e", "translation" => "Chellal" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "395203fa-8acf-486e-a863-8cd28206dbd2", "translation" => "شلال", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //977
+            ["id" => "ac63f0b8-22ae-47d3-bff2-5bff24f53887", "translation" => "Dehahna", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ee79b426-ac91-4d45-a332-5c523b5108ef", "translation" => "Dehahna" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "45bcf1a4-8f80-47c2-92f5-90ee0d15445e", "translation" => "الدهاهنة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //978
+            ["id" => "0c407ed7-058c-470c-b34c-b9f0b30d3ea9", "translation" => "Djebel Messaad", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7e2ea851-d692-4323-81f6-158b31dec40e", "translation" => "Djebel Messaad" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a10bf3e7-7dd4-460e-9525-9ca4f1c39a92", "translation" => "جبل أمساعد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //979
+            ["id" => "89762b58-5234-4b14-8d2f-c89b69ca307f", "translation" => "El Hamel", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4f635a2a-9521-4044-8e65-8cad39e21d1f", "translation" => "El Hamel" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "70cd155a-2795-4e81-ab76-66138c7a6e86", "translation" => "الهامل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //980
+            ["id" => "3a8fe172-543b-4d10-97c4-f756cf27b97f", "translation" => "El Houamed", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b75ca10c-f6c2-4338-84d1-340540d8c7d8", "translation" => "El Houamed" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "46e1b87a-0cf3-4dd8-bfed-ea2292c0812c", "translation" => "الحوامد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //981
+            ["id" => "18b3296c-39f8-4cb8-8bb7-9fbb2b3697cb", "translation" => "Hammam Dhalaa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3ec42cea-7b37-4928-a547-b09061241bdb", "translation" => "Hammam Dhalaa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3e0806e2-2d53-4750-bc09-6ba8150742a5", "translation" => "حمام الضلعة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //982
+            ["id" => "bd8a7bec-b64b-451a-a025-05d3c45434ca", "translation" => "Khettouti Sed El Djir", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f99d11d4-535e-474b-8476-76d914838192", "translation" => "Khettouti Sed El Djir" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c78915c3-4aa0-4a66-9038-1d4b408cb77e", "translation" => "خطوطي سد الجير", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //983
+            ["id" => "5b0d593e-d58a-4abb-9328-6137919c44a0", "translation" => "Khoubana", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "27f2161a-b168-43d2-bd83-c8d7b25da57b", "translation" => "Khoubana" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c5ee2509-eda1-4965-951d-2f3eee4cd1ac", "translation" => "خبانة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //984
+            ["id" => "b4814605-c4be-4de7-a451-c8c131d4662e", "translation" => "Maadid", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1a08b8b5-bbab-41a2-8fbd-f1986233e944", "translation" => "Maadid" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "98c9e8b2-33f2-4c89-bfbf-f5f46e000ff3", "translation" => "المعاضيد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //985
+            ["id" => "268660f7-53a2-48a2-9a1e-a56f368a11b7", "translation" => "Maarif", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "29ed7b52-46ab-4e81-9334-a6d71adcdee6", "translation" => "Maarif" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2509818c-89bf-471f-a519-2bd3c19926c7", "translation" => "المعاريف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //986
+            ["id" => "adb5ce27-691e-4372-bcce-ebcee04019ca", "translation" => "Magra", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e33c7bf1-0eba-438f-b942-48df691678e1", "translation" => "Magra" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "039307a0-15bf-489a-9945-ea09c03ae93d", "translation" => "مقرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //987
+            ["id" => "29d67081-c845-483a-9911-ebdd66039832", "translation" => "M'Cif", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ed426f9b-70d5-48bd-aaa6-e25411a710d6", "translation" => "M'Cif" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "36ff6984-93c7-48c1-8f90-22064d9cbf37", "translation" => "مسيف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //988
+            ["id" => "16dd0ae1-7ea7-4fec-ae08-c2441951bbf5", "translation" => "Medjedel", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d7ff1509-e854-43f3-a223-c4dcc22718e5", "translation" => "Medjedel" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "17840da4-78ba-4b41-b48b-1f143f8e16e3", "translation" => "مجدل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //989
+            ["id" => "8c99e441-0017-4fe1-9e99-534b2058180e", "translation" => "Zarzour", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "82a7bc7e-9bcd-40e6-abfc-547ffa6cdf85", "translation" => "Zarzour" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "172fe23c-db9a-48c4-a74e-369971fd9aca", "translation" => "الزرزور", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //990
+            ["id" => "379402e6-9360-41bc-a8cf-e7c64b6d8105", "translation" => "M'Tarfa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f5fc4ff0-a3c6-4c44-bbac-1631f3cd5ebd", "translation" => "M'Tarfa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d1e190aa-4cbe-444d-9252-445dcc7044bf", "translation" => "المطارفة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //991
+            ["id" => "021de17b-e1fa-4f80-b533-b3c55a59a845", "translation" => "Ouanougha", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3fbd9638-0951-4f37-b89f-ffcb1b6b6706", "translation" => "Ouanougha" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a9a51a5f-8e08-4aa8-8f7d-7143ce8c9637", "translation" => "ونوغة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //992
+            ["id" => "7d9c2ede-87e2-445e-80d2-ab986ffb0433", "translation" => "Ouled Addi Guebala", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "83e4535a-e616-45cc-ba26-c2c092df726e", "translation" => "Ouled Addi Guebala" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ce0e7b5b-7324-4e7b-9d0c-69d6980fcc2a", "translation" => "أولاد عدي القبالة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //993
+            ["id" => "d97d6b82-dbd9-4e28-9059-c5c4ae1c8cf9", "translation" => "Ouled Atia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8369f8f8-2b87-447a-ad1e-51b5ca87de5e", "translation" => "Ouled Atia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "70a25a0a-c70d-4bae-86df-82318ae13c48", "translation" => "أولاد عطية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //994
+            ["id" => "43d27d2d-c135-41c6-8778-009c5f38151a", "translation" => "Mohammed Boudiaf", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "408821e4-6254-4d6c-a55d-bd7f4ff03302", "translation" => "Mohammed Boudiaf" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fa923976-500e-4280-87a1-ccc2dbb81575", "translation" => "محمد بوضياف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //995
+            ["id" => "653b407d-bd75-4ef9-8e26-fa01ac5cdafd", "translation" => "Ouled Derradj", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9049bf13-d79e-4abe-9a33-3f03eded5342", "translation" => "Ouled Derradj" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f4dc2e82-9df6-4502-a645-b81085b7ad94", "translation" => "أولاد دراج", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //996
+            ["id" => "05807ad4-93da-4a63-86b3-8f66899630df", "translation" => "Ouled Madhi", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f064c267-f052-4faa-a6c8-afabc0c225b8", "translation" => "Ouled Madhi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c48aaa1b-1d3f-4e19-9a5b-a1affa83208d", "translation" => "أولاد ماضي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //997
+            ["id" => "2cc6afc7-44dd-4abe-8b80-5c37c14a1a3a", "translation" => "Ouled Mansour", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9b6a6a95-1183-46f9-881c-eab7dc9c3913", "translation" => "Ouled Mansour" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "555aa3a8-2737-4782-b2ff-bf4985ae0fe9", "translation" => "أولاد منصور", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //998
+            ["id" => "cf8a404a-a787-48eb-950f-403d6a0e0c5e", "translation" => "Ouled Sidi Brahim", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6fb9fdbd-582d-49a5-96a5-2322e55ec8f5", "translation" => "Ouled Sidi Brahim" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "733b5b29-e76b-44b8-8e7e-77ece076751a", "translation" => "أولاد سيدي إبراهيم", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //999
+            ["id" => "0d442ed8-9f6e-4ded-8833-210ae323d342", "translation" => "Ouled Slimane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7b2ccee7-f1d3-416b-9bcd-0f1e14da2098", "translation" => "Ouled Slimane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f485b268-d5b2-4510-8110-b83ef46bdf2f", "translation" => "أولاد سليمان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+
+                //1000
+            ["id" => "ccb9b26b-a74c-4c57-af86-8ce5f2a043bf", "translation" => "Oultem", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "53c3e1d7-002d-4589-8f28-41c24fd5a9b5", "translation" => "Oultem" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d1b56a4d-eab1-48bb-8712-729388419493", "translation" => "أولتام", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1001
+            ["id" => "674ac2b9-b561-43b0-930c-93a6cd6b818f", "translation" => "Sidi Aissa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7aa4269f-13e1-448c-be8b-0a297b29e0cd", "translation" => "Sidi Aïssa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "14fb044a-7a07-4782-bc17-97029519afdc", "translation" => "سيدي عيسى", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1002
+            ["id" => "934afa5c-23f7-495d-ab3e-23f17525acd5", "translation" => "Sidi Ameur", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "bb5c6b0d-55ed-4d2b-858b-1e63ee502c2d", "translation" => "Sidi Ameur" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6c84ab32-1636-4650-8f6d-8bc401850717", "translation" => "سيدي عامر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1003
+            ["id" => "dab3d469-45a3-43dd-909c-0e102f801e5c", "translation" => "Sidi Hadjeres", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "fe26af6a-ec29-450d-b1c3-3e0f99982d86", "translation" => "Sidi Hadjeres" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "07e39230-542e-4c55-9cd1-81c30362e649", "translation" => "سيدي هجرس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1004
+            ["id" => "a11233e7-ad7f-4adb-a8e7-d5ca1d53167b", "translation" => "Sidi M'Hamed", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7a5e50cd-652d-4d48-a93d-1abd8ee4e10e", "translation" => "Sidi M'Hamed" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7e3c6f1b-73fe-446c-ab6f-95d4fb36788a", "translation" => "سيدي امحمد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1005
+            ["id" => "f29bd1cc-506c-455e-88e0-1435f9baec1d", "translation" => "Slim", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7e18f3d4-0d28-4ca8-92ac-c58da20dbe25", "translation" => "Slim" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1f771b4a-177e-4949-adc0-b2a0f0ffba1a", "translation" => "سليم", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1006
+            ["id" => "6511f846-1416-4ce5-82c6-fd16f94dc3ae", "translation" => "Souamaa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8e23ad87-0d4f-4126-8f4b-71ab81601d0a", "translation" => "Souamaa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d9e27711-d4b5-4537-bae2-c27deed0f20c", "translation" => "السوامع", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1007
+            ["id" => "466d4051-c37e-4f21-a496-e5daa22b5495", "translation" => "Tamsa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1e5302e5-793a-4fc8-ab38-45a5571536eb", "translation" => "Tamsa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "296ee91c-73c9-4d01-9201-a1832021972e", "translation" => "تامسة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1008
+            ["id" => "2e9a897f-052f-4c01-a263-02dea4103c7a", "translation" => "Tarmount", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2612c430-e627-4fec-aed8-897e9b3873ff", "translation" => "Tarmount" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5bd838a7-858b-41cc-8fba-f73976c54285", "translation" => "تارمونت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1009
+            ["id" => "f55400c0-a80a-4c19-8f13-dbd57ad152a0", "translation" => "Mascara", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "418b998d-9148-4408-ba52-cdf4a7c17d1c", "translation" => "Mascara" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "320a5e59-a170-4f4f-b795-f378aa893f4b", "translation" => "معسكر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1010
+            ["id" => "4b635661-80bc-4888-997f-530916a22705", "translation" => "Ain Fares", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0828777d-5d04-46e1-bc05-28233cb8e168", "translation" => "Aïn Fares" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fe915a03-e7e5-439d-86f1-365c973d478e", "translation" => "عين فارس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1011
+            ["id" => "87746c71-54c5-4f39-9cad-b0aee9f3fafa", "translation" => "Ain Fekan", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "bf99cc7a-a70c-4b38-b62c-e7f52d7157a8", "translation" => "Aïn Fekan" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2b04ebe8-70f1-49d9-aa56-68b582380fac", "translation" => "عين فكان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1012
+            ["id" => "7772974c-9113-43fc-8243-5b169c8c674a", "translation" => "Ain Ferah", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "dc6e4a0e-5a12-423c-8662-efee1206e279", "translation" => "Aïn Ferah" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "765cfb29-0f82-4800-a0d4-826b1fe16778", "translation" => "عين فراح", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1013
+            ["id" => "453f7748-f751-4361-a00f-0ca608f12586", "translation" => "Ain Fras", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d121ae3b-4938-4583-8b22-c8c05a6a9e13", "translation" => "Aïn Fras" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8ef7b41e-e607-4b9d-b2c6-a40fea5622cc", "translation" => "عين افرص", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1014
+            ["id" => "c36df67d-9d9c-4bd9-893d-22b1a12f5377", "translation" => "Alaimia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2494c81b-cbde-47f4-a97a-c8e06bf29cd7", "translation" => "Alaïmia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "70cc7584-a07b-49c3-811d-c3ae1e417a40", "translation" => "العلايمية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1015
+            ["id" => "5646735c-fde0-4306-a847-c7ad30ef5298", "translation" => "Aouf", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5f677764-0870-41b9-b304-f02c7a37cd52", "translation" => "Aouf" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8401cafb-c3de-40e8-a732-a8d3770e7be3", "translation" => "عوف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1016
+            ["id" => "a9a3ab4f-6325-40b3-800c-8ef652959f73", "translation" => "Beniane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c8ba7935-54f3-4b09-8336-89666d6bc7eb", "translation" => "Beniane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "31e2c122-c781-47b8-a910-dd424732fd8f", "translation" => "البنيان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1017
+            ["id" => "e1aa6d6c-6d5d-48a2-9e89-5c4f2cdee788", "translation" => "Bou Hanifia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "00029006-fba8-4954-9dd1-715e98a341d7", "translation" => "Bou Hanifia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "85630392-d3d4-4a8b-b2f1-4d86fb382460", "translation" => "بوحنيفية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1018
+            ["id" => "f34ec2f8-d8cb-4444-9399-466d9a243919", "translation" => "Bou Henni", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b91fc584-88b3-4225-a782-edb1c03f5401", "translation" => "Bou Henni" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "36c89462-7773-4dab-b174-fb47802d31d8", "translation" => "بوهني", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1019
+            ["id" => "b17e2eff-cd0b-487b-9631-0159ab165fd7", "translation" => "Chorfa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a7c3321d-bc56-404d-add8-a13a535ebb67", "translation" => "Chorfa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "805bdc3f-197e-4614-8fc4-6c1dd400b71c", "translation" => "الشرفة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1020
+            ["id" => "34e4891f-d349-4a45-81a2-5bba0404544d", "translation" => "El Bordj", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "04d4557e-2a70-4aea-b08f-57de14d2fb88", "translation" => "El Bordj" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9339701f-2ae8-49e1-8a69-af5937135b18", "translation" => "البرج", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1021
+            ["id" => "63680e65-e573-46b8-9999-b329da852870", "translation" => "El Gaada", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "18afc049-764f-4a20-b296-f06baf01115b", "translation" => "El Gaada" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a2bd1338-fc72-461b-b89f-031c24d6d184", "translation" => "القعدة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1022
+            ["id" => "a5d882d6-baba-4ec4-b901-ec429b7b70f0", "translation" => "El Ghomri", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e2a7298d-25bc-4f86-8394-b1c78a23feb3", "translation" => "El Ghomri" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "04d0d48b-e6bd-42e3-9614-4754c966a23d", "translation" => "الغمري", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1023
+            ["id" => "d855b722-bd08-4009-97fb-4179668d1c27", "translation" => "El Guetna", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d3dd8791-acd9-4f70-8fd1-fe41549ed69e", "translation" => "El Guetna" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7fc8177e-bac4-4011-b514-e656ba0bb4b4", "translation" => "القيطنة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1024
+            ["id" => "a054a5f3-d1e5-45fd-849b-ae4a34e2ad66", "translation" => "El Keurt", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5467d2f2-7db9-4605-b7a6-518d7a9e0e18", "translation" => "El Keurt" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1f9dd787-ec49-4c78-b4c9-55f7b40845e1", "translation" => "القرط", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1025
+            ["id" => "e888f0bd-92ba-4277-b4c9-9ee736d4cd9f", "translation" => "El Menaouer", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "922924e6-e8f5-4c23-b4c8-c4c5d61e168a", "translation" => "El Menaouer" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3fc6a63d-fdec-4712-92d6-6f101088508d", "translation" => "المنور", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1026
+            ["id" => "a13eb0b7-d229-486d-ab05-fb95def3b3b5", "translation" => "Ferraguig", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3a1b0a38-f2ab-4aa8-b5ad-a9bb8a89c97d", "translation" => "Ferraguig" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d472054a-c6f9-4e48-983c-02d9e6402133", "translation" => "فراقيق", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1027
+            ["id" => "943b038b-535c-4353-baae-af45b3008c7f", "translation" => "Froha", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d1c60eef-a899-4967-9868-4754ed58fea3", "translation" => "Froha" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "53e084fb-9d8d-404b-b89d-740422b71fc1", "translation" => "فروحة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1028
+            ["id" => "b0bfaa78-a4ad-42ad-98ec-3b251dca1461", "translation" => "Gharrous", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "94fc37c8-5976-44fc-a2b4-bf9862186c7d", "translation" => "Gharrous" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1f430f2b-37a9-48b6-bcbb-1c1a879d8439", "translation" => "غروس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1029
+            ["id" => "c1097834-ccbc-4ccc-8be1-b36843122f2d", "translation" => "Guerdjoum", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0d7bfffd-57c4-455d-a87c-b7e83630113b", "translation" => "Guerdjoum" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a033b7df-7fe3-4e14-b74c-4a9b97394a16", "translation" => "قرجوم", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1030
+            ["id" => "657a468e-47fd-483b-9287-5ba0a561b5c2", "translation" => "Ghriss", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "62d73aa9-873d-4aa7-98da-6c6f6d8b6a3b", "translation" => "Ghriss" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5855e6a6-92bf-40ce-8545-7ee9dac1a796", "translation" => "غريس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1031
+            ["id" => "852f0c9f-ebf4-4f28-9335-776254b7f49e", "translation" => "Hachem", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "caf27282-e4c7-4260-94fe-fdd64e4b2444", "translation" => "Hachem" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "05817797-19a9-495b-b341-6fde14806714", "translation" => "الهاشم", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1032
+            ["id" => "3db0ef94-659b-4057-9251-244bbeb3c937", "translation" => "Hacine", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "54232705-f66a-4a24-b359-9f33134e5100", "translation" => "Hacine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4c6390a5-261f-4469-94bf-e2686bda6e3c", "translation" => "حسين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1033
+            ["id" => "991692f8-75c7-4f70-9a81-67f642a7f921", "translation" => "Khalouia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c1973dfd-2618-49bc-aa67-c2eb79c4cb94", "translation" => "Khalouia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "023e52bc-9749-4c7e-82c9-eb8c06d2cff4", "translation" => "خلوية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1034
+            ["id" => "e60a31aa-7b2b-4c8f-873a-51a5d61a7815", "translation" => "Makdha", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5f86e1b7-801b-41d7-a2f5-2f9bf7ae163e", "translation" => "Makdha" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c8423a4f-53e3-4724-a56c-b860cea4d650", "translation" => "ماقضة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1035
+            ["id" => "8fcb087c-276c-454c-ba35-cf3b74eae07f", "translation" => "Mamounia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9c346857-adf6-4760-9c13-29880d078c29", "translation" => "Mamounia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "73e1017f-3e19-4d4d-ab9f-66e64641ccb2", "translation" => "المامونية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1036
+            ["id" => "cc54586f-8bfa-4a5d-babb-617f86bda7b8", "translation" => "Maoussa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "921b71a3-d147-4a22-89b5-1250cce2d5da", "translation" => "Maoussa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ac802d81-60b4-47d7-9b4c-5bc96ad2928d", "translation" => "ماوسة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1037
+            ["id" => "2a8edd3b-70ae-4e18-b14d-0b652929d0e3", "translation" => "Zelamta", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "44b4fd27-d464-41b9-977d-b4b7c4bcc88a", "translation" => "Zelamta" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "56340fd3-2548-4d56-9fd5-ae9f76516f1e", "translation" => "زلامطة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1038
+            ["id" => "5c479bd5-15b9-4f36-b800-bcee5bdcba18", "translation" => "Matemore", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "698daa40-2c2e-41e2-ada1-03688a8c9805", "translation" => "Matemore" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4ce7fb52-4a92-47dd-8365-a0820c68f2bd", "translation" => "مطمور", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1039
+            ["id" => "ca2287d6-f0e3-4ce1-8267-69d4b6cc38d6", "translation" => "Mocta Douz", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d52245b4-a21a-4243-94f2-d2b3616c3c0b", "translation" => "Mocta Douz" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "93cdf242-9bc8-42c1-b7f5-b3e45296807c", "translation" => "مقطع دوز", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1040
+            ["id" => "84f3d8ab-b862-47c5-a11d-0e09cc433a9f", "translation" => "Mohammadia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "44157818-d199-4972-9167-6f25978574bf", "translation" => "Mohammadia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ad52bb75-3401-4db7-887b-26351b075874", "translation" => "المحمدية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1041
+            ["id" => "eb36fd43-9007-4420-86f7-b52ca4eb6b3d", "translation" => "Nesmoth", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2d5d2c19-b772-437d-83a4-2fdf8fcc7f0c", "translation" => "Nesmoth" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "563917b2-7948-4f2b-b873-28b25aa7f9c3", "translation" => "نسموط", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1042
+            ["id" => "ea36e3a0-5754-455e-a220-a7bbdce9f4ab", "translation" => "Oggaz", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "39f5b204-6ae6-4880-ae1e-0b2966defa8c", "translation" => "Oggaz" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0de55819-3479-42a4-b2b8-dc21de289318", "translation" => "عقاز", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1043
+            ["id" => "601dc48b-8daa-4921-a2bd-d5e14e4cb5fd", "translation" => "Oued El Abtal", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a88c4b09-69b2-4004-94ad-6e08bec7cb42", "translation" => "Oued El Abtal" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8af99076-84bc-4058-bba5-7d573911ac00", "translation" => "وادي الأبطال", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1044
+            ["id" => "6f846ce7-97e5-4cdd-90f8-7a104af91f6b", "translation" => "Oued Taria", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6243cb4b-8a66-418f-a59c-2e58c4c26f2f", "translation" => "Oued Taria" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5dbc8a2d-9d0e-44ee-ba80-73429e1bea06", "translation" => "وادي تاغية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1045
+            ["id" => "fece8d22-4727-4705-9c62-1a233004a8da", "translation" => "Ras El Ain Amirouche", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0cd04457-fb8e-4e4c-9e63-aa974f3a68ef", "translation" => "Ras El Aïn Amirouche" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a62d6604-4303-401d-b622-79f61c1854ea", "translation" => "رأس عين عميروش", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1046
+            ["id" => "b2ade2ee-d885-4163-a4b3-05814c83cdf8", "translation" => "Sedjerara", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3bf19075-2670-43c2-b3dd-3a9ae873b826", "translation" => "Sedjerara" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6475a8e8-f75e-48bf-9fa9-b60fbfbbf18c", "translation" => "سجرارة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1047
+            ["id" => "783831b8-70ff-4566-a7b1-3b39269b0f94", "translation" => "Sehailia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5e1cc336-4a5f-469e-8716-8a3f247939f0", "translation" => "Sehailia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2f66b24d-a018-4e80-a33f-589384c51765", "translation" => "السحايلية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1048
+            ["id" => "2bd9a28f-10cf-48e0-adb6-3d8b2742e7b2", "translation" => "Sidi Abdeldjebar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7f6a6c08-b977-48ce-886a-0ffe94cf9f42", "translation" => "Sidi Abdeldjebar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d3940bd0-3d63-4cdf-a435-710e0346ff5d", "translation" => "سيدي عبد الجبار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1049
+            ["id" => "d50ec8e0-1555-404b-91fd-b528a2750179", "translation" => "Sidi Abdelmoumen", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a755c22b-735d-46d7-87ae-158b2f25e6ce", "translation" => "Sidi Abdelmoumen" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c49fa1c6-928d-466e-8d3e-7e3b5960759b", "translation" => "سيدي عبد المؤمن", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1050
+            ["id" => "2af06166-7d85-43ce-b8fd-a525440e629e", "translation" => "Sidi Kada", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ca469323-6c49-4316-be5f-516dea6829a5", "translation" => "Sidi Kada" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9acdc524-7f14-4d8c-aac2-5a7d1101cff5", "translation" => "سيدي قادة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1051
+            ["id" => "5429b1c1-c5f8-4250-b628-5ea6aa66b7c5", "translation" => "Sidi Boussaid", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "946c71d6-976b-4897-9e5b-8cb965fe6514", "translation" => "Sidi Boussaid" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9381470c-b55f-4ff1-8eee-cd2a9c549ef3", "translation" => "سيدي بوسعيد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1052
+            ["id" => "a3e869e4-dbe5-4d94-ae1e-2ead44a1c49e", "translation" => "Sig", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9b5e2c4c-d7f7-4e6c-9797-fed8191fb81c", "translation" => "Sig" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "390b2475-f0bf-4247-bb84-edafc9a1e1e7", "translation" => "سيق", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1053
+            ["id" => "2dfd2f81-e8ab-45ef-8a69-3ef9d9e75b97", "translation" => "Tighennif", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0b3b23aa-3f22-4d66-9cb7-7ea9d169537f", "translation" => "Tighennif" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "89076d88-b92e-4170-aa5f-0bf57b6d6498", "translation" => "تيغنيف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1054
+            ["id" => "0b12ca94-c33a-43ee-a55d-cf8421d00181", "translation" => "Tizi", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8d034aa6-7653-4197-992b-20edac5e23dc", "translation" => "Tizi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fcb96f05-6004-40e6-a5e7-c5c13647e613", "translation" => "تيزي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1055
+            ["id" => "3300065d-12a6-43af-93fb-20b098a50e80", "translation" => "Zahana", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "bdfddd54-7815-4470-bd66-81ba5c42c39a", "translation" => "Zahana" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "892e2e4d-f99f-476a-8ac6-9d715962d5f4", "translation" => "زهانة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1056
+            ["id" => "c941e85e-2574-450b-88d0-547446af04c1", "translation" => "Ouargla", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1aa6d207-c3e0-42e9-a9cc-1987f1de7092", "translation" => "Ouargla" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "734aa8fc-7307-4a3c-8e8f-0842d34467c4", "translation" => "ورقلة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1057
+            ["id" => "67aa2159-f8a6-4059-8be8-0ff26194b34f", "translation" => "Ain Beida", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "fde6a1ad-9dce-4f5c-9c3c-0dbeb85a9da3", "translation" => "Aïn Beida" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0c7c98e2-bb13-40a7-a59a-18905faf38bf", "translation" => "عين البيضاء", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1058
+            ["id" => "bfeea6ad-3297-4c5e-addb-e7a5ec6192de", "translation" => "El Borma", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2c4c8783-46c3-469c-b664-6fb8412b60e3", "translation" => "El Borma" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ed5bf85d-9def-45eb-af57-b8ee1469ff37", "translation" => "البرمة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1059
+            ["id" => "a4d5853e-8eed-4ec6-88ec-51140a445259", "translation" => "Hassi Ben Abdellah", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "de3fc702-2263-4143-825c-99c5156232fe", "translation" => "Hassi Ben Abdellah" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c62a1a04-f3f1-4906-9ecb-e0fe3ea4d411", "translation" => "حاسي بن عبد الله", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1060
+            ["id" => "bed73ab4-b07f-4245-a784-1335ced4530e", "translation" => "Hassi Messaoud", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ca395788-c375-4877-8ef9-9023b5246cbe", "translation" => "Hassi Messaoud" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "155444e1-233d-4601-88c4-5492c05ac0c3", "translation" => "حاسي مسعود", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1061
+            ["id" => "39379ec8-2138-4b5f-b941-c34275006caf", "translation" => "N'Goussa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "745a608d-4ab0-40d1-841c-6ad7659535d5", "translation" => "N'Goussa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3369ff57-cccf-41a0-830f-90e0449921bf", "translation" => "النقوسة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1062
+            ["id" => "dda134f3-98a6-445f-8c24-7fe1dbba5c76", "translation" => "Sidi Khouiled", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2ca3d321-5756-4bfc-be06-962c9a34d168", "translation" => "Sidi Khouiled" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "de6300c9-ae90-48ce-a6c2-1baba698bd9b", "translation" => "سيدي خويلد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1063
+            ["id" => "d9531c0e-b177-48d9-964b-47288bdce34a", "translation" => "Rouissat", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6d59b2e9-1696-4e3a-8767-7cd1e4b5738d", "translation" => "Rouissat" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bdc55cf1-859d-405c-983f-314fa8d4e891", "translation" => "الرويسات", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1064
+            ["id" => "183dc27b-b48a-42b3-86c3-54067651b67e", "translation" => "Oran", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "056621bc-fd3f-4fc3-8074-4819fd81adf7", "translation" => "Oran" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "989a7d50-20be-41b5-bdf4-9a3ae78f7742", "translation" => "وهران", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1065
+            ["id" => "51fc40fd-147c-431a-965d-d639ee3b196e", "translation" => "Gdyel", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e619f181-00c8-4a7f-be8f-424ca4b7f3d1", "translation" => "Gdyel" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "46318a48-aed2-441d-b38a-d69ed4cb2969", "translation" => "قديل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1066
+            ["id" => "ad0a8bc4-4030-40de-b2c4-e22dcfeebaca", "translation" => "Bir El Djir", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4b989668-aa2a-4436-8905-adad8aa85b05", "translation" => "Bir El Djir" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "94ec16e2-2d91-49b2-ac67-c3c51bceae64", "translation" => "بئر الجير", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1067
+            ["id" => "a1e78092-4277-40bd-90c9-73d48d9fc6bc", "translation" => "Hassi Bounif", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d2b3b722-2b8c-4bff-aaa7-e83e10ba88ca", "translation" => "Hassi Bounif" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "aaf0415b-4e9a-4dc2-a669-5bd605c12b30", "translation" => "حاسي بونيف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1068
+            ["id" => "1dc19847-1615-4a68-a005-53e7820d08a5", "translation" => "Es Senia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "96b28865-4e32-466c-aa29-6527b0e699f8", "translation" => "Es Senia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f09c01e0-9897-460a-bcbf-24e006c3aebb", "translation" => "السانية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1069
+            ["id" => "519d82e7-1d70-4e8a-be9f-baabb164d0e5", "translation" => "Arzew", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2403e5d4-73db-4ad0-ab90-f31dd9610c51", "translation" => "Arzew" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7d3bb171-e9c0-4301-8865-9e996ab76c2e", "translation" => "أرزيو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1070
+            ["id" => "ea99038e-cab6-4175-929a-e2527eaceced", "translation" => "Bethioua", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a5250a24-7c01-4923-ac84-6c1ede411b97", "translation" => "Bethioua" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "91cd0581-ff49-4d22-b649-d518a7a8e9aa", "translation" => "بطيوة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1071
+            ["id" => "1c41d7cd-a0e9-4cc6-a41c-06419726c46e", "translation" => "Marsat El Hadjadj", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6448054f-959b-4f5a-be14-8f02177c03e2", "translation" => "Marsat El Hadjadj" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d0d7a12b-b8f0-418d-89f1-bca7aa3fa8ce", "translation" => "مرسى الحجاج", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1072
+            ["id" => "ba6ed7dd-3a17-4af9-8f9d-09830a8ec024", "translation" => "Ain El Turk", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f16657fc-37ac-4c15-9d73-3eabc673ed08", "translation" => "Aïn El Turk" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e1e898df-6b31-41a2-92cc-3481f0658a7a", "translation" => "عين الترك", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1073
+            ["id" => "ce5e54a7-eda2-421a-a577-e4eb1fb8330b", "translation" => "El Ançor", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3b5236f5-6b0c-4c1f-81f6-12fbabf0e812", "translation" => "El Ançor" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0ddbd4e2-a86b-4adc-be08-703e4c7cb0a8", "translation" => "العنصر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1074
+            ["id" => "f8b0dc95-6986-40ce-b5aa-a71e54ad6f00", "translation" => "Oued Tlelat", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "dabaf5d2-2e1a-4cd2-ba04-bd9031897da9", "translation" => "Oued Tlelat" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fbaa4900-679c-438a-a409-124d2cd3deda", "translation" => "وادي تليلات", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1075
+            ["id" => "d256f067-8f89-4b57-a456-6fdb3d5ec935", "translation" => "Tafraoui", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ed732b65-e10a-4075-8e2a-e953829fbcb9", "translation" => "Tafraoui" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "190c0b7f-dbfc-47e8-ad16-ca9a515066c3", "translation" => "طفراوي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1076
+            ["id" => "861f7f2e-a4cf-41aa-b36c-073af70f88eb", "translation" => "Sidi Chami", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ca96dcdc-725d-4342-8660-54009140bb1c", "translation" => "Sidi Chami" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1674ab9f-18c6-413c-a977-8c03c6930e9e", "translation" => "سيدي الشحمي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1077
+            ["id" => "cb4bee20-3a69-4614-8520-228c36424152", "translation" => "Boufatis", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1a39a9ee-4731-48e5-8bd5-8c6bb0696888", "translation" => "Boufatis" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fac6c8c0-962c-485f-9c6b-e97fa3158a89", "translation" => "بوفاطيس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1078
+            ["id" => "dbac42c6-decc-4553-a44f-7c66f5db8ca5", "translation" => "Mers El Kebir", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d491a129-445b-478d-8276-6e6a68a0e9f1", "translation" => "Mers El Kébir" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9a8edc19-95f2-4e59-9b9e-1effd5a89606", "translation" => "المرسى الكبير", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1079
+            ["id" => "8a23e242-9056-4ccf-8d66-b2ebe86fde73", "translation" => "Bousfer", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "36f5df36-218c-4389-ae29-9c537954f182", "translation" => "Bousfer" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d0d8f573-d60d-4c42-9a69-135f5b74eb1c", "translation" => "بوسفر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1080
+            ["id" => "7c60e808-2df2-49f8-9219-5270f40edf87", "translation" => "El Kerma", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6736401e-973b-4517-bc61-e9d54b7a60c3", "translation" => "El Kerma" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "42fb0235-eff1-4cb1-9286-ee48d4601185", "translation" => "الكرمة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1081
+            ["id" => "b5b69af3-1105-4f5d-9129-edf9448749ba", "translation" => "El Braya", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e033972f-8274-40fc-b75d-797643f39ee5", "translation" => "El Braya" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ac79e6fe-ca9e-4ff9-8c65-09f199e7a760", "translation" => "البرية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1082
+            ["id" => "5085996c-f56e-4bb0-8f98-122f12622af8", "translation" => "Hassi Ben Okba", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "024346cf-fd66-4c73-8ea3-fe1d7a891fc4", "translation" => "Hassi Ben Okba" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "caa44874-8705-4e6d-9bfc-dd22265bf586", "translation" => "حاسي بن عقبة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1083
+            ["id" => "16839548-8496-49c1-8ea9-518cd8e40fc6", "translation" => "Ben Freha", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "66ee364b-80ae-44c1-bda8-b15bfca56b59", "translation" => "Ben Freha" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8150d8df-b212-40e1-af5e-fabbdc509930", "translation" => "بن فريحة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1084
+            ["id" => "456874d6-6db2-4e46-8994-ff3d8ed468ad", "translation" => "Hassi Mefsoukh", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "93f64f9c-8603-4f3d-85e9-f12c5723b458", "translation" => "Hassi Mefsoukh" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e44e821b-8f19-442b-8699-4899233fd649", "translation" => "حاسي مفسوخ", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1085
+            ["id" => "3d450c30-e768-4b3b-ada0-8862f15d7ebc", "translation" => "Sidi Benyebka", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "994dc852-36b1-411e-a9a3-43cf0a43253b", "translation" => "Sidi Benyebka" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e9fe67e4-d89e-4654-9cd7-30845549f144", "translation" => "سيدي بن يبقى", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1086
+            ["id" => "f46ae868-e666-45d6-b047-63298f1821bb", "translation" => "Misserghin", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "12f761ef-2642-44a0-9002-a9ba640bca45", "translation" => "Misserghin" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6be0605a-bf7e-499b-8965-be7e3dce5c44", "translation" => "مسرغين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1087
+            ["id" => "2468ea8a-18fa-47a4-aaf1-451bd7d1600e", "translation" => "Boutlelis", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "38de0138-17e8-4542-8d43-60de568cfd8e", "translation" => "Boutlelis" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5850f991-4309-4d0d-bbaa-497926153d43", "translation" => "بوتليليس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1088
+            ["id" => "fd763e9d-bbce-4bb8-9e36-87c66ff5a5b1", "translation" => "Ain El Kerma", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "72c58d4d-25d0-47fd-bfdc-39b88c0bd644", "translation" => "Aïn El Kerma" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7ac4a81c-b37e-404e-981a-0fd1f908c8a5", "translation" => "عين الكرمة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1089
+            ["id" => "9206d0ba-97f2-43ad-a516-8e079db20fbc", "translation" => "Ain El Bia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b4426dd4-202c-468d-b3c9-17812e193627", "translation" => "Aïn El Bia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a627c376-7869-4eb3-a319-4e72fa9d0f8c", "translation" => "عين البية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1090
+            ["id" => "51b8f3e3-ea57-4a11-ad02-0de363f76eb4", "translation" => "El Bayadh", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "75e12724-2780-4ef9-bbf0-3d1eb0761b55", "translation" => "El Bayadh" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8bf12131-cd01-4d30-a125-d6160c35024e", "translation" => "البيض", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1091
+            ["id" => "0c489c2f-d784-4184-a25b-00905f7005bc", "translation" => "Rogassa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "11814245-ce9c-4c28-92f6-78411f87287a", "translation" => "Rogassa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "da962dd6-a7ed-4b16-98ff-a75ef4151c10", "translation" => "الرقاصة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1092
+            ["id" => "f0ada688-1bcc-4cf7-b461-a2d818cdb380", "translation" => "Stitten", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c509162d-931d-4fd5-be4d-e09f7ce90068", "translation" => "Stitten" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "777e2c56-6d06-4c9d-8637-5bbf356953c3", "translation" => "ستيتن", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1093
+            ["id" => "63e2598a-c866-49d2-819a-dd5e20eaac47", "translation" => "Brezina", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "21b81240-48b1-4c57-8b02-6928fe3afaea", "translation" => "Brezina" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2399b94b-e478-4612-a752-1bb0d9b731a7", "translation" => "بريزينة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1094
+            ["id" => "33dd9230-e364-4514-8da6-23e280196ba4", "translation" => "Ghassoul", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ce1f1abf-753c-4b61-85ad-af155ebf8c1d", "translation" => "Ghassoul" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "dbdcc9a7-a20d-42ec-8b01-e61e17c569fd", "translation" => "الغاسول", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1095
+            ["id" => "ce542bbd-d72f-4898-829f-e5143de01ca1", "translation" => "Boualem", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "46f2a3a9-52c3-4e10-b2e6-7871afb46619", "translation" => "Boualem" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "aeb05604-a8a2-42f9-9415-9f43af9fabc0", "translation" => "بوعلام", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1096
+            ["id" => "85ed3829-307b-4174-a15c-60f6a4489b16", "translation" => "El Abiodh Sidi Cheikh", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "fca1ed49-4876-4cce-a30b-5a9bd3defe55", "translation" => "El Abiodh Sidi Cheikh" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9ee83de3-6b15-4119-8ea9-03e8ed883974", "translation" => "الأبيض سيدي الشيخ", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1097
+            ["id" => "808dba1b-0ef4-4d0a-a4c0-ce8a9219c760", "translation" => "Ain El Orak", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "494df771-f64d-4170-82a5-991f92f5dce0", "translation" => "Aïn El Orak" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e93820d3-291e-4104-a2c1-0c67a60b004b", "translation" => "عين العراك", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1098
+            ["id" => "fe8a54a8-5468-41ed-a437-dafa6d1fee19", "translation" => "Arbaouat", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d7485d2b-2c35-4ff7-8344-bc693a80dabc", "translation" => "Arbaouat" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "285715ab-d2e7-4280-b00a-616d86cfc37d", "translation" => "أربوات", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1099
+            ["id" => "35f5d860-e4f9-406f-832f-169c11948fd1", "translation" => "Bougtoub", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "54c113c0-ccd9-4cca-b383-6ec12b147b34", "translation" => "Bougtoub" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "233f847f-8f2d-4cc2-a036-a8d683c68c32", "translation" => "بوقطب", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1100
+            ["id" => "412d1370-d652-4d8a-8ded-28d894d37fd4", "translation" => "El Kheiter", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "13db0a0e-d806-486f-8ad9-a9af11ae97c7", "translation" => "El Kheiter" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bb60f1b1-9997-4ad1-8b0b-a974343e783e", "translation" => "الخيثر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1101
+            ["id" => "8aa3341c-1d8a-4815-a41f-cc8918befeb3", "translation" => "Kef El Ahmar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b6058494-4d32-451f-a2ea-d5b002f03da2", "translation" => "Kef El Ahmar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f5ccb0cc-2147-41c0-a12e-fb2e28cdc6ec", "translation" => "كاف لحمر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1102
+            ["id" => "4a7b7ed5-13cc-44d4-b905-f25666fc8a7c", "translation" => "Boussemghoun", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b9a6f9b2-2f54-4808-9dfc-ecb4a09e7c3a", "translation" => "Boussemghoun" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9f1dc392-15d2-41d8-b664-03638c7d4ada", "translation" => "بوسمغون", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1103
+            ["id" => "1fce8e9d-120e-420d-9ca2-927a50a08868", "translation" => "Chellala", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6c0a0ce9-8a16-47df-ad9a-90c06665599d", "translation" => "Chellala" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1140e19e-20d0-48f4-8a7f-baece98fe257", "translation" => "الشلالة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1104
+            ["id" => "3c6039b6-00e0-44fe-ac6f-f22d67758478", "translation" => "Kraakda", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "47895fd8-8741-4d8a-98a9-e33bbab4b417", "translation" => "Kraakda" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "573cead3-46ce-4ab7-9c64-a269ad82d507", "translation" => "كراكدة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1105
+            ["id" => "5f320477-6ec2-429a-b2b3-64ebcc15a1dc", "translation" => "Benoud", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4f2b77b6-3e4b-4837-9ff0-2cc640076456", "translation" => "Benoud" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "af6a7f7b-9409-4862-99c1-63e1ac645706", "translation" => "البنود", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1106
+            ["id" => "ba4ec738-e512-4257-8d58-34250448d345", "translation" => "Cheguig", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7dd586b3-ab3f-4368-a2a4-dacbb9ebbeea", "translation" => "Cheguig" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "22e21656-d029-4cac-b525-a6e49ac2b054", "translation" => "شقيق", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1107
+            ["id" => "ba12d7df-8ede-470d-9a87-cc01953ecf4a", "translation" => "Sidi Ameur", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c8d2bd72-72cf-4213-9ea0-a096c5d9982e", "translation" => "Sidi Ameur" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "502036ea-45e8-4b3c-bf8d-1b8764dd6b5e", "translation" => "سيدي عمر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1108
+            ["id" => "beb7b225-4904-4477-a435-ec67cab0210b", "translation" => "El Mehara", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2f74d4dd-a513-4eb6-b172-a26594f77f0d", "translation" => "El Mehara" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "498b84d8-64f4-4605-9f8f-b2ec272bed3b", "translation" => "المحرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1109
+            ["id" => "67e4bbc3-7009-44e5-9fd7-d68357f3b204", "translation" => "Tousmouline", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "bfd77b3a-104f-4cdf-9cc0-1e0c988c6646", "translation" => "Tousmouline" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "aa46dd3a-854d-41a2-b4eb-5cc079a64204", "translation" => "توسمولين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1110
+            ["id" => "4c587d40-6750-44b4-b9d5-f050ef7f07b9", "translation" => "Sidi Slimane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e36b0a04-ea1c-4a14-aeff-1089f8666be7", "translation" => "Sidi Slimane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2abdaec9-6d7f-4a65-a1da-cdb00f88f60b", "translation" => "سيدي سليمان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1111
+            ["id" => "82fdf9a5-fed2-478b-9cba-4a91e69312ee", "translation" => "Sidi Tifour", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "51ba680f-ea9d-4b2d-8cb3-5a5fb92e9b04", "translation" => "Sidi Tifour" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "19d81b60-b3a0-46df-afcf-04ead0941301", "translation" => "سيدي طيفور", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1112
+            ["id" => "3b2e177b-3568-470c-9e55-f12e91f1ce3e", "translation" => "Illizi", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b6e827ed-e4f3-4f19-b77d-52283d037365", "translation" => "Illizi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fb393eea-320a-4244-8c05-0e29858cac77", "translation" => "إليزي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1113
+            ["id" => "d75aee69-adcb-431e-a79d-c50b8f8e403b", "translation" => "Debdeb", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9a81407a-cfdc-462b-861b-dba1ae5c7af7", "translation" => "Debdeb" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d1d8ae76-17e3-4c58-9488-0bc077e928a5", "translation" => "دبداب", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1114
+            ["id" => "0a4c986b-ecf8-4d48-bafe-6cf31a9b43ba", "translation" => "Bordj Omar Driss", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "48e70636-f0c1-4760-8a10-9ec9ac694e8b", "translation" => "Bordj Omar Driss" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4bb6af99-88d2-4729-b358-2aa58524ea47", "translation" => "برج عمر إدريس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1115
+            ["id" => "08f9aa92-dbb2-448b-8b93-0e0cb9782551", "translation" => "In Amenas", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "840d68bd-95ea-4e10-9971-d039c33c8a2e", "translation" => "In Amenas" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b2844ec2-d299-4125-88ac-758636b6e330", "translation" => "عين أميناس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1116
+            ["id" => "ca3141f9-f2c0-4b03-91b4-4cce8582dcb4", "translation" => "Bordj Bou Arreridj", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a963ad52-d046-4c8d-86ee-3dcba43a09c7", "translation" => "Bordj Bou Arreridj" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b73e7838-6e07-4f9b-97c6-0e4715f053e4", "translation" => "برج بوعريريج", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1117
+            ["id" => "031987b7-b437-4bdc-a0f1-83de6f8b7e8e", "translation" => "Ain Taghrout", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0d0de715-1dce-40d6-95b2-0b897fe87e15", "translation" => "Aïn Taghrout" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d0a7d860-be18-4b07-8228-05935577ac6c", "translation" => "عين تاغروت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1118
+            ["id" => "f273cbbe-7b19-4573-bdc6-03b142134ba8", "translation" => "Ain Tesra", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "10f776c1-4e9d-4a75-840b-c4aaa8205902", "translation" => "Aïn Tesra" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3fd7acf9-903b-41cf-b581-9a5cc5ea0493", "translation" => "عين تسرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1119
+            ["id" => "071edb3c-84e9-4a4b-b92d-8c293a0b552d", "translation" => "Belimour", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d7fe8112-0a1b-43dd-9935-27678c50ea91", "translation" => "Belimour" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c2ed2540-c5c8-445d-b47f-422fa8451d9c", "translation" => "بليمور", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1120
+            ["id" => "1cf1d692-b286-472f-8ca3-4f80406580c3", "translation" => "Ben Daoud", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "98290a5e-199a-4d80-bc82-59251f767396", "translation" => "Ben Daoud" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "36fecba3-77a9-4c28-b529-1d583a04d815", "translation" => "بن داود", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1121
+            ["id" => "df26ba20-b1fe-48ae-8338-6c12993fb10d", "translation" => "Bir Kasdali", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c1a0bd46-151e-41e0-8fcc-b7434c17335e", "translation" => "Bir Kasdali" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "07308375-9e0c-46e3-be49-8f2a45d1f347", "translation" => "بئر قصد علي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1122
+            ["id" => "70b704be-2645-42dc-8d6e-394f644846bf", "translation" => "Tixter", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "67426bfa-21da-42e0-aa84-a05c4d7c6e56", "translation" => "Tixter" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "010d4e6d-858c-4d4f-b500-6e5719cc2b3d", "translation" => "تكستار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1123
+            ["id" => "a1021516-1fbd-43ce-b0d9-cc2776d19345", "translation" => "Bordj Ghedir", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c0148c8e-5bfa-4608-93ee-993c59834db2", "translation" => "Bordj Ghedir" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3de61559-4025-4f28-9e25-83ea4566e384", "translation" => "برج الغدير", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1124
+            ["id" => "206c0910-2d08-4e6d-8f8f-9e37a8281444", "translation" => "Bordj Zemoura", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b642bd52-feec-4c4f-8acc-9e8a1af85b42", "translation" => "Bordj Zemoura" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5b259ef8-42cb-4786-b237-0839cdde4f3f", "translation" => "برج زمورة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1125
+            ["id" => "21571c85-2c2d-4141-b527-79d1fc4daf21", "translation" => "Colla", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "507901d3-9631-416e-abc1-cd97425f2877", "translation" => "Colla" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6c5f4da5-02e9-45f9-bbf5-6a84876307d2", "translation" => "القلة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1126
+            ["id" => "c6d4530b-ec3d-4c84-9ee0-634fb9d12544", "translation" => "Djaafra", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "10216161-4637-4100-92c7-5b3e2037ea6f", "translation" => "Djaafra" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "83b4d66c-b0f0-4eb8-9886-d3c542e310dc", "translation" => "الجعافرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1127
+            ["id" => "1741c170-6207-4be9-b5cc-baa62b156475", "translation" => "El Ach", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f6380602-cc24-4c35-b732-34838db336ec", "translation" => "El Ach" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "36e65cbf-5f2c-49df-b26e-5cf1eb453acb", "translation" => "العش", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1128
+            ["id" => "85eab480-4c7c-484f-9c02-fcfff8229aad", "translation" => "El Achir", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8adb6c65-cca7-43fa-9a70-556ab656ed42", "translation" => "El Achir" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "882ccf2e-d2f2-41ab-8fc2-dc47801d9232", "translation" => "اليشير", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1129
+            ["id" => "dd319c0a-a3c6-4351-83bc-67196582cbb1", "translation" => "El Anseur", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a8095096-0aa8-45e7-a046-016527a7b2c0", "translation" => "El Anseur" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f416cb93-06d9-4eb7-8183-10b3d1c35685", "translation" => "العناصر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1130
+            ["id" => "2b58fc8f-540a-493c-a99b-988f8e84c886", "translation" => "El Hamadia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ae1650fc-619e-42fc-b162-effa24d414cd", "translation" => "El Hamadia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "cf52c0d1-4a6f-47f1-b07b-6be651807ee3", "translation" => "الحمادية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1131
+            ["id" => "cfcc3b06-4041-401d-a380-88b763e97faf", "translation" => "El Main", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8ee70af6-5743-4ef5-9759-3da3ec225590", "translation" => "El Main" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9fd8bc08-4ac1-436d-8b05-495fda508eae", "translation" => "الماين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1132
+            ["id" => "8199a91e-8f87-4426-ae43-99e5444772bf", "translation" => "El M'hir", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "167e7009-d401-45aa-a0af-b383194c1f3b", "translation" => "El M'hir" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d37a996e-c905-4de0-b0ea-d8e29ff536fe", "translation" => "المهير", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1133
+            ["id" => "32f7cba3-6da9-4daa-83a9-5fd5814d5b4c", "translation" => "Ghilassa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "fcae0e90-a881-4fb0-9c63-e3998c46837b", "translation" => "Ghilassa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "af9e3999-0102-4377-8e63-45522495bf79", "translation" => "غيلاسة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1134
+            ["id" => "b48f53be-d01a-4499-a81f-b44df794b9ee", "translation" => "Haraza", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ec043621-6618-4304-aa7b-d8415fa189b6", "translation" => "Haraza" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d99b0785-bcc3-46cc-878b-b3e2ccdfc9e5", "translation" => "حرازة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1135
+            ["id" => "9e2d54ec-aff4-47e6-82d2-8cffee0a7b5d", "translation" => "Hasnaoua", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9725a2a4-4ed7-4dc9-ad37-8ec61fc79700", "translation" => "Hasnaoua" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c7c5ee4e-8df2-4a29-97e8-bc8faa59344d", "translation" => "حسناوة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1136
+            ["id" => "c8533561-3baa-4374-83fd-fb22d4f112b3", "translation" => "Khelil", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "84605262-421a-45f7-ada9-b3092e8737e0", "translation" => "Khelil" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a81fffcd-aa13-4381-9044-04c355d2bb44", "translation" => "خليل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1137
+            ["id" => "9a673fc7-a9f0-43de-bacc-3beba49f5612", "translation" => "Ksour", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b2f200bd-b2a9-497c-9e6a-5d7eaeb5b8f1", "translation" => "Ksour" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8b388c36-f260-49fc-aac4-3b30f968f1da", "translation" => "القصور", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1138
+            ["id" => "c0fbd041-ebad-438d-ade7-a2d4a3e18dce", "translation" => "Mansoura", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "efe113c6-4999-4e62-906f-e4e8064b457d", "translation" => "Mansoura" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5309ad53-90a2-4d6a-99df-bcc8d66c1acf", "translation" => "المنصورة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1139
+            ["id" => "5549938f-8cf2-4d78-99ce-1ba4bd184a2f", "translation" => "Medjana", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "34ce6d2a-67fa-4c9b-a651-b9e375ac3244", "translation" => "Medjana" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b2b102ee-731c-425b-9d72-281d4768eb4f", "translation" => "مجانة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1140
+            ["id" => "4cb9122a-98f5-4446-a3bf-9a7fdcd94c61", "translation" => "Ouled Brahem", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a9db3c72-fabb-4ab5-984a-4afb10541327", "translation" => "Ouled Brahem" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e9cf6bb7-9643-4925-afc2-20e406dc15f4", "translation" => "أولاد براهم", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1141
+            ["id" => "72265a08-c20c-4eda-8fd1-3c9f638437f2", "translation" => "Ouled Dahmane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8c7caa4b-789e-48de-9abe-cfe04abc2bc7", "translation" => "Ouled Dahmane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "caa9e0a8-a879-47b0-b7ba-bef88139bf3d", "translation" => "أولاد دحمان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1142
+            ["id" => "288473ce-c3f9-4367-b997-c960f09979d5", "translation" => "Ouled Sidi Brahim", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "945905f9-e632-42c9-a172-81110bdf4342", "translation" => "Ouled Sidi Brahim" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6fe3b137-7b92-4a84-91d7-9335493cc985", "translation" => "أولاد سيدي إبراهيم", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1143
+            ["id" => "9aa91ce7-1610-4ce0-ad57-971bf5fdd8d9", "translation" => "Rabta", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f57d5fce-4095-4aa5-a53c-5887e66a674e", "translation" => "Rabta" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f15b0f41-f525-445f-ba41-2a4347590475", "translation" => "الرابطة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1144
+            ["id" => "bf28c1f0-f762-4d7f-acd9-0a153ca63ab1", "translation" => "Ras El Oued", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "16f891e6-cdbe-4cf6-ad42-58746e888f35", "translation" => "Ras El Oued" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ed8e6d5e-87df-40a6-bfdb-45e2ef53748d", "translation" => "رأس الوادي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1145
+            ["id" => "7959b7a3-4f08-4dd2-b409-3a762f8337cf", "translation" => "Sidi Embarek", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "48b0d365-ff63-48f5-b4e7-fa9ac1555b38", "translation" => "Sidi Embarek" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "be1b3c0c-8650-4330-82fe-57b7c47fb83c", "translation" => "سيدي امبارك", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1146
+            ["id" => "4acf80c3-382d-4be3-8f4b-64c9e3a667c9", "translation" => "Tefreg", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "fc465e45-297b-4ac1-8a38-69af6b251368", "translation" => "Tefreg" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0492dc65-64ed-4b70-80e0-c8c364d5a6f5", "translation" => "تفرق", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1147
+            ["id" => "cb7b7b1e-5389-41d5-a5e3-ded1806984f5", "translation" => "Taglait", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c44ecad0-3f10-4dc3-b42a-d3cafa601121", "translation" => "Taglait" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "41a698ee-ac63-44da-9a2f-706facff5338", "translation" => "تقلعيت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1148
+            ["id" => "b2213e41-ddae-444f-bc67-31feb1f8ecbc", "translation" => "Teniet En Nasr", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1ee1fb1e-93dc-4c0a-966a-85d99f8773c5", "translation" => "Teniet En Nasr" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b5a7044a-6721-43bc-89ce-6cc66b552327", "translation" => "ثنية النصر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1149
+            ["id" => "1d65f9c2-42a7-498a-ae79-7d57e3201070", "translation" => "Tassameurt", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "13d03dd6-ce46-4c08-9b7c-b613ab0bfa78", "translation" => "Tassameurt" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b42d0dcc-d4fe-4b72-adad-96ac60f4822f", "translation" => "تاسمرت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1150
+            ["id" => "e132e046-37fd-4396-9880-1ce1f8a30138", "translation" => "Boumerdes", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "179ed163-23e8-4535-a371-31b14e96e7f1", "translation" => "Boumerdes" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "90066fd2-ed6e-4b2f-b125-bdd60d034163", "translation" => "بومرداس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1151
+            ["id" => "526c0b72-d1f4-4e78-80f1-708cc49445fc", "translation" => "Afir", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "94f8f87a-adb0-456c-9ff2-b8086db448c6", "translation" => "Afir" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "768a8317-1df2-43b0-a789-db214bf9c81b", "translation" => "اعفير", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1152
+            ["id" => "a1e0f5f2-4b88-4d28-9d42-2acf5380509f", "translation" => "Ammal", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "806aa4b3-e91b-4517-a34b-76b91772badc", "translation" => "Ammal" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0c7d3993-dab0-4ed5-add5-0d9a62b31db9", "translation" => "عمال", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1153
+            ["id" => "f0ec7f95-a554-4f87-9583-68aa0322bfc9", "translation" => "Baghlia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "cc630112-f2b6-45ec-85ae-9d335de51fe5", "translation" => "Baghlia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "68a994e1-df96-4720-ad97-519aa66dc26a", "translation" => "بغلية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1154
+            ["id" => "4f51ed73-903c-4da6-b2f2-b11219893eb8", "translation" => "Ben Choud", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6a85fabf-f403-4782-bb3d-6caec33278fa", "translation" => "Ben Choud" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a5b558c5-85fe-42ac-9436-158300834ad7", "translation" => "بن شود", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1155
+            ["id" => "4add63e1-260a-4113-8e0e-719f2493a552", "translation" => "Beni Amrane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "cccf7583-26b2-4507-9df2-1d117a145b4e", "translation" => "Beni Amrane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6ce76ed8-4e6c-4958-965c-f81a258268b7", "translation" => "بني عمران", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1156
+            ["id" => "838cf2a4-a430-482d-bf9a-3aad32d7c1bd", "translation" => "Bordj Menaiel", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "edf9a70e-b44d-481d-a89e-cf586313b4b1", "translation" => "Bordj Menaïel" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c1f6f83b-8c1d-4bc9-a557-54d7eab51751", "translation" => "برج منايل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1157
+            ["id" => "a6a60edb-cf62-4b17-8d24-c442b1e43b39", "translation" => "Boudouaou", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9470b1bf-c57b-401c-bc79-db2f137fffdb", "translation" => "Boudouaou" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e4e1041a-e34f-4165-b8b6-578b96819774", "translation" => "بودواو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1158
+            ["id" => "4de0a6e1-d84b-4b9c-9c4b-2cba07677153", "translation" => "Boudouaou el Bahri", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c6d9ce04-cbd3-4ae9-a183-a81d76bbfa09", "translation" => "Boudouaou el Bahri" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b60c7e2a-2045-4949-834a-adf31dd8814f", "translation" => "بودواو البحري", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1159
+            ["id" => "cf166519-b7fc-46a7-80f4-540e576cc2d6", "translation" => "Zemmouri", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "305d92eb-c061-4921-96b3-cc24ec35ffa9", "translation" => "Zemmouri" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9eb2e9cd-c93e-4051-b570-6caf2d6d52a7", "translation" => "زموري", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1160
+            ["id" => "6cd7b02e-b7cf-4ea6-81ad-3c1f27168a1a", "translation" => "Keddara", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "fb30ff38-cb0e-4360-8934-b7de23c065c9", "translation" => "Keddara" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6cf860ec-7277-442f-b9fc-94d6360f391c", "translation" => "قدارة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1161
+            ["id" => "3a9f9b4f-87c5-406a-9c18-b115bc90b04d", "translation" => "Chabet el Ameur", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "42b71668-d917-4549-aa63-d2542b034125", "translation" => "Chabet el Ameur" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5d5b220b-3863-4b67-a51a-63891d83185a", "translation" => "شعبة العامر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1162
+            ["id" => "97b1afb6-a2fd-472b-82b9-9b342994b619", "translation" => "Corso", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6fa82da7-25cf-4950-8b58-49eee67afe66", "translation" => "Corso" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2802e62d-d555-4e3f-adda-51bb6e017a99", "translation" => "قورصو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1163
+            ["id" => "40df024d-a7a5-4e7f-a857-581696b91a7c", "translation" => "Dellys", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0d266e51-84a7-462a-9971-fc0d3d93bd85", "translation" => "Dellys" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "91bfd3a6-d219-45e8-970b-4ca79321dea0", "translation" => "دلس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1164
+            ["id" => "cf77e4f0-dc59-4432-b9ee-7dc4fa0fc8d3", "translation" => "Djinet", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1933d89e-21d7-4af0-8a55-c74967fe98fc", "translation" => "Djinet" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6455e202-1377-45af-824f-2de124fb063d", "translation" => "جنات", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1165
+            ["id" => "99bad248-c86b-476e-94f6-b5627cfae1d3", "translation" => "El Kharrouba", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a7a61347-052c-48af-af7a-5ea12b9112ed", "translation" => "El Kharrouba" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e9121d5a-63ed-41f9-9a04-51d9f0617b9a", "translation" => "الخروبة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1166
+            ["id" => "bb71d01d-fb48-444b-bdc9-d2d4f84f491d", "translation" => "Hammedi", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1ac2e4ce-6f29-4fa2-9db5-260d3aebd9f3", "translation" => "Hammedi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ef07dbff-ad67-4f6c-b394-9b4252b5e381", "translation" => "حمادي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1167
+            ["id" => "874b4d5d-ed48-4ad1-a438-ea0e54387a48", "translation" => "Issers", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "639fb13c-201e-4c03-ab1f-8ed4109ce110", "translation" => "Issers" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "de1d48a9-c7c7-4825-9d77-2fb22c98a3a0", "translation" => "يسر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1168
+            ["id" => "8a7dbcc6-5aa7-430a-a0f1-d1d94c0faf33", "translation" => "Khemis el Khechna", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "bcbbdb45-8bfd-46ab-93ad-f313bf908aa0", "translation" => "Khemis el Khechna" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a887a5db-97d5-4c08-94b2-8ab6efe47cf3", "translation" => "خميس الخشنة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1169
+            ["id" => "6c976d10-e5a5-4c8b-8162-436ca6af5b0c", "translation" => "Larbatache", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9440aac6-7123-4c52-b4f5-1fbfe627334e", "translation" => "Larbatache" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4a05f915-aff1-4c48-8097-22664dbe6310", "translation" => "الأربعطاش", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1170
+            ["id" => "2dec52c9-6adf-4cf1-b180-e0417fc5eb53", "translation" => "Leghata", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "69fe0d10-a7b6-4cda-ae77-f47d1ea2c324", "translation" => "Leghata" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e1ebf2ce-ac04-4f5b-b520-c242af043865", "translation" => "لقاطة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1171
+            ["id" => "ade61d48-27b2-4bc9-88b2-2b2bcf125118", "translation" => "Naciria", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c8460867-1237-4dcc-abf7-15ebed7b7718", "translation" => "Naciria" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8e14d229-09c6-4c47-b2a1-d921f1605509", "translation" => "الناصرية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1172
+            ["id" => "d81f7952-6a81-4649-9a26-cceac2b9b0a1", "translation" => "Ouled Aissa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "bc46387e-0423-4c02-9b42-3d3f32c7c0d3", "translation" => "Ouled Aïssa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2a4f08a8-11bf-49a0-9439-fc28c37d7aec", "translation" => "أولاد عيسى", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1173
+            ["id" => "05579ef2-2817-40c3-beae-02ae8f22ac11", "translation" => "Ouled Hedadj", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "baf2b432-8b11-4f49-a613-9363a501f20c", "translation" => "Ouled Hedadj" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bd755a42-ed9c-44e2-a6cb-600e6f68b6b1", "translation" => "أولاد هداج", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1174
+            ["id" => "905ebb8f-46a2-4bf5-9bdd-b3222b12c780", "translation" => "Ouled Moussa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "42b5cac6-eac0-436f-9b1c-4be7c97c2022", "translation" => "Ouled Moussa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8e9f2c5c-5d22-4a9c-98ed-24ab73590cbb", "translation" => "أولاد موسى", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1175
+            ["id" => "69a4e851-3d84-45ec-aaf8-b1ea1e7167cc", "translation" => "Si Mustapha", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2ba4068c-8fca-4e3f-92d2-34b97ab8104b", "translation" => "Si Mustapha" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "261f1453-cadf-4dba-8047-51e569308621", "translation" => "سي مصطفى", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1176
+            ["id" => "95071979-bae0-4f3b-ba38-4e473215ba72", "translation" => "Sidi Daoud", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f532df53-49af-400a-a33e-e7f7c730473d", "translation" => "Sidi Daoud" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c0750bcb-b31b-45f1-ba37-633da3325240", "translation" => "سيدي داود", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1177
+            ["id" => "eb673dd8-8216-4661-8ce1-2b7e133bd516", "translation" => "Souk El Had", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "eda679a3-fc39-4988-a931-52b57121b790", "translation" => "Souk El Had" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "631eba60-76dd-4091-aeb0-502202258a99", "translation" => "سوق الحد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1178
+            ["id" => "234259aa-fcea-42ec-92f6-a5cd43501829", "translation" => "Taourga", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7893c578-c3e4-4e68-897e-5a6000ceda7f", "translation" => "Taourga" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6607798c-3f49-4fd3-b6b2-1e40c244e788", "translation" => "تاورقة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1179
+            ["id" => "8d3f9e26-17bf-4371-8b54-1ea155b2deee", "translation" => "Thenia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "904de936-ecd4-49c9-b4bc-e685255b9a0e", "translation" => "Thenia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "48473219-0c6d-4b50-bcc9-239b8183bd0c", "translation" => "الثنية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1180
+            ["id" => "aa9d78ba-7fd4-43a6-9819-f09de09bb08b", "translation" => "Tidjelabine", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5d9821fa-2c6c-45ac-8cdb-15813afa7d38", "translation" => "Tidjelabine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "49481b7d-77d7-475a-a3f9-01206a5e5f7a", "translation" => "تجلابين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1181
+            ["id" => "f9a4cb60-67c9-4358-b3c7-711337e8593c", "translation" => "Timezrit", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f29206b7-5335-4709-9b0c-fbcadc9f8026", "translation" => "Timezrit" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "52997b60-1315-47dd-9a6f-1e0344d3cd86", "translation" => "تيمزريت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1182
+            ["id" => "f7ecda78-0aab-4f24-a1fc-c0584d7826d1", "translation" => "El Tarf", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0d19b508-2e70-433b-a2e6-e17a6da8f9b9", "translation" => "El Tarf" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "98b1d2a9-1de3-4b0c-b790-058ef32d7849", "translation" => "الطارف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1183
+            ["id" => "597e9def-6dd4-4d2f-93dd-77a818df1f95", "translation" => "Ain El Assel", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d020b929-4045-4d7d-8f55-18cbc6d2092d", "translation" => "Aïn El Assel" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "75ff00e0-41ae-4f40-9635-dbab718778a8", "translation" => "عين العسل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1184
+            ["id" => "d98f6b36-e2d9-4c7f-9c83-adcc9d772528", "translation" => "Ain Kerma", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a621c1ad-0983-4931-934c-11be5a751b7f", "translation" => "Aïn Kerma" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "889460e1-fb16-48c8-a469-d0779fd96a38", "translation" => "عين الكرمة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1185
+            ["id" => "137d69c2-6a18-4715-a953-a6a903ca35d3", "translation" => "Asfour", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4d312cfd-792a-4fb3-a692-054caa1e3f2f", "translation" => "Asfour" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1e6e6b0d-f423-438c-9a40-9f40f7b4707b", "translation" => "عصفور", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1186
+            ["id" => "4318c56a-4b2a-4455-8b79-eabfa66a73ee", "translation" => "Ben Mehidi", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5b184d9d-edcc-4e43-be6d-4e8e75d59539", "translation" => "Ben Mehidi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "86c53b0e-4e60-4860-919a-965adacb1cce", "translation" => "بن مهيدي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1187
+            ["id" => "2e860d02-4bac-42f2-b77b-405f712ea911", "translation" => "Berrihane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6239e264-9d48-40c0-983d-f1cdb9cd2231", "translation" => "Berrihane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f71bec1c-809c-4d39-9940-1b86c30fb2ad", "translation" => "بريحان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1188
+            ["id" => "2fa65278-5eb9-4fc3-bc8c-0a135e756b68", "translation" => "Besbes", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "310854db-f1f8-4783-b93b-e5bcb7fbd335", "translation" => "Besbes" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7a3e42ea-d7c8-4ce9-9fa5-c49569b83409", "translation" => "البسباس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1189
+            ["id" => "57e9c92b-9ebb-42d0-b206-24278826798f", "translation" => "Bougous", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d5b0d125-162f-4608-b33e-1490c11718a5", "translation" => "Bougous" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2e43e108-27ae-4903-aa15-b5d2e6a73db8", "translation" => "بوقوس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1190
+            ["id" => "f0d926b3-4f12-4709-ad5f-6c23ac422836", "translation" => "Bouhadjar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9959fccc-2277-4712-8328-8af336353119", "translation" => "Bouhadjar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "070b7561-5505-4fc0-9ad4-28f9f769ae22", "translation" => "بوحجار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1191
+            ["id" => "dd85cc23-73dd-4ffe-a83b-bb26b78410aa", "translation" => "Bouteldja", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1a3fd304-5406-48ea-a408-7344a46919b7", "translation" => "Bouteldja" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "03dd2fc5-eced-4eca-8f23-d3b8fe8b6ebd", "translation" => "بوثلجة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1192
+            ["id" => "28252176-3603-469f-8015-8d139c2fc935", "translation" => "Chebaita Mokhtar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4e0896ae-5b6f-4b2d-b380-8f3657a4fce2", "translation" => "Chebaita Mokhtar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d5527135-2c14-403d-8064-aafb2e52476f", "translation" => "شبيطة مختار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1193
+            ["id" => "f1d17d6f-e9c1-49cd-ab48-d5fcd9f5cd93", "translation" => "Chefia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "46b69cf5-11f1-4678-ab74-d2901ca31dfc", "translation" => "Chefia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fd8036b8-0a3e-4553-a206-b1e66f180199", "translation" => "الشافية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1194
+            ["id" => "f6471617-e9f2-45d3-af88-36c8a27a22ae", "translation" => "Chihani", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9f90dd97-3c4b-4d23-ba29-9731dbd3dd61", "translation" => "Chihani" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b48c5859-42a3-4e63-af64-04a2c2184317", "translation" => "الشيحاني", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1195
+            ["id" => "9f671f9a-e6f6-4a5f-a1fa-611fe640bc49", "translation" => "Drean", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "83a86c51-d8cc-47ef-b121-c89f3780e94f", "translation" => "Dréan" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6cb9f597-db86-4ef4-a045-5e90ea56eda6", "translation" => "الذرعان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1196
+            ["id" => "5ca6d663-0e4c-4d35-8ff9-6e470163238d", "translation" => "Echatt", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b1f1086d-dc09-4cfd-84d4-133ed4584dec", "translation" => "Echatt" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c166c822-cf69-4e43-932e-9ed0bcecd5d9", "translation" => "الشط", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1197
+            ["id" => "cfef5335-0423-441e-8b66-e481b4037ab2", "translation" => "El Aioun", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "dd83c5d8-21c9-4786-8277-5b452bf049fa", "translation" => "El Aioun" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "97a794ac-3c91-459d-919c-8b74fcd8dc4e", "translation" => "العيون", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1198
+            ["id" => "3f64eed5-3a62-4507-9747-ffbad8a3c85e", "translation" => "El Kala", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "efd7e733-dffe-4f99-833f-ba296831a2aa", "translation" => "El Kala" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5326dac3-8caa-4ba6-90db-2a461729fb6b", "translation" => "القالة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1199
+            ["id" => "51990416-ade4-4392-b3a2-48cd4e9a3dbf", "translation" => "Zitouna", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "12972889-220e-48eb-aafa-c85e45ab4d3b", "translation" => "Zitouna" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "feafbb5a-de70-4d43-b396-a93a8ae4e3e9", "translation" => "الزيتونة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1200
+            ["id" => "405c8e74-0c52-4127-afc4-85e694911a60", "translation" => "Hammam Beni Salah", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8377e744-a5e8-496f-b5b9-5505689324a7", "translation" => "Hammam Beni Salah" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f1b1768b-3c67-43bc-bfdf-5df3ab8873a6", "translation" => "حمام بني صالح", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1201
+            ["id" => "4506d032-ae74-4d85-ab18-e8bce8b3b908", "translation" => "Lac des Oiseaux", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9ed7f734-254f-41da-b45f-fba33c27ff63", "translation" => "Lac des Oiseaux" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9ab4ffe2-e777-4f62-b445-cd85167982d0", "translation" => "بحيرة الطيور", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1202
+            ["id" => "73d117d4-b7ea-4e2e-a9b2-0052c7365a82", "translation" => "Oued Zitoun", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "aab1345e-df2c-4928-b916-85373287b56d", "translation" => "Oued Zitoun" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9d7f033c-8b25-4441-a583-7df7b57070c0", "translation" => "واد الزيتون", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1203
+            ["id" => "24b87c3c-d68b-4751-9186-2c59dd6c8d4e", "translation" => "Raml Souk", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ff39943b-3e20-40d6-8ecc-efaf33b6a825", "translation" => "Raml Souk" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "475845b6-596c-4e40-8d21-8ea9ee601118", "translation" => "رمل السوق", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1204
+            ["id" => "ebfc0f09-a51b-4b4e-852e-f6bb354044d4", "translation" => "Souarekh", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b2bb0bbe-dfa6-4214-a844-9247f53377ad", "translation" => "Souarekh" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "69552491-d631-4172-af90-835ca167cdea", "translation" => "السوارخ", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1205
+            ["id" => "d2269afa-acb3-4ce5-a3fb-36e45488c286", "translation" => "Zerizer", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "fd9c950a-9aaf-4585-ba66-8afeb908a0dc", "translation" => "Zerizer" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "115ef009-0ede-44b5-b670-c042a67bc67b", "translation" => "زريزر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1206
+            ["id" => "cbad0f28-9c27-4592-812a-56f2a3c066fc", "translation" => "Tindouf", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8b366804-bf68-49a6-93cd-818f55ad48ed", "translation" => "Tindouf" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "22a80eb5-666f-4112-a70c-923a79013afc", "translation" => "تندوف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1207
+            ["id" => "f2b2fa99-e8c4-4e0f-8588-3ef53e5432c1", "translation" => "Oum el Assel", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e5bdeab8-a505-44f3-890b-b27d2d7dcec5", "translation" => "Oum el Assel" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7fb6e6ab-cece-495b-9814-163c821f2e25", "translation" => "أم العسل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1208
+            ["id" => "9eda7293-9a0e-4d9f-a950-9f8c865f0bf3", "translation" => "Tissemsilt", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f5e63bd3-c608-4b48-84f5-6c4f94c7d499", "translation" => "Tissemsilt" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ee83017a-10fe-45bc-8f60-2c7b8a276709", "translation" => "تيسمسيلت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1209
+            ["id" => "1aa4754c-90ad-415c-a2bb-243cf7317e89", "translation" => "Ammari", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2eb446da-6e09-4dd5-80a3-65561c54250d", "translation" => "Ammari" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "595d81ef-8f1d-441f-839c-92eb2d390be0", "translation" => "عماري", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1210
+            ["id" => "d5f552df-1304-4f6f-9507-8caf7af5d2f2", "translation" => "Beni Chaib", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "32fa7e52-1e67-42ef-b91b-b1350972c276", "translation" => "Beni Chaib" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1620f56a-990d-4e0e-951b-6e9f38279207", "translation" => "بني شعيب", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1211
+            ["id" => "a2f428aa-fd01-4881-afab-b3538950851e", "translation" => "Beni Lahcene", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e9522f25-f8ec-4747-9c29-4026f0a7a157", "translation" => "Beni Lahcene" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0260a841-4800-4c91-bc27-c689f7e343ce", "translation" => "بني لحسن", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1212
+            ["id" => "61d64b3d-a05f-4258-9c18-51291f3eeaae", "translation" => "Boucaid", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8fd2c1fd-2c2a-4a17-bb64-d6098978c265", "translation" => "Boucaid" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "113aae4b-ea11-4f36-aa19-8b4dd2d0d400", "translation" => "بوقايد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1213
+            ["id" => "f4d33ee2-81d3-46cb-bfef-41b84c7b56f7", "translation" => "Bordj Bou Naama", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "37dcdf19-9e94-4bfe-b371-b9fd5ede1050", "translation" => "Bordj Bou Naama" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6129365d-8930-4cec-ac3f-a9b78cc4e2ab", "translation" => "برج بونعامة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1214
+            ["id" => "14abfd98-48fb-40e3-8480-af2dcf23ad7d", "translation" => "Bordj El Emir Abdelkader", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "70930e02-9fa8-413c-92bb-d4e8d37061e7", "translation" => "Bordj El Emir Abdelkader" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "45a07eff-1c10-4c89-82e8-e235da73bbe1", "translation" => "برج الأمير عبد القادر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1215
+            ["id" => "99d345e0-2d5d-4fea-a81e-1be916ef38c5", "translation" => "Khemisti", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b32dfe36-a8ad-40ec-98a3-2fa82f591ee9", "translation" => "Khemisti" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9ae7cad2-3e67-44f2-8b56-b74c5b23db70", "translation" => "خميستي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1216
+            ["id" => "cc476ce2-d222-4cba-a4c6-b229f46862d6", "translation" => "Larbaa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7dd9ee5b-e857-4029-b7ec-ea89e1d9c131", "translation" => "Larbaa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ae5ae0f8-e093-4c3b-a674-49f03707442f", "translation" => "الأربعاء", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1217
+            ["id" => "13b57479-b8f3-4dd4-99ee-4c9f7fe1d9a3", "translation" => "Lardjem", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b0b8922d-8a9e-4165-b9a7-2e9a7166e7d9", "translation" => "Lardjem" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "05f4c173-fbd4-4e5a-961e-a73ae2b21c08", "translation" => "لرجام", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1218
+            ["id" => "7fcd84f8-d469-4aae-a15c-b41b694df582", "translation" => "Layoune", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5bc66feb-d819-420f-8ff8-240e248d3f16", "translation" => "Layoune" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2a72dec7-39da-4700-a645-6debad7d4d4c", "translation" => "العيون", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1219
+            ["id" => "281f7298-0854-4da6-b690-39ab078a2779", "translation" => "Lazharia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c46b2c41-e4c9-458f-b5d6-43c827d46d87", "translation" => "Lazharia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a408f87c-fabc-4659-8da5-48a89392bbc4", "translation" => "الأزهرية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1220
+            ["id" => "7bd10f15-e627-4604-8554-dd3a8c48cabd", "translation" => "Maacem", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "57201438-a373-40b5-96f5-72bab4935f79", "translation" => "Maacem" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d9f50ab8-d221-4cb7-81a4-a708d479662b", "translation" => "المعاصم", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1221
+            ["id" => "d84898ef-93cb-4ef4-b02c-bde17947aca3", "translation" => "Melaab", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f3c25b4a-1fe5-4a5c-9233-ccb117e3894a", "translation" => "Melaab" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9f7aec97-d31e-4035-9aa9-92282ac37f83", "translation" => "الملعب", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1222
+            ["id" => "147626c1-5ade-4945-b31c-4d8d585012cf", "translation" => "Ouled Bessem", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "49308475-e515-45b3-87a2-12bc7f33fad2", "translation" => "Ouled Bessem" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "675b35b8-b943-4a04-8ac8-c7e55e41a824", "translation" => "أولاد بسام", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1223
+            ["id" => "3fe76bbd-53c7-4b2e-b0e6-2801cb84c42f", "translation" => "Sidi Abed", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0011bf33-e10e-4d7f-96f5-8e37982775f8", "translation" => "Sidi Abed" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d7b9aa98-e187-4b6c-b22e-c08d4aa509ff", "translation" => "سيدي عابد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1224
+            ["id" => "5ab38b54-48f9-4b13-b209-59d531b9b488", "translation" => "Sidi Boutouchent", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "20c4f8ab-9b06-4c72-b5bf-9f0689ab5218", "translation" => "Sidi Boutouchent" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e115754d-4925-4e26-be35-2bfb92e37793", "translation" => "سيدي بوتشنت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1225
+            ["id" => "0a3b6a3a-0049-4bca-a70d-b6c48b033b97", "translation" => "Sidi Lantri", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8123dca4-05bd-48e0-bda2-81605c2ba32d", "translation" => "Sidi Lantri" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "23150d02-20e2-4bbb-88c9-763a9cee4369", "translation" => "سيدي العنتري", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1226
+            ["id" => "21ae839c-2039-43e1-819b-774797f19630", "translation" => "Sidi Slimane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e68c5f96-5ab1-42a9-a848-61d1a2108638", "translation" => "Sidi Slimane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "30908354-8f8c-48d3-b761-5b29ed48b055", "translation" => "سيدي سليمان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1227
+            ["id" => "7bc0ed2d-9c05-42b2-9288-65bd654aff09", "translation" => "Tamalaht", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2f3ef774-42bd-4253-b649-65d480d48c93", "translation" => "Tamalaht" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a834af7c-6a15-4e5a-8cb6-54a44a3fdc45", "translation" => "تملاحت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1228
+            ["id" => "3a01e078-282d-4881-aa16-68aa62505b85", "translation" => "Theniet El Had", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6922d66c-5472-4783-8471-3b46cb56e742", "translation" => "Theniet El Had" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6b8ebf53-1414-407e-ad8e-a4ae7e89a594", "translation" => "ثنية الأحد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1229
+            ["id" => "f6db1700-eb89-4dcf-a64b-1b20d723941d", "translation" => "Youssoufia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8cc28cec-5ef6-4256-a613-4677bef4f874", "translation" => "Youssoufia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4639f7f6-16b7-4d22-a592-5cc49cd8b3c1", "translation" => "اليوسفية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1230
+            ["id" => "c4cb9bac-b64d-4eb3-9087-baf907f45fba", "translation" => "El Oued", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "bd30a030-a9a8-4c21-b5ff-89c3e60604d8", "translation" => "El Oued" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4d03de0e-b9e4-461c-b8f9-a9ea07258251", "translation" => "الوادي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1231
+            ["id" => "203f1561-91e4-4b9c-b788-28b4eead872f", "translation" => "Robbah", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8c9b10c3-9090-4e80-9733-d2673e94956d", "translation" => "Robbah" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a8362a77-685d-481f-8ae8-f93ce192766c", "translation" => "الرباح", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1232
+            ["id" => "f5715130-3cdb-48d8-9a0e-c39dee75e6a1", "translation" => "Oued El Alenda", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e2715f14-390b-43a9-b09e-c4a74a67e1aa", "translation" => "Oued El Alenda" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f8ba750f-6376-43b5-9ec9-8a500f4aca4a", "translation" => "وادي العلندة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1233
+            ["id" => "534d1b3d-8ddc-4fa1-bdcb-21b2e718e519", "translation" => "Bayadha", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "41eb4e9e-4f73-45c1-96b7-0aa109c5a9b8", "translation" => "Bayadha" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "db58e176-24f5-4917-88bc-c6b97a9d45c8", "translation" => "البياضة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1234
+            ["id" => "105aa756-ff27-447f-8bc0-6fe70432f5b7", "translation" => "Nakhla", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "846d5153-1952-4e0a-913a-80d84d1364b5", "translation" => "Nakhla" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "382ed92e-f264-4d0e-9196-00fd7f0589c9", "translation" => "النخلة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1235
+            ["id" => "0eb5fb2e-eb45-4da6-8626-7584c30ab5e8", "translation" => "Guemar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "71f65b72-db20-48b6-a49c-1b08261b8ffc", "translation" => "Guemar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c00b2e03-d311-4045-8211-7756abcb0f78", "translation" => "قمار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1236
+            ["id" => "db6d34ef-09a7-4d04-97af-f959f78bda7f", "translation" => "Kouinine", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c1bd221b-427e-4406-9d7f-9476a61b3906", "translation" => "Kouinine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9fc0c4d2-87fc-4b3d-82a5-9e137e87d87f", "translation" => "كوينين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1237
+            ["id" => "095becbe-94bf-4686-82f3-517827317791", "translation" => "Reguiba", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "28367fb5-d3b6-4612-ad50-989dc5873a7b", "translation" => "Reguiba" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e80185b0-69f2-4bfd-90c0-ac3de87cf29d", "translation" => "الرقيبة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1238
+            ["id" => "58d3edd1-efea-4ecf-941b-631ac1a58842", "translation" => "Hamraia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4e2258d1-f872-4103-b466-2411fe5af915", "translation" => "Hamraia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f01afc3e-070c-4d34-be62-27c1020cb97c", "translation" => "الحمراية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1239
+            ["id" => "6e27ed5c-ab8d-4537-8090-e2211d555bbc", "translation" => "Taghzout", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a294ffc6-345a-49bf-b720-ad4d65e10dbd", "translation" => "Taghzout" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8828a7ce-2a40-4a5e-bdfc-c33253ce77ea", "translation" => "تغزوت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1240
+            ["id" => "474f8c10-6015-48ec-8148-a34fd8578dce", "translation" => "Debila", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "83bbc5c5-2556-4d1d-a5ff-7a7444ffb363", "translation" => "Debila" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "96e75887-4c35-49b3-817e-d4fffea0055d", "translation" => "الدبيلة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1241
+            ["id" => "3a74b6e6-107d-4cf0-9a1a-8ef3d05a721f", "translation" => "Hassani Abdelkrim", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "dcd553de-58c2-4d8c-82d5-447ecc6186a2", "translation" => "Hassani Abdelkrim" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bf268896-8c1e-42c1-beaa-959bf9e6357f", "translation" => "حساني عبد الكريم", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1242
+            ["id" => "dc4df2ff-279c-4e55-a047-0a4e332687ca", "translation" => "Hassi Khalifa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3c10a97f-be84-4417-a660-075d96329600", "translation" => "Hassi Khalifa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d14348e4-9ba8-46d9-b076-1bd306d021d4", "translation" => "حاسي خليفة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1243
+            ["id" => "886ddf27-9bc2-4d16-a940-b8834db38345", "translation" => "Taleb Larbi", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e1341bb0-f222-4ae5-b0ec-372bfe7ba96e", "translation" => "Taleb Larbi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1e9d1d56-8ba0-4310-8c6b-256fbb3677df", "translation" => "طالب العربي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1244
+            ["id" => "98c2c633-faad-46a1-b3cd-a7ffdee3776c", "translation" => "Douar El Ma", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a08e15f8-a160-46c4-bdd2-1e905f5af2d2", "translation" => "Douar El Ma" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7b3f2c67-efac-4e96-8be0-203cd27bb4f2", "translation" => "دوار الماء", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1245
+            ["id" => "4f9eb0ae-c80f-4f8b-8e02-6af8283ea25e", "translation" => "Sidi Aoun", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6bf352d0-ee54-4ae8-92c1-3f4c33be897a", "translation" => "Sidi Aoun" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ca64f0ca-6286-44a4-9ef7-dcc7915b5a0b", "translation" => "سيدي عون", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1246
+            ["id" => "51a0dbb3-2f91-4b64-a5be-ec9bfe889a98", "translation" => "Trifaoui", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "63c88130-b3f6-4218-8c0b-c3d7d10b4bd5", "translation" => "Trifaoui" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c9612b5e-97f3-4372-af0c-a81d81cb038c", "translation" => "الطريفاوي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1247
+            ["id" => "8f1f444c-7f42-48a0-8574-22767f77b4f6", "translation" => "Magrane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9cc06c3a-24e4-47de-a334-a6e5586080be", "translation" => "Magrane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "453b37cc-69aa-4b93-b832-0029ae80c68f", "translation" => "المقرن", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1248
+            ["id" => "4d6c03cf-9062-47cc-a617-74004c76570a", "translation" => "Beni Guecha", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "79585abf-eb13-4654-a723-13a456b81a46", "translation" => "Beni Guecha" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f563cdef-c933-45e8-ba3f-7bb762676dae", "translation" => "بن قشة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1249
+            ["id" => "869a7836-f6a8-44a8-ab3d-d8593e0e3fba", "translation" => "Ourmas", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "334256e1-6b44-4837-98e1-3c5f5db0bd6e", "translation" => "Ourmas" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6848805c-38a5-47de-b6f0-ce16de8815c7", "translation" => "ورماس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1250
+            ["id" => "4e20f48e-fb10-46c0-8104-b2c4199535ae", "translation" => "El Ogla", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3f504b82-7af2-4528-a504-7ccc093bf83a", "translation" => "El Ogla" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1fe389d0-7432-448c-96d6-dcdf5da22aca", "translation" => "العقلة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1251
+            ["id" => "3d61b2fd-4c4a-4970-956e-c18873126cc1", "translation" => "Mih Ouansa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9833584a-c224-43dd-aef9-4d2a709e1815", "translation" => "Mih Ouansa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1cfc4ca4-4caf-47b6-9b65-39f0f6b1317a", "translation" => "أميه ونسة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1252
+            ["id" => "114fd0b1-a0ef-4f4e-8ba0-7d79e1fe4a8d", "translation" => "Khenchela", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "151ad605-fa99-4a48-b6e4-7bc4f96b4dfd", "translation" => "Khenchela" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "908c491a-4ef0-47ca-8b44-6e343a85ecfb", "translation" => "خنشلة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1253
+            ["id" => "55b0ab5a-75b8-49d8-9509-3ad0571560d7", "translation" => "Ain Touila", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "24821947-b86b-471e-afcc-74a19c67e5cf", "translation" => "Aïn Touila" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c13c6a75-6ac4-4426-aed9-35f5c624a650", "translation" => "عين الطويلة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1254
+            ["id" => "f7fca28a-ed09-4d4a-b1e5-996449d47669", "translation" => "Babar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a8642c16-36a7-4e4b-9ec8-cc8f42d65a8d", "translation" => "Babar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2c09f8fc-5e57-4c97-a9ff-cda609176fa5", "translation" => "بابار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1255
+            ["id" => "c67c1e22-ca16-4039-b796-a2c62d41a660", "translation" => "Baghai", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "888c527f-d957-4e69-9f00-336c3b6f964a", "translation" => "Baghai" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d008320b-b1fe-4a8a-9483-997289c52063", "translation" => "بغاي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1256
+            ["id" => "ef77125c-2932-4dc8-b9f1-220da13cd0c1", "translation" => "Bouhmama", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7f594568-1736-40e5-a2aa-7e03ab34db47", "translation" => "Bouhmama" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2061c0d8-fcba-43e5-bf19-de8b1f07cf4f", "translation" => "بوحمامة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1257
+            ["id" => "0a223b20-e9d7-44db-b1e3-7189df10cd9c", "translation" => "Chechar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5df76f7b-d85e-4a27-8cfc-68363900dba5", "translation" => "Chechar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "362b28ca-d173-4b89-8689-fa3ca78786f9", "translation" => "ششار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1258
+            ["id" => "5b213013-1c7f-4f84-87ba-b543fbf29c5e", "translation" => "Chelia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d7833034-0f1c-40c3-9da5-87620512fd49", "translation" => "Chelia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3c3bd495-d0e0-4874-ac86-2e6250ad4334", "translation" => "شلية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1259
+            ["id" => "764859e9-6b59-4e0c-b2a8-67fe09a4f07d", "translation" => "Djellal", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0987ca4c-d4eb-4da8-8a99-49c2b7279a6c", "translation" => "Djellal" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "31d837de-6803-4819-862f-ede730d65df1", "translation" => "جلال", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1260
+            ["id" => "ec1a41b9-f998-4eed-ad0c-3e0b7eb9c7c4", "translation" => "El Hamma", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8d1f23da-0a6b-4c11-a915-fd1769c7a4fb", "translation" => "El Hamma" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6f6e9f49-da6a-4269-9e6f-0a41ad85407f", "translation" => "الحامة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1261
+            ["id" => "cb2f191c-d1fc-43c9-a0e1-988078379994", "translation" => "El Mahmal", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ea57cee4-ae2d-41f1-855f-e93ccfedb68e", "translation" => "El Mahmal" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "47e96dd5-f774-4e8b-a4ab-6b69832ee607", "translation" => "المحمل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1262
+            ["id" => "9fdb55e2-57a0-4ae6-a33a-9e83d13cb135", "translation" => "El Oueldja", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f8ffbf2d-7991-4a29-9ee9-aa5e5ce6ac54", "translation" => "El Oueldja" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2fc52e8d-8011-47f1-a6cd-40a7a89dbc6f", "translation" => "الولجة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1263
+            ["id" => "00bf19c8-f320-430c-8682-df0e4ed3f1cc", "translation" => "Ensigha", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "dece9d64-d708-4b4e-9b78-17dda1f4f2ea", "translation" => "Ensigha" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "36185ddc-f25e-4881-9b92-1f1d972ee5f5", "translation" => "أنسيغة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1264
+            ["id" => "22419aca-0940-4faf-b6a3-54c9473059a7", "translation" => "Kais", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "dcf51663-d93d-4508-8991-dd59350068c3", "translation" => "Kais" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0d478253-2173-45e3-86cd-97986ff1a864", "translation" => "قايس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1265
+            ["id" => "e57e58a0-bdb1-449e-8e71-8671538868b2", "translation" => "Yabous", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e5b74067-dea6-4095-ab5f-1e429c92ba21", "translation" => "Yabous" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "46898b3d-3fef-427b-be8a-2f5741590b95", "translation" => "يابوس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1266
+            ["id" => "5c3f7c23-0549-455c-86cc-54f7a35391fa", "translation" => "Khirane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "fbd7451d-37e7-41a4-b747-959d58b84e5c", "translation" => "Khirane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "16cb1488-04da-4853-adfe-d9320acc1b90", "translation" => "خيران", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1267
+            ["id" => "f68aa138-22c2-4c7d-a0e3-44ddc30fddc1", "translation" => "M'Sara", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ff5270a7-d54e-47bd-97ef-954784033085", "translation" => "M'Sara" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f8143b9b-cbdb-4240-bb5d-e9b880a9939d", "translation" => "أمصارة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1268
+            ["id" => "50e848eb-a996-441f-885e-a4e607550e74", "translation" => "M'Toussa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "486200fe-856f-4f51-86e5-0f19a143ff2b", "translation" => "M'Toussa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d90f4edf-10d8-45dd-ad57-a329d2a8429b", "translation" => "متوسة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1269
+            ["id" => "cd28fe38-4030-41e0-b9c7-7e18a646c20b", "translation" => "Ouled Rechache", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b9527296-36b0-494b-9c31-2d0f3f768c3b", "translation" => "Ouled Rechache" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5951626c-9415-4797-ab7f-ddbcfde2a729", "translation" => "أولاد رشاش", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1270
+            ["id" => "a919c95f-dc6f-4302-be14-1131f890e376", "translation" => "Remila", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9ddd07d7-cf05-4ff8-bedb-b29c9e5e58ce", "translation" => "Remila" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ebc76ecd-8d14-4004-a88b-5f57908c0328", "translation" => "الرميلة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1271
+            ["id" => "2b38b95b-c317-405e-b70a-b171b03cdfb1", "translation" => "Tamza", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d561fd65-386b-4b6b-b546-9335617da4ee", "translation" => "Tamza" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "02732cc3-ad38-48a7-a756-483bf4f14377", "translation" => "طامزة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1272
+            ["id" => "bb47a7c3-7475-44e5-b6de-746b314e8bf6", "translation" => "Taouzient", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "df8a073f-8db0-467a-b242-98dbdfe1359b", "translation" => "Taouzient" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b8b8344e-0f75-499d-9eb7-4039202eb82b", "translation" => "تاوزيانت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1273
+            ["id" => "a4dfce36-2f9b-415c-9a77-b13aae71174d", "translation" => "Souk Ahras", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a66e55e5-1409-4696-88ea-0baa235595b2", "translation" => "Souk Ahras" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "baf42691-4943-4d35-8c83-ac9c32bc74dc", "translation" => "سوق أهراس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1274
+            ["id" => "e5589273-d042-46fc-9b42-375d7eb6188c", "translation" => "Sedrata", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e2453920-ebc6-4aa0-a520-6d4f87b83007", "translation" => "Sedrata" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "68062bb4-8f12-4a90-993e-2f3afe2ff738", "translation" => "سدراتة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1275
+            ["id" => "914b672d-7686-4cb7-aa1d-20eba34ad250", "translation" => "Hanancha", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f0a3fec2-e3c6-49b8-8153-7fad25249d4e", "translation" => "Hanancha" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a23454ec-7759-4438-91e3-543105099311", "translation" => "الحنانشة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1276
+            ["id" => "e81006e9-0442-48d0-8d36-07a3265e82c3", "translation" => "Mechroha", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ff575b8b-1245-4bff-9c10-f217cf8250ca", "translation" => "Mechroha" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "48f92c23-7c71-4506-8554-a771c8212ad2", "translation" => "المشروحة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1277
+            ["id" => "ec80625e-bb20-41a3-bbbe-4302d47258cf", "translation" => "Ouled Driss", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9b2e89eb-9964-4c2e-9d1d-be2b5cd95f0e", "translation" => "Ouled Driss" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d99595c2-6b9c-4331-a426-bcd94a8f26b2", "translation" => "أولاد إدريس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1278
+            ["id" => "a8953408-f897-4c6d-a82c-82b6bdfb53bf", "translation" => "Tiffech", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7c02a85f-6062-42ef-91df-1f1c5407fded", "translation" => "Tiffech" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e93c1793-db08-4f6b-800f-d9cf70acc986", "translation" => "تيفاش", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1279
+            ["id" => "2f8fc570-87c7-4f98-90c3-dc2a5738fd06", "translation" => "Zaarouria", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7847fe69-4181-4e46-941b-782d5394a583", "translation" => "Zaarouria" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fed13f5e-f821-415d-99c5-d877628d540a", "translation" => "الزعرورية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1280
+            ["id" => "53287821-acbc-4d12-bb33-0fc3a219e2cc", "translation" => "Taoura", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e62888dd-302d-4641-990b-a90a013d516c", "translation" => "Taoura" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fe599dcf-1b83-415e-9292-aaa9d29cfaca", "translation" => "تاورة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1281
+            ["id" => "13f41157-3e98-4e7d-b2b2-71e2ebf7e849", "translation" => "Drea", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "28045f34-8db5-4ad8-ae72-77301978ba3a", "translation" => "Dréa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "da682500-35e3-4b26-a9e7-f940e94be918", "translation" => "الدريعة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1282
+            ["id" => "1dc5191d-cc94-4bcf-a08a-1fabefd7a9b8", "translation" => "Heddada", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7b2049c1-c73e-479c-a392-feeadb4391ad", "translation" => "Heddada" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6901666a-92ce-44de-8769-fbd9add35ad3", "translation" => "الحدادة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1283
+            ["id" => "7fa8216b-f654-4047-99c8-fa9e05b2609f", "translation" => "Khedara", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "19e8b160-a790-4437-989c-52f66b5f94cd", "translation" => "Khedara" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "761f54a8-4045-4c92-92a8-29a4dcc40aaa", "translation" => "الخضارة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1284
+            ["id" => "1c417e81-bfe6-4f05-ac9d-9962b1dc643a", "translation" => "Merahna", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c04c670b-5441-40e1-9b98-9e7815463e8d", "translation" => "Merahna" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d84111fd-b45f-4237-99a6-231a149a6fd7", "translation" => "المراهنة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1285
+            ["id" => "e7c995bc-025a-42fe-915c-f95619ccb666", "translation" => "Ouled Moumene", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9d8b1cac-592e-4f2c-9ee0-d698323287ea", "translation" => "Ouled Moumene" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "000171d8-c9aa-4845-a35b-3c1aae400b67", "translation" => "أولاد مؤمن", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1286
+            ["id" => "828ee7e2-cd47-4f34-88a8-43f5e41edf2e", "translation" => "Bir Bou Haouch", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2012ab1d-aeaf-41e5-a063-8543ab5f48cb", "translation" => "Bir Bou Haouch" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d153d0b1-e757-450e-a3f9-a2d7efbec7b0", "translation" => "بئر بوحوش", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1287
+            ["id" => "27c7c818-8d92-4ae0-854f-74a84ae1470d", "translation" => "M'daourouch", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "cd72dd6f-3ae2-4263-aba1-c2e5726f6c75", "translation" => "M'daourouch" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c074854d-ca6a-46d8-af06-cac97b482cc3", "translation" => "مداوروش", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1288
+            ["id" => "a30fcfe1-9a7c-4a31-b03d-1402e6c9459f", "translation" => "Oum El Adhaim", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "fc903f01-2a24-42d2-aa25-40625763cd8c", "translation" => "Oum El Adhaim" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ad0b4059-53f6-4adf-a421-d6786c7f448e", "translation" => "أم العظائم", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1289
+            ["id" => "f97ee3dd-98d5-42e7-b28b-0176345f85ba", "translation" => "Ain Zana", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "53a29000-cda1-4c3f-8b78-f3a33ff16480", "translation" => "Aïn Zana" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a9fee57d-332f-443a-af8a-c539f90bb09f", "translation" => "عين زانة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1290
+            ["id" => "2c0d6440-a693-4e54-b1dd-66f30038b41b", "translation" => "Ain Soltane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "57b62ff5-e214-43ae-a03b-750f413a3f9d", "translation" => "Aïn Soltane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "cf7c129f-673b-4cad-9f6f-6907d97b46ac", "translation" => "عين سلطان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1291
+            ["id" => "08a4467d-ef75-40ef-b0d9-7cd8ca4c9389", "translation" => "Ouillen", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4d4293de-d51d-4a23-a89a-9cb11d1befcb", "translation" => "Ouillen" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5f51fbd6-320d-4de5-8980-b700842829bb", "translation" => "ويلان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1292
+            ["id" => "e25b7b37-7320-4196-a188-a86d0638b20e", "translation" => "Sidi Fredj", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "02304762-807d-426f-b2e7-5591446d1b9e", "translation" => "Sidi Fredj" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "59222546-3113-44eb-a7f2-47b5fe74c1b9", "translation" => "سيدي فرج", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1293
+            ["id" => "d8bf04ac-75d0-4f3d-92fa-71a9db691243", "translation" => "Safel El Ouiden", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2d256000-ee30-4645-8d57-d302ceb80808", "translation" => "Safel El Ouiden" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5d966294-ef93-417d-8a1c-21c6be6a3577", "translation" => "سافل الويدان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1294
+            ["id" => "c2c03d36-71be-4d2a-8a97-3ffb305ace2e", "translation" => "Ragouba", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b1a7fb0a-5798-4d93-ac78-9ab87e5453fa", "translation" => "Ragouba" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "59440768-bb5a-4433-a370-b59f282bbdd2", "translation" => "الراقوبة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1295
+            ["id" => "40e07077-986f-4754-a297-162928ccbd4e", "translation" => "Khemissa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6ecbabea-15e5-4b5f-b8cb-8113f3584ae9", "translation" => "Khemissa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2e1875e8-bf4e-4800-a8bb-f8cd3bc2cfd8", "translation" => "خميسة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1296
+            ["id" => "8ef4af93-3080-4fdf-b59f-8cc9ed9d09d8", "translation" => "Oued Keberit", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "72c5d039-0985-4676-846e-74761512786c", "translation" => "Oued Keberit" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fffdb6ab-6e6f-4777-84d4-35890578d0e4", "translation" => "وادي الكبريت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1297
+            ["id" => "52e4423d-c918-4bd1-a7b2-152ccdd46644", "translation" => "Terraguelt", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b816e854-e29b-49f5-b4ac-9ec6e43fde65", "translation" => "Terraguelt" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "dcbb28a7-2349-4833-9a4d-e451c07bf0da", "translation" => "ترقالت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1298
+            ["id" => "81a552bb-a170-4feb-b1ba-7a017e42fdc9", "translation" => "Zouabi", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "12bb9538-ff10-4f9f-9455-f2c33d30653d", "translation" => "Zouabi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "24f188dc-4ac5-4114-9726-386c67e3c070", "translation" => "الزوابي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1299
+            ["id" => "5eabdbc3-2ecf-4922-a6b3-78d544a2606f", "translation" => "Tipaza", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2a83b32c-e5f3-4180-b399-f949abaaf2e8", "translation" => "Tipaza" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "22a4eeaf-d33d-4f40-a786-29778eb0ec61", "translation" => "تيبازة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1300
+            ["id" => "c64db0f7-4972-4549-abe7-67fe50df3529", "translation" => "Menaceur", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "eab28cde-db78-4a31-9433-abfd4e818fc7", "translation" => "Menaceur" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "397264b2-c1bf-4529-8b3b-6a67c83fce0d", "translation" => "مناصر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1301
+            ["id" => "83fb66c8-161e-49ed-a473-7f5b7e1ee779", "translation" => "Larhat", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "63941d6a-2f33-4143-aa45-ea949bc486dd", "translation" => "Larhat" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8adae208-15ce-4c8f-9ad3-b0ad4e316def", "translation" => "لارهاط", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1302
+            ["id" => "8a9c6c59-4f73-40c2-a92c-65e8c2b4816f", "translation" => "Douaouda", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e22cd9dc-dcaf-4a2a-8f9d-79eb56db7498", "translation" => "Douaouda" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d588edca-90bc-4353-aff9-298826ae56a4", "translation" => "دواودة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1303
+            ["id" => "fc5e1c4a-87da-4a99-9a32-f9eb4353b242", "translation" => "Bourkika", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "01a37392-2a2a-4d76-9742-42b28db45bb7", "translation" => "Bourkika" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "45cebe77-4a99-42aa-be86-e298bd04cdf4", "translation" => "بورقيقة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1304
+            ["id" => "c990ae5f-cc49-417a-b61e-d99c27eea899", "translation" => "Khemisti", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4aa1e80b-c495-4255-876e-1f79312481ea", "translation" => "Khemisti" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1040f710-c927-44dd-9151-5189052adaf3", "translation" => "خميستي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1305
+            ["id" => "e9bc4cc5-2baf-4212-a318-a92d6fe2baee", "translation" => "Aghbal", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ebde17c3-0ee6-4baf-8cac-9a022c6de03f", "translation" => "Aghbal" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5b5df8bf-6fa0-4535-908c-733e55293cf6", "translation" => "أغبال", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1306
+            ["id" => "e07a2833-6c91-4045-a3ab-05adcfc80cf5", "translation" => "Hadjout", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "75909eef-f936-4159-ad98-bec1b256fce2", "translation" => "Hadjout" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "25fbe6fb-9c29-4675-bbec-2f60bae611d1", "translation" => "حجوط", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1307
+            ["id" => "39a636b7-13db-476d-b9cd-da69f9e87b2d", "translation" => "Sidi Amar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5ad7fa45-1389-488c-9ad1-0748e267b3b6", "translation" => "Sidi Amar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "26a75352-8801-464f-9c0d-0b0c048dbeee", "translation" => "سيدي اعمر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1308
+            ["id" => "98d80d98-c52e-480b-83d6-2ffaebdf0201", "translation" => "Gouraya", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "797b4e20-9b75-4100-bf7e-88e42edd6800", "translation" => "Gouraya" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f9a64af0-1336-4d84-a0ae-7ee8381811b2", "translation" => "قوراية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1309
+            ["id" => "a3f0e566-9b31-4e0d-917c-aab9f1ca0782", "translation" => "Nador", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3b734f52-787e-49f9-b152-219fba915d58", "translation" => "Nador" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1474a040-d86a-4e2e-90f8-bf75023bf770", "translation" => "الناظور", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1310
+            ["id" => "0468d268-0367-4e67-8c8e-f17bd5a110f3", "translation" => "Chaiba", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "65937544-86e3-44c6-a694-c94391839b5e", "translation" => "Chaiba" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7f28150e-d3aa-4323-894e-8fad51cd3dc4", "translation" => "الشعيبة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1311
+            ["id" => "7aefff0b-f7d5-49ea-8efa-232d3a9dee71", "translation" => "Ain Tagourait", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "05fdcfaf-33e9-48f9-b4a1-a2bda96d4966", "translation" => "Aïn Tagourait" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "45da6a5d-9342-4b6b-9355-5e9d58799ce5", "translation" => "عين تقورايت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1312
+            ["id" => "63e5419d-f24c-4379-8c09-3acad1b1690d", "translation" => "Cherchell", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "31d21183-b1e1-4adf-9147-5504bba787b1", "translation" => "Cherchell" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "40085dbb-2d40-4083-8e41-2a477e452d09", "translation" => "شرشال", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1313
+            ["id" => "c7674b5c-fcbe-499c-a0e9-7bcc176afb81", "translation" => "Damous", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5442a0c1-1f50-4318-bc07-f4d61b457c9a", "translation" => "Damous" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "60f332fb-071b-4184-b295-bf322d40ab91", "translation" => "الداموس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1314
+            ["id" => "d6c84761-ddc8-4923-bcf1-2212f3cfb904", "translation" => "Merad", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7ebf7f8a-ebad-4e2a-96a2-a98dea1ee268", "translation" => "Merad" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2d8868f6-8935-4363-9550-98e0247566a8", "translation" => "مراد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1315
+            ["id" => "8d2539d0-a591-4fef-b71a-d23d7806b9af", "translation" => "Fouka", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "fd0c464d-04b5-4a56-98e7-fa65f8a7fc0f", "translation" => "Fouka" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f070da7f-31bb-4df3-a9c7-7370e91e0f97", "translation" => "فوكة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1316
+            ["id" => "87feff83-8ff1-404d-9fc2-f41b5ce8192d", "translation" => "Bou Ismail", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c86750f3-b1f6-4821-9a6b-d57996294dcb", "translation" => "Bou Ismaïl" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2b870d60-4002-40b8-b5ad-da693bee1ad0", "translation" => "بو إسماعيل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1317
+            ["id" => "8d2a6181-61fd-4400-8b1f-8b98e5d7926f", "translation" => "Ahmar El Ain", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0adaa3d3-de16-41f0-9096-b7eb3b2b1cbc", "translation" => "Ahmar El Aïn" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d3f2fb0c-9151-4c1b-9b95-108d1a1d27d3", "translation" => "حمر العين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1318
+            ["id" => "85163ab0-fa6e-492e-8afd-b8e602abadef", "translation" => "Bouharoun", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "49a439ba-a8b4-4bc9-ae1e-7909e2f79fe2", "translation" => "Bouharoun" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "86b9983b-938e-483e-b2d1-443b98dc6e33", "translation" => "بوهارون", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1319
+            ["id" => "ca62c276-a8ee-4274-9d77-3d7d594d5942", "translation" => "Sidi Ghiles", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "cf29503c-70f9-4a42-afc6-096bcadd368e", "translation" => "Sidi Ghiles" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "582a03ff-0b02-45bc-9e03-7148a1c0b9a6", "translation" => "سيدي غيلاس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1320
+            ["id" => "ca8014aa-e8b3-42c0-86bd-0ba07678d018", "translation" => "Messelmoun", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "56286ab7-6f6e-41c1-afcd-1c44bba62230", "translation" => "Messelmoun" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "900e3d8e-7b1c-4ef2-95ae-1b777d98d2de", "translation" => "مسلمون", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1321
+            ["id" => "7cd0168a-ac1e-4180-bf49-a85fbb0bb60b", "translation" => "Sidi Rached", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "92eb99ee-e8c2-4159-b322-66b4c1659620", "translation" => "Sidi Rached" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "13e9f725-f5d0-495a-b606-04234684c05e", "translation" => "سيدي راشد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1322
+            ["id" => "53a6ff29-ab6c-4f09-8415-873469e3298a", "translation" => "Kolea", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "da1124e5-b3df-402d-af48-59b2849e9bf9", "translation" => "Koléa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7fd730e6-4068-433f-b213-2e9b1be29d2e", "translation" => "القليعة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1323
+            ["id" => "041e4a28-d484-4660-a6f2-0aa34da6a1ea", "translation" => "Attatba", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ad6ed38e-acfb-460b-a9e6-d3dd4aaa6760", "translation" => "Attatba" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "34353ab4-32ef-4614-a3da-3b3aeacab42a", "translation" => "حطاطبة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1324
+            ["id" => "2e830174-0905-4e8b-885f-2b24d629487f", "translation" => "Sidi Semiane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1ac21733-6556-4cd7-bf2b-ff2ebbcf8651", "translation" => "Sidi Semiane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b003751f-cb11-4f94-ac74-9d1c8a0d23c5", "translation" => "سيدي سميان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1325
+            ["id" => "07d9c09a-1894-43f6-883c-701ceb514991", "translation" => "Beni Milleuk", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "160fb575-d023-4341-b029-cc2de3cd010f", "translation" => "Beni Milleuk" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "30385de9-0cab-4c5d-a709-867fc5e083c7", "translation" => "بني ميلك", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1326
+            ["id" => "2277af90-39b4-4e1b-b277-8f80b7199334", "translation" => "Hadjeret Ennous", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ff70e82b-957b-4cdf-a169-fa07b102bb0f", "translation" => "Hadjeret Ennous" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "65dc396b-c6e0-432a-9606-69be973f6797", "translation" => "حجرة النص", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1327
+            ["id" => "481411c7-6fd1-4c84-9422-48aafbde6537", "translation" => "Mila", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5ed7840d-5377-4456-b84c-d3e398bd86f3", "translation" => "Mila" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "401a0a63-4110-4b64-9599-02a89ff1a2b3", "translation" => "ميلة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1328
+            ["id" => "55e52f83-5312-40d9-aaf6-95d9edf4f81c", "translation" => "Ahmed Rachedi", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e1982827-6aee-434c-92d8-9831f5454839", "translation" => "Ahmed Rachedi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8858c28a-eb86-4a35-ae51-4483e537c271", "translation" => "أحمد راشدي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1329
+            ["id" => "f2b21cb0-536a-4e27-a5f9-dec935b7023f", "translation" => "Ain Beida Harriche", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "69fe01ba-8192-4fce-962d-61701b032e96", "translation" => "Aïn Beida Harriche" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0a1924ae-c074-4bd6-81fe-c768f9d3fd45", "translation" => "عين البيضاء حريش", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1330
+            ["id" => "de770366-1282-422a-92ab-90459fbf891b", "translation" => "Ain Mellouk", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "aab6309c-a091-4cf2-b74f-08a0b5eb6c5f", "translation" => "Aïn Mellouk" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ed333dc4-b5f7-4323-8be9-2de4802c71ae", "translation" => "عين الملوك", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1331
+            ["id" => "313fde6e-008e-4b3b-974e-37ec15066b14", "translation" => "Ain Tine", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f3f385f8-781f-4018-9be2-2ef1ccf76dbf", "translation" => "Aïn Tine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8dc63c60-2d8b-4808-a98e-4ee94eea2960", "translation" => "عين التين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1332
+            ["id" => "b9f40f62-36cd-4406-8ccb-2037770617fa", "translation" => "Amira Arres", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3abb8d80-cefb-4c2b-b50c-d60a7ed8d8bd", "translation" => "Amira Arrès" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6142b0f2-cc26-41e4-9be4-25360bec2396", "translation" => "عميرة أراس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1333
+            ["id" => "8469f4a3-26ff-4634-94e9-152e8cb1c247", "translation" => "Benyahia Abderrahmane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2a5cb78b-af78-4310-b399-e070d522aac5", "translation" => "Benyahia Abderrahmane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "80ebdb52-b884-437f-986b-643b2894ba6c", "translation" => "بن يحيى عبد الرحمان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1334
+            ["id" => "2f488e17-fa43-4cce-b39b-2e9c7299b25f", "translation" => "Bouhatem", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "61a82d55-71b1-482e-9c84-80a833a0673c", "translation" => "Bouhatem" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d0f3a8fe-c917-491d-baf3-566e7dc8a126", "translation" => "بوحاتم", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1335
+            ["id" => "1cd165cb-82c2-4fcb-98a2-0eb0d1f0bec5", "translation" => "Chelghoum Laid", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5f2f8997-e98d-44e8-bf23-a1d6f11211b6", "translation" => "Chelghoum Laid" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "19e22d61-2795-477b-af71-e2c1193edd0e", "translation" => "شلغوم العيد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1336
+            ["id" => "4950eb34-32f8-4ed0-9818-d660e0e1a259", "translation" => "Chigara", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4a58d44a-9664-4345-b106-ad154d593573", "translation" => "Chigara" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1f821d61-b27e-463f-b28b-a6a9da00a54b", "translation" => "الشيقارة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1337
+            ["id" => "8d25a8bc-3075-437a-9885-aa0a5561c143", "translation" => "Derradji Bousselah", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "562a0e36-9a27-4d5c-bbab-37db4411d0d3", "translation" => "Derradji Bousselah" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1a70486a-0f35-411e-94cc-736703b649dc", "translation" => "دراحي بوصلاح", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1338
+            ["id" => "67438b01-1feb-4f8e-b5c9-d0b127902848", "translation" => "El Mechira", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4679c4fa-c23a-4e8e-9a2f-59897bb74913", "translation" => "El Mechira" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "cd7beb10-6b5a-478e-9a3c-d3b668ef1afb", "translation" => "المشيرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1339
+            ["id" => "cbb93d35-9384-42db-8fcb-a055e667edb3", "translation" => "Elayadi Barbes", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "06e16bc9-254c-451f-b683-078fa66f5589", "translation" => "Elayadi Barbes" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "32618c61-8eb8-46f6-b2c8-4f2a66218159", "translation" => "العياضي برباس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1340
+            ["id" => "e48ab1f4-6faa-4065-a616-f4f7d2da8706", "translation" => "Ferdjioua", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b65b4976-baea-4351-be95-a6a3b5dc7a29", "translation" => "Ferdjioua" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3371ec58-c9c3-480f-96b7-67d93cd59b53", "translation" => "فرجيوة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1341
+            ["id" => "fc37c86d-c55a-4e0f-995e-064ad9ce5d82", "translation" => "Grarem Gouga", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9b00a13d-b269-41fb-850c-5a97b7217102", "translation" => "Grarem Gouga" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fbf5170f-0f38-4bf9-93c2-446218ed0d89", "translation" => "القرارم قوقة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1342
+            ["id" => "9c42d4e1-a49c-4f67-8ea9-3ccc552c4766", "translation" => "Hamala", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8a1da9d8-27bd-4d3b-925e-a999e770501a", "translation" => "Hamala" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0986c7e2-c772-42ca-9eac-e1fd2419f460", "translation" => "حمالة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1343
+            ["id" => "fa38fbef-db2e-49e1-bd02-063cafdac553", "translation" => "Zeghaia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6cdf10d2-c81c-46bc-8aca-16f239bd953c", "translation" => "Zeghaia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bb8fe5a4-cd30-4bd1-ba60-b6475093cb72", "translation" => "زغاية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1344
+            ["id" => "5193cb36-cfb5-4a64-9882-9f2ffee14dc1", "translation" => "Minar Zarza", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a722e390-d947-423a-8d5b-ed34da1da677", "translation" => "Minar Zarza" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "376a1158-66eb-45ba-81e3-9e11d592526b", "translation" => "مينار زارزة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1345
+            ["id" => "44d10684-8eb0-421d-a971-014b58314bfa", "translation" => "Oued Athmania", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1461c6a9-d8e6-4272-9a35-30fbb3fafb88", "translation" => "Oued Athmania" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1edd7bc4-ee39-43f0-a9bd-f7f026e5608c", "translation" => "وادي العثمانية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1346
+            ["id" => "f840b21f-988b-4deb-a154-b478286f4ddd", "translation" => "Oued Endja", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1970af3f-02a3-498e-8bbf-47fa81d92306", "translation" => "Oued Endja" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "81370056-bc57-4d5c-be3c-8958fc5e8310", "translation" => "وادي النجاء", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1347
+            ["id" => "558583ae-a35c-451e-a110-ee81d3ab67df", "translation" => "Oued Seguen", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ec5d7b42-905d-4983-9062-5701cca93d16", "translation" => "Oued Seguen" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "dc119d21-920a-4806-88db-f5f39497cf6b", "translation" => "وادي سقان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1348
+            ["id" => "a1c24f3e-2ed9-4b0e-8197-77e50263110b", "translation" => "Ouled Khalouf", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c4e6cee8-fe9b-48ed-a25e-b14aad109145", "translation" => "Ouled Khalouf" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2973a28a-fc2b-4a7c-be3f-8f60b4962e0d", "translation" => "أولاد خلوف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1349
+            ["id" => "ce0af701-1a3d-41bc-babb-d6821d002106", "translation" => "Rouached", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "53edc02e-d17e-43a7-973a-0cd053ae28a6", "translation" => "Rouached" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8bfc8c85-9938-4d2d-9db6-21329a5e8cd3", "translation" => "الرواشد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1350
+            ["id" => "27943ce9-d467-4e55-ae05-e671a1562697", "translation" => "Sidi Khelifa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e9d06757-2d9c-4a1a-9f76-4731f712f18e", "translation" => "Sidi Khelifa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "14d83d8c-1948-4803-879c-a23093855c5d", "translation" => "سيدي خليفة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1351
+            ["id" => "e25049d5-4b95-4f55-88df-43700cbb1d4f", "translation" => "Sidi Merouane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b7d5b62d-b110-4318-88f5-d8122f7be902", "translation" => "Sidi Merouane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "cf3a2e2d-ddb4-4bd3-88b5-273d546c8bb9", "translation" => "سيدي مروان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1352
+            ["id" => "480f524f-54ae-47bc-8de2-dea5841b6f48", "translation" => "Tadjenanet", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f4fa5be2-40c2-4d61-977d-3e3ff7dd09ba", "translation" => "Tadjenanet" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5ca1db42-ea20-4586-9a16-bb86778a3da1", "translation" => "تاجنانت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1353
+            ["id" => "d7a78a52-719e-4e65-a5cf-be9d392398e7", "translation" => "Tassadane Haddada", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6b9e654e-f828-41ec-b5ac-0265e5f7ca4d", "translation" => "Tassadane Haddada" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c0f0bc1f-5ac3-4dcb-acd5-a7c6ed5a4107", "translation" => "تسدان حدادة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1354
+            ["id" => "a68813eb-5c52-4cad-a440-ccb66b552c88", "translation" => "Teleghma", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "189eaa09-7068-451b-8212-28f83c7bfe0b", "translation" => "Teleghma" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9be576fe-0527-4d18-840b-ee3a7940318b", "translation" => "التلاغمة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1355
+            ["id" => "98f74138-f353-4630-a514-8dc227a4fbae", "translation" => "Terrai Bainen", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9e35cb02-a6cb-42ae-82a3-3c2aa409aead", "translation" => "Terrai Bainen" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c078dea7-9935-4076-a6eb-93fe27af0184", "translation" => "ترعي باينان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1356
+            ["id" => "82154318-6055-4a47-84d9-e55e6ad68b40", "translation" => "Tessala Lemtai", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "facc8f7d-b34b-4c97-9d63-7a361db07329", "translation" => "Tessala Lemtaï" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2e551439-9dde-4701-9020-021876ce9e1e", "translation" => "تسالة لمطاعي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1357
+            ["id" => "9019effd-e1d0-4c60-8890-720da8ea908f", "translation" => "Tiberguent", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4a9c7f3c-4ba1-49b0-afde-ae3225e1123b", "translation" => "Tiberguent" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "13af933e-76dd-4f85-9f50-625178f30df7", "translation" => "تبرقنت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1358
+            ["id" => "0d82ff90-2934-435d-aa2a-1c2782e1900e", "translation" => "Yahia Beni Guecha", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ff45d419-ef95-4b3a-9d19-1f92cbbbb6ef", "translation" => "Yahia Beni Guecha" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "172ac914-f4d4-47b4-a6bb-7aa677fef3d8", "translation" => "يحيى بن قشة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1359
+            ["id" => "9862261d-795c-4d19-b02e-41801c8cca30", "translation" => "Ain Defla", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "72223056-155a-4b04-b93a-067aa65c559c", "translation" => "Aïn Defla" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4f8094e1-5f2f-4456-83ac-7a33a2319ba7", "translation" => "عين الدفلى", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1360
+            ["id" => "b31952cd-a116-4665-86bd-6c2f77192601", "translation" => "Ain Benian", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "69820241-a1e6-4e52-a6d0-baede5efdefe", "translation" => "Aïn Benian" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "14ded6b6-bd2e-453f-acd6-3fcb1b63e4cb", "translation" => "عين بنيان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1361
+            ["id" => "4bdd2672-441c-4d1e-a4c3-987e35499afb", "translation" => "Ain Bouyahia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6c387605-8b9a-44a7-9b0f-133e012f8d90", "translation" => "Aïn Bouyahia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3c916caf-a7a5-444e-a8de-a80b8d501b1c", "translation" => "عين بويحيى", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1362
+            ["id" => "05ee75b9-52a6-4131-ac2e-74b5a94c1eb5", "translation" => "Ain Lechiekh", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2e4f2426-58ec-487f-a4eb-4cf124134c6a", "translation" => "Aïn Lechiekh" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5183f33b-1bc2-4269-8633-50517fa5cd78", "translation" => "عين لشياخ", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1363
+            ["id" => "5d8ca534-ffb6-4d77-8d86-c4ef78a9d497", "translation" => "Ain Soltane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5a8dc573-a628-480e-81b1-2796167cfb75", "translation" => "Aïn Soltane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2b26c516-efe6-4ffd-9b45-39a69164f41d", "translation" => "عين سلطان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1364
+            ["id" => "3050c0cf-301e-4e35-bc01-b670a9d86147", "translation" => "Ain Torki", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5a561f64-a589-4bff-98c6-77c05583e4de", "translation" => "Aïn Torki" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f5dc1868-bd31-476e-b65f-e120364c36f1", "translation" => "عين تركي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1365
+            ["id" => "b0df5f0a-eafb-4312-8b50-83f15de319ba", "translation" => "Arib", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "13249799-d0ed-4272-acf9-d70235e09c7c", "translation" => "Arib" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bb10eeca-0c18-41d4-a1b4-4157a3e96a3f", "translation" => "عريب", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1366
+            ["id" => "3026c31a-2eca-400d-a04b-5f45f1f5a45a", "translation" => "Bathia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a601c286-401f-4afa-8247-6870eab5a55a", "translation" => "Bathia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9baab764-c531-45b0-ab25-cc776e61049b", "translation" => "بطحية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1367
+            ["id" => "d4d0e199-33db-4f14-8d6e-ef39b6a5af3d", "translation" => "Belaas", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6ca44a43-eed9-48ef-9394-76c6607b7d36", "translation" => "Belaas" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a834c289-5e35-4c2e-81c0-750d58998eba", "translation" => "بلعاص", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1368
+            ["id" => "03887a20-616a-45aa-af8b-4badd504a0f8", "translation" => "Ben Allal", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "dafd3bdf-5f79-47e6-89f8-65903c36e2f3", "translation" => "Ben Allal" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a96023cb-d1ff-4f0d-8728-ae4530ac9b04", "translation" => "بن علال", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1369
+            ["id" => "8f33a227-66f8-4c65-b07c-74a418699cf0", "translation" => "Birbouche", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e1bebe5e-aa27-4d02-ba14-9efa0fb28e06", "translation" => "Birbouche" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1c7603d4-6b07-4dd0-9a6f-2d1b178c3e5b", "translation" => "بربوش", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1370
+            ["id" => "3c2d96f6-4074-4f16-97d2-4723173f47fb", "translation" => "Bir Ould Khelifa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "13461142-4b7d-4ae5-9f26-64adf5171536", "translation" => "Bir Ould Khelifa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "84805b50-b6a5-4602-87c8-9fc4d4233f6c", "translation" => "بئر ولد خليفة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1371
+            ["id" => "f9ea8031-4af9-4bca-95b4-8c2b3bad7825", "translation" => "Bordj Emir Khaled", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d871a227-30eb-4bb7-88e5-ca2c707f67ed", "translation" => "Bordj Emir Khaled" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "96ea6d5c-d003-4d37-995e-90dd08a6d50a", "translation" => "برج الأمير خالد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1372
+            ["id" => "b03da833-6fa1-4bf8-b237-040d98db21e0", "translation" => "Boumedfaa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ba8483ee-099f-4eee-afaf-6e7d5bbb8a04", "translation" => "Boumedfaa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9b565857-c845-4fa4-b5af-9a2b9785df79", "translation" => "بومدفع", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1373
+            ["id" => "493cae97-3da5-4fd9-9e2d-373991b4ed91", "translation" => "Bourached", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7f8c36d4-d79b-46eb-9cc1-7c6b7934909f", "translation" => "Bourached" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "97e5dc61-4212-4b74-b73c-f9d78f32a11d", "translation" => "بوراشد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1374
+            ["id" => "5270fef7-4282-4b4d-aba4-8af1d2730a72", "translation" => "Djelida", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f7b2be6f-2b36-45df-86bd-8b2396e8a835", "translation" => "Djelida" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "70572769-704e-4f4c-855b-b3110eeceab0", "translation" => "جليدة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1375
+            ["id" => "ed930391-9ef5-451a-82fa-81e3cf042d5c", "translation" => "Djemaa Ouled Cheikh", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "00f4c768-153f-442e-b868-2655e91cefc2", "translation" => "Djemaa Ouled Cheikh" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "64976bac-d895-46a2-b1dd-170d12c9877c", "translation" => "جمعة ولاد الشيخ", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1376
+            ["id" => "d00d5128-c33b-4ffd-8ec3-7c0de7cfcc68", "translation" => "Djendel", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "dbdb09c7-5a90-46e5-889f-6c82cdbc16c0", "translation" => "Djendel" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1922b49a-ea5a-4455-bbba-3155c211152f", "translation" => "جندل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1377
+            ["id" => "5264a26c-94b9-436a-9750-ab4763fb4c1e", "translation" => "El Abadia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d0c99591-7117-4eac-a731-9182ab1eadb3", "translation" => "El Abadia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8697add4-b7e9-4448-97d8-850c03ff40cb", "translation" => "العبادية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1378
+            ["id" => "78bcd65b-63ff-4ec3-8998-55362367ffb3", "translation" => "El Amra", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b05f941a-c134-46c7-8d1a-feb66fcdf18f", "translation" => "El Amra" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d87f9317-e612-458f-98c3-b858a41d61b0", "translation" => "العامرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1379
+            ["id" => "8ebbb983-91e6-4c45-a457-34da9f73ee6b", "translation" => "El Attaf", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5f111d05-28a0-4785-b85c-febd05786cec", "translation" => "El Attaf" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a931942e-f2dd-4b80-ae7f-f7b6e33e8b9a", "translation" => "العطاف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1380
+            ["id" => "2d2c1b6c-135b-4b5d-bc09-afa6358b002a", "translation" => "El Hassania", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "34913b03-bd85-4f37-9312-c69555f33e44", "translation" => "El Hassania" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2c054d6e-07b7-46f9-a13f-e4ab2a75dd0c", "translation" => "الحسنية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1381
+            ["id" => "1ce6dc43-b7ea-48ee-bb80-78baf4713f3b", "translation" => "El Maine", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2956af9a-56c3-417b-97c8-dc64eba97f70", "translation" => "El Maine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a7a1dd61-2ef1-46a6-ae39-e891b506f174", "translation" => "الماين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1382
+            ["id" => "e3788442-f3d2-472d-a3cb-c2bcf6cc117b", "translation" => "Hammam Righa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d24c33de-3b0a-4e5e-b75a-6b7ebac2700b", "translation" => "Hammam Righa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b53437f9-e7a4-4411-aa48-c3f1b60cc523", "translation" => "حمام ريغة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1383
+            ["id" => "1990dd35-ade9-4475-8d02-3fdcbe9502f8", "translation" => "Hoceinia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "515128c5-5527-4aaa-965d-c6271b2ee2e4", "translation" => "Hoceinia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c7582041-004e-448f-acc7-377c86503848", "translation" => "الحسينية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1384
+            ["id" => "adf4073d-5713-413b-9a46-541c2793c2fa", "translation" => "Khemis Miliana", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e5ba2df7-d979-4e54-bc54-50b3993014b1", "translation" => "Khemis Miliana" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b329ea0d-566d-4ac1-a853-3e98364c4c44", "translation" => "خميس مليانة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1385
+            ["id" => "78a03d21-7c5f-4a3c-b121-da4e8305c0df", "translation" => "Mekhatria", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f38b0572-0e12-4ec8-ac2f-45200798a12a", "translation" => "Mekhatria" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4876bd1a-9ecf-4c23-bb4c-2987c3cef62d", "translation" => "المخاطرية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1386
+            ["id" => "d8a99ea0-8386-4c79-a32d-c1492a8ffbc7", "translation" => "Miliana", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c436c594-3f3a-4dc2-9148-f6633f8aa9df", "translation" => "Miliana" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2a89e4a6-8ef1-4717-9083-2f519443e924", "translation" => "مليانة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1387
+            ["id" => "47a944b6-7f5e-4841-b469-dfc1fdf9d206", "translation" => "Oued Chorfa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9e00d808-50ed-4d4f-a125-f2c9d4e78452", "translation" => "Oued Chorfa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7dceea87-f909-43a1-976f-dc6d667d8c06", "translation" => "واد الشرفاء", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1388
+            ["id" => "493d3140-2f39-4111-a9ba-922005c3c276", "translation" => "Oued Djemaa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f395a030-d1e4-4c57-b523-4e9eee67967f", "translation" => "Oued Djemaa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c06915db-d4e0-4b07-bdc8-07df8b6cfccc", "translation" => "وادي الجمعة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1389
+            ["id" => "d2b64595-7b5a-4983-b964-9866d3bba574", "translation" => "Rouina", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f58d93a8-cd10-4f43-9a2b-104233120711", "translation" => "Rouina" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "24b801ca-6e76-48fd-be82-66baa5f21412", "translation" => "الروينة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1390
+            ["id" => "7ee6ff25-d9fb-4db3-ab9f-a98b43d3f6d6", "translation" => "Sidi Lakhdar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b0984a1d-7edf-4f48-b338-cd9110e378d3", "translation" => "Sidi Lakhdar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e0ef2f3e-345e-465c-b56e-bc6a76ca72a3", "translation" => "سيدي الأخضر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1391
+            ["id" => "685aefb4-085d-4cbe-b1ad-ad6df153d709", "translation" => "Tacheta Zougagha", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f9d35992-8dbf-4266-9867-1496f355550f", "translation" => "Tacheta Zougagha" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ae0b3de7-1f47-4ec1-9776-c30c04439fba", "translation" => "تاشتة زقاغة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1392
+            ["id" => "761b892b-ce14-4eb3-aaec-ecf06cd43c32", "translation" => "Tarik Ibn Ziad", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "788132b5-8d0c-4c07-bc21-9ad47784b071", "translation" => "Tarik Ibn Ziad" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5d82785a-0f97-4e4d-8d7f-90d688993914", "translation" => "طارق بن زياد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1393
+            ["id" => "0f955812-f9e8-441c-abda-4c27995a1217", "translation" => "Tiberkanine", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b73de49d-7b73-492f-bccb-1357951d5296", "translation" => "Tiberkanine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1c2f3f18-f527-47c7-95b0-0182d8e5b66d", "translation" => "تيبركانين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1394
+            ["id" => "e9f29c47-1c32-4758-8723-554a9018d231", "translation" => "Zeddine", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "99f38fd2-3c57-4502-b71c-660391186d10", "translation" => "Zeddine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8f06ebf6-ef31-43b3-a855-a118f0926b7e", "translation" => "زدين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1395
+            ["id" => "98df58cb-adce-4b36-b04b-cdc07cb79e72", "translation" => "Naama", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "75c22bd3-b550-4cda-8b0a-46c06b5c8a07", "translation" => "Naâma" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2f718980-941e-481c-ae32-d4f0dbb8c2ec", "translation" => "النعامة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1396
+            ["id" => "b87f1317-31a0-42a0-ae4d-3760fc3e9c57", "translation" => "Mecheria", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2b66de8f-8ef0-4597-a4e2-697c55c1f506", "translation" => "Mecheria" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "21315d41-dce9-4f55-b684-662db0669eef", "translation" => "المشرية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1397
+            ["id" => "568c30b7-372d-4ecf-b82a-a87402398b14", "translation" => "Ain Sefra", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "333a113e-82b3-4d5f-994c-80e2a01ac824", "translation" => "Aïn Sefra" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6deab4cd-fdc8-46fb-a983-c1f1814bc8e8", "translation" => "عين الصفراء", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1398
+            ["id" => "28650c64-b01a-4c57-80c8-2917fa1eafd7", "translation" => "Tiout", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "13f1de96-1c74-4202-9b7b-9f336f23e00c", "translation" => "Tiout" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "21454457-da91-4e07-a148-e239f22f1625", "translation" => "تيوت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1399
+            ["id" => "0117e950-2f41-47a8-a902-ffaf2448ba5e", "translation" => "Sfissifa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b6123245-7ee6-460c-845a-7e0c4543258e", "translation" => "Sfissifa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a65f7c3d-f2bd-4b35-8a4a-6b6678ce7dfd", "translation" => "صفيصيفة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1400
+            ["id" => "d90d4444-f397-4556-870b-1880e5294694", "translation" => "Moghrar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "df14e936-847c-4348-a298-a1bd7c98ae5c", "translation" => "Moghrar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "aea7dd79-2648-4327-8d31-d2d77a65ebd2", "translation" => "مغرار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1401
+            ["id" => "885d8744-45b9-4913-bc0f-e3b5daaa4b0e", "translation" => "Assela", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d9e202af-24a5-4c44-8a58-65f525e31b8f", "translation" => "Assela" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ebba247b-9cff-486a-b7a0-c854e815794e", "translation" => "عسلة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1402
+            ["id" => "2526b79a-e625-41cd-a548-936f6f8b3155", "translation" => "Djeniene Bourezg", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "874440f4-62bc-4570-84cc-af9757cedc7f", "translation" => "Djeniene Bourezg" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "dc8bf1a2-bfa7-46ab-ab21-1c451d772822", "translation" => "جنين بورزق", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1403
+            ["id" => "08b24745-ebd4-445d-9b9e-1aa3f0b0a473", "translation" => "Ain Ben Khelil", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "43ab77aa-4683-4c9a-9185-196ba5be5c01", "translation" => "Aïn Ben Khelil" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "26879fc4-5c78-4055-8535-082bafe87cc6", "translation" => "عين بن خليل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1404
+            ["id" => "b056882f-df59-48de-b27f-42f28f68945d", "translation" => "Makman Ben Amer", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a4835c94-e24a-4367-ae7e-a8c5cf26214d", "translation" => "Makman Ben Amer" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "45169e04-4649-4e0e-9088-a9bcc3e7bfed", "translation" => "مكمن بن عمار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1405
+            ["id" => "38db68f7-55fa-4a2d-8f93-841112eab0a5", "translation" => "Kasdir", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8fd7d29d-8ea1-4a86-99cb-fb9e1eba90b6", "translation" => "Kasdir" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "812e7e91-2982-429a-9196-0ffc1ba9c043", "translation" => "القصدير", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1406
+            ["id" => "2e33d481-3e7a-42f8-8746-903cd0e4b789", "translation" => "El Biod", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ef8e61b5-8dd7-49a3-ba9b-459120ad95c8", "translation" => "El Biod" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "720b27c3-c01e-410d-8dc0-b9bb75acecbc", "translation" => "البيوض", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1407
+            ["id" => "5bf86f8d-0aa2-47fd-a94b-d9351c14b5a7", "translation" => "Ain Temouchent", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2d55c172-4f7f-434a-90fe-e6be104d089a", "translation" => "Aïn Témouchent" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2829c3f9-3b14-4b0b-8812-437c3bde4020", "translation" => "عين تموشنت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1408
+            ["id" => "6fe3d2e1-ccd0-445e-b3d1-b915470683fc", "translation" => "Aghlal", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9b235011-aecf-462d-9c7c-29141cf86a35", "translation" => "Aghlal" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d342b0dd-9ffa-4d1e-bc4a-ea93aa5811c5", "translation" => "آغلال", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1409
+            ["id" => "797904f3-01bd-4c9b-952d-2716d714df45", "translation" => "Ain El Arbaa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d3ec00a6-0477-4ee2-94c5-0884c6a5bc25", "translation" => "Aïn El Arbaa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "235ac429-98df-4e3d-8649-a1880814e9e1", "translation" => "عين الأربعاء", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1410
+            ["id" => "f80174e9-d760-42e8-abd1-448106772af8", "translation" => "Ain Kihal", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "98bda5d3-b6ee-4b8b-9aab-73100fd44a91", "translation" => "Aïn Kihal" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7a169b68-5ed9-4c27-a3ba-a93f3e133d5e", "translation" => "عين الكيحل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1411
+            ["id" => "e1f7848e-25d9-4d35-abe0-43d95fa3b382", "translation" => "Terga", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6782683b-6f85-413d-9078-ddfd23d12004", "translation" => "Terga" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "aa3e82c4-f19d-446c-bde1-7beceefdccab", "translation" => "تارقة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1412
+            ["id" => "1259ed5f-53a9-45f0-a9ca-b015531a8cbf", "translation" => "Ain Tolba", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7c0af033-6176-4b96-909b-720fd7df9d7c", "translation" => "Aïn Tolba" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c2e2e635-94f8-4814-9ee1-e81ebcf42d38", "translation" => "عين الطلبة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1413
+            ["id" => "40dcb441-ac1c-4099-aeb3-4eeb7213dd6e", "translation" => "Aoubellil", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ecda9bdb-ff2a-4ffc-ab31-9359b668e933", "translation" => "Aoubellil" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "22ff3d6b-bbd7-4f31-a27d-a4459bd7bcd3", "translation" => "عقب الليل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1414
+            ["id" => "28b55801-9f2b-499f-bb10-1f71c0f79ae9", "translation" => "Beni Saf", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "06325a97-2723-45db-b4dc-d5a66d05d193", "translation" => "Beni Saf" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "838c564f-69bd-413b-b955-bbba25264247", "translation" => "بني صاف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1415
+            ["id" => "ce46fcfb-6556-4891-a8a3-b9104bae2acc", "translation" => "Bouzedjar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "853cc84e-bb84-4e35-8115-642ffb959888", "translation" => "Bouzedjar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "dd4fd1a4-275b-436d-920b-7a33f5c9f02a", "translation" => "بوزجار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1416
+            ["id" => "886ee518-434f-40b0-afd1-9a106fc5cbd9", "translation" => "Chaabat El Leham", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e7bc5bf1-cb3c-449d-8eda-f8d3808c0520", "translation" => "Chaabat El Leham" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2d9c985a-b445-4f23-bfb4-bca15405de63", "translation" => "شعبة اللحم", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1417
+            ["id" => "6e969b27-da5e-403d-832e-e9a7bd5de136", "translation" => "Chentouf", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "bb2a3480-4def-4b52-ab64-bfeb37831d04", "translation" => "Chentouf" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d85e4590-1f07-4544-8030-8266f62664d6", "translation" => "شنتوف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1418
+            ["id" => "cc6fef46-bdc6-4820-bd12-92c88ee774ba", "translation" => "El Amria", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ea65f698-f8e9-4838-900b-8cd7136c9dc7", "translation" => "El Amria" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9990d83a-d9bf-4902-96d4-b656c16b3392", "translation" => "العامرية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1419
+            ["id" => "9ef87ac0-ecd2-4910-98cf-a420580ea7a0", "translation" => "El Emir Abdelkader", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ddcf0f8f-0e11-4782-9603-ac372a41f1b6", "translation" => "El Emir Abdelkader" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ddc4979d-9c17-4356-8c80-93aba7e58d35", "translation" => "الأمير عبد القادر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1420
+            ["id" => "1e1d61f4-f798-4dce-9c25-fbadb5c05f4e", "translation" => "El Malah", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8543ad11-9851-4f2f-8db3-941a479f6317", "translation" => "El Malah" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "40e5babf-8ab3-4d8a-9150-6dc14141493d", "translation" => "المالح", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1421
+            ["id" => "b5716af9-a9c8-4897-a93a-e057c0ef23e3", "translation" => "El Messaid", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "de2b7fb6-828e-42d2-91f0-0ff1d67733c4", "translation" => "El Messaid" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fa761607-56ff-49f5-94ea-ef6c20abe7a9", "translation" => "المساعيد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1422
+            ["id" => "56bdd34f-3747-4e97-8498-4c48f33e11bc", "translation" => "Hammam Bouhadjar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "422b9fdc-1c46-465f-89e6-9d8b82b954fe", "translation" => "Hammam Bouhadjar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "af3d5678-0635-4f7b-ad95-b9c93dc04484", "translation" => "حمام بوحجر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1423
+            ["id" => "faa0e5f3-0530-4493-83bc-c43ac203c17a", "translation" => "Hassasna", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4e90e8a7-6be4-4cc6-9e56-66aa1b96e0f3", "translation" => "Hassasna" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8029ecde-211a-4941-8bc2-78f1124a0676", "translation" => "الحساسنة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1424
+            ["id" => "c046f75b-0dc0-45e6-88c7-e6c265c7e563", "translation" => "Hassi El Ghella", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "649254a3-5cb8-4101-ab91-7d5da87d284d", "translation" => "Hassi El Ghella" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "45855002-1e9e-42a2-9fc8-1e55224df358", "translation" => "حاسي الغلة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1425
+            ["id" => "b3ecd919-d9eb-4251-80cb-c97cc466c1ef", "translation" => "Oued Berkeche", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2948b04c-9986-4681-b9a7-934c303bb704", "translation" => "Oued Berkeche" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b0ea6747-8615-4d10-b068-49c80368373b", "translation" => "وادي برقش", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1426
+            ["id" => "e4b02a4d-d7d3-473e-8852-725e4958e9a0", "translation" => "Oued Sabah", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a1b849be-0cf1-4d27-b49c-58c6aade65cb", "translation" => "Oued Sabah" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d02a1bbd-8884-4b36-9caf-b2b70e140851", "translation" => "وادي الصباح", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1427
+            ["id" => "6b9ea06a-bd9b-4990-98e2-557463dbd8e5", "translation" => "Ouled Boudjemaa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "bd8ffe7b-b5d1-48ce-86de-e749285662de", "translation" => "Ouled Boudjemaa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c8ffce3f-fa64-4493-b227-1bd0e083a59d", "translation" => "اولاد بوجمعة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1428
+            ["id" => "b7af2046-6169-4ad1-aafd-29564292412d", "translation" => "Ouled Kihal", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "13725dca-bd28-4beb-88e2-41adb5da2428", "translation" => "Ouled Kihal" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "3fcf99e1-b94d-48a2-befe-7c9f0bf590fb", "translation" => "اولاد الكيحل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1429
+            ["id" => "20f6e62b-7551-49d3-83cd-c01b62c40e88", "translation" => "Oulhaca El Gheraba", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "38ce3a57-301b-424e-81ca-f65ed0a56815", "translation" => "Oulhaça El Gheraba" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1163f432-6e53-49cc-8a36-5b3286b4a25c", "translation" => "ولهاصة الغرابة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1430
+            ["id" => "0564ad6d-eb1d-4e3a-9913-1a834d0fc3e3", "translation" => "Sidi Ben Adda", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "968d3399-7070-4bd4-94aa-90f7a38d48ca", "translation" => "Sidi Ben Adda" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "37f6f741-04e3-4347-a181-af248368a803", "translation" => "سيدي بن عدة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1431
+            ["id" => "902bf111-644e-40b6-a1d9-87aff35a6a17", "translation" => "Sidi Boumedienne", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "dc19a0ba-6bfc-41c3-b6e5-b6d0e87cc9c0", "translation" => "Sidi Boumedienne" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d00572f1-96df-4d3d-ab47-0476ce35380f", "translation" => "سيدي بومدين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1432
+            ["id" => "f8be6a6a-3419-4a6a-99a8-c5a89f5787b7", "translation" => "Sidi Ouriache", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9cb3faca-b332-4f98-81e8-a17f790f743c", "translation" => "Sidi Ouriache" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0da6eaa5-d5a8-4922-9341-223b0e125dc2", "translation" => "سيدي أورياش", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1433
+            ["id" => "5200bddb-f8e7-425a-9a6b-41d3e2c1f7bd", "translation" => "Sidi Safi", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "dbc67044-c3a5-4bf3-92f9-ddb65e001fb8", "translation" => "Sidi Safi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "08cfa933-99c8-4424-a4e5-abc5e8814785", "translation" => "سيدي الصافي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1434
+            ["id" => "7b0c2d9b-0c92-4365-953b-352a89e59029", "translation" => "Tamzoura", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ca62cb53-a246-4ad3-9de6-bfdb4f362241", "translation" => "Tamzoura" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "afd9d91d-614d-4756-9cbc-f37a3c3a1b6a", "translation" => "تامزوغة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1435
+            ["id" => "0ef699ef-1aff-4550-a22f-75c202a2e2ae", "translation" => "Ghardaia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1d74eed6-b972-48a0-b969-cfbc80fe7af8", "translation" => "Ghardaïa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a67707ca-3b09-4121-b512-9e73e0a04642", "translation" => "غرداية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1436
+            ["id" => "c53b4d39-2c60-472e-aaf3-57529edac7ad", "translation" => "Berriane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "cf7ceca9-63bb-4035-8656-861f2b80216f", "translation" => "Berriane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6fa7244a-6725-43b6-9781-37003739aa0e", "translation" => "بريان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1437
+            ["id" => "ffce93f9-f280-498a-8d5e-5e5a6583c02c", "translation" => "Bounoura", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "34e2c0bd-8367-493b-bf7e-445c1bbf8390", "translation" => "Bounoura" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "94560ad8-ccc5-470b-84c9-9f71d6da512e", "translation" => "بنورة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1438
+            ["id" => "b91d9726-cdce-4fe0-8300-0ca0d2fea7ab", "translation" => "Dhayet Bendhahoua", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8de1e712-5fa0-4d9b-8c1e-3eb6249e8fec", "translation" => "Dhayet Bendhahoua" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "acc99ea0-bf8f-47f6-9929-9fb7371102b5", "translation" => "ضاية بن ضحوة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1439
+            ["id" => "7713195f-2a4e-4ecc-bd5e-b1fa6e6354cd", "translation" => "El Atteuf", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5b5147ca-416e-4e8a-8ad4-9bc769c61420", "translation" => "El Atteuf" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9f694ccc-e283-4c8e-a42c-2f0bc88708e5", "translation" => "العطف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1440
+            ["id" => "702bed99-0cb3-46ad-aeeb-512ffd3c7661", "translation" => "El Guerrara", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "eb889161-8d4b-4d7d-8ff5-c23910adc8e9", "translation" => "El Guerrara" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "531f01e0-3964-4608-b8f4-aaaa1ba8798f", "translation" => "القرارة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1441
+            ["id" => "e54f6ee6-e6a5-4d39-a565-d9de8e2c2cdf", "translation" => "Zelfana", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6535e5c2-1623-4862-a315-07c61af0a9b1", "translation" => "Zelfana" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6ac0f1c4-52f6-438d-883e-120e5f417d7b", "translation" => "زلفانة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1442
+            ["id" => "6b541e94-d60e-4ce7-95fe-9739f17f5620", "translation" => "Mansoura", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c26ef2be-da3f-4fa0-bdc4-b3d0a9ebcc78", "translation" => "Mansoura" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "26ee7727-c712-4d43-88e7-d6be8ef7d3bf", "translation" => "المنصورة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1443
+            ["id" => "370ab192-c483-4352-a721-cee2f57b9075", "translation" => "Metlili", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2e4eac03-3401-470c-8d3b-b3e96b8beaf4", "translation" => "Metlili" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b23a9710-6991-42e2-8a37-812c6af339e8", "translation" => "متليلي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1444
+            ["id" => "2b9f9b98-f475-43c8-b7d9-3898d828d1a8", "translation" => "Sebseb", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "09841b37-223d-4548-9cac-c28d821a75d1", "translation" => "Sebseb" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "09b29f47-0df9-49cc-b241-c6e43f480a96", "translation" => "سبسب", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1445
+            ["id" => "c6487fd4-998b-412a-8de8-8ee86270a264", "translation" => "Relizane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "172ad7fc-fd5e-47cb-9294-4f86a99a67e8", "translation" => "Relizane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "611b7ac1-6262-4920-b467-87935f0284a5", "translation" => "غليزان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1446
+            ["id" => "e972adfd-7509-4e0a-ba9c-2122f8ac945c", "translation" => "Ain Rahma", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ebf0f98e-81fc-48d5-aa56-95b43a5d650b", "translation" => "Aïn Rahma" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a48d318d-7c5f-4359-b169-410d69fafc28", "translation" => "عين الرحمة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1447
+            ["id" => "cdf44bce-28fa-4a48-9db2-66298b665adf", "translation" => "Ain Tarek", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "46249b62-a915-4ee4-a7a4-697cf31dd9b2", "translation" => "Aïn Tarek" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d3a5a7f8-cd0e-408a-bd5d-a3f39c5e17e2", "translation" => "عين طارق", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1448
+            ["id" => "2f2ded4a-b810-4ecc-84f4-4e667c2a64ea", "translation" => "Yellel", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3f8f8201-469f-47de-99e2-51d90130a0ec", "translation" => "Yellel" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c55ca1c6-f4c1-4b8a-9536-ed82fe52768a", "translation" => "يلل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1449
+            ["id" => "9f5ea133-d677-4fdb-aa7a-8d4c1133598e", "translation" => "Ammi Moussa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8453b894-68db-43b5-8ef9-714df8a8ecbc", "translation" => "Ammi Moussa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ee7f968f-7df5-4f13-9baa-39e85d3a338e", "translation" => "عمي موسى", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1450
+            ["id" => "39a347b6-6e91-4b6f-8571-fdf0f23c7b42", "translation" => "Belassel Bouzegza", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3eaf6b9b-60b5-4e10-897c-6c44942d9cc0", "translation" => "Belassel Bouzegza" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "fcc7e0bf-ab88-4b53-b878-2f05c8818f89", "translation" => "بلعسل بوزغزة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1451
+            ["id" => "b0ecb3d1-356b-4993-abaf-b871fc8b49fa", "translation" => "Bendaoud", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9d60d4cc-91f4-4e65-b46e-bc6a386712f9", "translation" => "Bendaoud" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "991ef5c2-788a-435a-b4f9-667332f06007", "translation" => "بن داود", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1452
+            ["id" => "94bd30b1-86d9-41b1-854f-eb2fb9e6e9ae", "translation" => "Beni Dergoun", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e72703ca-c61d-465a-9303-174dbe29707a", "translation" => "Beni Dergoun" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1ff71a18-7779-4c3f-94a6-f9b3552f28e3", "translation" => "بني درقن", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1453
+            ["id" => "ef7729d0-d513-4b50-91a0-6ab2b6c03c26", "translation" => "Beni Zentis", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "85c68598-25b3-4399-b00b-b595203ac808", "translation" => "Beni Zentis" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5b8e9765-499d-4ff8-bb89-703872516d2a", "translation" => "بني زنطيس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1454
+            ["id" => "dd86f8a3-98b7-4175-8f84-9b28995e0773", "translation" => "Dar Ben Abdellah", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0d05e080-08a9-45b4-a030-f29c15162b66", "translation" => "Dar Ben Abdellah" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7c019484-1a6d-412c-b2e8-1bd3333610e5", "translation" => "دار بن عبد الله", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1455
+            ["id" => "ef9fd4a2-4b2d-439c-8059-86cfd61fe800", "translation" => "Djidiouia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "84d1ac02-6d6f-44a8-9652-91de9696b2ad", "translation" => "Djidiouia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "175f69c4-33ec-4b41-89f0-df72ff3332b1", "translation" => "جديوية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1456
+            ["id" => "e7092d2a-f6eb-4db6-9d0b-c4f1d9427d2d", "translation" => "El Guettar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b53130c3-bcae-4d2b-933a-9f715c974fd2", "translation" => "El Guettar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "78ecfa63-f9cd-4411-be77-12d6aa0d9508", "translation" => "القطار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1457
+            ["id" => "8f119a52-c51b-48ba-ad2d-71600fe9790a", "translation" => "El Hamadna", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "26922003-39a7-4796-929c-4e4444f07156", "translation" => "El Hamadna" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e3915d99-a36d-43e7-81ed-2941dce5ef37", "translation" => "الحمادنة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1458
+            ["id" => "11afc996-decf-4188-ad61-af3214c34f68", "translation" => "El Hassi", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "95be3336-c1e7-4db0-b65c-dc340f2fc3f1", "translation" => "El Hassi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e4da7545-0c81-4a15-af42-0534c007240e", "translation" => "الحاسي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1459
+            ["id" => "4b62299f-0dd9-403c-848f-99cedab615f2", "translation" => "El Matmar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c23d9490-b269-4565-b478-b29166a075f4", "translation" => "El Matmar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d24079a4-3f0f-44db-a8b4-58971ee0fa5f", "translation" => "المطمر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1460
+            ["id" => "2c567f2d-ad0d-4511-8f2a-83f08434091a", "translation" => "El Ouldja", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d8670b82-980b-44c2-b0c3-7dbde1d7adb3", "translation" => "El Ouldja" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "eda76272-ecb9-4282-b85c-ac99b185354d", "translation" => "الولجة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1461
+            ["id" => "f9046af1-59b8-4bd1-b07a-a0ff83b7cb36", "translation" => "Had Echkalla", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2ef8c10c-4a4c-4a97-b82b-83185e07b8f5", "translation" => "Had Echkalla" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "20717819-7473-4485-9c33-3ab53a49638f", "translation" => "حد الشكالة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1462
+            ["id" => "c511f451-0681-4e59-9ccd-a4b59be601e8", "translation" => "Hamri", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6b98b677-64d3-4086-a6d4-7804f7f6165f", "translation" => "Hamri" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9fe4909b-5f2c-4263-818d-648dc7053173", "translation" => "حمري", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1463
+            ["id" => "ba2a14b6-5450-454f-bea6-e8b34b298f79", "translation" => "Kalaa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f5fd9b57-e5d6-46ac-bc31-871ef80c06b2", "translation" => "Kalaa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "69fa917f-c42d-4a6b-a8cb-36aa95269570", "translation" => "القلعة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1464
+            ["id" => "2cbcee0b-a56a-441f-950a-16303f4e8c50", "translation" => "Lahlef", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e3d65a94-0de4-4e52-a17d-dad322abcc83", "translation" => "Lahlef" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c34ec4da-a6d5-4fa7-8943-b4beb2df39d5", "translation" => "لحلاف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1465
+            ["id" => "15c54d3d-5842-4273-9f5f-ca746aa39300", "translation" => "Mazouna", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0c4df0e3-829f-47ee-bed4-969683801399", "translation" => "Mazouna" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0d5cc43a-7814-4427-ad9c-b256be23533a", "translation" => "مازونة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1466
+            ["id" => "37c22696-4197-4197-802a-4bd748dc733d", "translation" => "Mediouna", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5d4dd2f9-3447-4cff-8f12-89e5b8d2d110", "translation" => "Mediouna" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "cae7df39-b2d4-41b5-a450-191389ab3fba", "translation" => "مديونة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1467
+            ["id" => "7563f3a8-e8c3-4497-b8f5-760308b49468", "translation" => "Mendes", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c7b7299d-48b4-4563-b629-715ca6fe0355", "translation" => "Mendes" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6790e059-211e-4b9e-a834-f8b66a66bae5", "translation" => "منداس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1468
+            ["id" => "26660d2d-2d28-484f-a812-5c8fd54b5f0e", "translation" => "Merdja Sidi Abed", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "aaecd86b-1b6c-4eb8-9ace-17aaa4fb835a", "translation" => "Merdja Sidi Abed" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "333d59c1-0ae1-4e17-aa07-b1501edc0e2a", "translation" => "مرجة سيدي عابد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1469
+            ["id" => "ab5c232a-603b-42e3-8de5-3b8c6276212c", "translation" => "Ouarizane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "29aacf4a-e5e1-4230-9bcc-a68db2dd3903", "translation" => "Ouarizane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "10baf350-6592-489a-8659-6f136f9af21c", "translation" => "واريزان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1470
+            ["id" => "d288f788-e210-4e49-a291-d869291965c6", "translation" => "Oued Essalem", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "df7d0528-fb30-4bca-9302-1f2795a81e78", "translation" => "Oued Essalem" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1f199f17-1815-4287-9981-2a7c7e8c1f9e", "translation" => "واد السلام", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1471
+            ["id" => "0087f1be-a4f3-4703-9e32-d6503dcd4ced", "translation" => "Oued Rhiou", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5f71249c-94ea-482a-8baa-4336e4d3a889", "translation" => "Oued Rhiou" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "cf52265e-a07c-419d-bcbc-7324ca718211", "translation" => "وادي ارهيو", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1472
+            ["id" => "0600ef9f-45e8-478f-bc02-31b26581ff52", "translation" => "Ouled Aiche", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "aff9bb7d-b459-4669-95d7-e5d4d4314f0d", "translation" => "Ouled Aiche" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ddedbf36-a47d-4410-ac3a-70a4cc473c7a", "translation" => "أولاد يعيش", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1473
+            ["id" => "e89cd5a0-e24e-4d20-be81-55d654f8e128", "translation" => "Oued El Djemaa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "925fc300-c299-453f-8d09-84c3dde98952", "translation" => "Oued El Djemaa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f4c39c6d-139e-4dc1-96e6-7a060c4158fb", "translation" => "واد الجمعة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1474
+            ["id" => "b1039e60-54a2-412c-97b1-b64b3d188906", "translation" => "Ouled Sidi Mihoub", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7c049c7c-4258-4b2c-a48b-1b8088baa315", "translation" => "Ouled Sidi Mihoub" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "55777f3e-48e6-4663-82c9-ec293d96b16a", "translation" => "أولاد سيدي الميهوب", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1475
+            ["id" => "c7b4b297-0ab1-49cc-ae07-d179fb23cd82", "translation" => "Ramka", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "00330382-3cd2-47f0-8e1e-750b661a4d11", "translation" => "Ramka" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e9b858a3-304e-41ac-9abc-92b8a36d189b", "translation" => "الرمكة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1476
+            ["id" => "112a6282-90c2-44e6-8926-a74056f2d168", "translation" => "Zemmora", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a984d56d-ddd5-4997-8f58-86f334b80df1", "translation" => "Zemmora" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "cdc5a7cf-b9f3-4654-92cb-533f39ad30ba", "translation" => "زمورة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1477
+            ["id" => "38aed511-8567-40ec-a5b6-4d42d86d11e8", "translation" => "Sidi Khettab", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0979dd1b-e8f4-4fc3-a9b8-46607541c1a2", "translation" => "Sidi Khettab" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "1727067b-4719-4bfa-b9b0-2c250e6a7d93", "translation" => "سيدي خطاب", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1478
+            ["id" => "f7017a8e-4fe5-4f82-b203-123e3bc660db", "translation" => "Sidi Lazreg", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "60aa6897-7c76-4a4d-bde3-9ef557616876", "translation" => "Sidi Lazreg" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "b3049554-a14e-4b08-ab92-a1a75a98560c", "translation" => "سيدي لزرق", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1479
+            ["id" => "bfbe3860-9912-419e-8372-1d07164550c2", "translation" => "Sidi M'Hamed Ben Ali", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4f829201-2e5c-469f-92a0-285090c6d774", "translation" => "Sidi M'Hamed Ben Ali" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e52441f1-3dad-4da7-a5b8-2f97f354d32f", "translation" => "سيدي امحمد بن علي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1480
+            ["id" => "e29082e4-a903-4de6-8b32-d195f26927d9", "translation" => "Sidi M'Hamed Benaouda", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4ea38368-7928-46e5-9828-2df65e99d0c6", "translation" => "Sidi M'Hamed Benaouda" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c1a2bed5-233e-46a5-83dd-a660c765f655", "translation" => "سيدي محمد بن عودة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1481
+            ["id" => "1a2d7030-e147-4ebb-ad47-7ec8b1389147", "translation" => "Sidi Saada", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "fcbef3cf-0b44-4d2c-adc3-7354933ac29e", "translation" => "Sidi Saada" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4562c687-5559-4575-a4fb-0c56d3570c96", "translation" => "سيدي سعادة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1482
+            ["id" => "8e701c1b-5d66-4ed9-913a-20c9fb0ac17b", "translation" => "Souk El Had", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ed76f456-3073-4efe-805d-ecdc7a361837", "translation" => "Souk El Had" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "678a003a-9349-414f-bd4e-70125832d528", "translation" => "سوق الحد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1483
+            ["id" => "9d889b30-a090-4b2b-a9d5-7bb58d340172", "translation" => "Timimoun", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5658ecd5-de4b-41fb-855e-28bf9084f59d", "translation" => "Timimoun" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "d6ce4a97-84b9-465c-ab27-9322a8c7d46b", "translation" => "تيميمون", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1484
+            ["id" => "6c98a4e8-cde4-489f-aaa2-0202fd8e729d", "translation" => "Aougrout", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "889ba7fe-6034-46f1-87d8-2d32bea09b46", "translation" => "Aougrout" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c8df815e-4d99-40b2-afb9-dbbfc2308993", "translation" => "أوقروت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1485
+            ["id" => "31472a91-c1e6-4219-b31e-9a5d4dce3d1f", "translation" => "Charouine", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "6ea3b642-1172-4917-81f6-91036acfae4a", "translation" => "Charouine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bc9c1091-d8c4-4c0a-ad66-2684a4c3219e", "translation" => "شروين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1486
+            ["id" => "d4d479ca-a2b1-42cd-bc7d-4bc91d49c642", "translation" => "Deldoul", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "bbea083c-2703-4240-913f-9aa8aadebabb", "translation" => "Deldoul" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "45a12efc-d4f0-482b-bdac-420a81dc22e4", "translation" => "دلدول", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1487
+            ["id" => "5c6c48a4-7ec3-4707-92b4-380a124fcff3", "translation" => "Ksar Kaddour", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3221c0ee-90fd-4d15-8026-5db43c44ca09", "translation" => "Ksar Kaddour" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "df5b416a-244f-4ade-b758-8a9300907e41", "translation" => "قصر قدور", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1488
+            ["id" => "b78cbc6c-4a56-4f6e-90ff-115e02b22b05", "translation" => "Metarfa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d4296b9a-c114-4aae-9e6a-b1f4eeabae63", "translation" => "Metarfa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8e2ffc33-6b54-4164-8533-8fcda1640b56", "translation" => "المطارفة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1489
+            ["id" => "cfac4fe3-ae17-4686-9233-df1b72de8d29", "translation" => "Ouled Aissa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a4514fe9-aec4-48f1-a579-3581fd66ec34", "translation" => "Ouled Aïssa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "58ab204f-640e-4360-af45-7319f9f1a9fb", "translation" => "أولاد عيسى", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1490
+            ["id" => "23489223-20b7-48ba-8afe-8e7006b97495", "translation" => "Ouled Said", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1fe2e81d-1287-42f7-9651-96a529fe0eb4", "translation" => "Ouled Saïd" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "48c680ad-5580-4918-9871-013c934193a6", "translation" => "أولاد السعيد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1491
+            ["id" => "ec8b6444-0f0b-4086-a1f4-38f104ddfe1c", "translation" => "Talmine", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f147246f-bb9e-49c5-bd49-0aa1aacf4601", "translation" => "Talmine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "67f383c8-344d-4053-881e-649f80e9b440", "translation" => "طالمين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1492
+            ["id" => "c87508da-e7cd-4bf6-b36a-6c997e4f4260", "translation" => "Tinerkouk", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "64d52814-46f9-4bea-9e14-9ae829e75c6a", "translation" => "Tinerkouk" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "04b98430-a512-48b6-9927-6df696b48364", "translation" => "تينركوك", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1493
+            ["id" => "d33cb9b2-fcb1-4578-b375-a9fd30c2f8ef", "translation" => "Bordj Badji Mokhtar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8cc1e6e1-bbc8-4810-b36b-08d596ce727e", "translation" => "Bordj Badji Mokhtar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "dfc9d76f-ba74-4d8b-a052-c5cc3a564e4c", "translation" => "برج باجي مختار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1494
+            ["id" => "e1da1233-0cd7-47e0-a53c-49a76e59aca7", "translation" => "Timiaouine", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "aa264c2a-5380-4583-9ed4-1e22a8d846f5", "translation" => "Timiaouine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6b414fe4-5508-488c-b047-bf180dc3b486", "translation" => "تيمياوين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1495
+            ["id" => "afde1523-a6aa-4840-a1f9-7e352ede9d96", "translation" => "Ouled Djellal", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a59b3a43-84bc-4d46-a5a1-71ea8ee9de8f", "translation" => "Ouled Djellal" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8c2871bd-5ca7-49c3-997f-b9e7a2592ac8", "translation" => "أولاد جلال", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1496
+            ["id" => "45448665-cb0d-4094-bc42-4120d3acf1ff", "translation" => "Besbes", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "3dddbc74-ed7a-4593-a86a-d3a6143b92ad", "translation" => "Besbes" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "108b8789-7ea9-4866-ac51-db1ef62989a4", "translation" => "البسباس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1497
+            ["id" => "521775c9-785b-4783-8778-e475c15506e1", "translation" => "Ech Chaiba", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b99a336b-37c7-4b10-a542-9cab8b1c9e17", "translation" => "Ech Chaïba" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "40d58723-8327-4096-beaf-a1f1ad29f5b5", "translation" => "الشعيبة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1498
+            ["id" => "6acdc53c-5c9b-4700-86f1-873a0ccf102e", "translation" => "Doucen", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0e77d137-7709-4f88-b130-7ee0efbb8b96", "translation" => "Doucen" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9ff974fd-d8e4-4ecb-9992-e43e97b78426", "translation" => "الدوسن", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1499
+            ["id" => "88447517-49b7-4d58-af0e-c26ac5289ee0", "translation" => "Ras El Miaad", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "1c07d72e-18b0-461f-bd9e-0acab08fc9e7", "translation" => "Ras El Miaad" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9ca8d955-e402-4e89-a60a-cce3c2d72797", "translation" => "راس الميعاد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1500
+            ["id" => "cdf16a2d-715d-4fec-ae6e-922bf8e6b5c9", "translation" => "Sidi Khaled", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "aa927ec5-22d0-4070-8fbc-2c9a70896524", "translation" => "Sidi Khaled" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "25690dee-796f-4ac9-af63-6567f80cab76", "translation" => "سيدي خالد", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1501
+            ["id" => "3bd0f567-095b-4823-8e8b-5b287e616a93", "translation" => "Beni Abbes", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "cf34afd1-f832-484a-a003-d1c21683638d", "translation" => "Béni Abbès" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "93da72c3-1d21-4057-b596-e2024e579283", "translation" => "بني عباس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1502
+            ["id" => "dc4c903c-2577-4995-9d7c-8a63f984652d", "translation" => "Timoudi", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2590ef3b-4423-4d7f-81d7-a47546f3da5e", "translation" => "Timoudi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9af12c7a-c609-4995-afbd-402a67219840", "translation" => "تيمودى", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1503
+            ["id" => "8915bd5d-ed06-4de2-bec7-b4b78581e261", "translation" => "Beni Ikhlef", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0f923125-c0e3-47d9-ac1a-f3b16104499c", "translation" => "Beni Ikhlef" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4e95e516-0bee-43d9-ac05-f97f9e235891", "translation" => "بني يخلف", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1504
+            ["id" => "5404058c-35d2-41e6-b1a4-1b6e97920492", "translation" => "El Ouata", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "57992eb2-b9c0-4196-a8bc-d10c33e144a9", "translation" => "El Ouata" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2a36d81f-4f2a-4a2e-adba-0b4ccb7d3538", "translation" => "الواتة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1505
+            ["id" => "2b969234-8ff9-4cec-a63c-4e102cc873aa", "translation" => "Igli", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "5085bf81-10a6-4255-ac24-718c6740ebae", "translation" => "Igli" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "5e66574e-8ea2-43be-a6e0-37484afa25ab", "translation" => "إقلي", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1506
+            ["id" => "0603cf6a-7790-4516-a2bb-bf794485d547", "translation" => "Kerzaz", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "741c9df0-1697-4ec1-8079-1931ae3820f7", "translation" => "Kerzaz" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bb58236a-4443-473b-b377-578647930aa9", "translation" => "كرزاز", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1507
+            ["id" => "fe0a17a7-9a66-4598-8453-30f348873571", "translation" => "Ksabi", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4363ad43-7a89-4ba8-b07c-ef4ef0fd1b24", "translation" => "Ksabi" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f749bbf1-82f4-415d-bbbf-96a2e5295995", "translation" => "قصابى", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1508
+            ["id" => "0600b7bf-3515-405c-ac17-01009bd876bc", "translation" => "Oulad khodeir", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "0d2af5dc-7462-4b6c-a897-4f4a2fdcb509", "translation" => "Oulad khodeir" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "8525ff0b-eb62-4871-b833-a165142ab7a3", "translation" => "أولاد خدير", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1509
+            ["id" => "2a2dc413-5cf0-4829-9667-195fad7641e3", "translation" => "Tabelbala", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "9ba81ed4-dd70-4f64-a875-f8263c709bf9", "translation" => "Tabelbala" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "856648dd-9d71-47b7-a4db-492810b99d63", "translation" => "تبلبالة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1510
+            ["id" => "250aae1f-079b-4a8d-a989-306c79621d1c", "translation" => "Tamtert", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8a4dce1a-2e92-4dd1-bb4d-d936aed4e688", "translation" => "Tamtert" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "e69bab99-149a-49e0-98ca-c7bf5638c76a", "translation" => "تامترت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1511
+            ["id" => "c77e30eb-8788-4a81-a381-5268bb17ec3e", "translation" => "In Salah", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "34171e08-9f46-4e50-8ba2-28293df65499", "translation" => "In Salah" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0537356b-426b-4b41-bcd9-0a75238069d5", "translation" => "عين صالح", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1512
+            ["id" => "2be32007-974a-4ab9-9129-c3299d929525", "translation" => "Foggaret Ezzaouia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "b430c16b-bd4c-4eec-9629-fef3cbe5b6d5", "translation" => "Foggaret Ezzaouia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2b06e32e-5026-425b-ba22-264248ac4a66", "translation" => "فقارة الزاوية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1513
+            ["id" => "a61da447-dceb-4ec1-b09c-3353df76e503", "translation" => "In Ghar", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "770cd71e-6791-452a-8982-4317a3246939", "translation" => "In Ghar" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "072b5904-e0b9-4b05-9782-557741569281", "translation" => "إن غار", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1514
+            ["id" => "b681d711-0431-4327-9a49-840e4d65c3bb", "translation" => "In Guezzam", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "dec403a2-fa20-4871-9827-fc1ab8ef0512", "translation" => "In Guezzam" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "2253549c-4801-4d0f-ae5b-865cd37d5755", "translation" => "عين قزام", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1515
+            ["id" => "603e830e-8bc0-4dce-b636-5c79cd9bb2e5", "translation" => "Tin Zaouatine", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8b22a3c8-aa03-4092-8d87-1c54dbc9a02d", "translation" => "Tin Zaouatine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bbd6f23e-34ce-4e44-bd2f-6683221ad0e6", "translation" => "تين زاوتين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1516
+            ["id" => "d6a05268-b334-45e0-a460-aed474346756", "translation" => "Touggourt", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4b9734cd-5b18-4e0e-8363-81a5e5bea26d", "translation" => "Touggourt" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4c5fa592-c24a-4c8d-b63a-f91de5d7f585", "translation" => "تقرت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1517
+            ["id" => "f248d194-11c7-4dd4-9e15-a43c3ae00422", "translation" => "Benaceur", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2c2e20a8-58b6-4f89-8d02-6400949eb1ae", "translation" => "Benaceur" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a69d4fc9-5faf-4b4b-a244-336ed8cb82f9", "translation" => "بن ناصر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1518
+            ["id" => "83bd076c-be95-434c-987c-e6de4cc79a61", "translation" => "Blidet Amor", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "d38977b4-29c9-4d78-9bed-260dddd745e3", "translation" => "Blidet Amor" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "7aff1294-cd39-4b95-9bc4-b381f9f43a10", "translation" => "بلدة عمر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1519
+            ["id" => "e2d42b35-e52c-4816-9ecb-16a8e9d60e59", "translation" => "El Allia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "8fe429ed-aa46-48aa-8a26-3a3a018b9ac1", "translation" => "El Allia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ef4b871b-44e0-461b-b617-5251d6ecc15c", "translation" => "العالية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1520
+            ["id" => "19b6392d-2032-4e21-a068-1c1c8095517f", "translation" => "El Hadjira", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "caac08ca-2164-49ca-98b8-81132005a528", "translation" => "El Hadjira" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "01f53c73-e371-4e89-8c94-3e6bf7c08e64", "translation" => "الحجيرة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1521
+            ["id" => "30b9c02c-0592-47ee-922c-098f0fd3c5dc", "translation" => "Megarine", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e5c02010-4b2f-4a36-af33-0a550d171afd", "translation" => "Megarine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "4cb13f94-0d8f-486e-b25f-b2c94ee8fde0", "translation" => "مقارين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1522
+            ["id" => "21a84cfd-4c59-48ef-909d-69080d09a707", "translation" => "M'Naguer", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c8495861-1fce-4bfe-add2-2a9162dca0e5", "translation" => "M'Naguer" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "bd834e7d-d452-4dd3-b5bd-cb75cadd816d", "translation" => "المنقر", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1523
+            ["id" => "8ba6cbc8-ce8f-4548-9a30-86093f8241f7", "translation" => "Nezla", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "feb3662c-0d24-4521-ab7b-24b62ce0bc9f", "translation" => "Nezla" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "118a2d26-97fe-4319-a951-53c418cf0c18", "translation" => "النزلة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1524
+            ["id" => "3443bfe6-2fd3-439f-a8eb-030ce672db7d", "translation" => "Sidi Slimane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e68c8934-bc1d-46ef-b37b-66586749a089", "translation" => "Sidi Slimane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9211cd6a-867c-4712-ae55-5f4e5b5d1eed", "translation" => "سيدي سليمان", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1525
+            ["id" => "5a22285e-ea3c-4d0c-ab0b-caf24939d2fe", "translation" => "Taibet", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "e02c70a4-a5c3-476c-b2b7-099018f209b9", "translation" => "Taibet" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "444c7e84-4d1e-45fd-b5f2-4e4faf9f96ff", "translation" => "الطيبات", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1526
+            ["id" => "86f1bbb9-5b35-417b-a6c3-990a98d35029", "translation" => "Temacine", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "a6d8dd43-33ef-4ab1-b421-d8351b82c580", "translation" => "Temacine" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "75339497-4df0-437b-baf4-7837a14d7b9f", "translation" => "تماسين", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1527
+            ["id" => "db296a27-2787-41c1-8b5b-e5d1ef4aace3", "translation" => "Tebesbest", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "bf94138c-d5e9-43ea-98bb-fc5b2d273e47", "translation" => "Tebesbest" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "931caa58-1dbe-4eb1-a30a-754245a14376", "translation" => "تبسبست", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1528
+            ["id" => "80479780-f63d-4e7c-9649-14ad41873de3", "translation" => "Zaouia El Abidia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "12a155c3-6b8e-48d2-9ad2-94ba337aa908", "translation" => "Zaouia El Abidia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "03feb934-5b31-4990-9a36-5d55e03b22bb", "translation" => "الزاوية العابدية", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1529
+            ["id" => "32481b24-2bc3-4910-8121-853af4a6962f", "translation" => "Djanet", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "4ee05b14-5496-47fb-92e9-6ac1489fa301", "translation" => "Djanet" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "a0f7ff04-76a5-41fb-83f6-5b76c381613b", "translation" => "جانت", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1530
+            ["id" => "68742f41-74bc-4f9d-8d4e-d4833f10b92a", "translation" => "Bordj El Haouas", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "f65ba37e-afe4-4e10-b677-a7249393c7b2", "translation" => "Bordj El Haouas" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f6fa4d44-a497-4241-ad79-9f64756f566b", "translation" => "برج الحواس", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1531
+            ["id" => "6260ad8a-29bd-43bd-a8bc-93f55486db4f", "translation" => "El M'Ghair", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "96b0ceee-205e-4171-a4fb-9f5af4da3646", "translation" => "El M'Ghair" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "f0f66fde-7940-4302-9d4f-255a197247d4", "translation" => "المغير", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1532
+            ["id" => "4f30472a-45d1-47c4-9d28-083b6d66fc71", "translation" => "Djamaa", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ca9e6d40-e105-4aa8-8b5b-b9e0d383ffa6", "translation" => "Djamaa" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ed02214e-5bce-4ff4-8b1d-c24e5bb21e91", "translation" => "جامعة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1533
+            ["id" => "952ba7ac-c6cd-4c7c-a967-85dab233cd92", "translation" => "Merara", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "c475a5a5-0b9d-467f-b858-4506ea17a479", "translation" => "Merara" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "33c96424-5bcb-4f32-8db5-0e38bb70b696", "translation" => "مرارة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1534
+            ["id" => "a9c01e84-b772-45ad-a66e-0f56a6eea1ed", "translation" => "Oum Touyour", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "732228a8-afff-4f67-9b8a-1484991f9bad", "translation" => "Oum Touyour" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "70938972-12a2-45aa-84c3-35c03b8fbc84", "translation" => "أم الطيور", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1535
+            ["id" => "65cd413d-4f38-4bfe-a80b-c030d7978af5", "translation" => "Sidi Amrane", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "ce53b02d-c72b-42a0-bf35-3bf355cdbd00", "translation" => "Sidi Amrane" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "03953bb0-db1a-40d6-b31f-b0bf8f70da11", "translation" => "سيدي عمران", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1536
+            ["id" => "d53bf3fa-a6a4-4eed-9020-0b0fae38ceda", "translation" => "Sidi Khellil", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "94ecdb67-f803-4b86-b627-8d42d7f93a9d", "translation" => "Sidi Khellil" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "6d8c6b06-098d-449d-9939-dafdea75d944", "translation" => "سيدي خليل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1537
+            ["id" => "1ec6cf5f-c385-4635-8ebf-509d98da32dd", "translation" => "Still", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "682b5063-a801-4663-823f-7a943b78e4e7", "translation" => "Still" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "0bb0832e-23bd-4c5a-8f5a-bf3c0463f8a3", "translation" => "اسطيل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1538
+            ["id" => "273a97f8-bc1e-42d5-82f2-0a4ffc07aa24", "translation" => "Tendla", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "2769380e-1771-4b8f-ae92-beedbdd387b2", "translation" => "Tendla" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "69ec4c5f-4e6b-4dae-981f-2094be19c880", "translation" => "تندلة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1539
+            ["id" => "316b448f-b80a-438d-ad8a-fce3b5e73f5e", "translation" => "El Menia", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "eaf757d8-ec91-4c7c-8870-fc33e59f494c", "translation" => "El Menia" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "c2502349-d4fa-405d-b972-39c84b09c15a", "translation" => "المنيعة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1540
+            ["id" => "7f8585c5-b5ce-4a50-8f1b-b107bd503061", "translation" => "Hassi Gara", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "7c27a92a-09a9-4faa-8cb3-04d94a57ed5f", "translation" => "Hassi Gara" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "9f0897be-b6e7-47d0-9364-0c4591c941c8", "translation" => "حاسي القارة", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+            //1541
+            ["id" => "834178f4-31ee-43ff-bcb9-81a1a43a87b4", "translation" => "Hassi Fehal", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
+            ["id" => "70fd871d-4ca2-486e-9cd0-1efbdc28633a", "translation" => "Hassi Fehal" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
+            ["id" => "ada26d12-fbb5-4645-886e-0f937138a063", "translation" => "حاسي الفحل", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
+
             //languages
             ["id" => "843c5d5b-1ee2-4c58-b95a-6f76f532317e", "translation" => "english", "language_id" => "871d73c9-c65d-476a-97f0-929fff2707c3"],
             ["id" => "0302f4e4-50c4-442c-8332-a9f5ea13e9e1", "translation" => "anglais" , "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
@@ -14291,6 +20459,7 @@ class TranslationSeeder extends Seeder
             ["id" => "3c9dc9c3-40fa-4abb-9985-24f0506cdf86", "translation" => "Le cinéma Cosmos offre une expérience cinématographique unique au cœur de la ville. Doté d’une salle de projection moderne, il propose une programmation diversifiée, allant des films locaux aux productions internationales.", "language_id" => "0c5ba6c7-aa63-45f6-bc2b-abe7e0bcf27f"],
             ["id" => "76ffe7d9-d19d-4a21-a083-78bc1b880498", "translation" => "يقدم سينما كوزموس تجربة سينمائية فريدة في قلب المدينة. مزودًا بقاعة عرض حديثة، يقدم تشكيلة متنوعة من الأفلام، بدءًا من الأفلام المحلية وصولاً إلى الإنتاجات الدولية.", "language_id" => "29a02b6b-1e5e-4db9-bf25-ba362704fa73"],
             ];
+
         DB::table("translations")->insert($translations);
     }
 }

@@ -12,11 +12,14 @@ use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
 use Illuminate\Support\Facades\Auth;
 use Netsells\GeoScope\Traits\GeoScopeTrait;
+use Spatie\MediaLibrary\HasMedia;
+use Spatie\MediaLibrary\InteractsWithMedia;
 
-class Place extends Model
+class Place extends Model implements  HasMedia
 {
     use HasUuids;
     use GeoScopeTrait;
+    use InteractsWithMedia;
 
     public function translations(): MorphToMany {
         return $this->morphToMany(Translation::class, "translatable");

@@ -30,7 +30,8 @@ class PlaceResource extends JsonResource
             "comment_count" => $this->comments->count(),
             "liked" => $this->alreadyLiked(),
             "latitude" => $this->latitude,
-            "longitude" => $this->longitude
+            "longitude" => $this->longitude,
+            "media" => $this->getMedia()->toArray()
         ];
     }
 }
