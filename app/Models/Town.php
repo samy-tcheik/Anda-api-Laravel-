@@ -16,6 +16,10 @@ class Town extends Model
         return $this->morphToMany(Translation::class, "translatable");
     }
 
+    public function getTranslation(string $lang): string {
+        return $this->translations->where("language_id",$lang)->first()->translation;
+    }
+
     public function wilaya() {
         return $this->belongsTo(Wilaya::class, );
     }

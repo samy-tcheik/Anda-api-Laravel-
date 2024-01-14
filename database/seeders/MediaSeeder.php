@@ -15,12 +15,11 @@ class MediaSeeder extends Seeder
      */
     public function run(): void
     {
-        $places = Place::whereIn("id", ["0bfd96db-ceb8-417f-998f-4818c58e3a8c","423777f6-e3ac-4742-9235-14bf0896b1db","d979f84e-e17f-4177-aed8-df985aadac4c"])->get();
+        $places = Place::all();
         foreach ($places as $place) {
             // Get the path to the directory containing your media files
             $mediaDirectory = storage_path("app/images/{$place->id}");
             // Iterate through each product and associate media
-            $place = Place::find($place->id);
             // Get the list of media files in the directory
             $mediaFiles = File::allFiles($mediaDirectory);
             // Associate each media file with the product

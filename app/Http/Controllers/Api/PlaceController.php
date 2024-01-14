@@ -13,7 +13,6 @@ use App\Models\Rating;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\ResourceCollection;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\DB;
 use Spatie\QueryBuilder\AllowedFilter;
 use Spatie\QueryBuilder\QueryBuilder;
 
@@ -21,7 +20,7 @@ class PlaceController extends Controller
 {
     public function index(Request $request): ResourceCollection {
         $places = QueryBuilder::for(Place::class)
-            ->allowedFilters(["category_id", "town_id", AllowedFilter::custom("range", new RangeFilter)->ignore(null)])
+            ->allowedFilters(["category_id", "town_id",AllowedFilter::exact("wilaya_id", "town.wilaya.id"), AllowedFilter::custom("range", new RangeFilter)->ignore(null)])
             ->with( 'town.wilaya' )
             ->take($request->get("count"))
             ->paginate(10)->appends(\request()->query());
