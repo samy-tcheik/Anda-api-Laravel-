@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
+use App\Http\Filters\PlaceNameFilter;
 use App\Http\Filters\RangeFilter;
 use App\Http\Requests\Place\RatingRequest;
 use App\Http\Resources\Place\PlaceResource;
@@ -20,7 +21,11 @@ class PlaceController extends Controller
 {
     public function index(Request $request): ResourceCollection {
         $places = QueryBuilder::for(Place::class)
-            ->allowedFilters(["category_id", "town_id",AllowedFilter::exact("wilaya_id", "town.wilaya.id"), AllowedFilter::custom("range", new RangeFilter)->ignore(null)])
+            ->allowedFilters(["category_id",
+                "town_id",
+                AllowedFilter::exact("wilaya_id", "town.wilaya.id"),
+                AllowedFilter::custom("name", new PlaceNameFilter),
+                AllowedFilter::custom("range", new RangeFilter)->ignore(null)])
             ->with( 'town.wilaya' )
             ->take($request->get("count"))
             ->paginate(10)->appends(\request()->query());
