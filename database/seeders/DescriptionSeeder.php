@@ -1764,6 +1764,190 @@ class DescriptionSeeder extends Seeder
             ["id" => "4d444bc9-e6cc-4248-a59c-b6ed94049d49","place_id" => "26ef5bec-8a94-437c-9fc5-c55d97edf4a5"],
             ["id" => "1a0c937f-7134-4c51-a60a-d473302f18b9","place_id" => "bf53179a-77db-473a-a811-e47fca97dea6"],
             ["id" => "d974d767-01d0-4def-9e04-9081bfe9d2cf","place_id" => "70c5fec2-4afb-47e2-b39f-156d26205d47"],
+            ["id" => "1c1c3825-7683-451e-8117-1af9d78955db","place_id" => "1aefbefb-6d59-46d1-9a72-2596fe59b1b5"],
+            ["id" => "5c6208e1-c45c-4f0a-be91-a6c9c4784c9f","place_id" => "27d1164a-c41c-4661-9ca1-2aa39c1d7b54"],
+            ["id" => "26f56029-625c-4177-b0a8-a0f199e84bfc","place_id" => "36493762-358f-4c64-b74c-9836042d7536"],
+            ["id" => "9dafeb62-9f24-4a12-bdcd-d1975ad4aeae","place_id" => "775fd91c-a034-459f-899b-64fc1b24decb"],
+            ["id" => "f5bd0b1e-f79b-416b-a7b1-8b876c66570f","place_id" => "91889566-782d-4a36-a0a3-9dd0e841b337"],
+            ["id" => "d0d1d56c-d8f0-462f-8ea9-1afe382a3c72","place_id" => "a2aaf8b6-005f-45ec-9daf-3e978f6e7967"],
+            ["id" => "f495f373-7875-4053-8a94-05d86aaa272b","place_id" => "135e8855-6dbe-4ee0-a6b1-4c4207b9f366"],
+            ["id" => "f9bc4cfb-fc9c-4fac-bfe7-525e6796932b","place_id" => "a0eed1bf-5168-4829-955f-bcee43811971"],
+            ["id" => "102b598c-9213-4430-b104-cf2a40c1ed1e","place_id" => "151b3c8d-1b06-42e6-bfa9-44a198aa458b"],
+            ["id" => "76fdce3d-35a5-42a8-a46f-ca44e606d4ec","place_id" => "0629ae27-7f3b-4c5f-a7d2-18d8cbc386fb"],
+            ["id" => "b280d19b-9554-4414-a6cc-28d3127ceba8","place_id" => "6fa93012-f89f-489c-b950-02867c4d5e47"],
+            ["id" => "d61d61b7-d0e0-4bde-91de-afd46f0be552","place_id" => "363315b3-46b4-45c8-a608-42c1e982e131"],
+            ["id" => "d07b26ff-963e-46d6-91e6-a5e2c1ee1503","place_id" => "e5e521d2-a184-46ff-8878-42ba071004fb"],
+            ["id" => "13fed150-ef1f-4aa1-826f-4dda730f1628","place_id" => "95bbc8d8-f004-4d76-bad4-203ac22a36e0"],
+            ["id" => "583b8fb0-02bb-4512-a3e9-f1faabe0a390","place_id" => "883a3a63-481f-414a-9fb5-9dfd76ab0c3c"],
+            ["id" => "868cb04b-7fe9-4f4e-bcb3-31b9401b31cf","place_id" => "c6e25a82-cc81-4170-a5d1-732af4c27472"],
+            ["id" => "eafc5f07-3ed8-4a0e-a325-bcb9e12cc828","place_id" => "99663219-337c-409b-9b94-ee5e892033b5"],
+            ["id" => "2df327cd-ae21-458e-a279-78c69236ae5e","place_id" => "cf635b48-003f-4d59-ac7f-3ce39d612ec9"],
+            ["id" => "6360b969-f684-47be-a2f3-c78b7fcbe2e2","place_id" => "7a3da0a0-cd0a-4001-9ab3-6befdf132174"],
+            ["id" => "cf73ab54-e170-45f2-99a3-31020b845e93","place_id" => "3da3697b-022f-4bae-b0c1-f24fdd27fc48"],
+            ["id" => "dae709d9-cfcd-4903-9f79-5454de7ae7f8","place_id" => "ee22f53b-ef7a-4819-82fc-8e2e2811ba77"],
+            ["id" => "4755c91a-6237-420e-ba33-9e92cf605893","place_id" => "3f13661f-4896-413c-b884-e96949708462"],
+            ["id" => "ef4424f9-8499-4c41-9be2-20927cecfa27","place_id" => "2fbd23d7-0f76-4384-a763-fa21c10f9a5f"],
+            ["id" => "3a686360-0fb4-4970-b647-74977d2c468c","place_id" => "9723e10f-c89d-4678-9734-2b0cfe596565"],
+            ["id" => "527b4b93-a3cb-4f44-ab79-0885b3aea774","place_id" => "b314e477-c2ec-4173-a78d-2c2ebc7af653"],
+            ["id" => "6046d631-9ee7-4707-bc1c-590293d15f43","place_id" => "05b89592-a5b1-495f-b28e-15ea21aa22c8"],
+            ["id" => "7f380f49-f8e8-404a-838a-d83f92659957","place_id" => "40e24208-d4ae-4142-8873-4ffdd0ee952b"],
+            ["id" => "ce648509-6af7-40dd-8485-26bbe230e7a0","place_id" => "38e0d4d5-1739-4dd5-8aac-6e87d0d497f0"],
+            ["id" => "67ba2267-b909-472c-844c-edf3ef914b28","place_id" => "b3c5101a-2d4b-43c0-bccf-b5532dbc2f15"],
+            ["id" => "72896a66-b0b5-407a-a286-116723a6e0c4","place_id" => "1b1d0411-e81f-4f77-a73f-8c9f767246ae"],
+            ["id" => "9646bed2-0507-456d-88ac-0028d426c9b4","place_id" => "56b42841-5bf5-46e7-aac0-394431224155"],
+            ["id" => "78c76179-6acf-4292-9197-fa5e806368be","place_id" => "037a4fd1-9487-4cea-8aba-63e924cd5388"],
+            ["id" => "7361c141-170d-4503-8dc1-d6ad914c56a9","place_id" => "dd6684ca-3cf6-499e-82da-9cd3c2783a4b"],
+            ["id" => "3d2c8753-e5f5-4752-b85c-96a5f21d4a35","place_id" => "9e84fb3e-dad0-4a86-8649-bedbbad88d9e"],
+            ["id" => "1e4b8172-2ffc-466f-bb1f-87b046cecd2e","place_id" => "e6e9105f-7a7f-4986-a418-655bfd2e3386"],
+            ["id" => "b5a0f512-eb7f-4147-b5f5-17bb2009dc42","place_id" => "712e9b4f-7965-4370-b80c-cb1905701a78"],
+            ["id" => "c43046e6-e1cd-4982-9c56-ed46a279b507","place_id" => "89ddf02c-12cb-451c-9a1c-9523fd2e1cb9"],
+            ["id" => "0b84a1aa-dfb7-465e-8437-4f8e4144fa0d","place_id" => "de5c5d7a-405d-400b-afdd-92807bfb2040"],
+            ["id" => "b0bea938-ae80-452c-9703-caa9b7da5780","place_id" => "6a0260fd-2005-4342-b73e-b35c571509c5"],
+            ["id" => "afe7b59c-2679-4aa5-a6b6-332080ed8dea","place_id" => "5a479d78-cd8b-402e-b411-bcf54b07e720"],
+            ["id" => "0dbe44d6-e5b6-4c44-ad4c-be37a75f5631","place_id" => "3aa0b2bb-0791-4b98-9e6f-a2a38769a41b"],
+            ["id" => "f0c36f1f-2f4b-4705-afe2-de761ec2d8bc","place_id" => "423519ae-b2c0-4903-a887-3569dff6d8f6"],
+            ["id" => "d35658c2-2b25-4f61-bbda-8c66a33c1474","place_id" => "b9af09a4-873d-453f-87b8-55b3abdc6798"],
+            ["id" => "59842e1c-88be-4e56-b468-3d50335d3f32","place_id" => "25f68fa6-501e-4e32-bcc9-2fddfeb0c27f"],
+            ["id" => "191bea8d-5cb2-4ec7-bdf5-4ff50ac5590d","place_id" => "677e3a89-04b7-497a-9148-7f9623e357c8"],
+            ["id" => "9b828acf-c2cc-4075-9d09-8423df1176da","place_id" => "24006b0c-abc6-42d4-8ee3-bec4457a5a0c"],
+            ["id" => "ed13d3d7-fb31-4c71-bbcb-a594f6b10c82","place_id" => "dac9537a-d651-4640-a301-0683b88e2379"],
+            ["id" => "59b95e36-ac9a-4dd4-a174-17551f0ea3ae","place_id" => "1c69fa56-aaf0-4d6d-8790-3b13709c8d49"],
+            ["id" => "f43d47c1-7524-463d-95c7-1e17f2fff044","place_id" => "5087f337-51c3-4464-a729-e99058506ddc"],
+            ["id" => "b5b97783-6a87-4d59-afb3-b06907178bd7","place_id" => "a77f828c-ff03-4ce5-9c67-1b2ef5a4c94e"],
+            ["id" => "fb01a4ec-7034-4094-be21-52a4559fc936","place_id" => "22fd4185-a046-442f-8e9f-5200aac920e5"],
+            ["id" => "6005e7d9-dbe0-4f12-831a-7da54c94ba8b","place_id" => "8efa8018-e6c0-4618-8808-fb29fb75fe3f"],
+            ["id" => "13832319-7e8b-4ce0-a4fe-808005d973e2","place_id" => "54f1292a-5cac-49d1-bcad-31fdd82073ec"],
+            ["id" => "c624047b-d351-402c-bce6-b4460ab90742","place_id" => "81673f29-bea3-4aa2-8881-bc79c4f34534"],
+            ["id" => "72ef7fd5-8642-4412-b377-ad36ec36cde8","place_id" => "cfe1182a-d61a-4e6a-9869-117417fb268a"],
+            ["id" => "157cbb2c-363d-4319-9a68-1765bd8f09df","place_id" => "43b68980-ff29-4b2d-b41f-a613fdfedb2b"],
+            ["id" => "108d5ebf-a6e9-479c-a5cd-c4c8e56d7390","place_id" => "899ab58b-6c2b-48ef-ad8b-d1b165e52483"],
+            ["id" => "31fd4630-94e9-4fcf-b253-ce74bcbb08a7","place_id" => "a53ad815-b4ed-4c29-a552-3c99aab7c7d4"],
+            ["id" => "12ed858f-415f-4a76-acd0-77fadc052415","place_id" => "e4c9ea50-9244-4260-8eab-7239bada898e"],
+            ["id" => "65efbd57-00a2-45e9-82de-78a7fcef9bb4","place_id" => "a33a0ebb-7518-4574-932f-801b0962c376"],
+            ["id" => "cfdf13ed-771e-490e-89f5-42e45eb65c70","place_id" => "75e0e6da-f6ac-4a79-82be-c4483823007d"],
+            ["id" => "a59d22bd-2cfc-49e6-984a-9a19c04457d6","place_id" => "7b636e13-a7d5-4fbc-af04-c74be898155b"],
+            ["id" => "4b45ce5f-50e2-4a2b-9c9c-7aee0111b835","place_id" => "c8e49e2f-2084-43f5-97bd-7d15061fdd57"],
+            ["id" => "6027422a-52a0-4df0-8bb8-3c72b7bd9db5","place_id" => "bd02d21b-cead-4088-9fc1-8f4ef4962e38"],
+            ["id" => "5a5b09c7-bd00-4bec-9218-6f9c5d49659c","place_id" => "f4f0c00e-718d-46b8-898e-03a69b2de849"],
+            ["id" => "cdf023ac-6821-4aa9-8803-d4d9c19d227b","place_id" => "7f6c642d-bd6e-4270-976c-5120fe95c30d"],
+            ["id" => "0b08a510-800c-4393-933e-cd56578afb4b","place_id" => "59f49b8f-e433-4d84-873a-a435e7f7b972"],
+            ["id" => "823c9784-da8f-4fa1-8d27-b9b20ef394bb","place_id" => "062c4eb8-e185-4579-b519-c3adf43c1314"],
+            ["id" => "7de77274-2dd2-4000-a779-fe07f0c4eb31","place_id" => "5c20ae51-133a-4d49-80c1-f5a157762a70"],
+            ["id" => "ab9c6daa-94a3-47ac-a7f0-02b49605cae8","place_id" => "2da469af-68e5-43e4-9c55-05873eb097aa"],
+            ["id" => "61c66865-2c5a-4625-8078-0b976f42652f","place_id" => "3496f73b-1eae-4cbb-a774-76caace4a29f"],
+            ["id" => "6dc62a7b-f3b9-4167-8e94-22303d785fa3","place_id" => "eb05d5ad-e627-4694-be81-e0ebe4a99846"],
+            ["id" => "4902e445-3d03-4238-8ede-e538e87332af","place_id" => "8b98011b-5d95-4fa3-90d1-e2733dd79c2c"],
+            ["id" => "c484df05-f096-4dd1-852d-f9b8781d5cfd","place_id" => "2974f67d-0b2f-4b2f-9798-f757906ac496"],
+            ["id" => "ec29d5db-d922-4644-879f-963cd27f66f1","place_id" => "75b87c2c-6d7c-4b8f-8390-b74cb1f4bb9f"],
+            ["id" => "73c4db5a-427d-4b58-b25d-862b4e7d8c2e","place_id" => "420abb1a-7ee0-4310-b13b-7233b2d24baa"],
+            ["id" => "8237be6d-80b8-4ff0-82d1-43558bef94d2","place_id" => "039ebb4b-6c08-478c-afb8-349662823162"],
+            ["id" => "40cfe374-5303-40b2-b2ff-3642e5ce6697","place_id" => "1d09a98e-297d-42c7-be28-7b01fc55e7ea"],
+            ["id" => "ddcfdfc7-f26c-4913-b628-cbf3d006470e","place_id" => "538464da-7341-4c85-b7b6-5336b935467a"],
+            ["id" => "35450bf7-beb0-4eef-9f82-66ded363fdb7","place_id" => "d97e73ba-1ed4-4ac2-a648-599abdb5c3ee"],
+            ["id" => "0c527bfd-7a6d-4e1c-b05a-c6d0277fa9ca","place_id" => "1602800d-1afd-401b-a35f-f21b027faa6d"],
+            ["id" => "ecb96e99-324e-4a1e-bd83-94f750e9cef3","place_id" => "f0f436bc-f2ca-4e37-be0f-68c1b8665c91"],
+            ["id" => "4ba41267-b666-4129-942a-7a72b9c73152","place_id" => "21f974f8-82be-4e76-97b1-4df36ee98f7c"],
+            ["id" => "41fb27a7-a5d2-4307-ab7f-e47b4e9b115e","place_id" => "8084da10-ef87-4b65-a485-83cf5b9a18e4"],
+            ["id" => "d0095aa6-f514-4e97-8d99-f47631faaae3","place_id" => "403e2e0e-5c5d-44ba-b59b-309d8e3f0967"],
+            ["id" => "3241cf1c-846e-4b23-96ca-2ac124f3331f","place_id" => "e9c017be-ecb6-496d-8da6-14f03e4bbe1e"],
+            ["id" => "20fbcc5d-4c01-40eb-8a4d-233a5d2c8175","place_id" => "c4953a74-106d-43dd-bc45-78699c4b4c9f"],
+            ["id" => "5bda201f-462b-48bb-89c4-ee01bb049b18","place_id" => "7ddc54e4-b238-4227-8f0f-13c1b969361d"],
+            ["id" => "3057acd1-1410-407f-bec9-cc1519e641fc","place_id" => "c9ad1576-cfb3-47c9-9243-fcfe131acb9a"],
+            ["id" => "5dad00d8-14f7-45d2-93d8-73d979cbbf6e","place_id" => "7bf17012-30fc-4f0e-8192-c9f35cac7c88"],
+            ["id" => "edb2cc17-a7ea-407a-b939-56a4eb553bb1","place_id" => "03bb5fc5-f850-4798-a9ba-b5b678acb663"],
+            ["id" => "c778e64c-2a03-46d2-9224-5d2be37f980d","place_id" => "a7ad556f-f0db-4a33-a1cc-ac43baf6610e"],
+            ["id" => "4bfc90b9-6187-426b-af69-fcd7b2396afc","place_id" => "eb3ad8ca-6922-49a7-9ac1-2e12878b6e4d"],
+            ["id" => "0f4faadc-b13d-49ae-ad4e-019cae6d9b59","place_id" => "ab29fc62-2ac0-41f4-a5f6-0e0f4083b46f"],
+            ["id" => "96d3628b-1d3e-4dde-b68b-f7c7d1934af5","place_id" => "6aadcae4-49c4-4032-9e90-3bcac5eb3924"],
+            ["id" => "b8279095-a34d-4c6c-8ed5-e83e74244d5f","place_id" => "aa6afbd4-2b8e-4d1d-8e76-4ecb5c70debf"],
+            ["id" => "98aab726-007b-4aac-a6bc-4bad774d5e8b","place_id" => "47a51359-85bb-4fc2-bf23-8fbdde1cbf52"],
+            ["id" => "2dce59eb-114d-4805-9d41-a561f7f630b7","place_id" => "e2f730c4-20fb-42dc-9336-f8bcf830ffa4"],
+            ["id" => "8d806b16-82bf-4786-9830-ac07ae4db0c8","place_id" => "5a54de42-8e33-4e95-8e8a-560caa8fe38c"],
+            ["id" => "41e7d391-5a9b-4a58-b6df-418e0b6c061f","place_id" => "bc03586e-a644-49ea-a059-4570d3d61820"],
+            ["id" => "75299f71-57d9-4b95-bce5-8e904c2e0191","place_id" => "03b9980e-5388-47fe-8eb8-0ddc44187b23"],
+            ["id" => "ce284238-f674-43a9-ae37-f8a1fd4b8801","place_id" => "7ba883e8-127c-400b-ba6b-30f547ece6a7"],
+            ["id" => "d66a3d40-da58-44b9-882e-b76e148f8673","place_id" => "96b50e22-e43e-4e22-b1ab-1b0119241c79"],
+            ["id" => "42ede18e-a903-4d27-b571-32648e236813","place_id" => "6599735b-0831-4b91-a77d-e9867df8f39c"],
+            ["id" => "7b981339-6af2-4714-99b3-4b13615cbbee","place_id" => "a10aed27-c73f-47cf-b108-af3246dfe0ed"],
+            ["id" => "def7fe66-a368-4920-b3e5-cf42144325fe","place_id" => "5815850c-bbd2-4518-affd-19ba5e7969f3"],
+            ["id" => "aaec5667-e0f4-494d-836d-4fc98451637f","place_id" => "0bf54e0a-cc3f-4520-b547-cc6209c12295"],
+            ["id" => "95209096-88a4-41a0-8492-87e5190e34bb","place_id" => "2b3ed604-3674-4628-af07-93cfc8a35424"],
+            ["id" => "a5f8c7f3-cd8b-4002-90b2-6b8bb3bdf0b9","place_id" => "669a5745-00d8-42a8-9287-019332dfeca6"],
+            ["id" => "0e309c73-759c-48c3-8308-657d78c48589","place_id" => "7788365a-cc52-4928-b59e-f77c6d086b0f"],
+            ["id" => "5dcd80fa-9a17-44e8-b15f-c744c549cda6","place_id" => "b60e34a6-af9f-499c-b613-b08f38c4dd7d"],
+            ["id" => "e6ca0ade-cd5e-4e08-b20e-632727be0f02","place_id" => "c77d8505-3e02-4968-a704-40e87951c7b3"],
+            ["id" => "073ba7ce-f1bc-4bc5-a563-572152f3e12e","place_id" => "774e9910-b889-46d8-b5b4-18236b06f3ec"],
+            ["id" => "c5de7935-7945-44e0-931e-e8c920109089","place_id" => "4ade534e-a485-4eef-8297-46818cc26edd"],
+            ["id" => "762f3d94-2be3-469e-befe-4f000356db98","place_id" => "cb351ff8-8589-4a6e-8721-d6d92746d188"],
+            ["id" => "f82f78ff-253f-42ca-95fd-6be0f8fe2a8f","place_id" => "19f96b52-b9bb-4607-93c5-8533b27b44d8"],
+            ["id" => "ed6beb4b-72d6-4dd7-b147-f473597d59d6","place_id" => "4c5485e2-d0da-4f09-8ab0-0a04cfe1031c"],
+            ["id" => "65ad5fc6-a1d2-40da-a88b-1b9baf490dbc","place_id" => "801e4cb6-bf9c-4a4e-908e-d9669007ab06"],
+            ["id" => "ed901c09-7357-4396-b05d-c433d7a436e8","place_id" => "3a9a13fa-6ade-47a3-93ad-62118d192d3f"],
+            ["id" => "b1d1930d-1848-4b1a-bc58-23f269a5b86f","place_id" => "ac4d81c5-d99d-46f0-a918-698b21596a3f"],
+            ["id" => "0fd36d96-f31f-4d13-b7b5-4afeef888dec","place_id" => "560c26a6-af98-4657-b362-28854a6a3f41"],
+            ["id" => "209a3fea-e799-44ab-8e01-bf575670cef4","place_id" => "91cd8015-1ca9-4fcd-905a-00145f2b3a6e"],
+            ["id" => "fc4e5daf-3cbe-4b08-87cc-b390d83a3912","place_id" => "c2326346-42ac-4c20-98bd-cb0b1901a3dc"],
+            ["id" => "1de811b2-97a3-4f54-9ee5-5cfbcf6a102d","place_id" => "c84780c7-f07e-4d82-bfdc-261f3aa69105"],
+            ["id" => "1bd1c17c-8d2a-4fcf-a986-e07558a7a220","place_id" => "84ffe46f-6c2e-4b2e-a1f2-0093fe5cc00e"],
+            ["id" => "4825e70e-3a5d-481f-9f4b-4468ecb0bf25","place_id" => "e7e0e8de-1c63-4477-b2fd-c1ee3dc55957"],
+            ["id" => "1df27e80-b871-443f-a373-7de154b4d508","place_id" => "46eb9cbe-5d33-4386-b187-8903168262e7"],
+            ["id" => "846118e1-064f-4128-836f-10859c9f6462","place_id" => "3e0b9e1a-52d9-4722-8ad4-024fec2212bb"],
+            ["id" => "4a10f30c-11f5-487a-8b14-959fc390c8e4","place_id" => "26af4567-9b9b-4caa-a21c-30a905618f6b"],
+            ["id" => "343e6b6c-12c0-4425-bbb6-accb4bfcf0c7","place_id" => "fe876e9b-f33a-4418-ac70-f363fcc14770"],
+            ["id" => "c9a2d533-4986-477e-afdd-533f49ef0e83","place_id" => "2025d5e7-628d-465d-a960-4a0b6b93a30d"],
+            ["id" => "6a1e721d-2985-43e7-8be8-6e0de7934f91","place_id" => "86d97154-fc75-46aa-860f-bc86a572a255"],
+            ["id" => "200b2153-dc52-4655-9919-059fe90c4477","place_id" => "b17ac369-ff3b-4806-b7bd-d19def4a3877"],
+            ["id" => "ad1a05aa-7d59-4ea1-82f6-4fca89585805","place_id" => "1454f07b-e746-46aa-88bd-077db5773c5c"],
+            ["id" => "57ea44e1-e686-433b-9a65-4e45f023e76a","place_id" => "73ca7eac-566c-48fe-a254-c1a340a62b5c"],
+            ["id" => "90697b85-b386-470e-ba4c-5e7c59f06ed5","place_id" => "9c4373e3-1ebe-4cc3-b6b8-42cc35a1e235"],
+            ["id" => "72682fd1-51d2-4720-b881-ab2d5758eb91","place_id" => "c0186179-0640-4ac0-a654-a7341f03a26f"],
+            ["id" => "e7c149ee-3ace-416c-be07-8416a5a8b1f6","place_id" => "b9a77786-cf0e-4e4b-920e-d01c31468a22"],
+            ["id" => "91d3d98a-29f7-45ef-89ea-e7792c4c0d83","place_id" => "9ade3bf6-4fe2-45c1-aff1-001455518c13"],
+            ["id" => "89a6ed61-fa2e-4461-96a1-3c53668a5a72","place_id" => "e91aa2ec-6719-4378-aafa-e13d22c1ff90"],
+            ["id" => "c9818597-af28-44ed-a61d-9e81f9f832f7","place_id" => "5dac3aab-90d7-40d3-94df-e9918c6f9bcd"],
+            ["id" => "082ed978-4cc4-4298-899b-174caa7dfd6a","place_id" => "1ba9052f-a501-46cf-b428-a20ab1d83c31"],
+            ["id" => "7882318b-06fa-4f8d-9198-7d7dd9e4de9c","place_id" => "820654e8-44cb-4fed-94f1-bd4c16b98b56"],
+            ["id" => "1f336165-25bf-4d01-a249-8ea2eaef518b","place_id" => "d9c8e394-84f2-4e39-84c0-b92d915f4d8b"],
+            ["id" => "f9f169cf-072c-494b-b731-40b55a5b0f9f","place_id" => "6d3ee2b6-f9d8-4d61-b4b0-83ffafe1d088"],
+            ["id" => "cb50ad04-c0c9-4d1b-ac3d-418c2be3a379","place_id" => "7847f547-7b2c-462f-a70b-33138f8b20ec"],
+            ["id" => "f9d81f3c-ac7a-4f5e-9d83-6a9777fe85e9","place_id" => "a2a0de85-8245-4557-bd00-bd7ef5a30ce5"],
+            ["id" => "c7715cbb-4715-42d7-a5a8-804cb9c11869","place_id" => "15b89618-5297-4ee6-95a5-78ff7e763f0a"],
+            ["id" => "a2b34672-1577-4e33-953f-04db71715c8a","place_id" => "af312dd5-e929-4f64-865d-1e6805a21c1a"],
+            ["id" => "9abe8421-6ed7-44fe-b426-4237bc77fc68","place_id" => "a23e3442-746e-46c3-b7b4-0d58b914b740"],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         ];
         DB::table("descriptions")->insert($descriptions);

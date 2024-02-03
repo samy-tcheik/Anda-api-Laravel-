@@ -26,10 +26,17 @@ class UserController extends Controller
     {
         $request->validated();
         $user = Auth::user();
-        $avatar = $request->file("avatar");
+        if ($request->file("avatar")->isValid()) {
+            //Replace old avatar with new one
+            //remove old media
+            $user->clearMediaCollection();
+            //add new avatar
+            $user->addMediaFromRequest("avatar")->toMediaCollection();
+        }
+    /*    $avatar = $request->file("avatar");
         $path = $avatar->store("avatars", "public");
         $user->update(["avatar" => $path]);
-
+*/
         return UserResource::make($user);
     }
 
@@ -43,11 +50,6 @@ class UserController extends Controller
     public function show(): UserResource
     {
         $user = Auth::user();
-        if ($user->avatar) {
-            $user->avatar_url = asset('storage/' . $user->avatar);
-        } else {
-            $user->avatar_url = null;
-        }
         return UserResource::make($user);
     }
 

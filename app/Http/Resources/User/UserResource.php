@@ -17,7 +17,7 @@ class UserResource extends JsonResource
         return [
             "name" => $this->name,
             "email" => $this->email,
-            "avatar" => $this->avatar_url
+            "avatar" => $this->getMedia()->toArray()[0],
         ];
     }
 }
