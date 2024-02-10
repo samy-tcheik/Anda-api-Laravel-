@@ -6,8 +6,10 @@ use BenSampo\Enum\Enum;
 
 /**
  * @method static static ALREADY_LIKED_EXCEPTION()
+ * @method static static GOOGLE_LOGIN_FAILED_EXCEPTION()
  */
 final class ExceptionCode extends Enum
 {
     const ALREADY_LIKED_EXCEPTION = "User has already liked this element";
+    const GOOGLE_LOGIN_FAILED_EXCEPTION = "Google login failed";
 }

@@ -1,6 +1,7 @@
 <?php
 
-use App\Http\Controllers\Api\AuthController;
+use App\Http\Controllers\Api\Auth\AuthController;
+use App\Http\Controllers\Api\Auth\GoogleAuthController;
 use App\Http\Controllers\Api\CommentController;
 use App\Http\Controllers\Api\HistoryController;
 use App\Http\Controllers\Api\HomeController;
@@ -30,6 +31,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::post('/auth/register', [AuthController::class, 'register']);
 Route::post('/auth/login', [AuthController::class, 'login']);
+Route::post('/auth/google/login', GoogleAuthController::class);
 Route::get('auth/verify-email', [VerificationController::class, "verify"])->name('verify-email');
 
 
