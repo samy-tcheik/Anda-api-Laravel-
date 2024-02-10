@@ -28,10 +28,8 @@ class User extends Authenticatable implements MustVerifyEmail, HasMedia
     protected $fillable = [
         'name',
         'email',
-        'latitude',
-        'longitude',
         'password',
-        'avatar'
+        'auth_driver'
     ];
 
     /**

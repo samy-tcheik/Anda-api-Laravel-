@@ -17,8 +17,7 @@ class UserSeeder extends Seeder
             "id" => Str::uuid(),
             'name' => 'Root',
             'email' => 'root@root.com',
-            'latitude' => 36.76863235839,
-            'longitude' => 3.4969149588378334
+            'auth_driver' => 'app'
         ]);
     }
 }
