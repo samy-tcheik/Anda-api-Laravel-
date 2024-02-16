@@ -2,11 +2,14 @@
 
 namespace App\Http\Controllers\Api\Auth;
 
+use App\Enums\AuthPlugin;
 use App\Http\Controllers\Api\VerificationController;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Auth\LoginRequest;
 use App\Http\Requests\Auth\RegisterRequest;
 use App\Http\Resources\User\AuthUserResource;
+use App\Http\Responses\Auth\AuthFailedResponse;
+use App\Http\Responses\User\UserLoggedOutResponse;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
@@ -22,7 +25,7 @@ class AuthController extends Controller
     public function register(RegisterRequest $request)
     {
         $validated = $request->validated();
-
+        $validated["auth_driver"] = AuthPlugin::App;
         $user = new User($validated);
 
         VerificationController::emailVerification($user);
@@ -35,17 +38,13 @@ class AuthController extends Controller
     /**
      * Login The User
      * @param Request $request
-     * @return Response
      */
     public function login(LoginRequest $request)
     {
         try {
             $validateUser = $request->validated();
             if(!Auth::attempt($validateUser)){
-                return response()->json([
-                    'status' => false,
-                    'message' => 'Email & Password does not match with our record.',
-                ], 401);
+                return new AuthFailedResponse();
             }
 
             $user = User::where('email', $request->email)->first();
@@ -63,8 +62,6 @@ class AuthController extends Controller
 
     public function logout() {
         auth()->user()->tokens()->delete();
-        return [
-            'message' => 'user logged out'
-        ];
+        return new UserLoggedOutResponse();
     }
 }
