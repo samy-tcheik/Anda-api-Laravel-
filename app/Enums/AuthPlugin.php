@@ -9,7 +9,7 @@ use BenSampo\Enum\Enum;
  * @method static static Google()
  * @method static static App()
  */
-final class LoginPlugin extends Enum
+final class AuthPlugin extends Enum
 {
     const Facebook = "facebook";
     const Google = "google";

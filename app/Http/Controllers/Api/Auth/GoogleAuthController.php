@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Api\Auth;
 
-use App\Enums\LoginPlugin;
+use App\Enums\AuthPlugin;
 use App\Exceptions\GoogleLoginFailedException;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Auth\GoogleLoginRequest;
@@ -32,7 +32,7 @@ class GoogleAuthController extends Controller
                 "email" => $googleUser->email,
                 "name" => $googleUser->name,
                 "password" => $password,
-                "auth_driver" => LoginPlugin::Google()
+                "auth_driver" => AuthPlugin::Google()
             ]);
         }
         $user->email_verified_at = now();

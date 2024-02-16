@@ -1,7 +1,10 @@
 <?php
 
 use App\Http\Controllers\Api\Auth\AuthController;
+use App\Http\Controllers\Api\Auth\CodeCheckController;
+use App\Http\Controllers\Api\Auth\ForgetPasswordController;
 use App\Http\Controllers\Api\Auth\GoogleAuthController;
+use App\Http\Controllers\Api\Auth\ResetPasswordController;
 use App\Http\Controllers\Api\CommentController;
 use App\Http\Controllers\Api\HistoryController;
 use App\Http\Controllers\Api\HomeController;
@@ -33,6 +36,11 @@ Route::post('/auth/register', [AuthController::class, 'register']);
 Route::post('/auth/login', [AuthController::class, 'login']);
 Route::post('/auth/google/login', GoogleAuthController::class);
 Route::get('auth/verify-email', [VerificationController::class, "verify"])->name('verify-email');
+
+//reset password
+Route::post('auth/forget-password', ForgetPasswordController::class)->name("forget-password");
+Route::post("auth/code-check", CodeCheckController::class)->name("code-check");
+Route::post("auth/reset-password",ResetPasswordController::class)->name("reset-password");
 
 
 Route::middleware("auth:sanctum")->group(function () {
