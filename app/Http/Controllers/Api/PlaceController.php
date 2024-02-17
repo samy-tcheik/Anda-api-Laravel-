@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Http\Filters\PlaceNameFilter;
 use App\Http\Filters\RangeFilter;
 use App\Http\Requests\Place\RatingRequest;
+use App\Http\Resources\Place\PlaceDetailResource;
 use App\Http\Resources\Place\PlaceResource;
 use App\Http\Resources\Rating\RatingResource;
 use App\Http\Responses\Rating\RatingPlaceResponse;
@@ -57,7 +58,7 @@ class PlaceController extends Controller
         $longitude = $request->header("Location-longitude");
         $place = Place::addDistanceFromField($latitude,$longitude)->with("comments")->find($place_id);
         HistoryController::store($place);
-        return PlaceResource::make($place);
+        return PlaceDetailResource::make($place);
     }
 
     public function getRating(Place $place): RatingResource {

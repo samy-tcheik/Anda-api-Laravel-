@@ -14,14 +14,10 @@ class AuthUserResource extends JsonResource
      */
     public function toArray(Request $request): array
     {
-        //Get User model media
-        $media = $this->getMedia()->toArray();
-        $avatar = !empty($media) ? $media[0] : null;
-
         return [
             "name" => $this->name,
             "email" => $this->email,
-            "avatar" => $avatar,
+            "avatar" => $this->getFirstMediaUrl(),
             "auth_driver" => $this->auth_driver
         ];
     }

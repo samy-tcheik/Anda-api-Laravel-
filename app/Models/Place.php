@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -59,5 +60,8 @@ class Place extends Model implements  HasMedia
     public function alreadyLiked(): bool {
         $user = Auth::user();
         return $this->likes()->where("user_id", $user->id)->exists();
+    }
+    public function getRelevantComments(): Collection {
+        return $this->comments()->withCount("likes")->orderBy("likes_count", "desc")->take(3)->get();
     }
 }
