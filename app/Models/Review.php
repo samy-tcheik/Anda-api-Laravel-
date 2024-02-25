@@ -10,7 +10,7 @@ use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Support\Facades\Auth;
 
-class Comment extends Model
+class Review extends Model
 {
     use HasFactory;
     use HasUuids;
@@ -21,6 +21,7 @@ class Comment extends Model
      * @var array<int, string>
      */
     protected $fillable = [
+        'rating',
         'comment'
     ];
 
@@ -28,7 +29,7 @@ class Comment extends Model
         return $this->BelongsTo(Place::class, "commentable_id");
     }
 
-    public function commentable(): MorphTo {
+    public function reviewable(): MorphTo {
         return $this->morphTo();
     }
 
@@ -40,7 +41,7 @@ class Comment extends Model
         return $this->belongsTo(User::class);
     }
 
-    public function alreadyLiked(): bool {
+    public function isLiked(): bool {
         $user = Auth::user();
         return $this->likes()->where("user_id", $user->id)->exists();
     }

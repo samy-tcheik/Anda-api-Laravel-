@@ -1,20 +1,17 @@
 <?php
 
+namespace App\Http\Responses\Review;
 
-namespace App\Http\Responses\Rating;
-
-use Illuminate\Contracts\Support\Responsable;
 use Illuminate\Http\JsonResponse;
 
-
-class RatingPlaceResponse implements Responsable
+class AddReviewResponse
 {
 
     public function toResponse($request): JsonResponse
     {
         return new JsonResponse(
             data: [
-                "message" => "Rating added"
+                "message" => "Review added"
             ], status: 200
         );
     }

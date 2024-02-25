@@ -11,14 +11,14 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('ratings', function (Blueprint $table) {
+        Schema::create('reviews', function (Blueprint $table) {
             $table->uuid("id")->primary();
+            $table->longText("comment");
+            $table->tinyInteger("rating")->unsigned();
             $table->foreignUuid("user_id")->references("id")->on("users");
-            $table->foreignUuid("place_id")->references("id")->on("places");
-            $table->decimal("rating", 3,1)->unsigned();
+            $table->uuidMorphs("reviewable");
             $table->timestamps();
         });
-
     }
 
     /**
@@ -26,6 +26,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        //
+        Schema::dropIfExists('reviews');
     }
 };

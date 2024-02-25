@@ -2,7 +2,7 @@
 
 namespace App\Http\Resources\Place;
 
-use App\Http\Resources\Comment\CommentResource;
+use App\Http\Resources\Review\ReviewResource;
 use App\Http\Resources\Town\TownResource;
 use App\Http\Resources\Wilaya\WilayaResource;
 use App\Models\Language;
@@ -19,7 +19,6 @@ class PlaceDetailResource extends JsonResource
     public function toArray(Request $request): array
     {
         $langaugeId = Language::where("code", $request->header("Accept-Language"))->first()->id;
-
         return [
             "id" => $this->id,
             "name" => $this->getTranslation($langaugeId),
@@ -28,13 +27,14 @@ class PlaceDetailResource extends JsonResource
             "town" => TownResource::make($this->town),
             "wilaya" => WilayaResource::make($this->town->wilaya),
             "rating" => $this->getRating(),
-            "rating_count" => $this->ratings->count(),
-            "comment_count" => $this->comments->take(3),
-            "comments" => CommentResource::collection($this->getRelevantComments()),
-            "liked" => $this->alreadyLiked(),
+            "total_reviews" => $this->getTotalReviews(),
+            "review_count" => $this->reviews->count(),
+            "reviews" => ReviewResource::collection($this->getRelevantReviews()),
+            "reviewed" => $this->isReviewed(),
+            "liked" => $this->isLiked(),
             "latitude" => $this->latitude,
             "longitude" => $this->longitude,
-            "media" => $this->getMedia()->toArray()
+            "media" => $this->getMediaUrls(),
         ];
     }
 }

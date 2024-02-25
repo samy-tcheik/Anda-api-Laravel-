@@ -1,14 +1,13 @@
 <?php
 
-namespace App\Http\Resources\Comment;
+namespace App\Http\Resources\Review;
 
 use App\Http\Resources\User\UserResource;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
 
-class CommentResource extends JsonResource
+class ReviewResource extends JsonResource
 {
-
     /**
      * Transform the resource into an array.
      *
@@ -19,10 +18,11 @@ class CommentResource extends JsonResource
         return [
             "id" => $this->id,
             "comment" => $this->comment,
+            "rating" => $this->rating,
             "user" => UserResource::make($this->user),
             "created_at" => $this->created_at,
             "likes_count" => $this->likes()->count(),
-            "liked" => $this->alreadyLiked()
+            "liked" => $this->isLiked()
         ];
     }
 }

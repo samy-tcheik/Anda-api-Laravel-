@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers\Api;
 
-use App\Exceptions\AlreadyLikedException;
 use App\Http\Controllers\Controller;
 use App\Http\Enums\LikableType;
 use App\Http\Resources\Like\LikeResource;
@@ -27,15 +26,16 @@ class LikeController extends Controller
     }
 
     public function store($type, string $id) {
-        $model = LikableType::fromName($type)->value;
-        $record = $model::find($id);
+        $user = Auth::user();
+        $modelType = LikableType::fromName($type)->value;
+        $model = $modelType::find($id);
         // delete record if already exist
-        if ($record->alreadyLiked()) {
+        if ($model->isLiked()) {
                 return $this->delete($type,$id);
         }
         $like = new Like();
-        $like->user()->associate(Auth::user());
-        $record->likes()->save($like);
+        $like->user()->associate($user);
+        $model->likes()->save($like);
 
         return new AddLikeResponse();
     }

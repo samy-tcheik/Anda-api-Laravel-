@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Requests\Comment;
+namespace App\Http\Requests\Review;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class CommentRequest extends FormRequest
+class ReviewRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -22,7 +22,8 @@ class CommentRequest extends FormRequest
     public function rules(): array
     {
         return [
-            "comment" => ["required", "max:65536"]
+            "comment" => ["required","min:100", "max:65536"],
+            "rating" => ["required"]
         ];
     }
 }
