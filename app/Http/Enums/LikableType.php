@@ -2,13 +2,13 @@
 
 namespace App\Http\Enums;
 
-use App\Models\Comment;
 use App\Models\Place;
+use App\Models\Review;
 
 enum LikableType: string
 {
     case PLACE = Place::class;
-    case COMMENT = Comment::class;
+    case REVIEW = Review::class;
 
     public static function fromName(string $name) {
         return constant("self::$name");

@@ -27,22 +27,22 @@ class HomeController extends Controller
             ->take(5)->get();
 
         $mostRated = Place::addDistanceFromField($latitude,$longitude)
-            ->withAvg("ratings", "rating")
-            ->orderBy('ratings_avg_rating', 'desc')
+            ->withAvg("reviews", "rating")
+            ->orderBy('reviews_avg_rating', 'desc')
             ->take(5)->get();
 
         $mostPopular = Place::addDistanceFromField($latitude,$longitude)
-            ->with("histories","likes", "ratings","comments")
-            ->withCount("histories","likes","ratings", "comments")
-            ->orderBy(DB::raw("histories_count + likes_count + ratings_count + comments_count"), "desc")
+            ->with("histories","likes", "reviews")
+            ->withCount("histories","likes","reviews")
+            ->orderBy(DB::raw("histories_count + likes_count + reviews_count"), "desc")
             ->take(5)->get();
         $categories = Category::with("places")->get();
 
         foreach ($categories as $category) {
             $places = Place::where("category_id", $category->id)->withinDistanceOf($latitude,$longitude, 30)->addDistanceFromField($latitude,$longitude)
-                ->with("histories","likes", "ratings","comments")
-                ->withCount("histories","likes","ratings", "comments")
-                ->orderBy(DB::raw("histories_count + likes_count + ratings_count + comments_count"), "desc")
+                ->with("histories","likes", "reviews")
+                ->withCount("histories","likes","reviews")
+                ->orderBy(DB::raw("histories_count + likes_count + reviews_count "), "desc")
                 ->take(5)->get();
             $category->place = $places;
         }

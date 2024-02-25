@@ -5,10 +5,10 @@ use App\Http\Controllers\Api\Auth\CodeCheckController;
 use App\Http\Controllers\Api\Auth\ForgetPasswordController;
 use App\Http\Controllers\Api\Auth\GoogleAuthController;
 use App\Http\Controllers\Api\Auth\ResetPasswordController;
-use App\Http\Controllers\Api\CommentController;
 use App\Http\Controllers\Api\HistoryController;
 use App\Http\Controllers\Api\HomeController;
 use App\Http\Controllers\Api\LikeController;
+use App\Http\Controllers\Api\ReviewController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\UserController;
@@ -59,17 +59,16 @@ Route::middleware("auth:sanctum")->group(function () {
     Route::get("places/nearby", [PlaceController::class, "nearby"])->name("places.nearby");
     Route::get("places/home", HomeController::class)->name("places.home");
     Route::get("places/discover", [PlaceController::class, "discover"])->name("places.discover");
-    Route::post("places/{place}/rating", [PlaceController::class, "updateRating"])->name("place.rating-update");
-    Route::get("places/{place}/rating", [PlaceController::class, "getRating"])->name("place.get-rating");
     Route::apiResource("places", PlaceController::class);
     //categories
     Route::apiResource("categories", CategoryController::class);
-    //comments
-    Route::get("comments/{type}/{model}", [CommentController::class, "index"])->name("comments.index");
-    Route::post("comments/{type}/{model}", [CommentController::class, "store"])->name("comments.store");
-    Route::get("comments/{comment}", [CommentController::class, "show"])->name("comments.show");
-    Route::put("comments/{comment}", [CommentController::class, "update"])->name("comments.update");
-    Route::delete("comments/{comment}", [CommentController::class, "delete"])->name("comments.delete");
+
+    //reviews
+    Route::get("reviews/{type}/{model}", [ReviewController::class, "index"])->name("reviews.index");
+    Route::post("reviews/user/{type}/{model}", [ReviewController::class, "storeUserReview"])->name("reviews.storeUserReview");
+    Route::get("reviews/user/{type}/{model}", [ReviewController::class, "showUserReview"])->name("reviews.showUserReview");
+    Route::put("reviews/user/{type}/{model}", [ReviewController::class, "updateUserReview"])->name("reviews.updateUserReview");
+
     //likes
     Route::get("likes", [LikeController::class, "index"])->name("like.index");
     Route::post("likes/{type}/{model}", [LikeController::class, "store"])->name("likes.store");
