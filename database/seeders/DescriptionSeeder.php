@@ -2014,6 +2014,66 @@ class DescriptionSeeder extends Seeder
             ["id" => "2764d765-3bab-4c08-97fd-d585f5c7b7c3","place_id" => "40834325-266a-4397-9d15-a5b222db3676"],
             ["id" => "822d1d7d-b231-4ea1-8e01-b7b82aa232c2","place_id" => "f04eed93-6dc0-4aa7-9cb1-f9c5384fb8d0"],
             ["id" => "5ca8dafc-63f8-434e-be29-b356a946face","place_id" => "9c4aed4c-3740-4c44-aef3-daa40aa9cb73"],
+            ["id" => "51088926-5c7c-4df8-afe6-749ff4c95839","place_id" => "5aa456e1-9b65-4209-a790-c1471d226a5c"],
+            ["id" => "732c87a5-f31b-47a7-b1a8-d922ba83c544","place_id" => "f1dd5396-45fa-41d7-8958-b7d06293d70c"],
+            ["id" => "f7c9fc7c-7879-4fdb-b03c-a160a1a4fcce","place_id" => "b5c83c71-4226-4374-947d-d210a1b969bc"],
+            ["id" => "498c81e9-0c8a-4c89-aa7d-856ba32f5b01","place_id" => "8111e76e-f4d8-41f2-a286-312470cfb390"],
+            ["id" => "05b03e2b-c748-4ecf-b197-93e2ce4b248c","place_id" => "98281bc3-5578-4c90-9ddd-7c2fb6d58f1e"],
+            ["id" => "670d72a1-7109-41fb-b653-29b438cbf8d7","place_id" => "6342af74-333a-4432-b50f-6e85933e453e"],
+            ["id" => "da1e10e9-d9af-4202-896c-fd7d8ef677e1","place_id" => "b0fe0159-fda0-475d-b095-680121bfb7a3"],
+            ["id" => "f1a12d56-1991-42a1-a64e-840539ceb669","place_id" => "763df0a8-7548-4618-b3a5-98c87592387d"],
+            ["id" => "939db1a2-74af-404c-9961-dce47d9d6630","place_id" => "84359669-268a-457f-a8ab-a0af44575a90"],
+            ["id" => "530fb065-231d-46b2-8d61-a5d5ed583705","place_id" => "275ff871-0c9e-49c9-ae48-203f336be01f"],
+            ["id" => "a64ff970-5cd8-41bc-8bc4-67b5af9f6d34","place_id" => "555b833e-5eb3-4aed-87ca-a66b0c593c47"],
+            ["id" => "77ece187-1983-4741-8c43-308b461c4be4","place_id" => "2020652d-5d9d-4c0d-acba-d7f145a3469f"],
+            ["id" => "cd80ea40-abf1-4390-afa0-587819331c16","place_id" => "ba8e4baf-8274-4125-a7ce-3351226cec51"],
+            ["id" => "8c8b28e9-6cc6-4692-a9dd-517f9ab54b07","place_id" => "7555deda-133d-4207-81b9-3f3cd0faeb54"],
+            ["id" => "d9841f1d-0dc6-44cc-8abc-51ee9a990013","place_id" => "c75cc2e5-05a4-495c-9e94-19967b4765a8"],
+            ["id" => "fe1de276-8e74-4845-8ef1-fe964c85a03d","place_id" => "9e989415-656b-4d97-b1ea-c559ce8a809c"],
+            ["id" => "ca851945-0ac9-4fe4-a338-e8bebf9fe33d","place_id" => "44d8087f-3087-4524-9339-ff597ce6fcc3"],
+            ["id" => "18451598-7d6f-45b1-9bd3-db642d6cfd4b","place_id" => "21372cbc-6893-4158-924c-fe53770b8330"],
+            ["id" => "89facd29-66c2-4770-a249-1f74dce1f8f7","place_id" => "b925de46-35bf-437c-bcc5-84c913ab4f77"],
+            ["id" => "2aeaa544-4cf3-4ca9-a05f-f5c8505976c9","place_id" => "21a82d28-f7b3-4ed3-9a52-7e95fc3bd1bc"],
+            ["id" => "91a27fc8-ed01-4287-88f9-d6b43d873dbe","place_id" => "e411a8a8-4b4b-45a0-a0d0-1d8b0a5ff1c4"],
+            ["id" => "975c0fda-147f-410f-9aba-5ab7ef4afe77","place_id" => "c330a906-3e4c-42e7-b6a2-708cb59c81b6"],
+            ["id" => "dbdbb582-eda7-4df3-9a76-a88316fe1015","place_id" => "39a8ddd3-4eed-41cd-b0cf-7753e2dd3276"],
+            ["id" => "8f3a0cd2-bf71-4a9f-b047-38016d79cd5c","place_id" => "8ddc5e3e-b560-41d5-a377-a057af00f7e0"],
+            ["id" => "9cef879e-5db9-49ff-aafc-589215336ee2","place_id" => "4cf4c77a-e05e-4d39-a05a-9e07c4a91abe"],
+            ["id" => "09f94a3f-6fe8-4b35-89ee-803a8d30ce9c","place_id" => "989f8c41-01f1-43b3-a10e-4b33bd85ddb3"],
+            ["id" => "59d7db6d-4415-4413-be18-e13415574a0d","place_id" => "5d0d8b31-2405-45dd-bab5-a2abefbd7900"],
+            ["id" => "5c171346-94cb-4a93-9ba0-b2803717e1c3","place_id" => "27c9fd0b-0052-443d-89d3-4a53755ac98c"],
+            ["id" => "24b8e487-336a-47e8-aafe-1e196d6281eb","place_id" => "9f1a83d9-478a-45d4-956d-ad62c71662c6"],
+            ["id" => "68c2f5ab-83a3-4288-806b-f1d021379ae0","place_id" => "7670bd11-de20-4755-962f-8b89a1613850"],
+            ["id" => "65bc1a35-08d6-484b-955b-85b724f37521","place_id" => "65e69480-8dcd-4053-a023-fce98a9e189b"],
+            ["id" => "76ae6469-89b5-4073-a008-3811d631479a","place_id" => "953830e0-499d-4cde-a4c2-9ac749bdeaf9"],
+            ["id" => "12a4ae03-7034-4f8c-8f43-9b983ff9629d","place_id" => "9c70b870-079c-4a2d-a00b-d7010acb4d9d"],
+            ["id" => "a0335b6f-be38-4fc4-97ab-c75b95ade2a6","place_id" => "9e64a838-fd53-4d8a-a7cd-6349e5dae6f6"],
+            ["id" => "e3b8f585-87ed-4396-b102-73d290bb2aba","place_id" => "93e8521a-83c5-4f95-a775-0004b1f3880f"],
+            ["id" => "2efc2696-e64d-4d39-906f-572f0363cea5","place_id" => "02abfd3e-efb7-4584-bdc7-f2bb418133f5"],
+            ["id" => "4c55e3a2-bafa-4a11-9898-a5f340e22a84","place_id" => "30e3f84f-6e31-4198-8af6-1f63c3d6a6cd"],
+            ["id" => "ea148744-4397-4271-a8c8-22cf3a454082","place_id" => "747e6a3b-c7a9-4aca-8e14-d139c0647a3f"],
+            ["id" => "91a35a66-1c76-40bf-993a-d2eb0c4df20e","place_id" => "d864398b-47dc-4c91-adbd-fa6f41411e41"],
+            ["id" => "b3141874-9607-49bc-a56e-90e18a403e50","place_id" => "42b7be36-d542-4478-9a08-5f3c9ebd677a"],
+            ["id" => "4bc87a8c-fafe-4870-9d90-866e05ed15b7","place_id" => "44777866-c55d-4bef-9b69-ba378041949d"],
+            ["id" => "90ab07f8-50a7-4f38-b18b-d76436f16ca6","place_id" => "d15bcf51-d553-48fe-a135-09a458991c67"],
+            ["id" => "63ffd9f5-ff97-4094-8128-6aef3de23ce5","place_id" => "9d9e9dc8-6bc0-43c3-bc91-8a935487dbc7"],
+            ["id" => "5fbd7ede-ea5b-4258-8736-4954fb037d9a","place_id" => "526db3a5-a830-4b09-9081-84aecf4f868a"],
+            ["id" => "ef71dde2-a02c-474c-a9c7-e9049e72501c","place_id" => "27cadca8-ae22-4a3b-b5e8-a127142813b1"],
+            ["id" => "0b918bdd-7e1a-45de-826b-7d39e9531e08","place_id" => "2f7cf59f-f6c3-4942-ab60-d438c05e20d4"],
+            ["id" => "59e525fa-cd05-4514-86e5-0a549427baea","place_id" => "d976c6b1-3344-4afb-a265-aee4fca6d21b"],
+            ["id" => "bca0f989-7a6e-4903-bdc4-cadb01108a68","place_id" => "e4896bca-7040-436e-9396-0f4c3dd7ab7b"],
+            ["id" => "578f7a25-7f1a-4af7-9fa2-9cafa76d536a","place_id" => "85aaf5c2-fbb1-4226-b5ed-f8e7316f3d47"],
+            ["id" => "9bd52250-81a4-478c-914f-c3d3f5c78e43","place_id" => "cde6bec2-90cf-460d-8e77-9cd3a77b9b67"],
+
+
+            
+
+
+
+
+
+
+
 
 
 

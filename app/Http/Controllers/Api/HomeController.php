@@ -36,7 +36,7 @@ class HomeController extends Controller
             ->withCount("histories","likes","reviews")
             ->orderBy(DB::raw("histories_count + likes_count + reviews_count"), "desc")
             ->take(5)->get();
-        $categories = Category::with("places")->get();
+        $categories = Category::with("places")->inRandomOrder()->take(3)->get();
 
         foreach ($categories as $category) {
             $places = Place::where("category_id", $category->id)->withinDistanceOf($latitude,$longitude, 30)->addDistanceFromField($latitude,$longitude)
