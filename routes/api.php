@@ -43,7 +43,7 @@ Route::post("auth/code-check", CodeCheckController::class)->name("code-check");
 Route::post("auth/reset-password",ResetPasswordController::class)->name("reset-password");
 
 
-Route::middleware("auth:sanctum")->group(function () {
+Route::middleware(["auth:sanctum", "verified"])->group(function () {
     Route::post('/auth/logout', [AuthController::class, 'logout']);
     // users
     Route::patch("/user/update-position", [UserController::class, "updatePosition"]);

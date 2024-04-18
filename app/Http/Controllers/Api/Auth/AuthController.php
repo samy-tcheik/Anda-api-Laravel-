@@ -9,6 +9,7 @@ use App\Http\Requests\Auth\LoginRequest;
 use App\Http\Requests\Auth\RegisterRequest;
 use App\Http\Resources\User\AuthUserResource;
 use App\Http\Responses\Auth\AuthFailedResponse;
+use App\Http\Responses\Auth\EmailNotVerifiedResponse;
 use App\Http\Responses\User\UserLoggedOutResponse;
 use App\Models\User;
 use Illuminate\Http\Request;
@@ -48,6 +49,11 @@ class AuthController extends Controller
             }
 
             $user = User::where('email', $request->email)->first();
+
+            if (!$user->hasVerifiedEmail()) {
+                return new EmailNotVerifiedResponse();
+            }
+
             return response()->json([
                 'bearer' => $user->createToken("API TOKEN")->plainTextToken,
                 'user' => AuthUserResource::make($user)
