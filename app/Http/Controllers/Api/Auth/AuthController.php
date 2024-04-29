@@ -8,6 +8,7 @@ use App\Http\Controllers\Controller;
 use App\Http\Requests\Auth\LoginRequest;
 use App\Http\Requests\Auth\RegisterRequest;
 use App\Http\Resources\User\AuthUserResource;
+use App\Http\Resources\User\UserResource;
 use App\Http\Responses\Auth\AuthFailedResponse;
 use App\Http\Responses\Auth\EmailNotVerifiedResponse;
 use App\Http\Responses\User\UserLoggedOutResponse;
@@ -64,6 +65,10 @@ class AuthController extends Controller
                 'message' => $th->getMessage()
             ], 500);
         }
+    }
+
+    public function profile() {
+        return UserResource::make(auth()->user());
     }
 
     public function logout() {

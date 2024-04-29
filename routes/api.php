@@ -44,6 +44,7 @@ Route::post("auth/reset-password",ResetPasswordController::class)->name("reset-p
 
 
 Route::middleware(["auth:sanctum", "verified"])->group(function () {
+    Route::get('/auth/profile', [AuthController::class, 'profile']);
     Route::post('/auth/logout', [AuthController::class, 'logout']);
     // users
     Route::patch("/user/update-position", [UserController::class, "updatePosition"]);
