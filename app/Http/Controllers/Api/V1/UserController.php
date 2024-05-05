@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Api;
+namespace App\Http\Controllers\Api\V1;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\User\AvatarRequest;
@@ -10,7 +10,6 @@ use App\Http\Resources\User\UserResource;
 use App\Http\Responses\User\DeleteUserResponse;
 use App\Http\Responses\User\UpdatePositionResponse;
 use Illuminate\Support\Facades\Auth;
-use Intervention\Image\Facades\Image;
 
 class UserController extends Controller
 {

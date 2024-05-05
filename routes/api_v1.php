@@ -1,22 +1,23 @@
 <?php
 
-use App\Http\Controllers\Api\Auth\AuthController;
-use App\Http\Controllers\Api\Auth\CodeCheckController;
-use App\Http\Controllers\Api\Auth\ForgetPasswordController;
-use App\Http\Controllers\Api\Auth\GoogleAuthController;
-use App\Http\Controllers\Api\Auth\ResetPasswordController;
-use App\Http\Controllers\Api\HistoryController;
-use App\Http\Controllers\Api\HomeController;
-use App\Http\Controllers\Api\LikeController;
-use App\Http\Controllers\Api\ReviewController;
+use App\Http\Controllers\Api\V1\Auth\AuthController;
+use App\Http\Controllers\Api\V1\Auth\CodeCheckController;
+use App\Http\Controllers\Api\V1\Auth\ForgetPasswordController;
+use App\Http\Controllers\Api\V1\Auth\GoogleAuthController;
+use App\Http\Controllers\Api\V1\Auth\ResetPasswordController;
+use App\Http\Controllers\Api\V1\CategoryController;
+use App\Http\Controllers\Api\V1\HistoryController;
+use App\Http\Controllers\Api\V1\HomeController;
+use App\Http\Controllers\Api\V1\LikeController;
+use App\Http\Controllers\Api\V1\PlaceController;
+use App\Http\Controllers\Api\V1\ReviewController;
+use App\Http\Controllers\Api\V1\TownController;
+use App\Http\Controllers\Api\V1\UserController;
+use App\Http\Controllers\Api\V1\VerificationController;
+use App\Http\Controllers\Api\V1\WilayaController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Api\UserController;
-use App\Http\Controllers\Api\VerificationController;
-use App\Http\Controllers\Api\PlaceController;
-use App\Http\Controllers\Api\CategoryController;
-use App\Http\Controllers\Api\WilayaController;
-use App\Http\Controllers\Api\TownController;
+
 /*
 |--------------------------------------------------------------------------
 | API Routes
