@@ -16,7 +16,7 @@ class HomeController extends Controller
         $latitude = $request->header("Location-latitude");
         $longitude = $request->header("Location-longitude");
 
-        $mostViewed = Place::addDistanceFromField($latitude,$longitude)
+        /*$mostViewed = Place::addDistanceFromField($latitude,$longitude)
             ->withCount("histories")
             ->orderBy('histories_count', 'desc')
             ->take(5)->get();
@@ -30,16 +30,24 @@ class HomeController extends Controller
             ->withAvg("reviews", "rating")
             ->orderBy('reviews_avg_rating', 'desc')
             ->take(5)->get();
+        */
 
         $mostPopular = Place::addDistanceFromField($latitude,$longitude)
             ->with("histories","likes", "reviews")
             ->withCount("histories","likes","reviews")
             ->orderBy(DB::raw("histories_count + likes_count + reviews_count"), "desc")
             ->take(5)->get();
+
+        $nearbyPlaces = Place::withinDistanceOf($latitude,$longitude, 30)->addDistanceFromField($latitude,$longitude)
+            ->with("histories","likes", "reviews")
+            ->withCount("histories","likes","reviews")
+            ->orderBy(DB::raw("histories_count + likes_count + reviews_count"), "desc")
+            ->take(5)->get();
+
         $categories = Category::with("places")->inRandomOrder()->take(3)->get();
 
         foreach ($categories as $category) {
-            $places = Place::where("category_id", $category->id)->withinDistanceOf($latitude,$longitude, 30)->addDistanceFromField($latitude,$longitude)
+            $places = Place::where("category_id", $category->id)->withinDistanceOf($latitude,$longitude, 200)->addDistanceFromField($latitude,$longitude)
                 ->with("histories","likes", "reviews")
                 ->withCount("histories","likes","reviews")
                 ->orderBy(DB::raw("histories_count + likes_count + reviews_count "), "desc")
@@ -50,10 +58,11 @@ class HomeController extends Controller
         return HomeResource::make(
             [
                 "explore" => [
+                    "nearby_places" => $nearbyPlaces,
                     "most_popular" => $mostPopular,
-                    "most_rated" => $mostRated,
-                    "most_liked" => $mostLiked ,
-                    "most_viewed" => $mostViewed,
+                    //"most_rated" => $mostRated,
+                    //"most_liked" => $mostLiked ,
+                    //"most_viewed" => $mostViewed,
                 ],
                 "nearby" => $categories,
             ]
