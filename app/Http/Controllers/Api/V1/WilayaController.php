@@ -10,8 +10,7 @@ use App\Models\Wilaya;
 class WilayaController extends Controller
 {
     public function index() {
-        $wilaya = Wilaya::all();
+        $wilaya = Wilaya::orderBy("name", "asc")->get();
         return WilayaResource::collection($wilaya);
     }
-
 }
