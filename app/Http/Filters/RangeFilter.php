@@ -6,12 +6,17 @@ use Spatie\QueryBuilder\Filters\Filter;
 
 class RangeFilter implements Filter
     {
+        protected $latitude;
+        protected $longitude;
+
+        public function __construct($latitude, $longitude)
+        {
+            $this->latitude = $latitude;
+            $this->longitude = $longitude;
+        }
+
         public function __invoke(Builder $query, $value, string $property)
         {
-            if ($value["range"]) {
-                $query->withinDistanceOf($value["latitude"],$value["longitude"], $value["range"])->addDistanceFromField($value["latitude"],$value["longitude"]);
-            } else {
-                $query->addDistanceFromField($value["latitude"],$value["longitude"]);
-            }
+                $query->withinDistanceOf($this->latitude,$this->longitude, $value);
         }
 }

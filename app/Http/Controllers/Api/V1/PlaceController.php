@@ -16,12 +16,16 @@ use Spatie\QueryBuilder\QueryBuilder;
 class PlaceController extends Controller
 {
     public function index(Request $request): ResourceCollection {
+        $latitude = $request->header("Location-latitude");
+        $longitude = $request->header("Location-longitude");
         $places = QueryBuilder::for(Place::class)
             ->allowedFilters(["category_id",
                 "town_id",
                 AllowedFilter::exact("wilaya_id", "town.wilaya.id"),
                 AllowedFilter::custom("name", new PlaceNameFilter),
-                AllowedFilter::custom("range", new RangeFilter)->ignore(null)])
+                AllowedFilter::custom("range", new RangeFilter($latitude, $longitude))->ignore(null)
+            ])
+            ->addDistanceFromField($latitude,$longitude)
             ->with( 'town.wilaya' )
             ->take($request->get("count"))
             ->paginate(10)->appends(\request()->query());
