@@ -23,7 +23,7 @@ class PlaceController extends Controller
                 "town_id",
                 AllowedFilter::exact("wilaya_id", "town.wilaya.id"),
                 AllowedFilter::custom("name", new PlaceNameFilter),
-                AllowedFilter::custom("range", new RangeFilter($latitude, $longitude))->ignore(null)
+                AllowedFilter::custom("range", new RangeFilter($latitude, $longitude))->ignore([null, 0])
             ])
             ->addDistanceFromField($latitude,$longitude)
             ->with( 'town.wilaya' )
