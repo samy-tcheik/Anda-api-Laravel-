@@ -2,16 +2,16 @@
 
 namespace App\Http\Responses\Review;
 
+use Illuminate\Contracts\Support\Responsable;
 use Illuminate\Http\JsonResponse;
 
-class AddReviewResponse
+class DeleteReviewResponse implements Responsable
 {
-
-    public function toResponse($request): JsonResponse
+    public function toResponse($request)
     {
         return new JsonResponse(
             data: [
-                "message" => "Review added"
+                "message" => "Review deleted"
             ], status: 200
         );
     }

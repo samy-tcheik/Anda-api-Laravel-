@@ -3,10 +3,12 @@
 namespace App\Http\Controllers\Api\V1;
 
 use App\Exceptions\AlreadyReviewedException;
+use App\Exceptions\ReviewNotOwnedException;
 use App\Http\Controllers\Controller;
 use App\Http\Enums\ReviewableType;
 use App\Http\Requests\Review\ReviewRequest;
 use App\Http\Resources\Review\ReviewResource;
+use App\Http\Responses\Review\DeleteReviewResponse;
 use App\Models\Review;
 use Illuminate\Http\Resources\Json\ResourceCollection;
 use Illuminate\Support\Facades\Auth;
@@ -57,4 +59,12 @@ class ReviewController extends Controller
         return ReviewResource::make($review);
     }
 
+    public function deleteUserReview(Review $review) {
+        $user = Auth::user();
+        if (!$user->is($review->user)) {
+            throw new ReviewNotOwnedException();
+        }
+        $review->delete();
+        return new DeleteReviewResponse();
+    }
 }

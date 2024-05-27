@@ -70,6 +70,7 @@ Route::middleware(["auth:sanctum", "verified"])->group(function () {
     Route::post("reviews/user/{type}/{model}", [ReviewController::class, "storeUserReview"])->name("reviews.storeUserReview");
     Route::get("reviews/user/{type}/{model}", [ReviewController::class, "showUserReview"])->name("reviews.showUserReview");
     Route::put("reviews/user/{type}/{model}", [ReviewController::class, "updateUserReview"])->name("reviews.updateUserReview");
+    Route::delete("reviews/user/{review}", [ReviewController::class, "deleteUserReview"])->name("reviews.deleteUserReview");
 
     //likes
     Route::get("likes", [LikeController::class, "index"])->name("like.index");

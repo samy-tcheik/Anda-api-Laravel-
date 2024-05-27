@@ -22,7 +22,8 @@ class ReviewResource extends JsonResource
             "user" => UserResource::make($this->user),
             "created_at" => $this->created_at,
             "likes_count" => $this->likes()->count(),
-            "liked" => $this->isLiked()
+            "liked" => $this->isLiked(),
+            "owner" => $this->isOwner()
         ];
     }
 }

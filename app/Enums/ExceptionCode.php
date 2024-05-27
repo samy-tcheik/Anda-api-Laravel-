@@ -9,6 +9,7 @@ use BenSampo\Enum\Enum;
  * @method static static GOOGLE_LOGIN_FAILED_EXCEPTION()
  * @method static static ALREADY_REVIEWED_EXCEPTION()
  * @method static static EMAIL_NOT_VERIFIED_EXCEPTION()
+ * @method static static REVIEW_CANT_BE_DELETED()
  */
 final class ExceptionCode extends Enum
 {
@@ -16,4 +17,5 @@ final class ExceptionCode extends Enum
     const GOOGLE_LOGIN_FAILED_EXCEPTION = "Google login failed";
     const ALREADY_REVIEWED_EXCEPTION = "User has already reviewed this element";
     const EMAIL_NOT_VERIFIED_EXCEPTION = "Email address is not verified";
+    const REVIEW_CANT_BE_DELETED = "Review can't be deleted";
 }
