@@ -45,4 +45,9 @@ class Review extends Model
         $user = Auth::user();
         return $this->likes()->where("user_id", $user->id)->exists();
     }
+
+    public function isOwner(): bool {
+        $user = Auth::user();
+        return $user->is($this->user);
+    }
 }

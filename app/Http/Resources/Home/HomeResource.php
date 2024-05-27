@@ -17,7 +17,7 @@ class HomeResource extends JsonResource
     {
         return [
             "explore" => [
-                "nearby_places" => PlaceResource::collection($this["explore"]["nearby_places"]),
+                "nearby" => PlaceResource::collection($this["explore"]["nearby_places"]),
                 "most_popular" => PlaceResource::collection($this["explore"]["most_popular"]),
                 //"most_rated" => PlaceResource::collection($this["explore"]["most_rated"]),
                 //"most_liked" => PlaceResource::collection($this["explore"]["most_liked"]) ,
