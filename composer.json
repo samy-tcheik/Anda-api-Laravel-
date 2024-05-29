@@ -13,6 +13,7 @@
         "laravel/sanctum": "^3.3",
         "laravel/socialite": "^5.9",
         "laravel/tinker": "^2.8",
+        "mailersend/laravel-driver": "^2.6",
         "netsells/laravel-geoscope": "^2.0",
         "spatie/laravel-medialibrary": "^10.0.0",
         "spatie/laravel-query-builder": "^5.6"
