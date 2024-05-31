@@ -2,21 +2,22 @@
 
 return [
     "forget_password" => [
-        "title" => "Reset password",
-        "message_1" => "You are receiving this email because we have received a request to reset your account password. Please use the following code in your mobile app to reset your password:",
-        "message_2" => "If you have not requested a password reset, no further action is necessary."
+        "title" => "Password reset",
+        "message_1" => "We have received a request to reset the password associated with your account on our platform. Enter the following code to reset your password:",
+        "message_2" => "If you have not requested to reset your password, you can ignore this email, your current password will remain unchanged.",
     ],
     "verify" => [
-      "title" => "Please confirm your email",
-      "message_1" => "Thank you for registering with ANDA! To complete the
-                                        registration process and ensure the security of your
+        "title" => "Email confirmation",
+        "message_1" => "Your registration has been successfully received. To complete the
+                                        process and ensure the security of your
                                         account, please verify your email address by clicking
                                         the button below:",
-        "button" => "Confirm Your Email",
+        "button" => "Confirm your email",
         "need_help" => "Need help ?",
-        "message_2" => "Or verify using this link:"
+        "message_2" => "Or verify using this link:",
+        "message_3" => "We are delighted to welcome you to Anda.",
     ],
     "common" => [
-        "help_message" => "Please send feedback or bug information"
+        "help_message" => "If you encounter any issues while using the Anda app, please let us know.",
     ]
 ];
