@@ -26,7 +26,7 @@ class SendCodeResetPassword extends Mailable
     {
         return $this
             ->subject('Forget password request')
-            ->view('auth.forget-password')
+            ->view("emails.forget-password")
             ->with([
                 'user' => $this->user,
                 'code' => $this->code,
