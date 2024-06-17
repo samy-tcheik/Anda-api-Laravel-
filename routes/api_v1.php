@@ -15,6 +15,7 @@ use App\Http\Controllers\Api\V1\TownController;
 use App\Http\Controllers\Api\V1\UserController;
 use App\Http\Controllers\Api\V1\VerificationController;
 use App\Http\Controllers\Api\V1\WilayaController;
+use App\Http\Controllers\HTMLController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -42,7 +43,6 @@ Route::get('auth/verify-email', [VerificationController::class, "verify"])->name
 Route::post('auth/forget-password', ForgetPasswordController::class)->name("forget-password");
 Route::post("auth/code-check", CodeCheckController::class)->name("code-check");
 Route::post("auth/reset-password",ResetPasswordController::class)->name("reset-password");
-
 
 Route::middleware(["auth:sanctum", "verified"])->group(function () {
     Route::get('/auth/profile', [AuthController::class, 'profile']);
@@ -78,4 +78,8 @@ Route::middleware(["auth:sanctum", "verified"])->group(function () {
 
     //history
     Route::get("history", [HistoryController::class, "index"])->name("history.index");
+
+    //html files
+    Route::get("page/contact-us", [HTMLController::class, "contactUs"])->name("page.contactUs");
+    Route::get("page/privacy", [HTMLController::class, "privacy"])->name("page.privacy");
 });
