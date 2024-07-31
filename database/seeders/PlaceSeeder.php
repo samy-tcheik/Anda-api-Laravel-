@@ -1697,7 +1697,7 @@ class PlaceSeeder extends Seeder
             ["id" => "70917a3b-de92-41d6-b8d6-5ee0b90d0d4c", "name" => "statue_de_l_emir_abdelkader","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "826a1bb9-5553-4108-bf54-8710f565e188", "latitude" => 35.222315, "longitude" => -1.407298],
             ["id" => "4b1a49cd-8b37-4427-be2a-ba3fc0602b31", "name" => "jardin_petit_vichy","category_id" => "3fcf9bcb-440a-4f3e-9ac4-7e73befe4763","town_id" => "28467af0-b549-4349-8270-920d1fb8dd31", "latitude" => 35.376722, "longitude" => -0.965394],
             ["id" => "76220016-6fbc-442e-b368-f8a156b6fe6c", "name" => "jardin_public","category_id" => "3fcf9bcb-440a-4f3e-9ac4-7e73befe4763","town_id" => "28467af0-b549-4349-8270-920d1fb8dd31", "latitude" => 35.378976, "longitude" => -0.970516],
-            ["id" => "5ffe7465-8c0d-4f7b-bad7-df29f9d790c2", "name" => "mosquee_hamza_ibn_abd_elmoutalib","category_id" => "45bc9433-b0af-496d-849a-088d0b8bfe1d","town_id" => "28467af0-b549-4349-8270-920d1fb8dd31", "latitude" => 35.378899, "longitude" => -0.971271],
+            ["id" => "5ffe7465-8c0d-4f7b-bad7-df29f9d790c2", "name" => "ruines_de_tobna","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "afcc602f-18ee-44fc-94e4-a97f25f203cd", "latitude" => 35.347625, "longitude" => 5.351392],
             ["id" => "e663fa62-baa3-459c-9df6-266c79a10e67", "name" => "mairie_de_hammam_bouhadjar","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "28467af0-b549-4349-8270-920d1fb8dd31", "latitude" => 35.379440, "longitude" => -0.970033],
             ["id" => "1235124c-6392-4162-bd4f-581b0c2b7696", "name" => "le_memorial_du_martyr","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "c5bc0b3a-6803-486d-a054-1ab91cad3a23", "latitude" => 35.455202, "longitude" => -1.053322],
             ["id" => "d6d0a85e-5004-48a5-bd5b-01f872385439", "name" => "l_ancienne_eglise","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "c586e4ec-b115-4320-a996-4fea80e2d461", "latitude" => 35.407179, "longitude" => -0.881531],
@@ -1752,7 +1752,7 @@ class PlaceSeeder extends Seeder
             ["id" => "7d8008b3-40e9-46a0-93be-16fb2d26f680", "name" => "fortification_de_ghar_rouban","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "8b54ebd4-37ea-4a97-8c57-7167085998f8", "latitude" => 34.595385, "longitude" => -1.772454],
             ["id" => "9da59701-b566-41ac-88fb-7d6682af06e2", "name" => "barrage_de_beni_bahdel","category_id" => "d4afe57a-363a-46ac-af79-a3c1aa2fc9ab","town_id" => "53093205-ee38-417c-9b5a-ceef25d84ebb", "latitude" => 34.702190, "longitude" => -1.506124],
             ["id" => "343442f8-a850-4794-b2d8-c8c6c2088eca", "name" => "galerie_d_art","category_id" => "0e8007d0-4554-4878-8501-e4df04522b76","town_id" => "5a6032bb-effc-48d9-b329-a7eadb9d1677", "latitude" => 34.848961, "longitude" => -1.726930],
-            ["id" => "76424f3c-95bc-4058-924e-423156f9bbc9", "name" => "statue_de_la_reine_dihya","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "002f532f-bbdb-4fe9-af10-3fbaf3f0e66d", "latitude" => 35.522024, "longitude" => 7.114623],
+            ["id" => "76424f3c-95bc-4058-924e-423156f9bbc9", "name" => "statue_de_la_reine_dihya","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "2116ac8f-67a4-44de-bdc7-78ad615d952c", "latitude" => 35.522024, "longitude" => 7.114623],
             ["id" => "756a9a70-6d52-4585-96b0-2ac644442e17", "name" => "jardin_public","category_id" => "3fcf9bcb-440a-4f3e-9ac4-7e73befe4763","town_id" => "6fd1a8b9-a01c-464c-80bc-ddd99f0219aa", "latitude" => 35.590662, "longitude" => 0.064941],
             ["id" => "3160b1db-5404-4868-8aec-3bc18ca85407", "name" => "bab_boubarnos","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "5c64b1dc-5f85-4d6a-9284-dbbe9a1d9f76", "latitude" => 27.873795, "longitude" => -0.289057],
             ["id" => "b92bbb18-7f9e-4799-94e3-70d5926c6630", "name" => "jardin_boukhtouta_hocine","category_id" => "3fcf9bcb-440a-4f3e-9ac4-7e73befe4763","town_id" => "8f92d8b8-5bc2-4c9b-8cd8-1dab27349806", "latitude" => 36.898956, "longitude" => 7.754471],
@@ -2010,7 +2010,7 @@ class PlaceSeeder extends Seeder
             ["id" => "d6202d94-dc67-4d7f-8d71-918b1e945882", "name" => "foret_de_mechroha","category_id" => "d4afe57a-363a-46ac-af79-a3c1aa2fc9ab","town_id" => "bc2e8a0f-4270-418c-8672-38b13a9a38a2", "latitude" => 36.384081, "longitude" => 7.859826],
             ["id" => "11f6de94-46c2-488d-94ff-d0042f8f813e", "name" => "jardin_de_la_liberte","category_id" => "3fcf9bcb-440a-4f3e-9ac4-7e73befe4763","town_id" => "2b68b2e2-d39d-4e8d-b57f-0ae6a5d68be1", "latitude" => 33.680420, "longitude" => 1.020194],
             ["id" => "fb0dd919-1119-4f6d-b46b-c5d627f8a222", "name" => "barrage_bouhamdane","category_id" => "d4afe57a-363a-46ac-af79-a3c1aa2fc9ab","town_id" => "348c195f-c96c-4e6e-8403-e109a40dd431", "latitude" => 36.460042, "longitude" => 7.233701],
-            ["id" => "0c72c1e5-df0d-49c0-b3dc-a1e0fba1ba2a", "name" => "mosquee_el_safah","category_id" => "45bc9433-b0af-496d-849a-088d0b8bfe1d","town_id" => "8d98f9e5-2186-469a-95a1-571ae09d29f5", "latitude" => 33.804777, "longitude" => 2.881596],
+            ["id" => "0c72c1e5-df0d-49c0-b3dc-a1e0fba1ba2a", "name" => "jardin_el_baylek","category_id" => "3fcf9bcb-440a-4f3e-9ac4-7e73befe4763","town_id" => "8d98f9e5-2186-469a-95a1-571ae09d29f5", "latitude" => 33.806266, "longitude" => 2.881275],
             ["id" => "40834325-266a-4397-9d15-a5b222db3676", "name" => "theatre_regional","category_id" => "0e8007d0-4554-4878-8501-e4df04522b76","town_id" => "2087b8a1-c6c5-418b-8a57-f65eff86643c", "latitude" => 33.274490, "longitude" => -0.324789],
             ["id" => "f04eed93-6dc0-4aa7-9cb1-f9c5384fb8d0", "name" => "mosquee_ras","category_id" => "45bc9433-b0af-496d-849a-088d0b8bfe1d","town_id" => "572b0548-3299-4463-9a7f-77471f66d81c", "latitude" => 34.157417, "longitude" => 3.505513],
             ["id" => "9c4aed4c-3740-4c44-aef3-daa40aa9cb73", "name" => "club_de_plongee","category_id" => "edc5dea7-fb53-4176-ad54-ed8e95ac89f3","town_id" => "4d62f8d3-b760-49e6-bb10-8761162c484e", "latitude" => 36.575375, "longitude" => 2.053082],
@@ -2064,56 +2064,180 @@ class PlaceSeeder extends Seeder
             ["id" => "e4896bca-7040-436e-9396-0f4c3dd7ab7b", "name" => "foret_sen_lba","category_id" => "d4afe57a-363a-46ac-af79-a3c1aa2fc9ab","town_id" => "0b120e0f-012e-400f-9bdd-682eb5bb66bf", "latitude" => 34.657509, "longitude" => 3.181236],
             ["id" => "85aaf5c2-fbb1-4226-b5ed-f8e7316f3d47", "name" => "zaouia_sidi_ali_moussa","category_id" => "45bc9433-b0af-496d-849a-088d0b8bfe1d","town_id" => "f46e6faf-0e29-4650-9c98-e0fc592f3bfd", "latitude" => 36.592282, "longitude" => 3.999293],
             ["id" => "cde6bec2-90cf-460d-8e77-9cd3a77b9b67", "name" => "foret_el_okban","category_id" => "d4afe57a-363a-46ac-af79-a3c1aa2fc9ab","town_id" => "743011bc-e1d2-47a4-83d3-c0b4e1bffc5d", "latitude" => 34.818058, "longitude" => 0.156880],
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            ["id" => "f51ee50a-a4c9-4dbc-913e-846c90a3200e", "name" => "Parc Rabwa","category_id" => "3fcf9bcb-440a-4f3e-9ac4-7e73befe4763","town_id" => "c9960796-d32c-43c2-85d3-588e3ffbccc8", "latitude" => 36.592365, "longitude" => 2.467489],
+            ["id" => "4d2f0882-d80f-45b8-be4e-621034bdd1b8", "name" => "Lac Lemjen Lekkhal","category_id" => "d4afe57a-363a-46ac-af79-a3c1aa2fc9ab","town_id" => "b29c7c1f-2b53-490f-842a-c163ac69e781", "latitude" => 36.437897, "longitude" => 3.389677],
+            ["id" => "30e34d0b-1465-4c15-98e9-d565460b6e0a", "name" => "Palais Jorane","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "840a3539-864a-4ea3-87fa-1831334c5560", "latitude" => 35.761697, "longitude" => 1.250293],
+            ["id" => "8a9921c3-f7ed-45db-b1a0-b8211236a9db", "name" => "Musée lapidaire d'El Kantara","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "cec70a5a-8db0-4237-9344-12f8fd39da9b", "latitude" => 35.223969, "longitude" => 5.699747],
+            ["id" => "d3d04527-ccd3-409b-81d7-5637769ae0e2", "name" => "Casbah de Melouka","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "56713920-4080-4e11-afe4-93f3f68518a8", "latitude" => 27.872651, "longitude" => -0.341781],
+            ["id" => "26bb1188-ff2b-43ae-8658-128cafe956c5", "name" => "Tombeau de Abou Ishak El Tayar","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "39224baa-bd2e-4b0f-bf2e-1a9b0ee29567", "latitude" => 34.876756, "longitude" => -1.290132],
+            ["id" => "118441f4-e3e0-472a-aa62-e3ca7c01b431", "name" => "Le dôme de Sidi el Daoudi","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "39224baa-bd2e-4b0f-bf2e-1a9b0ee29567", "latitude" => 34.890796, "longitude" => -1.301768],
+            ["id" => "e9681cdc-e772-4b96-a5f6-d54424e5f661", "name" => "Mosquée Sidi Lahcene Rachedi","category_id" => "45bc9433-b0af-496d-849a-088d0b8bfe1d","town_id" => "39224baa-bd2e-4b0f-bf2e-1a9b0ee29567", "latitude" => 34.886968, "longitude" => -1.306044],
+            ["id" => "7b44593f-1ea4-4714-b295-9725f71506c2", "name" => "Mosquée de Sidi Brahim el Masmoudi","category_id" => "45bc9433-b0af-496d-849a-088d0b8bfe1d","town_id" => "39224baa-bd2e-4b0f-bf2e-1a9b0ee29567", "latitude" => 34.881531, "longitude" => -1.311134],
+            ["id" => "bbbbc99c-e1be-4bf5-8357-686eb35a19a6", "name" => "Mosquée ouled el imam","category_id" => "45bc9433-b0af-496d-849a-088d0b8bfe1d","town_id" => "39224baa-bd2e-4b0f-bf2e-1a9b0ee29567", "latitude" => 34.881231, "longitude" => -1.313128],
+            ["id" => "c6714d35-436a-429a-b13c-aa08e70ce70b", "name" => "Mosquée Hanafite","category_id" => "45bc9433-b0af-496d-849a-088d0b8bfe1d","town_id" => "b793798c-2967-42f3-a056-1daff0a5b5e9", "latitude" => 36.262051, "longitude" => 2.749932],
+            ["id" => "54aeac60-940f-4fbd-b008-121386bd75e2", "name" => "Djenane rahet Dey","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "5269abcf-ed38-4392-9f2b-3d7cff0690b6", "latitude" => 36.805536, "longitude" => 3.032773],
+            ["id" => "918f652d-b50b-45d1-b808-fe5527c894eb", "name" => "Villa du traité","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "5770e7b4-b096-47c8-843d-a7b59177bc45", "latitude" => 36.768323, "longitude" => 3.026357],
+            ["id" => "67a0256f-8fb0-4605-b856-e09a8e898d98", "name" => "Villa Sésini","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "4abcec8a-1b17-47c8-b320-20751673d075", "latitude" => 36.747328, "longitude" => 3.064691],
+            ["id" => "c8da0fb8-dd5d-40eb-bf0b-1b500f8a3801", "name" => "Origine de la proclamation du 1er Novembre","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "27ff1431-da1b-4ec2-a1ae-09ace9e5d030", "latitude" => 36.553271, "longitude" => 4.044364],
+            ["id" => "6381a843-388d-4d16-9720-c9823f0cc5af", "name" => "Grottes de Gueldaman","category_id" => "d4afe57a-363a-46ac-af79-a3c1aa2fc9ab","town_id" => "5f6f6a97-22b5-4cc7-bd9c-876c18f576c5", "latitude" => 36.445614, "longitude" => 4.568369],
+            ["id" => "d7b2e499-c2ef-4d77-89bb-c1034511b51c", "name" => "Thermes romains ","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "c991c9f9-0b61-4a8e-994d-ab6d0ed7acba", "latitude" => 36.419526, "longitude" => 5.988987],
+            ["id" => "9563f2c4-e42e-4ea9-bb9e-e0b10efc94a3", "name" => "Chambre de l’artisanat et des métiers","category_id" => "0e8007d0-4554-4878-8501-e4df04522b76","town_id" => "a8f208ef-9ea3-4ba4-b51b-f192714b25ad", "latitude" => 36.291809, "longitude" => 7.939733],
+            ["id" => "b0791cf3-2ca6-4308-b15b-2d3f3cdf1aa6", "name" => "Puit d'Aghlad","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "60a2391a-aac2-4b12-a569-16c8a99e1a43", "latitude" => 35.955103, "longitude" => 6.180074],
+            ["id" => "1f5dec08-e6ef-4ede-8e3e-f5affd8c5bd2", "name" => "Chutes d'Amazer","category_id" => "d4afe57a-363a-46ac-af79-a3c1aa2fc9ab","town_id" => "70cde68d-0172-4f3f-976b-aa14d4a84547", "latitude" => 36.541446, "longitude" => 5.238500],
+            ["id" => "b1076106-2394-4d97-aefd-de369e1a361f", "name" => "Lazer game","category_id" => "edc5dea7-fb53-4176-ad54-ed8e95ac89f3","town_id" => "3dc5bdc6-35ee-4579-b2d2-88b10915ea53", "latitude" => 35.751943, "longitude" =>  -0.528827],
+            ["id" => "32adfb7a-0ccb-4272-bc2f-22d37fef7c89", "name" => "Chutes de Raha","category_id" => "d4afe57a-363a-46ac-af79-a3c1aa2fc9ab","town_id" => "8605c30c-dfb8-4c20-b9c2-a71faaf8b668", "latitude" => 36.718013, "longitude" => 5.976119],
+            ["id" => "5597a6c7-7997-43b5-b349-728379725e87", "name" => "Para Dive Club","category_id" => "edc5dea7-fb53-4176-ad54-ed8e95ac89f3","town_id" => "5d566d34-a74c-4e62-90cd-0d513b7d1f9b", "latitude" => 35.303655, "longitude" => -1.465776],
+            ["id" => "3476b794-d7aa-4a66-a734-9094df0b646b", "name" => "Ghar Boumaâza","category_id" => "d4afe57a-363a-46ac-af79-a3c1aa2fc9ab","town_id" => "586b7941-b2d2-48e8-b04c-d36edb7d005b", "latitude" => 34.700014, "longitude" => -1.311667],
+            ["id" => "a925b203-21f0-4728-b58e-73999854cb51", "name" => "L'oasis Tilhegmine","category_id" => "d4afe57a-363a-46ac-af79-a3c1aa2fc9ab","town_id" => "79af9ef1-4aea-4e64-ad66-62aa863963e0", "latitude" => 26.220474, "longitude" => 3.537818],
+            ["id" => "63d6696c-6874-4e34-9355-1b646dc8b177", "name" => "Ancienne église d’Aïn el Berd","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "26d53930-a288-4abe-b6c8-60dee342f6f1", "latitude" => 35.361709, "longitude" => -0.513304],
+            ["id" => "2973a2e9-8221-4897-9ed8-abfe6f44b435", "name" => "Barrage de Chorfa","category_id" => "d4afe57a-363a-46ac-af79-a3c1aa2fc9ab","town_id" => "fad4b32f-259f-4d7f-afed-18e4960d0ed5", "latitude" => 35.404470, "longitude" => -0.254122],
+            ["id" => "8d8a6901-7565-491c-b3c8-6dc9e75f1aba", "name" => "Barrage Bouhanifia","category_id" => "d4afe57a-363a-46ac-af79-a3c1aa2fc9ab","town_id" => "a2510673-6094-4673-aad3-55fcfb66d62d", "latitude" => 35.289041, "longitude" => -0.080365],
+            ["id" => "805aba1e-faf3-4263-a2f0-d62e123fd31b", "name" => "Ain el Hamat","category_id" => "d4afe57a-363a-46ac-af79-a3c1aa2fc9ab","town_id" => "a2510673-6094-4673-aad3-55fcfb66d62d", "latitude" => 35.340160, "longitude" => -0.105142],
+            ["id" => "44df1da6-d9f7-4e1e-a42f-62f08c502458", "name" => "Ain Bent el Soltan","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "1776b007-20c8-4a27-963f-6ffe86a905c9", "latitude" => 35.402804, "longitude" => 0.135354],
+            ["id" => "a583bf28-9875-47d0-8ad9-60704708dfe4", "name" => "Aqueduc de Misserghin","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "ba6507ae-82d0-49b9-a231-f2ba06aa73b6", "latitude" => 35.599366, "longitude" => -0.792784],
+            ["id" => "f3c7fe4f-42a8-4076-81bc-9cd793803694", "name" => "Ksar Igli","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "999b0c00-bed4-4938-afc1-b799305486e0", "latitude" => 30.455638, "longitude" => -2.290763],
+            ["id" => "e91c4bf3-adaf-4ae7-a055-7e340aea2363", "name" => "Ksar Charouine","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "3d461991-fb80-4052-8267-b84fdc89a7b4", "latitude" => 29.020346, "longitude" => -0.216410],
+            ["id" => "b6f99911-50d2-41f0-8ec1-7a4099d47db5", "name" => "Ksar Tinekram","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "3d461991-fb80-4052-8267-b84fdc89a7b4", "latitude" => 29.007155, "longitude" => -0.233073],
+            ["id" => "c067f07f-fe04-4611-bccb-1ac098e17fdb", "name" => "Hassi Aqua","category_id" => "edc5dea7-fb53-4176-ad54-ed8e95ac89f3","town_id" => "f6411721-5316-45b5-a518-993cab88076b", "latitude" => 31.728916, "longitude" => 6.049537],
+            ["id" => "a273697b-5fed-4479-af88-049560ebc1b5", "name" => "Jardin ACOSCO","category_id" => "3fcf9bcb-440a-4f3e-9ac4-7e73befe4763","town_id" => "937dbf79-a79e-43e4-81dc-d6827d2b8b95", "latitude" => 28.041422, "longitude" => 9.591864],
+            ["id" => "a775e32e-0408-46dd-8b52-70554e0d31ca", "name" => "Jardin des rêves","category_id" => "edc5dea7-fb53-4176-ad54-ed8e95ac89f3","town_id" => "47266983-72a7-4d77-87f9-c2e692a35c05", "latitude" => 22.733606, "longitude" => 5.547745],
+            ["id" => "43b4d894-5055-4174-8d8c-040fd230df69", "name" => "Ksar el Wadi","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "594bfed4-ec4a-4429-af77-bbd244eead79", "latitude" => 26.710169, "longitude" => 0.225640],
+            ["id" => "b892b579-0088-48b2-ac78-9ca6d72fbd09", "name" => "Ksar Tazoult","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "26a87afa-e45e-422c-b3d4-bd49807b8384", "latitude" => 27.190778, "longitude" => -0.151591],
+            ["id" => "6684b226-b9fe-4942-913f-de4b8f5ef214", "name" => "Ksar Tmasekht","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "19f39275-7bed-4f15-96ca-836f7121fa4f", "latitude" => 27.355778, "longitude" => -0.227730],
+            ["id" => "c2c2be86-e508-48fc-8ba0-21642156df58", "name" => "Jardin public","category_id" => "3fcf9bcb-440a-4f3e-9ac4-7e73befe4763","town_id" => "5c64b1dc-5f85-4d6a-9284-dbbe9a1d9f76", "latitude" => 27.893776, "longitude" => -0.277270],
+            ["id" => "49f98c68-e4af-4625-a227-1807e8c326b3", "name" => "Jardin Emir Abdelkader","category_id" => "3fcf9bcb-440a-4f3e-9ac4-7e73befe4763","town_id" => "5c64b1dc-5f85-4d6a-9284-dbbe9a1d9f76", "latitude" => 27.870575, "longitude" => -0.292067],
+            ["id" => "f13b54ba-2417-41cc-8164-26b509a33492", "name" => "Mosquée Cheikh Belkabir","category_id" => "45bc9433-b0af-496d-849a-088d0b8bfe1d","town_id" => "5c64b1dc-5f85-4d6a-9284-dbbe9a1d9f76", "latitude" => 27.871854, "longitude" => -0.293377],
+            ["id" => "c211b633-5d83-435b-9e0f-1daa2960fb40", "name" => "Jardin Ajdel","category_id" => "3fcf9bcb-440a-4f3e-9ac4-7e73befe4763","town_id" => "5c64b1dc-5f85-4d6a-9284-dbbe9a1d9f76", "latitude" => 27.872525, "longitude" => -0.274432],
+            ["id" => "33dbcad3-1260-4c9a-a87c-f4d68078d3ae", "name" => "Jardin public","category_id" => "3fcf9bcb-440a-4f3e-9ac4-7e73befe4763","town_id" => "d03314c4-64ac-4f22-89c6-970b19111b0c", "latitude" => 30.128027, "longitude" => -2.173137],
+            ["id" => "9bdce396-3291-457f-9ebd-16e8332eba48", "name" => "Théâtre en plein air","category_id" => "0e8007d0-4554-4878-8501-e4df04522b76","town_id" => "d03314c4-64ac-4f22-89c6-970b19111b0c", "latitude" => 30.127472, "longitude" => -2.174032],
+            ["id" => "05886d71-1221-4dc1-9307-1694ace1b297", "name" => "Ksar Ouarourout","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "d03314c4-64ac-4f22-89c6-970b19111b0c", "latitude" => 30.126498, "longitude" => -2.172747],
+            ["id" => "8ccf61ad-3e9f-4acf-9f6a-db3cc1a34c3a", "name" => "Mosquée el Atik","category_id" => "45bc9433-b0af-496d-849a-088d0b8bfe1d","town_id" => "2b44c5a0-7eb0-4755-b3c3-5d4d794fac3d", "latitude" => 30.923172, "longitude" => -2.031375],
+            ["id" => "6b579c5e-b770-4eea-b084-56b171844857", "name" => "Mine abandonnée","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "4a8269d2-ca47-4464-94fd-4cdf827c6e34", "latitude" => 31.554622, "longitude" => -2.418591],
+            ["id" => "3696ca99-1af9-442e-90f8-878daf209090", "name" => "La montagne de sel","category_id" => "d4afe57a-363a-46ac-af79-a3c1aa2fc9ab","town_id" => "a5990750-f5db-4920-a0c5-210dfbc112c3", "latitude" => 32.986730, "longitude" => 0.418295],
+            ["id" => "3106aa24-50a7-4926-bacd-750786bbeec5", "name" => "Club équestre Les Palmiers d'Or","category_id" => "edc5dea7-fb53-4176-ad54-ed8e95ac89f3","town_id" => "d567ae46-afac-4473-8720-e9f12ec31468", "latitude" => 34.836313, "longitude" => 5.635859],
+            ["id" => "9773d1a3-f9f4-42a9-ae84-cd88a0f7237f", "name" => "Jardin 1er Novembre","category_id" => "3fcf9bcb-440a-4f3e-9ac4-7e73befe4763","town_id" => "9a83f02c-c4c4-4dfe-9d47-c9909b314e1d", "latitude" => 34.852259, "longitude" => 5.711352],
+            ["id" => "c1a1fbf1-f30d-4587-931d-c369e400295f", "name" => "Jardin 20 Août ","category_id" => "3fcf9bcb-440a-4f3e-9ac4-7e73befe4763","town_id" => "9a83f02c-c4c4-4dfe-9d47-c9909b314e1d", "latitude" => 34.854031, "longitude" => 5.730626],
+            ["id" => "24874c39-eaa1-44dd-be66-5199c758b96e", "name" => "Lac el jreb","category_id" => "d4afe57a-363a-46ac-af79-a3c1aa2fc9ab","town_id" => "9a83f02c-c4c4-4dfe-9d47-c9909b314e1d", "latitude" => 34.884084, "longitude" => 5.674846],
+            ["id" => "d6bc1e7c-00f7-4b63-ae8f-0fa580fc4312", "name" => "Les gorges de Tighanimine","category_id" => "d4afe57a-363a-46ac-af79-a3c1aa2fc9ab","town_id" => "249fa485-1e17-4333-8d63-c37b17b8b1ae", "latitude" => 35.160692, "longitude" => 6.239954],
+            ["id" => "42ebd67e-2aba-41e3-be8f-4ed0dea1c6a4", "name" => "Haut lieu du déclenchement de la révolution","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "09cab68f-c35f-48a6-b10c-49a29dad5ca0", "latitude" => 35.154657, "longitude" => 6.245161],
+            ["id" => "7df30899-27aa-4b11-b5d2-4628bc614302", "name" => "Monument aux Martyrs","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "55399df6-f6e5-4cfb-8e13-3e019ed87e6e", "latitude" => 35.078631, "longitude" => 6.290708],
+            ["id" => "68d8ba7b-fba0-4517-aa0a-f28951b6cf74", "name" => "Les gorges de Djemina","category_id" => "d4afe57a-363a-46ac-af79-a3c1aa2fc9ab","town_id" => "089f3da0-53a9-490c-9c38-066a5912b770", "latitude" => 34.955708, "longitude" => 6.402641],
+            ["id" => "1d86536b-9c39-42e7-a50d-da9f9914910e", "name" => "Les gorges de Tbermassin","category_id" => "d4afe57a-363a-46ac-af79-a3c1aa2fc9ab","town_id" => "089f3da0-53a9-490c-9c38-066a5912b770", "latitude" => 34.877580, "longitude" => 6.297775],
+            ["id" => "5b599f17-b34b-4d86-a73b-dffa2437b6bf", "name" => "Mosquée el Atik","category_id" => "45bc9433-b0af-496d-849a-088d0b8bfe1d","town_id" => "079f7d36-a80f-4c82-8d6b-aff0d5b8ab1e", "latitude" => 34.421350, "longitude" => 5.069795],
+            ["id" => "dfc09a08-2ab6-46ca-84b2-9866da9a6ab5", "name" => "Barrage Oued Mellag","category_id" => "d4afe57a-363a-46ac-af79-a3c1aa2fc9ab","town_id" => "e4fa2b52-6379-4e7b-a52b-0322305780f0", "latitude" => 35.972265, "longitude" => 7.994084],
+            ["id" => "f39e63f6-0c31-487e-8c51-529debce3630", "name" => "Barrage Oued Charef","category_id" => "d4afe57a-363a-46ac-af79-a3c1aa2fc9ab","town_id" => "b19718a5-4801-4146-820a-68d605ce78d4", "latitude" => 36.112655, "longitude" => 7.382565],
+            ["id" => "43498af4-40fc-4282-9cb4-79a7f74974e7", "name" => "Daddy park","category_id" => "edc5dea7-fb53-4176-ad54-ed8e95ac89f3","town_id" => "1a5adcaa-d2d6-4932-afb3-e2ce6f347944", "latitude" => 36.739134, "longitude" => 3.353989],
+            ["id" => "e6d18ea8-b625-4905-8f69-161debb9a6fe", "name" => "Club équestre el Qalaa","category_id" => "edc5dea7-fb53-4176-ad54-ed8e95ac89f3","town_id" => "2d399c5c-401a-46f8-aab3-acf70a856758", "latitude" => 36.656607, "longitude" => 2.783663],
+            ["id" => "38e05276-a519-45ec-a405-b6bc9edf4a32", "name" => "Ferme équestre Birtouta","category_id" => "edc5dea7-fb53-4176-ad54-ed8e95ac89f3","town_id" => "08cbc024-b93e-4734-8af2-e9c5de3646fb", "latitude" => 36.639492, "longitude" => 3.015988],
+            ["id" => "50c1ae09-3568-491d-8f57-700eec118a31", "name" => "Château Decrion","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "fb1ea6a4-f98f-42f3-b2b2-afd773471b01", "latitude" => 35.194023, "longitude" => -0.634850],
+            ["id" => "9ae98167-33af-4816-9e6c-589de3fc417c", "name" => "Site d'el Hasbahia","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "cb65e5a5-8102-4dfe-81e8-fe594f695498", "latitude" => 34.055794, "longitude" => 3.076977],
+            ["id" => "a9ab2594-ac2b-47ca-81f6-a4056804e885", "name" => "Mosquée el Atik","category_id" => "45bc9433-b0af-496d-849a-088d0b8bfe1d","town_id" => "f9ef681d-49ac-4b78-9cfb-bea6bf64e842", "latitude" => 36.070786, "longitude" => 4.765420],
+            ["id" => "ef2f54f7-6c29-4a05-b555-680f10c4cee4", "name" => "Gravures rupestres Oued Remallia","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "cb65e5a5-8102-4dfe-81e8-fe594f695498", "latitude" => 34.021464, "longitude" => 2.930941],
+            ["id" => "4c382bd3-b20c-4594-a798-a6fa50ac9fce", "name" => "Vieux Ksar","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "8d98f9e5-2186-469a-95a1-571ae09d29f5", "latitude" => 33.806836, "longitude" => 2.883828],
+            ["id" => "37fdb240-d163-4fc4-8e5f-bfb9da03b4bd", "name" => "Ksar Tadjemout","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "00e7fbfd-d1ac-449a-acbf-5260aac8660a", "latitude" => 33.876051, "longitude" => 2.525341],
+            ["id" => "1a03e9a0-cd24-4056-a19a-b39dac93cf4d", "name" => "Aquapark","category_id" => "edc5dea7-fb53-4176-ad54-ed8e95ac89f3","town_id" => "4f97103c-6b90-4b7c-a6ca-5cc8a16752da", "latitude" => 31.972170, "longitude" => 5.398718],
+            ["id" => "7ce2f0ff-1542-4b8e-9c94-81c4e2541fd4", "name" => "Site archéologique de Sedrata","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "7af25f58-f59f-4e59-b77b-db611f925b33", "latitude" => 31.787922, "longitude" => 5.321800],
+            ["id" => "1c1178b1-ce4a-4271-917a-281dd8f6179b", "name" => "Mosquée Abdelhamid Ben Badis","category_id" => "45bc9433-b0af-496d-849a-088d0b8bfe1d","town_id" => "cf3daeb4-f607-469d-9bcc-a77b02783dc7", "latitude" => 36.374518, "longitude" => 3.901163],
+            ["id" => "2fab0020-5e3a-463b-bb01-3e544fc99af1", "name" => "Mosquée el Atik","category_id" => "45bc9433-b0af-496d-849a-088d0b8bfe1d","town_id" => "c3f76524-c8a4-4f11-8d08-9be706b52e20", "latitude" => 33.106681, "longitude" => 6.067003],
+            ["id" => "9cc8c343-c415-4e7a-9cd8-bea9302771bc", "name" => "Village touristique","category_id" => "edc5dea7-fb53-4176-ad54-ed8e95ac89f3","town_id" => "4b628ecb-95f8-4fd0-b849-9a6a5cabbd67", "latitude" => 33.064417, "longitude" => 6.038110],
+            ["id" => "2a08fade-4834-488b-a7e6-c9436694f742", "name" => "Jardin 1er Novembre","category_id" => "3fcf9bcb-440a-4f3e-9ac4-7e73befe4763","town_id" => "27c041de-e684-4620-b32e-e42d27bcbda0", "latitude" => 33.534983, "longitude" => 5.989925],
+            ["id" => "fabca6fe-a2ff-4952-baed-c071ef1b5d13", "name" => "Arabisc jinan","category_id" => "3fcf9bcb-440a-4f3e-9ac4-7e73befe4763","town_id" => "4ae57c8a-cdf1-41f7-ab21-04e54a1dcf6d", "latitude" => 33.357452, "longitude" => 6.896241],
+            ["id" => "b17b0764-17d7-4650-b95f-c44ff7f6c7c5", "name" => "Club el Mordjane","category_id" => "edc5dea7-fb53-4176-ad54-ed8e95ac89f3","town_id" => "8b7639d3-a8a4-4cce-94de-ef3534e2d8d6", "latitude" => 36.799611, "longitude" => 2.900405],
+            ["id" => "ebdcb16b-279f-41b6-b429-51bc1656c305", "name" => "Mosquée el Atik","category_id" => "45bc9433-b0af-496d-849a-088d0b8bfe1d","town_id" => "4ae57c8a-cdf1-41f7-ab21-04e54a1dcf6d", "latitude" => 33.363472, "longitude" => 6.864493],
+            ["id" => "36ac93a4-eb18-44b0-bbfb-35a683780fad", "name" => "Piscine Serouti","category_id" => "3fcf9bcb-440a-4f3e-9ac4-7e73befe4763","town_id" => "4ae57c8a-cdf1-41f7-ab21-04e54a1dcf6d", "latitude" => 33.386967, "longitude" => 6.871234],
+            ["id" => "01bfc257-aae1-478d-bbf2-ec8d6d539fec", "name" => "Maison de la culture","category_id" => "0e8007d0-4554-4878-8501-e4df04522b76","town_id" => "4ae57c8a-cdf1-41f7-ab21-04e54a1dcf6d", "latitude" => 33.396613, "longitude" => 6.871246],
+            ["id" => "e3629ce4-8609-477f-8cfb-fb79460f90b0", "name" => "Mosquée el Atik","category_id" => "45bc9433-b0af-496d-849a-088d0b8bfe1d","town_id" => "1523d015-694d-4820-bc5d-48edde3f4271", "latitude" => 33.490127, "longitude" => 6.802438],
+            ["id" => "775cf742-93dc-4baf-a921-b7860f2bf4ff", "name" => "Perla Club","category_id" => "3fcf9bcb-440a-4f3e-9ac4-7e73befe4763","town_id" => "1523d015-694d-4820-bc5d-48edde3f4271", "latitude" => 33.495472, "longitude" => 6.822952],
+            ["id" => "32770f73-6ecb-4ba1-85f2-6fe296457f27", "name" => "Ksar Tinerkouk","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "256b18a8-78c4-4949-8058-13cf881a4cde", "latitude" => 29.705938, "longitude" => 0.728290],
+            ["id" => "5011db1d-0679-4aab-926e-2e030643f6dc", "name" => "Ksar Thala","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "335829a1-2d3e-40b9-93cb-4d4790321e5e", "latitude" => 29.309719, "longitude" => 0.143364],
+            ["id" => "0b40d588-eee3-414d-94a9-1bbdf7d990cd", "name" => "Ksar Taoursit","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "335829a1-2d3e-40b9-93cb-4d4790321e5e", "latitude" => 29.167787, "longitude" => 0.193748],
+            ["id" => "3d3e1afd-c29d-4a83-a54a-594f9cada9c7", "name" => "La grande mosquée","category_id" => "45bc9433-b0af-496d-849a-088d0b8bfe1d","town_id" => "e595494e-1997-41ae-b5e0-7b1ddc7a36ad", "latitude" => 35.729220, "longitude" => -0.707709],
+            ["id" => "8de58d38-b49b-424b-9748-7185dc5c6e87", "name" => "Mina's Pool","category_id" => "3fcf9bcb-440a-4f3e-9ac4-7e73befe4763","town_id" => "ccd4d0a9-c990-4f97-808e-a8c7150d4930", "latitude" => 36.651998, "longitude" => 3.005447],
+            ["id" => "47c451fb-9229-4f0c-8561-e00d2a85e74f", "name" => "Piscine privée","category_id" => "3fcf9bcb-440a-4f3e-9ac4-7e73befe4763","town_id" => "ccd4d0a9-c990-4f97-808e-a8c7150d4930", "latitude" => 36.670602, "longitude" => 3.005935],
+            ["id" => "0067e68b-c854-4237-9639-d0c1a6595799", "name" => "Mosquée de Okba ibn Nafaa","category_id" => "45bc9433-b0af-496d-849a-088d0b8bfe1d","town_id" => "50a932fb-b7ff-4100-aaba-ba91bbfbe646", "latitude" => 36.701487, "longitude" => 3.072561],
+            ["id" => "13c517d8-b956-4ee7-bb9d-25c8f1ae533c", "name" => "Jardin public","category_id" => "3fcf9bcb-440a-4f3e-9ac4-7e73befe4763","town_id" => "fb27a29b-6684-4646-b757-e0765cb9f65f", "latitude" => 36.715283, "longitude" => 3.049743],
+            ["id" => "2af8b8d7-8365-4679-a044-a01747ca160b", "name" => "Aida Gallery","category_id" => "0e8007d0-4554-4878-8501-e4df04522b76","town_id" => "e8420763-f17c-4dc5-9311-412790aabe33", "latitude" => 36.770327, "longitude" => 2.964935],
+            ["id" => "95e284ef-7a9c-4971-8205-f7cf8c0e2c15", "name" => "Spa L'O","category_id" => "3fcf9bcb-440a-4f3e-9ac4-7e73befe4763","town_id" => "e8420763-f17c-4dc5-9311-412790aabe33", "latitude" => 36.758866, "longitude" => 2.924136],
+            ["id" => "d45a34d2-6793-419c-b2ce-1e135c261467", "name" => "Mosquée Bachir el Ibrahimi","category_id" => "45bc9433-b0af-496d-849a-088d0b8bfe1d","town_id" => "6ed3b168-d09a-46be-a814-286d1c30f220", "latitude" => 35.353160, "longitude" => 1.334543],
+            ["id" => "9a56e743-0164-453a-be12-cff5c54dc889", "name" => "Mosquée el Islah","category_id" => "45bc9433-b0af-496d-849a-088d0b8bfe1d","town_id" => "7920def8-2159-4a7e-af06-e20f3983200e", "latitude" => 36.914977, "longitude" => 3.913706],
+            ["id" => "2ee1f75d-b2ca-4aad-9cfb-d24a7aaa792f", "name" => "Mosquée ibn Abdelmotaleb","category_id" => "45bc9433-b0af-496d-849a-088d0b8bfe1d","town_id" => "98b21f69-ed21-4634-bd0a-29938fc0b7cc", "latitude" => 35.221021, "longitude" => 4.179025],
+            ["id" => "137f449e-6068-4759-8e16-cbea64b71584", "name" => "Bab Dzaier","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "8d98f9e5-2186-469a-95a1-571ae09d29f5", "latitude" => 33.806342, "longitude" => 2.880244],
+            ["id" => "d227d01e-6a83-4b57-bd18-f2afe81e5df0", "name" => "Ksar Marhoun","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "8d98f9e5-2186-469a-95a1-571ae09d29f5", "latitude" => 33.863414, "longitude" => 2.742121],
+            ["id" => "36f99a01-34de-4729-a0df-d6e8fa38108b", "name" => "Musée Djoudour","category_id" => "0e8007d0-4554-4878-8501-e4df04522b76","town_id" => "00e7fbfd-d1ac-449a-acbf-5260aac8660a", "latitude" => 33.941830, "longitude" => 2.620101],
+            ["id" => "fc278083-6ff0-46b9-b9f2-fedb3d9440d6", "name" => "Ex centre de torture de Tiliouat","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "940dea91-82df-4526-938f-a37be2bd6828", "latitude" => 36.212583, "longitude" => 4.038944],
+            ["id" => "a30584ae-0ff9-4bb4-8a7c-018a6a50ac8c", "name" => "Monument aux Martyrs","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "da62fb57-9191-4634-a0fc-b3e4b1b13f91", "latitude" => 36.404262, "longitude" => 4.269100],
+            ["id" => "1cc28489-8427-44e7-b050-ba8f4ac12349", "name" => "Parc national du Djurdjura","category_id" => "d4afe57a-363a-46ac-af79-a3c1aa2fc9ab","town_id" => "bd9218d3-43f0-44cb-9631-06d131949ba6", "latitude" => 36.485784, "longitude" => 4.180942],
+            ["id" => "c171da6b-0f8d-4cb8-99bb-f2e60b9eab08", "name" => "Parc National Tikjda","category_id" => "d4afe57a-363a-46ac-af79-a3c1aa2fc9ab","town_id" => "28dc8f6c-131c-441e-92d5-ac57cf10f447", "latitude" => 36.418421, "longitude" => 4.020944],
+            ["id" => "e661af8c-cb13-497b-9735-d9a297a6c4d7", "name" => "Jardin el Badr","category_id" => "3fcf9bcb-440a-4f3e-9ac4-7e73befe4763","town_id" => "8348140b-34f5-4e02-bdf1-5e3838145d03", "latitude" => 36.532293, "longitude" => 3.678299],
+            ["id" => "77712a5b-5946-42d3-be0e-a12de5febe21", "name" => "Bibliothèque communale","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "b184fcbe-36c2-405e-8fe3-8ef13778f0b6", "latitude" => 36.713256, "longitude" => 3.211554],
+            ["id" => "93464c8a-3bd8-4c17-b34d-83f4dcbc6cbd", "name" => "Mosquée Abdelmoumen","category_id" => "45bc9433-b0af-496d-849a-088d0b8bfe1d","town_id" => "0cd24337-d240-4837-b8be-e1e395f22097", "latitude" => 36.666814, "longitude" => 3.146118],
+            ["id" => "db00c8f0-639c-4b16-8885-e5674ad23eeb", "name" => "Ancienne caserne militaire","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "4d3cb771-4365-42a5-a0a2-bba774383fce", "latitude" => 36.143001, "longitude" => 3.689780],
+            ["id" => "d49fc05b-8fa5-4fc3-b02a-db0844efabcd", "name" => "Mosquée el Atik","category_id" => "45bc9433-b0af-496d-849a-088d0b8bfe1d","town_id" => "4d3cb771-4365-42a5-a0a2-bba774383fce", "latitude" => 36.152160, "longitude" => 3.690834],
+            ["id" => "63e7ea74-db0c-48ea-8d22-e43f077b9f0b", "name" => "Aqueduc de Sour el Ghozlane","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "4d3cb771-4365-42a5-a0a2-bba774383fce", "latitude" => 36.146550, "longitude" => 3.673745],
+            ["id" => "9c1f49e4-ee5c-49c0-a1dc-22503400b96c", "name" => "Parc urbain","category_id" => "3fcf9bcb-440a-4f3e-9ac4-7e73befe4763","town_id" => "002f532f-bbdb-4fe9-af10-3fbaf3f0e66d", "latitude" => 35.452179, "longitude" => 7.111120],
+            ["id" => "96844f69-b7ca-4fb3-aa63-715d9f3cb330", "name" => "Mémorial du Martyr","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "e24ac030-f6a3-4654-b7d3-6b7b6090a7ff", "latitude" => 36.630788, "longitude" => 3.439193],
+            ["id" => "55dce50b-82cf-46ed-82b9-29d48f502e38", "name" => "Zaouia Belkaidia el Hebria","category_id" => "45bc9433-b0af-496d-849a-088d0b8bfe1d","town_id" => "fb27a29b-6684-4646-b757-e0765cb9f65f", "latitude" => 36.723076, "longitude" => 3.035286],
+            ["id" => "51002c84-15d8-4b51-b870-115359855c07", "name" => "Monument aux martyrs","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "ceb74cee-8032-4337-acc3-5eb601201810", "latitude" => 35.144441, "longitude" => 6.612752],
+            ["id" => "2a8dda22-66c0-4b3d-8edd-0aff00ae171b", "name" => "Muraille de la ville","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "2176293c-6308-4c97-86b0-f0b4384b852e", "latitude" => 36.508272, "longitude" => 1.310479],
+            ["id" => "832d9b2f-1065-45f3-80f1-5be2c00b471c", "name" => "Nécropole phénicienne","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "2176293c-6308-4c97-86b0-f0b4384b852e", "latitude" => 36.511482, "longitude" => 1.298690],
+            ["id" => "2da8cff3-e583-433f-9dd3-14ecc0dbd208", "name" => "Mosquée el Atik","category_id" => "45bc9433-b0af-496d-849a-088d0b8bfe1d","town_id" => "a8f208ef-9ea3-4ba4-b51b-f192714b25ad", "latitude" => 36.283776, "longitude" => 7.955551],
+            ["id" => "a85885d5-ad77-4623-bf0d-1b1c1e77dd54", "name" => "Musée du Moudjahid","category_id" => "0e8007d0-4554-4878-8501-e4df04522b76","town_id" => "a8f208ef-9ea3-4ba4-b51b-f192714b25ad", "latitude" => 36.286919, "longitude" => 7.967256],
+            ["id" => "f2ad98a0-139f-44a9-a5da-92d348184543", "name" => "Madjen Belahriti","category_id" => "d4afe57a-363a-46ac-af79-a3c1aa2fc9ab","town_id" => "0c9e6f6f-4972-4ca7-b497-e308599d0d68", "latitude" => 36.435822, "longitude" => 7.086220],
+            ["id" => "b639db75-de93-4941-98ec-baeca5d5f63c", "name" => "Théâtre en plein air","category_id" => "0e8007d0-4554-4878-8501-e4df04522b76","town_id" => "1a92f2a3-cdb8-4a7b-81f3-0eaeab979a6d", "latitude" => 36.321408, "longitude" => 6.618973],
+            ["id" => "b21a9d23-0f68-41dc-87c4-fe79f1427137", "name" => "Happy Kinder Parc","category_id" => "edc5dea7-fb53-4176-ad54-ed8e95ac89f3","town_id" => "61dbbaae-f4d8-4be6-bd2d-6dd351426706", "latitude" => 36.158355, "longitude" => 1.371050],
+            ["id" => "934afc63-57a5-48f6-8d3f-90130a6286c1", "name" => "Mosquée Abdelkader Dahnane","category_id" => "45bc9433-b0af-496d-849a-088d0b8bfe1d","town_id" => "61dbbaae-f4d8-4be6-bd2d-6dd351426706", "latitude" => 36.168628, "longitude" => 1.340438],
+            ["id" => "8430120c-e0fa-4375-83a2-5cbf336f6726", "name" => "Jardin Dounia","category_id" => "3fcf9bcb-440a-4f3e-9ac4-7e73befe4763","town_id" => "61dbbaae-f4d8-4be6-bd2d-6dd351426706", "latitude" => 36.168622, "longitude" => 1.339001],
+            ["id" => "134f14b1-1e3d-4fbe-8573-1725eb52559b", "name" => "La casbah de Mazouna","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "33c3dfc3-1851-4170-83e2-256aac48c3af", "latitude" => 36.123301, "longitude" => 0.898383],
+            ["id" => "aa2f5893-3995-4383-a7b3-6a1845d9dabe", "name" => "Medersa Fikkhiya","category_id" => "45bc9433-b0af-496d-849a-088d0b8bfe1d","town_id" => "33c3dfc3-1851-4170-83e2-256aac48c3af", "latitude" => 36.123061, "longitude" => 0.897281],
+            ["id" => "6aa61824-4674-44a2-ae4d-b0c672291fc7", "name" => "Grotte de Retaymia","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "4d826280-80cd-4f0a-854c-531cda200ca4", "latitude" => 35.930417, "longitude" => 0.870122],
+            ["id" => "7bfdd684-7bd3-415d-881b-d9e15a4f26be", "name" => "Musée de l'Emir Abdelkader","category_id" => "0e8007d0-4554-4878-8501-e4df04522b76","town_id" => "6fd1a8b9-a01c-464c-80bc-ddd99f0219aa", "latitude" => 35.593872, "longitude" => 0.072249],
+            ["id" => "d7250e86-0171-4ddd-acd4-0bf5c92d099f", "name" => "Barrage Fergoug","category_id" => "d4afe57a-363a-46ac-af79-a3c1aa2fc9ab","town_id" => "6fd1a8b9-a01c-464c-80bc-ddd99f0219aa", "latitude" => 35.521756, "longitude" => 0.045024],
+            ["id" => "d3dca00a-d339-43ed-975b-ff8a933f4e2d", "name" => "Barrage Sarno","category_id" => "d4afe57a-363a-46ac-af79-a3c1aa2fc9ab","town_id" => "863eba3e-5ab9-4e7e-a02f-296fba9173df", "latitude" => 35.298987, "longitude" => -0.580567],
+            ["id" => "8a68e262-03c5-456d-8f71-87d08b2d99ec", "name" => "île des Pisans","category_id" => "1842872d-c092-4e0c-918b-169815680997","town_id" => "228bbf9a-0c41-423c-9acb-b6733cb7aa02", "latitude" => 36.825073, "longitude" => 4.997217],
+            ["id" => "a09c3dd9-4434-4561-9576-82ed0320d2be", "name" => "Pic des Singes","category_id" => "1842872d-c092-4e0c-918b-169815680997","town_id" => "228bbf9a-0c41-423c-9acb-b6733cb7aa02", "latitude" => 36.769398, "longitude" => 5.095676],
+            ["id" => "9a95ef21-d596-483e-af1a-545f77d9e60b", "name" => "Mosquée Yahia Bouzekri","category_id" => "1842872d-c092-4e0c-918b-169815680997","town_id" => "72f097f2-2472-476d-9936-269852749c7d", "latitude" => 36.713346, "longitude" => 5.020668],
+            ["id" => "60cc3b8e-a2dd-44db-9e2d-56747a3f9d01", "name" => "île de Bordj Blida","category_id" => "1842872d-c092-4e0c-918b-169815680997","town_id" => "726b0fbc-e629-4e26-ab13-4a5c6e44ee01", "latitude" => 36.801554, "longitude" => 5.651580],
+            ["id" => "908e8157-cff6-4d5d-a7c0-832726ce8e55", "name" => "Oued Azaouan","category_id" => "1842872d-c092-4e0c-918b-169815680997","town_id" => "a8557b94-74ec-4582-ace4-79f629ec6370", "latitude" => 36.724615, "longitude" => 5.865589],
+            ["id" => "15471b97-b046-4fd0-9319-d02bb646c49c", "name" => "Aqueduc des Santons","category_id" => "1842872d-c092-4e0c-918b-169815680997","town_id" => "8f92d8b8-5bc2-4c9b-8cd8-1dab27349806", "latitude" => 36.903018, "longitude" => 7.758592],
+            ["id" => "56925582-4611-4c0f-a4cf-50a8afe682e7", "name" => "Mosquée el Qods","category_id" => "45bc9433-b0af-496d-849a-088d0b8bfe1d","town_id" => "907c93d5-f384-4c5a-9ffa-ec74b814fb0d", "latitude" => 36.746404, "longitude" => 3.041242],
+            ["id" => "f2554e7c-5036-4073-bd56-5acc1b2c3f96", "name" => "Galerie d'art Hala","category_id" => "0e8007d0-4554-4878-8501-e4df04522b76","town_id" => "2bbe1a90-c16c-43a1-af7e-f20ae2bb7704", "latitude" => 36.753458, "longitude" => 3.041203],
+            ["id" => "ad4f2257-d0e1-4de4-83e2-02b8c844c479", "name" => "Maison de la culture","category_id" => "0e8007d0-4554-4878-8501-e4df04522b76","town_id" => "2d399c5c-401a-46f8-aab3-acf70a856758", "latitude" => 36.640616, "longitude" => 2.764236],
+            ["id" => "06e2d151-adc1-4d8d-b3d2-8168849b2ff3", "name" => "Jardin Kissarly Djelloul","category_id" => "3fcf9bcb-440a-4f3e-9ac4-7e73befe4763","town_id" => "2d399c5c-401a-46f8-aab3-acf70a856758", "latitude" => 36.638623, "longitude" => 2.768301],
+            ["id" => "82b65685-8383-435a-adcf-3d30bc30f60f", "name" => "Théâtre régional","category_id" => "0e8007d0-4554-4878-8501-e4df04522b76","town_id" => "e7bf41d4-b572-4edb-a238-04352f7b1d64", "latitude" => 36.257944, "longitude" => 2.231611],
+            ["id" => "ca80707e-cd0c-414d-b6e2-648be87642e8", "name" => "Bordj Tarat","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "4f9e6db3-9664-4183-a2b3-363f86284dd2", "latitude" => 26.135684, "longitude" => 9.350241],
+            ["id" => "c7befa3e-de82-4c51-aedf-7ffae4e66b7e", "name" => "Barrage du Cheliff","category_id" => "d4afe57a-363a-46ac-af79-a3c1aa2fc9ab","town_id" => "4ebcca1d-cf27-4d19-9b5a-706e9ede46dc", "latitude" => 35.981849, "longitude" => 0.418419],
+            ["id" => "2914d8da-62e9-45ef-a466-757e61917cae", "name" => "Cascade el Djmel","category_id" => "d4afe57a-363a-46ac-af79-a3c1aa2fc9ab","town_id" => "98b21f69-ed21-4634-bd0a-29938fc0b7cc", "latitude" => 35.194726, "longitude" => 4.168915],
+            ["id" => "9418d4e1-bf82-4535-a2d7-272f457f67ed", "name" => "Zaouia Mokhtaria","category_id" => "45bc9433-b0af-496d-849a-088d0b8bfe1d","town_id" => "079f7d36-a80f-4c82-8d6b-aff0d5b8ab1e", "latitude" => 34.423947, "longitude" => 5.071262],
+            ["id" => "500809cf-523a-4293-8489-59558443ac2a", "name" => "Ruines de Tehouda","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "7a1cb449-3834-495b-bdda-ca268f74e405", "latitude" => 34.802209, "longitude" => 5.895131],
+            ["id" => "df17c8c9-1939-4b1c-a8dd-7839c01a7c05", "name" => "Piscine Al Sharq","category_id" => "3fcf9bcb-440a-4f3e-9ac4-7e73befe4763","town_id" => "cec70a5a-8db0-4237-9344-12f8fd39da9b", "latitude" => 35.229827, "longitude" => 5.703471],
+            ["id" => "ac8a15c4-2432-4e9e-af2b-5e1a2ecc7ced", "name" => "Statue de Okba Ibn Nafi","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "7a1cb449-3834-495b-bdda-ca268f74e405", "latitude" => 34.756062, "longitude" => 5.906996],
+            ["id" => "87453198-d7ec-4789-b39c-3e5bba6ab6ae", "name" => "Ancienne usine de plâtre","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "57d0d972-6fac-4fa6-b77b-b8ad0a5c2954", "latitude" => 36.357511, "longitude" => 2.773839],
+            ["id" => "02785dbf-07e2-48ee-8207-341763f4864c", "name" => "Fort el Mouadher","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "4276b5a9-ae8a-43d6-a7dd-8fad4cc2e48f", "latitude" => 36.881295, "longitude" => 6.925174],
+            ["id" => "0d83ca29-66e5-41b0-8a4f-322abfdeb659", "name" => "Chutes Ouled Sidi Mansour","category_id" => "d4afe57a-363a-46ac-af79-a3c1aa2fc9ab","town_id" => "2f7f955e-a07b-4198-a11a-0a09310c256b", "latitude" => 35.839127, "longitude" => 4.849230],
+            ["id" => "ae65d8b8-2f93-45ca-abbe-3dd2232233d2", "name" => "Ex centre de torture","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "df35f60b-def8-4d0e-9709-5d255ead7d7f", "latitude" => 36.099359, "longitude" => 1.196137],
+            ["id" => "78529002-a7f2-4438-ad17-e5a8bf9bb420", "name" => "Lac des Cèdres","category_id" => "d4afe57a-363a-46ac-af79-a3c1aa2fc9ab","town_id" => "eeb8c93d-5142-4473-b083-3804ea10ddb2", "latitude" => 35.871147, "longitude" => 1.946340],
+            ["id" => "f64e1aa3-40b2-4406-b2ef-f15ad85e78b8", "name" => "Djelfa Land","category_id" => "edc5dea7-fb53-4176-ad54-ed8e95ac89f3","town_id" => "0b120e0f-012e-400f-9bdd-682eb5bb66bf", "latitude" => 34.648943, "longitude" => 3.288096],
+            ["id" => "98d5272b-3243-4d9d-82d5-3e1cc82a642c", "name" => "Oued Zhor","category_id" => "d4afe57a-363a-46ac-af79-a3c1aa2fc9ab","town_id" => "43570763-648e-4f01-992d-28d51a506098", "latitude" => 36.907261, "longitude" => 6.321086],
+            ["id" => "a446a4bf-c83a-420d-bac1-24416b5fe721", "name" => "L’îlot de Tigzirt","category_id" => "1842872d-c092-4e0c-918b-169815680997","town_id" => "c08964e7-df1f-4ff4-8c32-58d70fe31bd1", "latitude" => 36.898212, "longitude" => 4.120902],
+            ["id" => "2a52bc1b-e298-43db-87d3-8aca4e347c24", "name" => "Plage el Bridj","category_id" => "1842872d-c092-4e0c-918b-169815680997","town_id" => "0281edd5-8d46-4f33-b0d7-5e03fd1286cb", "latitude" => 36.939579, "longitude" => 8.199800],
+            ["id" => "7b1eb170-bed3-4568-9844-7fc37b33522d", "name" => "Barrage Oued Beghla","category_id" => "d4afe57a-363a-46ac-af79-a3c1aa2fc9ab","town_id" => "3ce00d34-77d9-495e-afbe-088d4288b7e5", "latitude" => 36.301401, "longitude" => 6.531152],
+            ["id" => "75770116-d585-42d4-bed7-d3426118aca6", "name" => "Ksar el Alleg","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "a838c7ac-e804-4119-babc-1c4a81ca51c7", "latitude" => 35.095984, "longitude" => 4.268778],
+            ["id" => "aa5c9c81-5449-4afb-93b0-f047c4eb8632", "name" => "Plage Sahel","category_id" => "1842872d-c092-4e0c-918b-169815680997","town_id" => "42d4e467-c659-4768-b9eb-27527e5bd008", "latitude" => 36.896546, "longitude" => 6.163390],
+            ["id" => "b5c3d3b5-ca22-4622-bcc8-6c7e3f2e890b", "name" => "Ksar Mahidjiba","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "9fa9d42d-9c49-4881-be50-98877b39353e", "latitude" => 36.283295, "longitude" => 6.833540],
+            ["id" => "27935ea1-a256-45e7-8318-629519c1e6a8", "name" => "Plage Mechrah","category_id" => "1842872d-c092-4e0c-918b-169815680997","town_id" => "0281edd5-8d46-4f33-b0d7-5e03fd1286cb", "latitude" => 36.915894, "longitude" => 8.317449],
+            ["id" => "e8b8119e-6a33-43c5-8245-6b45f974e56f", "name" => "Plage Grablou","category_id" => "1842872d-c092-4e0c-918b-169815680997","town_id" => "b83b625c-a160-4b79-8993-3230c5fd0860", "latitude" => 36.950053, "longitude" => 6.664822],
+            ["id" => "f960ebe8-4322-480f-94ea-15dacb690fff", "name" => "Cascade de Oued Safsaf","category_id" => "d4afe57a-363a-46ac-af79-a3c1aa2fc9ab","town_id" => "e9b5e5e7-80af-494c-9ca7-abe03b7b1acd", "latitude" => 36.924986, "longitude" => 7.584253],
+            ["id" => "1b870e1c-73c1-4e88-8069-8526506d2291", "name" => "Jardin de l'indépendance","category_id" => "3fcf9bcb-440a-4f3e-9ac4-7e73befe4763","town_id" => "42ddb847-4285-4875-b366-1f3dca8fef87", "latitude" => 36.653571, "longitude" => 6.842903],
+            ["id" => "c710d664-58e1-4aa0-8ba1-0399e44b9d40", "name" => "Jardin de l'indépendance","category_id" => "3fcf9bcb-440a-4f3e-9ac4-7e73befe4763","town_id" => "b457f46f-a403-4f1e-8eac-cc9c0710b340", "latitude" => 36.765892, "longitude" => 3.476004],
+            ["id" => "8a42c53e-5127-481f-a179-21619042abb1", "name" => "Barrage romain","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "657031c4-d3c7-4d75-8024-4e2d839c743f", "latitude" => 36.626449, "longitude" => 6.872108],
+            ["id" => "e368b095-a32c-4846-a25b-e7ff00a09f8a", "name" => "Mosquée Sidi Idriss","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "2735d1d3-a5e5-4ea8-98fb-ff40381c75c3", "latitude" => 36.593921, "longitude" => 6.570973],
+            ["id" => "e877ebed-a33b-47da-b386-c09fecd442a4", "name" => "Citernes romaines","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "4276b5a9-ae8a-43d6-a7dd-8fad4cc2e48f", "latitude" => 36.879129, "longitude" => 6.901613],
+            ["id" => "09b13546-eea7-4388-95e2-adc28d35828e", "name" => "Bordj el Miksala","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "4276b5a9-ae8a-43d6-a7dd-8fad4cc2e48f", "latitude" => 36.871187, "longitude" => 6.919816],
+            ["id" => "a01aa3de-49d1-4323-b36c-fd313d909001", "name" => "Château Landon","category_id" => "b6c565ae-9ffc-4c56-90d6-6b8ed2357499","town_id" => "4276b5a9-ae8a-43d6-a7dd-8fad4cc2e48f", "latitude" => 36.876105, "longitude" => 6.936277],
 
 
 
             
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
