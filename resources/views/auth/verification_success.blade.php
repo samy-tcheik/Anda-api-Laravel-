@@ -172,7 +172,7 @@
                             color: #555;
                           "
                                     >
-                                        {{ __("emails.verify.title") }}
+                                        {{ __("email_verification.email_verified.title") }}
                                     </div>
                                 </td>
                             </tr>
@@ -195,64 +195,8 @@
                             color: #555;
                           "
                                     >
-                                        <img width="200px" src="{{ asset('/assets/anda_logo.png') }}" />
+                                        <img width="100px" src="{{ asset('/assets/success.png') }}" />
                                     </div>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td
-                                    align="center"
-                                    style="
-                          font-size: 0px;
-                          padding: 10px 25px;
-                          padding-top: 30px;
-                          padding-bottom: 40px;
-                          word-break: break-word;
-                        "
-                                >
-                                    <table
-                                        align="center"
-                                        border="0"
-                                        cellpadding="0"
-                                        cellspacing="0"
-                                        role="presentation"
-                                        style="border-collapse: separate; line-height: 100%"
-                                    >
-                                        <tr>
-                                            <td
-                                                align="center"
-                                                bgcolor="#1D3D7C"
-                                                role="presentation"
-                                                style="
-                                border: none;
-                                border-radius: 3px;
-                                color: #ffffff;
-                                cursor: auto;
-                                padding: 15px 25px;
-                              "
-                                                valign="middle"
-                                            >
-                                                <a
-                                                    href="{{$verificationLink}}"
-                                                    style="
-                                  background: #1d3d7c;
-                                  color: #ffffff;
-                                  font-family: 'Helvetica Neue', Arial,
-                                    sans-serif;
-                                  font-size: 15px;
-                                  font-weight: normal;
-                                  line-height: 120%;
-                                  margin: 0;
-                                  text-decoration: none;
-                                  text-transform: none;
-                                "
-                                                >
-                                                    {{__("emails.verify.button")}}
-                                                </a>
-                                            </td>
-                                        </tr>
-                                    </table>
                                 </td>
                             </tr>
 
@@ -275,7 +219,7 @@
                             color: #555;
                           "
                                     >
-                                        {{__("emails.verify.message_2")}}
+                                        {{__("email_verification.email_verified.message_1")}}
                                     </div>
                                 </td>
                             </tr>
@@ -299,11 +243,7 @@
                             color: #555;
                           "
                                     >
-                                        <a
-                                            href="{{$verificationLink}}"
-                                            style="color: #2f67f6"
-                                        >{{$verificationLink}}</a
-                                        >
+
                                     </div>
                                 </td>
                             </tr>
