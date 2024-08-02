@@ -10,6 +10,7 @@ use BenSampo\Enum\Enum;
  * @method static static ALREADY_REVIEWED_EXCEPTION()
  * @method static static EMAIL_NOT_VERIFIED_EXCEPTION()
  * @method static static REVIEW_CANT_BE_DELETED()
+ * @method static static GEOLOCATION_MISSING()
  */
 final class ExceptionCode extends Enum
 {
@@ -18,4 +19,5 @@ final class ExceptionCode extends Enum
     const ALREADY_REVIEWED_EXCEPTION = "User has already reviewed this element";
     const EMAIL_NOT_VERIFIED_EXCEPTION = "Email address is not verified";
     const REVIEW_CANT_BE_DELETED = "Review can't be deleted";
+    const GEOLOCATION_MISSING = "Geolocation data is missing";
 }
